@@ -1,0 +1,45 @@
+{% extends "includes/layout.njk" %}
+
+{% block breadcrumb %}
+  {% include "includes/_breadcrumb.njk" %}
+{% endblock %}
+
+{% block body %}
+
+<div class="govuk-width-container">
+
+  <div class="govuk-main-wrapper">
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <span class="govuk-caption-xl">Design</span>
+        <h1 class="govuk-heading-xl">{{ pageTitle }}</h1>
+      </div>
+    </div>
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-one-third govuk-sticky-element">
+        
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">Page contents:</h2>
+        
+        <ul class="govuk-list govuk-list--contents">
+          <li><a href="#levels-of-security-classification">Levels of security classification</a></li>
+          <li><a href="#how-to-label-information-in-defence">How to label information in Defence</a></li>
+          <li><a href="#classifying-large-amounts-of-data">Classifying large amounts of data</a></li>
+          <li><a href="#useful-links">Useful links</a></li>
+        </ul>
+
+      </div>
+
+      <div class="govuk-grid-column-two-thirds">
+        {% block bodyContent %}{% endblock %}
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock %}

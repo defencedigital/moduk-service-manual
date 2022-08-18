@@ -1,0 +1,80 @@
+{% from "govuk/components/header/macro.njk" import govukHeader %}
+{% from "govuk/components/footer/macro.njk" import govukFooter %}
+{% from "govuk/components/skip-link/macro.njk" import govukSkipLink %}
+{% from "govuk/components/phase-banner/macro.njk" import govukPhaseBanner %}
+{% from "govuk/components/breadcrumbs/macro.njk" import govukBreadcrumbs %}
+{% from "govuk/components/inset-text/macro.njk" import govukInsetText %}
+{% from "govuk/components/input/macro.njk" import govukInput %}
+{% from "govuk/components/button/macro.njk" import govukButton %}
+{% from "govuk/components/error-summary/macro.njk" import govukErrorSummary %}
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% if pageTitle %}{{ pageTitle }} - Defence Service Manual{% else %}Defence Service Manual{% endif %}</title>
+
+    {# Add home screen for Safari on iOS #}
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Defence Service Manual">
+
+    {# Search Engine #}
+    <meta name="description" content="{% if pageDescription %}{{pageDescription}}{% else %}Helping you meet service standards and do your role in Defence{% endif %}">
+
+    {# Android’s Chrome browser #}
+    <meta name="theme-color" content="#532a45">
+
+    {# Favicon #}
+    <link rel="icon" href="/images/favicon.svg">
+
+    {# Mask icon (Safari) #}
+    <link rel="mask-icon" href="/images/maskicon.svg" color="#532a45">
+
+    {# Apple touch icon #}
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+    {# Stylesheet #}
+    <link rel="stylesheet" href="/styles/main.css">
+
+  </head>
+
+  <body>
+
+    {# Progressive enhancement #}
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    {% include "includes/_header.njk" ignore missing %}
+
+    {% if phaseBanner != false %}
+    {% include "includes/_phase-banner.njk" ignore missing %}
+    {% endif %}
+
+    {# Breadcrumb #}
+    {% if breadcrumb != false %}
+    {% block breadcrumb %}{% endblock %}
+    {% endif %}
+
+    {# Outer body #}
+    {% block outerBody %}{% endblock %}
+
+    {% if pageLayout != "Homepage" %}
+      <main class="content" id="content">
+        {% block body %}{% endblock %}
+      </main>
+    {% endif %}
+
+
+    {% if feedback != false %}
+    {% include "includes/_feedback.njk" ignore missing %}
+    {% endif %}
+
+    {% include "includes/_footer.njk" ignore missing %}
+
+    {% block pageScripts %}{% endblock %}
+
+  </body>
+</html>

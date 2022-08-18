@@ -1,0 +1,76 @@
+{% set pageTitle = "Sign in" %}
+{% set pageDescription = "This is a prototype used for research." %}
+{% set phaseBanner = false %}
+{% set feedback = false %}
+
+{% extends "includes/layout.njk" %}
+
+{% block outerBody %}
+
+<div class="govuk-width-container">
+
+  <div class="govuk-main-wrapper">
+
+    <div class="govuk-grid-row">
+      
+      <div class="govuk-grid-column-two-thirds">
+
+        {# Form error summary #}
+        {% if (messages.error) %}
+          
+          {{ govukErrorSummary({
+            titleText: "There is a problem",
+            errorList: [
+              {
+                text: messages.error,
+                href: "#password"
+              }
+            ]
+          }) }}
+
+          {% set errorMessage = {
+            text: messages.error
+          } %}
+
+        {% endif %}
+       
+        <h1 class="govuk-heading-xl">Sign in</h1>
+
+        <p class="govuk-body-l">This is a prototype used for research.</p>
+
+        {{ govukInsetText({
+          text: "It is not a real service. You should only continue if you have been invited to test this prototype."
+        }) }}
+
+        <form method="POST" action="/signin">
+
+          <input type="hidden" id="email" name="email" value="service-manual@digital.mod.uk">
+
+          {{ govukInput({
+            label: {
+              text: "What is your password?"
+            },
+            classes: "govuk-input--width-20",
+            id: "password",
+            name: "password",
+            type: "password",
+            spellcheck: false,
+            errorMessage: errorMessage
+          }) }}
+
+          {{ govukButton({
+            text: "Sign in",
+            type: "submit"
+          }) }}
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock %}

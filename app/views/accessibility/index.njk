@@ -1,0 +1,92 @@
+{% set pageTitle = "Accessibility" %}
+{% set pageDescription = "" %}
+
+{% extends "includes/layout-two-thirds.njk" %}
+
+{% block bodyContent %}
+
+<div class="mod-prose">
+
+  <p>We need to build digital products and services that are easy for all users. This includes people who use technology to help them do things online, for example screen readers and magnifiers.</p>
+
+  <h2>Understand the environment</h2>
+
+  <p>People working in Defence have unique needs.</p>
+
+  <p>Consider people in the deployed space, for example military units working away from their permanent base. There are also many people in the operational space, supporting military operations and exercises.</p>
+
+  <p>These users may have issues such as:</p>
+
+  <ul>
+    <li>low to no 3G and 4G onboard ships</li>
+    <li>not being able to use 2-factor authentication</li>
+    <li>wearing restrictive kit, such as thick gloves</li>
+    <li>devices with limited battery power</li>
+  </ul>
+
+  <p>You also need to consider accessibility issues related to the battle environment, including:<p>
+
+  <ul>
+    <li>low light, red light or no light</li>
+    <li>very noisy environments or the need for silence</li>
+    <li>difficult outdoor conditions, such as wet screens</li>
+    <li>high-stress and high-risk scenarios</li>
+    <li>temperatures below freezing or extreme heat and sunlight</li>
+    <li>extreme fatigue</li>
+  </ul>
+
+  <p>Accessibility needs can be permanent, temporary or situational. This is particularly relevant in military settings.</p>
+
+  <h2>Meet the regulations</h2>
+
+  <p>To meet UK government accessibility regulations, digital products and services must:<p>
+
+  <ul>
+    <li>meet level AA of the <a href="#0">Web Content Accessibility Guidelines (WCAG 2.1)</a> as a minimum</li>
+    <li>work on the most commonly used assistive technologies, including screen magnifiers, screen readers and speech recognition tools</li>
+    <li>include people with disabilities in user research</li>
+    <li>have an accessibility statement that explains how accessible the service is</li>
+  </ul>
+
+  {{ govukInsetText({
+    text: "Anyone creating digital products or services for Defence, including third-party suppliers, must make sure they meet accessibility regulations."
+  }) }}
+
+  <p>Check the guidance on <a href="#0">understanding accessibility requirements for public sector bodies</a>.</p>
+
+  <h2>Your role in accessibility</h2>
+
+  <p>Every role in digital design and delivery plays a part in accessibility.</p>
+
+  <p>For example, for developers to build an accessible service the content needs to be designed to work with assistive technology.</p>
+
+  <p>Check how you can help with accessibility:</p>
+
+  <ul>
+    <li><a href="#0">Content Designers</a></li>
+    <li><a href="#0">Delivery Managers</a></li>
+    <li><a href="#0">Interaction Designers</a></li>
+    <li><a href="#0">Product Managers</a></li>
+    <li><a href="#0">User Researchers</a></li>
+  </ul>
+
+  <h2>Create an accessibility statement</h2>
+
+  <p>Since 2018, all public sector websites and applications must include an accessibility statement. It needs to be published before your product or service goes into public beta.</p>
+
+  <p>The statement needs to cover:</p>
+
+  <ul>
+    <li>whether your website or mobile app is ‘fully’, ‘partially’ or ‘not’ compliant with accessibility standards</li>
+    <li>if it’s not fully compliant, which parts do not meet accessibility standards and why. For example, because they are exempt or it would be a disproportionate burden to fix</li>
+    <li>how people can get alternatives to content that’s not accessible to them</li>
+    <li>how to contact you to report accessibility problems - and a link to the website that they can use if they’re not happy with your response</li>
+  </ul>
+
+  <p>You can use this <a href="#0">model accessibility statement</a>.</p>
+
+  <p>If you can, work with a content designer to make sure your statement is written in plain English.</p>
+
+</div>
+
+{% endblock %}
