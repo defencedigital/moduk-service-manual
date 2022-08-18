@@ -1,1 +1,1 @@
-web: node ./node_modules/gulp/bin/gulp sass && node app.js
+web: node ./node_modules/gulp/bin/gulp && node app.js

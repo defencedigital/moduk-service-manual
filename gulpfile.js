@@ -41,6 +41,10 @@ gulp.task('styles', () => {
 });
 
 
+// Default
+gulp.task('default', gulp.series('clean', gulp.parallel('styles')));
+
+
 // Watch for file changes, re-run the build task
 gulp.task('watch', function() {
   gulp.watch([configPaths.src + '**/**/*.scss'], gulp.parallel('styles'))
