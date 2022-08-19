@@ -1,10 +1,15 @@
-{{ govukFooter({
-  meta: {
-    items: [
-      {
-        href: "/get-in-touch",
-        text: "Get in touch"
-      }
-    ]
-  }
-}) }}
+{% if getInTouch != false %}
+  {{ govukFooter({
+    classes: "govuk-footer--has-feedback",
+    meta: {
+      items: [
+        {
+          href: "/get-in-touch",
+          text: "Get in touch"
+        }
+      ]
+    }
+  }) }}
+{% else %}
+  {{ govukFooter() }}
+{% endif %}

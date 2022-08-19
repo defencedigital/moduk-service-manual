@@ -134,7 +134,7 @@ $mod-brand-color: #512B45;
 }
 
 
-// GOV Footer
-.govuk-footer {
+// GOV Footer with feedback
+.govuk-footer--has-feedback {
   border-top: 10px solid $mod-brand-color;
 }
