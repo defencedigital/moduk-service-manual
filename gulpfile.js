@@ -3,7 +3,6 @@ const del = require('del');
 const sass = require('gulp-sass')(require('node-sass'))
 const sassGlob = require('gulp-sass-glob');
 const postcss = require('gulp-postcss');
-const nodemon = require('nodemon');
 const autoprefixer = require('autoprefixer');
 const rename = require('gulp-rename');
 const cleanCSS = require('gulp-clean-css');
@@ -13,7 +12,7 @@ const cleanCSS = require('gulp-clean-css');
 const configPaths = {
   app: 'app/',
   views: 'app/views/',
-  includes: 'app/views/includes/',
+  includes: 'app/views/partials/',
   layouts: 'app/views/layouts/',
   src: 'src/',
   public: 'public/',

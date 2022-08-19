@@ -12,7 +12,6 @@ const browserSync = require('browser-sync');
 const express = require('express');
 const app = express();
 const nunjucks = require('nunjucks');
-
 const passport = require('passport');
 const flash = require('express-flash');
 const session = require('express-session');
@@ -26,6 +25,7 @@ const routing = require('./middleware/routing');
 
 // Passport
 const initializePassport = require('./middleware/passport-config');
+
 initializePassport(
   passport, 
   email => users.find(user => user.email === email),
@@ -68,7 +68,6 @@ const env = nunjucks.configure(appViews, {
 
 
 // Configure sessions in middleware
-// app.use(flash())
 app.use(session( {
   secret: process.env.SESSION_SECRET,
   resave: false, // Don’t want to resave sesssion variables
