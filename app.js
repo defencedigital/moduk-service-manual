@@ -25,7 +25,7 @@ const routing = require('./middleware/routing');
 
 
 // Passport
-const initializePassport = require('./app/passport-config');
+const initializePassport = require('./middleware/passport-config');
 initializePassport(
   passport, 
   email => users.find(user => user.email === email),
@@ -55,8 +55,8 @@ app.set('view engine', 'njk');
 
 // Nunjucks configuration
 const appViews = [
-  path.join(__dirname, '/app/views/'),
-  path.join(__dirname, '/node_modules/govuk-frontend/')
+  path.join(__dirname, '/app/views'),
+  path.join(__dirname, '/node_modules/govuk-frontend')
 ];
 
 const env = nunjucks.configure(appViews, {
@@ -128,7 +128,7 @@ app.get(/^([^.]+)$/, checkAuthenticated, (req, res, next) => {
 // Render 404 page
 app.get('*', (_, res) => {
   res.statusCode = 404;
-  res.render('page-not-found');
+  res.render('page-not-found/index');
 });
 
 

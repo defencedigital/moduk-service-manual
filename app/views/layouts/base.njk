@@ -47,10 +47,10 @@
     {# Progressive enhancement #}
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
-    {% include "includes/_header.njk" ignore missing %}
+    {% include "partials/_header.njk" ignore missing %}
 
     {% if phaseBanner != false %}
-    {% include "includes/_phase-banner.njk" ignore missing %}
+    {% include "partials/_phase-banner.njk" ignore missing %}
     {% endif %}
 
     {# Breadcrumb #}
@@ -69,10 +69,10 @@
 
 
     {% if feedback != false %}
-    {% include "includes/_feedback.njk" ignore missing %}
+    {% include "partials/_feedback.njk" ignore missing %}
     {% endif %}
 
-    {% include "includes/_footer.njk" ignore missing %}
+    {% include "partials/_footer.njk" ignore missing %}
 
     {% block pageScripts %}{% endblock %}
 
