@@ -16,6 +16,7 @@ const configPaths = {
   layouts: 'app/views/layouts/',
   src: 'src/',
   public: 'public/',
+  images: 'src/images/',
   styles: 'src/styles/',
   scripts: 'src/scripts/'
 }
@@ -40,11 +41,19 @@ gulp.task('styles', () => {
 });
 
 
+// Images
+gulp.task('images', () => {
+  return gulp.src(configPaths.images + '**/**')
+    .pipe(gulp.dest(configPaths.public + 'images'))
+});
+
+
 // Default
-gulp.task('default', gulp.series('clean', gulp.parallel('styles')));
+gulp.task('default', gulp.series('clean', gulp.parallel('styles', 'images')));
 
 
 // Watch for file changes, re-run the build task
 gulp.task('watch', function() {
-  gulp.watch([configPaths.src + '**/**/*.scss'], gulp.parallel('styles'))
+  gulp.watch([configPaths.styles + '**/*.scss'], gulp.parallel('styles'));
+  gulp.watch([configPaths.images + '**/**'], gulp.parallel('images'));
 });

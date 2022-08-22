@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app",
-    "watch:styles": "gulp styles && gulp watch",
+    "build": "gulp",
     "watch": "cross-env NODE_ENV=development concurrently \"gulp watch\" \"npm start\""
   },
   "author": "Trevor Saint <hello@trevorsaint.uk> (https://trevorsaint.uk)",

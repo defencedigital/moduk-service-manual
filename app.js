@@ -88,7 +88,12 @@ app.use(flash());
 if (config.env === 'development') {
   app.listen(config.port - 50, () => {
     browserSync({
-      files: ['app/views/**/*.*', 'public/**/*.*'],
+      files: [
+        'app/views/**/*.*', 
+        'src/styles/**/*.*',
+        'src/images/**/*.*',
+        'public/**/*.*'
+      ],
       notify: false,
       open: false,
       port: config.port,

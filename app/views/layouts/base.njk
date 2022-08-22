@@ -17,25 +17,33 @@
 
     <title>{% if pageTitle %}{{ pageTitle }} - Defence Service Manual{% else %}Defence Service Manual{% endif %}</title>
 
-    {# Add home screen for Safari on iOS #}
+    {# Search Engine #}
+    <meta name="description" content="{% if pageDescription %}{{pageDescription}}{% else %}Helping you meet service standards and do your role in Defence{% endif %}">
+
+    {# Theme colour #}
+    <meta name="theme-color" content="#4D2942">
+
+    {# Windows tiles #}
+    <meta name="msapplication-TileColor" content="#4D2942">
+    <meta name="msapplication-TileImage" content="/images/tile-310x150.png">
+    <meta name="msapplication-square70x70logo" content="/images/tile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="/images/tile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="/images/tile-310x150.png">
+    <meta name="msapplication-square310x310logo" content="/images/tile-310x310.png">
+
+    {# iOS #}
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Defence Service Manual">
 
-    {# Search Engine #}
-    <meta name="description" content="{% if pageDescription %}{{pageDescription}}{% else %}Helping you meet service standards and do your role in Defence{% endif %}">
-
-    {# Android’s Chrome browser #}
-    <meta name="theme-color" content="#532a45">
-
-    {# Favicon #}
-    <link rel="icon" href="/images/favicon.svg">
-
-    {# Mask icon (Safari) #}
-    <link rel="mask-icon" href="/images/maskicon.svg" color="#532a45">
-
     {# Apple touch icon #}
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+    {# Mask icon #}
+    <link rel="mask-icon" href="/images/mask-icon.svg" color="#000000">
+
+    {# Fav icon #}
+    <link rel="icon" href="/images/favicon.png">
 
     {# Stylesheet #}
     <link rel="stylesheet" href="/styles/main.css">
@@ -47,7 +55,7 @@
     {# Progressive enhancement #}
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
-    {% include "partials/_header.njk" ignore missing %}
+    {% include "partials/_mod-header.njk" ignore missing %}
 
     {% if phaseBanner != false %}
     {% include "partials/_phase-banner.njk" ignore missing %}
