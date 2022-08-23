@@ -1,12 +1,13 @@
+{% extends "layouts/guidance.njk" %}
+
 {% set pageTitle = "How to classify information" %}
 {% set pageDescription = "In the UK and internationally, security classifications are used to protect different kinds of information." %}
-
-{% extends "layouts/guidance.njk" %}
 
 {% block breadcrumb %}
   {% include "design/_breadcrumb.njk" %}
 {% endblock %}
 
+{# Main contents #}
 {% block bodyContent %}
 
 <div class="mod-prose">
@@ -129,5 +130,31 @@
   </ul>
 
 </div>
+
+{% endblock %}
+
+{# Contents list #}
+{% block contentsList %}
+
+  {{ govukContentsList({
+    items: [
+      {
+        href: "#levels-of-security-classification",
+        text: "Levels of security classification"
+      },
+      {
+        href: "#how-to-label-information-in-defence",
+        text: "How to label information in Defence"
+      },
+      {
+        href: "#classifying-large-amounts-of-data",
+        text: "Classifying large amounts of data"
+      },
+      {
+        href: "#useful-links",
+        text: "Useful links"
+      }
+    ]
+  }) }}
 
 {% endblock %}
