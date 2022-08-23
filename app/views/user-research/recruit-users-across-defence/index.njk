@@ -1,0 +1,58 @@
+{% extends "layouts/guidance.njk" %}
+
+{% set pageTitle       = "Recruit users across defence" %}
+{% set pageDescription = "If you have access to MODNET, you can often find staff names and details on your Command Sharepoint. If you do not have access to this or other platforms, ask a permanent staff member to help you." %}
+{% set sectionId       = "User research" %}
+
+{% block breadcrumb %}
+  {% include "../_breadcrumb.njk" %}
+{% endblock %}
+
+{# Main contents #}
+{% block bodyContent %}
+
+<div class="mod-prose">
+
+  <p>If you have access to MODNET, you can often find staff names and details on your Command Sharepoint. If you do not have access to this or other platforms, ask a permanent staff member to help you.</p>
+
+  {{ govukInsetText({
+    text: "Do not use social media platforms like Twitter, Instagram, LinkedIn or TikTok to recruit participants for user research."
+  }) }}
+
+  <h2 id="army-participants">Army participants</h2>
+
+  <p>To find research participants in the Army, use the <a href="https://www.army.mod.uk/deployments/army-knowledge-exchange" rel="external nofollow">Army Knowledge Exchange (AKX)</a>.</p>
+
+  <h2 id="participants-with-no-modnet-access">Participants with no MODNET access<h2>
+
+  <p>To find users with little or no access to MODNET, use <a href="https://www.army.mod.uk/digital-communications/defence-connect-guidance" rel="external nofollow">Defence Connect</a>. You can also use the platform to carry out randomised surveys and questionnaires.</p>
+
+  <h2 id="anonymous-research">Anonymous research</h2>
+
+  <p>You can start a discussion or set up a questionnaire on <a href="https://trustedvoices.explainonline.co.uk/login" rel="external nofollow">Trusted Voices</a>. MOD staff use aliases on the platform to discuss sensitive topics like pay, mental health and bullying.</p>
+
+</div>
+
+{% endblock %}
+
+{# Contents list #}
+{% block contentsList %}
+
+  {{ govukContentsList({
+    items: [
+      {
+        href: "#army-participants",
+        text: "Army participants"
+      },
+      {
+        href: "#participants-with-no-modnet-access",
+        text: "Participants with no MODNET access"
+      },
+      {
+        href: "#anonymous-research",
+        text: "Anonymous research"
+      }
+    ]
+  }) }}
+
+{% endblock %}

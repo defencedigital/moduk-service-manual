@@ -1,0 +1,34 @@
+{% extends "layouts/guidance.njk" %}
+
+{% set pageTitle       = "How to keep research data" %}
+{% set pageDescription = "" %}
+{% set sectionId       = "User research" %}
+
+{% block breadcrumb %}
+  {% include "../_breadcrumb.njk" %}
+{% endblock %}
+
+{# Main contents #}
+{% block bodyContent %}
+
+<div class="mod-prose">
+
+  <p>When you capture research data, make sure it is:</p>
+
+  <ul>
+    <li>labelled correctly</li>
+    <li>protected by the correct access permissions</li>
+    <li>unable to be changed</li>
+    <li>kept for no longer than 2 years</li>
+  </ul>
+
+  <p>Information should be treated as a record as soon as possible after it is created or received.</p>
+
+  <p>Avoid only using offline storage, such as a memory stick for your digital records, unless advised to do so by the Defence Information Policy Team. This can make records difficult to access and risks them becoming lost if the technology is no longer compatible in the future.</p>
+
+  <p>Do not encrypt digital records.</p>
+
+  <p>Do not use self-modifying fields when capturing digital records. For example, a date field that automatically updates to reflect real or current time, will not display correct information when the record is viewed in future.</p>
+</div>
+
+{% endblock %}

@@ -1,0 +1,42 @@
+{% extends "layouts/guidance.njk" %}
+
+{% set pageTitle       = "Recruit internal participants" %}
+{% set pageDescription = "Use staff directories to find colleagues in the Ministry of Defence (MOD)." %}
+{% set sectionId       = "User research" %}
+
+{% block breadcrumb %}
+  {% include "../_breadcrumb.njk" %}
+{% endblock %}
+
+{# Main contents #}
+{% block bodyContent %}
+
+<div class="mod-prose">
+
+  <p>Use staff directories to find colleagues in the Ministry of Defence (MOD).</p>
+
+  <p>For longer research campaigns, you should engage through the existing Chain of Command (CoC) and tasking processes.</p>
+
+  <p>If you cannot find a specific group to research with, you can speak to Subject Matter Experts (SMEs) and supporting military personnel to help you with recruitment.</p>
+
+  <h2 id="large-scale-testing">Large scale testing</h2>
+
+  <p>There may be existing processes in place for large scale testing activity. Check with your Front Line Command (FLC) to see what is available.</p>
+
+</div>
+
+{% endblock %}
+
+{# Contents list #}
+{% block contentsList %}
+
+  {{ govukContentsList({
+    items: [
+      {
+        href: "#large-scale-testing",
+        text: "Large scale testing"
+      }
+    ]
+  }) }}
+
+{% endblock %}

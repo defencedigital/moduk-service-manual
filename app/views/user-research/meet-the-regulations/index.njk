@@ -1,0 +1,30 @@
+{% extends "layouts/guidance.njk" %}
+
+{% set pageTitle       = "Meet the regulations" %}
+{% set pageDescription = "The General Data Protection Regulation (GDPR) came into effect in May 2018. When doing user research at MOD, the important things to note are:" %}
+{% set sectionId       = "User research" %}
+
+{% block breadcrumb %}
+  {% include "../_breadcrumb.njk" %}
+{% endblock %}
+
+{# Main contents #}
+{% block bodyContent %}
+
+<div class="mod-prose">
+
+  <p>The General Data Protection Regulation (GDPR) came into effect in May 2018. When doing user research at MOD, the important things to note are:</p>
+
+  <ul>
+    <li>it defines personal data broadly, so that it can include data like online identification markers and location data</li>
+    <li>rules around evidence of informed consent and withdrawal of consent are strict</li>
+    <li>it sets out stronger requirements for documenting and auditing your practices</li>
+  </ul>
+
+  <p>The <a href="https://www.gov.uk/government/publications/ministry-of-defence-privacy-notice/mod-privacy-notice" rel="external nofollow">Ministry of Defence Privacy Notice</a> explains the sort of information you can collect from users and why.</p>
+
+  <p>To make sure your data management and privacy practices meet the regulations, get them reviewed by a data protection adviser. The Ministry of Defence (MOD) has a network of advisers.</p>
+
+</div>
+
+{% endblock %}

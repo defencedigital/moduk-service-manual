@@ -1,0 +1,87 @@
+{% extends "layouts/guidance.njk" %}
+
+{% set pageTitle       = "Share research data securely" %}
+{% set pageDescription = "You must not disclose the identities of people when sharing published statistics and other data gathered in surveys. This includes photographs, videos, and sound recordings, as well as words and numbers." %}
+{% set sectionId       = "User research" %}
+
+{% block breadcrumb %}
+  {% include "../_breadcrumb.njk" %}
+{% endblock %}
+
+{# Main contents #}
+{% block bodyContent %}
+
+<div class="mod-prose">
+
+  <p>You must not disclose the identities of people when sharing published statistics and other data gathered in surveys. This includes photographs, videos, and sound recordings, as well as words and numbers.</p>
+
+  <p>When sharing transcripts of interviews, you need to anonymise personally identifiable circumstances, especially if dealing with sensitive topics like bullying and harassment.</p>
+
+  <p>You must also ensure that it is not possible to identify any individual by cross referencing demographic data items in the dataset.</p>
+
+  <p>Before you release any data, you must get a signed Data Access Agreement that explains:</p>
+
+  <ul>
+    <li>what data is needed</li>
+    <li>how the data will be used</li>
+    <li>the full names of everyone who will have access to the data</li>
+  </ul>
+
+  <p>Any data provided must only be used by the people listed in the Data Access Agreement and for the purpose listed in the agreement.</p>
+
+  <h2 id="official-data">OFFICIAL data</h2>
+
+  <p>You do not need to explicitly mark OFFICIAL information.</p>
+
+  <p>Your organisational policies will provide detailed guidance but there are some things that you need to remember:</p>
+
+  <ul>
+    <li>only share information with those who have a legitimate need to see it</li>
+    <li>maintain a clear desk and always lock sensitive information away</li>
+    <li>only use authorised IT systems to work with or store information</li>
+    <li>dispose of information appropriately</li>
+    <li>only carry the information that you need when working off site</li>
+    <li>do not discuss sensitive issues in public places</li>
+    <li>report lost or stolen information immediately</li>
+  </ul>
+
+  <p>You can store OFFICIAL information on MS Teams as long as it is a private, and not public, group setting.</p>
+
+  <p>You can store OFFICIAL information on your @digital.mod.uk google drive account, as long as the correct sharing and viewing restrictions are in place.</p>
+
+  <p>Documents with personal user information such as telephone numbers and other identifiable data need to be password protected.</p>
+
+  <h2 id="official-sensitive-data">OFFICIAL-SENSITIVE data</h2>
+
+  <p>MOD’s iHub team can give you advice on how to store and manage OS files. They advise that:</p>
+
+  <ul>
+    <li>OS files are not stored in open areas unless they are kept within a LTD library</li>
+    <li>OS files are kept within a LTD library or a LTD SharePoint site</li>
+    <li>document classification must still be used within a LTD site</li>
+    <li>your BUPOC sends a request to the iHub team to create a LTD library</li>
+    <li>on open sites, SharePoint lists containing information at OS level must also be made LTD</li>
+    <li>list permissions are applied directly to the individual SharePoint list</li>
+  </ul>
+
+</div>
+
+{% endblock %}
+
+{# Contents list #}
+{% block contentsList %}
+
+  {{ govukContentsList({
+    items: [
+      {
+        href: "#official-data",
+        text: "OFFICIAL data"
+      },
+      {
+        href: "#official-sensitive-data",
+        text: "OFFICIAL-SENSITIVE data"
+      }
+    ]
+  }) }}
+
+{% endblock %}

@@ -1,0 +1,91 @@
+{% extends "layouts/guidance.njk" %}
+
+{% set pageTitle       = "Sensitive data" %}
+{% set pageDescription = "You must take care not to reveal any sensitive data about an individual when carrying out user research." %}
+{% set sectionId       = "User research" %}
+
+{% block breadcrumb %}
+  {% include "../_breadcrumb.njk" %}
+{% endblock %}
+
+{# Main contents #}
+{% block bodyContent %}
+
+<div class="mod-prose">
+
+  <p>You must take care not to reveal any sensitive data about an individual when carrying out user research.</p>
+
+  <p>Sensitive data is any information that could cause the participant embarrassment or distress and which they can reasonably expect to remain private. This includes:</p>
+
+  <ul>
+    <li>age</li>
+    <li>marital status</li>
+    <li>racial or ethnic origin</li>
+    <li>nationality</li>
+    <li>physical or mental health or condition, including disability status</li>
+    <li>sexual life</li>
+    <li>biometrics and genetics</li>
+    <li>photographs, videos or sound recordings in which individuals can be identified</li>
+    <li>any data collected where a guarantee of confidentiality was given</li>
+  </ul>
+
+  <p>Sensitive data also covers things like:</p>
+
+  <ul>
+    <li>political opinions</li>
+    <li>religious or similar beliefs</li>
+    <li>benefit claims history or entitlement</li>
+    <li>membership of trade unions</li>
+    <li>commission or alleged commission of an offence</li>
+    <li>cause of death, where this is not a matter of public record</li>
+  </ul>
+
+  <h2 id="non-sensitive-data">Non-sensitive data</h2>
+
+  <p>Some personal data items are not considered sensitive when captured on their own. These include a participant’s:</p>
+
+  <ul>
+    <li>sex</li>
+    <li>rank or grade</li>
+    <li>full-time or part-time working status</li>
+  </ul>
+
+  <h2 id="surveys-and-questionnaires">Surveys and questionnaires</h2>
+
+  <p>Check that you are only collecting the data that you need to answer your research questions.</p>
+
+  <p>Unless it is essential to your research, consider not collecting information on protected characteristics, including:</p>
+
+  <ul>
+    <li>gender</li>
+    <li>age</li>
+    <li>disability status</li>
+    <li>sexuality</li>
+    <li>education background</li>
+    <li>ethnicity</li>
+    <li>nationality</li>
+    <li>marital status</li>
+    <li>caring responsibilities</li>
+  </ul>
+
+</div>
+
+{% endblock %}
+
+{# Contents list #}
+{% block contentsList %}
+
+  {{ govukContentsList({
+    items: [
+      {
+        href: "#non-sensitive-data",
+        text: "Non-sensitive data"
+      },
+      {
+        href: "#surveys-and-questionnaires",
+        text: "Surveys and questionnaire"
+      }
+    ]
+  }) }}
+
+{% endblock %}
