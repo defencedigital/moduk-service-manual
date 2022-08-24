@@ -1,7 +1,7 @@
 {% extends "guidance.njk" %}
 
 {% set pageTitle       = "User researchers" %}
-{% set pageDescription = "" %}
+{% set pageDescription = "Through user research and usability testing, you can help colleagues understand the needs of people who use assistive technology." %}
 {% set sectionId       = "Accessibility" %}
 
 {% block breadcrumb %}
@@ -13,8 +13,51 @@
 
 <div class="mod-prose">
 
-  <p>Some content.</p>
+  <p>Through user research and usability testing, you can help colleagues understand the needs of people who use assistive technology.</p>
+
+  <h2 id="research-with-a-range-of-users">Research with a range of users</h2>
+
+  <p>You need to consider the full range of people that are likely to use your product or service. By including a wide range of people, you can better understand how the accessibility of your service impacts everybody who needs to use it.</p>
+
+  <p>Find out more about <a href="#0">finding research participants in Defence</a>.</p>
+
+  <h2 id="usability-testing">Usability testing</h2>
+
+  <p>Your product or service needs to work with devices such as screen readers, screen magnifiers and speech recognition software.</p>
+
+  <p>If you can, the best way of testing this is to observe people using assistive technology to use your product or service. If this isn’t possible, you can try to use your product or service with some of the assistive technologies easily available. For example, most laptops have built-in screen readers.</p>
+
+  <p>Ask your Delivery Lead to make time for colleagues to help with useability testing.</p>
+
+  <h2 id="useful-links">Useful links</h2>
+
+  <ul>
+    <li><a href="https://accessibility.blog.gov.uk/2018/03/20/why-accessibility-testing-with-real-users-is-so-important" rel="external nofollow">Why testing with real users is important</a></li>
+    <li><a href="https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies" rel="external nofollow">Testing with assistive technologies</a></li>
+  </ul>
 
 </div>
+
+{% endblock %}
+
+{# Contents list #}
+{% block contentsList %}
+
+  {{ govukContentsList({
+    items: [
+      {
+        href: "#research-with-a-range-of-users",
+        text: "Research with a range of users"
+      },
+      {
+        href: "#usability-testing",
+        text: "Usability testing"
+      },
+      {
+        href: "#useful-links",
+        text: "Useful links"
+      }
+    ]
+  }) }}
 
 {% endblock %}
