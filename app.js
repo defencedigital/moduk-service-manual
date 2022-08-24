@@ -146,13 +146,4 @@ function checkAuthenticated(req, res, next) {
 }
 
 
-// Check IS NOT authenticated
-function checkNotAuthenticated(req, res, next) {
-  if (req.isAuthenticated()) {
-    return res.redirect('/')
-  }
-  next()
-}
-
-
 module.exports = app;
