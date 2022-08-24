@@ -62,6 +62,13 @@ $mod-brand-color: #512B45;
     @extend .govuk-list--bullet;
   }
 
+  ul:not([class]) ul,
+  ul:not([class]) ul ul {
+    @extend .govuk-list;
+    @extend .govuk-list--bullet;
+    margin-bottom: 0; // Reset margin bottom if nested ul’s
+  }
+
   a:not([class]) {
     @extend .govuk-link;
     @extend .govuk-link--no-visited-state;
