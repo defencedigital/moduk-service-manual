@@ -8,7 +8,7 @@
 {% from "govuk/components/button/macro.njk" import govukButton %}
 {% from "govuk/components/error-summary/macro.njk" import govukErrorSummary %}
 
-{% from "components/contents-list/macro.njk" import govukContentsList %}
+{% from "contents-list/macro.njk" import govukContentsList %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,10 +60,10 @@
     {# Progressive enhancement #}
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
-    {% include "partials/_mod-header.njk" ignore missing %}
+    {% include "_mod-header.njk" ignore missing %}
 
     {% if phaseBanner != false %}
-    {% include "partials/_phase-banner.njk" ignore missing %}
+    {% include "_phase-banner.njk" ignore missing %}
     {% endif %}
 
     {# Breadcrumb #}
@@ -82,10 +82,10 @@
 
 
     {% if feedback != false %}
-    {% include "partials/_feedback.njk" ignore missing %}
+    {% include "_feedback.njk" ignore missing %}
     {% endif %}
 
-    {% include "partials/_footer.njk" ignore missing %}
+    {% include "_footer.njk" ignore missing %}
 
     {% block pageScripts %}{% endblock %}
 

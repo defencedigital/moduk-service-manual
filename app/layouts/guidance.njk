@@ -1,9 +1,9 @@
-{% extends "layouts/base.njk" %}
+{% extends "base.njk" %}
 
 {%- if breadcrumb !== false %}
-{% block breadcrumb %}
-  {% include "partials/_breadcrumb.njk" %}
-{% endblock %}
+  {% block breadcrumb %}
+    {% include "_breadcrumb.njk" %}
+  {% endblock %}
 {% endif -%}
 
 {% block body %}
