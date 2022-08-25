@@ -1,7 +1,7 @@
 {% extends "guidance.njk" %}
 
 {% set pageTitle       = "Create an accessibility statement" %}
-{% set pageDescription = "" %}
+{% set pageDescription = "Since 2018, all public sector websites and applications must include an accessibility statement. It needs to be published before your product or service goes into public beta." %}
 {% set sectionId       = "Accessibility" %}
 
 {% block breadcrumb %}
@@ -28,7 +28,7 @@
 
   <p>If you can, work with a content designer to make sure your statement is written in plain English.</p>
 
-  <h2 id="things-you-might-need-to-fix">Things you might need to fix</h2>
+  <h2 id="things-you-might-not-need-to-fix">Things you might not need to fix</h2>
 
   <p>Your team does not need to fix the following types of content because they’re exempt from the accessibility regulations:</p>
 
@@ -55,8 +55,8 @@
   {{ govukContentsList({
     items: [
       {
-        href: "#things-you-might-need-to-fix",
-        text: "Things you might need to fix"
+        href: "#things-you-might-not-need-to-fix",
+        text: "Things you might not need to fix"
       }
     ]
   }) }}
