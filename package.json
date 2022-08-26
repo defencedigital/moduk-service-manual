@@ -10,7 +10,7 @@
     "dev": "nodemon app.js",
     "start": "node app",
     "build": "gulp",
-    "watch": "cross-env NODE_ENV=development concurrently \"gulp watch\" \"npm start\""
+    "watch": "cross-env NODE_ENV=development concurrently \"gulp dev\" \"npm start\""
   },
   "author": "Trevor Saint <hello@trevorsaint.uk> (https://trevorsaint.uk)",
   "license": "MIT",

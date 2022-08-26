@@ -48,12 +48,16 @@ gulp.task('images', () => {
 });
 
 
-// Default
-gulp.task('default', gulp.series('clean', gulp.parallel('styles', 'images')));
-
-
 // Watch for file changes, re-run the build task
 gulp.task('watch', function() {
   gulp.watch([configPaths.styles + '**/*.scss'], gulp.parallel('styles'));
   gulp.watch([configPaths.images + '**/**'], gulp.parallel('images'));
 });
+
+
+// Default
+gulp.task('default', gulp.series('clean', gulp.parallel('styles', 'images')));
+
+
+// Dev
+gulp.task('dev', gulp.series('clean', gulp.parallel('styles', 'images', 'watch')));
