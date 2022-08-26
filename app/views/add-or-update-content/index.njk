@@ -1,0 +1,41 @@
+{% set pageTitle = "Add or update content" %}
+{% set pageDescription = "Anyone in Defence can suggest content for the Defence Service Manual. You can send content that you have or we can help you write it." %}
+{% set pageLead = "The Defence Service Manual is created with contributions from people across Defence. Check what we publish and how you can make suggestions or updates." %}
+
+{% extends "landing.njk" %}
+
+{% block bodyContent %}
+
+<div class="mod-prose">
+
+  <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Heading required</h2>
+  {# <p>A short blurb to introduce the section...</p> #}
+
+  <ul class="govuk-list">
+    <li><a href="/add-or-update-content/what-we-publish">What we publish</a></li>
+    <li><a href="/add-or-update-content/suggest-content">Suggest content</a></li>
+    <li><a href="/add-or-update-content/get-content-updated">Get content updated</a></li>
+    <li><a href="/add-or-update-content/writing-for-the-manual">Writing for the manual</a></li>
+  </ul>
+
+</div>
+
+{% endblock %}
+
+{% block relatedContent %}
+
+<div class="gem-c-related-navigation govuk-!-margin-top-1">
+
+  <h2 class="gem-c-related-navigation__main-heading" id="related-content">Related content</h2>
+
+  <nav class="gem-c-related-navigation__nav-section" role="navigation" aria-labelledby="related-content">
+    <ul class="gem-c-related-navigation__link-list">
+      <li class="gem-c-related-navigation__link">
+        <a class="govuk-link govuk-link--no-visited-state gem-c-related-navigation__section-link gem-c-related-navigation__section-link--other" href="https://www.gov.uk/guidance/content-design/writing-for-gov-uk" rel="external nofollow">Writing well for the web</a>
+      </li>
+    </ul>
+  </nav>
+
+</div>
+
+{% endblock %}
