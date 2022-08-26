@@ -1,0 +1,66 @@
+{% extends "guidance.njk" %}
+
+{% set pageTitle       = "Writing for the manual" %}
+{% set pageDescription = "" %}
+{% set sectionTitle       = "Add or update content" %}
+
+{% block breadcrumb %}
+  {% include "../_breadcrumb.njk" %}
+{% endblock %}
+
+{# Main contents #}
+{% block bodyContent %}
+
+<div class="mod-prose">
+
+  <p>We can add and update content quicker if it is in the GOV.UK style and MOD tone of voice. If you prefer to send us a rough draft, we can edit it. We’ll share our edits with you before publishing.</p>
+
+  <h2 id="ministry-of-defence-tone-of-words">Ministry of Defence tone of voice</h2>
+
+  <p>In the MOD brand guidelines, our tone of voice is defined as:<p>
+
+  <ul>
+    <li>clear and straightforward</li>
+    <li>confident and action-orientated</li>
+    <li>friendly but respectful</li>
+    <li>modern but not informal</li>
+    <li>authoritative and expert</li>
+    <li>human and authentic</li>
+  </ul>
+
+  <h2 id="make-every-word-count">Make every word count</h2>
+
+  <p>Here are some tips to keep your content short and engaging:</p>
+
+  <ul>
+    <li>use straightforward language that can be easily understood</li>
+    <li>avoid jargon, acronyms, abbreviations and unnecessary technical language</li>
+    <li>if acronyms must be used, spell these out in full on first use</li>
+    <li>keep sentences short – text should be punchy and succinct</li>
+    <li>use active, not passive language, for example use ‘we communicate to staff’ instead of ‘staff are communicated to’</li>
+    <li>speak to your audience but do not try to imitate them, for example avoid ‘street talk’ </li>
+    <li>do not use formal or long words when straightforward or short ones will do. Use ‘buy’ instead of ‘purchase’, ‘help’ instead of ‘assist’, ‘about’ instead of ‘approximately’ and ‘like’ instead of ‘such as’</li>
+  </ul>
+
+</div>
+
+{% endblock %}
+
+
+{# Contents list #}
+{% block contentsList %}
+
+  {{ govukContentsList({
+    items: [
+      {
+        href: "#ministry-of-defence-tone-of-words",
+        text: "Ministry of Defence tone of voice"
+      },
+      {
+        href: "#make-every-word-count",
+        text: "Make every word count"
+      }
+    ]
+  }) }}
+
+{% endblock %}

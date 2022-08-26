@@ -1,0 +1,28 @@
+{% extends "guidance.njk" %}
+
+{% set pageTitle       = "Get content updated" %}
+{% set pageDescription = "" %}
+{% set sectionTitle    = "Add or update content" %}
+
+{% block breadcrumb %}
+  {% include "../_breadcrumb.njk" %}
+{% endblock %}
+
+{# Main contents #}
+{% block bodyContent %}
+
+<div class="mod-prose">
+
+  <p>The manual needs to include the latest guidance. If you spot something that needs updating or removing, you need to send us:</p>
+
+  <ul>
+    <li>a link to the relevant pages</li>
+    <li>details of the change</li>
+    <li>why the change is needed</li>
+  </ul>
+
+  <p>You can copy the existing content into a Word or Google document and make the updates. Or, you can let us know about the change and we can write the new content with you.</p>
+
+</div>
+
+{% endblock %}

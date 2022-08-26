@@ -1,0 +1,56 @@
+{% extends "guidance.njk" %}
+
+{% set pageTitle       = "What we publish" %}
+{% set pageDescription = "Anyone working on digital services and products for Defence can use the Defence Service Manual. The manual helps teams deliver great digital services and products." %}
+{% set sectionTitle       = "Add or update content" %}
+
+{% block breadcrumb %}
+  {% include "../_breadcrumb.njk" %}
+{% endblock %}
+
+{# Main contents #}
+{% block bodyContent %}
+
+<div class="mod-prose">
+
+  <p>Anyone working on digital services and products for Defence can use the Defence Service Manual. The manual helps teams deliver great digital services and products.</p>
+
+  <p>In the manual, we include things like:</p>
+
+  <ul>
+    <li>how to meet service standards in Defence</li>
+    <li>how to do your role in Defence</li>
+    <li>shared approaches to doing common tasks</li>
+    <li>what tools you are allowed to use</li>
+  </ul>
+
+  <h2 id="what-we-do-not-publish">What we do not publish</h2>
+
+  <p>We do not include large pieces of content published elsewhere, for example:</p>
+
+  <ul>
+    <li>existing sections on GOV.UK, including the <a href="https://www.gov.uk/service-manual" rel="external nofollow">GOV.UK service manual</a></li>
+    <li>Ministry of Defence strategy, policy and rules</li>
+    <li>security guidelines from the National Cyber Security Centre</li>
+  </ul>
+
+  <p>When it is useful, we introduce content published in other places and provide a link.</p>
+
+</div>
+
+{% endblock %}
+
+
+{# Contents list #}
+{% block contentsList %}
+
+  {{ govukContentsList({
+    items: [
+      {
+        href: "#what-we-do-not-publish",
+        text: "What we do not publish"
+      }
+    ]
+  }) }}
+
+{% endblock %}
