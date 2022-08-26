@@ -1,0 +1,34 @@
+{% extends "guidance.njk" %}
+
+{% set pageTitle       = "Suggest content" %}
+{% set pageDescription = "" %}
+{% set sectionId       = "Add or update content" %}
+
+{% block breadcrumb %}
+  {% include "../_breadcrumb.njk" %}
+{% endblock %}
+
+{# Main contents #}
+{% block bodyContent %}
+
+<div class="mod-prose">
+
+  <p>When you suggest content for the manual, make sure you tell us:</p>
+
+  <ul>
+    <li>who the content is most useful for</li>
+    <li>what tasks they are trying to complete</li>
+    <li>the security classification</li>
+  </ul>
+
+  {{ govukInsetText({
+    html: 'Currently, we only publish content that is classified OFFICIAL.Check <a href="#0">how to classify information</a>.'
+  }) }}
+
+  <p>You can suggest content at any time, <a href="">get in touch</a>.</p>
+
+  <p>We will let you know if the content fits in the manual or suggest another place to publish it. If your content fits in the manual, we will review it and share our edits for your approval. </p>
+
+</div>
+
+{% endblock %}
