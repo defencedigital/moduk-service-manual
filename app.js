@@ -1,4 +1,4 @@
-if (process.env.MODE_ENV !== 'production') {
+if (process.env.NODE_ENV == 'production') {
   require('dotenv').config();
 }
 
@@ -24,23 +24,26 @@ const routing = require('./middleware/routing');
 
 
 // Passport
-const initializePassport = require('./middleware/passport-config');
+if (process.env.NODE_ENV == 'production') {
 
-initializePassport(
-  passport, 
-  email => users.find(user => user.email === email),
-  id => users.find(user => user.id === id)
-);
+  const initializePassport = require('./middleware/passport-config');
 
+  initializePassport(
+    passport, 
+    email => users.find(user => user.email === email),
+    id => users.find(user => user.id === id)
+  );
 
-// User model
-const users = [
-  {
-    id: Date.now().toString(),
-    email: process.env.EMAIL,
-    password: process.env.PASSWORD
-  }
-];
+  // User model
+  const users = [
+    {
+      id: Date.now().toString(),
+      email: process.env.EMAIL,
+      password: process.env.PASSWORD
+    }
+  ];
+
+};
 
 
 // Middleware to serve static assets
@@ -71,20 +74,24 @@ const env = nunjucks.configure(appViews, {
 
 
 // Configure sessions in middleware
-app.use(session( {
-  secret: process.env.SESSION_SECRET,
-  resave: false, // Don’t want to resave sesssion variables
-  saveUninitialized: false // Don’t save an empty value in the session
-}));
+if (process.env.NODE_ENV == 'production') {
 
-app.use(passport.initialize());
-app.use(passport.session());
+  app.use(session( {
+    secret: process.env.SESSION_SECRET,
+    resave: false, // Don’t want to resave sesssion variables
+    saveUninitialized: false // Don’t save an empty value in the session
+  }));
+
+  app.use(passport.initialize());
+  app.use(passport.session());
+  app.use(flash());
+
+}
 
 
 // Turn form POSTs into data that can be used for validation
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(flash());
 
 
 // Run application on configured port
@@ -114,22 +121,36 @@ app.use(locals(config));
 
 
 // Sign in
-app.get('/signin', (req, res) => {
-  res.render('signin/index');
-});
+if (process.env.NODE_ENV == 'production') {
 
-app.post('/signin', passport.authenticate('local', {
-  successRedirect: '/',
-  failureRedirect: '/signin',
-  failureFlash: true,
-  badRequestMessage: 'Enter your password'
-}));
+  app.get('/signin', (req, res) => {
+    res.render('signin/index');
+  });
+
+  app.post('/signin', passport.authenticate('local', {
+    successRedirect: '/',
+    failureRedirect: '/signin',
+    failureFlash: true,
+    badRequestMessage: 'Enter your password'
+  }));
+
+}
 
 
 // Automatically route pages
-app.get(/^([^.]+)$/, checkAuthenticated, (req, res, next) => {
-  routing.matchRoutes(req, res, next);
-});
+if (process.env.NODE_ENV == 'production') {
+
+  app.get(/^([^.]+)$/, checkAuthenticated, (req, res, next) => {
+    routing.matchRoutes(req, res, next);
+  });
+
+} else {
+
+  app.get(/^([^.]+)$/, (req, res, next) => {
+    routing.matchRoutes(req, res, next);
+  });
+
+}
 
 
 // Render 404 page
