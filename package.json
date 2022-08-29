@@ -17,12 +17,12 @@
     "autoprefixer": "^10.4.8",
     "bcrypt": "^5.0.1",
     "browser-sync": "^2.27.10",
+    "compression": "^1.7.4",
     "connect-flash": "^0.1.1",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "express-flash": "^0.0.2",
     "express-session": "^1.17.3",
-    "glob": "^8.0.3",
     "govuk-frontend": "^4.3.0",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
@@ -37,7 +37,6 @@
     "nunjucks": "^3.2.3",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
-    "rename": "^1.0.4",
-    "uglify": "^0.1.5"
+    "rename": "^1.0.4"
   }
 }
