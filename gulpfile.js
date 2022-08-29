@@ -1,19 +1,21 @@
+// Dependencies
 const gulp = require('gulp');
-const del = require('del');
-const sass = require('gulp-sass')(require('node-sass'))
-const sassGlob = require('gulp-sass-glob');
+const clean = require('gulp-clean');
+const sass = require('gulp-sass')(require('node-sass'));
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const rename = require('gulp-rename');
 const cleanCSS = require('gulp-clean-css');
+const uglify = require('gulp-uglify');
+const concat = require('gulp-concat');
 
 
-// Path configurations
-const configPaths = {
+// Paths
+const configPath = {
   app: 'app/',
   views: 'app/views/',
-  includes: 'app/views/partials/',
-  layouts: 'app/views/layouts/',
+  partials: 'app/partials/',
+  layouts: 'app/layouts/',
   src: 'src/',
   public: 'public/',
   images: 'src/images/',
@@ -24,40 +26,52 @@ const configPaths = {
 
 // Clean public folder
 gulp.task('clean', () => {
-  return del(configPaths.public);
+  return gulp.src(configPath.public, {read: false, allowEmpty: true})
+    .pipe(clean());
 });
 
 
 // Convert SCSS to CSS, autoprefix, compress and clean output
 gulp.task('styles', () => {
-  return gulp.src(configPaths.styles + '**/*.scss')
-    .pipe(sassGlob({sassModules: true}))
+  return gulp.src(configPath.styles + '**/**/*.scss', {allowEmpty: true})
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss([autoprefixer()]))
-    .pipe(gulp.dest(configPaths.public + 'styles'))
-    .pipe(rename('main.min.css'))
+    .pipe(gulp.dest(configPath.public + 'styles')) // Non minified
+    .pipe(rename('style.min.css'))
     .pipe(cleanCSS())
-    .pipe(gulp.dest(configPaths.public + 'styles'))
+    .pipe(gulp.dest(configPath.public + 'styles')) // Minified
 });
 
 
-// Images
+// Combine all JS files single file
+gulp.task('scripts', () => {
+  return gulp.src(configPath.scripts + '**/**/*.js', {allowEmpty: true})
+    .pipe(concat('scripts.js'))
+    .pipe(gulp.dest(configPath.public + 'scripts')) // Non minified
+    .pipe(rename('scripts.min.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest(configPath.public + 'scripts')) // Minified
+});
+
+
+// Move all image assets
 gulp.task('images', () => {
-  return gulp.src(configPaths.images + '**/**')
-    .pipe(gulp.dest(configPaths.public + 'images'))
+  return gulp.src(configPath.images + '**/**/**', {allowEmpty: true})
+    .pipe(gulp.dest(configPath.public + 'images'))
 });
 
 
-// Watch for file changes, re-run the build task
-gulp.task('watch', function() {
-  gulp.watch([configPaths.styles + '**/*.scss'], gulp.parallel('styles'));
-  gulp.watch([configPaths.images + '**/**'], gulp.parallel('images'));
+// Watch
+gulp.task('watch', () => {
+  gulp.watch(configPath.styles + '****/*.scss', gulp.parallel('styles'));
+  gulp.watch(configPath.scripts + '**/**/*.js', gulp.series('scripts'));
+  gulp.watch(configPath.images + '**/**/**', gulp.parallel('images'));
 });
 
 
-// Default
-gulp.task('default', gulp.series('clean', gulp.parallel('styles', 'images')));
+// Build
+gulp.task('build', gulp.series('clean', gulp.parallel('styles', 'scripts', 'images')));
 
 
 // Dev
-gulp.task('dev', gulp.series('clean', gulp.parallel('styles', 'images', 'watch')));
+gulp.task('dev', gulp.series('clean', gulp.parallel('styles', 'scripts', 'images', 'watch')));
