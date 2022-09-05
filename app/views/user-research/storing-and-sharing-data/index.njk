@@ -1,7 +1,7 @@
 {% extends "guidance.njk" %}
 
-{% set pageTitle       = "Share research data securely" %}
-{% set pageDescription = "You must not disclose the identities of people when sharing published statistics and other data gathered in surveys. This includes photographs, videos, and sound recordings, as well as words and numbers." %}
+{% set pageTitle       = "Storing and sharing data" %}
+{% set pageDescription = "" %}
 {% set sectionTitle    = "User research" %}
 
 {% block breadcrumb %}
@@ -12,6 +12,39 @@
 {% block bodyContent %}
 
 <div class="mod-prose">
+
+  <h2 id="how-to-keep-research-data">How to keep research data</h2>
+
+  <p>When you capture research data, make sure it is:</p>
+
+  <ul>
+    <li>labelled correctly</li>
+    <li>protected by the correct access permissions</li>
+    <li>unable to be changed</li>
+    <li>kept for no longer than 2 years</li>
+  </ul>
+
+  <p>Information should be treated as a record as soon as possible after it is created or received.</p>
+
+  <p>Avoid only using offline storage, such as a memory stick for your digital records, unless advised to do so by the Defence Information Policy Team. This can make records difficult to access and risks them becoming lost if the technology is no longer compatible in the future.</p>
+
+  <p>Do not encrypt digital records.</p>
+
+  <p>Do not use self-modifying fields when capturing digital records. For example, a date field that automatically updates to reflect real or current time, will not display correct information when the record is viewed in future.</p>
+
+  <h2 id="anonymise-research-data">Anonymise research data</h2>
+
+  <p>Always anonymise personal identifiable data when storing your research records. This includes things like a person’s name or address. Refer to the participant by code instead.</p>
+
+  <p>If needed, create a separate document which matches the codes to the personal identifiable data. The document must be password protected and only shared with colleagues if necessary.</p>
+
+  <p>You should retain this information for no longer than 2 years.</p>
+
+  <h3>Video recordings and transcripts</h3>
+
+  <p>Anonymising video recordings is time consuming and can be ineffective. Consider whether you really need to store a video or screen recording of a user before your session.</p>
+
+  <h2 id="share-research-data-securely">Share research data securely</h2>
 
   <p>You must not disclose the identities of people when sharing published statistics and other data gathered in surveys. This includes photographs, videos, and sound recordings, as well as words and numbers.</p>
 
@@ -29,7 +62,7 @@
 
   <p>Any data provided must only be used by the people listed in the Data Access Agreement and for the purpose listed in the agreement.</p>
 
-  <h2 id="official-data">OFFICIAL data</h2>
+  <h3>OFFICIAL data</h3>
 
   <p>You do not need to explicitly mark OFFICIAL information.</p>
 
@@ -51,7 +84,7 @@
 
   <p>Documents with personal user information such as telephone numbers and other identifiable data need to be password protected.</p>
 
-  <h2 id="official-sensitive-data">OFFICIAL-SENSITIVE data</h2>
+  <h3>OFFICIAL-SENSITIVE data</h3>
 
   <p>MOD’s iHub team can give you advice on how to store and manage OS files. They advise that:</p>
 
@@ -74,12 +107,16 @@
   {{ govukContentsList({
     items: [
       {
-        href: "#official-data",
-        text: "OFFICIAL data"
+        href: "#how-to-keep-research-data",
+        text: "How to keep research data"
       },
       {
-        href: "#official-sensitive-data",
-        text: "OFFICIAL-SENSITIVE data"
+        href: "#anonymise-research-data",
+        text: "Anonymise research data"
+      },
+      {
+        href: "#share-research-data-securely",
+        text: "Share research data securely"
       }
     ]
   }) }}

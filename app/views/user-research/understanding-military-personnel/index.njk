@@ -1,0 +1,78 @@
+{% extends "guidance.njk" %}
+
+{% set pageTitle       = "Understanding military personnel" %}
+{% set pageDescription = "" %}
+{% set sectionTitle    = "User research" %}
+
+{% block breadcrumb %}
+  {% include "../_breadcrumb.njk" %}
+{% endblock %}
+
+{# Main contents #}
+{% block bodyContent %}
+
+<div class="mod-prose">
+
+  <h2 id="understanding-defence-users">Understanding Defence users</h2>
+
+  <p>Our service personnel users are very diverse, from recent school-leavers to experienced and highly qualified specialists.</p>
+
+  <p>Service personnel are located around the UK and overseas. They have very different access to IT and most do not spend all day working at a desk or in front of a computer.</p>
+
+  <p>In Defence, the 3 Front Line Commands (FLCs) are:</p>
+
+  <ul>
+    <li>Royal Navy</li>
+    <li>British Army</li>
+    <li>Royal Air Force</li>
+  </ul>
+
+  <p>There are other Top Level Budgets (TLBs), including Defence & Equipment Support (DE&S), and Defence Science and Technology Laboratory (Dstl).</p>
+
+  <p>Find out more about <a href="#0">Defence environments and accessibility</a>.</p>
+
+  <h2 id="research-with-military-ranks">Research with military ranks</h2>
+
+  <p>Depending on their rank and duties, some staff will require approval from their commanding officer to participate in user research activities.</p>
+
+  <p>You should consider that it may take longer to recruit service personnel for research and plan sessions in good time.</p>
+
+  <p>If you hold a focus group or workshop with military users of different ranks, consider the impact of the chain of command on what users decide they can or cannot contribute.</p>
+
+  <p>The military are naturally rank-conscious and may adapt their behaviour. For example, a participant may moderate their answers to questions in a research interview if someone more senior is in the room.</p>
+
+  <h3>How to address service personnel</h3>
+
+  <p>If you are a civilian, you are not required to address officers with Sir, Ma’am or their military title. However, it is polite to ask at the beginning of your session how they prefer to be addressed.</p>
+
+  <h2 id="digital-inclusion-in-defence">Digital inclusion in Defence</h2>
+
+  <p>Service personnel can be positioned widely on the digital inclusion scale, stretching from 4 to 9+. This means that usability and accessibility testing of design solutions is very important.</p>
+
+  <p>More work is needed to fully understand the digital inclusivity and accessibility needs of our Armed Forces. We’ll update this guidance when we know more.</p>
+
+</div>
+
+{% endblock %}
+
+{# Contents list #}
+{% block contentsList %}
+
+  {{ govukContentsList({
+    items: [
+      {
+        href: "#understanding-defence-users",
+        text: "Understanding Defence users"
+      },
+      {
+        href: "#research-with-military-ranks",
+        text: "Research with military ranks"
+      },
+      {
+        href: "#digital-inclusion-in-defence",
+        text: "Digital inclusion in Defence"
+      }
+    ]
+  }) }}
+
+{% endblock %}
