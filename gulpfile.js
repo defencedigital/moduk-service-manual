@@ -1,77 +1,28 @@
-// Dependencies
-const gulp = require('gulp');
-const clean = require('gulp-clean');
-const sass = require('gulp-sass')(require('node-sass'));
-const postcss = require('gulp-postcss');
-const autoprefixer = require('autoprefixer');
-const rename = require('gulp-rename');
-const cleanCSS = require('gulp-clean-css');
-const uglify = require('gulp-uglify');
-const concat = require('gulp-concat');
+const { series, parallel, watch } = require('gulp');
 
 
-// Paths
-const configPath = {
-  app: 'app/',
-  views: 'app/views/',
-  partials: 'app/partials/',
-  layouts: 'app/layouts/',
-  src: 'src/',
-  public: 'public/',
-  images: 'src/images/',
-  styles: 'src/styles/',
-  scripts: 'src/scripts/'
-}
+// Pull in each task
+const clean   = require('./gulp-tasks/clean.js');
+const styles  = require('./gulp-tasks/styles.js');
+const scripts = require('./gulp-tasks/scripts.js');
+const images  = require('./gulp-tasks/images.js');
 
 
-// Clean public folder
-gulp.task('clean', () => {
-  return gulp.src(configPath.public, {read: false, allowEmpty: true})
-    .pipe(clean());
-});
+// Set each directory and contents that we want to watch and assign the relevant task. `ignoreInitial` set to true will prevent the task being run when we run `gulp watch`, but it will run when a file changes
+const watcher = () => {
+  watch('./src/styles/**/**/*.scss', {ignoreInitial: true}, styles);
+  watch('./src/scripts/**/**/*.js', {ignoreInitial: true}, scripts);
+  watch('./src/images/**/**/*.*', {ignoreInitial: true}, images);
+};
 
 
-// Convert SCSS to CSS, autoprefix, compress and clean output
-gulp.task('styles', () => {
-  return gulp.src(configPath.styles + '**/**/*.scss', {allowEmpty: true})
-    .pipe(sass().on('error', sass.logError))
-    .pipe(postcss([autoprefixer()]))
-    .pipe(gulp.dest(configPath.public + 'styles')) // Non minified
-    .pipe(rename('style.min.css'))
-    .pipe(cleanCSS())
-    .pipe(gulp.dest(configPath.public + 'styles')) // Minified
-});
+// The default (if someone just runs `gulp`) is to run each task in parrallel after cleaning our public folder
+exports.default = series(clean, parallel(styles, scripts, images));
 
 
-// Combine all JS files single file
-gulp.task('scripts', () => {
-  return gulp.src(configPath.scripts + '**/**/*.js', {allowEmpty: true})
-    .pipe(concat('scripts.js'))
-    .pipe(gulp.dest(configPath.public + 'scripts')) // Non minified
-    .pipe(rename('scripts.min.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest(configPath.public + 'scripts')) // Minified
-});
+// The default (if someone just runs `gulp`) is to run each task in parrallel after cleaning our public folder also instructs gulp to watch directories and act accordingly
+exports.dev = series(clean, parallel(styles, scripts, images, watcher));
 
 
-// Move all image assets
-gulp.task('images', () => {
-  return gulp.src(configPath.images + '**/**/**', {allowEmpty: true})
-    .pipe(gulp.dest(configPath.public + 'images'))
-});
-
-
-// Watch
-gulp.task('watch', () => {
-  gulp.watch(configPath.styles + '****/*.scss', gulp.parallel('styles'));
-  gulp.watch(configPath.scripts + '**/**/*.js', gulp.series('scripts'));
-  gulp.watch(configPath.images + '**/**/**', gulp.parallel('images'));
-});
-
-
-// Build
-gulp.task('build', gulp.series('clean', gulp.parallel('styles', 'scripts', 'images')));
-
-
-// Dev
-gulp.task('dev', gulp.series('clean', gulp.parallel('styles', 'scripts', 'images', 'watch')));
+// This is our watcher task that instructs gulp to watch directories and act accordingly
+exports.watch = watcher;
