@@ -1,15 +1,16 @@
 {
   "name": "defence-service-manual",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A service manual for the Ministry of Defence (MoD)",
   "engines": {
     "node": "~16.16.0"
   },
   "main": "app.js",
   "scripts": {
-    "build": "gulp build",
+    "build": "gulp",
     "dev": "gulp dev & node app",
-    "start": "gulp build && node app"
+    "start": "gulp && node app",
+    "watch": "gulp watch"
   },
   "author": "Trevor Saint <hello@trevorsaint.uk> (https://trevorsaint.uk)",
   "license": "MIT",
@@ -38,5 +39,8 @@
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "rename": "^1.0.4"
+  },
+  "devDependencies": {
+    "gulp-if": "^3.0.0"
   }
 }
