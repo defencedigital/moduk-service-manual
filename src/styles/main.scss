@@ -81,7 +81,6 @@ $mod-brand-color: #512B45;
 }
 
 
-
 // Page contents list
 .govuk-list--contents {
   margin-bottom: 30px;
@@ -144,10 +143,6 @@ $mod-brand-color: #512B45;
 .govuk-footer--has-feedback {
   border-top: 10px solid $mod-brand-color;
 }
-
-
-
-
 
 
 // MoD Header
@@ -218,6 +213,17 @@ $mod-brand-color: #512B45;
   a:not([class]) {
     @extend .govuk-link;
     @extend .govuk-link--no-visited-state;
+  }
+
+}
+
+
+// Cards
+.gem-c-cards--no-top-border {
+  overflow: hidden; // Hide border top on first row of cards
+
+  .gem-c-cards__list-item {
+    margin-top: -1px;
   }
 
 }
