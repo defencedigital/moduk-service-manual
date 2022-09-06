@@ -10,7 +10,7 @@ Install the long-term support (LTS) version of <a href="https://nodejs.org/en/">
 
 ### Cloning and running the application
 
-Clone the repo: `git clone https://github.com/trevorsaint/service-manual-mod.git service-manual-mod` and while in the project directory `cd service-manual-mod`, install the required npm packages with: `npm install`.
+Clone the repo: `git clone https://github.com/defencedigital/service-manual-mod.git service-manual-mod` and while in the project directory `cd service-manual-mod`, install the required npm packages with: `npm install`.
 
 ### Running the appplication in development mode
 
