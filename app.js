@@ -101,7 +101,9 @@ if (config.env === 'development') {
   app.listen(config.port - 50, () => {
     browserSync({
       files: [
-        'app/views/**/*.*', 
+        'app/views/**/*.*',
+        'app/partials/**/*.*',
+        'app/layouts/**/*.*',
         'src/styles/**/*.*',
         'src/images/**/*.*',
         'public/**/*.*'

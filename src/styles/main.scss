@@ -6,6 +6,10 @@
 @import "gov-publishing-components/all";
 
 
+// MOD Components
+@import "mod-components/all";
+
+
 html {
   background-color: govuk-colour("light-grey");
 }
@@ -141,7 +145,7 @@ $mod-brand-color: #512B45;
 
 // GOV Footer with feedback
 .govuk-footer--has-feedback {
-  border-top: 10px solid $mod-brand-color;
+  // border-top: 10px solid $mod-brand-color;
 }
 
 
@@ -226,4 +230,13 @@ $mod-brand-color: #512B45;
     margin-top: -1px;
   }
 
+}
+
+
+// GOV.UK Footer overrides
+.govuk-footer__copyright-logo {
+  background: none;
+  padding-top: 0;
+  min-width: auto;
+  text-align: right;
 }

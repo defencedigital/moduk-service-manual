@@ -1,4 +1,82 @@
-<div class="govuk-width-container">
+<div class="mod-feedback govuk-!-display-none-print">
+
+  <div class="mod-feedback__prompt">
+
+    <div class="govuk-width-container">
+
+      <div class="mod-feedback__prompt-questions">
+
+        <h2 class="mod-feedback__prompt-question">Did you find what you are looking for?</h2>
+
+        <ul class="mod-feedback__option-list">
+          <li class="mod-feedback__option-list-item"><button class="govuk-button mod-feedback__prompt-link">Yes <span class="govuk-visually-hidden">this page is useful</span></button></li>
+          <li class="mod-feedback__option-list-item"><button class="govuk-button mod-feedback__prompt-link" aria-controls="page-is-not-useful" aria-expanded="false">No <span class="govuk-visually-hidden">this page is not useful</span></button></li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <form class="mod-feedback__form" method="POST" action="#0" hidden>
+
+    <div class="govuk-width-container">
+
+      <h2 class="govuk-heading-m">Did you find what you are looking for?</h2>
+
+      <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-two-thirds">
+
+            {{ govukTextarea({
+              name: "what-information-are-you-looking-for",
+              id: "what-information-are-you-looking-for",
+              rows: 3,
+              label: {
+                text: "What information are you looking for?"
+              }
+            }) }}
+
+            {{ govukTextarea({
+              name: "what-task-are-you-doing",
+              id: "what-task-are-you-doing",
+              rows: 3,
+              label: {
+                text: "What task are you doing while you look for this information?"
+              }
+            }) }}
+
+            {{ govukInput({
+              label: {
+                text: "Email address (optional)"
+              },
+              type: "email",
+              hint: {
+                text: "We will only contact you to discuss your feedback."
+              },
+              id: "event-name",
+              name: "event-name"
+            }) }}
+
+            {{ govukButton({
+              classes: "govuk-!-margin-bottom-0",
+              text: "Send",
+              type: "submit"
+            }) }}
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </form>
+
+</div>
+
+
+<!--div class="govuk-width-container">
 
   <div class="gem-c-feedback govuk-!-display-none-print">
 
@@ -113,4 +191,4 @@
 
   </div>
 
-</div>
+</div-->
