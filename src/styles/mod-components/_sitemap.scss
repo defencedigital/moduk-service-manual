@@ -1,0 +1,22 @@
+.mod-sitemap {
+  @extend .govuk-list;
+
+  > li {
+    font-weight: bold;
+  }
+
+  ul:not([class]) {
+    @extend .govuk-list;
+    margin-left: 15px;
+  }
+
+  ul:not([class]) ul {
+    margin-bottom: 10px;
+  }
+
+  a:not([class]) {
+    @extend .govuk-link;
+    @extend .govuk-link--no-visited-state;
+  }
+
+}

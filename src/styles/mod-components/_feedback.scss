@@ -9,6 +9,12 @@
 }
 
 
+.mod-feedback__close {
+  float: right;
+  margin: 0 govuk-spacing(1) govuk-spacing(2) 0;
+}
+
+
 .mod-feedback__prompt {
   @include govuk-clearfix;
   background-color: govuk-colour("light-grey");
@@ -24,8 +30,8 @@
 }
 
 
-
-.mod-feedback__prompt-questions {
+.mod-feedback__prompt-questions,
+.mod-feedback__prompt-success {
   box-sizing: border-box;
   padding: govuk-spacing(3) govuk-spacing(5) govuk-spacing(5) govuk-spacing(5);
   text-align: center;
@@ -52,19 +58,20 @@
 }
 
 
-.mod-feedback__prompt-question {
-  vertical-align: top;
+.mod-feedback__prompt-question,
+.mod-feedback__prompt-success {
   display: inline-block;
   margin: govuk-spacing(2) govuk-spacing(4);
+  vertical-align: top;
 
   &:focus {
     outline: 0;
   }
 
   @include govuk-media-query($from: tablet) {
+    display: block;
     margin-left: 0;
     margin-top: 0;
-    display: block;
   }
 
   // This custom media-query is to account for some awkward positioning where the yes and no buttons are too big to sit inline with the prompt question
@@ -116,11 +123,11 @@
   background: transparent;
   box-shadow: 0 2px 0 govuk-colour("black");
   border: 1px govuk-colour("black") solid;
-  min-width: 100%;
   color: inherit;
+  min-width: 100%;
 
   &:hover {
-    // Backup style for browsers that don't support rgba
+    // Backup style for browsers that don’t support RGBA
     background: govuk-colour("black");
     background: rgba(govuk-colour("black"), .2);
     color: inherit;
@@ -140,6 +147,7 @@
 
 .mod-feedback__form {
   background-color: govuk-colour("white");
+  border-top: 1px solid govuk-colour("mid-grey");
   padding: govuk-spacing(3) 0;
 
   @include govuk-media-query($from: tablet) {

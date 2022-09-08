@@ -15,6 +15,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 // Source script files
 const sourceFiles = [
+  'src/scripts/util.js',
   'src/scripts/**/*.js'
 ];
 

@@ -1,0 +1,17 @@
+// Utility classes (JS enabled or disabled)
+.js-enabled {
+
+  .js\:is-hidden {
+    display: none !important;
+  }
+
+}
+
+
+body:not(.js-enabled) {
+
+  .no-js\:is-hidden {
+    display: none !important;
+  }
+
+}

@@ -60,7 +60,8 @@
   }
 }
 
-.gem-c-feedback__prompt-question {
+.gem-c-feedback__prompt-question,
+.gem-c-feedback__prompt-success {
   vertical-align: top;
   display: inline-block;
   margin: govuk-spacing(2) govuk-spacing(4);
