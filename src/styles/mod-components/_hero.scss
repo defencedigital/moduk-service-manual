@@ -1,0 +1,16 @@
+/* -------------------------------- 
+
+Title: Hero
+
+-------------------------------- */
+
+.mod-hero {
+  background-color: $mod-brand-color;
+  margin-top: -1px; // Sits over phase banner 1px border
+
+  .govuk-heading-xl,
+  .govuk-body-l {
+    color: govuk-colour("white");
+  }
+
+}

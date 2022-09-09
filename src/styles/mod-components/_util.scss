@@ -7,11 +7,21 @@
 
 }
 
-
 body:not(.js-enabled) {
 
   .no-js\:is-hidden {
     display: none !important;
+  }
+
+}
+
+
+// Sticky element
+.position-sticky {
+  
+  @include govuk-media-query ($from: desktop) {
+    position: sticky;
+    top: 20px;
   }
 
 }

@@ -1,5 +1,8 @@
+@import "helpers/contents-list-helper";
+
 .gem-c-contents-list {
-  // Always render the contents list above a back to contents link
+  // Always render the contents list above a
+  // back to contents link
   position: relative;
   margin: 0 0 govuk-spacing(4) 0;
   z-index: 1;

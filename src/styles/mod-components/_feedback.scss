@@ -1,3 +1,9 @@
+/* -------------------------------- 
+
+Title: Feedback
+
+-------------------------------- */
+
 .mod-feedback {
   background: govuk-colour("light-grey");
   margin-top: govuk-spacing(6);
@@ -18,33 +24,21 @@
 .mod-feedback__prompt {
   @include govuk-clearfix;
   background-color: govuk-colour("light-grey");
+  box-sizing: border-box;
   color: govuk-colour("black");
   outline: 0;
+  padding: govuk-spacing(2) 0;
+  text-align: center;
 
   @include govuk-media-query($from: tablet) {
     @include govuk-font(16, $weight: bold);
     display: table;
+    text-align: left;
     width: 100%;
   }
 
 }
 
-
-.mod-feedback__prompt-questions,
-.mod-feedback__prompt-success {
-  box-sizing: border-box;
-  padding: govuk-spacing(3) govuk-spacing(5) govuk-spacing(5) govuk-spacing(5);
-  text-align: center;
-
-  @include govuk-media-query($from: tablet) {
-    border-bottom: 0;
-    display: table-cell;
-    padding: govuk-spacing(3) 0;
-    text-align: left;
-    width: 50%;
-  }
-
-}
 
 
 .mod-feedback__prompt-question,
@@ -55,6 +49,30 @@
     @include govuk-font(16, $weight: bold);
   }
 
+}
+
+
+
+.mod-feedback__prompt-question {
+  vertical-align: top;
+  display: inline-block;
+  margin: govuk-spacing(2) govuk-spacing(4);
+
+  &:focus {
+    outline: 0;
+  }
+
+  @include govuk-media-query($from: tablet) {
+    margin-left: 0;
+    margin-top: 0;
+    display: block;
+  }
+
+  // This custom media-query is to account for some awkward positioning where the yes and no buttons are too big to sit inline with the prompt question
+  @include govuk-media-query($from: 950px) {
+    display: inline-block;
+    margin-top: govuk-spacing(2);
+  }
 }
 
 
@@ -101,23 +119,6 @@
 }
 
 
-.mod-feedback__option-list-item {
-  
-  @include govuk-media-query($from: mobile) {
-    display: inline-block;
-  }
-
-}
-
-.mod-feedback__option-list-item:last-child {
-  
-  @include govuk-media-query($from: mobile) {
-    margin-left: govuk-spacing(4);
-  }
-
-}
-
-
 .mod-feedback__prompt-link {
   @include govuk-font(19);
   background: transparent;
@@ -140,6 +141,24 @@
 
   @include govuk-media-query($from: tablet) {
     @include govuk-font(16);
+  }
+
+}
+
+
+.mod-feedback__option-list-item {
+  
+  @include govuk-media-query($from: mobile) {
+    display: inline-block;
+  }
+
+}
+
+
+.mod-feedback__option-list-item:last-child {
+  
+  @include govuk-media-query($from: mobile) {
+    margin-left: govuk-spacing(4);
   }
 
 }
