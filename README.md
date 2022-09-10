@@ -12,7 +12,7 @@ Install the long-term support (LTS) version of <a href="https://nodejs.org/en/">
 
 Clone the repo: `git clone https://github.com/defencedigital/service-manual-mod.git service-manual-mod` and while in the project directory `cd service-manual-mod`, install the required npm packages with: `npm install`.
 
-### Running the appplication in development mode
+### Running the application in development mode
 
 The app will watch for any changes to `CSS`, `JS` and `HTML` and automatically update without the need to refresh your browser.
 
