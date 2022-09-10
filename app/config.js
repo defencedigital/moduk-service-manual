@@ -1,8 +1,11 @@
 // Note: Prototype config can be overridden using environment variables
 module.exports = {
 
+  // Service name
+  serviceName: 'Defence Service Manual',
+
   // Base URL
-  baseURL: process.env.BASE_URL || 'http://localhost',
+  baseURL: process.env.BASE_URL || '/',
 
   // Environment
   env: process.env.NODE_ENV || 'development',

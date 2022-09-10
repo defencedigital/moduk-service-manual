@@ -12,7 +12,7 @@ const images = (cb) => {
 
   return src(sourceFiles, {allowEmpty: true})
 
-    .pipe(dest('public/images'))
+    .pipe(dest('public/assets/images'))
     
     .on('done', cb);
 

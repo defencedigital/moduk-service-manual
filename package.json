@@ -1,6 +1,6 @@
 {
   "name": "defence-service-manual",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A service manual for the Ministry of Defence (MoD)",
   "engines": {
     "node": "~16.16.0"
@@ -10,6 +10,7 @@
     "build": "gulp",
     "dev": "gulp dev & node app",
     "start": "gulp && node app",
+    "prod": "cross-env NODE_ENV=production gulp prod",
     "watch": "gulp watch"
   },
   "author": "Trevor Saint <hello@trevorsaint.uk> (https://trevorsaint.uk)",
@@ -20,6 +21,7 @@
     "browser-sync": "^2.27.10",
     "compression": "^1.7.4",
     "connect-flash": "^0.1.1",
+    "cross-env": "^7.0.3",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "express-flash": "^0.0.2",
@@ -29,6 +31,9 @@
     "gulp-clean": "^0.4.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-nunjucks-render": "^2.2.3",
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
@@ -36,7 +41,6 @@
     "node-sass": "^7.0.1",
     "nunjucks": "^3.2.3",
     "passport": "^0.6.0",
-    "passport-local": "^1.0.0",
-    "gulp-if": "^3.0.0"
+    "passport-local": "^1.0.0"
   }
 }

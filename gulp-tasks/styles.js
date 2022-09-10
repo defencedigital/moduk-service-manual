@@ -37,7 +37,7 @@ const styles = (cb) => {
 
     .pipe(gulpif(isProduction, cleanCSS({ level: 2 })))
 
-    .pipe(dest('public/styles'))
+    .pipe(dest('public/assets/styles'))
 
     .on('done', cb);
   
