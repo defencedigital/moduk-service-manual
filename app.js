@@ -78,11 +78,11 @@ app.set('view engine', 'njk');
 
 // Nunjucks configuration
 const appViews = [
+  path.join(__dirname, '/node_modules/govuk-frontend'),
   path.join(__dirname, '/app/views'),
   path.join(__dirname, '/app/layouts'),
   path.join(__dirname, '/app/partials'),
-  path.join(__dirname, '/app/components'),
-  path.join(__dirname, '/node_modules/govuk-frontend')
+  path.join(__dirname, '/app/components')
 ];
 
 nunjucks.configure(appViews, {
@@ -105,6 +105,7 @@ if (config.env === 'development') {
         'app/partials/**/*.*',
         'app/layouts/**/*.*',
         'src/styles/**/*.*',
+        'src/scripts/**/*.*',
         'src/images/**/*.*',
         'public/**/*.*'
       ],

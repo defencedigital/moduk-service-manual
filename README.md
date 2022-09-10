@@ -2,18 +2,41 @@
 
 Helping you meet service standards and do your role in Defence.
 
-## Running the application locally
-
-### Prerequisite
-
 Install the long-term support (LTS) version of <a href="https://nodejs.org/en/">Node.js</a>, which includes npm.
 
-### Cloning and running the application
+## Run app for development
 
-Clone the repo: `git clone https://github.com/defencedigital/service-manual-mod.git service-manual-mod` and while in the project directory `cd service-manual-mod`, install the required npm packages with: `npm install`.
+### 1. Clone repo
 
-### Running the application in development mode
+```
+git clone https://github.com/defencedigital/service-manual-mod.git service-manual-mod
+```
 
-The app will watch for any changes to `CSS`, `JS` and `HTML` and automatically update without the need to refresh your browser.
+### 2. Navigate to project folder
 
-Run the project in development mode `npm run dev` and visit <a href="http://localhost:3000">http://localhost:3000</a>.
+```
+cd service-manual-mod
+```
+
+### 3. Install npm packages
+
+```
+npm install
+```
+
+### 4. Run app
+Watch for changes to `CSS`, `JS`, `Images`, `Nunjucks`. Automatically update the browser, without the need for a manual refresh.
+
+```
+npm run dev
+```
+
+Visit: <a href="http://localhost:3000">http://localhost:3000</a>
+
+## Build app for production
+
+Render `CSS`, `JS`, `Images`, `Nunjucks`. Compress files and generate `HTML` pages, ready for production.
+
+```
+npm run prod
+```

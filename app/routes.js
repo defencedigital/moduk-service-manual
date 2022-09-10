@@ -7,6 +7,8 @@ module.exports = function(app, passport) {
 
 
   app.use(function (req, res, next) {
+    res.locals.baseURL = config.baseURL;
+    res.locals.serviceName = config.serviceName;
     res.locals.signedIn = req.isAuthenticated();
     next();
   });

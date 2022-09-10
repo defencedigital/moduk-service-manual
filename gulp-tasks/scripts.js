@@ -29,7 +29,7 @@ const scripts = (cb) => {
 
     .pipe(gulpif(isProduction, uglify()))
 
-    .pipe(dest('public/scripts'))
+    .pipe(dest('public/assets/scripts'))
     
     .on('done', cb);
 

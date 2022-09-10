@@ -19,7 +19,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{% if pageTitle %}{{ pageTitle }} - Defence Service Manual{% else %}Defence Service Manual{% endif %}</title>
+    <title>{% if pageTitle %}{{ pageTitle }} - {{ serviceName }}{% else %}{{ serviceName }}{% endif %}</title>
 
     {# Search Engine #}
     <meta name="description" content="{% if pageDescription %}{{pageDescription}}{% else %}Helping you meet service standards and do your role in Defence{% endif %}">
@@ -29,11 +29,11 @@
 
     {# Windows tiles #}
     <meta name="msapplication-TileColor" content="#4D2942">
-    <meta name="msapplication-TileImage" content="/images/tile-310x150.png">
-    <meta name="msapplication-square70x70logo" content="/images/tile-70x70.png">
-    <meta name="msapplication-square150x150logo" content="/images/tile-150x150.png">
-    <meta name="msapplication-wide310x150logo" content="/images/tile-310x150.png">
-    <meta name="msapplication-square310x310logo" content="/images/tile-310x310.png">
+    <meta name="msapplication-TileImage" content="{{ baseURL }}assets/images/tile-310x150.png">
+    <meta name="msapplication-square70x70logo" content="{{ baseURL }}assets/images/tile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="{{ baseURL }}assets/images/tile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="{{ baseURL }}assets/images/tile-310x150.png">
+    <meta name="msapplication-square310x310logo" content="{{ baseURL }}assets/images/tile-310x310.png">
 
     {# iOS #}
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -41,19 +41,19 @@
     <meta name="apple-mobile-web-app-title" content="Defence Service Manual">
 
     {# Apple touch icon #}
-    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="{{ baseURL }}assets/images/apple-touch-icon.png">
 
     {# Mask icon #}
-    <link rel="mask-icon" href="/images/mask-icon.svg" color="#000000">
+    <link rel="mask-icon" href="{{ baseURL }}assets/images/mask-icon.svg" color="#000000">
 
     {# Fav icon #}
-    <link rel="icon" href="/images/favicon.png">
+    <link rel="icon" href="{{ baseURL }}assets/images/favicon.png">
 
     {# Opengraph #}
-    <meta property="og:image" content="/images/opengraph.png">
+    <meta property="og:image" content="{{ baseURL }}assets/images/opengraph.png">
 
     {# Stylesheet #}
-    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="{{ baseURL }}assets/styles/main.css">
 
   </head>
 
@@ -88,9 +88,9 @@
 
     {% include "_footer.njk" ignore missing %}
 
-    {% block pageScripts %}{% endblock %}
+    <script src="{{ baseURL }}assets/scripts/scripts.js"></script>
 
-    <script src="/scripts/scripts.js"></script>
+    {% block pageScripts %}{% endblock %}
 
   </body>
 </html>
