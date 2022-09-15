@@ -1,6 +1,6 @@
 {% extends "guidance.njk" %}
 
-{% set pageTitle       = "Store and share information securely" %}
+{% set pageTitle       = "How to classify information" %}
 {% set pageDescription = "" %}
 {% set sectionTitle    = "Security" %}
 
@@ -13,19 +13,25 @@
 
 <div class="mod-prose">
 
-  <h2 id="how-to-classify-information-in-defence">How to classify information in Defence</h2>
-
   <p>In the UK and internationally, security classifications are used to protect different kinds of information.</p>
 
-  <p>You should be aware of the security classification of any information you deal with. This includes when you are speaking, adding comments to a Concept board or sending a Slack message.</p>
+  <p>Be aware of the security classification of all information you deal with. This includes when you:
 
-  <p>When you create new information or capture new data, check how to classify it.</p>
+  <ul>
+      <li>speak in meetings</li>
+      <li>add comments to online tools, like Conceptboard</li>
+      <li>write and share messages in MS Teams and Slack</li>
+  </ul>
 
-  <h3>Levels of security classification</h3>
+  <h2 id="security-classifications-in-Defence">Security classifications in Defence</h2>
 
-  <p>In Defence, like all other UK Government departments, we use 3 levels of security classification. Each level needs different security controls based on the consequences of the information being shared.</p>
+  <p>In Defence, like all other UK Government departments, we use 3 levels of security classification.</p>
 
-  <h4>OFFICIAL</h4>
+  {{ govukInsetText({
+    text: "When you create new information or capture new data, check how to classify it."
+  }) }}
+
+  <h3>OFFICIAL</h3>
 
   <p>The majority of information created or used in Defence is at OFFICIAL level. The consequences of this information being shared are similar to those faced by a large private company with valuable information.</p>
 
@@ -38,7 +44,7 @@
     <li>public safety, criminal justice and enforcement activities</li>
   </ul>
 
-  <h4>SECRET</h4>
+  <h3>SECRET</h3>
 
   <p>Some information in Defence is considered very sensitive and must be protected from any highly capable people or organisations that are determined to cause harm.</p>
 
@@ -52,7 +58,7 @@
 
   <p>You will usually know that you are working on information or systems classified as SECRET.</p>
 
-  <h4>TOP SECRET</h4>
+  <h3>TOP SECRET</h3>
 
   <p>A small amount of information in Defence must be protected from the most serious threats.</p>
 
@@ -66,7 +72,7 @@
 
   <p>It will be clear that you are working on information or systems that are TOP SECRET.</p>
 
-  <h3>How to label information in Defence</h3>
+  <h2 id="how-to-label-information">How to label information</h2>
 
   <p>You need to label information correctly so that people understand how to protect and share it.
 
@@ -74,7 +80,7 @@
 
   <p>When you send emails on a MODnet device, you will be asked to select the security classification.</p>
 
-  <h4>Do not over classify information</h4>
+  <h3>Do not over classify information</h3>
 
   <p>It can be tempting to put OFFICIAL information into a higher classification. This goes against the government principle of open data and can lead to unnecessary and expensive controls.</p>
 
@@ -82,7 +88,7 @@
 
   <p>Managing SECRET information is at least 10 times more expensive than OFFICIAL information.</p>
 
-  <h4>Labelling OFFICIAL information</h4>
+  <h3>Labelling OFFICIAL information</h3>
 
   <p>You do not need to label OFFICIAL information. However, if the information can be printed you should label it at the top and bottom of each page.</p>
 
@@ -92,7 +98,7 @@
     text: "You must only use OFFICIAL-SENSITIVE as an exception and have evidence to support your decision."
   }) }}
 
-  <h4>Use OFFICIAL-SENSITIVE correctly</h4>
+  <h3>Use OFFICIAL-SENSITIVE correctly</h3>
 
   <p>OFFICIAL-SENSITIVE is not a separate security classification. It is a way of identifying sensitive information that can be stored on OFFICIAL systems.</p>
 
@@ -103,7 +109,7 @@
     <li>systems designed to protect all types of sensitive data when they only handle some sensitive data or none at all</li>
   </ul>
 
-  <h4>OFFICIAL-SENSITIVE additional details</h4>
+  <h3>OFFICIAL-SENSITIVE additional details</h3>
 
   <p>If you need to use OFFICIAL-SENSITIVE, you should add more information: OFFICIAL-SENSITIVE [descriptor].</p>
 
@@ -115,7 +121,7 @@
     <li>PERSONAL for sensitive information that can be linked to an individual</li>
   </ul>
 
-  <h4>Labelling SECRET and TOP SECRET information</h4>
+  <h3>Labelling SECRET and TOP SECRET information</h3>
 
   {{ govukInsetText({
     text: "You must label SECRET and TOP SECRET information."
@@ -125,13 +131,11 @@
 
   <p>If you are sharing SECRET or TOP-SECRET information internationally, you need to add additional details to the label. Check the <a href="#0">guidance on labelling information shared internationally</a>.</p>
 
-  <h3>Classifying large amounts of data</h3>
+  <h2 id="classifying-large-amounts-of-data">Classifying large amounts of data</h2>
 
   <p>Some products and services in Defence create or process large amounts of data. These projects usually have a data owner. To classify data correctly, the data owner needs to fully understand how sensitive it is and the likely threats.</p>
 
-  <h3>Useful links</h3>
-
-  <p>You may also find these links useful:</p>
+  <h3>Related content</h3>
 
   <ul>
     <li><a href="#0" rel="external nofollow">Government security classifications</a></li>
