@@ -1,0 +1,82 @@
+{% extends "guidance.njk" %}
+
+{% set pageTitle       = "Share user research findings correctly" %}
+{% set pageDescription = "" %}
+{% set sectionTitle    = "User research" %}
+
+{% block breadcrumb %}
+  {% include "_user-research-breadcrumb.njk" %}
+{% endblock %}
+
+{# Main contents #}
+{% block bodyContent %}
+
+<div class="mod-prose">
+
+  <h2 id="protect-participants-data-and-identities">Protect participants’ data and identities</h2>
+
+  <p>Before sharing user research findings, in reports or during presentations, remove all information that could be used to identify participants. This includes:</p>
+
+  <ul>
+    <li>names</li>
+    <li>contact details</li>
+    <li>real data entered in a prototype</li>
+  </ul>
+
+  <p>If you have participants from a small team or area in Defence, consider what other information could give away their identity. It could be things like their job title or ethnic background.</p>
+
+  {{ govukInsetText({
+    text: "You must never share personal, sensitive or real data in documents or presentations."
+  }) }}
+
+  <p>For projects that present personal or sensitive data, ask your team to create dummy data that can be shared.</p>
+
+  <p>Find out <a href="#0">how to make user research data anonymous</a>.</p>
+
+  <h3>Recording presentations</h3>
+
+  <p>Even if a participant has agreed that you can use a video recording, make sure they are comfortable sharing the clips you have chosen.</p>
+
+  <p>If you are recording a session including videos of participants, pause the recording while you show the clips. We cannot control how widely recordings are shared. They may be used in ways that are not covered in the consent form.</p>
+
+  <p>Check <a href="#0">what we cover in consent forms</a>.</p>
+
+  <h2 id="share-findings-with-the-defence-community">Share findings with the Defence community</h2>
+
+  <p>We must avoid doing similar research with the same groups of participants across Defence. Before starting your user research, ask the user-centred design (UCD) community if there is any existing data that you can reuse.</p>
+
+  <p>When you have new user research findings, share them with the UCD community in Defence. Others may be able to use what you have discovered. You can share reports on internal Slack channels or present at the regular community meetings.</p>
+
+  <p>Check <a href="#0">how to contact the UCD community</a>.</p>
+
+  <h2 id="related-links">Related links</h2>
+
+  <ul>
+    <li><a href="https://www.gov.uk/data-protection" rel="external nofollow">The Data Protection Act</a></li>
+  </ul>
+
+</div>
+
+{% endblock %}
+
+{# Contents list #}
+{% block contentsList %}
+
+  {{ govukContentsList({
+    items: [
+      {
+        href: "#protect-participants-data-and-identities",
+        text: "Protect participants’ data and identities"
+      },
+      {
+        href: "#share-findings-with-the-defence-community",
+        text: "Share findings with the Defence community"
+      },
+      {
+        href: "#related-links",
+        text: "Related links"
+      }
+    ]
+  }) }}
+
+{% endblock %}

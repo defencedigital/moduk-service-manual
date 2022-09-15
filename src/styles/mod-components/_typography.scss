@@ -31,6 +31,11 @@ Title: Typography
     @extend .govuk-list--bullet;
   }
 
+  ol:not([class]) {
+    @extend .govuk-list;
+    @extend .govuk-list--number;
+  }
+
   ul:not([class]) ul,
   ul:not([class]) ul ul {
     @extend .govuk-list;
@@ -41,6 +46,13 @@ Title: Typography
   a:not([class]) {
     @extend .govuk-link;
     @extend .govuk-link--no-visited-state;
+  }
+
+  // Exceptions to the rules
+  ol.govuk-list--spaced {
+    @extend .govuk-list;
+    @extend .govuk-list--number;
+    @extend .govuk-list--spaced;
   }
 
 }
