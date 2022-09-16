@@ -23,6 +23,10 @@ Title: Overrides
   text-align: right;
 }
 
+.govuk-footer__meta {
+  justify-content: flex-start;
+}
+
 
 // Change colour of phase banner tag
 .govuk-tag--mod {
