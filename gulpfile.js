@@ -27,7 +27,7 @@ exports.default = series(clean, parallel(styles, scripts, images));
 exports.dev = series(clean, parallel(styles, scripts, images, watcher));
 
 
-// Runs each task in parrallel after cleaning our public folder and minifies HTML ready for production. Also validates the generated HTML files
+// Runs each task in parrallel after cleaning our public folder and minifies HTML ready for production. Also validates the generated HTML files for problems
 exports.prod = series(clean, parallel(styles, scripts, images, nunjucks), html, validate);
 
 

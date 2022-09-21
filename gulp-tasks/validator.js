@@ -1,11 +1,11 @@
-const { src } = require('gulp');
+const { dest, src } = require('gulp');
 
-const htmlValidator = require('gulp-w3c-html-validator');
+const htmlValidator = require('gulp-html');
 
 
 // Source files
 const sourceFiles = [
-  'public/**/*.html'
+  'public/**/**/*.html'
 ];
 
 
@@ -14,9 +14,11 @@ const validate = (cb) => {
     
   return src(sourceFiles, {allowEmpty: true})
 
-  .pipe(htmlValidator.analyzer())
+  .pipe(htmlValidator({
+    'errors-only': true
+  }))
 
-  .pipe(htmlValidator.reporter())
+  .pipe(dest('public'))
 
   .on('done', cb);
 
