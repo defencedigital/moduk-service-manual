@@ -35,7 +35,7 @@ Visit: <a href="http://localhost:3000">http://localhost:3000</a>
 
 ## Build app for production
 
-Render `CSS`, `JS`, `Images`, `Nunjucks`. Compress files and generate `HTML` pages, ready for production.
+Render `CSS`, `JS`, `Images`, `Nunjucks`. Compress files and generates `HTML` pages, ready for production. It also performs a [W3C validation](https://validator.w3.org) on `HTML`, to ensure everything is valid.
 
 ```
 npm run prod
