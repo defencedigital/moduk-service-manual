@@ -5,7 +5,24 @@
 {% set sectionTitle    = "Accessibility" %}
 
 {% block breadcrumb %}
-  {% include "_accessibility-breadcrumb.njk" %}
+<div class="govuk-width-container">
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Defence Service Manual",
+        href: baseURL
+      },
+      {
+        text: "Accessibility",
+        href: baseURL + "accessibility"
+      },
+      {
+        text: "Meet accessibility regulations",
+        href: baseURL + "accessibility/meet-accessibility-regulations"
+      }
+    ]
+  }) }}
+</div>
 {% endblock %}
 
 {# Main contents #}
