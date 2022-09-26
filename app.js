@@ -79,6 +79,7 @@ app.set('view engine', 'njk');
 // Nunjucks configuration
 const appViews = [
   path.join(__dirname, '/node_modules/govuk-frontend'),
+  path.join(__dirname, '/src/components'),
   path.join(__dirname, '/app'),
   path.join(__dirname, '/app/views'),
   path.join(__dirname, '/app/layouts'),
@@ -101,10 +102,10 @@ if (config.env === 'development') {
   app.listen(config.port - 50, () => {
     browserSync({
       files: [
-        'app/components/**/*.*',
         'app/views/**/*.*',
         'app/partials/**/*.*',
         'app/layouts/**/*.*',
+        'src/components/**/*.*',
         'src/styles/**/*.*',
         'src/scripts/**/*.*',
         'src/images/**/*.*',

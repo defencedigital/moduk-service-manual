@@ -13,9 +13,9 @@ const validate = require('./gulp-tasks/validator.js');
 
 // Set each directory and contents that we want to watch and assign the relevant task. `ignoreInitial` set to true will prevent the task being run when we run `gulp watch`, but it will run when a file changes
 const watcher = () => {
-  watch(['./src/styles/**/**/*.scss', './app/components/**/**/*.scss'], {ignoreInitial: true}, styles);
-  watch('./src/scripts/**/**/*.js', {ignoreInitial: true}, scripts);
-  watch('./src/images/**/**/*.*', {ignoreInitial: true}, images);
+  watch('./src/**/**/*.scss', {ignoreInitial: true}, styles);
+  watch('./src/assets/scripts/**/**/*.js', {ignoreInitial: true}, scripts);
+  watch('./src/assets/images/**/**/*.*', {ignoreInitial: true}, images);
 };
 
 

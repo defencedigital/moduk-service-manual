@@ -18,7 +18,7 @@ const nunjucks = (cb) => {
     .pipe(nunjucksRender({
       path: [
         'node_modules/govuk-frontend',
-        'app/components',
+        'src/components',
         'app/layouts',
         'app/views',
         'app/partials'
