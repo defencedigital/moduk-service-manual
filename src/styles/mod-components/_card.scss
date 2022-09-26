@@ -5,7 +5,7 @@ Title: Card
 -------------------------------- */
 
 .mod-card {
-  border-top: 1px solid $govuk-border-colour;
+  border-top: 1px solid govuk-colour("mid-grey");
   padding-right: 15px;
   padding-top: 20px;
 }

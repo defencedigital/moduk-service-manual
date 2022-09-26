@@ -3,8 +3,8 @@
   margin-top: govuk-spacing(6);
 
   @include govuk-media-query($from: tablet) {
-    margin-top: govuk-spacing(9);
     border-bottom: 1px solid govuk-colour("white");
+    margin-top: govuk-spacing(9);
   }
 
   // Scoped to the feedback component temporarily
@@ -15,27 +15,29 @@
 }
 
 .gem-c-feedback__prompt-questions {
-  text-align: center;
   border-bottom: 1px solid govuk-colour("white");
-  padding: govuk-spacing(5) govuk-spacing(5) govuk-spacing(5) govuk-spacing(5);
   box-sizing: border-box;
+  padding: govuk-spacing(5);
+  text-align: center;
 
   @include govuk-media-query($from: tablet) {
-    width: 50%;
+    border-bottom: 0;
     display: table-cell;
     text-align: left;
-    border-bottom: 0;
+    width: 50%;
   }
+
 }
 
 .gem-c-feedback__prompt-questions--something-is-wrong {
   text-align: center;
 
   @include govuk-media-query($from: tablet) {
+    float: none;
     text-align: right;
     vertical-align: bottom;
-    float: none;
   }
+
 }
 
 .gem-c-feedback__prompt {
@@ -49,6 +51,7 @@
     display: table;
     width: 100%;
   }
+
 }
 
 .gem-c-feedback__prompt-question,
@@ -58,22 +61,23 @@
   @include govuk-media-query($from: tablet) {
     @include govuk-font(16, $weight: bold);
   }
+
 }
 
 .gem-c-feedback__prompt-question,
 .gem-c-feedback__prompt-success {
-  vertical-align: top;
   display: inline-block;
   margin: govuk-spacing(2) govuk-spacing(4);
+  vertical-align: top;
 
   &:focus {
     outline: 0;
   }
 
   @include govuk-media-query($from: tablet) {
+    display: block;
     margin-left: 0;
     margin-top: 0;
-    display: block;
   }
 
   // This custom media-query is to account for some awkward positioning where the yes and no buttons are too big to sit inline with the prompt question
@@ -81,6 +85,7 @@
     display: inline-block;
     margin-top: govuk-spacing(2);
   }
+
 }
 
 .gem-c-feedback__prompt-link {
@@ -91,7 +96,7 @@
   min-width: 100%;
 
   &:hover {
-    // backup style for browsers that don't support rgba
+    // backup style for browsers that don’t support rgba
     background: govuk-colour("black");
     background: rgba(govuk-colour("black"), .2);
   }
@@ -104,6 +109,7 @@
   @include govuk-media-query($from: tablet) {
     @include govuk-font(16);
   }
+
 }
 
 .gem-c-feedback__email-link,
@@ -118,13 +124,14 @@
   &:focus {
     color: $govuk-focus-text-colour;
   }
+
 }
 
 .gem-c-feedback__option-list {
   list-style-type: none;
   margin: 0;
-  padding: 0;
   margin-top: govuk-spacing(2);
+  padding: 0;
 
   @include govuk-media-query($from: mobile) {
     display: inline-block;
@@ -134,6 +141,7 @@
   @include govuk-media-query($from: tablet) {
     margin-top: 0;
   }
+
 }
 
 .gem-c-feedback__option-list-item {
@@ -150,10 +158,10 @@
 
 // Feedback form styles
 .gem-c-feedback__error-summary {
-  margin-bottom: govuk-spacing(3);
-  padding: govuk-spacing(3);
   border: solid $govuk-border-width-narrow $govuk-error-colour;
   clear: both;
+  margin-bottom: govuk-spacing(3);
+  padding: govuk-spacing(3);
 
   &:focus {
     outline: solid 3px $govuk-focus-colour;
@@ -185,18 +193,19 @@
 
 .gem-c-feedback__error-message {
   @include govuk-font(19, $weight: bold);
+  color: $govuk-error-colour;
   display: block;
   padding: 4px 0 0;
-  color: $govuk-error-colour;
 }
 
 .gem-c-feedback__form {
-  padding: govuk-spacing(3) 0;
   border-top: govuk-spacing(2) solid govuk-colour("blue");
+  padding: govuk-spacing(3) 0;
 
   @include govuk-media-query($from: tablet) {
     padding: govuk-spacing(6) 0;
   }
+
 }
 
 .gem-c-feedback__form-heading {
@@ -231,17 +240,18 @@
     margin-top: govuk-spacing(2);
     margin-left: govuk-spacing(3);
   }
+
 }
 
-// static.css on GOV.UK overwrites the component styles using input[type="text"]
-// so we need to apply  govuk-input styles using a stronger selector
+// static.css on GOV.UK overwrites the component styles using input[type="text"] so we need to apply  govuk-input styles using a stronger selector
 .gem-c-feedback .gem-c-input[type="text"] {
   @include govuk-font($size: 19);
+  border: $govuk-border-width-form-element solid $govuk-input-border-colour;
   margin: 0;
   padding: govuk-spacing(1);
-  border: $govuk-border-width-form-element solid $govuk-input-border-colour;
 
   &:focus {
     outline: $govuk-focus-width solid $govuk-focus-colour;
   }
+
 }

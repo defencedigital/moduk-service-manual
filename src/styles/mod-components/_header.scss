@@ -5,7 +5,7 @@ Title: Header
 -------------------------------- */
 
 .mod-header__container {
-  border-bottom-color: $mod-brand-color;
+  border-bottom-color: $govuk-brand-colour;
 }
 
 .mod-header__logo {
@@ -13,11 +13,12 @@ Title: Header
   padding-right: govuk-spacing(8);
 
   @include govuk-media-query ($from: desktop) {
-    width: 33.33%;
-    padding-right: $govuk-gutter-half;
     float: left;
+    padding-right: $govuk-gutter-half;
     vertical-align: top;
+    width: 33.33%;
   }
+
 }
 
 .mod-header__logo-link {

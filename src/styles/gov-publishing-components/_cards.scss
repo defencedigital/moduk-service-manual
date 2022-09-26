@@ -28,8 +28,7 @@
     // breakpoints
     grid-template-columns: fractions(3);
 
-    // For browsers that don't support CSS grid, constrain the width to 50% to improve usability
-    // especially for screen magnifier users
+    // For browsers that don’t support CSS grid, constrain the width to 50% to improve usability especially for screen magnifier users
     width: 50%;
 
     // Reset the width for browsers that support CSS grid
@@ -47,16 +46,13 @@
 
 .gem-c-cards__list-item {
   border-top: 1px solid $govuk-border-colour;
-  // We use grid to split the container into column widths, so manage the horizontal spacing with
-  // internal margins.
+  // We use grid to split the container into column widths, so manage the horizontal spacing with internal margins.
   margin: 0 govuk-spacing(3);
   padding: govuk-spacing(1) 0 govuk-spacing(4) 0;
 }
 
 .gem-c-cards__list-item-wrapper {
-  // this wrapper ensures that the clickable area of the card only
-  // covers the area of the card containing text so in a grid of cards
-  // there is space above and below each link
+  // This wrapper ensures that the clickable area of the card only covers the area of the card containing text so in a grid of cards there is space above and below each link
   padding: govuk-spacing(2) govuk-spacing(6) govuk-spacing(2) 0;
   position: relative;
 }
@@ -80,8 +76,8 @@
     $dimension: 7px;
     $width: 3px;
 
-    border-right: $width solid $govuk-brand-colour;
-    border-top: $width solid $govuk-brand-colour;
+    border-right: $width solid govuk-colour("blue");
+    border-top: $width solid govuk-colour("blue");
     content: "";
     height: $dimension;
     position: absolute;
