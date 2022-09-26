@@ -30,11 +30,11 @@ Title: Overrides
 
 // Change colour of phase banner tag
 .govuk-tag--mod {
-  background-color: $mod-brand-color;
+  background-color: $govuk-brand-colour;
 }
 
 
 // Related navigation
 .gem-c-related-navigation {
-  border-top: 1px solid $govuk-border-colour;
+  border-top: 1px solid $govuk-brand-colour;
 }

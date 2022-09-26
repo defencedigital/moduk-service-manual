@@ -26,7 +26,7 @@ Description: Help users understand more easily what they should and should’nt 
 
 .mod-do-dont__label {
   @include govuk-font(24, $weight: bold);
-  background-color: $mod-brand-color;
+  background-color: $govuk-brand-colour;
   color: govuk-colour("white");
   display: inline-block;
   margin: 0 0 govuk-spacing(2) -26px; // Extra 1px accounts for the border
