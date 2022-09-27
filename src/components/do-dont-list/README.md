@@ -80,13 +80,13 @@
   "type": 'cross',
   "items": [
     {
-      "item": 'Classify information higher than it needs'
+      "item": 'classify information higher than it needs'
     },
     {
-      "item": 'Share anything in person or online that is not OFFICIAL'
+      "item": 'share anything in person or online that is not OFFICIAL'
     },
     {
-      "item": 'Use OFFICIAL-SENSITIVE as a security classification'
+      "item": 'use OFFICIAL-SENSITIVE as a security classification'
     }
   ]
 }) }}
