@@ -23,29 +23,11 @@
       <li>write and share messages in MS Teams and Slack</li>
   </ul>
 
-  {{ modList({
-    "title": 'Do',
-    "type": 'tick',
-    "items": [
-      {
-        "item": 'Know the classification of all the information you deal with'
-      },
-      {
-        "item": 'Check how to classify information correctly'
-      },
-      {
-        "item": 'Write classifications in all capitals'
-      }
-    ]
-  }) }}
+  <p>When you send emails on a MODnet device, you will be asked to select the security classification.</p>
 
   <h2 id="security-classifications-in-defence">Security classifications in Defence</h2>
 
-  <p>In Defence, like all other UK Government departments, we use 3 levels of security classification.</p>
-
-  {{ govukInsetText({
-    text: "When you create new information or capture new data, check how to classify it."
-  }) }}
+  <p>In Defence, like all other UK Government departments, we use 3 levels of security classification. When you create new information or capture new data, check how to classify it.</p>
 
   <h3>OFFICIAL</h3>
 
@@ -92,6 +74,22 @@
 
   <p>You need to label information correctly so that people understand how to protect and share it.</p>
 
+   {{ modList({
+    "title": 'Do',
+    "type": 'tick',
+    "items": [
+      {
+        "item": 'Know the classification of all the information you deal with'
+      },
+      {
+        "item": 'Check how to classify information correctly'
+      },
+      {
+        "item": 'Write classifications in all capitals'
+      }
+    ]
+  }) }}
+
   {{ modList({
     "title": 'Don’t',
     "type": 'cross',
@@ -105,38 +103,33 @@
     ]
   }) }}
 
-  <p>You must write security classification labels in all capitals, for example SECRET.</p>
-
-  <p>When you send emails on a MODnet device, you will be asked to select the security classification.</p>
-
   <h3>Do not over classify information</h3>
 
   <p>It can be tempting to put OFFICIAL information into a higher classification. This goes against the government principle of open data and can lead to unnecessary and expensive controls.</p>
 
-  <p>If you classify information higher than is needed, your users may struggle to access it. For example, services classified as SECRET do not let users access the internet.</p>
-
   <p>Managing SECRET information is at least 10 times more expensive than OFFICIAL information.</p>
+  
+  <p>If you classify information higher than needed, your users may struggle to access it. For example, services classified as SECRET do not let users access the internet.</p>
 
   <h3>Labelling OFFICIAL information</h3>
 
   <p>You do not need to label OFFICIAL information. However, if the information can be printed you should label it at the top and bottom of each page.</p>
 
-  <p>A small amount of OFFICIAL information is sensitive and should only be shared with people who need to know it. In these cases, you can label data as OFFICIAL-SENSITIVE.</p>
-
-  {{ govukInsetText({
-    text: "You must only use OFFICIAL-SENSITIVE as an exception and have evidence to support your decision."
-  }) }}
+  <p>A small amount of OFFICIAL information is sensitive and should only be shared with people who need to know it.</p>
+    
+  <p>OFFICIAL-SENSITIVE is not a separate security classification. It is a way of identifying sensitive information that can be stored on OFFICIAL systems.</p>
 
   <h3>Use OFFICIAL-SENSITIVE correctly</h3>
-
-  <p>OFFICIAL-SENSITIVE is not a separate security classification. It is a way of identifying sensitive information that can be stored on OFFICIAL systems.</p>
 
   <p>Using OFFICIAL-SENSITIVE as a security classification can lead to dangerous practices including:</p>
 
   <ul>
     <li>all data being treated as equally sensitive</li>
-    <li>systems designed to protect all types of sensitive data when they only handle some sensitive data or none at all</li>
+    <li>designing systems to protect all types of sensitive data when they only handle some sensitive data or none at all</li>
   </ul>
+
+ <p>Only use OFFICIAL-SENSITIVE as a label if have evidence to support your decision.</p>
+
 
   <h4>Add a descriptor to OFFICIAL-SENSITIVE</h4>
 
