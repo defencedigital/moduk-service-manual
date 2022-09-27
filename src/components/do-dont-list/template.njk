@@ -8,7 +8,7 @@
       <span class="mod-do-dont__cross" aria-hidden="true"></span>
     {%- else %}
       <span class="mod-do-dont__tick" aria-hidden="true"></span>
-    {%- endif %}{{- data.item | safe -}}
+    {%- endif %}{% if params.type == 'cross' %}{% if not params.hidePrefix %}do not {% endif %}{% endif %}{{ data.item | safe}}
     </li>
     {%- endfor %}
   </ul>
