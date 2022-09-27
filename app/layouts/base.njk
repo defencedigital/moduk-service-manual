@@ -67,12 +67,12 @@
     {% include "_mod-header.njk" ignore missing %}
 
     {% if phaseBanner != false %}
-    {% include "_phase-banner.njk" ignore missing %}
+      {% include "_phase-banner.njk" ignore missing %}
     {% endif %}
 
     {# Breadcrumb #}
     {% if breadcrumb != false %}
-    {% block breadcrumb %}{% endblock %}
+      {% block breadcrumb %}{% endblock %}
     {% endif %}
 
     {# Outer body #}
