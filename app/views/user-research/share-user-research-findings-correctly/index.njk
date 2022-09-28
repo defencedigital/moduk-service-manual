@@ -8,58 +8,48 @@
   {% include "../_breadcrumb.njk" %}
 {% endblock %}
 
-{# Main contents #}
 {% block bodyContent %}
 
-<div class="mod-prose">
+## Protect participants’ data and identities
 
-  <h2 id="protect-participants-data-and-identities">Protect participants’ data and identities</h2>
+Before sharing user research findings, in reports or during presentations, remove all information that could be used to identify participants. This includes:
 
-  <p>Before sharing user research findings, in reports or during presentations, remove all information that could be used to identify participants. This includes:</p>
+- names
+- contact details
+- real data entered in a prototype
 
-  <ul>
-    <li>names</li>
-    <li>contact details</li>
-    <li>real data entered in a prototype</li>
-  </ul>
+If you have participants from a small team or area in Defence, consider what other information could give away their identity. It could be things like their job title or ethnic background.
 
-  <p>If you have participants from a small team or area in Defence, consider what other information could give away their identity. It could be things like their job title or ethnic background.</p>
+{{ govukInsetText({
+  text: "You must never share personal, sensitive or real data in documents or presentations."
+}) }}
 
-  {{ govukInsetText({
-    text: "You must never share personal, sensitive or real data in documents or presentations."
-  }) }}
+For projects that present personal or sensitive data, ask your team to create dummy data that can be shared.
 
-  <p>For projects that present personal or sensitive data, ask your team to create dummy data that can be shared.</p>
+Find out [how to make user research data anonymous](#0).
 
-  <p>Find out <a href="#0">how to make user research data anonymous</a>.</p>
+### Recording presentations
 
-  <h3>Recording presentations</h3>
+Even if a participant has agreed that you can use a video recording, make sure they are comfortable sharing the clips you have chosen.
 
-  <p>Even if a participant has agreed that you can use a video recording, make sure they are comfortable sharing the clips you have chosen.</p>
+If you are recording a session including videos of participants, pause the recording while you show the clips. We cannot control how widely recordings are shared. They may be used in ways that are not covered in the consent form.
 
-  <p>If you are recording a session including videos of participants, pause the recording while you show the clips. We cannot control how widely recordings are shared. They may be used in ways that are not covered in the consent form.</p>
+Check [what we cover in consent forms](#0).
 
-  <p>Check <a href="#0">what we cover in consent forms</a>.</p>
+## Share findings with the Defence community
 
-  <h2 id="share-findings-with-the-defence-community">Share findings with the Defence community</h2>
+We must avoid doing similar research with the same groups of participants across Defence. Before starting your user research, ask the user-centred design (UCD) community if there is any existing data that you can reuse.
 
-  <p>We must avoid doing similar research with the same groups of participants across Defence. Before starting your user research, ask the user-centred design (UCD) community if there is any existing data that you can reuse.</p>
+When you have new user research findings, share them with the UCD community in Defence. Others may be able to use what you have discovered. You can share reports on internal Slack channels or present at the regular community meetings.
 
-  <p>When you have new user research findings, share them with the UCD community in Defence. Others may be able to use what you have discovered. You can share reports on internal Slack channels or present at the regular community meetings.</p>
+Check [how to contact the UCD community](#0).
 
-  <p>Check <a href="#0">how to contact the UCD community</a>.</p>
+## Related links
 
-  <h2 id="related-links">Related links</h2>
-
-  <ul>
-    <li><a href="https://www.gov.uk/data-protection" rel="external nofollow">The Data Protection Act</a></li>
-  </ul>
-
-</div>
+- [The Data Protection Act](https://www.gov.uk/data-protection)
 
 {% endblock %}
 
-{# Contents list #}
 {% block contentsList %}
 
   {{ govukContentsList({

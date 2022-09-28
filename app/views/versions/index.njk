@@ -3,33 +3,33 @@
 {% set pageTitle = "Version history" %}
 
 {% block bodyContent %}
+<h1>Version history</h1>
 
-  <h2 class="govuk-heading-m"><a class="govuk-link govuk-link--no-visited-state" href="#0">Version 3</a></h2>
+<h2 class="govuk-heading-m"><a class="govuk-link govuk-link--no-visited-state" href="#0">Version 3</a></h2>
 
-  <p class="govuk-body">This is the most recent prototype.</p>
+<p class="govuk-body">This is the most recent prototype.</p>
 
-  {% set htmlOutput %}
-    <ul class="govuk-list govuk-list--bullet">
-      <li>Ministry of Defence logo</li>
-      <li>Layout and visual fixes</li>
-      <li>Phase banner updates</li>
-      <li>Feedback to improve the Defence Service Manual</li>
-      <li>Standards in Defence</li>
-      <li>Get in touch</li>
-      <li>Add or update content</li>
-      <li>Security added</li>
-      <li>Site map added</li>
-      <li>Design, User research, Accessibility content updated</li>
-      <li>Improvements in navigation structure</li>
-      <li>Page contents added (sticky)</li>
-    </ul>
-  {% endset %}
+{% set htmlOutput %}
+  <ul class="govuk-list govuk-list--bullet">
+    <li>Ministry of Defence logo</li>
+    <li>Layout and visual fixes</li>
+    <li>Phase banner updates</li>
+    <li>Feedback to improve the Defence Service Manual</li>
+    <li>Standards in Defence</li>
+    <li>Get in touch</li>
+    <li>Add or update content</li>
+    <li>Security added</li>
+    <li>Site map added</li>
+    <li>Design, User research, Accessibility content updated</li>
+    <li>Improvements in navigation structure</li>
+    <li>Page contents added (sticky)</li>
+  </ul>
+{% endset %}
 
-  {{ govukDetails({
-    summaryText: "What’s changed",
-    html: htmlOutput
-  }) }}
+{{ govukDetails({
+  summaryText: "What’s changed",
+  html: htmlOutput
+}) }}
 
-  <h2 class="govuk-heading-m"><a class="govuk-link govuk-link--no-visited-state" href="https://dmdsm.herokuapp.com/dsm-home" target="_blank" rel="nofollow external">Version 2</a></h2>
-
+<h2 class="govuk-heading-m"><a class="govuk-link govuk-link--no-visited-state" href="https://dmdsm.herokuapp.com/dsm-home" target="_blank" rel="nofollow external">Version 2</a></h2>
 {% endblock %}

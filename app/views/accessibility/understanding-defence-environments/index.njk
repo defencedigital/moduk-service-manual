@@ -8,134 +8,110 @@
   {% include "../_breadcrumb.njk" %}
 {% endblock %}
 
-{# Main contents #}
 {% block bodyContent %}
 
-<div class="mod-prose">
+Content goes here...
 
-  <p>Content goes here...</p>
+{# ## Understand the environment
 
-  <!--
+People working in Defence have unique needs.
 
-  <h2 id="understand-the-environment">Understand the environment</h2>
+Consider people in the deployed space, for example military units working away from their permanent base. There are also many people in the operational space, supporting military operations and exercises.
 
-  <p>People working in Defence have unique needs.</p>
+These users may have issues such as:
 
-  <p>Consider people in the deployed space, for example military units working away from their permanent base. There are also many people in the operational space, supporting military operations and exercises.</p>
+- low to no 3G and 4G onboard ships
+- not being able to use 2-factor authentication
+- wearing restrictive kit, such as thick gloves
+- devices with limited battery power
 
-  <p>These users may have issues such as:</p>
+You also need to consider accessibility issues related to the battle environment, including:
 
-  <ul>
-    <li>low to no 3G and 4G onboard ships</li>
-    <li>not being able to use 2-factor authentication</li>
-    <li>wearing restrictive kit, such as thick gloves</li>
-    <li>devices with limited battery power</li>
-  </ul>
+low light, red light or no light
+very noisy environments or the need for silence
+difficult outdoor conditions, such as wet screens
+high-stress and high-risk scenarios
+temperatures below freezing or extreme heat and sunlight
+extreme fatigue
 
-  <p>You also need to consider accessibility issues related to the battle environment, including:<p>
+Accessibility needs can be permanent, temporary or situational. This is particularly relevant in military settings.  
 
-  <ul>
-    <li>low light, red light or no light</li>
-    <li>very noisy environments or the need for silence</li>
-    <li>difficult outdoor conditions, such as wet screens</li>
-    <li>high-stress and high-risk scenarios</li>
-    <li>temperatures below freezing or extreme heat and sunlight</li>
-    <li>extreme fatigue</li>
-  </ul>
+## Meet the regulations
 
-  <p>Accessibility needs can be permanent, temporary or situational. This is particularly relevant in military settings.</p>  
+To meet UK government accessibility regulations, digital products and services must:
 
-  <h2 id="meet-the-regulations">Meet the regulations</h2>
+- meet level AA of the [Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21) as a minimum
+- work on the most commonly used assistive technologies, including screen magnifiers, screen readers and speech recognition tools
+- include people with disabilities in user research
+- have an accessibility statement that explains how accessible the service is
 
-  <p>To meet UK government accessibility regulations, digital products and services must:<p>
+{{ govukInsetText({
+  text: "Anyone creating digital products or services for Defence, including third-party suppliers, must make sure they meet accessibility regulations."
+}) }}
 
-  <ul>
-    <li>meet level AA of the <a href="https://www.w3.org/TR/WCAG21/" rel="external nofollow">Web Content Accessibility Guidelines (WCAG 2.1)</a> as a minimum</li>
-    <li>work on the most commonly used assistive technologies, including screen magnifiers, screen readers and speech recognition tools</li>
-    <li>include people with disabilities in user research</li>
-    <li>have an accessibility statement that explains how accessible the service is</li>
-  </ul>
+Check the guidance on [understanding accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
 
-  {{ govukInsetText({
-    text: "Anyone creating digital products or services for Defence, including third-party suppliers, must make sure they meet accessibility regulations."
-  }) }}
+## Your role in accessibility
 
-  <p>Check the guidance on <a href="https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps" rel="external nofollow">understanding accessibility requirements for public sector bodies</a>.</p>
+Every role in digital design and delivery plays a part in accessibility.
 
-  <h2 id="your-role-in-accessibility">Your role in accessibility</h2>
+For example, for developers to build an accessible service the content needs to be designed to work with assistive technology.
 
-  <p>Every role in digital design and delivery plays a part in accessibility.</p>
+Check how you can help with accessibility:
 
-  <p>For example, for developers to build an accessible service the content needs to be designed to work with assistive technology.</p>
+- [Content Designers](/accessibility/content-designers)
+- [Delivery Managers](/accessibility/delivery-managers)
+- [Interaction Designers](/accessibility/interaction-designers)
+- [Product Managers](/accessibility/product-managers)
+- [User Researchers](/accessibility/user-researchers)
 
-  <p>Check how you can help with accessibility:</p>
+## Create an accessibility statement
 
-  <ul>
-    <li><a href="{{ baseURL }}accessibility/content-designers">Content Designers</a></li>
-    <li><a href="{{ baseURL }}accessibility/delivery-managers">Delivery Managers</a></li>
-    <li><a href="{{ baseURL }}accessibility/interaction-designers">Interaction Designers</a></li>
-    <li><a href="{{ baseURL }}accessibility/product-managers">Product Managers</a></li>
-    <li><a href="{{ baseURL }}accessibility/user-researchers">User Researchers</a></li>
-  </ul>
+Since 2018, all public sector websites and applications must include an accessibility statement. It needs to be published before your product or service goes into public beta.
 
-  <h2 id="create-an-accessibility-statement">Create an accessibility statement</h2>
+The statement needs to cover:
 
-  <p>Since 2018, all public sector websites and applications must include an accessibility statement. It needs to be published before your product or service goes into public beta.</p>
+- whether your website or mobile app is ‘fully’, ‘partially’ or ‘not’ compliant with accessibility standards
+- if it’s not fully compliant, which parts do not meet accessibility standards and why. For example, because they are exempt or it would be a disproportionate burden to fix
+- how people can get alternatives to content that’s not accessible to them
+- how to contact you to report accessibility problems - and a link to the website that they can use if they’re not happy with your response
 
-  <p>The statement needs to cover:</p>
+You can use this [model accessibility statement](https://www.gov.uk/guidance/model-accessibility-statement).
 
-  <ul>
-    <li>whether your website or mobile app is ‘fully’, ‘partially’ or ‘not’ compliant with accessibility standards</li>
-    <li>if it’s not fully compliant, which parts do not meet accessibility standards and why. For example, because they are exempt or it would be a disproportionate burden to fix</li>
-    <li>how people can get alternatives to content that’s not accessible to them</li>
-    <li>how to contact you to report accessibility problems - and a link to the website that they can use if they’re not happy with your response</li>
-  </ul>
+If you can, work with a content designer to make sure your statement is written in plain English.
 
-  <p>You can use this <a href="https://www.gov.uk/guidance/model-accessibility-statement" rel="external nofollow">model accessibility statement</a>.</p>
+## Things you might not need to fix
 
-  <p>If you can, work with a content designer to make sure your statement is written in plain English.</p>
+Your team does not need to fix the following types of content because they’re exempt from the accessibility regulations:
 
-  <h2 id="things-you-might-not-need-to-fix">Things you might not need to fix</h2>
+- pre-recorded audio and video published before 23 September 2020
+- live audio and video
+- heritage collections like scanned manuscripts
+- PDFs or other documents published before 23 September 2018 - unless users need them to use a service, for example a form that lets you request school meal preferences
+- maps but you’ll need to provide essential information, like an address, in an accessible format
+- third party content that’s under someone else’s control if you did not pay for it or develop it yourself, for example social media ‘like’ buttons
+- content on intranets or extranets published before 23 September 2019 - unless you make a major revision after that date
+- archived websites if they are not needed for services your organisation provides and they are not updated
 
-  <p>Your team does not need to fix the following types of content because they’re exempt from the accessibility regulations:</p>
+In your accessibility statement, you need to explain that things like this are not accessible because they are exempt.
 
-  <ul>
-    <li>pre-recorded audio and video published before 23 September 2020</li>
-    <li>live audio and video</li>
-    <li>heritage collections like scanned manuscripts</li>
-    <li>PDFs or other documents published before 23 September 2018 - unless users need them to use a service, for example a form that lets you request school meal preferences</li>
-    <li>maps but you’ll need to provide essential information, like an address, in an accessible format</li>
-    <li>third party content that’s under someone else’s control if you did not pay for it or develop it yourself, for example social media ‘like’ buttons</li>
-    <li>content on intranets or extranets published before 23 September 2019 - unless you make a major revision after that date</li>
-    <li>archived websites if they are not needed for services your organisation provides and they are not updated</li>
-  </ul>
+## Publish accessibility documents
 
-  <p>In your accessibility statement, you need to explain that things like this are not accessible because they are exempt.</p>
+Any documents you include in your service, such as PDFs, must be accessible.
 
-  <h2 id="publish-accessibility-documents">Publish accessibility documents</h2>
+Check the guidance on [publishing accessible documents](https://www.gov.uk/guidance/publishing-accessible-documents).
 
-  <p>Any documents you include in your service, such as PDFs, must be accessible.</p>
+If you need help making your document accessible, contact the Directorate of Defence Communications.
 
-  <p>Check the guidance on <a href="https://www.gov.uk/guidance/publishing-accessible-documents" rel="external nofollow">publishing accessible documents</a>.</p>
+## Useful links
 
-  <p>If you need help making your document accessible, contact the Directorate of Defence Communications.</p>
-
-  <h2 id="useful-links">Useful links</h2>
-
-  <ul>
-    <li><a href="https://www.gov.uk/guidance/make-things-accessible" rel="external nofollow">Making things accessible and inclusive</a></li>
-    <li><a href="https://gds.blog.gov.uk/2016/05/19/doing-the-hard-work-to-make-accessibility-simple" rel="external nofollow">Doing the hard work to make accessibility simple</a></li>
-    <li><a href="https://www.gov.uk/government/publications/assistive-technology-definition-and-safe-use/assistive-technology-definition-and-safe-use" rel="external nofollow">Common assistive technologies</a></li>
-    <li><a href="https://accessibility.blog.gov.uk" rel="external nofollow">GOV.UK blogs on accessibility</a></li>
-  </ul>
-
-  -->
-
-</div>
+- [Making things accessible and inclusive](https://www.gov.uk/guidance/make-things-accessible)
+- [Doing the hard work to make accessibility simple](https://gds.blog.gov.uk/2016/05/19/doing-the-hard-work-to-make-accessibility-simple)
+- [Common assistive technologies](https://www.gov.uk/government/publications/assistive-technology-definition-and-safe-use/assistive-technology-definition-and-safe-use)
+- [GOV.UK blogs on accessibility](https://accessibility.blog.gov.uk) #}
 
 {% endblock %}
 
-{# Contents list #}
 {% block contentsList %}
 
   {{ govukContentsList({

@@ -8,68 +8,57 @@
   {% include "../_breadcrumb.njk" %}
 {% endblock %}
 
-{# Main contents #}
 {% block bodyContent %}
 
-<div class="mod-prose">
+User-centred design specialists in your team should be heavily involved in naming a service or product. It should then be approved by either the service or product owner.
 
-  <p>User-centred design specialists in your team should be heavily involved in naming a service or product. It should then be approved by either the service or product owner.</p>
+## How to name a service or product
 
-  <h2 id="how-to-name-a-service-or-product">How to name a service or product</h2>
+Good service or product names:
 
-  <p>Good service or product names:</p>
+- use the words users use
+- are based on analytics and user research
+- describe a task, not a technology
+- do not need to change when policy or technology changes
+- are verbs, not nouns
 
-  <ul>
-    <li>use the words users use</li>
-    <li>are based on analytics and user research</li>
-    <li>describe a task, not a technology</li>
-    <li>do not need to change when policy or technology changes</li>
-    <li>are verbs, not nouns</li>
-  </ul>
+{{ govukInsetText({
+  text: "If your service or product is hosted on GOV.UK you must adhere to their naming standards."
+}) }}
 
-  {{ govukInsetText({
-    text: "If your service or product is hosted on GOV.UK you must adhere to their naming standards."
-  }) }}
+[Read GOV.UK guidance on naming your service](https://www.gov.uk/service-manual/design/naming-your-service)
 
-  <p><a href="https://www.gov.uk/service-manual/design/naming-your-service" rel="external nofollow">Read GOV.UK guidance on naming your service</a></p>
+### Transactional services or products
 
-  <h3>Transactional services or products</h3>
+Your service is transactional if it allows users to either:
 
-  <p>Your service is transactional if it allows users to either:</p>
+- exchange information, money, permission, goods or services
+- submit information that results in a change to a record
 
-  <ul>
-    <li>exchange information, money, permission, goods or services</li>
-    <li>submit information that results in a change to a record</li>
-  </ul>
+#### Good transactional service names in Defence
 
-  <h4>Good transactional service names in Defence</h4>
+You can use these service names as good examples:
 
-  <p>You can use these service names as good examples:</p>
+- Estimate your armed forces pension
+- Get a copy of military service records
+- Apply for a medal or veterans badge
 
-  <ul>
-    <li>Estimate your armed forces pension</li>
-    <li>Get a copy of military service records</li>
-    <li>Apply for a medal or veterans badge</li>
-  </ul>
+#### Services with multiple transactions
 
-  <h4>Services with multiple transactions</h4>
+Your product or service may allow multiple actions. This can make it harder to use a verb based name. Consider verbs that can describe multiple actions.
 
-  <p>Your product or service may allow multiple actions. This can make it harder to use a verb based name. Consider verbs that can describe multiple actions.</p>
+### Non-transactional services or products
 
-  <h3>Non-transactional services or products</h3>
+These are services where users only read information.
 
-  <p>These are services where users only read information.</p>
+If you are producing detailed guidance around a particular subject, you may want to call your service “Get help with [something]”.
 
-  <p>If you are producing detailed guidance around a particular subject, you may want to call your service “Get help with [something]”.</p>
+You may also want to use similar names to other government services or products. The ‘Defence Service Manual’, for example, uses terms familiar in government (such as the ‘GOV.UK Service Manual’).
 
-  <p>You may also want to use similar names to other government services or products. The ‘Defence Service Manual’, for example, uses terms familiar in government (such as the ‘GOV.UK Service Manual’).</p>
+### Avoid acronyms
 
-  <h3>Avoid acronyms</h3>
+Acronyms are common in Defence. However, they are confusing for newcomers or people from outside Defence.
 
-  <p>Acronyms are common in Defence. However, they are confusing for newcomers or people from outside Defence.</p>
-
-  <p>You can include acronyms where they are commonly understood and explaining them causes additional confusion. For example: ‘NATO’ is not explained on GOV.UK as it is commonly recognised.</p>
-
-</div>
+You can include acronyms where they are commonly understood and explaining them causes additional confusion. For example: ‘NATO’ is not explained on GOV.UK as it is commonly recognised.
 
 {% endblock %}

@@ -8,105 +8,95 @@
   {% include "../_breadcrumb.njk" %}
 {% endblock %}
 
-{# Main contents #}
 {% block bodyContent %}
 
-<div class="mod-prose">
+Making content easy to understand makes it better for everyone. Simple content is even more important for people who have difficulty reading and anyone whose first language is not English.
 
-  <p>Making content easy to understand makes it better for everyone. Simple content is even more important for people who have difficulty reading and anyone whose first language is not English.</p>
+## Write in plain English
 
-  <h2 id="write-in-plain-english">Write in plain English</h2>
+To create accessible content, it’s important to:
 
-  <p>To create accessible content, it’s important to:</p>
+- only include content that people need
+- use simple words
+- keep sentences short
+- avoid long paragraphs
 
-  <ul>
-    <li>only include content that people need</li>
-    <li>use simple words</li>
-    <li>keep sentences short</li>
-    <li>avoid long paragraphs</li>
-  </ul>
+You need to follow the [GOV.UK guidance on writing content](https://www.gov.uk/guidance/content-design/writing-for-gov-uk).
 
-  <p>You need to follow the <a href="https://www.gov.uk/guidance/content-design/writing-for-gov-uk" rel="external nofollow">GOV.UK guidance on writing content</a>.</p>
+## Use clear and unique page titles
 
-  <h2 id="use-clear-and-unique-page-titles">Use clear and unique page titles</h2>
+Page titles should clearly describe the purpose and content of the page. Work with a User Researcher to check users understand page titles.
 
-  <p>Page titles should clearly describe the purpose and content of the page. Work with a User Researcher to check users understand page titles.</p>
+Every page should have a unique title. This makes it easier to find the content you are looking for. If pages have the same or similar headings, it’s hard for assistive technologies to tell you which page you are on.
 
-  <p>Every page should have a unique title. This makes it easier to find the content you are looking for. If pages have the same or similar headings, it’s hard for assistive technologies to tell you which page you are on.</p>
+Often, the page URL can be the same as the page title. Clear URLs make content easier to find if you need to come back later.
 
-  <p>Often, the page URL can be the same as the page title. Clear URLs make content easier to find if you need to come back later.</p>
+**This is a good url:**
 
-  <p><b>This is a good url:</b></p>
+```/guidance/pensions-and-compensation-for-veterans```
 
-  <p><code>/guidance/pensions-and-compensation-for-veterans</code></p>
+**This is a bad url:**
 
-  <p><b>This is a bad url:</b></p>
+```/user/56256655226/post/817837847.php```
 
-  <p><code>/user/56256655226/post/817837847.php</code></p>
+Work with a Frontend Developer to make sure all URLs follow a user-friendly format.
 
-  <p>Work with a Frontend Developer to make sure all URLs follow a user-friendly format.</p>
+## Use the right headings
 
-  <h2 id="use-the-right-headings">Use the right headings</h2>
+Avoid using bold text instead of a heading style. Assistive technology does not recognise bold as a header.
 
-  <p>Avoid using bold text instead of a heading style. Assistive technology does not recognise bold as a header.</p>
+A heading style can be any level from H1 to H6. Make sure you use the correct level of headings. Start with H1 as the page title. Do not skip levels, for example following a H2 with a H4.
 
-  <p>A heading style can be any level from H1 to H6. Make sure you use the correct level of headings. Start with H1 as the page title. Do not skip levels, for example following a H2 with a H4.</p>
+Follow the [GOV.UK guidance on heading levels](https://www.gov.uk/guidance/content-design/writing-for-gov-uk#headings).
 
-  <p>Follow the <a href="https://www.gov.uk/guidance/content-design/writing-for-gov-uk#headings" rel="external nofollow">GOV.UK guidance on heading levels</a>.</p>
+## Add visually hidden text
 
-  <h2 id="add-visually-hidden-text">Add visually hidden text</h2>
+People who use assistive technologies may need more content to describe something on screen, for example a photo or a graph. This additional description is known as “alternative text” or “alt text”. It does not appear on the screen for all users.
 
-  <p>People who use assistive technologies may need more content to describe something on screen, for example a photo or a graph. This additional description is known as “alternative text” or “alt text”. It does not appear on the screen for all users.</p>
+You only need to add alt text to images that provide useful context, for example where to sign your passport. If an image is purely decorative, you do not need to add alt text. Consider if users need a decorative image at all.
 
-  <p>You only need to add alt text to images that provide useful context, for example where to sign your passport. If an image is purely decorative, you do not need to add alt text. Consider if users need a decorative image at all.</p>
+Find tips on writing alt text in the [GOV.UK Design System’s guidance on images](https://design-system.service.gov.uk/styles/images).
 
-  <p>Find tips on writing alt text in the <a href="https://design-system.service.gov.uk/styles/images" rel="external nofollow">GOV.UK Design System’s guidance on images</a>.</p>
+## Captions and transcripts
 
-  <h2 id="captions-and-transcripts">Captions and transcripts</h2>
+If you have audio or video content, make sure it is accessible to everyone including people with sight and hearing impairments. You might need captions on the screen or a description of the content in a written transcript.
 
-  <p>If you have audio or video content, make sure it is accessible to everyone including people with sight and hearing impairments. You might need captions on the screen or a description of the content in a written transcript.</p>
+Check the [GOV.UK guidance on captions and transcripts](https://www.gov.uk/guidance/how-to-publish-on-gov-uk/images-and-videos).
 
-  <p>Check the <a href="https://www.gov.uk/guidance/how-to-publish-on-gov-uk/images-and-videos" rel="external nofollow">GOV.UK guidance on captions and transcripts</a>.</p>
+## Make links work out of context
 
-  <h2 id="make-links-work-out-of-context">Make links work out of context</h2>
+Link content needs to make sense without any of the content around it. Many assistive technologies have the option to drop all content from a page except the links.
 
-  <p>Link content needs to make sense without any of the content around it. Many assistive technologies have the option to drop all content from a page except the links.</p>
+Try removing everything else on the page to make sure links make sense out of context. If the link takes you to do something, start with a verb. For example, ‘Give feedback’.
 
-  <p>Try removing everything else on the page to make sure links make sense out of context. If the link takes you to do something, start with a verb. For example, ‘Give feedback’.</p>
+Do not use ‘Click here’ or ‘More’. Out of context these words do not make sense, and ‘click’ assumes a mouse is being used.
 
-  <p>Do not use ‘Click here’ or ‘More’. Out of context these words do not make sense, and ‘click’ assumes a mouse is being used.</p>
+Follow the [GOV.UK guidance on writing link text](https://www.gov.uk/guidance/content-design/links).
 
-  <p>Follow the <a href="https://www.gov.uk/guidance/content-design/links" rel="external nofollow">GOV.UK guidance on writing link text</a>.</p>
+## Be consistent
 
-  <h2 id="be-consistent">Be consistent</h2>
+You need to use consistent labels and descriptions across a digital product or service.
 
-  <p>You need to use consistent labels and descriptions across a digital product or service.</p>
+If the button at the bottom of each page is labelled ‘Continue’, it should be labelled ‘Continue’ on all pages and not something similar like ‘Next’. This is a better experience for all users.
 
-  <p>If the button at the bottom of each page is labelled ‘Continue’, it should be labelled ‘Continue’ on all pages and not something similar like ‘Next’. This is a better experience for all users.</p>
+## Write good error messages
 
-  <h2 id="write-good-error-messages">Write good error messages</h2>
+When a user enters information incorrectly, it’s best practice to help them with a short, clear message. For example, f a user does not fill in their name correctly the error message should be: ‘Enter your name’.
 
-  <p>When a user enters information incorrectly, it’s best practice to help them with a short, clear message. For example, f a user does not fill in their name correctly the error message should be: ‘Enter your name’.</p>
+If there are security considerations, you still need to provide an error message but it can be vague. When signing in to an account, the error message should be: ‘Enter your email and password correctly.’
 
-  <p>If there are security considerations, you still need to provide an error message but it can be vague. When signing in to an account, the error message should be: ‘Enter your email and password correctly.’</p>
+Work with a Frontend Developer and a QA Tester to work out what error messages you need to write content for.
 
-  <p>Work with a Frontend Developer and a QA Tester to work out what error messages you need to write content for.</p>
+Before you write a new error message, check the [GOV.UK error message templates](https://design-system.service.gov.uk/components/error-message/#use-error-message-templates).
 
-  <p>Before you write a new error message, check the <a href="https://design-system.service.gov.uk/components/error-message/#use-error-message-templates" rel="external nofollow">GOV.UK error message templates</a>.</p>
+## Useful links
 
-  <h2 id="useful-links">Useful links</h2>
-
-  <ul>
-    <li><a href="https://www.gov.uk/guidance/guidance-and-tools-for-digital-accessibility#designing-accessible-content" rel="external nofollow">Designing accessible content</a></li>
-    <li><a href="https://gds.blog.gov.uk/2016/02/23/writing-content-for-everyone" rel="external nofollow">Writing content for everyone in your audience</a></li>
-    <li><a href="https://gcs.civilservice.gov.uk/guidance/digital-communication/accessible-communications" rel="external nofollow">Creating accessible communications</a></li>
-  </ul>
-
-</div>
+- [Designing accessible content](https://www.gov.uk/guidance/guidance-and-tools-for-digital-accessibility#designing-accessible-content)
+- [Writing content for everyone in your audience](https://gds.blog.gov.uk/2016/02/23/writing-content-for-everyone)
+- [Creating accessible communications](https://gcs.civilservice.gov.uk/guidance/digital-communication/accessible-communications)
 
 {% endblock %}
 
-{# Contents list #}
 {% block contentsList %}
 
   {{ govukContentsList({

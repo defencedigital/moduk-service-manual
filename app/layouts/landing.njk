@@ -12,18 +12,14 @@
 
   <div class="govuk-main-wrapper">
 
-    {# Page title and lead paragraph #}
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-two-thirds">
-        <h1 class="govuk-heading-xl">{{ pageTitle }}</h1>
-        {% if pageLead %}<p class="govuk-body-l">{{ pageLead }}</p>{% endif %}
-      </div>
-    </div>
-
     <div class="govuk-grid-row">
 
       <div class="govuk-grid-column-two-thirds">
-        {% block bodyContent %}{% endblock %}
+        <div class="mod-prose">
+          {% markdown %}
+            {% block bodyContent %}{% endblock %}
+          {% endmarkdown %}
+        </div>
       </div>
 
       <div class="govuk-grid-column-one-third">

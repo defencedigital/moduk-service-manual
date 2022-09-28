@@ -11,8 +11,10 @@ const session     = require('express-session');
 const browserSync = require('browser-sync');
 const helmet      = require('helmet');
 const compression = require('compression');
-const nunjucks    = require('nunjucks');
 const passport    = require('passport');
+const nunjucks    = require('nunjucks');
+const markdown    = require('nunjucks-markdown');
+const marked      = require('marked');
 
 
 // Local dependencies
@@ -86,12 +88,38 @@ const appViews = [
   path.join(__dirname, '/app/partials')
 ];
 
-nunjucks.configure(appViews, {
+const env = nunjucks.configure(appViews, {
   autoescape: true,
   express: app,
   noCache: true,
   watch: true,
 });
+
+
+// Markdown renderer, options and register
+const markdownRenderer = new marked.Renderer();
+
+marked.setOptions({
+  renderer: markdownRenderer,
+  gfm: true,
+  tables: true,
+  breaks: false,
+  pedantic: false,
+  smartLists: true,
+  smartypants: false
+});
+
+
+// Change how links are dealt with if external
+const linkRenderer = markdownRenderer.link;
+
+markdownRenderer.link = (href, title, text) => {
+  const localLink = href.startsWith('https://');
+  const html = linkRenderer.call(markdownRenderer, href, title, text);
+  return localLink ? html.replace(/^<a /, `<a rel="external nofollow" `) : html;
+};
+
+markdown.register(env, marked.parse);
 
 
 require('./app/routes')(app, passport, config);
