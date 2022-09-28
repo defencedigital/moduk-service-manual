@@ -8,67 +8,8 @@
   {% include "../_breadcrumb.njk" %}
 {% endblock %}
 
-{# Main contents #}
 {% block bodyContent %}
-
-<div class="mod-prose">
-
-  <p>To create digital products or services that anyone in Defence can use, you need to make accessibility part of delivery. For example, discussing potential accessibility issues as features are designed.</p>
-
-  <h2 id="plan-work-on-accessibility">Plan work on accessibility</h2>
-
-  <p>When your team plans and estimates work, allow time to make designs accessible and test that they are.</p>
-
-  <p>Testing for accessibility should include:</p>
-
-  <ul>
-    <li>how your product or service works with assistive technologies</li>
-    <li>checking against the <a href="https://www.w3.org/TR/WCAG21" rel="external nofollow">Web Content Accessibility Guidelines (WCAG 2.1)</a></li>
-  </ul>
-
-  <p>All public sector websites and applications must include an accessibility statement. You will need time to create or update the <a href="#0">accessibility statement</a>. It needs to be published before your product or service goes into public beta.</p>
-
-  <h2 id="definition-of-ready">Definition of ready</h2>
-
-  <p>The definition of ready is a list of things that are needed before something can be started.</p>
-
-  <p>In your team’s definition of ready, include things like:</p>
-
-  <ul>
-    <li>error messages, page titles and URLs agreed with a Content Designer</li>
-    <li>additional descriptions or ‘alt tags’ agreed with a Content Designer</li>
-    <li>design reviewed by the team and accessibility issues discussed</li>
-    <li>updates to the accessibility statement</li>
-  </ul>
-
-  <p>Before work starts on a story or ticket, ask an Interaction Designer and a Content Designer what is needed to make designs accessible.</p>
-
-  <h2 id="definition-of-done">Definition of done</h2>
-
-  <p>The definition of done is a list of things that must be done to consider something finished. This should include automated and manual testing for any accessibility issues.</p>
-
-  <p>In your team’s definition of done, include things like checked using:</p>
-
-  <ul>
-    <li>a screen reader</li>
-    <li>a screen magnifier</li>
-    <li>speech recognition</li>
-  </ul>
-
-  <p>Check the <a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility" rel="external nofollow">guidance on testing for accessibility</a>.</p>
-
-  <p>You need to correct any issues or explain them in the <a href="#0">accessibility statement</a>.</p>
-
-  <h2 id="useful-links">Useful links</h2>
-
-  <ul>
-    <li><a href="https://www.gov.uk/guidance/guidance-and-tools-for-digital-accessibility#designing-accessible-services" rel="external nofollow">Guidance and tools for digital accessibility</a></li>
-    <li><a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility" rel="external nofollow">Testing for accessibility</a></li>
-    <li><a href="https://gcs.civilservice.gov.uk/guidance/digital-communication/accessible-communications" rel="external nofollow">Creating accessible communications</a></li>
-  </ul>
-
-</div>
-
+  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
 {% endblock %}
 
 {# Contents list #}

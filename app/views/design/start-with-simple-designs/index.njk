@@ -8,58 +8,10 @@
   {% include "../_breadcrumb.njk" %}
 {% endblock %}
 
-{# Main contents #}
 {% block bodyContent %}
-
-<div class="mod-prose">
-
-  <p>Starting with simple designs and iterating based on user research will keep your service or product as simple as possible.</p>
-
-  <p>You should also check:</p>
-
-  <ul>
-    <li>the <a href="https://www.gov.uk/guidance/government-design-principles" rel="external nofollow">GOV.UK design principles</a></li>
-    <li><a href="https://www.gov.uk/service-manual/design/introduction-designing-government-services" rel="external nofollow">designing good government services: an introduction</a></li>
-  </ul>
-
-  <h2 id="check-existing-patterns">Check existing patterns</h2>
-
-  <p>Existing patterns and components have usually been tested with users. They are likely to be responsive and meet accessibility requirements.</p>
-
-  <p>Start by checking the <a href="https://design-system.service.gov.uk" rel="external nofollow">GOV.UK Design System</a>.</p>
-
-  <p>You can adapt an existing pattern or component. Make sure you:</p>
-
-  <ul>
-    <li>follow the <a href="https://www.gov.uk/guidance/government-design-principles" rel="external nofollow">GOV.UK design principles</a></li>
-    <li>share what you are doing with the <a href="{{ baseURL }}your-community/user-centred-design">MOD user-centred design community</a></li>
-    <li>work with a User Researcher to test the designs</li>
-  </ul>
-
-  <h2 id="use-correct-styles">Use correct styles</h2>
-
-  <h3>Defence Digital styles</h3>
-
-  <p>Use these for services or products hosted:</p>
-
-  <ul>
-    <li>internally, such as on an intranet</li>
-    <li>publicly on foundry.digital.mod.uk</li>
-  </ul>
-
-  <p>To get Defence Digital styles, <a href="#0">get in touch with the MOD design system team</a>.</p>
-
-  <h3>GOV.UK styles</h3>
-
-  <p>Use these for services or products hosted publicly on GOV.UK.</p>
-
-  <p><a href="https://design-system.service.gov.uk/styles" rel="external nofollow">Get GOV.UK styles</a></p>
-
-</div>
-
+  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
 {% endblock %}
 
-{# Contents list #}
 {% block contentsList %}
 
   {{ govukContentsList({

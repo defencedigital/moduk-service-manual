@@ -8,76 +8,10 @@
   {% include "../_breadcrumb.njk" %}
 {% endblock %}
 
-{# Main contents #}
 {% block bodyContent %}
-
-<div class="mod-prose">
-
-  <p>Defence services and products can be used in combat situations. Good design keeps people safe by being reliable in dangerous or stressful environments.</p>
-
-  <p>Legally, the Ministry of Defence has to provide safe equipment, systems and services.</p>
-
-  <h2 id="consider-safety-from-the-start">Consider safety from the start</h2>
-
-  <p>You must:</p>
-
-  <ul>
-    <li>assess how possible service failures could impact your users</li>
-    <li>consider ways to reduce these risks</li>
-  </ul>
-
-  <h2 id="test-in-a-real-or-simulated-environment">Test in a real or simulated environment</h2>
-
-  <p>It’s best to test your product or service with real users in the place that they use it.</p>
-
-  <p>If this isn’t possible, you can also test in:</p>
-
-  <ul>
-    <li>a lab simulating the real environment</li>
-    <li>a similar environment, such as a training ground</li>
-  </ul>
-
-  <h3>Talk to people who work in that environment</h3>
-
-  <p>You may not be able to simulate some environments accurately, such as combat zones.</p>
-
-  <p>Collaborating with people who have experience in those environments can help.</p>
-
-  <p>They can:</p>
-
-  <ul>
-    <li>use their experience to identify common safety issues</li>
-    <li>describe their environment and any restrictions</li>
-  </ul>
-
-  <h2 id="use-feedback-to-make-your-service-safer">Use feedback to make your service safer</h2>
-
-  <p>Defence users need to report safety issues as soon as possible. Acting on this feedback quickly keeps people safe.</p>
-
-  <p>For example: if your service will be used in combat zones at night, but does not work in low light, that will put users in danger.</p>
-
-  <h3>Design a feedback process that works for your users</h3>
-
-  <p>To send feedback, Defence users may need:</p>
-
-  <ul>
-    <li>permission from their commanding officer</li>
-    <li>a process that works in a combat environment, where they may have little internet access</li>
-  </ul>
-
-  <p>As part of feedback processes, make sure users can report any concerns about the safety of your product or service.</p>
-
-  <h3>Prioritise feedback based on risk</h3>
-
-  <p>When you get feedback, make sure high risk problems and safety issues are easy to identify. This will help you respond to them quickly.</p>
-
-  <p>For example: if you collect feedback using an online form, let users select the level of risk associated with the problem.</p>
-
-</div>
-
+  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
 {% endblock %}
 
-{# Contents list #}
 {% block contentsList %}
 
   {{ govukContentsList({

@@ -4,30 +4,5 @@
 {% set pageDescription = "There are communities of practice for people working in similar roles across Defence." %}
 
 {% block bodyContent %}
-
-<div class="mod-prose">
-
-  <p>There are communities of practice for people working in similar roles across Defence.</p>
-
-  <p>Joining a community helps you:</p>
-
-  <ul>
-    <li>learn from what other projects are doing</li>
-    <li>be confident that you are meeting service standards</li>
-    <li>use common approaches and shared tools</li>
-  </ul>
-
-  <h2>Communities of practice</h2>
-
-  <p>You can join more than one community.</p>
-
-  <ul>
-    <li><a href="{{ baseURL }}your-community/product-and-delivery">Product and delivery</a></li>
-    <li><a href="{{ baseURL }}your-community/user-centred-design">User-centred design</a></li>
-  </ul>
-
-  <p>The user-centred design community includes content designers, interaction designers, service designers and user researchers.</p>
-
-</div>
-
+  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
 {% endblock %}

@@ -4,23 +4,5 @@
 {% set pageDescription = "Check the standards you should follow and why they are important for all digital services and products." %}
 
 {% block bodyContent %}
-
-<div class="mod-prose">
-
-  <p>All teams creating digital services and products for Defence should follow the <a href="https://www.gov.uk/service-manual/service-standard" rel="external nofollow">GOV.UK Service Standard</a>. This includes third-party suppliers.</p>
-
-  <p>The GOV.UK Service Standard applies to internal services and products as well as services for citizens. It helps you:</p>
-
-  <ul>
-    <li>design the right thing for your users</li>
-    <li>work in the open while keeping users and information secure</li>
-    <li>make the best recruitment and technology choices</li>
-  </ul>
-
-  <p>The Defence Service Manual helps you apply the GOV.UK Service Standard in Defence.</p>
-
-  <p>You can also get advice from others doing your role in Defence. <a href="#0">Find out how to join your community</a>.</p>
-
-</div>
-
+  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
 {% endblock %}

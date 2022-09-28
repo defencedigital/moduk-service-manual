@@ -8,98 +8,10 @@
   {% include "../_breadcrumb.njk" %}
 {% endblock %}
 
-{# Main contents #}
 {% block bodyContent %}
-
-<div class="mod-prose">
-
-  <h2 id="keep-your-promises-to-participants">Keep your promises to participants</h2>
-
-  <p>On consent forms used in Defence, we promise user research participants that we will:</p>
-
-  <ul>
-    <li>store any notes, transcripts and videos securely</li>
-    <li>only share quotes and video clips with their consent</li>
-    <li>protect their personal information</li>
-    <li>delete user research data after 2 years</li>
-  </ul>
-
-  <p>Participants have a legal right to check what information public bodies hold on them. They can also withdraw their consent to be part of the user research at any time.</p>
-
-  <p>Read more about <a href="{{ baseURL }}user-research/collecting-data-from-participants">collecting data from participants</a>.</p>
-
-  <h2 id="how-to-save-user-research-data-in-defence">How to save user research data in Defence</h2>
-
-  <p>When you do user research in Defence, you need to follow a standard way of saving data. This is so that we can:</p>
-
-  <ul>
-    <li>protect participants’ information</li>
-    <li>keep track of what needs to be deleted when</li>
-    <li>answer any Freedom of Information (FOI) requests</li>
-  </ul>
-
-  <p>When you leave a project, you are responsible for making sure your team can access the user research data.</p>
-
-  <h3>What you need to do</h3>
-
-  <p>As soon as possible after collecting user research data, you need to:</p>
-
-  <ol class="govuk-list--spaced">
-    <li>Download all of the relevant files, including notes, videos and transcripts</li>
-    <li>Save the files in a password protected folder. If you have access to MODnet, you need to <a href="#0" rel="external nofollow">save the files in this folder</a></li>
-    <li>Rename the files using the <a href="#0" rel="external nofollow">Defence format for file names</a></li>
-    <li>Remove any personal or sensitive data</li>
-  </ol>
-
-  <h3>Naming digital files in Defence</h3>
-
-  <p>The date should be in digits, starting with the year: YYYYMMDD. Do not include spaces or punctuation like hyphens or slashes.</p>
-
-  <p>When naming files containing user research data, you need to:</p>
-
-  <ol class="govuk-list--spaced">
-    <li>Start with the date, for example: 20220824</li>
-    <li>Add the name of your project: 20220824 Defence Service Manual</li>
-    <li>If it is participant data, add the participant number: 20220824 Defence Service Manual P04</li>
-  </ol>
-
-  <p>Do not create fields that update automatically, for example the date.</p>
-
-  <h3>Manage handwritten notes carefully</h3>
-
-  <p>When you do research at some Defence sites, you may only be allowed to use a pen and paper. You might also make handwritten notes as part of any user research session.</p>
-
-  <p>If you make handwritten notes, you need to:</p>
-
-  <ol>
-    <li>convert them to digital files as soon as possible</li>
-    <li>delete any images of them taken on a phone or other devices</li>
-    <li>destroy your notes in a secure way</li>
-  </ol>
-
-  <p>If it is not possible to convert handwritten notes immediately, keep them with you and out of sight.</p>
-
-  <p>You may need to add a security classification. There is no need to label OFFICIAL information. If you are working at SECRET or TOP SECRET, check how to classify and label information.</p>
-
-  <h2 id="anonymise-user-research-data">Anonymise user research data</h2>
-
-  <p>Only ask participants for personal or sensitive information if it is relevant to your research. For example, you probably do not need to know someone’s sexual orientation when doing usability testing.</p>
-
-  <p>When you collect personal information, like name and contact details, it needs to be kept separately from other user research data.</p>
-
-  <p>To make sure individuals cannot be identified, you need to:</p>
-
-  <ol class="govuk-list--spaced">
-    <li><b>Create a master document with their details and participant number</b><br>This must be password protected. Only share it with people in your team who need it. If you leave a project, make sure someone on the team knows the password.</li>
-    <li><b>Remove personal information from all other documents</b><br>This includes notes, reports, presentations and transcripts. If you have consent from the participant and want to share a video clip, check that it does not include personal information.</li>
-    <li><b>Use participant numbers not names</b><br>Before saving user research files other than the master file, replace participant names with the participant numbers. For example, P04.</li>
-  </ol>
-
-</div>
-
+  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
 {% endblock %}
 
-{# Contents list #}
 {% block contentsList %}
 
   {{ govukContentsList({

@@ -2,24 +2,7 @@
 
 {% set pageTitle       = "Get in touch" %}
 {% set pageDescription = "" %}
-{% set pageLead        = "If you have a question or suggestion, contact the Defence Service Manual team." %}
 
 {% block bodyContent %}
-
-<div class="mod-prose">
-
-  <h2 class="govuk-heading-l">Email</h2>
-
-  <p>You can email the team at <a href="mailto:service-manual@digital.mod.uk">service-manual@digital.mod.uk</a>.</p>
-
-  <h2 class="govuk-heading-l">Slack</h2>
-
-  <p>If you are on MODNet or have a digital MOD email address, you can <a href="https://defencedigital.slack.com/archives/C03L6486PBN" target="_blank" rel="external nofollow">message the team on Defence Digital Slack</a>.</p>
-
-  <h2 class="govuk-heading-l">Suggest content</h2>
-
-  <p>If you have content that could go in the manual or updates to existing content, check <a href="/add-or-update-content">how to add or update content</a>.</p>
-
-</div>
-
+  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
 {% endblock %}

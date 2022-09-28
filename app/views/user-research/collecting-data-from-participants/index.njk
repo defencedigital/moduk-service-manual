@@ -8,149 +8,10 @@
   {% include "../_breadcrumb.njk" %}
 {% endblock %}
 
-{# Main contents #}
 {% block bodyContent %}
-
-<div class="mod-prose">
-
-  <p>We must collect data in a legal and transparent way. Clearly explain to participants what we will use data for and that we will use it for no other purpose.</p>
-
-  <h2 id="meet-the-regulations">Meet the regulations</h2>
-
-  <p>The General Data Protection Regulation (GDPR) came into effect in May 2018. When doing user research at MOD, the important things to note are:</p>
-
-  <ul>
-    <li>it defines personal data broadly, so that it can include data like online identification markers and location data</li>
-    <li>rules around evidence of informed consent and withdrawal of consent are strict</li>
-    <li>it sets out stronger requirements for documenting and auditing your practices</li>
-  </ul>
-
-  <p>The <a href="https://www.gov.uk/government/publications/ministry-of-defence-privacy-notice/mod-privacy-notice" rel="external nofollow">Ministry of Defence Privacy Notice</a> explains the sort of information you can collect from users and why.</p>
-
-  <p>To make sure your data management and privacy practices meet the regulations, get them reviewed by a data protection adviser. The Ministry of Defence (MOD) has a network of advisers.</p>
-
-  <h2 id="get-informed-consent">Get informed consent</h2>
-
-  <p>Whenever you do user research, you must get the participant’s informed consent. This means getting a record from them to show they understand your research and agree to take part.</p>
-
-  <h3>Why you need it</h3>
-
-  <p>By getting informed consent, you’ll help make sure that:</p>
-
-  <ul>
-    <li>participants understand what they’re signing up to, making your sessions more effective</li>
-    <li>your research is ethical</li>
-    <li>you comply with data protection law</li>
-  </ul>
-
-  <h3>How to get it</h3>
-
-  <h4>What to tell participants</h4>
-
-  <p>You must tell participants:</p>
-
-  <ul>
-    <li>if you will be recording any audio or video portions of the research sessions</li>
-    <li>who any recording will be shared with</li>
-    <li>if anyone will be taking notes during the session</li>
-    <li>who any notes will be shared with</li>
-    <li>how long you plan to keep the session data and information</li>
-  </ul>
-
-  <p>You must then ask the participant if they:</p>
-
-  <ul>
-    <li>understand the main purpose of the research session</li>
-    <li>are happy to be contacted again for further research</li>
-    <li>have any questions about the session</li>
-  </ul>
-
-  <h4>Get them to complete a consent form</h4>
-
-  <p>Share a <a href="#0">MOD consent form</a> with your participants and ask them to complete it. You need to add details about your research.</p>
-
-  <h4>Give them an information sheet</h4>
-
-  <p>You should also share an information sheet to give the participant more information about the research.</p>
-
-  <p>Your information sheet should give details about:</p>
-
-  <ul>
-    <li>the types of questions you will ask</li>
-    <li>the digital service you are testing or discussing</li>
-    <li>the technology you plan to use for the research session</li>
-    <li>the discussion topics you will cover during the research session</li>
-    <li>how any usability testing will be carried out, for example in a lab or using online collaboration software</li>
-    <li>the classification of the research and what this means, especially if SECRET or above</li>
-    <li>how the user can withdraw from the current or future research</li>
-  </ul>
-
-  <p>You can use this example of a <a href="#0">MOD understanding your participation sheet</a>.</p>
-
-  <h2 id="protect-sensitive-data">Protect sensitive data</h2>
-
-  {{ govukInsetText({
-    text: "Do not reveal any sensitive data about an individual when carrying out user research."
-  }) }}
-
-  <p>Sensitive data is any information that could cause the participant embarrassment or distress and which they can reasonably expect to remain private. This includes:</p>
-
-  <ul>
-    <li>age</li>
-    <li>marital status</li>
-    <li>racial or ethnic origin</li>
-    <li>nationality</li>
-    <li>physical or mental health or condition, including disability status</li>
-    <li>sexual life</li>
-    <li>biometrics and genetics</li>
-    <li>photographs, videos or sound recordings in which individuals can be identified</li>
-    <li>any data collected where a guarantee of confidentiality was given</li>
-  </ul>
-
-  <p>Sensitive data also covers things like:</p>
-
-  <ul>
-    <li>political opinions</li>
-    <li>religious or similar beliefs</li>
-    <li>benefit claims history or entitlement</li>
-    <li>membership of trade unions</li>
-    <li>commission or alleged commission of an offence</li>
-    <li>cause of death, where this is not a matter of public record</li>
-  </ul>
-
-  <h3>Surveys and questionnaires</h3>
-
-  <p>Check that you are only collecting the data that you need to answer your research questions.</p>
-
-  <p>Unless it is essential to your research, consider not collecting information on protected characteristics, including:</p>
-
-  <ul>
-    <li>gender</li>
-    <li>age</li>
-    <li>disability status</li>
-    <li>sexuality</li>
-    <li>education background</li>
-    <li>ethnicity</li>
-    <li>nationality</li>
-    <li>marital status</li>
-    <li>caring responsibilities</li>
-  </ul>
-
-  <h3>Non-sensitive data</h3>
-
-  <p>Some personal data items are not considered sensitive when captured on their own. These include a participant’s:</p>
-
-  <ul>
-    <li>sex</li>
-    <li>rank or grade</li>
-    <li>full-time or part-time working status</li>
-  </ul>
-
-</div>
-
+  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
 {% endblock %}
 
-{# Contents list #}
 {% block contentsList %}
 
   {{ govukContentsList({
@@ -164,8 +25,16 @@
         text: "Get informed consent"
       },
       {
+        href: "#only-collect-data-that-you-need",
+        text: "Only collect data that you need"
+      },
+      {
         href: "#protect-sensitive-data",
         text: "Protect sensitive data"
+      },
+      {
+        href: "#useful-links",
+        text: "Useful links"
       }
     ]
   }) }}

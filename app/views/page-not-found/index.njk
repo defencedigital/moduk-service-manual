@@ -4,13 +4,5 @@
 {% set breadcrumb = false %}
 
 {% block bodyContent %}
-
-<div class="mod-prose">
-
-  <p>If you entered a web address, check it is correct.</p>
-
-  <p>You can <a href="{{ baseURL }}">browse from the homepage</a>.</p>
-
-</div>
-
+  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
 {% endblock %}

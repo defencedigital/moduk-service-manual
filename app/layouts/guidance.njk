@@ -26,9 +26,15 @@
       </div>
 
       <div class="govuk-grid-column-two-thirds">
-        {% block bodyContent %}{% endblock %}
+        
+        <div class="mod-prose">
+          {% block bodyContent %}{% endblock %}
+        </div>
+
         {% include "_contact-team.njk" ignore missing %}
+
         {%- if dateUpdated %}<p class="govuk-body govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Updated {{ dateUpdated }}</p>{% endif -%}
+
       </div>
 
     </div>
