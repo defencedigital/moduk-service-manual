@@ -2,11 +2,19 @@ const { dest, src } = require('gulp');
 
 const config         = require('../app/config');
 const nunjucksRender = require('gulp-nunjucks-render');
+const markdown       = require('nunjucks-markdown');
+const marked         = require('marked');
+
+
+// Environment
+const manageEnvironment = function(env) {
+  markdown.register(env, marked.parse);
+};
 
 
 // Source files
 const sourceFiles = [
-  'app/views/**/**/*.njk'
+  'app/views/**/**/index.njk'
 ];
 
 
@@ -23,6 +31,7 @@ const nunjucks = (cb) => {
         'app/views',
         'app/partials'
       ],
+      manageEnv: manageEnvironment,
       data: {
         serviceName: config.serviceName,
         baseURL: config.baseURL
