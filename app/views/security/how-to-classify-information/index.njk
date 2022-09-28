@@ -8,145 +8,125 @@
   {% include "../_breadcrumb.njk" %}
 {% endblock %}
 
-{# Main contents #}
 {% block bodyContent %}
 
-<div class="mod-prose">
+In the UK and internationally, security classifications are used to protect different kinds of information.
 
-  <p>In the UK and internationally, security classifications are used to protect different kinds of information.</p>
+Be aware of the security classification of all information you deal with. This includes when you:
 
-  <p>Be aware of the security classification of all information you deal with. This includes when you:
+- speak in meetings
+- add comments to online tools, like Conceptboard
+- write and share messages in MS Teams and Slack
 
-  <ul>
-      <li>speak in meetings</li>
-      <li>add comments to online tools, like Conceptboard</li>
-      <li>write and share messages in MS Teams and Slack</li>
-  </ul>
+## Security classifications in Defence
 
-  <h2 id="security-classifications-in-defence">Security classifications in Defence</h2>
+In Defence, like all other UK Government departments, we use 3 levels of security classification.
 
-  <p>In Defence, like all other UK Government departments, we use 3 levels of security classification.</p>
+{{ govukInsetText({
+  text: "When you create new information or capture new data, check how to classify it."
+}) }}
 
-  {{ govukInsetText({
-    text: "When you create new information or capture new data, check how to classify it."
-  }) }}
+### OFFICIAL
 
-  <h3>OFFICIAL</h3>
+The majority of information created or used in Defence is at OFFICIAL level. The consequences of this information being shared are similar to those faced by a large private company with valuable information.
 
-  <p>The majority of information created or used in Defence is at OFFICIAL level. The consequences of this information being shared are similar to those faced by a large private company with valuable information.</p>
+OFFICIAL information includes:
 
-  <p>OFFICIAL information includes:</p>
+- the day-to-day business of government and service delivery
+- many aspects of Defence, security and resilience
+- routine international relations and diplomatic activities
+- public safety, criminal justice and enforcement activities
 
-  <ul>
-    <li>the day-to-day business of government and service delivery</li>
-    <li>many aspects of Defence, security and resilience</li>
-    <li>routine international relations and diplomatic activities</li>
-    <li>public safety, criminal justice and enforcement activities</li>
-  </ul>
+### SECRET
 
-  <h3>SECRET</h3>
+Some information in Defence is considered very sensitive and must be protected from any highly capable people or organisations that are determined to cause harm.
 
-  <p>Some information in Defence is considered very sensitive and must be protected from any highly capable people or organisations that are determined to cause harm.</p>
+This includes information where tampering, loss or access by unauthorised people could:
 
-  <p>This includes information where tampering, loss or access by unauthorised people could:</p>
+- directly threaten an individual’s life
+- cause serious damage to UK or allied military capability
+- impact the investigation or prosecution of serious organised crime
 
-  <ul>
-    <li>directly threaten an individual’s life</li>
-    <li>cause serious damage to UK or allied military capability</li>
-    <li>impact the investigation or prosecution of serious organised crime</li>
-  </ul>
+You will usually know that you are working on information or systems classified as SECRET.
 
-  <p>You will usually know that you are working on information or systems classified as SECRET.</p>
+### TOP SECRET
 
-  <h3>TOP SECRET</h3>
+A small amount of information in Defence must be protected from the most serious threats.
 
-  <p>A small amount of information in Defence must be protected from the most serious threats.</p>
+This includes information where tampering, loss or access by unauthorised people could:
 
-  <p>This includes information where tampering, loss or access by unauthorised people could:</p>
+- lead to widespread loss of life
+- threaten the security or economic stability of the UK or friendly nations
+- cause exceptional damage to UK or allied military capability
 
-  <ul>
-    <li>lead to widespread loss of life</li>
-    <li>threaten the security or economic stability of the UK or friendly nations</li>
-    <li>cause exceptional damage to UK or allied military capability</li>
-  </ul>
+It will be clear that you are working on information or systems that are TOP SECRET.
 
-  <p>It will be clear that you are working on information or systems that are TOP SECRET.</p>
+## How to label information
 
-  <h2 id="how-to-label-information">How to label information</h2>
+You need to label information correctly so that people understand how to protect and share it.
 
-  <p>You need to label information correctly so that people understand how to protect and share it.
+You must write security classification labels in all capitals, for example SECRET.
 
-  <p>You must write security classification labels in all capitals, for example SECRET.</p>
+When you send emails on a MODnet device, you will be asked to select the security classification.
 
-  <p>When you send emails on a MODnet device, you will be asked to select the security classification.</p>
+### Do not over classify information
 
-  <h3>Do not over classify information</h3>
+It can be tempting to put OFFICIAL information into a higher classification. This goes against the government principle of open data and can lead to unnecessary and expensive controls.
 
-  <p>It can be tempting to put OFFICIAL information into a higher classification. This goes against the government principle of open data and can lead to unnecessary and expensive controls.</p>
+If you classify information higher than is needed, your users may struggle to access it. For example, services classified as SECRET do not let users access the internet.
 
-  <p>If you classify information higher than is needed, your users may struggle to access it. For example, services classified as SECRET do not let users access the internet.</p>
+Managing SECRET information is at least 10 times more expensive than OFFICIAL information.
 
-  <p>Managing SECRET information is at least 10 times more expensive than OFFICIAL information.</p>
+### Labelling OFFICIAL information
 
-  <h3>Labelling OFFICIAL information</h3>
+You do not need to label OFFICIAL information. However, if the information can be printed you should label it at the top and bottom of each page.
 
-  <p>You do not need to label OFFICIAL information. However, if the information can be printed you should label it at the top and bottom of each page.</p>
+A small amount of OFFICIAL information is sensitive and should only be shared with people who need to know it. In these cases, you can label data as OFFICIAL-SENSITIVE.
 
-  <p>A small amount of OFFICIAL information is sensitive and should only be shared with people who need to know it. In these cases, you can label data as OFFICIAL-SENSITIVE.</p>
+{{ govukInsetText({
+  text: "You must only use OFFICIAL-SENSITIVE as an exception and have evidence to support your decision."
+}) }}
 
-  {{ govukInsetText({
-    text: "You must only use OFFICIAL-SENSITIVE as an exception and have evidence to support your decision."
-  }) }}
+### Use OFFICIAL-SENSITIVE correctly
 
-  <h3>Use OFFICIAL-SENSITIVE correctly</h3>
+OFFICIAL-SENSITIVE is not a separate security classification. It is a way of identifying sensitive information that can be stored on OFFICIAL systems.
 
-  <p>OFFICIAL-SENSITIVE is not a separate security classification. It is a way of identifying sensitive information that can be stored on OFFICIAL systems.</p>
+Using OFFICIAL-SENSITIVE as a security classification can lead to dangerous practices including:
 
-  <p>Using OFFICIAL-SENSITIVE as a security classification can lead to dangerous practices including:</p>
+- all data being treated as equally sensitive
+- systems designed to protect all types of sensitive data when they only handle some sensitive data or none at all
 
-  <ul>
-    <li>all data being treated as equally sensitive</li>
-    <li>systems designed to protect all types of sensitive data when they only handle some sensitive data or none at all</li>
-  </ul>
+#### Add a descriptor to OFFICIAL-SENSITIVE
 
-  <h4>Add a descriptor to OFFICIAL-SENSITIVE</h4>
+If you need to use OFFICIAL-SENSITIVE, add a label providing more information: OFFICIAL-SENSITIVE [descriptor].
 
-  <p>If you need to use OFFICIAL-SENSITIVE, add a label providing more information: OFFICIAL-SENSITIVE [descriptor].</p>
+Use the core descriptors recommended by The Cabinet Office:
 
-  <p>Use the core descriptors recommended by The Cabinet Office:</p>
+- COMMERCIAL for market-sensitive information like price negotiations and system vulnerabilities
+- LOCSEN for sensitive information that staff engaged overseas cannot access
+- PERSONAL for sensitive information that can be linked to an individual
 
-  <ul>
-    <li>COMMERCIAL for market-sensitive information like price negotiations and system vulnerabilities</li>
-    <li>LOCSEN for sensitive information that staff engaged overseas cannot access</li>
-    <li>PERSONAL for sensitive information that can be linked to an individual</li>
-  </ul>
+### Labelling SECRET and TOP SECRET information
 
-  <h3>Labelling SECRET and TOP SECRET information</h3>
+{{ govukInsetText({
+  text: "You must label SECRET and TOP SECRET information."
+}) }}
 
-  {{ govukInsetText({
-    text: "You must label SECRET and TOP SECRET information."
-  }) }}
+You should include the label in the subject line of emails. If the information can be printed out, add the label to the top and bottom of each page.
 
-  <p>You should include the label in the subject line of emails. If the information can be printed out, add the label to the top and bottom of each page.</p>
+If you are sharing SECRET or TOP-SECRET information internationally, you need to add additional details to the label. Check the [guidance on labelling information shared internationally](#0).
 
-  <p>If you are sharing SECRET or TOP-SECRET information internationally, you need to add additional details to the label. Check the <a href="#0">guidance on labelling information shared internationally</a>.</p>
+## Classifying large amounts of data
 
-  <h2 id="classifying-large-amounts-of-data">Classifying large amounts of data</h2>
+Some products and services in Defence create or process large amounts of data. These projects usually have a data owner. To classify data correctly, the data owner needs to fully understand how sensitive it is and the likely threats.
 
-  <p>Some products and services in Defence create or process large amounts of data. These projects usually have a data owner. To classify data correctly, the data owner needs to fully understand how sensitive it is and the likely threats.</p>
+### Related content
 
-  <h3>Related content</h3>
-
-  <ul>
-    <li><a href="#0" rel="external nofollow">Government security classifications</a></li>
-    <li><a href="#0" rel="external nofollow">OFFICIAL-SENSITIVE data and IT</a></li>
-  </ul>
-
-</div>
+- [Government security classifications](#0)
+- [OFFICIAL-SENSITIVE data and IT](#0)
 
 {% endblock %}
 
-{# Contents list #}
 {% block contentsList %}
 
   {{ govukContentsList({
