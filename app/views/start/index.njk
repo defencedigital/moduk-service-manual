@@ -7,24 +7,5 @@
 {% set getInTouch  = false %}
 
 {% block bodyContent %}
-<div class="mod-prose">
-
-  <p>The Defence Service Manual complements guidance on GOV.UK and aims to support the GOV.UK Service Standard.</p>
-
-  <p>We use this prototype to test designs and content with people working across Defence.</p>
-
-  <h2>Tell us what you need</h2>
-
-  <p>To find out what you need, we share this prototype in user research sessions.</p>
-
-  <p>You can also send suggestions to <a href="mailto:service-manual@digital.mod.uk">service-manual@digital.mod.uk</a>.</p>
-
-  {{ govukButton({
-    classes: "govuk-!-margin-top-3",
-    text: "Go to the prototype",
-    href: baseURL,
-    isStartButton: true
-  }) }}
-
-</div>
+  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
 {% endblock %}

@@ -4,11 +4,5 @@
 {% set breadcrumb = false %}
 
 {% block bodyContent %}
-
-# Page not found
-
-If you entered a web address, check it is correct.
-
-You can [browse from the homepage](/).
-
+  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
 {% endblock %}
