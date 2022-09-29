@@ -3,7 +3,7 @@ const { dest, src } = require('gulp');
 
 // Source script files
 const sourceFiles = [
-  'src/assets/images/**/*.*'
+  'app/assets/**/*.*'
 ];
 
 
