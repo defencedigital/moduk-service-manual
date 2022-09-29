@@ -7,11 +7,11 @@ Description: Help users understand more easily what they should and should’nt 
 
 
 // These colours are from the MoD Brand Guidelines, and at some point need to be moved into an MoD colours Sass file for use everywhere
-$mod-tick-color:  #00945F;
-$mod-cross-color: #8A1538;
+$moduk-tick-color:  #00945F;
+$moduk-cross-color: #8A1538;
 
 
-.mod-do-dont {
+.moduk-do-dont {
   @include govuk-font(19);
   background-color: govuk-colour("white");
   border: 1px solid govuk-colour("mid-grey");
@@ -28,7 +28,7 @@ $mod-cross-color: #8A1538;
 }
 
 
-.mod-do-dont__label {
+.moduk-do-dont__label {
   @include govuk-font(24, $weight: bold);
   background-color: $govuk-brand-colour;
   color: govuk-colour("white");
@@ -40,7 +40,7 @@ $mod-cross-color: #8A1538;
 }
 
 
-.mod-do-dont__list {
+.moduk-do-dont__list {
   list-style: none;
   margin-top: 0;
   padding-left: govuk-spacing(6);
@@ -57,18 +57,18 @@ $mod-cross-color: #8A1538;
 }
 
 
-.mod-do-dont__tick,
-.mod-do-dont__cross {
+.moduk-do-dont__tick,
+.moduk-do-dont__cross {
   display: inline-block;
   position: relative;
 }
 
 
-.mod-do-dont__tick {
+.moduk-do-dont__tick {
 
   &:after {
-    border-bottom: 5px solid $mod-tick-color;
-    border-right: 5px solid $mod-tick-color;
+    border-bottom: 5px solid $moduk-tick-color;
+    border-right: 5px solid $moduk-tick-color;
     content: "";
     display: block;
     height: 15px;
@@ -83,11 +83,11 @@ $mod-cross-color: #8A1538;
 }
 
 
-.mod-do-dont__cross {
+.moduk-do-dont__cross {
 
   &:before, 
   &:after {
-    background-color: $mod-cross-color;
+    background-color: $moduk-cross-color;
     content: "";
     height: 20px;
     left: -23px;

@@ -3,24 +3,24 @@
 ## HTML markup
 
 ```html
-<div class="mod-do-dont">
+<div class="moduk-do-dont">
   
-  <h3 class="mod-do-dont__label">Do</h3>
+  <h3 class="moduk-do-dont__label">Do</h3>
   
-  <ul class="mod-do-dont__list mod-do-dont__list--tick">
+  <ul class="moduk-do-dont__list moduk-do-dont__list--tick">
     
     <li>
-      <span class="mod-do-dont__tick" aria-hidden="true"></span>
+      <span class="moduk-do-dont__tick" aria-hidden="true"></span>
       Know the classification of all the information you deal with
     </li>
 
     <li>
-      <span class="mod-do-dont__tick" aria-hidden="true"></span>
+      <span class="moduk-do-dont__tick" aria-hidden="true"></span>
       Check how to classify information correctly
     </li>
 
     <li>
-      <span class="mod-do-dont__tick" aria-hidden="true"></span>
+      <span class="moduk-do-dont__tick" aria-hidden="true"></span>
       Write classifications in all capitals
     </li>
 
@@ -28,24 +28,24 @@
 
 </div>
 
-<div class="mod-do-dont-list">
+<div class="moduk-do-dont-list">
  
- <h3 class="mod-do-dont-list__label">Don’t</h3>
+ <h3 class="moduk-do-dont-list__label">Don’t</h3>
  
- <ul class="mod-do-dont__list mod-do-dont__list--cross">
+ <ul class="moduk-do-dont__list moduk-do-dont__list--cross">
     
     <li>
-      <span class="mod-do-dont__cross" aria-hidden="true"></span>
+      <span class="moduk-do-dont__cross" aria-hidden="true"></span>
       Classify information higher than it needs
     </li>
 
     <li>
-      <span class="mod-do-dont__cross" aria-hidden="true"></span>
+      <span class="moduk-do-dont__cross" aria-hidden="true"></span>
       Share anything in person or online that is not OFFICIAL
     </li>
 
     <li>
-      <span class="mod-do-dont__cross" aria-hidden="true"></span>
+      <span class="moduk-do-dont__cross" aria-hidden="true"></span>
       Use OFFICIAL-SENSITIVE as a security classification
     </li>
 
@@ -59,7 +59,7 @@
 ```
 {% from 'components/do-dont-list/macro.njk' import list %}
 
-{{ modList({
+{{ modukList({
   "title": 'Do',
   "type": 'tick',
   "items": [
@@ -75,7 +75,7 @@
   ]
 }) }}
 
-{{ modList({
+{{ modukList({
   "title": 'Don’t',
   "type": 'cross',
   "items": [

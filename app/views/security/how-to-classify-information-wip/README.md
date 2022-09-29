@@ -51,7 +51,7 @@ It will be clear that you are working on information or systems that are TOP SEC
 
 You need to label information correctly so that people understand how to protect and share it.
 
-{{ modList({
+{{ modukList({
   "title": 'Do',
   "type": 'tick',
   "items": [
@@ -67,7 +67,7 @@ You need to label information correctly so that people understand how to protect
   ]
 }) }}
 
-{{ modList({
+{{ modukList({
   "title": 'Don’t',
   "type": 'cross',
   "items": [
