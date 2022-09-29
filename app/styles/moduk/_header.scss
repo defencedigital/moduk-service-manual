@@ -4,11 +4,11 @@ Title: Header
 
 -------------------------------- */
 
-.mod-header__container {
+.moduk-header__container {
   border-bottom-color: $govuk-brand-colour;
 }
 
-.mod-header__logo {
+.moduk-header__logo {
   @include govuk-responsive-margin(2, "bottom");
   padding-right: govuk-spacing(8);
 
@@ -21,7 +21,7 @@ Title: Header
 
 }
 
-.mod-header__logo-link {
+.moduk-header__logo-link {
   display: inline-block; 
   vertical-align: top;
 
@@ -31,12 +31,12 @@ Title: Header
 
 }
 
-.mod-header__logo-svg {
+.moduk-header__logo-svg {
   display: inline-block;
   vertical-align: top;
 }
 
-.mod-header__service-name {
+.moduk-header__service-name {
 
   @include govuk-media-query ($from: desktop) {
     margin-top: 7px;

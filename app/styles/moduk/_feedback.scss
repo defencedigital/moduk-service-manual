@@ -4,7 +4,7 @@ Title: Feedback
 
 -------------------------------- */
 
-.mod-feedback {
+.moduk-feedback {
   background: govuk-colour("light-grey");
   margin-top: govuk-spacing(6);
 
@@ -15,13 +15,13 @@ Title: Feedback
 }
 
 
-.mod-feedback__close {
+.moduk-feedback__close {
   float: right;
   margin: 0 govuk-spacing(1) govuk-spacing(2) 0;
 }
 
 
-.mod-feedback__prompt {
+.moduk-feedback__prompt {
   @include govuk-clearfix;
   background-color: govuk-colour("light-grey");
   box-sizing: border-box;
@@ -41,8 +41,8 @@ Title: Feedback
 
 
 
-.mod-feedback__prompt-question,
-.mod-feedback__prompt-success {
+.moduk-feedback__prompt-question,
+.moduk-feedback__prompt-success {
   @include govuk-font(19, $weight: bold);
 
   @include govuk-media-query($from: tablet) {
@@ -53,7 +53,7 @@ Title: Feedback
 
 
 
-.mod-feedback__prompt-question {
+.moduk-feedback__prompt-question {
   vertical-align: top;
   display: inline-block;
   margin: govuk-spacing(2) govuk-spacing(4);
@@ -76,8 +76,8 @@ Title: Feedback
 }
 
 
-.mod-feedback__prompt-question,
-.mod-feedback__prompt-success {
+.moduk-feedback__prompt-question,
+.moduk-feedback__prompt-success {
   display: inline-block;
   margin: govuk-spacing(2) govuk-spacing(4);
   vertical-align: top;
@@ -101,7 +101,7 @@ Title: Feedback
 }
 
 
-.mod-feedback__option-list {
+.moduk-feedback__option-list {
   list-style-type: none;
   margin: 0;
   margin-top: govuk-spacing(2);
@@ -119,7 +119,7 @@ Title: Feedback
 }
 
 
-.mod-feedback__prompt-link {
+.moduk-feedback__prompt-link {
   @include govuk-font(19);
   background: transparent;
   box-shadow: 0 2px 0 govuk-colour("black");
@@ -146,7 +146,7 @@ Title: Feedback
 }
 
 
-.mod-feedback__option-list-item {
+.moduk-feedback__option-list-item {
   
   @include govuk-media-query($from: mobile) {
     display: inline-block;
@@ -155,7 +155,7 @@ Title: Feedback
 }
 
 
-.mod-feedback__option-list-item:last-child {
+.moduk-feedback__option-list-item:last-child {
   
   @include govuk-media-query($from: mobile) {
     margin-left: govuk-spacing(4);
@@ -164,7 +164,7 @@ Title: Feedback
 }
 
 
-.mod-feedback__form {
+.moduk-feedback__form {
   background-color: govuk-colour("white");
   border-top: 1px solid govuk-colour("mid-grey");
   padding: govuk-spacing(3) 0;
