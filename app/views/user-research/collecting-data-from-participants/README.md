@@ -46,7 +46,7 @@ You must then ask the participant if they:
 
 Before you start, you must get participants to sign an [MOD consent form](#0). You need to add details about your research.
 
-#### Share an information sheet
+#### Share an understanding your participation sheet
 
 Your information sheet should include:
 
@@ -56,7 +56,7 @@ Your information sheet should include:
 - the classification of the research and what this means, especially if SECRET or above
 - how the user can withdraw from the current or future research
 
-You can use this example of a [MOD understanding your participation sheet](#0).
+You can use this example of an [understanding your participation sheet](#0).
 
 ## Only collect data that you need
 
@@ -78,11 +78,11 @@ Sensitive data is any information that could cause the participant embarrassment
 
 This is personal data that needs more protection because it is sensitive, as defined by General Data Protection Regulation (GDPR).
 
-It It covers data revealing someone’s:
+It covers data revealing someone’s:
 
 - racial or ethnic origin
 - political opinions
-- religious of philosophical beliefs
+- religious or philosophical beliefs
 - trade union membership
 - genetic data
 - biometric data
@@ -118,6 +118,6 @@ Special category data and protected characteristics are similar, but regulated d
 
 Unless it is essential to your research, avoid collecting information on [protected characteristics](https://www.gov.uk/discrimination-your-rights)
 
-## Useful links
+## Related content
 
 - [Special Category Data at the Information Commissioner’s Office](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/special-category-data)
