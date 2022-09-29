@@ -22,10 +22,6 @@ Your stakeholders can help you follow the chain of command and avoid problems.
 
 ### Tools that can help
 
-{{ govukInsetText({
-  text: "Do not use social media platforms like Twitter, Instagram, LinkedIn or TikTok to recruit participants for user research."
-}) }}
-
 #### MODnet
 
 If you have access to MODnet, you can often find staff names and details on your Command Sharepoint. If you do not have access to this or other platforms, ask a permanent staff member to help you.
