@@ -1,15 +1,15 @@
-{% extends "guidance.njk" %}
-
 {% set pageTitle       = "Find user research participants across Defence" %}
 {% set pageDescription = "" %}
 {% set sectionTitle    = "User research" %}
 
+{% extends "includes/guidance.njk" %}
+
 {% block breadcrumb %}
-  {% include "../_breadcrumb.njk" %}
+  {% include "user-research/_breadcrumb.njk" %}
 {% endblock %}
 
 {% block bodyContent %}
-  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  {% markdown %}{% include "user-research/find-user-research-participants-across-defence/README.md" %}{% endmarkdown %}
 {% endblock %}
 
 {% block contentsList %}

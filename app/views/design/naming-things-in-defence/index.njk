@@ -1,13 +1,13 @@
-{% extends "guidance.njk" %}
-
 {% set pageTitle       = "Naming things in Defence" %}
 {% set pageDescription = "" %}
 {% set sectionTitle    = "Design" %}
 
+{% extends "includes/guidance.njk" %}
+
 {% block breadcrumb %}
-  {% include "../_breadcrumb.njk" %}
+  {% include "design/_breadcrumb.njk" %}
 {% endblock %}
 
 {% block bodyContent %}
-  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  {% markdown %}{% include "design/naming-things-in-defence/README.md" %}{% endmarkdown %}
 {% endblock %}

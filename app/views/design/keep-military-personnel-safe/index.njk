@@ -1,15 +1,15 @@
-{% extends "guidance.njk" %}
-
 {% set pageTitle       = "Keep military personnel safe" %}
 {% set pageDescription = "" %}
 {% set sectionTitle    = "Design" %}
 
+{% extends "includes/guidance.njk" %}
+
 {% block breadcrumb %}
-  {% include "../_breadcrumb.njk" %}
+  {% include "design/_breadcrumb.njk" %}
 {% endblock %}
 
 {% block bodyContent %}
-  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  {% markdown %}{% include "design/keep-military-personnel-safe/README.md" %}{% endmarkdown %}
 {% endblock %}
 
 {% block contentsList %}

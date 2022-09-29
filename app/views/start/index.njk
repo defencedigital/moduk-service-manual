@@ -1,11 +1,11 @@
-{% extends "landing.njk" %}
-
 {% set pageTitle   = "Defence Service Manual prototype" %}
 {% set phaseBanner = false %}
 {% set breadcrumb  = false %}
 {% set feedback    = false %}
 {% set getInTouch  = false %}
 
+{% extends "includes/landing.njk" %}
+
 {% block bodyContent %}
-  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  {% markdown %}{% include "start/README.md" %}{% endmarkdown %}
 {% endblock %}

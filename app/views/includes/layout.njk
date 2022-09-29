@@ -64,10 +64,10 @@
     {# Progressive enhancement #}
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
-    {% include "_mod-header.njk" ignore missing %}
+    {% include "includes/_mod-header.njk" ignore missing %}
 
     {% if phaseBanner != false %}
-      {% include "_phase-banner.njk" ignore missing %}
+      {% include "includes/_phase-banner.njk" ignore missing %}
     {% endif %}
 
     {# Breadcrumb #}
@@ -85,10 +85,10 @@
     {% endif %}
 
     {% if feedback != false %}
-      {% include "_feedback.njk" ignore missing %}
+      {% include "includes/_feedback.njk" ignore missing %}
     {% endif %}
 
-    {% include "_footer.njk" ignore missing %}
+    {% include "includes/_footer.njk" ignore missing %}
 
     <script src="{{ baseURL }}assets/scripts/scripts.js"></script>
 

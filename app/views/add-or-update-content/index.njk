@@ -1,10 +1,10 @@
-{% extends "guidance.njk" %}
-
 {% set pageTitle       = "Add or update content" %}
 {% set pageDescription = "" %}
 
+{% extends "includes/guidance.njk" %}
+
 {% block bodyContent %}
-  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  {% markdown %}{% include "add-or-update-content/README.md" %}{% endmarkdown %}
 {% endblock %}
 
 {% block contentsList %}

@@ -1,18 +1,17 @@
-{% extends "guidance.njk" %}
-
 {% set pageTitle       = "Interaction Designers" %}
-{% set pageDescription = "Designing simple screens and interactions makes things easier for everybody. To deliver digital products and services that anyone can use, we need to design them that way." %}
+{% set pageDescription = "" %}
 {% set sectionTitle    = "Accessibility" %}
 
+{% extends "includes/guidance.njk" %}
+
 {% block breadcrumb %}
-  {% include "../_breadcrumb.njk" %}
+  {% include "accessibility/meet-accessibility-regulations/_breadcrumb.njk" %}
 {% endblock %}
 
 {% block bodyContent %}
-  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  {% markdown %}{% include "accessibility/meet-accessibility-regulations/interaction-designers/README.md" %}{% endmarkdown %}
 {% endblock %}
 
-{# Contents list #}
 {% block contentsList %}
 
   {{ govukContentsList({

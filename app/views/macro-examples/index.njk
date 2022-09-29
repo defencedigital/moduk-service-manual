@@ -1,7 +1,7 @@
-{% extends "landing.njk" %}
-
 {% set pageTitle = "Macro examples" %}
 
+{% extends "includes/landing.njk" %}
+
 {% block bodyContent %}
-  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  {% markdown %}{% include "macro-examples/README.md" %}{% endmarkdown %}
 {% endblock %}
