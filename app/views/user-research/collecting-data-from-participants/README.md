@@ -112,7 +112,7 @@ Some personal data is not considered sensitive when captured on their own. These
 
 For more information, [check the MOD disclosure and confidentiality policy](https://www.gov.uk/government/publications/defence-statistics-policies/ministry-of-defence-disclosure-and-confidentiality-policy-identifiable-survey-data#fn:2).
 
-### Protected characteristics
+#### Protected characteristics
 
 Special category data and protected characteristics are similar, but regulated differently.
 
