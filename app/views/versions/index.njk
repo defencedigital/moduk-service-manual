@@ -1,8 +1,9 @@
-{% extends "landing.njk" %}
-
 {% set pageTitle = "Version history" %}
 
+{% extends "includes/landing.njk" %}
+
 {% block bodyContent %}
+
 <h1>Version history</h1>
 
 <h2 class="govuk-heading-m"><a class="govuk-link govuk-link--no-visited-state" href="#0">Version 3</a></h2>
@@ -24,6 +25,7 @@
     <li>Improvements in navigation structure</li>
     <li>Page contents added (sticky)</li>
   </ul>
+
 {% endset %}
 
 {{ govukDetails({
@@ -32,4 +34,5 @@
 }) }}
 
 <h2 class="govuk-heading-m"><a class="govuk-link govuk-link--no-visited-state" href="https://dmdsm.herokuapp.com/dsm-home" target="_blank" rel="nofollow external">Version 2</a></h2>
+
 {% endblock %}

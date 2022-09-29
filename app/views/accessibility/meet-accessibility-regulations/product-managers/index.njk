@@ -1,15 +1,15 @@
-{% extends "guidance.njk" %}
-
 {% set pageTitle       = "Product Managers" %}
-{% set pageDescription = "Everyone in your team has a part to play in delivering accessible products and services. Make sure they know why your product or service needs to be accessible." %}
+{% set pageDescription = "" %}
 {% set sectionTitle    = "Accessibility" %}
 
+{% extends "includes/guidance.njk" %}
+
 {% block breadcrumb %}
-  {% include "../_breadcrumb.njk" %}
+  {% include "accessibility/meet-accessibility-regulations/_breadcrumb.njk" %}
 {% endblock %}
 
 {% block bodyContent %}
-  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  {% markdown %}{% include "accessibility/meet-accessibility-regulations/product-managers/README.md" %}{% endmarkdown %}
 {% endblock %}
 
 {% block contentsList %}

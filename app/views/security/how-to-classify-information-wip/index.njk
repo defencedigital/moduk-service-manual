@@ -1,16 +1,16 @@
-{% extends "guidance.njk" %}
-
 {% set pageTitle       = "How to classify information" %}
 {% set pageDescription = "" %}
 {% set sectionTitle    = "Security" %}
 {% set dateUpdated     = "September 2022" %}
 
+{% extends "includes/guidance.njk" %}
+
 {% block breadcrumb %}
-{% include "../_breadcrumb.njk" %}
+{% include "security/_breadcrumb.njk" %}
 {% endblock %}
 
 {% block bodyContent %}
-  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  {% markdown %}{% include "security/how-to-classify-information-wip/README.md" %}{% endmarkdown %}
 {% endblock %}
 
 {% block contentsList %}

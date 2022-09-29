@@ -1,15 +1,15 @@
-{% extends "guidance.njk" %}
-
 {% set pageTitle       = "User-centred design" %}
 {% set pageDescription = "Anyone working on digital products or services in Defence is welcome to join the user-centred design (UCD) community." %}
 {% set sectionTitle    = "Your community" %}
 
+{% extends "includes/guidance.njk" %}
+
 {% block breadcrumb %}
-  {% include "../_breadcrumb.njk" %}
+  {% include "your-community/_breadcrumb.njk" %}
 {% endblock %}
 
 {% block bodyContent %}
-  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  {% markdown %}{% include "your-community/user-centred-design/README.md" %}{% endmarkdown %}
 {% endblock %}
 
 {% block contentsList %}

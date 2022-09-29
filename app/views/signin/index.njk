@@ -1,12 +1,13 @@
-{% extends "base.njk" %}
-
 {% set pageTitle       = "Sign in" %}
 {% set pageDescription = "This is a prototype used for research." %}
 {% set phaseBanner     = false %}
 {% set feedback        = false %}
 {% set getInTouch      = false %}
 
+{% extends "includes/layout.njk" %}
+
 {% block outerBody %}
+
 <div class="govuk-width-container">
 
   <div class="govuk-main-wrapper">
@@ -68,4 +69,5 @@
   </div>
 
 </div>
+
 {% endblock %}

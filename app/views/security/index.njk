@@ -1,9 +1,10 @@
-{% extends "landing.njk" %}
-
 {% set pageTitle       = "Security" %}
 {% set pageDescription = "" %}
 
+{% extends "includes/landing.njk" %}
+
 {% block bodyContent %}
+
 <h1>Security</h1>
 
 <h2 class="govuk-heading-m govuk-!-margin-bottom-1"><a href="{{ baseURL }}security/how-to-classify-information">How to classify information</a></h2>
@@ -21,4 +22,5 @@
   <li>Manage SECRET and TOP SECRET information</li>
   <li>Using social media</li>
 </ul>
+
 {% endblock %}

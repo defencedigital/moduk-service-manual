@@ -1,8 +1,8 @@
-{% extends "landing.njk" %}
-
 {% set pageTitle  = "Page not found" %}
 {% set breadcrumb = false %}
 
+{% extends "includes/landing.njk" %}
+
 {% block bodyContent %}
-  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  {% markdown %}{% include "page-not-found/README.md" %}{% endmarkdown %}
 {% endblock %}
