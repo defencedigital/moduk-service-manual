@@ -1,4 +1,6 @@
-## Accessibility in Defence
+## Accessibility across Defence
+
+In Defence environments, accessibility needs can be permanent, temporary or situational. 
 
 Consider people working in the deployed space, for example military units working away from their permanent base. 
 
@@ -6,16 +8,15 @@ There are also many people in the operational space, supporting military operati
 
 People working in Defence can have issues including:
 
-- low to no 3G and 4G onboard ships
+- devices with limited battery power
+- low to no 3G and 4G, for example on ships
 - not being able to use 2-factor authentication
 - wearing restrictive kit, such as thick gloves
-- devices with limited battery power
 
-In Defence envoronments, accessibility needs can be permanent, temporary or situational. 
 
 ## Consider the battlespace
 
-You might need to consider accessibility issues in the battle environment, including:
+You might need to consider accessibility issues in battle environments, including:
 
 - low light, red light or no light
 - very noisy environments or the need for silence
