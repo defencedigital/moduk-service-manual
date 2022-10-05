@@ -5,24 +5,21 @@ Title: Site map
 -------------------------------- */
 
 .moduk-sitemap {
-  @extend .govuk-list;
 
-  > li {
-    font-weight: bold;
+  > ul:not([class]) {
+    margin-bottom: 0;
+    padding-left: 0;
+
+    > li:not([class]) {
+      font-weight: bold;
+      list-style: none;
+    }
+
   }
 
-  ul:not([class]) {
-    @extend .govuk-list;
+  > ul:not([class]) ul:not([class]) {
+    margin-bottom: 20px;
     margin-left: 15px;
-  }
-
-  ul:not([class]) ul {
-    margin-bottom: 10px;
-  }
-
-  a:not([class]) {
-    @extend .govuk-link;
-    @extend .govuk-link--no-visited-state;
   }
 
 }
