@@ -58,9 +58,13 @@ It will be clear that you are working on information or systems that are TOP SEC
 
 ### Classifying large amounts of data
 
-Some products and services in Defence create or process large amounts of data. These projects usually have a data owner. To classify data correctly, the data owner needs to fully understand how sensitive it is and the likely threats.
+Some products and services in Defence create or process large amounts of data. These projects usually have an information asset owner. 
+
+To classify data correctly, the information asset owner needs to fully understand how sensitive it is and the likely threats. 
+
+Collecting large amounts of data does not always mean that you have to classify it higher. 
 
 ### Related content
 
-- [Government security classifications](#0)
-- [OFFICIAL-SENSITIVE data and IT](#0)
+- [Government security classifications](https://www.gov.uk/government/publications/government-security-classifications)
+- [OFFICIAL-SENSITIVE data and IT](https://www.gov.uk/guidance/official-sensitive-data-and-it)
