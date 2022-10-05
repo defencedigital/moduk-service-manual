@@ -2,7 +2,10 @@
 
 An accessibility statement tells people who use a service how accessible it is and how to get help with accessibility issues. 
 
-[!] Legally, all digital services and products used by the public must have an accessibility statement. 
+{{ govukWarningText({
+  text: "Legally, all digital services and products used by the public must have an accessibility statement.",
+  iconFallbackText: "Warning"
+}) }}
 
 
 ### Internal services and products
