@@ -1,0 +1,43 @@
+{% set pageTitle       = "Security classifications" %}
+{% set pageDescription = "" %}
+{% set sectionTitle    = "Security" %}
+{% set dateUpdated     = "October 2022" %}
+
+{% extends "includes/guidance.njk" %}
+
+{% block breadcrumb %}
+{% include "security/_breadcrumb.njk" %}
+{% endblock %}
+
+{% block bodyContent %}
+  {% markdown %}{% include "security/security-classifications/README.md" %}{% endmarkdown %}
+{% endblock %}
+
+{% block contentsList %}
+
+  {{ govukContentsList({
+    items: [
+     {
+        href: "#classifications-used-in-defence",
+        text: "Classifications used in Defence"
+      },
+      {
+        href: "#official",
+        text: "OFFICIAL"
+      },
+      {
+        href: "#secret",
+        text: "SECRET"
+      },
+      {
+        href: "#top-secret",
+        text: "TOP SECRET"
+      },
+      {
+        href: "#related-content",
+        text: "Related content"
+      }
+    ]
+  }) }}
+
+{% endblock %}
