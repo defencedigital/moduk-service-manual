@@ -29,7 +29,7 @@ To join, send an email to: [ucd@digital.mod.uk](mailto:ucd@digital.mod.uk).
 Slack is a messaging service used by the Defence community. It can be downloaded as an app or used in your web browser.
 
 {{ govukInsetText({
-  html: 'MODnet users can use Slack in their web browser.'
+  html: 'MODNET users can use Slack in their web browser.'
 }) }}
 
 #### Defence Digital Service Slack workspace

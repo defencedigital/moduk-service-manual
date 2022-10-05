@@ -22,9 +22,9 @@ Your stakeholders can help you follow the chain of command and avoid problems.
 
 ### Tools that can help
 
-#### MODnet
+#### MODNET
 
-If you have access to MODnet, you can often find staff names and details on your Command Sharepoint. If you do not have access to this or other platforms, ask a permanent staff member to help you.
+If you have access to MODNET, you can often find staff names and details on your Command Sharepoint. If you do not have access to this or other platforms, ask a permanent staff member to help you.
 
 #### Staff directories
 

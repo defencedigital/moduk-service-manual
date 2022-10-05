@@ -26,7 +26,7 @@ When you leave a project, you are responsible for making sure your team can acce
 As soon as possible after collecting user research data, you need to:
 
 1. Download all of the relevant files, including notes, videos and transcripts
-2. Save the files in a password protected folder. If you have access to MODnet, you need to [save the files in this folder](#0)
+2. Save the files in a password protected folder. If you have access to MODNET, you need to [save the files in this folder](#0)
 3. Rename the files using the [Defence format for file names](#0)
 4. Remove any personal or sensitive data
 
