@@ -9,8 +9,7 @@ Testing for accessibility should include:
 - how your product or service works with assistive technologies
 - checking against the [Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21)
 
-All public sector websites and applications must include an accessibility statement. You will need time to create or update the [accessibility statement](#0). It needs to be published before your product or service goes into public beta.
-
+If your service needs an [accessibility statement](/accessibility/publishing-documents), you will need time to create or update it. 
 ## Definition of ready
 
 The definition of ready is a list of things that are needed before something can be started.
@@ -36,7 +35,7 @@ In your team’s definition of done, include things like checked using:
 
 Check the [guidance on testing for accessibility](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility).
 
-You need to correct any issues or explain them in the [accessibility statement](#0).
+You need to correct any issues or explain them in the [accessibility statement](/accessibility/publishing-documents).
 
 ## Useful links
 
