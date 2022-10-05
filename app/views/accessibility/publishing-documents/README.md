@@ -1,32 +1,46 @@
 ## Accessibility statements
 
-Since 2018, all public sector websites and applications must include an accessibility statement. It needs to be published before your product or service goes into public beta.
+An accessibility statement tells people who use a service how accessible it is and how to get help with accessibility issues. 
 
-The statement needs to cover:
+[!] Legally, all digital services and products used by the public must have an accessibility statement. 
 
-- whether your website or mobile app is ‘fully’, ‘partially’ or ‘not’ compliant with accessibility standards
+
+### Internal services and products
+
+There is no MOD policy on publishing accessibility statements on digital services or products that are only used within Defence. 
+
+You need to decide if your users need an accessibility statement. Reasons to publish an accessibility statement include: 
+
+- users being able to request content in different formats
+- you are still working on making areas of your service accessible 
+
+
+### What you need to include
+If your service needs an accessibility statement, it needs to cover:
+
+- whether your website or mobile app is fully, partially or not compliant with accessibility standards
 - if it’s not fully compliant, which parts do not meet accessibility standards and why. For example, because they are exempt or it would be a disproportionate burden to fix
 - how people can get alternatives to content that’s not accessible to them
 - how to contact you to report accessibility problems - and a link to the website that they can use if they’re not happy with your response
 
-You can use this [model accessibility statement](https://www.gov.uk/guidance/model-accessibility-statement).
 
-If you can, work with a content designer to make sure your statement is written in plain English.
+### Explain things that are exempt
 
-## Things you might not need to fix
+You need to explain that things that are not accessible because they are exempt. This includes:
 
-You do not need to make these things accessible: 
-
-- pre-recorded audio and video published before 23 September 2020
 - live audio and video
-- heritage collections like scanned manuscripts
-- PDFs or other documents published before 23 September 2018 - unless users need them to use a service, for example a form that lets you request school meal preferences
-- maps but you’ll need to provide essential information, like an address, in an accessible format
-- third party content that’s under someone else’s control if you did not pay for it or develop it yourself, for example social media ‘like’ buttons
-- content on intranets or extranets published before 23 September 2019 - unless you make a major revision after that date
-- archived websites if they are not needed for services your organisation provides and they are not updated
+- third party content under someone else’s control
+- maps but essential information, like addresses, must be accessible
 
-In your accessibility statement, you need to explain that things like this are not accessible because they are exempt.
+Check the guidance on [publishing an accessibility statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement).
+
+
+### Create an accessibility statement
+
+Use this [model accessibility statement](https://www.gov.uk/guidance/model-accessibility-statement).
+
+If you can, work with a content designer to make sure the content you add is written in plain English.
+
 
 ## Publish accessible documents
 
