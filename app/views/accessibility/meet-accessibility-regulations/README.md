@@ -1,4 +1,12 @@
-## The regulations
+## Accessibility by design 
+
+Plan for accessibility as soon as you start designing a digital service or product. 
+
+Accessibility is important for all users, not just people with physical disabilities or cognitive impairments. Anyone using your service can find themselves dealing with a stressful situation, tiredness or illness.
+
+A service that is easy to use and understand is better for everyone.
+
+## Check the regulations
 
 In the UK, all government digital services and products must:
 
@@ -6,13 +14,14 @@ In the UK, all government digital services and products must:
 - work on the most commonly used assistive technologies, including screen magnifiers, screen readers and speech recognition tools
 - include people with disabilities in user research
 
-Some services also need an [accessibility statement](#0).
+Some services also need an [accessibility statement](/accessibility/publishing-documents).
+
+Check the guidance on [accessibility for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
 
 ### This applies to everyone
 
 Anyone creating digital services or products for Defence, including third-party suppliers, must make sure they meet UK accessibility regulations. 
 
-Check the guidance on [accessibility for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
 
 ## Your role in accessibility
 
