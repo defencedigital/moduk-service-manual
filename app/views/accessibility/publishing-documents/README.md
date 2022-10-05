@@ -1,6 +1,6 @@
 ## Accessibility statements
 
-Since 2018, all public sector websites and applications must include an accessibility statement. It needs to be published before your product or service goes into public beta.
+Since 2018, all public sector websites and applications must include an accessibility statement. It needs to be published before your service or product goes into public beta.
 
 The statement needs to cover:
 
