@@ -56,7 +56,7 @@ This includes information where tampering, loss or access by unauthorised people
 It will be clear that you are working on information or systems that are TOP SECRET.
 
 
-### Classifying large amounts of data
+## Classifying large amounts of data
 
 Some products and services in Defence create or process large amounts of data. These projects usually have an information asset owner. 
 
@@ -64,7 +64,7 @@ To classify data correctly, the information asset owner needs to fully understan
 
 Collecting large amounts of data does not always mean that you have to classify it higher. 
 
-### Related content
+## Related content
 
 - [Government security classifications](https://www.gov.uk/government/publications/government-security-classifications)
 - [OFFICIAL-SENSITIVE data and IT](https://www.gov.uk/guidance/official-sensitive-data-and-it)

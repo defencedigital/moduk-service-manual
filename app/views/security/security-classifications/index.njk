@@ -1,7 +1,7 @@
 {% set pageTitle       = "Security classifications" %}
 {% set pageDescription = "" %}
 {% set sectionTitle    = "Security" %}
-{% set dateUpdated     = "October 2022" %}
+{% set dateUpdated     = "" %}
 
 {% extends "includes/guidance.njk" %}
 
@@ -17,23 +17,11 @@
 
   {{ govukContentsList({
     items: [
-     {
+      {
         href: "#classifications-used-in-defence",
         text: "Classifications used in Defence"
       },
       {
-        href: "#official",
-        text: "OFFICIAL"
-      },
-      {
-        href: "#secret",
-        text: "SECRET"
-      },
-      {
-        href: "#top-secret",
-        text: "TOP SECRET"
-      },
-       {
         href: "#classifying-large-amounts-of-data",
         text: "Classifying large amounts of data"
       },
