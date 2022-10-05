@@ -28,7 +28,7 @@ When you suggest content for the manual, make sure you tell us:
 - the security classification
 
 {{ govukInsetText({
-  html: 'Currently, we only publish content that is classified OFFICIAL.Check <a href="#0">how to classify information</a>.'
+  html: 'Currently, we only publish content that is classified OFFICIAL.Check <a href="/security/security-classifications">how to classify information</a>.'
 }) }}
 
 You can suggest content at any time, [get in touch](/get-in-touch).

@@ -4,7 +4,7 @@ Through user research and usability testing, you can help colleagues understand 
 
 You need to consider the full range of people that are likely to use your product or service. By including a wide range of people, you can better understand how the accessibility of your service impacts everybody who needs to use it.
 
-Find out more about [finding research participants in Defence](#0).
+Find out more about [finding research participants in Defence](/user-research/find-user-research-participants-across-defence).
 
 ## Usability testing
 

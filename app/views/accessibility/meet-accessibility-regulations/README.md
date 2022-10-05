@@ -6,7 +6,7 @@ In the UK, all government digital services and products must:
 - work on the most commonly used assistive technologies, including screen magnifiers, screen readers and speech recognition tools
 - include people with disabilities in user research
 
-Some services also need an [accessibility statement](/accessibility/accessibility-statements).
+Some services also need an [accessibility statement](#0).
 
 ### This applies to everyone
 

@@ -14,7 +14,7 @@ If you have participants from a small team or area in Defence, consider what oth
 
 For projects that present personal or sensitive data, ask your team to create dummy data that can be shared.
 
-Find out [how to make user research data anonymous](#0).
+Find out [how to make user research data anonymous](/user-research/save-and-store-user-research-data).
 
 ### Recording presentations
 
