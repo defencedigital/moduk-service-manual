@@ -1,4 +1,4 @@
-{% set pageTitle       = "Understanding Defence environments" %}
+{% set pageTitle       = "Publishing documents" %}
 {% set pageDescription = "" %}
 {% set sectionTitle    = "Accessibility" %}
 
@@ -9,7 +9,7 @@
 {% endblock %}
 
 {% block bodyContent %}
-  {% markdown %}{% include "accessibility/understanding-defence-environments/README.md" %}{% endmarkdown %}
+  {% markdown %}{% include "accessibility/publishing-documents/README.md" %}{% endmarkdown %}
 {% endblock %}
 
 {% block contentsList %}
@@ -17,12 +17,12 @@
   {{ govukContentsList({
     items: [
       {
-        href: "#accessibility-across-Defence",
-        text: "Accessibility across Defence"
+        href: "#accessibility-statements",
+        text: "Accessibility statements"
       },
       {
-        href: "#consider-the-battlespace",
-        text: "Consider the battlespace"
+        href: "#publish-accessible-documents",
+        text: "Publish accessible documents"
       }
     ]
   }) }}
