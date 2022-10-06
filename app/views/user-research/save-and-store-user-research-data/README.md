@@ -67,3 +67,5 @@ To make sure individuals cannot be identified, you need to:
 1. **Create a master document with their details and participant number** <br> This must be password protected. Only share it with people in your team who need it. If you leave a project, make sure someone on the team knows the password.
 2. **Remove personal information from all other documents** <br> This includes notes, reports, presentations and transcripts. If you have consent from the participant and want to share a video clip, check that it does not include personal information.
 3. **Use participant numbers not names** <br> Before saving user research files other than the master file, replace participant names with the participant numbers. For example, P04.
+
+Check the [guidance on protecting participants' data and identities](/user-research/share-user-research-findings-correctly#protect-participants-data-and-identities).
