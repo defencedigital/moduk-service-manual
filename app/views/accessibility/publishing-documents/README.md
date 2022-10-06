@@ -1,3 +1,9 @@
+## Publish accessible documents
+
+Any documents you include in your service, such as PDFs, must be accessible. Check the guidance on [publishing accessible documents](https://www.gov.uk/guidance/publishing-accessible-documents).
+
+If you need help to make documents accessible, use a MODNET device to contact the [Directorate of Defence Communications](https://modgovuk.sharepoint.com/sites/IntranetHeadOffice/SitePages/Defence-Communications.aspx).
+
 ## Accessibility statements
 
 An accessibility statement tells people who use a service how accessible it is and how to get help with accessibility issues. 
@@ -10,13 +16,18 @@ An accessibility statement tells people who use a service how accessible it is a
 
 ### Internal services and products
 
-There is no MOD policy on publishing accessibility statements on digital services or products that are only used within Defence. 
+If your digital service or product is only used by people in Defence, check if they need an accessibility statement. 
 
-You need to decide if your users need an accessibility statement. Reasons to publish an accessibility statement include: 
+Reasons to publish an accessibility statement on an internal service or product include: 
 
-- users being able to request content in different formats
+- users are able to request content in different formats
 - you are still working on making areas of your service accessible 
 
+{{ govukInsetText({
+  text: "Your digital service or product must meet accessibility regulations even if you do not publish an accessibility statement."
+}) }}
+
+Check [how to meet accessibility regulations](/accessibility/meet-accessibility-regulations).
 
 ### What you need to include
 If your service needs an accessibility statement, it needs to cover:
@@ -45,10 +56,3 @@ Use this [model accessibility statement](https://www.gov.uk/guidance/model-acces
 If you can, work with a content designer to make sure the content you add is written in plain English.
 
 
-## Publish accessible documents
-
-Any documents you include in your service, such as PDFs, must be accessible.
-
-Check the guidance on [publishing accessible documents](https://www.gov.uk/guidance/publishing-accessible-documents).
-
-If you need help making your document accessible, contact the Directorate of Defence Communications.
