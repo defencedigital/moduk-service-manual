@@ -20,7 +20,7 @@ You can include a short description of what you are working on.
 
 ### Email
 
-Send your details to [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk?subject=Sign%20up%20for%20user%20research).
+Send your details to [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk?subject=Sign%20up%20to%20user%20research).
 
 ### Slack
 
