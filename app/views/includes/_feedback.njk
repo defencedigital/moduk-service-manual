@@ -42,21 +42,14 @@
           <h2 class="govuk-heading-m">Help improve the Defence Service Manual</h2>
 
           {{ govukTextarea({
-            name: "what-were-you-looking-for",
-            id: "what-were-you-looking-for",
+            name: "what-guidance-were-you-looking-for",
+            id: "what-guidance-were-you-looking-for",
             rows: 3,
             label: {
-              text: "What were you looking for?"
+              text: "What guidance were you looking for?"
             },
-            spellcheck: true
-          }) }}
-
-          {{ govukTextarea({
-            name: "any-other-comments",
-            id: "any-other-comments",
-            rows: 3,
-            label: {
-              text: "Any other comments"
+            hint: {
+              text: "Include details, questions and suggestions."
             },
             spellcheck: true
           }) }}
@@ -69,8 +62,8 @@
             hint: {
               text: "We will only contact you to discuss your feedback."
             },
-            id: "event-name",
-            name: "event-name"
+            id: "email-address",
+            name: "email-address"
           }) }}
 
           {{ govukButton({
