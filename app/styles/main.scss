@@ -10,9 +10,10 @@ $govuk-brand-colour: #512B45;
 @import "gov-publishing-components/all";
 
 
-// MoD Styles and extension overrides
+// MOD Styles and extension overrides
 @import "moduk/all";
 
 
-// MoD Components
+// MOD Components
 @import "components/do-dont-list/do-dont-list";
+@import "components/steps/steps";
