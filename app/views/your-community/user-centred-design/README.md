@@ -29,7 +29,7 @@ To join, send an email to: [ucd@digital.mod.uk](mailto:ucd@digital.mod.uk).
 Slack is a messaging service used by the Defence community. It can be downloaded as an app or used in your web browser.
 
 {{ govukInsetText({
-  html: 'MODNET users can use Slack in their web browser.'
+  html: 'On a MODNET device, you can use Slack in your web browser.'
 }) }}
 
 #### Defence Digital Service Slack workspace
@@ -41,15 +41,16 @@ If you have a digital.mod.uk email address you can:
 - sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com)
 - join the #ucd channel
 
-If you have an mod.gov.uk or external email address, your delivery or team lead will need to invite you.
+If you have an mod.gov.uk or external email address, ask your delivery or team lead to invite you.
 
 #### UK Government Digital Slack workspace
 
-Get involved with conversations across government. Browse or join channels for content, design and user research.
+Get involved with conversations across government. 
 
 You can join with either a digital.mod.uk or mod.gov.uk email address.
 
-[https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com).
+- sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com)
+- browse and join channels for content, design and user research
 
 ## Useful links
 

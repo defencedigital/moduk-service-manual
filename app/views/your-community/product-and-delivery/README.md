@@ -7,25 +7,35 @@ Anyone working on digital products or services in Defence is welcome to join the
 
 ## Get involved
 
-There are a few easy ways to be part of the community.
+There are a few easy ways to be part of the product and delivery community.
 
-### Slack channels
+### Slack workspaces and channels
 
-Using your digital MOD email address, go to defencedigital.slack.com and join the #product-delivery channel. This is the place to ask questions about product management and delivery in Defence.
-
-You might like to get involved with conversations across government. Using your digital MOD email address, go to ukgovernmentdigital.slack.com. Browse and join channels for product and delivery.
-
-### Meetings
-
-Join the product and delivery community calls held every 2 weeks on Thursdays. We discuss anything related to product, delivery and service management in Defence.
-
-To join, send an email to: [delivery-management@digital.mod.uk](mailto:delivery-management@digital.mod.uk).
+Slack is a messaging service used by the Defence community. It can be downloaded as an app or used in your web browser.
 
 {{ govukInsetText({
-  html: 'You must only share and discuss OFFICIAL data. <a href="#0">Find out about data classifications</a>.'
+  html: 'On a MODNET device, you can use Slack in your web browser.'
 }) }}
 
-We work under [the Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule?gclid=CjwKCAjwkYGVBhArEiwA4sZLuK5u_XCJRH7ClZyiXlhtQLMleAKX6CZ3Ka8cuQ1hr70AfK95tVehOhoCP5wQAvD_BwE), creating a safe space for you to share your work and any challenges.
+#### Defence Digital Service Slack workspace
+
+This is the place to ask quick questions about product management and delivery in Defence.
+
+If you have a digital.mod.uk email address you can:
+
+- sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com)
+- join the #product-delivery channel
+
+If you have an mod.gov.uk or external email address, ask your delivery or team lead to invite you.
+
+#### UK Government Digital Slack workspace
+
+Get involved with conversations across government. 
+
+You can join with either a digital.mod.uk or mod.gov.uk email address.
+
+- sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com)
+- browse and join channels for product and delivery
 
 ## Useful links
 
