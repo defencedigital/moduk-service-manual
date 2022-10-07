@@ -1,9 +1,8 @@
-# Sign up to user research
+# Take part in user research
 
-Before we publish new guidance in the manual, we might ask you to join a 1 hour video call to share your feedback. 
+When you sign up to be part of user research, we might ask you to:
 
-We might also ask you to:
-
+- join a short call to share your thoughts on new guidance
 - do a diary study to show us how you use the manual
 - complete short surveys about your experiences
 
@@ -11,7 +10,7 @@ We anonymise all feedback. You can stop taking part at any time.
 
 ## Send us your details
 
-To take part in user research, send us your:
+To sign up to user research, send us your:
 
 - full name, including rank if relevant
 - job title and organisation
