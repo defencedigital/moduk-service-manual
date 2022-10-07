@@ -6,9 +6,27 @@
 
 <h1>Version history</h1>
 
-<h2 class="govuk-heading-m"><a class="govuk-link govuk-link--no-visited-state" href="#0">Version 3</a></h2>
+<h2 class="govuk-heading-m">Version 4</h2>
 
-<p class="govuk-body">This is the most recent prototype.</p>
+<p class="govuk-body">This is what we’re working on for the next rounds of testing.</p>
+
+{% set htmlOutput %}
+  <ul class="govuk-list govuk-list--bullet">
+    <li>Do and don’t list component added</li>
+    <li>Feedback form simplified</li>
+  </ul>
+
+{% endset %}
+
+{{ govukDetails({
+  summaryText: "What’s changed",
+  html: htmlOutput,
+  open: true
+}) }}
+
+<h2 class="govuk-heading-m">Version 3</h2>
+
+<p class="govuk-body">This is the most recent prototype tested with users.</p>
 
 {% set htmlOutput %}
   <ul class="govuk-list govuk-list--bullet">
@@ -30,9 +48,12 @@
 
 {{ govukDetails({
   summaryText: "What’s changed",
-  html: htmlOutput
+  html: htmlOutput,
+  open: true
 }) }}
 
 <h2 class="govuk-heading-m"><a class="govuk-link govuk-link--no-visited-state" href="https://dmdsm.herokuapp.com/dsm-home" target="_blank" rel="nofollow external">Version 2</a></h2>
+
+<p class="govuk-body">This is an old version of the prototype that was tested with users.</p>
 
 {% endblock %}
