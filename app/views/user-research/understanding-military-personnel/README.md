@@ -4,7 +4,7 @@ Our users are very diverse, from recent school-leavers to experienced and highly
 
 Military personnel are located around the UK and overseas. They have very different access to IT and most do not spend all day working at a desk or in front of a computer.
 
-Read more about [Defence environments and accessibility](#0).
+Find out more about [defence environments and accessibility](/accessibility/understand-defence-environments).
 
 ### Users come from a range of organisations
 
@@ -48,4 +48,4 @@ If you are contacting someone for the first time by email, address them using th
 
 Acronyms are common in Defence. This is not always a choice: some acronyms are mandated and maintained by organisations like North Atlantic Treaty Organization (NATO).
 
-If possible, bring someone with military experience to help translate acronyms during research sessions. If this isn’t possible, you can [read a Defence acronym glossary](https://www.gov.uk).
+If possible, bring someone with military experience to help translate acronyms during research sessions. If this isn’t possible, you can [check the Defence acronym glossary](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/227048/acronyms_and_abbreviations_dec08.pdf).
