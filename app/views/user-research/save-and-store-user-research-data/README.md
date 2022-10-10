@@ -78,4 +78,4 @@ To make sure individuals cannot be identified, you need to:
   ]
 }) }}
 
-Check the [guidance on protecting participants’ data and identities](/user-research/share-user-research-findings-correctly#protect-participants-data-and-identities).
+Check the [how to protect participants’ data and identities](/user-research/share-user-research-findings-correctly).
