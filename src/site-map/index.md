@@ -1,0 +1,42 @@
+---
+layout: "layouts/landing.njk"
+title: "Site map"
+datePublished: ""
+dateUpdated: ""
+eleventyNavigation:
+  key: ""
+---
+
+# Site map
+
+Find your way around this website.
+
+- [Home](/)
+- [Standards in Defence](/standards-in-defence)
+- [User research](/user-research)
+  - [Understanding military personnel](/user-research/understanding-military-personnel)
+  - [Find user research participants across Defence](/user-research/find-user-research-participants-across-defence)
+  - [Collecting data from participants](/user-research/collecting-data-from-participants)
+  - [Save and store user research data](/user-research/save-and-store-user-research-data)
+  - [Share user research findings correctly](/user-research/share-user-research-findings-correctly)
+- [Design](/design)
+  - [Start with simple designs](/design/start-with-simple-designs)
+  - [Keep military personnel safe](/design/keep-military-personnel-safe)
+  - [Naming things in Defence](/design/naming-things-in-defence)
+- [Security](/security)
+  - [Security classifications](/security/security-classifications)
+  - [How to label information](/security/how-to-label-information)
+- [Accessibility](/accessibility)
+  - [Understaningd Defence environments](/accessibility/understanding-defence-environments)
+  - [Meet accessibility regulations](/accessibility/meet-accessibility-regulations)
+    - [Content Designers](/accessibility/meet-accessibility-regulations/content-designers)
+    - [Delivery Managers](/accessibility/meet-accessibility-regulations/delivery-managers)
+    - [Interaction Designers](/accessibility/meet-accessibility-regulations/interaction-designers)
+    - [Product Managers](/accessibility/meet-accessibility-regulations/product-managers)
+    - [User Researchers](/accessibility/meet-accessibility-regulations/user-researchers)
+  - [Publishing statements and accessible documents](/accessibility/publishing-statements-and-accessible-documents)
+- [Your community](/your-community)
+  - [Product and delivery](/your-community/product-and-delivery)
+  - [User-centred design](/your-community/user-centred-design)
+- [Add or update content](/add-or-update-content)
+- [Get in touch](/get-in-touch)

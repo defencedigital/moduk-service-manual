@@ -17,7 +17,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 // Source sass files
 const sourceFiles = [
-  'app/styles/**/**/*.scss'
+  './src/assets/styles/main.scss'
 ];
 
 

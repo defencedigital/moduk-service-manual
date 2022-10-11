@@ -31,7 +31,7 @@ Watch for changes to `CSS`, `JS`, `Images`, `Nunjucks`. Automatically update the
 npm run dev
 ```
 
-Visit: <a href="http://localhost:3000">http://localhost:3000</a>
+Visit: <a href="http://localhost:8080">http://localhost:8080</a>
 
 ## Build app for production
 
