@@ -6,7 +6,7 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   key: "Security"
-  url: "/security"
+  url: meta.baseURL + "security"
 ---
 
 You need to label information correctly so that people understand how to protect and share it.

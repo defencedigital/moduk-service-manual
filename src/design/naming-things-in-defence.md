@@ -6,7 +6,7 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   key: "Design"
-  url: "/design"
+  url: meta.baseURL + "design"
 ---
 
 User-centred design specialists in your team should be heavily involved in naming a service or product. It should then be approved by either the service or product owner.

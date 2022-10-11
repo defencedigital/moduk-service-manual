@@ -6,7 +6,7 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   key: "User research"
-  url: "/user-research"
+  url: meta.baseURL + "user-research"
 ---
 
 We must collect data in a legal and transparent way. Clearly explain to participants what we will use data for and that we will use it for no other purpose.

@@ -6,7 +6,7 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   key: "Design"
-  url: "/design"
+  url: meta.baseURL + "design"
 ---
 
 Defence services and products can be used in combat situations. Good design keeps people safe by being reliable in dangerous or stressful environments.

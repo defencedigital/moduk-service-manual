@@ -6,9 +6,9 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   parent: "Accessibility"
-  parent.url: "/accessibility"
+  parent.url: meta.baseURL + "accessibility"
   key: "Meet accessibility regulations"
-  url: "/accessibility/meet-accessibility-regulations"
+  url: meta.baseURL + "accessibility/meet-accessibility-regulations"
 ---
 
 Through user research and usability testing, you can help colleagues understand the needs of people who use assistive technology.
@@ -17,7 +17,7 @@ Through user research and usability testing, you can help colleagues understand 
 
 You need to consider the full range of people that are likely to use your product or service. By including a wide range of people, you can better understand how the accessibility of your service impacts everybody who needs to use it.
 
-Find out more about [finding research participants in Defence](/user-research/find-user-research-participants-across-defence).
+Find out more about [finding research participants in Defence]({{ meta.baseURL }}user-research/find-user-research-participants-across-defence).
 
 ## Usability testing
 

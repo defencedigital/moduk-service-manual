@@ -6,9 +6,9 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   parent: "Accessibility"
-  parent.url: "/accessibility"
+  parent.url: meta.baseURL + "accessibility"
   key: "Meet accessibility regulations"
-  url: "/accessibility/meet-accessibility-regulations"
+  url: meta.baseURL+ "accessibility/meet-accessibility-regulations"
 ---
 
 Designing simple screens and interactions makes things easier for everybody. To deliver digital products and services that anyone can use, we need to design them that way.
@@ -49,7 +49,7 @@ For example, ‘Change’ doesn’t work out of context. Screen readers need to 
 
 [Add code example here]
 
-Work with a Content Designer to create alt text. Find tips on writing alt text in [Content Designers and accessibility](/accessibility/content-designers) and the [GOV.UK guidance on images](https://design-system.service.gov.uk/styles/images).
+Work with a Content Designer to create alt text. Find tips on writing alt text in [Content Designers and accessibility]({{ meta.baseURL }}accessibility/content-designers) and the [GOV.UK guidance on images](https://design-system.service.gov.uk/styles/images).
 
 ## Only use images that users need
 
