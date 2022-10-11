@@ -1,4 +1,4 @@
-if (process.env.NODE_ENV !== 'production') {
+if (process.env.ELEVENTY_ENV !== 'production') {
   require('dotenv').config();
 }
 
@@ -10,7 +10,7 @@ const uglify = require('gulp-uglify');
 
 
 // Flags whether we compress the output etc
-const isProduction = process.env.NODE_ENV === 'production';
+const isProduction = process.env.ELEVENTY_ENV === 'production';
 
 
 // Source script files

@@ -8,8 +8,8 @@
   },
   "scripts": {
     "build": "gulp build && npx @11ty/eleventy",
-    "dev": "gulp build && ELEVENTY_ENV=development npx @11ty/eleventy --serve",
-    "prod": "gulp clean && ELEVENTY_ENV=production npx @11ty/eleventy && cross-env NODE_ENV=production gulp prod",
+    "dev": "gulp build && cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve",
+    "prod": "gulp clean && cross-env ELEVENTY_ENV=production npx @11ty/eleventy && gulp prod",
     "debug": "DEBUG=* npx eleventy"
   },
   "author": "Trevor Saint <hello@trevorsaint.uk> (https://trevorsaint.uk)",
