@@ -9,4 +9,7 @@ module.exports = {
   // GOVUK macro assets path
   govukPath: 'node_modules/govuk-frontend/govuk/components/',
 
+  // BaseURL
+  baseURL: process.env.BASE_URL || '/trevor/'
+
 };

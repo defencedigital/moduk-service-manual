@@ -9,7 +9,7 @@
   "scripts": {
     "build": "gulp build && npx eleventy",
     "dev": "gulp build && npx eleventy --serve",
-    "prod": "gulp clean && npx eleventy && cross-env ELEVENTY_ENV=production gulp prod"
+    "prod": "gulp clean && cross-env BASE_URL='/moduk-service-manual/' ELEVENTY_ENV=production npx eleventy --pathprefix='/moduk-service-manual/' && gulp prod"
   },
   "author": "Trevor Saint <hello@trevorsaint.uk> (https://trevorsaint.uk)",
   "license": "MIT",
