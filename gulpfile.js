@@ -2,11 +2,11 @@ const { series, parallel} = require('gulp');
 
 
 // Pull in each task
-const clean    = require('./gulp-tasks/clean.js');
-const styles   = require('./gulp-tasks/styles.js');
-const scripts  = require('./gulp-tasks/scripts.js');
-const images   = require('./gulp-tasks/images.js');
-const html     = require('./gulp-tasks/html.js');
+const clean   = require('./gulp-tasks/clean.js');
+const styles  = require('./gulp-tasks/styles.js');
+const scripts = require('./gulp-tasks/scripts.js');
+const images  = require('./gulp-tasks/images.js');
+const html    = require('./gulp-tasks/html.js');
 
 
 // Minify HTML

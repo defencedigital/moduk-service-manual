@@ -6,7 +6,7 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   key: "Accessibility"
-  url: meta.baseURL + "accessibility"
+  url: "/accessibility"
 ---
 
 ## Accessibility across Defence

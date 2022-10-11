@@ -6,9 +6,9 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   parent: "Accessibility"
-  parent.url: meta.baseURL + "accessibility"
+  parent.url: "/accessibility"
   key: "Meet accessibility regulations"
-  url: meta.baseURL+ "accessibility/meet-accessibility-regulations"
+  url: "/accessibility/meet-accessibility-regulations"
 ---
 
 Designing simple screens and interactions makes things easier for everybody. To deliver digital products and services that anyone can use, we need to design them that way.

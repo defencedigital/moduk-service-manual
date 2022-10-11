@@ -37,10 +37,10 @@ When you suggest content for the manual, make sure you tell us:
 - the security classification
 
 {{ component('inset-text', {
-  html: 'Currently, we only publish content that is classified OFFICIAL.Check <a href="{{ meta.baseURL }}security/security-classifications">how to classify information</a>.'
+  html: 'Currently, we only publish content that is classified OFFICIAL.Check <a href="/security/security-classifications">how to classify information</a>.'
 }) }}
 
-You can suggest content at any time, [get in touch]({{ meta.baseURL }}get-in-touch).
+You can suggest content at any time, [get in touch](/get-in-touch).
 
 We will let you know if the content fits in the manual or suggest another place to publish it. If your content fits in the manual, we will review it and share our edits for your approval.
 

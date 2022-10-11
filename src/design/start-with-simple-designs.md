@@ -6,7 +6,7 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   key: "Design"
-  url: meta.baseURL + "design"
+  url: "/design"
 ---
 
 Starting with simple designs and iterating based on user research will keep your service or product as simple as possible.

@@ -9,17 +9,17 @@ eleventyNavigation:
 
 # Design
 
-## [Start with simple designs]({{ meta.baseURL }}design/start-with-simple-designs) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Start with simple designs](/design/start-with-simple-designs) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - Check existing patterns
 - Use the correct styles
 
-## [Keep military personnel safe]({{ meta.baseURL }}design/keep-military-personnel-safe) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Keep military personnel safe](/design/keep-military-personnel-safe) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - Consider safety from the start
 - Test in a real or simulated environment
 
-## [Naming things in Defence]({{ meta.baseURL }}design/naming-things-in-defence) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Naming things in Defence](/design/naming-things-in-defence) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - Transactional services or products
 - Non-transactional services or products

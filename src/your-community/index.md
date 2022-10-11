@@ -21,7 +21,7 @@ Joining a community helps you:
 
 You can join more than one community.
 
-- [Product and delivery]({{ meta.baseURL }}your-community/product-and-delivery)
-- [User-centred design]({{ meta.baseURL }}your-community/user-centred-design)
+- [Product and delivery](/your-community/product-and-delivery)
+- [User-centred design](/your-community/user-centred-design)
 
 The user-centred design community includes content designers, interaction designers, service designers and user researchers.
