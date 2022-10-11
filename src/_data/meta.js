@@ -13,6 +13,6 @@ module.exports = {
   govukPath: 'node_modules/govuk-frontend/govuk/components/',
 
   // Url
-  url: process.env.ELEVENTY_ENV === 'development' ? '/' : '/build-github-pages/'
+  url: process.env.ELEVENTY_ENV === 'development' ? '/' : '/moduk-service-manual/'
 
 };
