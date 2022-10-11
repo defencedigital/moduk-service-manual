@@ -1,1 +1,105 @@
-function Util(){}Util.hasClass=function(e,s){return e.classList.contains(s)},Util.addClass=function(e,s){s=s.split(" ");e.classList.add(s[0]),1<s.length&&Util.addClass(e,s.slice(1).join(" "))},Util.removeClass=function(e,s){s=s.split(" ");e.classList.remove(s[0]),1<s.length&&Util.removeClass(e,s.slice(1).join(" "))},Util.toggleClass=function(e,s,t){t?Util.addClass(e,s):Util.removeClass(e,s)},Util.setAttributes=function(e,s){for(var t in s)e.setAttribute(t,s[t])},function(){var e,s,t,i,l,a,n,d,o=document.getElementsByClassName("js-feedback");0<o.length&&(e=o[0].getElementsByClassName("js-feedback-yes")[0],s=o[0].getElementsByClassName("js-feedback-no")[0],t=o[0].getElementsByClassName("js-feedback-form")[0],i=o[0].getElementsByClassName("js-feedback-close")[0],l=o[0].getElementsByClassName("js-feedback-prompt")[0],a=o[0].getElementsByClassName("js-feedback-question")[0],n=o[0].getElementsByClassName("js-feedback-success")[0],d=document.getElementById("what-were-you-looking-for"),e.addEventListener("click",function(e){e.preventDefault(),Util.addClass(a,"js:is-hidden"),Util.removeClass(n,"js:is-hidden")}),s.addEventListener("click",function(e){e.preventDefault(),Util.removeClass(t,"js:is-hidden"),Util.addClass(l,"js:is-hidden"),d.focus()}),i.addEventListener("click",function(e){e.preventDefault(),Util.addClass(t,"js:is-hidden"),Util.removeClass(l,"js:is-hidden"),Util.removeClass(a,"js:is-hidden")}),t.addEventListener("submit",function(e){e.preventDefault(),Util.addClass(t,"js:is-hidden"),Util.removeClass(l,"js:is-hidden"),Util.addClass(a,"js:is-hidden"),Util.removeClass(n,"js:is-hidden")}))}();
+// Utility function
+function Util () {};
+
+
+// Class manipulation functions
+Util.hasClass = function(el, className) {
+	return el.classList.contains(className);
+};
+
+
+Util.addClass = function(el, className) {
+	var classList = className.split(' ');
+ 	el.classList.add(classList[0]);
+ 	if (classList.length > 1) Util.addClass(el, classList.slice(1).join(' '));
+};
+
+
+Util.removeClass = function(el, className) {
+	var classList = className.split(' ');
+	el.classList.remove(classList[0]);	
+	if (classList.length > 1) Util.removeClass(el, classList.slice(1).join(' '));
+};
+
+
+Util.toggleClass = function(el, className, bool) {
+	if(bool) Util.addClass(el, className);
+	else Util.removeClass(el, className);
+};
+
+
+Util.setAttributes = function(el, attrs) {
+  for(var key in attrs) {
+    el.setAttribute(key, attrs[key]);
+  }
+};
+(function() {
+  
+  var feedback = document.getElementsByClassName('js-feedback'); 
+
+  if (feedback.length > 0) {
+
+    var yes       = feedback[0].getElementsByClassName('js-feedback-yes')[0],
+        no        = feedback[0].getElementsByClassName('js-feedback-no')[0],
+        form      = feedback[0].getElementsByClassName('js-feedback-form')[0],
+        close     = feedback[0].getElementsByClassName('js-feedback-close')[0],
+        prompt    = feedback[0].getElementsByClassName('js-feedback-prompt')[0],
+        questions = feedback[0].getElementsByClassName('js-feedback-question')[0],
+        success   = feedback[0].getElementsByClassName('js-feedback-success')[0];
+
+
+    var firstElement = document.getElementById('what-were-you-looking-for');
+
+
+    // Detect click on yes trigger
+    yes.addEventListener('click', function (event) {
+      
+      event.preventDefault();
+
+      Util.addClass(questions, 'js:is-hidden'); // Hide the question
+      Util.removeClass(success, 'js:is-hidden'); // Show the success
+
+    });
+
+
+    // Detect click on no trigger
+    no.addEventListener('click', function (event) {
+      
+      event.preventDefault();
+
+      Util.removeClass(form, 'js:is-hidden'); // Show the feedback form
+      Util.addClass(prompt, 'js:is-hidden'); // Hide the feedback prompt
+
+      firstElement.focus(); // Focus
+
+    });
+
+
+    // Detect click on close
+    close.addEventListener('click', function (event) {
+      
+      event.preventDefault();
+
+      Util.addClass(form, 'js:is-hidden'); // Hide the feedback form
+      Util.removeClass(prompt, 'js:is-hidden'); // Show the feedback prompt
+      Util.removeClass(questions, 'js:is-hidden'); // Show the question
+
+    });
+
+
+    // Detect form submit
+    form.addEventListener('submit', function (event) {
+      
+      event.preventDefault();
+
+      Util.addClass(form, 'js:is-hidden'); // Hide the feedback form
+      Util.removeClass(prompt, 'js:is-hidden'); // Show the feedback prompt
+      Util.addClass(questions, 'js:is-hidden'); // Hide the question
+      Util.removeClass(success, 'js:is-hidden'); // Show the success
+
+    });
+
+
+  };
+
+}());
