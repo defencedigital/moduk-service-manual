@@ -6,7 +6,7 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   key: "Accessibility"
-  url: "/accessibility"
+  url: "accessibility"
 ---
 
 ## Accessibility by design 
@@ -25,7 +25,7 @@ In the UK, all government digital services and products must:
 - work on the most commonly used assistive technologies, including screen magnifiers, screen readers and speech recognition tools
 - include people with disabilities in user research
 
-Some services also need an [accessibility statement](/accessibility/publishing-documents#accessibility-statements).
+Some services also need an [accessibility statement](accessibility/publishing-documents#accessibility-statements).
 
 Check the guidance on [accessibility for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
 
@@ -42,11 +42,11 @@ For Developers to build an accessible service, designs and content need to work 
 
 Check how you can help with accessibility:
 
-- [Content Designers](/accessibility/meet-accessibility-regulations/content-designers)
-- [Delivery Managers](/accessibility/meet-accessibility-regulations/delivery-managers)
-- [Interaction Designers](/accessibility/meet-accessibility-regulations/interaction-designers)
-- [Product Managers](/accessibility/meet-accessibility-regulations/product-managers)
-- [User Researchers](/accessibility/meet-accessibility-regulations/user-researchers)
+- [Content Designers](accessibility/meet-accessibility-regulations/content-designers)
+- [Delivery Managers](accessibility/meet-accessibility-regulations/delivery-managers)
+- [Interaction Designers](accessibility/meet-accessibility-regulations/interaction-designers)
+- [Product Managers](accessibility/meet-accessibility-regulations/product-managers)
+- [User Researchers](accessibility/meet-accessibility-regulations/user-researchers)
 
 ## Related content
 

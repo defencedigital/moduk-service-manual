@@ -6,9 +6,9 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   parent: "Accessibility"
-  parent.url: "/accessibility"
+  parent.url: "accessibility"
   key: "Meet accessibility regulations"
-  url: "/accessibility/meet-accessibility-regulations"
+  url: "accessibility/meet-accessibility-regulations"
 ---
 
 Making content easy to understand makes it better for everyone. Simple content is even more important for people who have difficulty reading and anyone whose first language is not English.

@@ -9,7 +9,4 @@ module.exports = {
   // GOVUK macro assets path
   govukPath: 'node_modules/govuk-frontend/govuk/components/',
 
-  // Base URL
-  baseURL: process.env.ELEVENTY_ENV === 'development' ? '/' : '/moduk-service-manual/'
-
 };

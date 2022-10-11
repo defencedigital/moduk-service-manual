@@ -20,7 +20,6 @@ const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 
 // Table of contents
 const eleventyPluginTOC = require('@thedigitalman/eleventy-plugin-toc-a11y');
-const meta = require('./src/_data/meta');
 
 
 const markdownItOptions = {
@@ -85,6 +84,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
 
+  // Suppresses output of the paths of all generated files.
+  eleventyConfig.setQuietMode(false);
+
+
   // Configurations
   return {
     dir: {
@@ -95,8 +98,7 @@ module.exports = function (eleventyConfig) {
     templateFormats: [ 'md', 'njk', 'html'],
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
-    dataTemplateEngine: 'njk',
-    pathPrefix: meta.baseURL
+    dataTemplateEngine: 'njk'
   };
 
 

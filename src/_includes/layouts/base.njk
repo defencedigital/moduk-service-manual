@@ -18,31 +18,34 @@
 
     {# Windows tiles #}
     <meta name="msapplication-TileColor" content="#4D2942">
-    <meta name="msapplication-TileImage" content="{{ meta.baseURL }}assets/images/tile-310x150.png">
-    <meta name="msapplication-square70x70logo" content="{{ meta.baseURL }}assets/images/tile-70x70.png">
-    <meta name="msapplication-square150x150logo" content="{{ meta.baseURL }}assets/images/tile-150x150.png">
-    <meta name="msapplication-wide310x150logo" content="{{ meta.baseURL }}assets/images/tile-310x150.png">
-    <meta name="msapplication-square310x310logo" content="{{ meta.baseURL }}assets/images/tile-310x310.png">
+    <meta name="msapplication-TileImage" content="{{ '/assets/images/tile-310x150.png' | url }}">
+    <meta name="msapplication-square70x70logo" content="{{ '/assets/images/tile-70x70.png' | url }}">
+    <meta name="msapplication-square150x150logo" content="{{ '/assets/images/tile-150x150.png' | url }}">
+    <meta name="msapplication-wide310x150logo" content="{{ '/assets/images/tile-310x150.png' | url }}">
+    <meta name="msapplication-square310x310logo" content="{{ '/assets/images/tile-310x310.png' | url }}">
 
     {# iOS #}
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="{{ meta.serviceName }}">
+    <meta name="apple-mobile-web-app-title" content="{{ '/' | url }}">
 
     {# Apple touch icon #}
-    <link rel="apple-touch-icon" href="{{ meta.baseURL }}assets/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="{{ '/assets/images/apple-touch-icon.png' | url }}">
 
     {# Mask icon #}
-    <link rel="mask-icon" href="{{ meta.baseURL }}assets/images/mask-icon.svg" color="#000000">
+    <link rel="mask-icon" href="{{ '/assets/images/mask-icon.svg' | url }}" color="#000000">
 
     {# Fav icon #}
-    <link rel="icon" href="{{ meta.baseURL }}assets/images/favicon.png">
+    <link rel="icon" href="{{ '/assets/images/favicon.png' | url }}">
 
     {# Opengraph #}
-    <meta property="og:image" content="{{ meta.baseURL }}assets/images/opengraph.png">
+    <meta property="og:image" content="{{ '/assets/images/opengraph.png' | url }}">
 
     {# Stylesheet #}
-    <link rel="stylesheet" href="{{ meta.baseURL }}assets/styles/main.css">
+    <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
+  	
+    {# Path #}
+    <base href="{{ '/' | url }}">
 
   </head>
 
@@ -60,7 +63,7 @@
     {% include "feedback.njk" ignore missing %}
     {% include "footer.njk" ignore missing %}
 
-    <script src="{{ meta.baseURL }}assets/scripts/scripts.js"></script>
+    <script src="{{ '/assets/scripts/scripts.js' | url }}"></script>
 
     {% block pageScripts %}{% endblock %}
 

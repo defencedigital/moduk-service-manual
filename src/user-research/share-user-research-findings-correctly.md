@@ -6,7 +6,7 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   key: "User research"
-  url: "/user-research"
+  url: "user-research"
 ---
 
 ## Protect participants’ data and identities
@@ -25,7 +25,7 @@ If you have participants from a small team or area in Defence, consider what oth
 
 For projects that present personal or sensitive data, ask your team to create dummy data that can be shared.
 
-Find out [how to make user research data anonymous](/user-research/save-and-store-user-research-data).
+Find out [how to make user research data anonymous](user-research/save-and-store-user-research-data).
 
 ### Recording presentations
 
@@ -33,7 +33,7 @@ Even if a participant has agreed that you can use a video recording, make sure t
 
 If you are recording a session including videos of participants, pause the recording while you show the clips. We cannot control how widely recordings are shared. They may be used in ways that are not covered in the consent form.
 
-Check [what we cover in consent forms](/user-research/save-and-store-user-research-data#keep-your-promises-to-participants).
+Check [what we cover in consent forms](user-research/save-and-store-user-research-data#keep-your-promises-to-participants).
 
 ## Share findings with the Defence community
 
@@ -41,7 +41,7 @@ We must avoid doing similar research with the same groups of participants across
 
 When you have new user research findings, share them with the UCD community in Defence. Others may be able to use what you have discovered. You can share reports on internal Slack channels or present at the regular community meetings.
 
-Check [how to contact the UCD community](/your-community/user-centred-design).
+Check [how to contact the UCD community](your-community/user-centred-design).
 
 ## Related links
 

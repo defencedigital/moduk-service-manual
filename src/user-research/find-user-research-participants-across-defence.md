@@ -6,7 +6,7 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   key: "User research"
-  url: "/user-research"
+  url: "user-research"
 ---
 
 Participants are the people who take part in user research. They should be people who are using or will use the service.

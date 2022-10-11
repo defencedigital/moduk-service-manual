@@ -6,9 +6,9 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   parent: "Accessibility"
-  parent.url: "/accessibility"
+  parent.url: "accessibility"
   key: "Meet accessibility regulations"
-  url: "/accessibility/meet-accessibility-regulations"
+  url: "accessibility/meet-accessibility-regulations"
 ---
 
 Everyone in your team has a part to play in delivering accessible products and services. Make sure they know why your product or service needs to be accessible.
@@ -19,7 +19,7 @@ Your digital product or service must be easy to use for everyone. Your team may 
 
 Making a service accessible is not a last-minute task for Frontend Developers and QA Testers. User Researchers need to include users of assistive technology in their research. Interaction Designers and Content Designers need to create accessible designs and content.
 
-Ask your team to consider the needs of all users and to [check how their role can help accessibility](/accessibility/#your-role-in-accessibility).
+Ask your team to consider the needs of all users and to [check how their role can help accessibility](accessibility/#your-role-in-accessibility).
 
 ## Get stakeholders onboard
 
@@ -41,4 +41,4 @@ Check guidance on [prioritising accessibility in each delivery phase](https://ww
 
 ## Useful links
 
-- [Delivery managers](/accessibility/your-role-in-accessibility/delivery-managers)
+- [Delivery managers](accessibility/your-role-in-accessibility/delivery-managers)

@@ -7,10 +7,9 @@
     "npm": "~8.15.0"
   },
   "scripts": {
-    "build": "gulp build && npx @11ty/eleventy",
-    "dev": "gulp build && cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve",
-    "prod": "gulp clean && cross-env ELEVENTY_ENV=production npx @11ty/eleventy && gulp prod",
-    "debug": "DEBUG=* npx eleventy"
+    "build": "gulp build && npx eleventy",
+    "dev": "gulp build && npx eleventy --serve",
+    "prod": "gulp clean && npx eleventy && cross-env ELEVENTY_ENV=production gulp prod"
   },
   "author": "Trevor Saint <hello@trevorsaint.uk> (https://trevorsaint.uk)",
   "license": "MIT",
