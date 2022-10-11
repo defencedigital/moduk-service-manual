@@ -20,6 +20,7 @@ const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 
 // Table of contents
 const eleventyPluginTOC = require('@thedigitalman/eleventy-plugin-toc-a11y');
+const meta = require('./src/_data/meta');
 
 
 const markdownItOptions = {
@@ -95,6 +96,7 @@ module.exports = function (eleventyConfig) {
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
+    pathPrefix: meta.baseURL
   };
 
 
