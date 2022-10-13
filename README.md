@@ -9,13 +9,13 @@ Install the long-term support (LTS) version of <a href="https://nodejs.org/en/">
 ### 1. Clone repo
 
 ```
-git clone https://github.com/defencedigital/service-manual-mod.git service-manual-mod
+git clone https://github.com/defencedigital/moduk-service-manual.git service-manual-mod
 ```
 
 ### 2. Navigate to project folder
 
 ```
-cd service-manual-mod
+cd moduk-service-manual
 ```
 
 ### 3. Install npm packages
@@ -25,7 +25,7 @@ npm install
 ```
 
 ### 4. Run app
-Watch for changes to `CSS`, `JS`, `Images`, `Nunjucks`. Automatically update the browser, without the need for a manual refresh.
+Watch for changes to `CSS`, `JS`, `Images`, `Nunjucks` or `Markdown`. Automatically update the browser, without the need for a manual refresh.
 
 ```
 npm run dev
