@@ -1,49 +1,40 @@
 {
-  "name": "defence-service-manual",
-  "version": "1.0.2",
-  "description": "A service manual for the Ministry of Defence (MoD)",
+  "name": "moduk-service-manual",
+  "version": "1.0.3",
+  "description": "Helping you meet service standards and do your role in Defence.",
   "engines": {
-    "node": "~16.16.0"
+    "node": "~16.17.1",
+    "npm": "~8.15.0"
   },
-  "main": "app.js",
   "scripts": {
-    "build": "gulp",
-    "dev": "gulp dev & node app",
-    "start": "gulp && node app",
-    "prod": "cross-env NODE_ENV=production gulp prod",
-    "watch": "gulp watch"
+    "build": "gulp build && npx eleventy",
+    "dev": "gulp build && npx eleventy --serve",
+    "prod": "gulp clean && cross-env BASE_URL='/moduk-service-manual/' npx eleventy --pathprefix='/moduk-service-manual/' && cross-env ELEVENTY_ENV=production gulp prod"
   },
   "author": "Trevor Saint <hello@trevorsaint.uk> (https://trevorsaint.uk)",
   "license": "MIT",
   "dependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@thedigitalman/eleventy-plugin-toc-a11y": "^2.1.0",
     "autoprefixer": "^10.4.8",
-    "bcrypt": "^5.0.1",
-    "browser-sync": "^2.27.10",
-    "compression": "^1.7.4",
-    "connect-flash": "^0.1.1",
     "cross-env": "^7.0.3",
     "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "express-flash": "^0.0.2",
-    "express-session": "^1.17.3",
     "govuk-frontend": "^4.3.0",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
-    "gulp-html": "^4.0.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-if": "^3.0.0",
-    "gulp-nunjucks-render": "^2.2.3",
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
-    "helmet": "^6.0.0",
-    "marked": "^4.1.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.5",
+    "markdown-it-attrs": "^4.1.4",
+    "markdown-it-container": "^3.0.0",
     "node-sass": "^7.0.1",
-    "nunjucks": "^3.2.3",
-    "nunjucks-markdown": "^2.0.1",
-    "passport": "^0.6.0",
-    "passport-local": "^1.0.0"
+    "nunjucks": "^3.2.3"
   }
 }

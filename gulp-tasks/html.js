@@ -1,3 +1,7 @@
+if (process.env.ELEVENTY_ENV !== 'production') {
+  require('dotenv').config();
+}
+
 const { dest, src } = require('gulp');
 
 const gulpif  = require('gulp-if');
@@ -5,7 +9,7 @@ const htmlmin = require('gulp-htmlmin');
 
 
 // Flags whether we compress the output etc
-const isProduction = process.env.NODE_ENV === 'production';
+const isProduction = process.env.ELEVENTY_ENV === 'production';
 
 
 // Source files

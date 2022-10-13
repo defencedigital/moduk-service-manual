@@ -1,0 +1,68 @@
+{%- from "system/component.njk" import component -%}
+{%- from "system/modukcomponent.njk" import modukcomponent -%}
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% if title %}{{ title }} - {{ meta.serviceName }}{% else %}{{ meta.serviceName }}{% endif %}</title>
+
+    {# Search Engine #}
+    <meta name="description" content="{% if meta.serviceDescription %}{{ meta.serviceDescription }}{% else %}Helping you meet service standards and do your role in Defence.{% endif %}">
+
+    {# Theme colour #}
+    <meta name="theme-color" content="#4D2942">
+
+    {# Windows tiles #}
+    <meta name="msapplication-TileColor" content="#4D2942">
+    <meta name="msapplication-TileImage" content="{{ '/assets/images/tile-310x150.png' | url }}">
+    <meta name="msapplication-square70x70logo" content="{{ '/assets/images/tile-70x70.png' | url }}">
+    <meta name="msapplication-square150x150logo" content="{{ '/assets/images/tile-150x150.png' | url }}">
+    <meta name="msapplication-wide310x150logo" content="{{ '/assets/images/tile-310x150.png' | url }}">
+    <meta name="msapplication-square310x310logo" content="{{ '/assets/images/tile-310x310.png' | url }}">
+
+    {# iOS #}
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="{{ '/' | url }}">
+
+    {# Apple touch icon #}
+    <link rel="apple-touch-icon" href="{{ '/assets/images/apple-touch-icon.png' | url }}">
+
+    {# Mask icon #}
+    <link rel="mask-icon" href="{{ '/assets/images/mask-icon.svg' | url }}" color="#000000">
+
+    {# Fav icon #}
+    <link rel="icon" href="{{ '/assets/images/favicon.png' | url }}">
+
+    {# Opengraph #}
+    <meta property="og:image" content="{{ '/assets/images/opengraph.png' | url }}">
+
+    {# Stylesheet #}
+    <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
+
+  </head>
+
+  <body>
+
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    {% include "header.njk" ignore missing %}
+    {% include "phase-banner.njk" ignore missing %}
+
+    <main class="content" id="content">
+      {% block body %}{% endblock %}
+    </main>
+
+    {% include "feedback.njk" ignore missing %}
+    {% include "footer.njk" ignore missing %}
+
+    <script src="{{ '/assets/scripts/scripts.js' | url }}"></script>
+
+    {% block pageScripts %}{% endblock %}
+
+  </body>
+</html>
