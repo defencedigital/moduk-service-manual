@@ -6,13 +6,13 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   key: "User research"
-  url: "user-research"
+  url: "/user-research/"
 ---
 
 Participants are the people who take part in user research. They should be people who are using or will use the service.
 
 {{ component('inset-text', {
-  text: "Do not use social media platforms like Twitter, Instagram, LinkedIn or TikTok to recruit participants for user research."
+  text: 'Do not use social media platforms like Twitter, Instagram, LinkedIn or TikTok to recruit participants for user research.'
 }) }}
 
 ## Start with stakeholders and subject matter experts

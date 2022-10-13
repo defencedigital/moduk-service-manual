@@ -6,7 +6,7 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   key: "Design"
-  url: "design"
+  url: "/design/"
 ---
 
 User-centred design specialists in your team should be heavily involved in naming a service or product. It should then be approved by either the service or product owner.
@@ -22,7 +22,7 @@ Good service or product names:
 - are verbs, not nouns
 
 {{ component('inset-text', {
-  text: "If your service or product is hosted on GOV.UK you must adhere to their naming standards."
+  text: 'If your service or product is hosted on GOV.UK you must adhere to their naming standards.'
 }) }}
 
 [Read GOV.UK guidance on naming your service](https://www.gov.uk/service-manual/design/naming-your-service)

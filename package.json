@@ -1,7 +1,7 @@
 {
-  "name": "defence-service-manual",
+  "name": "moduk-service-manual",
   "version": "1.0.3",
-  "description": "A service manual for the Ministry of Defence",
+  "description": "Helping you meet service standards and do your role in Defence.",
   "engines": {
     "node": "~16.17.1",
     "npm": "~8.15.0"

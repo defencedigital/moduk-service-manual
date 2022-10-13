@@ -37,10 +37,10 @@ When you suggest content for the manual, make sure you tell us:
 - the security classification
 
 {{ component('inset-text', {
-  html: 'Currently, we only publish content that is classified OFFICIAL.Check <a href="/security/security-classifications">how to classify information</a>.'
+  html: 'Currently, we only publish content that is classified OFFICIAL.Check <a href="{{ '/security/security-classifications/' | url }}">how to classify information</a>.'
 }) }}
 
-You can suggest content at any time, [get in touch](get-in-touch).
+You can suggest content at any time, [get in touch]({{ '/get-in-touch/' | url }}).
 
 We will let you know if the content fits in the manual or suggest another place to publish it. If your content fits in the manual, we will review it and share our edits for your approval.
 
@@ -54,7 +54,7 @@ The manual needs to include the latest guidance. If you spot something that need
 
 You can copy the existing content into a Word or Google document and make the updates. Or, you can let us know about the change and we can write the new content with you.
 
-You can ask for updates at any time, [get in touch](get-in-touch).
+You can ask for updates at any time, [get in touch]({{ '/get-in-touch/' | url }}).
 
 ## Writing for the manual
 

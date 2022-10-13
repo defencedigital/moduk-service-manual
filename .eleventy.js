@@ -1,14 +1,3 @@
-/*
-USEFUL LINKS:
-
-https://github.com/11ty/eleventy/issues/812
-https://www.npmjs.com/package/@thedigitalman/eleventy-plugin-toc-a11y
-https://www.trysmudford.com/blog/encapsulated-11ty-components
-https://www.brycewray.com/posts/2022/09/shorter-shortcuts-nunjucks-macros-eleventy
-https://davidea.st/articles/11ty-tips-i-wish-i-knew-from-the-start
-https://dev.to/murtuzaalisurti/adding-custom-anchors-to-headings-in-markdown-eleventy-275o
-*/
-
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
@@ -84,12 +73,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
 
-  // Suppresses output of the paths of all generated files.
+  // Suppresses output of the paths of all generated files
   eleventyConfig.setQuietMode(false);
 
 
   // Configurations
   return {
+
     dir: {
       input: 'src',
       output: 'public',

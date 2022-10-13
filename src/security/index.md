@@ -9,13 +9,13 @@ eleventyNavigation:
 
 # Security
 
-## [Security classifications](security/security-classifications) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Security classifications]({{ '/security/security-classifications/' | url }}) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - Classifications used in Defence
 - Understand OFFICIAL, SECRET and TOP SECRET
 - Classifying large amounts of data
 
-## [How to label information](security/how-to-label-information) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [How to label information]({{ '/security/how-to-label-information/' | url }}) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - How to label OFFICIAL information
 - Use OFFICIAL-SENSITIVE correctly

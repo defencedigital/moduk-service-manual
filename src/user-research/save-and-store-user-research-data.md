@@ -6,7 +6,7 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   key: "User research"
-  url: "user-research"
+  url: "/user-research/"
 ---
 
 ## Keep your promises to participants
@@ -20,7 +20,7 @@ On consent forms used in Defence, we promise user research participants that we 
 
 Participants have a legal right to check what information public bodies hold on them. They can also withdraw their consent to be part of the user research at any time.
 
-Read more about [collecting data from participants](user-research/collecting-data-from-participants).
+Read more about [collecting data from participants]({{ '/user-research/collecting-data-from-participants/' | url }}).
 
 ## How to save user research data in Defence
 
@@ -76,17 +76,17 @@ When you collect personal information, like name and contact details, it needs t
 To make sure individuals cannot be identified, you need to:
 
 {{ modukcomponent('steps', {
-  "items": [
+  'items': [
     {
-      "item": '<b>Create a master document with their details and participant number</b> <br> This must be password protected. Only share it with people in your team who need it. If you leave a project, make sure someone on the team knows the password.'
+      'item': '<b>Create a master document with their details and participant number</b> <br> This must be password protected. Only share it with people in your team who need it. If you leave a project, make sure someone on the team knows the password.'
     },
     {
-      "item": '<b>Remove personal information from all other documents</b> <br> This includes notes, reports, presentations and transcripts. If you have consent from the participant and want to share a video clip, check that it does not include personal information.'
+      'item': '<b>Remove personal information from all other documents</b> <br> This includes notes, reports, presentations and transcripts. If you have consent from the participant and want to share a video clip, check that it does not include personal information.'
     },
     {
-      "item": '<b>Use participant numbers not names</b> <br> Before saving user research files other than the master file, replace participant names with the participant numbers. For example, P04.'
+      'item': '<b>Use participant numbers not names</b> <br> Before saving user research files other than the master file, replace participant names with the participant numbers. For example, P04.'
     }
   ]
 }) }}
 
-Check the [how to protect participants’ data and identities](user-research/share-user-research-findings-correctly).
+Check the [how to protect participants’ data and identities]({{ '/user-research/share-user-research-findings-correctly/' | url }}).

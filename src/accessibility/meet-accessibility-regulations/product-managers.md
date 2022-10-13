@@ -6,9 +6,9 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   parent: "Accessibility"
-  parent.url: "accessibility"
+  parent.url: "/accessibility/"
   key: "Meet accessibility regulations"
-  url: "accessibility/meet-accessibility-regulations"
+  url: "/accessibility/meet-accessibility-regulations/"
 ---
 
 Everyone in your team has a part to play in delivering accessible products and services. Make sure they know why your product or service needs to be accessible.
@@ -19,7 +19,7 @@ Your digital product or service must be easy to use for everyone. Your team may 
 
 Making a service accessible is not a last-minute task for Frontend Developers and QA Testers. User Researchers need to include users of assistive technology in their research. Interaction Designers and Content Designers need to create accessible designs and content.
 
-Ask your team to consider the needs of all users and to [check how their role can help accessibility](accessibility/#your-role-in-accessibility).
+Ask your team to consider the needs of all users and to [check how their role can help accessibility]({{ '/accessibility/meet-accessibility-regulations#your-role-in-accessibility' | url }}).
 
 ## Get stakeholders onboard
 
@@ -34,11 +34,11 @@ You might decide to get an external audit before your product or service can be 
 Aim to prioritise accessibility from the start, so it becomes part of your team culture and processes. This will help you to deliver at pace and meet the legal requirements on accessibility.
 
 {{ component('inset-text', {
-  text: "If you do not plan for accessibility, it can create technical debt that significantly delays future releases."
+  text: 'If you do not plan for accessibility, it can create technical debt that significantly delays future releases.'
 }) }}
 
 Check guidance on [prioritising accessibility in each delivery phase](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#what-to-do-about-accessibility-in-discovery).
 
 ## Useful links
 
-- [Delivery managers](accessibility/your-role-in-accessibility/delivery-managers)
+- [Delivery managers]({{ '/accessibility/meet-accessibility-regulations/delivery-managers/' | url }})

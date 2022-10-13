@@ -6,34 +6,34 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   key: "Security"
-  url: "security"
+  url: "/security/"
 ---
 
 You need to label information correctly so that people understand how to protect and share it.
 
 {{ modukcomponent('do-dont-list', {
-  "title": 'Do',
-  "type": 'tick',
-  "items": [
+  'title': 'Do',
+  'type': 'tick',
+  'items': [
     {
-      "item": 'Write security classifications in all capitals'
+      'item': 'Write security classifications in all capitals'
     },
     {
-      "item": 'Clearly label all SECRET and TOP SECRET information'
+      'item': 'Clearly label all SECRET and TOP SECRET information'
     }
   ]
 }) }}
 
 
 {{ modukcomponent('do-dont-list', {
-  "title": 'Don’t',
-  "type": 'cross',
-  "items": [
+  'title': 'Don’t',
+  'type': 'cross',
+  'items': [
     {
-      "item": 'classify information higher than it needs'
+      'item': 'classify information higher than it needs'
     },
     {
-      "item": 'use OFFICIAL-SENSITIVE as a security classification'
+      'item': 'use OFFICIAL-SENSITIVE as a security classification'
     }
   ]
 }) }}
@@ -62,7 +62,7 @@ Using OFFICIAL-SENSITIVE as a security classification can lead to dangerous prac
 - designing systems to protect all types of sensitive data when they only handle some sensitive data or none at all
 
 {{ component('inset-text', {
-  text: "Only use OFFICIAL-SENSITIVE as a label if have evidence to support your decision."
+  text: 'Only use OFFICIAL-SENSITIVE as a label if have evidence to support your decision.'
 }) }}
 
 
@@ -82,7 +82,7 @@ Use the core descriptors recommended by The Cabinet Office:
 ## How to Label SECRET and TOP SECRET information
 
 {{ component('inset-text', {
-  text: "You must clearly label SECRET and TOP SECRET information."
+  text: 'You must clearly label SECRET and TOP SECRET information.'
 }) }}
 
 You should include the SECRET or TOP SECRET label in the subject line of emails. If the information can be printed out, add the label to the top and bottom of each page.

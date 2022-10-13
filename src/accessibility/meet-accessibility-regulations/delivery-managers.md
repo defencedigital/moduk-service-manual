@@ -6,9 +6,9 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   parent: "Accessibility"
-  parent.url: "accessibility"
+  parent.url: "/accessibility/"
   key: "Meet accessibility regulations"
-  url: "accessibility/meet-accessibility-regulations"
+  url: "/accessibility/meet-accessibility-regulations/"
 ---
 
 To create digital products or services that anyone in Defence can use, you need to make accessibility part of delivery. For example, discussing potential accessibility issues as features are designed.

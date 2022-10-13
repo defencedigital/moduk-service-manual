@@ -1,7 +1,7 @@
 ---
 layout: "layouts/landing.njk"
 title:  "Versions"
-datePublished: "October 2022"
+datePublished: ""
 dateUpdated: ""
 eleventyNavigation:
   key: ""
@@ -28,7 +28,7 @@ This is what we’re working on for the next rounds of testing.
 {% endset %}
 
 {{ component('details', {
-  summaryText: "What’s changed",
+  summaryText: 'What’s changed',
   html: htmlOutput,
   open: true
 }) }}
@@ -56,7 +56,7 @@ This is the most recent prototype tested with users.
 {% endset %}
 
 {{ component('details', {
-  summaryText: "What’s changed",
+  summaryText: 'What’s changed',
   html: htmlOutput,
   open: true
 }) }}

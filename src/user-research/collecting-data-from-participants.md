@@ -6,7 +6,7 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   key: "User research"
-  url: "user-research"
+  url: "/user-research/"
 ---
 
 We must collect data in a legal and transparent way. Clearly explain to participants what we will use data for and that we will use it for no other purpose.
@@ -78,7 +78,7 @@ For example, you probably do not need to know someone’s sexual orientation whe
 ## Protect sensitive data
 
 {{ component('inset-text', {
-  text: "Do not reveal any sensitive data about an individual when carrying out user research."
+  text: 'Do not reveal any sensitive data about an individual when carrying out user research.'
 }) }}
 
 Sensitive data is any information that could cause the participant embarrassment or distress and which they can reasonably expect to remain private.

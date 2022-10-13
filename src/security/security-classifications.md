@@ -6,7 +6,7 @@ datePublished: "October 2022"
 dateUpdated: ""
 eleventyNavigation:
   key: "Security"
-  url: "security"
+  url: "/security/"
 ---
 
 In the UK and internationally, security classifications are used to protect different kinds of information.
@@ -29,7 +29,7 @@ You need to be aware of the security classification of all information you deal 
 
 When you send emails on a MODNET device, you will be asked to select the security classification.
 
-If you create new information or capture new data, [check how to label it](security/how-to-label-information).
+If you create new information or capture new data, [check how to label it]({{ '/security/how-to-label-information/' | url }}).
 
 ### OFFICIAL
 
