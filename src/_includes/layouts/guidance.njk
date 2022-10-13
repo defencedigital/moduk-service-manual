@@ -4,7 +4,7 @@
 
 <div class="govuk-width-container">
 
-  {% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, {includeSelf: true}) %}
+  {% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, {includeSelf: true, allowMissing: true}) %}
 
   <div class="govuk-breadcrumbs">
 
