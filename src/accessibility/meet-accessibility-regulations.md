@@ -3,7 +3,6 @@ layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Meet accessibility regulations"
 datePublished: "October 2022"
-dateUpdated: ""
 eleventyNavigation:
   key: "Accessibility"
   url: "/accessibility/"

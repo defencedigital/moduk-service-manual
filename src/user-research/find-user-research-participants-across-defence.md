@@ -3,7 +3,6 @@ layout: "layouts/guidance.njk"
 section: "User research"
 title: "Find user research participants across Defence"
 datePublished: "October 2022"
-dateUpdated: ""
 eleventyNavigation:
   key: "User research"
   url: "/user-research/"

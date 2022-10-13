@@ -3,7 +3,6 @@ layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Delivery Managers"
 datePublished: "October 2022"
-dateUpdated: ""
 eleventyNavigation:
   parent: "Accessibility"
   parent.url: "/accessibility/"

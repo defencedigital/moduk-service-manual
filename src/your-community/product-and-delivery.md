@@ -2,7 +2,6 @@
 layout: "layouts/guidance.njk"
 title: "Product and delivery"
 datePublished: "October 2022"
-dateUpdated: ""
 eleventyNavigation:
   key: "Your community"
 ---

@@ -2,7 +2,6 @@
 layout: "layouts/guidance.njk"
 title: "Add or update content"
 datePublished: "October 2022"
-dateUpdated: ""
 eleventyNavigation:
   key: ""
 ---

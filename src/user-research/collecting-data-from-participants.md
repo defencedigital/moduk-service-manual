@@ -3,7 +3,6 @@ layout: "layouts/guidance.njk"
 section: "User research"
 title: "Collecting data from participants"
 datePublished: "October 2022"
-dateUpdated: ""
 eleventyNavigation:
   key: "User research"
   url: "/user-research/"

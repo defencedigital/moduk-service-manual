@@ -3,7 +3,6 @@ layout: "layouts/guidance.njk"
 section: "Design"
 title: "Keep military personnel safe"
 datePublished: "October 2022"
-dateUpdated: ""
 eleventyNavigation:
   key: "Design"
   url: "/design/"

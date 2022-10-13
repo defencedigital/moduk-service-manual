@@ -1,10 +1,6 @@
 ---
 layout: "layouts/landing.njk"
 title: "Get in touch"
-datePublished: ""
-dateUpdated: ""
-eleventyNavigation:
-  key: ""
 ---
 
 # Get in touch

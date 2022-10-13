@@ -3,7 +3,6 @@ layout: "layouts/guidance.njk"
 section: "User research"
 title: "Share user research findings correctly"
 datePublished: "October 2022"
-dateUpdated: ""
 eleventyNavigation:
   key: "User research"
   url: "/user-research/"

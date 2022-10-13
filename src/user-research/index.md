@@ -1,10 +1,6 @@
 ---
 layout: "layouts/landing.njk"
 title: "User research"
-datePublished: ""
-dateUpdated: ""
-eleventyNavigation:
-  key: ""
 ---
 
 # User research

@@ -2,7 +2,6 @@
 layout: "layouts/landing.njk"
 title: "Standards in Defence"
 datePublished: "October 2022"
-dateUpdated: ""
 eleventyNavigation:
   key: "Standards in Defence"
 ---

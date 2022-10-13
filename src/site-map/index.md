@@ -1,10 +1,6 @@
 ---
 layout: "layouts/landing.njk"
 title: "Site map"
-datePublished: ""
-dateUpdated: ""
-eleventyNavigation:
-  key: ""
 ---
 
 # Site map

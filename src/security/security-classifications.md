@@ -3,7 +3,6 @@ layout: "layouts/guidance.njk"
 section: "Security"
 title: "Security classifications"
 datePublished: "October 2022"
-dateUpdated: ""
 eleventyNavigation:
   key: "Security"
   url: "/security/"

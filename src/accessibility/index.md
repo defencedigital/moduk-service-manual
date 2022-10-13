@@ -1,10 +1,6 @@
 ---
 layout: "layouts/landing.njk"
 title:  "Accessibility"
-datePublished: ""
-dateUpdated: ""
-eleventyNavigation:
-  key: ""
 ---
 
 # Accessibility

@@ -1,10 +1,6 @@
 ---
 layout: "layouts/landing.njk"
 title: "Take part in user research"
-datePublished: ""
-dateUpdated: ""
-eleventyNavigation:
-  key: ""
 ---
 
 # Take part in user research

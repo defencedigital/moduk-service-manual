@@ -3,7 +3,6 @@ layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Content Designers"
 datePublished: "October 2022"
-dateUpdated: ""
 eleventyNavigation:
   parent: "Accessibility"
   parent.url: "/accessibility/"

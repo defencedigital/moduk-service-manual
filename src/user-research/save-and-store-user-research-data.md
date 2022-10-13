@@ -3,7 +3,6 @@ layout: "layouts/guidance.njk"
 section: "User research"
 title: "Save and store user research data"
 datePublished: "October 2022"
-dateUpdated: ""
 eleventyNavigation:
   key: "User research"
   url: "/user-research/"

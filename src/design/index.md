@@ -1,10 +1,6 @@
 ---
 layout: "layouts/landing.njk"
 title: "Design"
-datePublished: ""
-dateUpdated: ""
-eleventyNavigation:
-  key: ""
 ---
 
 # Design

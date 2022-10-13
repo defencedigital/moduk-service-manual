@@ -3,7 +3,6 @@ layout: "layouts/guidance.njk"
 section: "Design"
 title: "Start with simple designs"
 datePublished: "October 2022"
-dateUpdated: ""
 eleventyNavigation:
   key: "Design"
   url: "/design/"

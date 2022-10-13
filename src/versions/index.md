@@ -1,10 +1,6 @@
 ---
 layout: "layouts/landing.njk"
 title:  "Versions"
-datePublished: ""
-dateUpdated: ""
-eleventyNavigation:
-  key: ""
 ---
 
 # Version history

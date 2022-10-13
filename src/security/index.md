@@ -1,10 +1,6 @@
 ---
 layout: "layouts/landing.njk"
 title: "Security"
-datePublished: ""
-dateUpdated: ""
-eleventyNavigation:
-  key: ""
 ---
 
 # Security

@@ -1,8 +1,6 @@
 ---
 layout: "layouts/landing.njk"
 title: "Your community"
-datePublished: ""
-dateUpdated: ""
 eleventyNavigation:
   key: "Your community"
 ---
