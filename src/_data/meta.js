@@ -10,6 +10,6 @@ module.exports = {
   govukPath: 'node_modules/govuk-frontend/govuk/components/',
 
   // BaseURL
-  baseURL: process.env.BASE_URL || '/trevor/'
+  baseURL: process.env.BASE_URL || '/'
 
 };
