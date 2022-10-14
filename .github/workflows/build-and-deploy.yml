@@ -1,10 +1,13 @@
 name: Build and Deploy
 on:
+  workflow_dispatch:
+    branches: [ main ]
   push:
-    branches: main
+    branches: [ main ]
 
 permissions:
   contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
