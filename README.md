@@ -1,6 +1,6 @@
 [![Build and Deploy](https://github.com/defencedigital/moduk-service-manual/actions/workflows/build-and-deploy.yml/badge.svg?branch=main)](https://github.com/defencedigital/moduk-service-manual/actions/workflows/build-and-deploy.yml)
 
-# Service Manual - Ministry of Defence
+# Defence Service Manual
 
 Helping you meet service standards and do your role in Defence.
 
