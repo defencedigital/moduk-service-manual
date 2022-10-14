@@ -6,19 +6,15 @@ if (process.env.NODE_ENV !== 'production') {
 // External dependencies
 const path        = require('path');
 const express     = require('express');
-const flash       = require('express-flash');
 const session     = require('express-session');
 const browserSync = require('browser-sync');
 const helmet      = require('helmet');
 const compression = require('compression');
-const passport    = require('passport');
 const nunjucks    = require('nunjucks');
-const markdown    = require('nunjucks-markdown');
-const marked      = require('marked');
 
 
 // Local dependencies
-const config  = require('./app/config');
+const config = require('./app/config');
 
 
 // Initialise express application
@@ -41,27 +37,6 @@ app.use(session( {
 }));
 
 
-const users = [
-  {
-    id: Date.now().toString(),
-    email: process.env.EMAIL,
-    password: process.env.PASSWORD
-  }
-];
-
-const initializePassport = require('./middleware/passport');
-
-initializePassport(
-  passport, 
-  email => users.find(user => user.email === email),
-  id => users.find(user => user.id === id)
-);
-
-app.use(passport.initialize());
-app.use(passport.session());
-app.use(flash());
-
-
 // Use gzip compression to decrease the size of the response body and increase the speed of web app
 app.use(compression());
 
@@ -70,7 +45,7 @@ app.use(compression());
 app.use(
   helmet({
     contentSecurityPolicy: false,
-  }),
+  })
 );
 
 
@@ -93,33 +68,15 @@ const env = nunjucks.configure(appViews, {
 });
 
 
-// Markdown renderer, options and register
-const markdownRenderer = new marked.Renderer();
-
-marked.setOptions({
-  renderer: markdownRenderer,
-  gfm: true,
-  tables: true,
-  breaks: false,
-  pedantic: false,
-  smartLists: true,
-  smartypants: false
+app.get('/', (req, res, next) => {
+  res.render('index');
 });
 
 
-// Change how links are dealt with if external
-const linkRenderer = markdownRenderer.link;
-
-markdownRenderer.link = (href, title, text) => {
-  const localLink = href.startsWith('https://');
-  const html = linkRenderer.call(markdownRenderer, href, title, text);
-  return localLink ? html.replace(/^<a /, `<a rel="external nofollow" `) : html;
-};
-
-markdown.register(env, marked.parse);
-
-
-require('./app/routes')(app, passport, config);
+app.get('*', (_, res) => {
+  res.statusCode = 404;
+  res.render('page-not-found/index');
+});
 
 
 // Run application on configured port
@@ -132,7 +89,6 @@ if (config.env === 'development') {
         'app/layouts/**/*.*',
         'app/components/**/*.*',
         'app/styles/**/*.*',
-        'app/scripts/**/*.*',
         'app/assets/**/*.*',
         'public/**/*.*'
       ],
