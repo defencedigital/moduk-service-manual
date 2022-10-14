@@ -9,7 +9,7 @@ Install the long-term support (LTS) version of <a href="https://nodejs.org/en/">
 ### 1. Clone repo
 
 ```
-git clone https://github.com/defencedigital/moduk-service-manual.git service-manual-mod
+git clone https://github.com/defencedigital/moduk-service-manual.git moduk-service-manual
 ```
 
 ### 2. Navigate to project folder
