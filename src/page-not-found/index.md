@@ -1,7 +1,6 @@
 ---
 layout: "layouts/landing.njk"
 title: "Page not found"
-datePublished: "October 2022"
 ---
 
 # Page not found

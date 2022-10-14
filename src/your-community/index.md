@@ -1,8 +1,6 @@
 ---
 layout: "layouts/landing.njk"
 title: "Your community"
-eleventyNavigation:
-  key: "Your community"
 ---
 
 # Your community
