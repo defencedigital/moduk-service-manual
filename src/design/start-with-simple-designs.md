@@ -44,7 +44,7 @@ Use these for services or products hosted publicly on GOV.UK.
 
 [Get GOV.UK styles](https://design-system.service.gov.uk/styles)
 
-## Use offical images and videos
+## Use official images and videos
 
 If your users need images or videos to help them understand something, [select official MOD images or videos](https://www.defenceimagery.mod.uk/). 
 
