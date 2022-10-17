@@ -17,4 +17,4 @@ If you are on MODNET or have a digital MOD email address, you can [message the t
 
 ## Suggest content
 
-If you have content that could go in the manual or updates to existing content, check [how to add or update content]({{ '/add-or-update-content/' | url }}).
+If you have content that could go in the manual or updates to existing content, check [how to add or update content](/add-or-update-content/).

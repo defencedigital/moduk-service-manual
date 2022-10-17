@@ -16,4 +16,4 @@ The GOV.UK Service Standard applies to internal services and products as well as
 
 The Defence Service Manual helps you apply the GOV.UK Service Standard in Defence.
 
-You can also get advice from others doing your role in Defence. [Find out how to join your community]({{ '/your-community/' | url }}).
+You can also get advice from others doing your role in Defence. [Find out how to join your community](/your-community/).

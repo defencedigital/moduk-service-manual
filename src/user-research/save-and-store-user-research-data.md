@@ -19,7 +19,7 @@ On consent forms used in Defence, we promise user research participants that we 
 
 Participants have a legal right to check what information public bodies hold on them. They can also withdraw their consent to be part of the user research at any time.
 
-Read more about [collecting data from participants]({{ '/user-research/collecting-data-from-participants/' | url }}).
+Read more about [collecting data from participants](/user-research/collecting-data-from-participants/).
 
 ## How to save user research data in Defence
 
@@ -88,4 +88,4 @@ To make sure individuals cannot be identified, you need to:
   ]
 }) }}
 
-Check the [how to protect participants’ data and identities]({{ '/user-research/share-user-research-findings-correctly/' | url }}).
+Check the [how to protect participants’ data and identities](/user-research/share-user-research-findings-correctly/).
