@@ -9,6 +9,7 @@ title: "Design"
 
 - Check existing patterns
 - Use the correct styles
+- Use official images and videos
 
 ## [Keep military personnel safe](/design/keep-military-personnel-safe/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
