@@ -14,7 +14,7 @@ Our users are very diverse, from recent school-leavers to experienced and highly
 
 Military personnel are located around the UK and overseas. They have very different access to IT and most do not spend all day working at a desk or in front of a computer.
 
-Find out more about [defence environments and accessibility]({{ '/accessibility/understand-defence-environments/' | url }}).
+Find out more about [defence environments and accessibility](/accessibility/understand-defence-environments/).
 
 ### Users come from a range of organisations
 

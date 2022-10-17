@@ -25,7 +25,7 @@ Join the UCD community calls held every 2 weeks on alternate Tuesdays and Thursd
 Calls are 45 minutes. We discuss things like accessibility, tools available in Defence and cross-government collaboration.
 
 {{ component('inset-text', {
-  html: 'You must only share and discuss OFFICIAL data. <a href="{{ '/security/security-classifications/' | url }}">Find out about security classifications</a>.'
+  html: 'You must only share and discuss OFFICIAL data. <a href="../../security/security-classifications/">Find out about security classifications</a>.'
 }) }}
 
 We work under [the Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule?gclid=CjwKCAjwkYGVBhArEiwA4sZLuK5u_XCJRH7ClZyiXlhtQLMleAKX6CZ3Ka8cuQ1hr70AfK95tVehOhoCP5wQAvD_BwE), creating a safe space for you to share your work and any challenges.

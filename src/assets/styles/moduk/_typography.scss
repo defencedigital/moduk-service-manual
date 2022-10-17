@@ -55,4 +55,10 @@ Title: Typography
     @extend .govuk-list--spaced;
   }
 
+  ul.govuk-list--spaced {
+    @extend .govuk-list;
+    @extend .govuk-list--bullet;
+    @extend .govuk-list--spaced;
+  }
+
 }

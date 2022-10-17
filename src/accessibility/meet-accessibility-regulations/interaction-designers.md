@@ -48,7 +48,7 @@ For example, ‘Change’ doesn’t work out of context. Screen readers need to 
 
 [Add code example here]
 
-Work with a Content Designer to create alt text. Find tips on writing alt text in [Content Designers and accessibility]({{ '/accessibility/meet-accessibility-regulations/content-designers/' | url }}) and the [GOV.UK guidance on images](https://design-system.service.gov.uk/styles/images).
+Work with a Content Designer to create alt text. Find tips on writing alt text in [Content Designers and accessibility](/accessibility/meet-accessibility-regulations/content-designers/) and the [GOV.UK guidance on images](https://design-system.service.gov.uk/styles/images).
 
 ## Only use images that users need
 

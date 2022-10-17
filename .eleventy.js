@@ -1,6 +1,16 @@
+if (process.env.ELEVENTY_ENV !== 'production') {
+  require('dotenv').config();
+}
+
+
+// Flags whether we compress the output etc
+const isProduction = process.env.ELEVENTY_ENV === 'production';
+
+
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
+const markdownItReplaceLink = require('markdown-it-replace-link');
 
 
 // Breadcrumb trail
@@ -22,6 +32,13 @@ const markdownItAnchorOptions = {
   level: 2,
   tabIndex: false
 };
+
+
+// Replace all markdown links with github pages URL path
+const markdownItReplaceLinkOptions = {
+  html: true,
+  replaceLink: link => link.replace(/^\/.*$/, '/moduk-service-manual' + link)
+}
 
 
 module.exports = function (eleventyConfig) {
@@ -66,7 +83,11 @@ module.exports = function (eleventyConfig) {
 
 
   // Markdown configurations
-  eleventyConfig.setLibrary('md', markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions).use(markdownItAttrs));
+  if (isProduction) {
+    eleventyConfig.setLibrary('md', markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions).use(markdownItReplaceLink, markdownItReplaceLinkOptions).use(markdownItAttrs));
+  } else {
+    eleventyConfig.setLibrary('md', markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions).use(markdownItAttrs));
+  }
 
 
   // Navigation

@@ -37,7 +37,7 @@ Reasons to publish an accessibility statement on an internal service or product 
   text: "Your digital service or product must meet accessibility regulations even if you do not publish an accessibility statement."
 }) }}
 
-Check [how to meet accessibility regulations]({{ '/accessibility/meet-accessibility-regulations/' | url }}).
+Check [how to meet accessibility regulations](/accessibility/meet-accessibility-regulations/).
 
 
 ### What you need to include
