@@ -8,11 +8,17 @@ eleventyNavigation:
   url: "/design/"
 ---
 
-User-centred design specialists in your team should be heavily involved in naming a service or product. It should then be approved by either the service or product owner.
+Get the user-centred design specialists on your team involved in naming your service or product. 
 
-## How to name a service or product
+When you have a name that works best for users, it should be approved by your service or product owner.
 
-Good service or product names:
+## Start with the GOV.UK approach
+
+If your service or product is hosted on GOV.UK, you need to meet their naming standards. 
+
+For services hosted internally or elsewhere, the GOV.UK approach is still recommended.
+
+According to GOV.UK, good service or product names:
 
 - use the words users use
 - are based on analytics and user research
@@ -20,41 +26,35 @@ Good service or product names:
 - do not need to change when policy or technology changes
 - are verbs, not nouns
 
+Check the [GOV.UK guidance on naming your service](https://www.gov.uk/service-manual/design/naming-your-service).
+
+## Acronyms in service names
+
+It is always best to avoid acronyms in service names. This can sometimes be difficult in Defence. 
+
+The GOV.UK approach recommends using the words your users use. Your users might use familiar or internationally recognised acronyms, for example MOD and NATO. 
+
 {{ component('inset-text', {
-  text: 'If your service or product is hosted on GOV.UK you must adhere to their naming standards.'
+  text: 'Do not include unfamiliar acronyms or code names in your service or product name. '
 }) }}
 
-[Read GOV.UK guidance on naming your service](https://www.gov.uk/service-manual/design/naming-your-service)
+### Test without acronyms
 
-### Transactional services or products
+Even in Defence, many service names do not need to include acronyms. You should test service names without acronyms first. 
 
-Your service is transactional if it allows users to either:
+If you have evidence that users are familiar with an acronym and need it in your service name, you will not fail a service assessment.
 
-- exchange information, money, permission, goods or services
-- submit information that results in a change to a record
+### Writing acronyms in service names 
 
-#### Good transactional service names in Defence
+If users need a familiar acronym in your service name, do not write it out in full. This creates long service names and can confuse people. 
 
-You can use these service names as good examples:
+
+## Example service names 
+
+All service names should use a verb to describe the task that users are doing. 
+
+Good examples of service names in Defence include:
 
 - Estimate your armed forces pension
 - Get a copy of military service records
 - Apply for a medal or veterans badge
-
-#### Services with multiple transactions
-
-Your product or service may allow multiple actions. This can make it harder to use a verb based name. Consider verbs that can describe multiple actions.
-
-### Non-transactional services or products
-
-These are services where users only read information.
-
-If you are producing detailed guidance around a particular subject, you may want to call your service “Get help with [something]”.
-
-You may also want to use similar names to other government services or products. The ‘Defence Service Manual’, for example, uses terms familiar in government (such as the ‘GOV.UK Service Manual’).
-
-### Avoid acronyms
-
-Acronyms are common in Defence. However, they are confusing for newcomers or people from outside Defence.
-
-You can include acronyms where they are commonly understood and explaining them causes additional confusion. For example: ‘NATO’ is not explained on GOV.UK as it is commonly recognised.
