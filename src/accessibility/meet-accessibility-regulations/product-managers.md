@@ -18,7 +18,7 @@ Your digital product or service must be easy to use for everyone. Your team may 
 
 Making a service accessible is not a last-minute task for Frontend Developers and QA Testers. User Researchers need to include users of assistive technology in their research. Interaction Designers and Content Designers need to create accessible designs and content.
 
-Ask your team to consider the needs of all users and to [check how their role can help accessibility]({{ '/accessibility/meet-accessibility-regulations#your-role-in-accessibility' | url }}).
+Ask your team to consider the needs of all users and to [check how their role can help accessibility]({{ '/accessibility/meet-accessibility-regulations#your-role-in-accessibility/' | url }}).
 
 ## Get stakeholders onboard
 
