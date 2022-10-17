@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Content Designers"
-datePublished: "October 2022"
+datePublished: 2022-10-17
 eleventyNavigation:
   parent: "Accessibility"
   parent.url: "/accessibility/"
@@ -81,7 +81,7 @@ If the button at the bottom of each page is labelled ‘Continue’, it should b
 
 ## Write good error messages
 
-When a user enters information incorrectly, it’s best practice to help them with a short, clear message. For example, f a user does not fill in their name correctly the error message should be: ‘Enter your name’.
+When a user enters information incorrectly, it’s best practice to help them with a short, clear message. For example, if a user does not fill in their name correctly the error message should be: ‘Enter your name’.
 
 If there are security considerations, you still need to provide an error message but it can be vague. When signing in to an account, the error message should be: ‘Enter your email and password correctly.’
 

@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Interaction Designers"
-datePublished: "October 2022"
+datePublished: 2022-10-17
 eleventyNavigation:
   parent: "Accessibility"
   parent.url: "/accessibility/"
@@ -30,7 +30,7 @@ If you need to adapt an existing pattern, make sure you:
 
 Dynamic content, such as live data, can cause accessibility issues. Changes are not always clear to assistive technologies.
 
-If the content of a page has to change dynamically, assistive technology needs to know about the change. Work with a Frontend Developer to make sure all dynamic content has the right attributes, or [ask the UCD community]({{ '/your-community/user-centred-design/' | url }}).
+If the content of a page has to change dynamically, assistive technology needs to know about the change. Work with a Frontend Developer to make sure all dynamic content has the right attributes, or [ask the UCD community](/your-community/user-centred-design/).
 
 ## Use simple labels and instructions
 

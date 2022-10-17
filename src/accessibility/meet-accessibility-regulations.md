@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Meet accessibility regulations"
-datePublished: "October 2022"
+datePublished: 2022-10-17
 eleventyNavigation:
   key: "Accessibility"
   url: "/accessibility/"
@@ -31,7 +31,6 @@ Check the guidance on [accessibility for public sector bodies](https://www.gov.u
 ### This applies to everyone
 
 Anyone creating digital services or products for Defence, including third-party suppliers, must make sure they meet UK accessibility regulations. 
-
 
 ## Your role in accessibility
 

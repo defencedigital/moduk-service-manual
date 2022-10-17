@@ -1,8 +1,8 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Design"
-title: "Naming services in Defence"
-datePublished: "October 2022"
+title: "Naming things in Defence"
+datePublished: 2022-10-17
 eleventyNavigation:
   key: "Design"
   url: "/design/"

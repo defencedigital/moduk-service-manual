@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Security"
 title: "How to label information"
-datePublished: "October 2022"
+datePublished: 2022-10-17
 eleventyNavigation:
   key: "Security"
   url: "/security/"
@@ -23,7 +23,6 @@ You need to label information correctly so that people understand how to protect
   ]
 }) }}
 
-
 {{ modukcomponent('do-dont-list', {
   'title': 'Don’t',
   'type': 'cross',
@@ -43,13 +42,11 @@ You do not have to label OFFICIAL information.
 
 However, if the information can be printed you should label it as OFFICIAL at the top and bottom of each page.
   
-
 ### Do not over classify OFFICIAL information
 
 If you classify information higher than it needs, people may struggle to access it. For example, services classified as SECRET do not let users access the internet.
 
 Managing SECRET information is at least 10 times more expensive than OFFICIAL information.
-
 
 ## Use OFFICIAL-SENSITIVE correctly
 
@@ -64,7 +61,6 @@ Using OFFICIAL-SENSITIVE as a security classification can lead to dangerous prac
   text: 'Only use OFFICIAL-SENSITIVE as a label if have evidence to support your decision.'
 }) }}
 
-
 ### Add information to OFFICIAL-SENSITIVE
 
 If there is a clear case to use OFFICIAL-SENSITIVE, you need to add more information to the label. 
@@ -76,7 +72,6 @@ Use the core descriptors recommended by The Cabinet Office:
 - COMMERCIAL for market-sensitive information like price negotiations and system vulnerabilities
 - LOCSEN for sensitive information that staff engaged overseas cannot access
 - PERSONAL for sensitive information that can be linked to an individual
-
 
 ## How to Label SECRET and TOP SECRET information
 
