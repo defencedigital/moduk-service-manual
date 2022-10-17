@@ -24,7 +24,7 @@ Start by checking the [GOV.UK Design System](https://design-system.service.gov.u
 You can adapt an existing pattern or component. Make sure you:
 
 - follow the [GOV.UK design principles](https://www.gov.uk/guidance/government-design-principles)
-- share what you are doing with the [MOD user-centred design community]({{ '/your-community/user-centred-design/' | url }})
+- share what you are doing with the [MOD user-centred design community](/your-community/user-centred-design/)
 - work with a User Researcher to test the designs
 
 ## Use correct styles

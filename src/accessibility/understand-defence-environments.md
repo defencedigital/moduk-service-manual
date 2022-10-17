@@ -23,7 +23,6 @@ People working in Defence can have issues including:
 - not being able to use 2-factor authentication
 - wearing restrictive kit, such as thick gloves
 
-
 ## Consider the battlespace
 
 You might need to consider accessibility issues in battle environments, including:

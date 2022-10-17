@@ -32,7 +32,6 @@ Check the guidance on [accessibility for public sector bodies](https://www.gov.u
 
 Anyone creating digital services or products for Defence, including third-party suppliers, must make sure they meet UK accessibility regulations. 
 
-
 ## Your role in accessibility
 
 Everyone in a digital design and delivery team plays a part in accessibility.

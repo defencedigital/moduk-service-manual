@@ -22,6 +22,7 @@ Testing for accessibility should include:
 - checking against the [Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21)
 
 If your service needs an [accessibility statement](/accessibility/publishing-documents#accessibility-statements), you will need time to create or update it. 
+
 ## Definition of ready
 
 The definition of ready is a list of things that are needed before something can be started.
