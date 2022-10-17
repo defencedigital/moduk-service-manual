@@ -2,6 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Publishing documents"
+datePublished: 2022-10-17
 eleventyNavigation:
   key: "Accessibility"
   url: "/accessibility/"

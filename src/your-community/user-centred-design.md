@@ -1,7 +1,7 @@
 ---
 layout: "layouts/guidance.njk"
 title: "User-centred design"
-datePublished: "October 2022"
+datePublished: 2022-10-17
 eleventyNavigation:
   key: "Your community"
   url: "/your-community/"

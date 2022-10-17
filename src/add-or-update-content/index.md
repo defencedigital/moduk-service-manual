@@ -1,7 +1,7 @@
 ---
 layout: "layouts/guidance.njk"
 title: "Add or update content"
-datePublished: "October 2022"
+datePublished: 2022-10-17
 ---
 
 ## What we publish
