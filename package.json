@@ -37,5 +37,8 @@
     "markdown-it-replace-link": "^1.1.0",
     "node-sass": "^7.0.1",
     "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {
+    "luxon": "^3.0.4"
   }
 }

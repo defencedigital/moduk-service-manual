@@ -1,7 +1,7 @@
 ---
 layout: "layouts/landing.njk"
 title: "Standards in Defence"
-datePublished: "October 2022"
+datePublished: 2022-10-17
 ---
 
 # Standards in Defence
