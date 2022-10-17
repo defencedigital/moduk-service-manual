@@ -42,15 +42,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyPluginTOC, {
     tags: ['h2'],
     wrapper: 'nav',
-    wrapperClass: 'gem-c-contents-list',
+    wrapperClass: 'moduk-contents-list',
     heading: true,
-    headingClass: 'gem-c-contents-list__title',
+    headingClass: 'moduk-contents-list__title',
     headingLevel: 'h2',
     headingText: 'Contents',
     listType: 'ol',
-    listClass: 'gem-c-contents-list__list',
-    listItemClass: 'gem-c-contents-list__list-item gem-c-contents-list__list-item--dashed',
-    listItemAnchorClass: 'gem-c-contents-list__link govuk-link govuk-link--no-visited-state',
+    listClass: 'moduk-contents-list__list',
+    listItemClass: 'moduk-contents-list__list-item moduk-contents-list__list-item--dashed',
+    listItemAnchorClass: 'moduk-contents-list__link govuk-link govuk-link--no-visited-state',
   });
 
 

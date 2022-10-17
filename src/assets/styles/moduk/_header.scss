@@ -8,6 +8,7 @@ Title: Header
   border-bottom-color: $govuk-brand-colour;
 }
 
+
 .moduk-header__logo {
   @include govuk-responsive-margin(2, "bottom");
   padding-right: govuk-spacing(8);
@@ -21,6 +22,7 @@ Title: Header
 
 }
 
+
 .moduk-header__logo-link {
   display: inline-block; 
   vertical-align: top;
@@ -31,10 +33,12 @@ Title: Header
 
 }
 
+
 .moduk-header__logo-svg {
   display: inline-block;
   vertical-align: top;
 }
+
 
 .moduk-header__service-name {
 

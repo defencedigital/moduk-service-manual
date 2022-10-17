@@ -17,7 +17,8 @@ const isProduction = process.env.ELEVENTY_ENV === 'production';
 
 // Source sass files
 const sourceFiles = [
-  './src/assets/styles/main.scss'
+  './components/**/*.scss',
+  './src/assets/styles/**/*.scss'
 ];
 
 
