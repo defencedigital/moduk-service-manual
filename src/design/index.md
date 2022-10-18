@@ -9,6 +9,7 @@ title: "Design"
 
 - Check existing patterns
 - Use the correct styles
+- Use official images and videos
 
 ## [Design for safety](/design/design-for-safety/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
@@ -16,8 +17,8 @@ title: "Design"
 - Test in real or simulated environments
 - Make it easy to report issues
 
-## [Naming things in Defence](/design/naming-things-in-defence/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Naming services in Defence]({{ '/design/naming-things-in-defence/' | url }}) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- Transactional services or products
-- Non-transactional services or products
-- Avoid acronyms
+- Start with the GOV.UK approach
+- Acronyms in service names
+- Example service names

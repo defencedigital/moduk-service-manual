@@ -1,7 +1,7 @@
 ---
 layout: "layouts/guidance.njk"
 title: "Product and delivery"
-datePublished: "October 2022"
+datePublished: 2022-10-17
 eleventyNavigation:
   key: "Your community"
   url: "/your-community/"
@@ -22,7 +22,7 @@ There are a few easy ways to be part of the product and delivery community.
 
 Slack is a messaging service used by the Defence community. It can be downloaded as an app or used in your web browser.
 
-{{ component('inset-text' ,{
+{{ component('inset-text', {
   html: 'On a MODNET device, you can use Slack in your web browser.'
 }) }}
 

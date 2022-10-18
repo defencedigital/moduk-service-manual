@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Security"
 title: "How to label information"
-datePublished: "October 2022"
+datePublished: 2022-10-17
 eleventyNavigation:
   key: "Security"
   url: "/security/"

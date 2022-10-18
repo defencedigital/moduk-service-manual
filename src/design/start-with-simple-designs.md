@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Design"
 title: "Start with simple designs"
-datePublished: "October 2022"
+datePublished: 2022-10-17
 eleventyNavigation:
   key: "Design"
   url: "/design/"
@@ -43,3 +43,14 @@ To get Defence Digital styles, [get in touch with the MOD design system team](#0
 Use these for services or products hosted publicly on GOV.UK.
 
 [Get GOV.UK styles](https://design-system.service.gov.uk/styles)
+
+## Use official images and videos
+
+If your users need images or videos to help them understand something, [select official MOD images or videos](https://www.defenceimagery.mod.uk/). 
+
+The images and videos are owned by MOD. You can use them for anything related to MOD without worrying about licences or copyright. 
+
+For accessibility, avoid adding images or videos if your users do not need them. 
+
+
+
