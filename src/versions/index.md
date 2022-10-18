@@ -29,7 +29,6 @@ This is what we’re working on for the next rounds of testing.
   open: true
 }) }}
 
-
 ## Version 3 {.govuk-heading-m}
 
 This is the most recent prototype tested with users.
@@ -56,7 +55,6 @@ This is the most recent prototype tested with users.
   html: htmlOutput,
   open: true
 }) }}
-
 
 ## [Version 2](https://dmdsm.herokuapp.com/dsm-home) {.govuk-heading-m}
 

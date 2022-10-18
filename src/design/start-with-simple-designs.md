@@ -51,6 +51,3 @@ If your users need images or videos to help them understand something, [select o
 The images and videos are owned by MOD. You can use them for anything related to MOD without worrying about licences or copyright. 
 
 For accessibility, avoid adding images or videos if your users do not need them. 
-
-
-
