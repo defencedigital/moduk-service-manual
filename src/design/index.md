@@ -11,10 +11,11 @@ title: "Design"
 - Use the correct styles
 - Use official images and videos
 
-## [Keep military personnel safe](/design/keep-military-personnel-safe/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Design for safety](/design/design-for-safety/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - Consider safety from the start
-- Test in a real or simulated environment
+- Test in real or simulated environments
+- Make it easy to report issues
 
 ## [Naming services in Defence]({{ '/design/naming-things-in-defence/' | url }}) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
