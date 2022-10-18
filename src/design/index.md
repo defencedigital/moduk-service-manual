@@ -9,14 +9,15 @@ title: "Design"
 
 - Check existing patterns
 - Use the correct styles
+- Use official images and videos
 
 ## [Keep military personnel safe](/design/keep-military-personnel-safe/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - Consider safety from the start
 - Test in a real or simulated environment
 
-## [Naming things in Defence](/design/naming-things-in-defence/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Naming services in Defence]({{ '/design/naming-things-in-defence/' | url }}) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- Transactional services or products
-- Non-transactional services or products
-- Avoid acronyms
+- Start with the GOV.UK approach
+- Acronyms in service names
+- Example service names
