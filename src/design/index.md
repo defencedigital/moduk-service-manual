@@ -17,7 +17,7 @@ title: "Design"
 - Test in real or simulated environments
 - Make it easy to report issues
 
-## [Naming services in Defence]({{ '/design/naming-things-in-defence/' | url }}) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Naming services in Defence](/design/naming-services-in-defence/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - Start with the GOV.UK approach
 - Acronyms in service names
