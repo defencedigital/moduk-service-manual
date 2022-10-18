@@ -22,3 +22,9 @@ Title: Overrides
 .govuk-tag {
   background-color: $govuk-brand-colour;
 }
+
+
+// Change colour of inset text callout
+.govuk-inset-text {
+  border-color: $govuk-brand-colour;
+}

@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "User Researchers"
-datePublished: "October 2022"
+datePublished: 2022-10-17
 eleventyNavigation:
   parent: "Accessibility"
   parent.url: "/accessibility/"

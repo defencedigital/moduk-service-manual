@@ -21,6 +21,10 @@ const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const eleventyPluginTOC = require('@thedigitalman/eleventy-plugin-toc-a11y');
 
 
+// Dates
+const { DateTime } = require('luxon');
+
+
 const markdownItOptions = {
   html: true,
   breaks: true,
@@ -42,6 +46,12 @@ const markdownItReplaceLinkOptions = {
 
 
 module.exports = function (eleventyConfig) {
+
+
+  // Date published and updated formatting
+  eleventyConfig.addFilter('publishedDate', dateObj => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('LLLL yyyy');
+  });
 
 
   eleventyConfig.setUseGitIgnore(false);

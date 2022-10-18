@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Meet accessibility regulations"
-datePublished: "October 2022"
+datePublished: 2022-10-17
 eleventyNavigation:
   key: "Accessibility"
   url: "/accessibility/"
@@ -22,7 +22,6 @@ People working in Defence can have issues including:
 - low to no 3G and 4G, for example on ships
 - not being able to use 2-factor authentication
 - wearing restrictive kit, such as thick gloves
-
 
 ## Consider the battlespace
 
