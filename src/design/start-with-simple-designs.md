@@ -36,7 +36,7 @@ Use these for services or products hosted:
 - internally, such as on an intranet
 - publicly on foundry.digital.mod.uk
 
-To get Defence Digital styles, [get in touch with the MOD design system team](#0).
+To get Defence Digital styles, [contact the MOD design system team](mailto:andrew.graham2@digital.mod.uk?Subject=Defence%20Digital%20styles).
 
 ### GOV.UK styles
 
