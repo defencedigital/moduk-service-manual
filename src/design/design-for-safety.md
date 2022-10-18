@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Design"
 title: "Design for safety"
-datePublished: "2022-10-17"
+datePublished: 2022-10-17
 eleventyNavigation:
   key: "Design"
   url: "/design/"
