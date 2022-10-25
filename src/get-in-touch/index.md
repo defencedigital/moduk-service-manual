@@ -7,13 +7,16 @@ title: "Get in touch"
 
 If you have a question or suggestion, contact the Defence Service Manual team. {.govuk-body-l}
 
-## Email
-
-You can email the team at [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk).
-
 ## Slack
 
 If you are on MODNET or have a digital MOD email address, you can [message the team on Defence Digital Slack](https://defencedigital.slack.com/archives/C03L6486PBN).
+
+On a MODNET device, you can use Slack in your web browser.
+
+
+## Email
+
+You can email the team at [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk).
 
 ## Suggest content
 

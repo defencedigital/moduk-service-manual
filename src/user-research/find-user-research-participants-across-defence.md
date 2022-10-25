@@ -14,6 +14,15 @@ Participants are the people who take part in user research. They should be peopl
   text: 'Do not use social media platforms like Twitter, Instagram, LinkedIn or TikTok to recruit participants for user research.'
 }) }}
 
+## Check what has already been done
+
+User reserachers across Defence must avoid doing similar research with the same groups of participants. 
+
+Before starting user research, ask the user-centred design (UCD) community if there is existing data you can use.
+
+Check [how to contact the UCD community](/your-community/user-centred-design/).
+
+
 ## Start with stakeholders and subject matter experts
 
 Your stakeholders will understand how Defence works. Working with them to find participants can be more efficient than trying to find them yourself.
