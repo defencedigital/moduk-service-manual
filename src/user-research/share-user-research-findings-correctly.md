@@ -36,9 +36,15 @@ Check [what we cover in consent forms](/user-research/save-and-store-user-resear
 
 ## Share findings with the Defence community
 
-We must avoid doing similar research with the same groups of participants across Defence. Before starting your user research, ask the user-centred design (UCD) community if there is any existing data that you can reuse.
+It is important to share your user research findings across Defence. Other projects might reuse your findings instead of doing similar research. 
 
-When you have new user research findings, share them with the UCD community in Defence. Others may be able to use what you have discovered. You can share reports on internal Slack channels or present at the regular community meetings.
+You can do things like: 
+
+- write a post for the [Defence Digital blog](https://defencedigital.blog.gov.uk/)
+- share reports on MOD Slack channels 
+- present on community calls
+
+Make sure everything you share is OFFICIAL and anonymised. 
 
 Check [how to contact the UCD community](/your-community/user-centred-design/).
 

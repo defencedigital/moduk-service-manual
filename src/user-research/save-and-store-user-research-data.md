@@ -35,22 +35,43 @@ When you leave a project, you are responsible for making sure your team can acce
 
 As soon as possible after collecting user research data, you need to:
 
-1. Download all of the relevant files, including notes, videos and transcripts
-2. Save the files in a password protected folder. If you have access to MODNET, you need to [save the files in this folder](#0)
-3. Rename the files using the [Defence format for file names](#0)
-4. Remove any personal or sensitive data
+{{ modukcomponent('steps', {
+  'items': [
+    {
+      'item': 'Download all of the relevant files, including notes, videos and transcripts'
+    },
+    {
+      'item': 'Save files in a secure folder that only the necessary people in your team can access'
+    },
+    {
+      'item': 'Remove any personal or sensitive data'
+    },
+    {
+      'item': 'Follow the format for naming user research files in Defence'
+    },
+    {
+      'item': 'Delete all files from your local devices'
+    }
+  ]
+}) }}
 
-### Naming digital files in Defence
+### Naming user research files in Defence
 
-The date should be in digits, starting with the year: YYYYMMDD. Do not include spaces or punctuation like hyphens or slashes.
+It is important that all user research data is saved in the same way. 
 
-When naming files containing user research data, you need to:
+#### Start with the date 
 
-1. Start with the date, for example: 20220824
-2. Add the name of your project: 20220824 Defence Service Manual
-3. If it is participant data, add the participant number: 20220824 Defence Service Manual P04
+The date should be in digits, starting with the year: YYYYMMDD. For example: 20220824.
 
-Do not create fields that update automatically, for example the date.
+Do not include:
+- spaces or punctuation like hyphens or slashes
+- any fields, like the date, that update automatically
+
+#### Add the project and participant number
+
+Add the name of your project. For example: 20220824 Defence Service Manual.
+
+If it is participant data, add the participant number. For example: 20220824 Defence Service Manual P04.
 
 ### Manage handwritten notes carefully
 
@@ -58,9 +79,19 @@ When you do research at some Defence sites, you may only be allowed to use a pen
 
 If you make handwritten notes, you need to:
 
-1. convert them to digital files as soon as possible
-2. delete any images of them taken on a phone or other devices
-3. destroy your notes in a secure way
+{{ modukcomponent('steps', {
+  'items': [
+    {
+      'item': 'Convert them to digital files as soon as possible'
+    },
+    {
+      'item': 'Delete any images of them taken on a phone or other devices'
+    },
+    {
+      'item': 'Destroy your notes in a secure way'
+    }
+  ]
+}) }}
 
 If it is not possible to convert handwritten notes immediately, keep them with you and out of sight.
 
