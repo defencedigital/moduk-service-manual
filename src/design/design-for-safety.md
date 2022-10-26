@@ -12,16 +12,13 @@ Good design keeps people safe. Make sure your service or product is reliable and
 
 ## Consider safety from the start
 
+The Ministry of Defence has to provide safe equipment, systems and services.
+
 To create safe services, you need to: 
 
 - understand the environments your users are in
 - check how service failures might impact users
 - address any safety concerns
-
-{{ component('warning-text', {
-  text: "Legally, the Ministry of Defence has to provide safe equipment, systems and services.",
-  iconFallbackText: "Warning"
-}) }}
 
 ## Test in real or simulated environments
 
