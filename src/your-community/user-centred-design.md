@@ -1,5 +1,6 @@
 ---
 layout: "layouts/guidance.njk"
+section: "Community"
 title: "User-centred design"
 datePublished: 2022-10-17
 eleventyNavigation:
@@ -61,7 +62,7 @@ You can join with either a digital.mod.uk or mod.gov.uk email address.
 - sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com)
 - browse and join channels for content, design and user research
 
-## Useful links
+## Related content
 
 - [User research in the Defence Service Manual](#0)
 - [User research in Defence blog](https://defencedigital.blog.gov.uk/2021/02/22/user-research-in-defence)
