@@ -40,14 +40,14 @@ It is important to share your user research findings across Defence. Other proje
 
 You can do things like: 
 
-- write a post for the [Defence Digital blog](https://defencedigital.blog.gov.uk/)
-- share reports on MOD Slack channels 
 - present on community calls
+- share reports on MOD Slack channels 
+- write a post for the [Defence Digital blog](https://defencedigital.blog.gov.uk/)
 
 Make sure everything you share is OFFICIAL and anonymised. 
 
 Check [how to contact the UCD community](/your-community/user-centred-design/).
 
-## Related links
+## Related content
 
 - [The Data Protection Act](https://www.gov.uk/data-protection)

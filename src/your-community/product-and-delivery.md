@@ -1,5 +1,6 @@
 ---
 layout: "layouts/guidance.njk"
+section: "Community"
 title: "Product and delivery"
 datePublished: 2022-10-17
 eleventyNavigation:
@@ -46,7 +47,7 @@ You can join with either a digital.mod.uk or mod.gov.uk email address.
 - sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com)
 - browse and join channels for product and delivery
 
-## Useful links
+## Related content
 
 - [Guidance on agile delivery](https://www.gov.uk/service-manual/agile-delivery)
 - [GOV.UK agile delivery community](https://www.gov.uk/service-manual/communities/agile-delivery-community)
