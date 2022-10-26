@@ -40,9 +40,9 @@ The GOV.UK approach recommends using the words your users use. Your users might 
 
 ### Test without acronyms
 
-Even in Defence, many service names do not need to include acronyms. You should test service names without acronyms first. 
+Even in Defence, many service names do not need to include acronyms. Always test service names without acronyms first. 
 
-If you have evidence that users are familiar with an acronym and need it in your service name, you will not fail a service assessment.
+If you include an acronym in your service name and your service is assessed, you will need evidence to support your decision. 
 
 ### Writing acronyms in service names 
 

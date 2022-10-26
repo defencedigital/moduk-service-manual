@@ -10,16 +10,14 @@ eleventyNavigation:
 
 Starting with simple designs and iterating based on user research will keep your service or product as simple as possible.
 
-You should also check:
-
-- the [GOV.UK design principles](https://www.gov.uk/guidance/government-design-principles)
-- [designing good government services: an introduction](https://www.gov.uk/service-manual/design/introduction-designing-government-services)
-
 ## Check existing patterns
 
-Existing patterns and components have usually been tested with users. They are likely to be responsive and meet accessibility requirements.
+Existing patterns and components have usually been tested with users. They are likely to be responsive and meet accessibility regulations.
 
-Start by checking the [GOV.UK Design System](https://design-system.service.gov.uk).
+Start by checking the GOV.UK:
+
+- [Design System](https://design-system.service.gov.uk)
+- [Upcoming components and patterns](https://design-system.service.gov.uk/community/upcoming-components-patterns/)
 
 You can adapt an existing pattern or component. Make sure you:
 
@@ -33,7 +31,7 @@ You can adapt an existing pattern or component. Make sure you:
 
 Use these for services or products hosted:
 
-- internally, such as on an intranet
+- in Defence, for example an internal service or intranet
 - publicly on foundry.digital.mod.uk
 
 To get Defence Digital styles, [contact the MOD design system team](mailto:andrew.graham2@digital.mod.uk?Subject=Defence%20Digital%20styles).
@@ -44,10 +42,18 @@ Use these for services or products hosted publicly on GOV.UK.
 
 [Get GOV.UK styles](https://design-system.service.gov.uk/styles)
 
-## Use official images and videos
+## Official images and videos
 
 If your users need images or videos to help them understand something, [select official MOD images or videos](https://www.defenceimagery.mod.uk/). 
 
 The images and videos are owned by MOD. You can use them for anything related to MOD without worrying about licences or copyright. 
 
-For accessibility, avoid adding images or videos if your users do not need them. 
+{{ component('inset-text', {
+  text: 'Avoid adding images or videos if your users do not need them. When you add images or videos, make sure they are accessible. '
+}) }}
+
+Find out [more about accessibility in Defence](/accessibility/).
+
+## Related content
+
+- [Designing good government services: an introduction](https://www.gov.uk/service-manual/design/introduction-designing-government-services)
