@@ -14,9 +14,14 @@ This is what we’re working on for the next rounds of testing.
     <li>Added do and don’t list component</li>
     <li>Simplified feedback form</li>
     <li>Added steps component</li>
+    <li>Made call out pattern maroon</li>
+    <li>Updated descriptions on homepage</li>
     <li>Iterated the design section</li>
-    <li>Added a dedicated page to sign up for user research</li>
+    <li>Iterated how to share user research findings</li>
+    <li>Added section on checking what research has been done</li>
+    <li>Created a dedicated page to sign up for user research</li>
     <li>Updated product and delivery community page</li>
+    <li>Added messaging about Slack profiles</li>
     <li>Improved navigation of accessibility section</li>
     <li>Improved navigation of security section</li>
     <li>Updated section on large amounts of data</li>
