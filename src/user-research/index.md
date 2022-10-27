@@ -31,4 +31,4 @@ title: "User research"
 ## [Share user research findings correctly](/user-research/share-user-research-findings-correctly/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - Protect participants’ data and identities
-- Share findings with the Defence community
+- How to share your findings

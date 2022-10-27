@@ -34,19 +34,31 @@ If you are recording a session including videos of participants, pause the recor
 
 Check [what we cover in consent forms](/user-research/save-and-store-user-research-data#keep-your-promises-to-participants/).
 
-## Share findings with the Defence community
+## How to share your findings 
 
-It is important to share your user research findings across Defence. Other projects might reuse your findings instead of doing similar research. 
+Sharing your findings helps avoid doing similar research with the same participants. It also helps other projects reuse existing research.
+
+{{ component('inset-text', {
+  text: 'Only share findings that are OFFICIAL and anonymised. '
+}) }}
+
+### Sharing across Defence
+
+You need to share your findings across Defence. 
 
 You can do things like: 
 
-- present on community calls
-- share reports on MOD Slack channels 
-- write a post for the [Defence Digital blog](https://defencedigital.blog.gov.uk/)
+- chat through your findings on community calls
+- send your report to relevant MOD networks
+- ask to present at Defence events
+- post a link to your report on [Defence Digital Service Slack](https://defencedigital.slack.com)
 
-Make sure everything you share is OFFICIAL and anonymised. 
+### Sharing across Government
 
-Check [how to contact the UCD community](/your-community/user-centred-design/).
+If you can share your findings outside MOD, consider:
+
+- posting a link to your report on [UK Government Digital Slack](https://ukgovernmentdigital.slack.com)
+- writing a post for the [Defence Digital blog](https://defencedigital.blog.gov.uk/)
 
 ## Related content
 
