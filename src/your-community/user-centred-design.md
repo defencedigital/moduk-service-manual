@@ -34,7 +34,7 @@ We work under [the Chatham House Rule](https://www.chathamhouse.org/about-us/cha
 
 To join, send an email to: [ucd@digital.mod.uk](mailto:ucd@digital.mod.uk).
 
-### Slack workspaces and channels
+### Slack channels
 
 Slack is a messaging service used by the Defence community. It can be downloaded as an app or used in your web browser.
 
@@ -42,24 +42,26 @@ Slack is a messaging service used by the Defence community. It can be downloaded
   html: 'On a MODNET device, you can use Slack in your web browser.'
 }) }}
 
-#### Defence Digital Service Slack workspace
+#### Defence Digital Service Slack
 
 This is the place to ask quick questions about designing or writing for people in Defence.
 
 If you have a digital.mod.uk email address you can:
 
 - sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com)
+- in your Slack profile, add a photo, your job title and project
 - join the <code>#ucd</code> channel
 
 If you have an mod.gov.uk or external email address, ask your delivery or team lead to invite you.
 
-#### UK Government Digital Slack workspace
+#### UK Government Digital Slack
 
 Get involved with conversations across government. 
 
-You can join with either a digital.mod.uk or mod.gov.uk email address.
+You can join with a digital.mod.uk or mod.gov.uk email address.
 
 - sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com)
+- in your Slack profile, add MOD after your name
 - browse and join channels for content, design and user research
 
 ## Related content
