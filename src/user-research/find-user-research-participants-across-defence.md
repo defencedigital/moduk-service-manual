@@ -16,7 +16,7 @@ Participants are the people who take part in user research. They should be peopl
 
 ## Check what has already been done
 
-User reserachers across Defence must avoid doing similar research with the same groups of participants. 
+User researchers across Defence must avoid doing similar research with the same groups of participants. 
 
 Before starting user research, ask the user-centred design (UCD) community if there is existing data you can use.
 
