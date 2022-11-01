@@ -23,15 +23,17 @@ const sourceFiles = [
 // Combine all script files, process them and output into a single script file
 const scripts = (cb) => {
 
-  return src(sourceFiles, {allowEmpty: true})
-    
-    .pipe(concat('scripts.js'))
+  return src(sourceFiles, {
+    allowEmpty: true
+  })
+  
+  .pipe(concat('scripts.js'))
 
-    .pipe(gulpif(isProduction, uglify()))
+  .pipe(gulpif(isProduction, uglify()))
 
-    .pipe(dest('public/assets/scripts'))
-    
-    .on('done', cb);
+  .pipe(dest('public/assets/scripts'))
+  
+  .on('done', cb);
 
 };
 

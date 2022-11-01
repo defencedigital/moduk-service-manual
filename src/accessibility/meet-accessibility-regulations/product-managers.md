@@ -26,7 +26,7 @@ Often, the cost of making a product or service accessible is not factored in fro
 
 Consider adding accessibility to your business case so that stakeholders are aware of the time and funding needed. In your regular sessions with stakeholders, you can cover accessibility issues and how you are dealing with them.
 
-You might decide to get an external audit before your product or service can be released. Check [how to get an accessibility audit](https://www.gov.uk/service-manual/helping-people-to-use-your-service/getting-an-accessibility-audit).
+You might decide to get an external audit before your product or service can be released. Check [how to get an accessibility audit](https://www.gov.uk/service-manual/helping-people-to-use-your-service/getting-an-accessibility-audit/).
 
 ## Prioritise accessibility
 
@@ -36,7 +36,7 @@ Aim to prioritise accessibility from the start, so it becomes part of your team 
   text: 'If you do not plan for accessibility, it can create technical debt that significantly delays future releases.'
 }) }}
 
-Check guidance on [prioritising accessibility in each delivery phase](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#what-to-do-about-accessibility-in-discovery).
+Check guidance on [prioritising accessibility in each delivery phase](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#what-to-do-about-accessibility-in-discovery/).
 
 ## Related content
 

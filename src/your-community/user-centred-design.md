@@ -48,7 +48,7 @@ This is the place to ask quick questions about designing or writing for people i
 
 If you have a digital.mod.uk email address you can:
 
-- sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com)
+- sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com/)
 - in your Slack profile, add a photo, your job title and project
 - join the <code>#ucd</code> channel
 
@@ -60,13 +60,13 @@ Get involved with conversations across government.
 
 You can join with a digital.mod.uk or mod.gov.uk email address.
 
-- sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com)
+- sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com/)
 - in your Slack profile, add MOD after your name
 - browse and join channels for content, design and user research
 
 ## Related content
 
 - [User research in the Defence Service Manual](#0)
-- [User research in Defence blog](https://defencedigital.blog.gov.uk/2021/02/22/user-research-in-defence)
-- [The application of user research in Defence blog](https://defencedigital.blog.gov.uk/2021/03/12/the-application-of-user-research-in-defence)
-- [Design in the GOV.UK service manual](https://www.gov.uk/service-manual/design)
+- [User research in Defence blog](https://defencedigital.blog.gov.uk/2021/02/22/user-research-in-defence/)
+- [The application of user research in Defence blog](https://defencedigital.blog.gov.uk/2021/03/12/the-application-of-user-research-in-defence/)
+- [Design in the GOV.UK service manual](https://www.gov.uk/service-manual/design/)

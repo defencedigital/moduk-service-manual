@@ -10,11 +10,13 @@ const sourceFiles = [
 // Move all images into the output folder
 const images = (cb) => {
 
-  return src(sourceFiles, {allowEmpty: true})
+  return src(sourceFiles, {
+    allowEmpty: true
+  })
 
-    .pipe(dest('public/assets/images'))
-    
-    .on('done', cb);
+  .pipe(dest('public/assets/images'))
+  
+  .on('done', cb);
 
 };
 

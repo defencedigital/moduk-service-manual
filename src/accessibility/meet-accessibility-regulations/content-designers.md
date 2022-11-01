@@ -21,7 +21,7 @@ To create accessible content, it’s important to:
 - keep sentences short
 - avoid long paragraphs
 
-You need to follow the [GOV.UK guidance on writing content](https://www.gov.uk/guidance/content-design/writing-for-gov-uk).
+You need to follow the [GOV.UK guidance on writing content](https://www.gov.uk/guidance/content-design/writing-for-gov-uk/).
 
 ## Use clear and unique page titles
 
@@ -55,13 +55,13 @@ People who use assistive technologies may need more content to describe somethin
 
 You only need to add alt text to images that provide useful context, for example where to sign your passport. If an image is purely decorative, you do not need to add alt text. Consider if users need a decorative image at all.
 
-Find tips on writing alt text in the [GOV.UK Design System’s guidance on images](https://design-system.service.gov.uk/styles/images).
+Find tips on writing alt text in the [GOV.UK Design System’s guidance on images](https://design-system.service.gov.uk/styles/images/).
 
 ## Captions and transcripts
 
 If you have audio or video content, make sure it is accessible to everyone including people with sight and hearing impairments. You might need captions on the screen or a description of the content in a written transcript.
 
-Check the [GOV.UK guidance on captions and transcripts](https://www.gov.uk/guidance/how-to-publish-on-gov-uk/images-and-videos).
+Check the [GOV.UK guidance on captions and transcripts](https://www.gov.uk/guidance/how-to-publish-on-gov-uk/images-and-videos/).
 
 ## Make links work out of context
 
@@ -71,7 +71,7 @@ Try removing everything else on the page to make sure links make sense out of co
 
 Do not use ‘Click here’ or ‘More’. Out of context these words do not make sense, and ‘click’ assumes a mouse is being used.
 
-Follow the [GOV.UK guidance on writing link text](https://www.gov.uk/guidance/content-design/links).
+Follow the [GOV.UK guidance on writing link text](https://www.gov.uk/guidance/content-design/links/).
 
 ## Be consistent
 
@@ -92,5 +92,5 @@ Before you write a new error message, check the [GOV.UK error message templates]
 ## Useful links
 
 - [Designing accessible content](https://www.gov.uk/guidance/guidance-and-tools-for-digital-accessibility#designing-accessible-content)
-- [Writing content for everyone in your audience](https://gds.blog.gov.uk/2016/02/23/writing-content-for-everyone)
-- [Creating accessible communications](https://gcs.civilservice.gov.uk/guidance/digital-communication/accessible-communications)
+- [Writing content for everyone in your audience](https://gds.blog.gov.uk/2016/02/23/writing-content-for-everyone/)
+- [Creating accessible communications](https://gcs.civilservice.gov.uk/guidance/digital-communication/accessible-communications/)

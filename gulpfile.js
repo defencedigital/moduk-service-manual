@@ -1,4 +1,4 @@
-const { series, parallel} = require('gulp');
+const { series, parallel } = require('gulp');
 
 
 // Pull in each task

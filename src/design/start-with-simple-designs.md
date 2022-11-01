@@ -16,12 +16,12 @@ Existing patterns and components have usually been tested with users. They are l
 
 Start by checking the GOV.UK:
 
-- [Design System](https://design-system.service.gov.uk)
+- [Design System](https://design-system.service.gov.uk/)
 - [Upcoming components and patterns](https://design-system.service.gov.uk/community/upcoming-components-patterns/)
 
 You can adapt an existing pattern or component. Make sure you:
 
-- follow the [GOV.UK design principles](https://www.gov.uk/guidance/government-design-principles)
+- follow the [GOV.UK design principles](https://www.gov.uk/guidance/government-design-principles/)
 - share what you are doing with the [MOD user-centred design community](/your-community/user-centred-design/)
 - work with a User Researcher to test the designs
 
@@ -49,11 +49,11 @@ If your users need images or videos to help them understand something, [select o
 The images and videos are owned by MOD. You can use them for anything related to MOD without worrying about licences or copyright. 
 
 {{ component('inset-text', {
-  text: 'Avoid adding images or videos if your users do not need them. When you add images or videos, make sure they are accessible. '
+  text: 'Avoid adding images or videos if your users do not need them. When you add images or videos, make sure they are accessible.'
 }) }}
 
 Find out [more about accessibility in Defence](/accessibility/).
 
 ## Related content
 
-- [Designing good government services: an introduction](https://www.gov.uk/service-manual/design/introduction-designing-government-services)
+- [Designing good government services: an introduction](https://www.gov.uk/service-manual/design/introduction-designing-government-services/)

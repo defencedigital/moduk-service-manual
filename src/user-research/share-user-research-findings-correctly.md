@@ -39,7 +39,7 @@ Check [what we cover in consent forms](/user-research/save-and-store-user-resear
 Sharing your findings helps avoid doing similar research with the same participants. It also helps other projects reuse existing research.
 
 {{ component('inset-text', {
-  text: 'Only share findings that are OFFICIAL and anonymised. '
+  text: 'Only share findings that are OFFICIAL and anonymised.'
 }) }}
 
 ### Sharing across Defence

@@ -17,7 +17,7 @@ Designing simple screens and interactions makes things easier for everybody. To 
 Before designing a new product, service or feature, check what patterns are already available. Existing patterns and components are more likely to be accessible.
 
 {{ component('inset-text', {
-  html: 'You need to check the <a href="https://design-system.service.gov.uk" rel="external nofollow">GOV.UK Design System</a>.'
+  html: 'You need to check the <a href="https://design-system.service.gov.uk/" rel="external nofollow">GOV.UK Design System</a>.'
 }) }}
 
 If you need to adapt an existing pattern, make sure you:
@@ -38,7 +38,7 @@ For anything that needs user input, you must add a label. Every label should des
 
 Keep labels simple at first and only include hint text or additional instructions if your user research shows there is a need for it.
 
-Work with a Content Designer to create labels and any hint text needed. You can also [check the GOV.UK pattern for text inputs](https://design-system.service.gov.uk/components/text-input).
+Work with a Content Designer to create labels and any hint text needed. You can also [check the GOV.UK pattern for text inputs](https://design-system.service.gov.uk/components/text-input/).
 
 ## Add visually hidden text
 
@@ -48,7 +48,7 @@ For example, ‘Change’ doesn’t work out of context. Screen readers need to 
 
 [Add code example here]
 
-Work with a Content Designer to create alt text. Find tips on writing alt text in [Content Designers and accessibility](/accessibility/meet-accessibility-regulations/content-designers/) and the [GOV.UK guidance on images](https://design-system.service.gov.uk/styles/images).
+Work with a Content Designer to create alt text. Find tips on writing alt text in [Content Designers and accessibility](/accessibility/meet-accessibility-regulations/content-designers/) and the [GOV.UK guidance on images](https://design-system.service.gov.uk/styles/images/).
 
 ## Only use images that users need
 
@@ -62,5 +62,5 @@ If users need a sidebar, check how it works for people who are blind or use a sc
 
 ## Useful links
 
-- [Design for different browsers and devices](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices)
-- [Blogs about accessibility and design](https://www.craigabbott.co.uk/blog)
+- [Design for different browsers and devices](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices/)
+- [Blogs about accessibility and design](https://www.craigabbott.co.uk/blog/)

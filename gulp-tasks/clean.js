@@ -5,11 +5,14 @@ const cleanPublic = require('gulp-clean');
 // Cleans the public folder
 const clean = (cb) => {
 
-  return src('public', {read: false, allowEmpty: true})
+  return src('public', {
+    read: false, 
+    allowEmpty: true
+  })
     
-    .pipe(cleanPublic())
+  .pipe(cleanPublic())
     
-    .on('done', cb);
+  .on('done', cb);
 
 };
 

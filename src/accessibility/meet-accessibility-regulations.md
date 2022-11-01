@@ -20,13 +20,13 @@ A service that is easy to use and understand is better for everyone.
 
 In the UK, all government digital services and products must:
 
-- meet level AA of the [Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21) as a minimum
+- meet level AA of the [Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21/) as a minimum
 - work on the most commonly used assistive technologies, including screen magnifiers, screen readers and speech recognition tools
 - include people with disabilities in user research
 
 Some services also need an [accessibility statement](/accessibility/publishing-documents#accessibility-statements/).
 
-Check the guidance on [accessibility for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
+Check the guidance on [accessibility for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps/).
 
 ### This applies to everyone
 
@@ -48,7 +48,7 @@ Check how you can help with accessibility:
 
 ## Related content
 
-- [Making things accessible and inclusive](https://www.gov.uk/guidance/make-things-accessible)
-- [Doing the hard work to make accessibility simple](https://gds.blog.gov.uk/2016/05/19/doing-the-hard-work-to-make-accessibility-simple)
-- [Common assistive technologies](https://www.gov.uk/government/publications/assistive-technology-definition-and-safe-use/assistive-technology-definition-and-safe-use)
-- [GOV.UK blogs on accessibility](https://accessibility.blog.gov.uk)
+- [Making things accessible and inclusive](https://www.gov.uk/guidance/make-things-accessible/)
+- [Doing the hard work to make accessibility simple](https://gds.blog.gov.uk/2016/05/19/doing-the-hard-work-to-make-accessibility-simple/)
+- [Common assistive technologies](https://www.gov.uk/government/publications/assistive-technology-definition-and-safe-use/assistive-technology-definition-and-safe-use/)
+- [GOV.UK blogs on accessibility](https://accessibility.blog.gov.uk/)

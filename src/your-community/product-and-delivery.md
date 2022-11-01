@@ -33,7 +33,7 @@ This is the place to ask quick questions about product management and delivery i
 
 If you have a digital.mod.uk email address you can:
 
-- sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com)
+- sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com/)
 - in your Slack profile, add a photo, your job title and project
 - join the <code>#product-delivery</code> channel
 
@@ -45,12 +45,12 @@ Get involved with conversations across government.
 
 You can join with a digital.mod.uk or mod.gov.uk email address.
 
-- sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com)
+- sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com/)
 - in your Slack profile, add MOD after your name
 - browse and join channels for product and delivery
 
 ## Related content
 
-- [Guidance on agile delivery](https://www.gov.uk/service-manual/agile-delivery)
-- [GOV.UK agile delivery community](https://www.gov.uk/service-manual/communities/agile-delivery-community)
-- [GOV.UK product and service community](https://www.gov.uk/service-manual/communities/product-and-service-community)
+- [Guidance on agile delivery](https://www.gov.uk/service-manual/agile-delivery/)
+- [GOV.UK agile delivery community](https://www.gov.uk/service-manual/communities/agile-delivery-community/)
+- [GOV.UK product and service community](https://www.gov.uk/service-manual/communities/product-and-service-community/)

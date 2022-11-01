@@ -21,16 +21,18 @@ const sourceFiles = [
 // Minify HTML files
 const html = (cb) => {
 
-  return src(sourceFiles, {allowEmpty: true})
+  return src(sourceFiles, {
+    allowEmpty: true
+  })
 
-    .pipe(gulpif(isProduction, htmlmin({
-      collapseWhitespace: true,
-      removeComments: true
-    })))
+  .pipe(gulpif(isProduction, htmlmin({
+    collapseWhitespace: true,
+    removeComments: true
+  })))
 
-    .pipe(dest('public'))
+  .pipe(dest('public'))
 
-    .on('done', cb);
+  .on('done', cb);
 
 };
 

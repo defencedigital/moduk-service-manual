@@ -10,7 +10,7 @@ eleventyNavigation:
 
 ## Publish accessible documents
 
-Any documents you include in your service, such as PDFs, must be accessible. Check the guidance on [publishing accessible documents](https://www.gov.uk/guidance/publishing-accessible-documents).
+Any documents you include in your service, such as PDFs, must be accessible. Check the guidance on [publishing accessible documents](https://www.gov.uk/guidance/publishing-accessible-documents/).
 
 If you need help to make documents accessible, use a MODNET device to contact the [Directorate of Defence Communications](https://modgovuk.sharepoint.com/sites/IntranetHeadOffice/SitePages/Defence-Communications.aspx).
 
@@ -33,7 +33,7 @@ Reasons to publish an accessibility statement on an internal service or product 
 - you are still working on making areas of your service accessible 
 
 {{ component('inset-text', {
-  text: "Your digital service or product must meet accessibility regulations even if you do not publish an accessibility statement."
+  text: 'Your digital service or product must meet accessibility regulations even if you do not publish an accessibility statement.'
 }) }}
 
 Check [how to meet accessibility regulations](/accessibility/meet-accessibility-regulations/).
@@ -55,10 +55,10 @@ You need to explain that things that are not accessible because they are exempt.
 - third party content under someone else’s control
 - maps but essential information, like addresses, must be accessible
 
-Check the guidance on [publishing an accessibility statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement).
+Check the guidance on [publishing an accessibility statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement/).
 
 ### Create an accessibility statement
 
-Use this [model accessibility statement](https://www.gov.uk/guidance/model-accessibility-statement).
+Use this [model accessibility statement](https://www.gov.uk/guidance/model-accessibility-statement/).
 
 If you can, work with a content designer to make sure the content you add is written in plain English.

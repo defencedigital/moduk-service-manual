@@ -26,7 +26,7 @@ According to GOV.UK, good service or product names:
 - do not need to change when policy or technology changes
 - are verbs, not nouns
 
-Check the [GOV.UK guidance on naming your service](https://www.gov.uk/service-manual/design/naming-your-service).
+Check the [GOV.UK guidance on naming your service](https://www.gov.uk/service-manual/design/naming-your-service/).
 
 ## Acronyms in service names
 
@@ -35,7 +35,7 @@ It is always best to avoid acronyms in service names. This can sometimes be diff
 The GOV.UK approach recommends using the words your users use. Your users might use familiar or internationally recognised acronyms, for example MOD and NATO. 
 
 {{ component('inset-text', {
-  text: 'Do not include unfamiliar acronyms or code names in your service or product name. '
+  text: 'Do not include unfamiliar acronyms or code names in your service or product name.'
 }) }}
 
 ### Test without acronyms
@@ -47,7 +47,6 @@ If you include an acronym in your service name and your service is assessed, you
 ### Writing acronyms in service names 
 
 If users need a familiar acronym in your service name, do not write it out in full. This creates long service names and can confuse people. 
-
 
 ## Example service names 
 

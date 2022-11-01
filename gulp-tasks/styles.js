@@ -25,22 +25,24 @@ const sourceFiles = [
 // Grab all root Sass files, process them, sends to the output folder
 const styles = (cb) => {
   
-  return src(sourceFiles, {allowEmpty: true})
+  return src(sourceFiles, {
+    allowEmpty: true
+  })
     
-    .pipe(
-      sassProcessor().on(
-        'error', 
-        sassProcessor.logError
-      )
+  .pipe(
+    sassProcessor().on(
+      'error', 
+      sassProcessor.logError
     )
+  )
 
-    .pipe(gulpif(isProduction, postCSS([autoprefixer()])))
+  .pipe(gulpif(isProduction, postCSS([autoprefixer()])))
 
-    .pipe(gulpif(isProduction, cleanCSS({ level: 2 })))
+  .pipe(gulpif(isProduction, cleanCSS({ level: 2 })))
 
-    .pipe(dest('public/assets/styles'))
+  .pipe(dest('public/assets/styles'))
 
-    .on('done', cb);
+  .on('done', cb);
   
   };
 

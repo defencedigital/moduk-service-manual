@@ -6,7 +6,7 @@ datePublished: 2022-10-17
 
 # Standards in Defence
 
-All teams creating digital services and products for Defence should follow the [GOV.UK Service Standard](https://www.gov.uk/service-manual/service-standard). This includes third-party suppliers.
+All teams creating digital services and products for Defence should follow the [GOV.UK Service Standard](https://www.gov.uk/service-manual/service-standard/). This includes third-party suppliers.
 
 The GOV.UK Service Standard applies to internal services and products as well as services for citizens. It helps you:
 

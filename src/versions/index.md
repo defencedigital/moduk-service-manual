@@ -30,8 +30,7 @@ This is what we’re working on for the next rounds of testing.
 
 {{ component('details', {
   summaryText: 'What’s changed',
-  html: htmlOutput,
-  open: true
+  html: htmlOutput
 }) }}
 
 ## Version 3 {.govuk-heading-m}
@@ -57,8 +56,7 @@ This is the most recent prototype tested with users.
 
 {{ component('details', {
   summaryText: 'What’s changed',
-  html: htmlOutput,
-  open: true
+  html: htmlOutput
 }) }}
 
 ## [Version 2](https://dmdsm.herokuapp.com/dsm-home) {.govuk-heading-m}

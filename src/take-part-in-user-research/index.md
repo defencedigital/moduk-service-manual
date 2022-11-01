@@ -28,4 +28,4 @@ Send your details to [service-manual@digital.mod.uk](mailto:service-manual@digit
 
 ### Slack
 
-If you are on MODNET or have a digital MOD email address, you can [share your details on Defence Digital Slack](https://defencedigital.slack.com/archives/C03L6486PBN).
+If you are on MODNET or have a digital MOD email address, you can [share your details on Defence Digital Slack](https://defencedigital.slack.com/archives/C03L6486PBN/).
