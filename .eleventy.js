@@ -48,6 +48,10 @@ const markdownItReplaceLinkOptions = {
 module.exports = function (eleventyConfig) {
 
 
+  // Watch for changes
+  eleventyConfig.addWatchTarget('./src/assets');
+
+
   // Date published and updated formatting
   eleventyConfig.addFilter('publishedDate', dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('LLLL yyyy');

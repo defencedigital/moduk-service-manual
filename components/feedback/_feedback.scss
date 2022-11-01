@@ -28,7 +28,6 @@ Title: Feedback
   color: govuk-colour("black");
   outline: 0;
   padding: govuk-spacing(2) 0;
-  text-align: center;
 
   @include govuk-media-query($from: tablet) {
     @include govuk-font(16, $weight: bold);
@@ -79,7 +78,7 @@ Title: Feedback
 .moduk-feedback__prompt-question,
 .moduk-feedback__prompt-success {
   display: inline-block;
-  margin: govuk-spacing(2) govuk-spacing(4);
+  margin: govuk-spacing(2) govuk-spacing(4) govuk-spacing(2) 0;
   vertical-align: top;
 
   &:focus {
@@ -108,7 +107,8 @@ Title: Feedback
   padding: 0;
 
   @include govuk-media-query($from: mobile) {
-    display: inline-block;
+    display: inline-block; // Fallback
+    display: inline-flex;
     margin-right: govuk-spacing(2);
   }
 
@@ -158,7 +158,7 @@ Title: Feedback
 .moduk-feedback__option-list-item:last-child {
   
   @include govuk-media-query($from: mobile) {
-    margin-left: govuk-spacing(4);
+    margin-left: govuk-spacing(3);
   }
 
 }
