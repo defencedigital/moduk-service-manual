@@ -52,10 +52,6 @@ You must then ask the participant if they:
 - are happy to be contacted again for further research
 - have any questions about the session
 
-#### Get participants to complete a consent form
-
-Before you start, you must get participants to sign an [MOD consent form](#0). You need to add details about your research.
-
 #### Share an understanding your participation sheet
 
 Your information sheet should include:
@@ -66,7 +62,6 @@ Your information sheet should include:
 - the classification of the research and what this means, especially if SECRET or above
 - how the user can withdraw from the current or future research
 
-You can use this example of an [understanding your participation sheet](#0).
 
 ## Only collect data that you need
 
