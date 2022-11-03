@@ -53,6 +53,39 @@
 
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
+    {% set html %}
+      <p class="govuk-body">We’d like to use analytics cookies so we can understand how you use the service and make improvements.</p>
+    {% endset %}
+
+    {{ component('cookie-banner', {
+      ariaLabel: "Cookies on the Defence Service Manual",
+      messages: [
+        {
+          headingText: "Cookies on the Defence Service Manual",
+          html: html,
+          actions: [
+            {
+              text: "Accept analytics cookies",
+              type: "button",
+              name: "cookies",
+              value: "accept"
+            },
+            {
+              text: "Reject analytics cookies",
+              type: "button",
+              name: "cookies",
+              value: "reject"
+            },
+            {
+              classes: "govuk-link--no-visited-state",
+              text: "View cookies",
+              href: '/cookies/' | url
+            }
+          ]
+        }
+      ]
+    }) }}
+
     {% include "header.njk" ignore missing %}
     {% include "phase-banner.njk" ignore missing %}
 
@@ -64,6 +97,9 @@
     {% include "footer.njk" ignore missing %}
 
     <script src="{{ '/assets/scripts/scripts.js' | url }}"></script>
+    <script src="{{ '/assets/scripts/all.js' | url }}"></script>
+
+    <script>window.GOVUKFrontend.initAll()</script>
 
     {% block pageScripts %}{% endblock %}
 
