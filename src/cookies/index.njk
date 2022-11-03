@@ -1,0 +1,166 @@
+{% extends "layouts/base.njk" %}
+
+{% block body %}
+
+<div class="govuk-width-container">
+
+  <div class="govuk-breadcrumbs">
+
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a></li>
+    </ol>
+  
+  </div>
+
+</div>
+
+<div class="govuk-width-container">
+
+  <div class="govuk-main-wrapper">
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-two-thirds">
+
+        {% set html %}
+          <h3 class="govuk-notification-banner__heading">Your cookie settings were saved</h3>
+          <p class="govuk-body">Contact <a class="govuk-notification-banner__link" href="#">example@department.gov.uk</a> if you think there’s a problem.</p>
+        {% endset %}
+
+        {{ component('notification-banner', {
+          html: html,
+          type: 'success'
+        }) }}
+
+        <div class="moduk-prose">
+
+          <h1>Cookies</h1>
+
+          <p>Cookies are small files saved on your phone, tablet or computer when you visit a website.</p>
+
+          <p>We use cookies to make the Defence Service Manual work and collect information about how you use our service.</p>
+
+          <h2>Essential cookies</h2>
+
+          <p>Essential cookies keep your information secure while you use the Defence Service Manual. We do not need to ask permission to use them.</p>
+
+          {{ component('table', {
+            caption: "Essential cookies",
+            captionClasses: "govuk-table__caption--m govuk-visually-hidden",
+            firstCellIsHeader: true,
+            head: [
+              {
+                text: "Name"
+              },
+              {
+                text: "Purpose"
+              },
+              {
+                text: "Expires"
+              }
+            ],
+            rows: [
+              [
+                {
+                  text: "mod_digital_standards_cookies_policy"
+                },
+                {
+                  text: "Saves your cookie consent settings"
+                },
+                {
+                  text: "1 year"
+                }
+              ]
+            ]
+          }) }}
+
+          <h2>Analytics cookies (optional)</h2>
+
+          <p>With your permission, we use Google Analytics to collect data about how you use the Defence Service Manual. This information helps us to improve our service.</p>
+
+          <p>Google is not allowed to use or share our analytics data with anyone.</p>
+
+          <p>Google Analytics stores anonymised information about:</p>
+
+          <ul>
+            <li>how you got to the Defence Service Manual</li>
+            <li>the pages you visit on the Defence Service Manual and how long you spend on them</li>
+            <li>any errors you see while using the Defence Service Manual</li>
+          </ul>
+
+          {{ component('table', {
+            caption: "Analytics cookies",
+            captionClasses: "govuk-table__caption--m govuk-visually-hidden",
+            firstCellIsHeader: true,
+            head: [
+              {
+                text: "Name"
+              },
+              {
+                text: "Purpose"
+              },
+              {
+                text: "Expires"
+              }
+            ],
+            rows: [
+              [
+                {
+                  text: "_ga"
+                },
+                {
+                  text: "These help us count how many people visit the Defence Service Manual by tracking if you’ve visited before"
+                },
+                {
+                  text: "2 years"
+                }
+              ],
+              [
+                {
+                  text: "_gid"
+                },
+                {
+                  text: "These help us count how many people visit the Defence Service Manual by tracking if you’ve visited before"
+                },
+                {
+                  text: "24 hours"
+                }
+              ]
+            ]
+          }) }}
+
+          {{ component('radios', {
+            name: "do-you-want-to-accept-cookies",
+            fieldset: {
+              legend: {
+                classes: "govuk-fieldset__legend govuk-fieldset__legend--s",
+                text: "Do you want to accept analytics cookies?"
+              }
+            },
+            items: [
+              {
+                value: "yes",
+                html: 'Yes<span class="govuk-visually-hidden">I want to accept analytics cookies</span>'
+              },
+              {
+                value: "no",
+                html: 'No<span class="govuk-visually-hidden">I do not want to accept analytics cookies</span>'
+              }
+            ]
+          }) }}
+
+          {{ component('button', {
+            text: "Save cookie settings"
+          }) }}
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock %}

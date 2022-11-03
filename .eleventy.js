@@ -65,6 +65,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({'node_modules/govuk-frontend/govuk/assets/fonts': 'assets/fonts'});
 
 
+  // Copy GOV.UK javascript
+  eleventyConfig.addPassthroughCopy({'node_modules/govuk-frontend/govuk/all.js': 'assets/scripts/all.js'});
+
+
   // Copy MOD.UK assets
   eleventyConfig.addPassthroughCopy({'./src/assets/images': 'assets/images'});
 
