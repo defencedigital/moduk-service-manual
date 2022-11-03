@@ -54,8 +54,6 @@
 
     // Detect form submit
     form.addEventListener('submit', function (event) {
-      
-      event.preventDefault();
 
       Util.addClass(form, 'js:is-hidden'); // Hide the feedback form
       Util.removeClass(prompt, 'js:is-hidden'); // Show the feedback prompt
