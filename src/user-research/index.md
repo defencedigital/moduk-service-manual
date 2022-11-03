@@ -13,6 +13,7 @@ title: "User research"
 
 ## [Find user research participants across Defence](/user-research/find-user-research-participants-across-defence/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
+- Check what has already been done
 - Start with stakeholders and subject matter experts
 - Use MOD networks
 
