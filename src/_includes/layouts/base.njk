@@ -53,38 +53,66 @@
 
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
-    {% set html %}
-      <p class="govuk-body">We’d like to use analytics cookies so we can understand how you use the service and make improvements.</p>
-    {% endset %}
+    <form method="POST">
 
-    {{ component('cookie-banner', {
-      ariaLabel: "Cookies on the Defence Service Manual",
-      messages: [
-        {
-          headingText: "Cookies on the Defence Service Manual",
-          html: html,
-          actions: [
-            {
-              text: "Accept analytics cookies",
-              type: "button",
-              name: "cookies",
-              value: "accept"
-            },
-            {
-              text: "Reject analytics cookies",
-              type: "button",
-              name: "cookies",
-              value: "reject"
-            },
-            {
-              classes: "govuk-link--no-visited-state",
-              text: "View cookies",
-              href: '/cookies/' | url
-            }
-          ]
-        }
-      ]
-    }) }}
+      {% set html %}
+        <p class="govuk-body">We’d like to use analytics cookies so we can understand how you use the service and make improvements.</p>
+      {% endset %}
+
+      {{ component('cookie-banner', {
+        ariaLabel: "Cookies on the Defence Service Manual",
+        messages: [
+          {
+            headingText: "Cookies on the Defence Service Manual",
+            html: html,
+            actions: [
+              {
+                classes: "js-cookie-banner-accept",
+                text: "Accept additional cookies",
+                type: "submit",
+                name: "cookies",
+                value: "accept"
+              },
+              {
+                classes: "js-cookie-banner-reject",
+                text: "Reject additional cookies",
+                type: "submit",
+                name: "cookies",
+                value: "reject"
+              },
+              {
+                classes: "govuk-link--no-visited-state",
+                text: "View cookies",
+                href: '/cookies/' | url
+              }
+            ]
+          },
+          {
+            html: acceptHtml,
+            actions: [
+              {
+                text: "Hide cookie message",
+                href: "#0",
+                type: "button"
+              }
+            ],
+            hidden: true
+          },
+          {
+            html: rejectedHtml,
+            actions: [
+              {
+                text: "Hide cookie message",
+                href: "#0",
+                type: "button"
+              }
+            ],
+            hidden: true
+          }
+        ]
+      }) }}
+      
+    </form>
 
     {% include "header.njk" ignore missing %}
     {% include "phase-banner.njk" ignore missing %}
