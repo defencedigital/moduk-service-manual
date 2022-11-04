@@ -30,13 +30,13 @@
     {# iOS #}
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="{{ '/' | url }}">
+    <meta name="apple-mobile-web-app-title" content="{{ meta.serviceName }}">
 
     {# Apple touch icon #}
     <link rel="apple-touch-icon" href="{{ '/assets/images/apple-touch-icon.png' | url }}">
 
     {# Mask icon #}
-    <link rel="mask-icon" href="{{ '/assets/images/mask-icon.svg' | url }}" color="#000000">
+    <link rel="mask-icon" href="{{ '/assets/images/mask-icon.svg' | url }}" color="#4D2942">
 
     {# Fav icon #}
     <link rel="icon" href="{{ '/assets/images/favicon.png' | url }}">
@@ -58,6 +58,14 @@
       {% set html %}
         <p class="govuk-body">We’d like to use analytics cookies so we can understand how you use the service and make improvements.</p>
       {% endset %}
+    
+      {% set acceptHtml %}
+        <p class="govuk-body">You’ve accepted analytics cookies. You can <a class="govuk-link" href="#">change your cookie settings</a> at any time.</p>
+      {% endset %}
+
+      {% set rejectedHtml %}
+        <p class="govuk-body">You’ve rejected analytics cookies. You can <a class="govuk-link" href="#">change your cookie settings</a> at any time.</p>
+      {% endset %}
 
       {{ component('cookie-banner', {
         ariaLabel: "Cookies on the Defence Service Manual",
@@ -68,14 +76,14 @@
             actions: [
               {
                 classes: "js-cookie-banner-accept",
-                text: "Accept additional cookies",
+                text: "Accept analytics cookies",
                 type: "submit",
                 name: "cookies",
                 value: "accept"
               },
               {
                 classes: "js-cookie-banner-reject",
-                text: "Reject additional cookies",
+                text: "Reject analytics cookies",
                 type: "submit",
                 name: "cookies",
                 value: "reject"
@@ -111,7 +119,7 @@
           }
         ]
       }) }}
-      
+
     </form>
 
     {% include "header.njk" ignore missing %}
@@ -128,6 +136,9 @@
     <script src="{{ '/assets/scripts/all.js' | url }}"></script>
 
     <script>window.GOVUKFrontend.initAll()</script>
+
+    {# Google analytics #}
+    {# <script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga"); kk=function(){ cookieContent = getCookie("mod_digital_standards_cookies_policy"); if (typeof cookieContent !== "undefined" ) { ccObj = JSON.parse(cookieContent); if (!!ccObj && ccObj.analytics) { return "standards.digital.mod.uk"; }}; return {storage:"none"};}; ga("create","UA-213496264-3",kk());ga("send","pageview");cookie_consent();</script> #}
 
     {% block pageScripts %}{% endblock %}
 
