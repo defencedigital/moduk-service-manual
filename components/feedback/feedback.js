@@ -13,7 +13,7 @@
         success   = feedback[0].getElementsByClassName('js-feedback-success')[0];
 
 
-    var firstElement = document.getElementById('what-were-you-looking-for');
+    var firstElement = document.getElementById('what-guidance-were-you-looking-for');
 
 
     // Detect click on yes trigger
@@ -43,6 +43,7 @@
     // Detect click on close
     close.addEventListener('click', function (event) {
       
+      // Prevent form from submitting to the server
       event.preventDefault();
 
       Util.addClass(form, 'js:is-hidden'); // Hide the feedback form
@@ -54,13 +55,35 @@
 
     // Detect form submit
     form.addEventListener('submit', function (event) {
-      
+
+      // Prevent form from submitting to the server
       event.preventDefault();
 
-      Util.addClass(form, 'js:is-hidden'); // Hide the feedback form
-      Util.removeClass(prompt, 'js:is-hidden'); // Show the feedback prompt
-      Util.addClass(questions, 'js:is-hidden'); // Hide the question
-      Util.removeClass(success, 'js:is-hidden'); // Show the success
+      var data = new FormData(event.target);
+
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+          'Accept': 'application/json'
+        }
+      }).then(response => {
+        
+        if (response.ok) {
+
+          success.innerHTML = 'Thank you for your feedback';
+
+          form.reset()
+
+          // Send form data
+          Util.addClass(form, 'js:is-hidden');       // Hide the feedback form
+          Util.removeClass(prompt, 'js:is-hidden');  // Show the feedback prompt
+          Util.addClass(questions, 'js:is-hidden');  // Hide the question
+          Util.removeClass(success, 'js:is-hidden'); // Show the success
+
+        }
+
+      });
 
     });
 
