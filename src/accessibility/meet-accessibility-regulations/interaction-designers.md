@@ -2,6 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Interaction Designers"
+description: "How Interaction Designers help create accessible services in Defence. Use existing patterns, things to add and things to avoid."
 datePublished: 2022-10-17
 eleventyNavigation:
   parent: "Accessibility"

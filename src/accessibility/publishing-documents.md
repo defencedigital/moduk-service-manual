@@ -2,6 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Publishing documents"
+description: "Check if your Ministry of Defence service needs an accessibility statement, how to create one and make all documents accessible."
 datePublished: 2022-10-17
 eleventyNavigation:
   key: "Accessibility"

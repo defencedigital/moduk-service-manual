@@ -2,6 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "User research"
 title: "Find user research participants across Defence"
+description: "Start with stakeholders and subject matter experts, follow chains of command and make the most of Ministry of Defence networks."
 datePublished: 2022-10-17
 eleventyNavigation:
   key: "User research"

@@ -2,6 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "User research"
 title: "Share user research findings correctly"
+description: "Check how you must protect participants’ data and identities, online and in meetings like show and tells."
 datePublished: 2022-10-17
 eleventyNavigation:
   key: "User research"

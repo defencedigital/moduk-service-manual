@@ -1,6 +1,7 @@
 ---
 layout: "layouts/landing.njk"
 title: "Get in touch"
+description: "Anyone working in Defence can suggest content for the Defence Service Manual. Find out how to add or update content."
 ---
 
 # Get in touch

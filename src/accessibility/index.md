@@ -1,6 +1,7 @@
 ---
 layout: "layouts/landing.njk"
 title:  "Accessibility"
+description: "Follow best practice, meet the regulations and deliver services that can be used by anyone in Defence."
 ---
 
 # Accessibility
