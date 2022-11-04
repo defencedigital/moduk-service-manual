@@ -8,10 +8,29 @@ eleventyNavigation:
   url: "/user-research/"
 ---
 
-Participants are the people who take part in user research. They should be people who are using or will use the service.
+Participants are the people who take part in user research. They should be people who are using or will use your service or product.
 
-{{ component('inset-text', {
-  text: 'Do not use social media platforms like Twitter, Instagram, LinkedIn or TikTok to recruit participants for user research.'
+{{ modukcomponent('do-dont-list', {
+  'title': 'Do',
+  'type': 'tick',
+  'items': [
+    {
+      'item': 'Check what user research has already been done'
+    },
+    {
+      'item': 'Follow the chain of command'
+    }
+  ]
+}) }}
+
+{{ modukcomponent('do-dont-list', {
+  'title': 'Don’t',
+  'type': 'cross',
+  'items': [
+    {
+      'item': 'recruit participants on social media platforms like Twitter, Instagram, LinkedIn and TikTok'
+    }
+  ]
 }) }}
 
 ## Check what has already been done
