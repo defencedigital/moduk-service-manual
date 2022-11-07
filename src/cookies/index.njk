@@ -27,10 +27,13 @@
           <p class="govuk-body">Contact <a class="govuk-notification-banner__link" href="mailto:service-manual@digital.mod.uk">service-manual@digital.mod.uk</a> if you think there’s a problem.</p>
         {% endset %}
 
-        {# {{ component('notification-banner', {
+        {{ component('notification-banner', {
           html: html,
-          type: 'success'
-        }) }} #}
+          type: 'success',
+          attributes: {
+            hidden: true
+          }
+        }) }}
 
         <div class="moduk-prose">
 
@@ -147,10 +150,12 @@
                 {
                   value: 'on',
                   html: 'Yes<span class="govuk-visually-hidden">I want to accept analytics cookies</span>',
+                  id: 'analytics-on',
                   checked: true
                 },
                 {
                   value: 'off',
+                  id: 'analytics-off',
                   html: 'No<span class="govuk-visually-hidden">I do not want to accept analytics cookies</span>'
                 }
               ]

@@ -66,7 +66,7 @@ module.exports = function (eleventyConfig) {
 
 
   // Copy GOV.UK javascript
-  eleventyConfig.addPassthroughCopy({'node_modules/govuk-frontend/govuk/all.js': 'assets/scripts/all.js'});
+  eleventyConfig.addPassthroughCopy({'node_modules/govuk-frontend/govuk/all.js': 'assets/scripts/govuk.js'});
 
 
   // Copy HMCTS Cookies javascript
