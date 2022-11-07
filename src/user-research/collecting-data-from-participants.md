@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "User research"
 title: "Collecting data from participants"
 description: "Check you are meeting the General Data Protection Regulation (GDPR). Get informed consent and protect participants’ sensitive data."
-datePublished: 2022-10-17
+datePublished: 2022-11-07
 eleventyNavigation:
   key: "User research"
   url: "/user-research/"

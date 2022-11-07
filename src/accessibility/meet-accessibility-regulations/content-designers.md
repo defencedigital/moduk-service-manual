@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Content Designers"
 description: "How Content Designers help create accessible services in Defence. Making content easy to understand makes it better for everyone."
-datePublished: 2022-10-17
+datePublished: 2022-11-07
 eleventyNavigation:
   parent: "Accessibility"
   parent.url: "/accessibility/"

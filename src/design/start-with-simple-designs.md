@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Design"
 title: "Start with simple designs"
 decsription: "Follow good design principles, check existing GOV.UK and Ministry of Defence patterns and use the correct styles for Defence."
-datePublished: 2022-10-17
+datePublished: 2022-11-07
 eleventyNavigation:
   key: "Design"
   url: "/design/"
