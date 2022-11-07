@@ -2,6 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Design"
 title: "Naming services in Defence"
+description: "Start with the GOV.UK approach, how to deal with acronyms in Defence and find examples of good service names."
 datePublished: 2022-10-17
 eleventyNavigation:
   key: "Design"

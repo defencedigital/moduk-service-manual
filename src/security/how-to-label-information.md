@@ -2,6 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Security"
 title: "How to label information"
+description: "Check how to label OFFICIAL, SECRET and TOP-SECRET information and how to use OFFICIAL-SENSITIVE correctly in Defence."
 datePublished: 2022-10-17
 eleventyNavigation:
   key: "Security"

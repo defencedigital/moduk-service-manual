@@ -1,6 +1,7 @@
 ---
 layout: "layouts/landing.njk"
 title: "Site map"
+description: "Use the site map as an alternative way to find what you need in the Defence Service Manual."
 ---
 
 # Site map

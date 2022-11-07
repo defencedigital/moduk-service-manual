@@ -2,6 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Product Managers"
+description: "How Product Managers help create accessible services in Defence. Help your team understand accessibility and get stakeholders on board."
 datePublished: 2022-10-17
 eleventyNavigation:
   parent: "Accessibility"

@@ -1,6 +1,7 @@
 ---
 layout: "layouts/landing.njk"
 title: "Your community"
+description: "Anyone working in Defence can join a community of practice. Meet others doing your role, use shared tools and learn from other projects."
 ---
 
 # Your community

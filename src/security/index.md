@@ -1,6 +1,7 @@
 ---
 layout: "layouts/landing.njk"
 title: "Security"
+description: "Keep and share information securely in Defence, check how to use security classifications and label information."
 ---
 
 # Security

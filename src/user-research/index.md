@@ -1,6 +1,7 @@
 ---
 layout: "layouts/landing.njk"
 title: "User research"
+description: "How to do user research with military personnel, find participants across Defence and manage data correctly."
 ---
 
 # User research
@@ -13,6 +14,7 @@ title: "User research"
 
 ## [Find user research participants across Defence](/user-research/find-user-research-participants-across-defence/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
+- Check what has already been done
 - Start with stakeholders and subject matter experts
 - Use MOD networks
 
