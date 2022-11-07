@@ -10,10 +10,13 @@
         close     = feedback[0].getElementsByClassName('js-feedback-close')[0],
         prompt    = feedback[0].getElementsByClassName('js-feedback-prompt')[0],
         questions = feedback[0].getElementsByClassName('js-feedback-question')[0],
-        success   = feedback[0].getElementsByClassName('js-feedback-success')[0];
+        success   = feedback[0].getElementsByClassName('js-feedback-success')[0],
+        
+        guidance  = document.getElementById('guidance'),
+        emmail    = document.getElementById('email');
 
 
-    var firstElement = document.getElementById('what-guidance-were-you-looking-for');
+    var firstElement = guidance;
 
 
     // Detect click on yes trigger
@@ -53,40 +56,47 @@
     });
 
 
+    // Check if an element is empty
+    const isEmpty = str => !str.trim().length;
+
+
     // Detect form submit
     form.addEventListener('submit', function (event) {
 
-      // Prevent form from submitting to the server
       event.preventDefault();
 
-      var data = new FormData(event.target);
+      Util.addClass(form, 'js:is-hidden');       // Hide the feedback form
+      Util.removeClass(prompt, 'js:is-hidden');  // Show the feedback prompt
+      Util.addClass(questions, 'js:is-hidden');  // Hide the question
+      Util.removeClass(success, 'js:is-hidden'); // Show the success
 
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-          'Accept': 'application/json'
-        }
-      }).then(response => {
-        
-        if (response.ok) {
+      if ( isEmpty( guidance.value ) ) {
 
-          success.innerHTML = 'Thank you for your feedback';
+        // Do nothing
 
-          form.reset();
+      } else {
 
-          // Send form data
-          Util.addClass(form, 'js:is-hidden');       // Hide the feedback form
-          Util.removeClass(prompt, 'js:is-hidden');  // Show the feedback prompt
-          Util.addClass(questions, 'js:is-hidden');  // Hide the question
-          Util.removeClass(success, 'js:is-hidden'); // Show the success
+        var data = new FormData(event.target);
 
-        }
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            'Accept': 'application/json'
+          }
+        }).then(response => {
 
-      });
+          if (response.ok) {
+            success.innerHTML = 'Thank you for your feedback';
+            form.reset();
+          };
+
+        });
+
+      }
 
     });
 
-  }
+  };
 
 }());

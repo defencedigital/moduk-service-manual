@@ -30,9 +30,9 @@
     <div class="govuk-width-container">
 
       {{ component('button', {
-        classes: "govuk-button--secondary moduk-feedback__close js-feedback-close no-js:is-hidden",
-        text: "Close",
-        type: "button"
+        classes: 'govuk-button--secondary moduk-feedback__close js-feedback-close no-js:is-hidden',
+        text: 'Close',
+        type: 'button'
       }) }}
 
       <div class="govuk-grid-row">
@@ -42,34 +42,34 @@
           <h2 class="govuk-heading-m">Help improve the Defence Service Manual</h2>
 
           {{ component('textarea', {
-            name: "what-guidance-were-you-looking-for",
-            id: "what-guidance-were-you-looking-for",
+            id: 'guidance',
+            name: 'Guidance',
             rows: 3,
             label: {
-              text: "What guidance were you looking for?"
+              text: 'What guidance were you looking for?'
             },
             hint: {
-              text: "Include details, questions and suggestions."
+              text: 'Include details, questions and suggestions.'
             },
             spellcheck: true
           }) }}
 
           {{ component('input', {
             label: {
-              text: "Email address (optional)"
+              text: 'Email address (optional)'
             },
-            type: "email",
+            type: 'email',
             hint: {
-              text: "We will only contact you to discuss your feedback."
+              text: 'We will only contact you to discuss your feedback.'
             },
-            id: "email",
-            name: "email"
+            id: 'email',
+            name: 'Email'
           }) }}
 
           {{ component('button', {
-            classes: "govuk-!-margin-bottom-0",
-            text: "Send feedback",
-            type: "submit"
+            classes: 'govuk-!-margin-bottom-0',
+            text: 'Send feedback',
+            type: 'submit'
           }) }}
 
         </div>

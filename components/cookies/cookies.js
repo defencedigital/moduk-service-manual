@@ -65,7 +65,6 @@ var config = {
 
 // Callback to reload page on cookie form submission
 const reloadCallback = function(eventData) {
-  // document.location.href = '/cookies/';
 
   var successBanner = document.querySelector('.govuk-notification-banner--success');
 
@@ -92,6 +91,18 @@ window.cookieManager.on('CookieBannerAction', triggerAnalyticsCallback);
 window.cookieManager.init(config);
 
 // Send analytics if the cookie is set
-if (JSON.parse(getCookieValue('cookie-preferences')).analytics == 'on') {
-  sendAnalytics()
+try {
+  
+  const result = (JSON.parse(getCookieValue('cookie-preferences')).analytics == 'on');
+  
+  // Cookie has been set
+  if (result == true) {
+    sendAnalytics()
+  }
+  
+} catch (err) {
+
+  // SyntaxError: Unexpected end of JSON input
+  console.log('error', err);
+
 }
