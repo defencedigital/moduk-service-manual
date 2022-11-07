@@ -16,7 +16,7 @@ const isProduction = process.env.ELEVENTY_ENV === 'production';
 // Source script files
 const sourceFiles = [
   './src/assets/scripts/util.js',
-  './components/**/*.js'
+  './components/feedback/feedback.js'
 ];
 
 

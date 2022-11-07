@@ -60,62 +60,75 @@
       {% endset %}
     
       {% set acceptHtml %}
-        <p class="govuk-body">You’ve accepted analytics cookies. You can <a class="govuk-link" href="#">change your cookie settings</a> at any time.</p>
+        <p class="govuk-body">You’ve accepted analytics cookies. You can <a class="govuk-link govuk-link--no-visited-state" href="{{ '/cookies/' | url }}">change your cookie settings</a> at any time.</p>
       {% endset %}
 
       {% set rejectedHtml %}
-        <p class="govuk-body">You’ve rejected analytics cookies. You can <a class="govuk-link" href="#">change your cookie settings</a> at any time.</p>
+        <p class="govuk-body">You’ve rejected analytics cookies. You can <a class="govuk-link govuk-link--no-visited-state" href="{{ '/cookies/' | url }}">change your cookie settings</a> at any time.</p>
       {% endset %}
 
       {{ component('cookie-banner', {
-        ariaLabel: "Cookies on the Defence Service Manual",
+        hidden: true,
+        classes: 'js-cookie-banner',
+        ariaLabel: 'Cookies on the Defence Service Manual',
         messages: [
           {
-            headingText: "Cookies on the Defence Service Manual",
+            classes: 'js-cookie-banner-messsage',
+            headingText: 'Cookies on the Defence Service Manual',
             html: html,
             actions: [
               {
-                classes: "js-cookie-banner-accept",
-                text: "Accept analytics cookies",
-                type: "submit",
-                name: "cookies",
-                value: "accept"
+                classes: 'js-cookie-banner-accept',
+                text: 'Accept analytics cookies',
+                type: 'submit',
+                name: 'cookies',
+                value: 'accept'
               },
               {
-                classes: "js-cookie-banner-reject",
-                text: "Reject analytics cookies",
-                type: "submit",
-                name: "cookies",
-                value: "reject"
+                classes: 'js-cookie-banner-reject',
+                text: 'Reject analytics cookies',
+                type: 'submit',
+                name: 'cookies',
+                value: 'reject'
               },
               {
-                classes: "govuk-link--no-visited-state",
-                text: "View cookies",
+                classes: 'govuk-link--no-visited-state',
+                text: 'View cookies',
                 href: '/cookies/' | url
               }
             ]
           },
           {
+            classes: 'js-cookie-banner-confirmation-accept',
             html: acceptHtml,
             actions: [
               {
-                text: "Hide cookie message",
-                href: "#0",
-                type: "button"
+                classes: 'js-cookie-banner-hide',
+                text: 'Hide cookie message',
+                href: '#0',
+                type: 'button'
               }
             ],
-            hidden: true
+            hidden: true,
+            attributes: {
+              role: 'alert'
+            }
           },
           {
+            classes: 'js-cookie-banner-confirmation-reject',
             html: rejectedHtml,
             actions: [
               {
-                text: "Hide cookie message",
-                href: "#0",
-                type: "button"
+                classes: 'js-cookie-banner-hide',
+                text: 'Hide cookie message',
+                href: '#0',
+                type: 'button'
               }
             ],
-            hidden: true
+            hidden: true,
+            attributes: {
+              role: 'alert'
+            }
           }
         ]
       }) }}
@@ -136,6 +149,54 @@
     <script src="{{ '/assets/scripts/all.js' | url }}"></script>
 
     <script>window.GOVUKFrontend.initAll()</script>
+
+    <script src="{{ '/assets/scripts/cookie-manager-1.0.0.min.js' | url }}"></script>
+
+    <script>
+
+      var config = {
+        userPreferences: {
+          cookieName: 'cookie-preferences',
+          cookieExpiry: 365,
+          cookieSecure: false
+        },
+        preferencesForm: {
+          class: 'cookie-preferences-form'
+        },
+        cookieBanner: {
+          class: 'js-cookie-banner',
+          showWithPreferencesForm: false,
+          actions: [
+            {
+              name: 'accept',
+              buttonClass: 'js-cookie-banner-accept',
+              confirmationClass: 'js-cookie-banner-confirmation-accept',
+              consent: true
+            },
+            {
+              name: 'reject',
+              buttonClass: 'js-cookie-banner-reject',
+              confirmationClass: 'js-cookie-banner-confirmation-reject',
+              consent: false
+            },
+            {
+              name: 'hide',
+              buttonClass: 'js-cookie-banner-hide'
+            }
+          ]
+        },
+        cookieManifest: [] ,
+        additionalOptions: {
+          defaultConsent: false,
+          deleteUndefinedCookies: false,
+          disableCookieBanner: false,
+          disableCookiePreferencesForm: false
+        }
+      }
+
+      window.cookieManager.init(config);
+
+    </script>
 
     {# Google analytics #}
     {# <script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga"); kk=function(){ cookieContent = getCookie("mod_digital_standards_cookies_policy"); if (typeof cookieContent !== "undefined" ) { ccObj = JSON.parse(cookieContent); if (!!ccObj && ccObj.analytics) { return "standards.digital.mod.uk"; }}; return {storage:"none"};}; ga("create","UA-213496264-3",kk());ga("send","pageview");cookie_consent();</script> #}

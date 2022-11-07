@@ -27,10 +27,10 @@
           <p class="govuk-body">Contact <a class="govuk-notification-banner__link" href="mailto:service-manual@digital.mod.uk">service-manual@digital.mod.uk</a> if you think there’s a problem.</p>
         {% endset %}
 
-        {{ component('notification-banner', {
+        {# {{ component('notification-banner', {
           html: html,
           type: 'success'
-        }) }}
+        }) }} #}
 
         <div class="moduk-prose">
 
@@ -45,31 +45,31 @@
           <p>Essential cookies keep your information secure while you use the Defence Service Manual. We do not need to ask permission to use them.</p>
 
           {{ component('table', {
-            caption: "Essential cookies",
-            captionClasses: "govuk-table__caption--m govuk-visually-hidden",
+            caption: 'Essential cookies',
+            captionClasses: 'govuk-table__caption--m govuk-visually-hidden',
             firstCellIsHeader: true,
             head: [
               {
-                text: "Name"
+                text: 'Name'
               },
               {
-                text: "Purpose"
+                text: 'Purpose'
               },
               {
-                text: "Expires"
+                text: 'Expires'
               }
             ],
             rows: [
               [
                 {
-                  classes: "govuk-!-font-weight-regular",
-                  text: "cookies_policy"
+                  classes: 'govuk-!-font-weight-regular',
+                  text: 'cookies_policy'
                 },
                 {
-                  text: "Saves your cookie consent settings"
+                  text: 'Saves your cookie consent settings'
                 },
                 {
-                  text: "1 year"
+                  text: '1 year'
                 }
               ]
             ]
@@ -90,71 +90,77 @@
           </ul>
 
           {{ component('table', {
-            caption: "Analytics cookies",
-            captionClasses: "govuk-table__caption--m govuk-visually-hidden",
+            caption: 'Analytics cookies',
+            captionClasses: 'govuk-table__caption--m govuk-visually-hidden',
             firstCellIsHeader: true,
             head: [
               {
-                text: "Name"
+                text: 'Name'
               },
               {
-                text: "Purpose"
+                text: 'Purpose'
               },
               {
-                text: "Expires"
+                text: 'Expires'
               }
             ],
             rows: [
               [
                 {
-                  classes: "govuk-!-font-weight-regular",
-                  text: "_ga"
+                  classes: 'govuk-!-font-weight-regular',
+                  text: '_ga'
                 },
                 {
-                  text: "Check if you’ve visited the Defence Service Manual before. This helps us count how many people visit our site."
+                  text: 'Check if you’ve visited the Defence Service Manual before. This helps us count how many people visit our site.'
                 },
                 {
-                  text: "2 years"
+                  text: '2 years'
                 }
               ],
               [
                 {
-                  classes: "govuk-!-font-weight-regular",
-                  text: "_gid"
+                  classes: 'govuk-!-font-weight-regular',
+                  text: '_gid'
                 },
                 {
-                  text: "Check if you’ve visited the Defence Service Manual before. This helps us count how many people visit our site."
+                  text: 'Check if you’ve visited the Defence Service Manual before. This helps us count how many people visit our site.'
                 },
                 {
-                  text: "24 hours"
+                  text: '24 hours'
                 }
               ]
             ]
           }) }}
 
-          {{ component('radios', {
-            name: "do-you-want-to-accept-cookies",
-            fieldset: {
-              legend: {
-                classes: "govuk-fieldset__legend govuk-fieldset__legend--s",
-                text: "Do you want to accept analytics cookies?"
-              }
-            },
-            items: [
-              {
-                value: "yes",
-                html: 'Yes<span class="govuk-visually-hidden">I want to accept analytics cookies</span>'
-              },
-              {
-                value: "no",
-                html: 'No<span class="govuk-visually-hidden">I do not want to accept analytics cookies</span>'
-              }
-            ]
-          }) }}
+          <form class="cookie-preferences-form">
 
-          {{ component('button', {
-            text: "Save cookie settings"
-          }) }}
+            {{ component('radios', {
+              idPrefix: 'analytics',
+              name: 'analytics',
+              fieldset: {
+                legend: {
+                  classes: 'govuk-fieldset__legend--s',
+                  text: 'Do you want to accept analytics cookies?'
+                }
+              },
+              items: [
+                {
+                  value: 'on',
+                  html: 'Yes<span class="govuk-visually-hidden">I want to accept analytics cookies</span>',
+                  checked: true
+                },
+                {
+                  value: 'off',
+                  html: 'No<span class="govuk-visually-hidden">I do not want to accept analytics cookies</span>'
+                }
+              ]
+            }) }}
+
+            {{ component('button', {
+              text: 'Save cookie settings'
+            }) }}
+
+          </form>
 
         </div>
 

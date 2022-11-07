@@ -73,7 +73,7 @@
 
           success.innerHTML = 'Thank you for your feedback';
 
-          form.reset()
+          form.reset();
 
           // Send form data
           Util.addClass(form, 'js:is-hidden');       // Hide the feedback form
@@ -87,7 +87,6 @@
 
     });
 
-
-  };
+  }
 
 }());
