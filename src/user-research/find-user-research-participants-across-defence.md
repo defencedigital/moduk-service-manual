@@ -84,7 +84,7 @@ You need to include participants who:
 
 The Defence Disability Network (DDN) can help you recruit participants with condition-specific disabilities.
 
-[Go to Defence Disability Network](https://www.gov.uk)
+On a MODNET device, [go to the Defence Disability Network](https://modgovuk.sharepoint.com/sites/DisabilityNetwork)
 
 ### Defence Connect
 
@@ -107,7 +107,7 @@ Army Knowledge Exchange (AKX) is an Army resource for sharing knowledge, lessons
 
 You can use it to recruit research participants from the British Army.
 
-[Go to Army Knowledge Exchange](https://www.army.mod.uk/deployments/army-knowledge-exchange)
+[Go to the Army Knowledge Exchange](https://www.army.mod.uk/deployments/army-knowledge-exchange)
 
 ### Trusted Voices
 
