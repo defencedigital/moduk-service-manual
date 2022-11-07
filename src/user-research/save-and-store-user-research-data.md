@@ -2,7 +2,8 @@
 layout: "layouts/guidance.njk"
 section: "User research"
 title: "Save and store user research data"
-datePublished: 2022-10-17
+description: "Check how to save and anonymise user research data in Defence, including how to name and store files."
+datePublished: 2022-11-07
 eleventyNavigation:
   key: "User research"
   url: "/user-research/"

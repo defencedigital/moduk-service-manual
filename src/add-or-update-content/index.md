@@ -1,7 +1,8 @@
 ---
 layout: "layouts/guidance.njk"
 title: "Add or update content"
-datePublished: 2022-10-17
+description: "You can ask questions about the Defence Service Manual or give feedback and suggestions. Find out how to get in touch."
+datePublished: 2022-11-07
 ---
 
 ## What we publish

@@ -2,7 +2,8 @@
 layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Meet accessibility regulations"
-datePublished: 2022-10-17
+description: "Consider the permanent, temporary and situational accessibility needs across Defence, including in the battlespace."
+datePublished: 2022-11-07
 eleventyNavigation:
   key: "Accessibility"
   url: "/accessibility/"

@@ -2,7 +2,8 @@
 layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Meet accessibility regulations"
-datePublished: 2022-10-17
+description: "Start with accessibility by design, check the regulations and what every person in a delivery team can do to improve accessibility."
+datePublished: 2022-11-07
 eleventyNavigation:
   key: "Accessibility"
   url: "/accessibility/"

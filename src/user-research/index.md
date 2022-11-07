@@ -1,6 +1,7 @@
 ---
 layout: "layouts/landing.njk"
 title: "User research"
+description: "How to do user research with military personnel, find participants across Defence and manage data correctly."
 ---
 
 # User research

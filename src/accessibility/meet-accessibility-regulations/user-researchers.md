@@ -2,7 +2,8 @@
 layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "User Researchers"
-datePublished: 2022-10-17
+description: "How User Researchers help create accessible services in Defence, like including people who use assistive technology in usability testing."
+datePublished: 2022-11-07
 eleventyNavigation:
   parent: "Accessibility"
   parent.url: "/accessibility/"

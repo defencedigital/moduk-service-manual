@@ -1,6 +1,7 @@
 ---
 layout: "layouts/landing.njk"
 title: "Design"
+description: "How to start with simple designs, use existing GOV.UK and Defence styles and design for safety."
 ---
 
 # Design

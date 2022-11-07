@@ -2,7 +2,8 @@
 layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Delivery Managers"
-datePublished: 2022-10-17
+description: "How Delivery Managers help create accessible services in Defence. Plan for accessibility from the start and keep a service accessible."
+datePublished: 2022-11-07
 eleventyNavigation:
   parent: "Accessibility"
   parent.url: "/accessibility/"

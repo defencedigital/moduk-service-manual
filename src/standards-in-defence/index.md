@@ -1,7 +1,8 @@
 ---
 layout: "layouts/landing.njk"
-title: "Standards in Defence"
-datePublished: 2022-10-17
+title: "Standards in Defence - Defence Service Manual"
+decription: "Check the standards you should follow in Defence and why they are important for all digital services and products."
+datePublished: 2022-11-07
 ---
 
 # Standards in Defence
