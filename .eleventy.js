@@ -39,10 +39,10 @@ const markdownItAnchorOptions = {
 
 
 // Replace all markdown links with github pages URL path
-const markdownItReplaceLinkOptions = {
-  html: true,
-  replaceLink: link => link.replace(/^\/.*$/, '/moduk-service-manual' + link)
-}
+// const markdownItReplaceLinkOptions = {
+//   html: true,
+//   replaceLink: link => link.replace(/^\/.*$/, '/moduk-service-manual' + link)
+// }
 
 
 module.exports = function (eleventyConfig) {
@@ -105,11 +105,13 @@ module.exports = function (eleventyConfig) {
 
 
   // Markdown configurations
-  if (isProduction) {
-    eleventyConfig.setLibrary('md', markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions).use(markdownItReplaceLink, markdownItReplaceLinkOptions).use(markdownItAttrs));
-  } else {
-    eleventyConfig.setLibrary('md', markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions).use(markdownItAttrs));
-  }
+  eleventyConfig.setLibrary('md', markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions).use(markdownItAttrs));
+
+  // if (isProduction) {
+  //   eleventyConfig.setLibrary('md', markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions).use(markdownItReplaceLink, markdownItReplaceLinkOptions).use(markdownItAttrs));
+  // } else {
+  //   eleventyConfig.setLibrary('md', markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions).use(markdownItAttrs));
+  // }
 
 
   // Navigation
