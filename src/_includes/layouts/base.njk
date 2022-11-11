@@ -65,6 +65,7 @@
 
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
+    {% if meta.env == 'production' %}
     <form method="POST">
 
       {% set html %}
@@ -146,6 +147,7 @@
       }) }}
 
     </form>
+    {% endif %}
 
     {% include "header.njk" ignore missing %}
     {% include "phase-banner.njk" ignore missing %}
@@ -160,7 +162,11 @@
     <script src="{{ '/assets/scripts/govuk.js' | url }}"></script>
     <script>window.GOVUKFrontend.initAll()</script>
 
+    {% if meta.env == 'production' %}
     <script src="{{ '/assets/scripts/cookie-manager-1.0.0.min.js' | url }}"></script>
+    <script src="{{ '/assets/scripts/cookies.js' | url }}"></script>
+    {% endif %}
+
     <script src="{{ '/assets/scripts/scripts.js' | url }}"></script>
 
     {% block pageScripts %}{% endblock %}

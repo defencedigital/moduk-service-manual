@@ -73,6 +73,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({'./src/assets/scripts/cookie-manager-1.0.0.min.js': 'assets/scripts/cookie-manager-1.0.0.min.js'});
 
 
+  // Copy cookies javascript
+  eleventyConfig.addPassthroughCopy({'./components/cookies/cookies.js': 'assets/scripts/cookies.js'});
+
+
   // Copy MOD.UK assets
   eleventyConfig.addPassthroughCopy({'./src/assets/images': 'assets/images'});
 
