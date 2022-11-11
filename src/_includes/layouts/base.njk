@@ -10,6 +10,10 @@
 
     <title>{% if title %}{{ title }} - {{ meta.serviceName }}{% else %}{{ meta.serviceName }}{% endif %}</title>
 
+    {% if meta.env != 'production' %}
+    <meta name="robots" content="none">
+    {% endif %}
+
     {# Search Engine #}
     <meta name="description" content="{% if description %}{{ description }}{% else %}Helping you meet service standards and do your role in Defence.{% endif %}">
 
@@ -45,16 +49,16 @@
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
 
     {# Google analytics #}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JL5D2EMYS9"></script>
-    
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    {% if meta.env == 'production' %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-JL5D2EMYS9"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      gtag('config', 'G-JL5D2EMYS9');
-    </script>
-
+        gtag('config', 'G-JL5D2EMYS9');
+      </script>
+    {% endif %}
   </head>
 
   <body>
