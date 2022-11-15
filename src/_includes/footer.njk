@@ -1,19 +1,37 @@
+{% if meta.env == 'production' %}
 {{ component('footer', {
-  classes: "govuk-footer--has-feedback",
+  classes: 'govuk-footer--has-feedback',
   meta: {
     items: [
       {
-        href: "/get-in-touch" | url,
-        text: "Get in touch"
+        href: '/get-in-touch' | url,
+        text: 'Get in touch'
       },
       {
-        href: "/cookies" | url,
-        text: "Cookies"
+        href: '/cookies' | url,
+        text: 'Cookies'
       },
       {
-        href: "/site-map" | url,
-        text: "Site map"
+        href: '/site-map' | url,
+        text: 'Site map'
       }
     ]
   }
 }) }}
+{% else %}
+{{ component('footer', {
+  classes: 'govuk-footer--has-feedback',
+  meta: {
+    items: [
+      {
+        href: '/get-in-touch' | url,
+        text: 'Get in touch'
+      },
+      {
+        href: '/site-map' | url,
+        text: 'Site map'
+      }
+    ]
+  }
+}) }}
+{% endif %}

@@ -10,6 +10,10 @@
 
     <title>{% if title %}{{ title }} - {{ meta.serviceName }}{% else %}{{ meta.serviceName }}{% endif %}</title>
 
+    {% if meta.env != 'production' %}
+    <meta name="robots" content="none">
+    {% endif %}
+
     {# Search Engine #}
     <meta name="description" content="{% if description %}{{ description }}{% else %}Helping you meet service standards and do your role in Defence.{% endif %}">
 
@@ -45,22 +49,23 @@
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
 
     {# Google analytics #}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JL5D2EMYS9"></script>
-    
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    {% if meta.env == 'production' %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-JL5D2EMYS9"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      gtag('config', 'G-JL5D2EMYS9');
-    </script>
-
+        gtag('config', 'G-JL5D2EMYS9');
+      </script>
+    {% endif %}
   </head>
 
   <body>
 
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
+    {% if meta.env == 'production' %}
     <form method="POST">
 
       {% set html %}
@@ -142,6 +147,7 @@
       }) }}
 
     </form>
+    {% endif %}
 
     {% include "header.njk" ignore missing %}
     {% include "phase-banner.njk" ignore missing %}
@@ -156,7 +162,11 @@
     <script src="{{ '/assets/scripts/govuk.js' | url }}"></script>
     <script>window.GOVUKFrontend.initAll()</script>
 
+    {% if meta.env == 'production' %}
     <script src="{{ '/assets/scripts/cookie-manager-1.0.0.min.js' | url }}"></script>
+    <script src="{{ '/assets/scripts/cookies.js' | url }}"></script>
+    {% endif %}
+
     <script src="{{ '/assets/scripts/scripts.js' | url }}"></script>
 
     {% block pageScripts %}{% endblock %}
