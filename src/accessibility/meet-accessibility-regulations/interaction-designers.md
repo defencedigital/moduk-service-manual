@@ -43,13 +43,33 @@ Work with a Content Designer to create labels and any hint text needed. You can 
 
 ## Add visually hidden text
 
-People who use assistive technologies may need more content to describe something on screen, for example a photo or a graph. This additional description is known as ‘alternative text’ or ‘alt text’. It does not appear on the screen for all users.
+People who use assistive technologies sometimes need additional text to complete a task. The text does not appear on the screen for everyone, it is visually hidden.
 
-For example, ‘Change’ doesn’t work out of context. Screen readers need to know what it is that users are changing. In HTML code, this is how you add the alt text:
+For example when checking your details, there can be several ‘Change’ links. Screen readers need to tell assisted digital users what they are changing. 
 
-[Add code example here]
+### Example visually hidden text 
+The GOV.UK pattern for summary lists includes descriptions for what users are changing.
 
-Work with a Content Designer to create alt text. Find tips on writing alt text in [Content Designers and accessibility](/accessibility/meet-accessibility-regulations/content-designers/) and the [GOV.UK guidance on images](https://design-system.service.gov.uk/styles/images/).
+    <a class="govuk-link" href="#">
+      Change<span class="govuk-visually-hidden"> name</span>
+    </a>
+ 
+If you can, work with a Content Designer to create visually hidden text. Find more advice in [Content Designers and accessibility](/accessibility/meet-accessibility-regulations/content-designers/). 
+
+## Images and icons 
+
+Do not add unnecessary images or visual design. Before adding any images, work with a User Researcher and a Content Designer to check if users need them.
+
+If your users need an image or an icon to help them understand something, add a description for screen readers. This is known as 'alternative text' or 'alt text'. 
+
+### Example alt text 
+
+When the Ministry of Defence logo appears on screen, use this alt text:
+ 
+    <img src="ministry-of-defence.svg" alt="Ministry of Defence logo">
+ 
+If you can, work with a Content Designer to create alt text. Find more advice in the [GOV.UK guidance on images](https://design-system.service.gov.uk/styles/images/).
+
 
 ## Only use images that users need
 
@@ -61,7 +81,7 @@ Before using columns, consider the impact on accessibility.
 
 If users need a sidebar, check how it works for people who are blind or use a screen magnifier. You also need to check how a sidebar appears on mobile devices.
 
-## Useful links
+## Related content
 
 - [Design for different browsers and devices](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices/)
 - [Blogs about accessibility and design](https://www.craigabbott.co.uk/blog/)

@@ -90,7 +90,7 @@ Work with a Frontend Developer and a QA Tester to work out what error messages y
 
 Before you write a new error message, check the [GOV.UK error message templates](https://design-system.service.gov.uk/components/error-message/#use-error-message-templates).
 
-## Useful links
+## Related content
 
 - [Designing accessible content](https://www.gov.uk/guidance/guidance-and-tools-for-digital-accessibility#designing-accessible-content)
 - [Writing content for everyone in your audience](https://gds.blog.gov.uk/2016/02/23/writing-content-for-everyone/)
