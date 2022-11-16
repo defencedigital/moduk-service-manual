@@ -50,9 +50,9 @@ For example when checking your details, there can be several ‘Change’ links.
 ### Example visually hidden text 
 The GOV.UK pattern for summary lists includes descriptions for what users are changing.
 
-```<a class="govuk-link" href="#">
-        Change<span class="govuk-visually-hidden"> name</span>
-      </a>``` 
+    <a class="govuk-link" href="#">
+      Change<span class="govuk-visually-hidden"> name</span>
+    </a>
  
 If you can, work with a Content Designer to create visually hidden text. Find more advice in [Content Designers and accessibility](/accessibility/meet-accessibility-regulations/content-designers/). 
 
@@ -66,7 +66,7 @@ If your users need an image or an icon to help them understand something, add a 
 
 When the Ministry of Defence logo appears on screen, use this alt text:
  
-<img src="ministry-of-defence.svg" alt="Ministry of Defence logo">
+    <img src="ministry-of-defence.svg" alt="Ministry of Defence logo">
  
 If you can, work with a Content Designer to create alt text. Find more advice in the [GOV.UK guidance on images](https://design-system.service.gov.uk/styles/images/).
 
