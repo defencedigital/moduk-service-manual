@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Interaction Designers"
 description: "How Interaction Designers help create accessible services in Defence. Use existing patterns, things to add and things to avoid."
-datePublished: 2022-11-07
+dateUpdated: 2022-11-15
 eleventyNavigation:
   parent: "Accessibility"
   parent.url: "/accessibility/"
@@ -43,16 +43,16 @@ Work with a Content Designer to create labels and any hint text needed. You can 
 
 ## Add visually hidden text
 
-People who use assistive technologies sometimes need additional text to complete a task. The text does not appear on the screen for everyone, it is visually hidden.
+People who use assistive technologies sometimes need additional text to complete a task. The text does not appear on the screen as it is visually hidden.
 
-For example when checking your details, there can be several ‘Change’ links. Screen readers need to tell assisted digital users what they are changing. 
+For example, when checking your details there can be several ‘Change’ links. Screen readers need to tell assisted digital users what they are changing. 
 
 ### Example visually hidden text 
 The GOV.UK pattern for summary lists includes descriptions for what users are changing.
 
-```<a class="govuk-link" href="#">
+<a class="govuk-link" href="#">
         Change<span class="govuk-visually-hidden"> name</span>
-      </a>``` 
+      </a>
  
 If you can, work with a Content Designer to create visually hidden text. Find more advice in [Content Designers and accessibility](/accessibility/meet-accessibility-regulations/content-designers/). 
 
@@ -73,7 +73,7 @@ If you can, work with a Content Designer to create alt text. Find more advice in
 
 ## Only use images that users need
 
-Government digital services need to be simple. Do not add unnecessary images or visual design. Before adding icons and images, work with a User Researcher and a Content Designer to check if users need them.
+Government services need to be simple. Do not add unnecessary images or visual design. Before adding icons and images, work with a User Researcher and a Content Designer to check if users need them.
 
 ## Be careful with columns
 
