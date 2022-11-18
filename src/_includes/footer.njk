@@ -1,4 +1,4 @@
-{% if meta.env == 'production' %}
+{% if (meta.env == 'production') or (meta.env == 'prototype') %}
 {{ component('footer', {
   classes: 'govuk-footer--has-feedback',
   meta: {
