@@ -49,23 +49,29 @@
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
 
     {# Google analytics #}
-    {% if meta.env == 'production' %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-JL5D2EMYS9"></script>
+    {% if (meta.env == 'production') or (meta.env == 'prototype') %}
+    
+      {% set googleID = ('G-JL5D2EMYS9' if meta.env === 'production' else 'G-YKV7VC7VZN') %}
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ googleID }}"></script>
+
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-JL5D2EMYS9');
+        gtag('config', {{ googleID }});
       </script>
+
     {% endif %}
+    
   </head>
 
   <body>
 
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
-    {% if meta.env == 'production' %}
+    {% if (meta.env == 'production') or (meta.env == 'prototype') %}
     <form method="POST">
 
       {% set html %}
@@ -162,7 +168,7 @@
     <script src="{{ '/assets/scripts/govuk.js' | url }}"></script>
     <script>window.GOVUKFrontend.initAll()</script>
 
-    {% if meta.env == 'production' %}
+    {% if (meta.env == 'production') or (meta.env == 'prototype') %}
     <script src="{{ '/assets/scripts/cookie-manager-1.0.0.min.js' | url }}"></script>
     <script src="{{ '/assets/scripts/cookies.js' | url }}"></script>
     {% endif %}

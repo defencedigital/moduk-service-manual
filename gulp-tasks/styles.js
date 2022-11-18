@@ -12,7 +12,7 @@ const autoprefixer  = require('autoprefixer');
 
 
 // Flags whether we compress the output etc
-const isProduction = process.env.ELEVENTY_ENV === 'production';
+const isProduction = process.env.ELEVENTY_ENV !== 'development';
 
 
 // Source sass files

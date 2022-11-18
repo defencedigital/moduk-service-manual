@@ -10,7 +10,7 @@ const uglify = require('gulp-uglify');
 
 
 // Flags whether we compress the output etc
-const isProduction = process.env.ELEVENTY_ENV === 'production';
+const isProduction = process.env.ELEVENTY_ENV !== 'development';
 
 
 // Source script files
