@@ -1,4 +1,10 @@
-{% set tag = 'Beta' if meta.env == 'production' else 'Prototype' %}
+{% if meta.env == 'production' %}
+  {% set tag = 'Beta' %}
+{% elif meta.env == 'prototype' %}
+  {% set tag = 'Prototype' %}
+{% else %}
+  {% set tag = 'Development' %}
+{% endif %}
 
 <div class="govuk-width-container">
   {{ component('phase-banner', {
