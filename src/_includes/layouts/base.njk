@@ -48,10 +48,11 @@
     {# Stylesheet #}
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
 
-    {# Google analytics #}
+    {# Google analytics and Microsoft Clarity #}
     {% if (meta.env == 'production') or (meta.env == 'prototype') %}
     
       {% set googleID = ('G-JL5D2EMYS9' if meta.env === 'production' else 'G-YKV7VC7VZN') %}
+      {% set clarityID = 'ejv7sdqsc4' %}
 
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ googleID }}"></script>
 
@@ -61,6 +62,14 @@
         gtag('js', new Date());
 
         gtag('config', '{{ googleID }}');
+      </script>
+
+      <script>
+        (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, 'clarity', 'script', '{{ clarityID }}');
       </script>
 
     {% endif %}
