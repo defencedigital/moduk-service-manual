@@ -38,7 +38,7 @@ When you suggest content for the manual, make sure you tell us:
   html: 'Currently, we only publish content that is classified OFFICIAL.Check <a href="../security/security-classifications/">how to classify information</a>.'
 }) }}
 
-You can suggest content at any time, [get in touch](/send-your-feedback/).
+You can suggest content at any time, [get in touch](/get-in-touch/).
 
 We will let you know if the content fits in the manual or suggest another place to publish it. If your content fits in the manual, we will review it and share our edits for your approval.
 
@@ -52,7 +52,7 @@ The manual needs to include the latest guidance. If you spot something that need
 
 You can copy the existing content into a Word or Google document and make the updates. Or, you can let us know about the change and we can write the new content with you.
 
-You can ask for updates at any time, [get in touch](/send-your-feedback/).
+You can ask for updates at any time, [get in touch](/get-in-touch/).
 
 ## Writing for the manual
 
