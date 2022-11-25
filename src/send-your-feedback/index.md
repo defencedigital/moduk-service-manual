@@ -6,7 +6,7 @@ description: "Anyone working in Defence can suggest content for the Defence Serv
 
 # Send your feedback
 
-You can send questions and suggestions to the Defence Service Manual team. {.govuk-body-l}
+Your feedback helps us improve the Defence Service Manual. {.govuk-body-l}
 
 ## Slack
 
