@@ -1,12 +1,12 @@
 ---
 layout: "layouts/landing.njk"
-title: "Get in touch"
+title: "Send your feedback"
 description: "Anyone working in Defence can suggest content for the Defence Service Manual. Find out how to add or update content."
 ---
 
-# Get in touch
+# Send your feedback
 
-If you have a question or suggestion, contact the Defence Service Manual team. {.govuk-body-l}
+You can send questions and suggestions to the Defence Service Manual team. {.govuk-body-l}
 
 ## Slack
 
