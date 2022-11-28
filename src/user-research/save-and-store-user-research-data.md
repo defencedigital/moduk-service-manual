@@ -121,3 +121,45 @@ To make sure individuals cannot be identified, you need to:
 }) }}
 
 Check the [how to protect participants’ data and identities](/user-research/share-user-research-findings-correctly/).
+
+## Deleting data in 2 years
+
+{{ component('warning-text', {
+  text: "To meet the General Data Protection Regulation (GDPR), we must delete all user research data 2 years after it is collected.",
+  iconFallbackText: "Warning"
+}) }}
+
+It is likely that someone else will need to delete your user research data. 
+
+### Send a calendar invitation
+
+You need to send a calendar invitation to your head of user research. For Foundry services, send the invitation to [research@mod.gov.uk](mailto:research@mod.gov.uk?subject=Delete%20user%20research%20data%20).
+
+{{ modukcomponent('steps', {
+  'items': [
+    {
+      'item': 'Select a date that is 2 years after the date you collected the data.'
+    },
+    {
+      'item': 'Write a clear subject line, for example: Delete user research data.'
+    },
+    {
+      'item': 'Include links to all of the files that need to be deleted, including videos, transcripts and consent forms.'
+    },
+    {
+      'item': 'Make sure the person receiving the email can access the files.'
+    },
+    {
+      'item': 'On your master document, add the deletion date and who the email was sent to. '
+    }
+  ]
+}) }}
+
+
+
+ 
+
+
+
+
+
