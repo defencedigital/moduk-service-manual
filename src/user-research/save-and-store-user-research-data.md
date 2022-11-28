@@ -39,19 +39,19 @@ As soon as possible after collecting user research data, you need to:
 {{ modukcomponent('steps', {
   'items': [
     {
-      'item': 'Download all of the relevant files, including notes, videos and transcripts'
+      'item': 'Download all of the relevant files, including notes, videos and transcripts.'
     },
     {
-      'item': 'Save files in a secure folder that only the necessary people in your team can access'
+      'item': 'Save files in a secure folder that only the necessary people in your team can access.'
     },
     {
-      'item': 'Remove any personal or sensitive data'
+      'item': 'Remove any personal or sensitive data.'
     },
     {
-      'item': 'Follow the format for naming user research files in Defence'
+      'item': 'Follow the format for naming user research files in Defence.'
     },
     {
-      'item': 'Delete all files from your local devices'
+      'item': 'Delete all files from your local devices.'
     }
   ]
 }) }}
@@ -83,13 +83,13 @@ If you make handwritten notes, you need to:
 {{ modukcomponent('steps', {
   'items': [
     {
-      'item': 'Convert them to digital files as soon as possible'
+      'item': 'Convert them to digital files as soon as possible.'
     },
     {
-      'item': 'Delete any images of them taken on a phone or other devices'
+      'item': 'Delete any images of them taken on a phone or other devices.'
     },
     {
-      'item': 'Destroy your notes in a secure way'
+      'item': 'Destroy your notes in a secure way.'
     }
   ]
 }) }}
@@ -121,3 +121,44 @@ To make sure individuals cannot be identified, you need to:
 }) }}
 
 Check the [how to protect participants’ data and identities](/user-research/share-user-research-findings-correctly/).
+
+## Delete user research data
+
+To meet the General Data Protection Regulation (GDPR), you must delete all user research data when you no longer need it or after 2 years.
+
+User research data includes things like videos, transcripts and consent forms.
+
+### What you need to do
+
+When you collect user research data, make it clear when it has to be deleted. 
+
+You need to:
+
+{{ modukcomponent('steps', {
+  'items': [
+    {
+      'item': 'Save user research data with the date it was collected. Check <a href="/user-research/save-and-store-user-research-data#naming-user-research-files-in-defence">how to name user research files in Defence</a>.' 
+    },
+    {
+      'item': 'In your master document, add a deletion date. This must be no longer than 2 years after you collected the data.'
+    },
+    {
+      'item': 'Regularly check your master document and delete data.'
+    }
+  ]
+}) }}
+
+### If you leave a project
+
+Before you leave a project, tell people in your team:
+
+- that they need to delete user research data
+- how to access the master document and the user research data
+
+
+### When a project ends
+
+Consider deleting all of the user research data or contact your user research community for advice. 
+
+
+
