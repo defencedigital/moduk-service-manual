@@ -122,7 +122,7 @@ To make sure individuals cannot be identified, you need to:
 
 Check the [how to protect participants’ data and identities](/user-research/share-user-research-findings-correctly/).
 
-## Delete user research data
+<!-- ## Delete user research data
 
 To meet the General Data Protection Regulation (GDPR), you must delete all user research data when you no longer need it or after 2 years.
 
@@ -158,8 +158,4 @@ Before you leave a project, tell people in your team:
 
 ### When a project ends
 
-Consider deleting all of the user research data or contact your user research community for advice. 
-
-
-
-
+Consider deleting all of the user research data or contact your user research community for advice.  -->
