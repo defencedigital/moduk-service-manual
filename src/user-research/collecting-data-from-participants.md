@@ -116,7 +116,7 @@ Some personal data is not considered sensitive when captured on their own. These
 - rank or grade
 - full-time or part-time working status
 
-For more information, [check the MOD disclosure and confidentiality policy](https://www.gov.uk/government/publications/defence-statistics-policies/ministry-of-defence-disclosure-and-confidentiality-policy-identifiable-survey-data#fn:2).
+For more information, [check the MOD disclosure and confidentiality policy](https://www.gov.uk/government/publications/defence-statistics-policies/ministry-of-defence-disclosure-and-confidentiality-policy-identifiable-survey-data).
 
 #### Protected characteristics
 
