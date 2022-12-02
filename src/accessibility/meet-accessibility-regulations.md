@@ -11,15 +11,15 @@ eleventyNavigation:
 
 ## Accessibility by design 
 
-Plan for accessibility as soon as you start designing a digital service or product. 
+Creating accessible digital services is important for all users, not just people with physical disabilities or cognitive impairments.
 
-Accessibility is important for all users, not just people with physical disabilities or cognitive impairments. Anyone using your service can find themselves dealing with a stressful situation, tiredness or illness.
+Anyone using your service can find themselves dealing with a stressful situation, tiredness or illness.
 
-A service that is easy to use and understand is better for everyone.
+When you start designing a digital service or product, you need to plan for accessibility.
 
 ## Check the regulations
 
-In the UK, all government digital services and products must:
+In the UK, every government digital service for citizens or internal users must:
 
 - meet level AA of the [Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21/) as a minimum
 - work on the most commonly used assistive technologies, including screen magnifiers, screen readers and speech recognition tools
