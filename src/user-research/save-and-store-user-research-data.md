@@ -120,13 +120,21 @@ To make sure individuals cannot be identified, you need to:
   ]
 }) }}
 
-Check the [how to protect participants’ data and identities](/user-research/share-user-research-findings-correctly/).
+Check [how to protect sensitive data](/user-research/collecting-data-from-participants/#:~:text=doing%20usability%20testing.-,Protect%20sensitive%20data,-Do%20not%20reveal).
 
 ## Delete user research data
 
 To meet the General Data Protection Regulation (GDPR), you must delete all user research data when you no longer need it or after 2 years.
 
-User research data includes things like videos, transcripts and consent forms.
+User research data includes:
+
+- videos and transcripts
+- consent forms
+- anything with personally identifiable data
+
+{{ component('inset-text', {
+  text: 'Do not delete anonymised user research reports or findings.'
+}) }}
 
 ### What you need to do
 
