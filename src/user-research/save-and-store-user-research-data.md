@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "User research"
 title: "Save and store user research data"
 description: "Check how to save and anonymise user research data in Defence, including how to name and store files."
-datePublished: 2022-11-07
+dateUpdated: 2022-12-06
 eleventyNavigation:
   key: "User research"
   url: "/user-research/"
@@ -120,13 +120,21 @@ To make sure individuals cannot be identified, you need to:
   ]
 }) }}
 
-Check the [how to protect participants’ data and identities](/user-research/share-user-research-findings-correctly/).
+Check [how to protect sensitive data](/user-research/share-user-research-findings-correctly/).
 
-<!-- ## Delete user research data
+## Delete user research data
 
 To meet the General Data Protection Regulation (GDPR), you must delete all user research data when you no longer need it or after 2 years.
 
-User research data includes things like videos, transcripts and consent forms.
+User research data includes:
+
+- videos and transcripts
+- consent forms
+- anything with personally identifiable data
+
+{{ component('inset-text', {
+  text: 'Do not delete anonymised user research reports or findings.'
+}) }}
 
 ### What you need to do
 
@@ -158,4 +166,4 @@ Before you leave a project, tell people in your team:
 
 ### When a project ends
 
-Consider deleting all of the user research data or contact your user research community for advice.  -->
+Consider deleting all of the user research data or contact your user research community for advice.
