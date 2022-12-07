@@ -81,6 +81,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({'./src/assets/images': 'assets/images'});
 
 
+  // Copy downloads folder
+  eleventyConfig.addPassthroughCopy({'./src/downloads': 'downloads'});
+
+
   // Table of contents
   eleventyConfig.addPlugin(eleventyPluginTOC, {
     tags: ['h2'],
