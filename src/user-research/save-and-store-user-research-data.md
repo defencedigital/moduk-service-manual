@@ -163,7 +163,6 @@ Before you leave a project, tell people in your team:
 - that they need to delete user research data
 - how to access the master document and the user research data
 
-
 ### When a project ends
 
 Consider deleting all of the user research data or contact your user research community for advice.
