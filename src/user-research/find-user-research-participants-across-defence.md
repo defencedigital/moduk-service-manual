@@ -118,4 +118,6 @@ You can use Trusted Voices to:
 - start a discussion on a sensitive topic
 - create a questionnaire
 
-[Go to Trusted Voices](https://www.army.mod.uk)
+You will need to sign in or create an account. 
+
+[Go to Trusted Voices](https://trustedvoices.explainonline.co.uk/login/). 
