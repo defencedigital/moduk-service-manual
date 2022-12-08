@@ -4,6 +4,7 @@ section: "User research"
 title: "Collecting data from participants"
 description: "Check you are meeting the General Data Protection Regulation (GDPR). Get informed consent and protect participants’ sensitive data."
 datePublished: 2022-11-07
+dateUpdated: 2022-12-08
 eleventyNavigation:
   key: "User research"
   url: "/user-research/"
@@ -53,9 +54,9 @@ You must then ask the participant if they:
 - are happy to be contacted again for further research
 - have any questions about the session
 
-<!-- #### Get participants to complete a consent form -->
+#### Get participants to complete a consent form
 
-<!-- Before you start, you must get participants to sign an [MOD consent form](/downloads/MOD-consent-form-for-OFFICIAL-user-research-template.docx). You need to add details about your research. -->
+Before you start, you must get participants to sign an [MOD consent form](/downloads/MOD-consent-form-for-OFFICIAL-user-research-template.docx). You need to add details about your research.
 
 #### Share an understanding your participation sheet
 
@@ -67,7 +68,7 @@ Your information sheet should include:
 - the classification of the research and what this means, especially if SECRET or above
 - how the user can withdraw from the current or future research
 
-<!-- You can use this example of an [understanding your participation sheet](/downloads/). -->
+You can use this example of an [understanding your participation sheet](/downloads/MOD-understanding-your-participation-template.docx).
 
 ## Only collect data that you need
 
