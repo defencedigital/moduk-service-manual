@@ -24,7 +24,7 @@ Find your way around this website.
   - [Security classifications](/security/security-classifications/)
   - [How to label information](/security/how-to-label-information/)
 - [Accessibility](/accessibility/)
-  - [Understaningd Defence environments](/accessibility/understanding-defence-environments/)
+  - [Understaning Defence environments](/accessibility/understanding-defence-environments/)
   - [Meet accessibility regulations](/accessibility/meet-accessibility-regulations/)
     - [Content Designers](/accessibility/meet-accessibility-regulations/content-designers/)
     - [Delivery Managers](/accessibility/meet-accessibility-regulations/delivery-managers/)
