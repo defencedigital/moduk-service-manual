@@ -11,12 +11,7 @@
         prompt    = feedback[0].getElementsByClassName('js-feedback-prompt')[0],
         questions = feedback[0].getElementsByClassName('js-feedback-question')[0],
         success   = feedback[0].getElementsByClassName('js-feedback-success')[0],
-        
-        guidance  = document.getElementById('guidance'),
-        emmail    = document.getElementById('email');
-
-
-    var firstElement = guidance;
+        guidance  = document.getElementById('guidance');
 
 
     // Detect click on yes trigger
@@ -38,7 +33,7 @@
       Util.removeClass(form, 'js:is-hidden'); // Show the feedback form
       Util.addClass(prompt, 'js:is-hidden'); // Hide the feedback prompt
 
-      firstElement.focus(); // Focus
+      guidance.focus(); // Focus
 
     });
 
@@ -52,6 +47,8 @@
       Util.addClass(form, 'js:is-hidden'); // Hide the feedback form
       Util.removeClass(prompt, 'js:is-hidden'); // Show the feedback prompt
       Util.removeClass(questions, 'js:is-hidden'); // Show the question
+
+      no.focus(); // Focus
 
     });
 

@@ -13,6 +13,11 @@ Title: Overrides
 }
 
 
+.govuk-footer--has-feedback {
+  border-top: 10px solid $govuk-brand-colour;
+}
+
+
 .govuk-footer__meta {
   justify-content: flex-start;
 }

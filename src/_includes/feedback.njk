@@ -1,19 +1,23 @@
-<div class="moduk-feedback js-feedback govuk-!-display-none-print">
+<div class="govuk-width-container">
 
-  <div class="moduk-feedback__prompt js-feedback-prompt no-js:is-hidden">
+  <div class="moduk-feedback js-feedback govuk-!-display-none-print">
 
-    <div class="govuk-width-container">
+    <div class="moduk-feedback__prompt js-feedback-prompt no-js:is-hidden">
 
-      <div class="moduk-feedback__prompt">
+      <div class="moduk-feedback__prompt-content">
 
         <div class="moduk-feedback__prompt-questions js-feedback-question">
 
-          <h2 class="moduk-feedback__prompt-question">Did you find what you were looking for?</h2>
+          <div class="moduk-feedback__prompt-question-answer">
 
-          <ul class="moduk-feedback__option-list">
-            <li class="moduk-feedback__option-list-item"><button class="govuk-button moduk-feedback__prompt-link js-feedback-yes">Yes <span class="govuk-visually-hidden">this page has what I am looking for</span></button></li>
-            <li class="moduk-feedback__option-list-item"><button class="govuk-button moduk-feedback__prompt-link js-feedback-no" aria-controls="did-not-find" aria-expanded="false">No <span class="govuk-visually-hidden">this page does not have what I am looking for</span></button></li>
-          </ul>
+            <h2 class="moduk-feedback__prompt-question">Did you find what you were looking for?</h2>
+
+            <ul class="moduk-feedback__option-list">
+              <li class="moduk-feedback__option-list-item"><button class="govuk-button moduk-feedback__prompt-link js-feedback-yes">Yes <span class="govuk-visually-hidden">this page is useful</span></button></li>
+              <li class="moduk-feedback__option-list-item"><button class="govuk-button moduk-feedback__prompt-link js-feedback-no" aria-controls="moduk-feedback__no" aria-expanded="false">No <span class="govuk-visually-hidden">this page is not useful</span></button></li>
+            </ul>
+
+          </div>
 
         </div>
 
@@ -23,61 +27,65 @@
 
     </div>
 
-  </div>
+    <form class="moduk-feedback__form js-feedback-form js:is-hidden" id="moduk-feedback__no" method="POST" action="https://formspree.io/f/meqdpdjn">
 
-  <form class="moduk-feedback__form js-feedback-form js:is-hidden" id="feedback-form" method="POST" action="https://formspree.io/f/meqdpdjn" id="did-not-find">
+      <div class="govuk-width-container">
 
-    <div class="govuk-width-container">
+        <div class="govuk-grid-row">
 
-      {{ component('button', {
-        classes: 'govuk-button--secondary moduk-feedback__close js-feedback-close no-js:is-hidden',
-        text: 'Close',
-        type: 'button'
-      }) }}
+          <div class="govuk-grid-column-two-thirds">
 
-      <div class="govuk-grid-row">
+            <h2 class="govuk-heading-m">Help improve the Defence Service Manual</h2>
 
-        <div class="govuk-grid-column-two-thirds">
+            {{ component('textarea', {
+              id: 'guidance',
+              name: 'Guidance',
+              rows: 3,
+              label: {
+                text: 'What guidance were you looking for?'
+              },
+              hint: {
+                text: 'Include details, questions and suggestions.'
+              },
+              spellcheck: true
+            }) }}
 
-          <h2 class="govuk-heading-m">Help improve the Defence Service Manual</h2>
+            {{ component('input', {
+              label: {
+                text: 'Email address (optional)'
+              },
+              type: 'email',
+              hint: {
+                text: 'We will only contact you to discuss your feedback.'
+              },
+              id: 'email',
+              name: 'Email'
+            }) }}
 
-          {{ component('textarea', {
-            id: 'guidance',
-            name: 'Guidance',
-            rows: 3,
-            label: {
-              text: 'What guidance were you looking for?'
-            },
-            hint: {
-              text: 'Include details, questions and suggestions.'
-            },
-            spellcheck: true
-          }) }}
+            <div class="govuk-button-group">
 
-          {{ component('input', {
-            label: {
-              text: 'Email address (optional)'
-            },
-            type: 'email',
-            hint: {
-              text: 'We will only contact you to discuss your feedback.'
-            },
-            id: 'email',
-            name: 'Email'
-          }) }}
+              {{ component('button', {
+                classes: 'govuk-!-margin-bottom-0',
+                text: 'Send feedback',
+                type: 'submit'
+              }) }}
 
-          {{ component('button', {
-            classes: 'govuk-!-margin-bottom-0',
-            text: 'Send feedback',
-            type: 'submit'
-          }) }}
+              {{ component('button', {
+                classes: 'govuk-button--secondary govuk-!-margin-bottom-0 moduk-feedback__close js-feedback-close no-js:is-hidden',
+                text: 'Cancel',
+                type: 'button'
+              }) }}
+
+            </div>
+
+          </div>
 
         </div>
 
       </div>
 
-    </div>
+    </form>
 
-  </form>
+  </div>
 
 </div>
