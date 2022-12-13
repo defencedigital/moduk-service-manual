@@ -49,7 +49,7 @@ var config = {
   cookieManifest: [
     {
       categoryName: 'analytics',
-      optional: false,
+      optional: true,
       cookies: [
         '_ga',
         '_gid'
@@ -57,7 +57,7 @@ var config = {
     },
     {
       categoryName: 'clarity',
-      optional: false,
+      optional: true,
       cookies: [
         'MUID',
         'CLID',
