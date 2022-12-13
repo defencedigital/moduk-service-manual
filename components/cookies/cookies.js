@@ -53,11 +53,7 @@ var config = {
       cookies: [
         'analytics',
         '_ga',
-        '_gid',
-        'MUID',
-        'CLID',
-        '_clck',
-        '_clsk'
+        '_gid'
       ]
     }
   ] ,
