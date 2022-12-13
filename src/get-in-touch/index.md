@@ -10,7 +10,7 @@ If you have a question or suggestion, contact the Defence Service Manual team. {
 
 ## Slack
 
-If you are on MODNET or have a digital MOD email address, you can [message the team on Defence Digital Slack](https://defencedigital.slack.com/archives/C03L6486PBN/).
+Use Slack to ask quick questions about the Defence Service Manual. If you are on MODNET or have a digital MOD email address, you can [message the team on Defence Digital Slack](https://defencedigital.slack.com/archives/C03L6486PBN/).
 
 On a MODNET device, you can use Slack in your web browser.
 
