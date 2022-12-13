@@ -53,15 +53,7 @@ var config = {
       cookies: [
         'analytics',
         '_ga',
-        '_gid'
-      ]
-    },
-    {
-      categoryName: 'ms-clarity',
-      optional: true,
-      cookies: [
-        'CLID',
-        'MUID',
+        '_gid',
         '_clsk',
         '_clck'
       ]

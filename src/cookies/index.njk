@@ -207,30 +207,6 @@
               ]
             }) }}
 
-            {{ component('radios', {
-              idPrefix: 'ms-clarity',
-              name: 'ms-clarity',
-              fieldset: {
-                legend: {
-                  classes: 'govuk-fieldset__legend--s',
-                  text: 'Do you want to accept MS Clarity cookies?'
-                }
-              },
-              items: [
-                {
-                  value: 'on',
-                  html: 'Yes<span class="govuk-visually-hidden">I want to accept ms clarity cookies</span>',
-                  id: 'ms-clarity-on',
-                  checked: true
-                },
-                {
-                  value: 'off',
-                  id: 'ms-clarity-off',
-                  html: 'No<span class="govuk-visually-hidden">I do not want to accept ms clarity cookies</span>'
-                }
-              ]
-            }) }}
-
             {{ component('button', {
               classes: 'govuk-!-margin-bottom-0',
               text: 'Save cookie settings'
