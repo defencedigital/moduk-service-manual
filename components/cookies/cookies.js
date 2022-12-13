@@ -51,7 +51,12 @@ var config = {
       categoryName: 'analytics',
       optional: true,
       cookies: [
-        'analytics'
+        '_ga',
+        '_gid',
+        '_clck',
+        '_clsk',
+        'CLID',
+        'MUID'
       ]
     }
   ] ,
