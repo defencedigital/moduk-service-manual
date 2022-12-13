@@ -51,14 +51,9 @@ var config = {
       categoryName: 'analytics',
       optional: true,
       cookies: [
+        'analytics',
         '_ga',
-        '_gid'
-      ]
-    },
-    {
-      categoryName: 'clarity',
-      optional: true,
-      cookies: [
+        '_gid',
         'MUID',
         'CLID',
         '_clck',
