@@ -55,6 +55,16 @@ var config = {
         '_ga',
         '_gid'
       ]
+    },
+    {
+      categoryName: 'ms-clarity',
+      optional: true,
+      cookies: [
+        'CLID',
+        'MUID',
+        '_clsk',
+        '_clck'
+      ]
     }
   ] ,
   additionalOptions: {
