@@ -50,7 +50,7 @@ As part of your existing feedback processes, make sure users can report any conc
 To send feedback, Defence users might need:
 
 - permission from their commanding officer
-- a process that works in thier environment
+- a process that works in their environment
 
 ### Prioritise feedback based on risk
 
