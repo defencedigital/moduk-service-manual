@@ -13,16 +13,16 @@ function gtag() {
 
 
 // MS Clarity
-function ctag() {
-  dataLayer.push(arguments);
-}
+// function ctag() {
+//   dataLayer.push(arguments);
+// }
 
 
 // Send analytics
 function sendAnalytics() {
   gtag('js', new Date());
   gtag('config', 'UA-213496264-3');
-  ctag('clarity', 'script', 'ejv7sdqsc4');
+  // ctag('clarity', 'script', 'ejv7sdqsc4');
 }
 
 
