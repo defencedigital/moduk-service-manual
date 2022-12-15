@@ -5,14 +5,26 @@ const getCookieValue = (name) => (
   document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)')?.pop() || ''
 )
 
+
+// Google Analytics
 function gtag() {
   dataLayer.push(arguments);
 }
 
+
+// MS Clarity
+function ctag() {
+  dataLayer.push(arguments);
+}
+
+
+// Send analytics
 function sendAnalytics() {
   gtag('js', new Date());
   gtag('config', 'UA-213496264-3');
+  ctag('clarity', 'script', 'ejv7sdqsc4');
 }
+
 
 // Cookie manager
 var config = {
