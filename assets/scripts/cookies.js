@@ -1,18 +1,32 @@
-// Cookie analytics
 window.dataLayer = window.dataLayer || [];
-    
+
+
 const getCookieValue = (name) => (
   document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)')?.pop() || ''
 )
 
+
+// Google Analytics
 function gtag() {
   dataLayer.push(arguments);
 }
 
+
+// MS Clarity
+function ctag(c,l,a,r,i,t,y) {
+  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+}
+
+
+// Send analytics
 function sendAnalytics() {
   gtag('js', new Date());
   gtag('config', 'UA-213496264-3');
+  ctag(window, document, 'clarity', 'script', cID);
 }
+
 
 // Cookie manager
 var config = {
@@ -51,7 +65,11 @@ var config = {
       categoryName: 'analytics',
       optional: true,
       cookies: [
-        'analytics'
+        'analytics',
+        '_ga',
+        '_gid',
+        '_clsk',
+        '_clck'
       ]
     }
   ] ,
@@ -99,10 +117,10 @@ try {
   if (result == true) {
     sendAnalytics()
   }
-  
+
 } catch (err) {
 
   // SyntaxError: Unexpected end of JSON input
-  console.log('error', err);
+  // console.log('error', err);
 
 }
