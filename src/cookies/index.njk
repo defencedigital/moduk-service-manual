@@ -80,15 +80,13 @@
 
           <h2>Analytics cookies (optional)</h2>
 
-          <p>With your permission, we use Google Analytics to collect data about how you use the Defence Service Manual. This information helps us to improve our service.</p>
+          <p>With your permission, we use Google Analytics and MS Clarity to collect data about how you use the Defence Service Manual. This information helps us to improve our service.</p>
 
-          <p>Google is not allowed to use or share our analytics data with anyone.</p>
-
-          <p>Google Analytics stores anonymised information about:</p>
+          <p>Google Analytics and MS Clarity are not allowed to use or share our analytics data with anyone. They store anonymised information and screen recordings on:</p>
 
           <ul>
-            <li>how you got to the Defence Service Manual</li>
             <li>the pages you visit on the Defence Service Manual and how long you spend on them</li>
+            <li>interactions like mouse movements, clicks and scrolling</li>
             <li>any errors you see while using the Defence Service Manual</li>
           </ul>
 
@@ -131,6 +129,54 @@
                 {
                   text: '24 hours'
                 }
+              ],
+              [
+                {
+                  classes: 'govuk-!-font-weight-regular',
+                  text: '_clck'
+                },
+                {
+                  text: 'Persists the MS Clarity User ID and preferences, unique to that site, on the browser. This helps us check if you have visited the site before.'
+                },
+                {
+                  text: '1 year'
+                }
+              ],
+              [
+                {
+                  classes: 'govuk-!-font-weight-regular',
+                  text: '_clsk'
+                },
+                {
+                  text: 'Connects multiple page views by a user into a single MS Clarity session recording. This helps us understand how you use the site.'
+                },
+                {
+                  text: 'When you close your browser'
+                }
+              ],
+              [
+                {
+                  classes: 'govuk-!-font-weight-regular',
+                  text: 'CLID'
+                },
+                {
+                  text: 'Identifies the first-time Clarity saw a user on any site using Clarity. This checks if you have used Clarity before.'
+                },
+                {
+                  text: '1 year'
+                }
+              ],
+              [
+                {
+                  classes: 'govuk-!-font-weight-regular',
+                  text: 'MUID'
+                },
+                {
+                  text: 'Identifies unique web browsers visiting Microsoft sites. This helps with things like advertising and site analytics.'
+                },
+                {
+                  text: '2 years'
+                }
               ]
             ]
           }) }}
@@ -162,6 +208,7 @@
             }) }}
 
             {{ component('button', {
+              classes: 'govuk-!-margin-bottom-0',
               text: 'Save cookie settings'
             }) }}
 
