@@ -24,7 +24,7 @@ function ctag(c,l,a,r,i,t,y) {
 function sendAnalytics() {
   gtag('js', new Date());
   gtag('config', 'UA-213496264-3');
-  ctag(window, document, 'clarity', 'script', 'ejv7sdqsc4');
+  ctag(window, document, 'clarity', 'script', cID);
 }
 
 

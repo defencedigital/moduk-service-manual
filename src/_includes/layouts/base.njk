@@ -54,6 +54,11 @@
       {% set googleID = ('G-JL5D2EMYS9' if meta.env === 'production' else 'G-YKV7VC7VZN') %}
       {% set clarityID = ('ez5qkzup8j' if meta.env === 'production' else 'ejv7sdqsc4') %}
 
+      <script>
+        sessionStorage.setItem('clarityID', '{{ clarityID }}');
+        const cID = sessionStorage.getItem('clarityID');
+      </script>
+
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ googleID }}"></script>
 
     {% endif %}
@@ -61,6 +66,8 @@
   </head>
 
   <body>
+
+    {{ 'clarityID: ' + clarityID }}
 
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
@@ -165,8 +172,6 @@
     <script src="{{ '/assets/scripts/cookie-manager-1.0.0.min.js' | url }}"></script>
     <script src="{{ '/assets/scripts/cookies.js' | url }}"></script>
     {% endif %}
-
-    <script src="{{ '/assets/scripts/cookies.js' | url }}"></script>
 
     <script src="{{ '/assets/scripts/scripts.js' | url }}"></script>
 
