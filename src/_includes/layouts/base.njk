@@ -48,14 +48,16 @@
     {# Stylesheet #}
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
 
-    {# Google analytics and Microsoft Clarity #}
+    {# Google analytics and MS Clarity #}
     {% if (meta.env == 'production') or (meta.env == 'prototype') %}
     
       {% set googleID = ('G-JL5D2EMYS9' if meta.env === 'production' else 'G-YKV7VC7VZN') %}
-      {% set clarityID = 'ejv7sdqsc4' %}
+      {% set clarityID = ('ez5qkzup8j' if meta.env === 'production' else 'ejv7sdqsc4') %}
 
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ googleID }}"></script>
+
     {% endif %}
+
   </head>
 
   <body>
@@ -163,6 +165,8 @@
     <script src="{{ '/assets/scripts/cookie-manager-1.0.0.min.js' | url }}"></script>
     <script src="{{ '/assets/scripts/cookies.js' | url }}"></script>
     {% endif %}
+
+    <script src="{{ '/assets/scripts/cookies.js' | url }}"></script>
 
     <script src="{{ '/assets/scripts/scripts.js' | url }}"></script>
 
