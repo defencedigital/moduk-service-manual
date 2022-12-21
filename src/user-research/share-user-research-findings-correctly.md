@@ -52,7 +52,7 @@ Find out [how to make user research data anonymous](/user-research/save-and-stor
 
 Even if a participant has agreed that you can use a video recording, make sure they are comfortable sharing the clips you have chosen.
 
-If you record meetings that include videos of participants, pause the recording while you show the clips. 
+If you record meetings that include videos of participants, pause the recording while you show the clips.
 
 We cannot control how widely recordings are shared. They may be used in ways that are not covered in the consent form.
 

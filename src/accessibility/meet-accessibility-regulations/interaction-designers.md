@@ -43,9 +43,9 @@ Work with a Content Designer to create labels and any hint text needed. You can 
 
 ## Add visually hidden text
 
-People who use assistive technologies sometimes need additional text to complete a task. The text does not appear on the screen for everyone, it is visually hidden.
+People who use assistive technologies sometimes need additional text to complete a task. The text does not appear on the screen for everyone as it is visually hidden.
 
-For example when checking your details, there can be several ‘Change’ links. Screen readers need to tell assisted digital users what they are changing. 
+For example, when checking your details there can be several ‘Change’ links. Screen readers need to tell assisted digital users what they are changing. 
 
 ### Example visually hidden text 
 The GOV.UK pattern for summary lists includes descriptions for what users are changing.

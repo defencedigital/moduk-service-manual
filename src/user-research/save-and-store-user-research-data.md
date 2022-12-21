@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "User research"
 title: "Save and store user research data"
 description: "Check how to save and anonymise user research data in Defence, including how to name and store files."
-datePublished: 2022-11-07
+dateUpdated: 2022-12-06
 eleventyNavigation:
   key: "User research"
   url: "/user-research/"
@@ -39,19 +39,19 @@ As soon as possible after collecting user research data, you need to:
 {{ modukcomponent('steps', {
   'items': [
     {
-      'item': 'Download all of the relevant files, including notes, videos and transcripts'
+      'item': 'Download all of the relevant files, including notes, videos and transcripts.'
     },
     {
-      'item': 'Save files in a secure folder that only the necessary people in your team can access'
+      'item': 'Save files in a secure folder that only the necessary people in your team can access.'
     },
     {
-      'item': 'Remove any personal or sensitive data'
+      'item': 'Remove any personal or sensitive data.'
     },
     {
-      'item': 'Follow the format for naming user research files in Defence'
+      'item': 'Follow the format for naming user research files in Defence.'
     },
     {
-      'item': 'Delete all files from your local devices'
+      'item': 'Delete all files from your local devices.'
     }
   ]
 }) }}
@@ -83,13 +83,13 @@ If you make handwritten notes, you need to:
 {{ modukcomponent('steps', {
   'items': [
     {
-      'item': 'Convert them to digital files as soon as possible'
+      'item': 'Convert them to digital files as soon as possible.'
     },
     {
-      'item': 'Delete any images of them taken on a phone or other devices'
+      'item': 'Delete any images of them taken on a phone or other devices.'
     },
     {
-      'item': 'Destroy your notes in a secure way'
+      'item': 'Destroy your notes in a secure way.'
     }
   ]
 }) }}
@@ -120,7 +120,8 @@ To make sure individuals cannot be identified, you need to:
   ]
 }) }}
 
-Check [how to protect sensitive data](/user-research/collecting-data-from-participants/#:~:text=doing%20usability%20testing.-,Protect%20sensitive%20data,-Do%20not%20reveal).
+
+Check [how to protect sensitive data](/user-research/share-user-research-findings-correctly/).
 
 ## Delete user research data
 
@@ -163,8 +164,6 @@ Before you leave a project, tell people in your team:
 - that they need to delete user research data
 - how to access the master document and the user research data
 
-
 ### When a project ends
 
 Consider deleting all of the user research data or contact your user research community for advice.
-

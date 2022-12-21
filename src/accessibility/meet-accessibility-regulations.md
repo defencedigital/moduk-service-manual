@@ -11,11 +11,12 @@ eleventyNavigation:
 
 ## Accessibility by design 
 
-Creating accessible digital services is important for all users, not just people with physical disabilities or cognitive impairments.
+Creating accessible digital services is important for all users, not just people with physical disabilities or cognitive impairments. 
 
 Anyone using your service can find themselves dealing with a stressful situation, tiredness or illness.
 
-When you start designing a digital service or product, you need to plan for accessibility.
+When you start designing a digital service or product, you need to plan for accessibility. 
+
 
 ## Check the regulations
 
