@@ -22,7 +22,7 @@ This is the current version of the prototype.
 {% endset %}
 
 {{ component('details', {
-  summaryText: 'What's changed',
+  summaryText: 'What changed',
   html: htmlOutput
 }) }}
 
