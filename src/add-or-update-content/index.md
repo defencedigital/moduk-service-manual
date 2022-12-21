@@ -28,17 +28,17 @@ When it is useful, we introduce content published in other places and provide a 
 
 ## Suggest content
 
-When you suggest content for the manual, make sure you tell us:
+Send content that you would like to see in the Defence Service Manual to [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk).
+
+Make sure you include:
 
 - who the content is most useful for
 - what tasks they are trying to complete
 - the security classification
 
-{{ component('inset-text', {
-  html: 'Currently, we only publish content that is classified OFFICIAL.Check <a href="../security/security-classifications/">how to classify information</a>.'
-}) }}
+Currently, we only publish OFFICIAL information. Check <a href="../security/security-classifications/">how to classify information</a>.
 
-You can suggest content at any time, [get in touch](/get-in-touch/).
+### What happens next
 
 We will let you know if the content fits in the manual or suggest another place to publish it. If your content fits in the manual, we will review it and share our edits for your approval.
 
