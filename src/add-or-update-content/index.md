@@ -28,9 +28,9 @@ When it is useful, we introduce content published in other places and provide a 
 
 ## Suggest content
 
-Send content that you would like to see in the Defence Service Manual to [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk).
+Send content you would like in the Defence Service Manual to [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk).
 
-Make sure you include:
+You need to include:
 
 - who the content is most useful for
 - what tasks they are trying to complete
@@ -40,23 +40,28 @@ Currently, we only publish OFFICIAL information. Check <a href="../security/secu
 
 ### What happens next
 
-We will let you know if the content fits in the manual or suggest another place to publish it. If your content fits in the manual, we will review it and share our edits for your approval.
+We will let you know if the content fits in the Defence Service Manual or suggest another place to publish it. 
+
+If your content fits in the Defence Service Manual, we will review it and share our edits with you.
 
 ## Get content updated
 
-The manual needs to include the latest guidance. If you spot something that needs updating or removing, you need to send us:
+If you spot content that needs updating or removing, send the details to [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk)
+
+You need to include:
 
 - a link to the relevant pages
 - details of the change
 - why the change is needed
 
-You can copy the existing content into a Word or Google document and make the updates. Or, you can let us know about the change and we can write the new content with you.
+You can make the changes in a Word or Google document or we can write the new content with you.
 
-You can ask for updates at any time, [get in touch](/get-in-touch/).
 
 ## Writing for the manual
 
-We can add and update content quicker if it is in the GOV.UK style and MOD tone of voice. If you prefer to send us a rough draft, we can edit it. We’ll share our edits with you before publishing.
+We can add and update content quicker if it is in the GOV.UK style and MOD tone of voice. 
+
+If you prefer to send us a rough draft, we can edit it. We’ll share our edits with you before publishing.
 
 ### Ministry of Defence tone of voice
 
@@ -71,7 +76,7 @@ In the MOD brand guidelines, our tone of voice is defined as:
 
 ### Make every word count
 
-Here are some tips to keep your content short and engaging:
+Follow these tips for writing clear content:
 
 - use straightforward language that can be easily understood
 - avoid jargon, acronyms, abbreviations and unnecessary technical language
