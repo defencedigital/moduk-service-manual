@@ -5,6 +5,29 @@ description: "If you work in Defence, check which design and delivery tools you 
 datePublished: 2022-11-07
 ---
 
+
+
+{{ modukcomponent('do-dont-list', {
+  'title': 'Do',
+  'type': 'tick',
+  'items': [
+    {
+      'item': 'Check what tools and software you can use in Defence.'
+    }
+  ]
+}) }}
+
+{{ modukcomponent('do-dont-list', {
+  'title': 'Don’t',
+  'type': 'cross',
+  'items': [
+    {
+      'item': 'use personal accounts of any software for work in Defence.'
+    }
+  ]
+}) }}
+
+
 ## What you can use
 
 All tools and software that you use in Defence must be secure and meet data protection regulations. 
