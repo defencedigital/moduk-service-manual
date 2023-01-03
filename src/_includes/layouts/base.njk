@@ -48,7 +48,7 @@
     {# Stylesheet #}
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
 
-    {# Google analytics and MS Clarity #}
+    {# Google Analytics and MS Clarity #}
     {% if (meta.env == 'production') or (meta.env == 'prototype') %}
     
       {% set googleID = ('G-JL5D2EMYS9' if meta.env === 'production' else 'G-YKV7VC7VZN') %}
@@ -56,6 +56,9 @@
 
       <script>sessionStorage.setItem('clarityID','{{ clarityID }}');const cID=sessionStorage.getItem('clarityID');</script>
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ googleID }}"></script>
+
+      <script src="{{ '/assets/scripts/cookie-manager-1.0.0.min.js' | url }}"></script>
+      <script src="{{ '/assets/scripts/cookies.js' | url }}"></script>
 
     {% endif %}
 
@@ -161,11 +164,6 @@
 
     <script src="{{ '/assets/scripts/govuk.js' | url }}"></script>
     <script>window.GOVUKFrontend.initAll()</script>
-
-    {% if (meta.env == 'production') or (meta.env == 'prototype') %}
-    <script src="{{ '/assets/scripts/cookie-manager-1.0.0.min.js' | url }}"></script>
-    <script src="{{ '/assets/scripts/cookies.js' | url }}"></script>
-    {% endif %}
 
     <script src="{{ '/assets/scripts/scripts.js' | url }}"></script>
 
