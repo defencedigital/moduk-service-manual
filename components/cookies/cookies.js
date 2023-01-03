@@ -23,7 +23,7 @@ function ctag(c,l,a,r,i,t,y) {
 // Send analytics
 function sendAnalytics() {
   gtag('js', new Date());
-  gtag('config', 'UA-213496264-3');
+  gtag('config', gID);
   ctag(window, document, 'clarity', 'script', cID);
 }
 
