@@ -59,7 +59,7 @@ Using OFFICIAL-SENSITIVE as a security classification can lead to dangerous prac
 - designing systems to protect all types of sensitive data when they only handle some sensitive data or none at all
 
 {{ component('inset-text', {
-  text: 'Only use OFFICIAL-SENSITIVE as a label if have evidence to support your decision.'
+  text: 'Only use OFFICIAL-SENSITIVE as a label if you have evidence to support your decision.'
 }) }}
 
 ### Add information to OFFICIAL-SENSITIVE

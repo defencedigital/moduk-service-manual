@@ -5,9 +5,28 @@ title:  "Versions"
 
 # Version history
 
-## Version 4 {.govuk-heading-m}
+## Version 5 {.govuk-heading-m}
 
-This is what we’re working on for the next rounds of testing.
+This is the current version of the prototype.
+
+{% set htmlOutput %}
+  <ul class="govuk-list govuk-list--bullet">
+    <li>added how to delete user research data</li>
+    <li>improved how to share user research findings</li>
+    <li>created a template and link to the MOD consent form</li>
+    <li>created a template and link to Understanding your participation</li>
+    <li>updated footer in line with GOV.UK</li>
+    <li>corrected links to MOD networks</li>
+    <li>added MS Clarity and updated the cookies page</li>
+  </ul>
+{% endset %}
+
+{{ component('details', {
+  summaryText: 'What changed',
+  html: htmlOutput
+}) }}
+
+## Version 4 {.govuk-heading-m}
 
 {% set htmlOutput %}
   <ul class="govuk-list govuk-list--bullet">
@@ -29,13 +48,11 @@ This is what we’re working on for the next rounds of testing.
 {% endset %}
 
 {{ component('details', {
-  summaryText: 'What’s changed',
+  summaryText: 'What changed',
   html: htmlOutput
 }) }}
 
 ## Version 3 {.govuk-heading-m}
-
-This is the most recent prototype tested with users.
 
 {% set htmlOutput %}
   <ul class="govuk-list govuk-list--bullet">
@@ -55,10 +72,9 @@ This is the most recent prototype tested with users.
 {% endset %}
 
 {{ component('details', {
-  summaryText: 'What’s changed',
+  summaryText: 'What changed',
   html: htmlOutput
 }) }}
 
 ## [Version 2](https://dmdsm.herokuapp.com/dsm-home) {.govuk-heading-m}
 
-This is an old version of the prototype that was tested with users.

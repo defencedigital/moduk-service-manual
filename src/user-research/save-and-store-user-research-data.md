@@ -120,6 +120,7 @@ To make sure individuals cannot be identified, you need to:
   ]
 }) }}
 
+
 Check [how to protect sensitive data](/user-research/share-user-research-findings-correctly/).
 
 ## Delete user research data
