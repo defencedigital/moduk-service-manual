@@ -5,8 +5,6 @@ description: "If you work in Defence, check which design and delivery tools you 
 datePublished: 2022-11-07
 ---
 
-
-
 {{ modukcomponent('do-dont-list', {
   'title': 'Do',
   'type': 'tick',
@@ -26,7 +24,6 @@ datePublished: 2022-11-07
     }
   ]
 }) }}
-
 
 ## What you can use
 
@@ -56,7 +53,6 @@ When you ask for access, include:
 - the tool you need access to
 - your email address
 
-
 ## Check what others are using
 
 You should check what tools others are using in Defence. For example, the:
@@ -68,7 +64,6 @@ You can:
 
 - check with [your community](/your-community/)
 - ask in the [support channel on Defence Digital Slack](https://defencedigital.slack.com/archives/C02GUNVHBBL)
-
 
 ## What you must not use
 
