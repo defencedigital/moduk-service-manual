@@ -165,7 +165,10 @@
       {% block body %}{% endblock %}
     </main>
 
-    {% include "feedback.njk" ignore missing %}
+    {% if feedbackForm != 'false' %}
+      {% include "feedback.njk" ignore missing %}
+    {% endif %}
+
     {% include "footer.njk" ignore missing %}
 
     <script src="{{ '/assets/scripts/govuk.js' | url }}"></script>

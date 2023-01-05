@@ -1,0 +1,109 @@
+{% extends "layouts/base.njk" %}
+
+{% set feedbackForm = 'false' %}
+
+{% block body %}
+
+<div class="govuk-width-container">
+
+  <div class="govuk-breadcrumbs">
+
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a></li>
+    </ol>
+  
+  </div>
+
+</div>
+
+<div class="govuk-width-container">
+
+  <div class="govuk-main-wrapper">
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-two-thirds">
+
+        <div class="moduk-prose">
+
+          <h1>Send your feedback</h1>
+
+          <p class="govuk-body-l">Your feedback helps us improve the Defence Service Manual.</p>
+
+          {{ component('radios', {
+            name: 'how-do-you-feel-about-the-defence-service-manual',
+            fieldset: {
+              legend: {
+                text: 'Overall, how do you feel about the Defence Service Manual?',
+                isPageHeading: false,
+                classes: 'govuk-fieldset__legend--m'
+              }
+            },
+            items: [
+              {
+                value: 'very-satisfied',
+                text: 'Very satisfied'
+              },
+              {
+                value: 'satisfied',
+                text: 'Satisfied'
+              },
+              {
+                value: 'neither-satisfied-nor-dissatisfied',
+                text: 'Neither satisfied nor dissatisfied'
+              },
+              {
+                value: 'dissatisfied',
+                text: 'Dissatisfied'
+              },
+              {
+                value: 'very-dissatisfied',
+                text: 'Very dissatisfied'
+              }
+            ]
+          }) }}
+
+          {{ component('character-count', {
+            name: 'how-could-we-improve-the-defence-service-manual',
+            id: 'with-hint',
+            maxlength: 1200,
+            label: {
+              text: 'How could we improve the Defence Service Manual?',
+              classes: 'govuk-label--m',
+              isPageHeading: false
+            },
+            hint: {
+              text: 'Include as much detail as you can, including any links. Do not include any personal details.'
+            }
+          }) }}
+
+          {{ component('input', {
+            label: {
+              text: 'Your email address (optional)',
+              classes: 'govuk-label--m'
+            },
+            hint: {
+              text: 'We will only contact you to discuss your feedback.'
+            },
+            id: 'email',
+            name: 'email',
+            type: 'email',
+            autocomplete: 'email',
+            spellcheck: false
+          }) }}
+
+          {{ component('button', {
+            text: 'Send message'
+          }) }}
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock %}
