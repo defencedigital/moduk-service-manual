@@ -46,7 +46,7 @@ If your content fits in the Defence Service Manual, we will review it and share 
 
 ## Get content updated
 
-If you spot content that needs updating or removing, send the details to [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk)
+If you spot content that needs updating or removing, send the details to [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk).
 
 You need to include:
 
