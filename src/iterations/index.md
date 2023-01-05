@@ -1,6 +1,6 @@
 ---
 layout: "layouts/landing.njk"
-title:  "Interations"
+title:  "Iterations"
 ---
 
 # Iterations
