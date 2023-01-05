@@ -1,13 +1,13 @@
 ---
 layout: "layouts/landing.njk"
-title:  "Versions"
+title:  "Interations"
 ---
 
-# Version history
+# Iterations
 
-## Version 5 {.govuk-heading-m}
+Check how the Defence Service Manual has changed. This includes new content and improvements in response to user research and feedback.
 
-This is the current version of the prototype.
+## January 2023 {.govuk-heading-m}
 
 {% set htmlOutput %}
   <ul class="govuk-list govuk-list--bullet">
@@ -26,7 +26,7 @@ This is the current version of the prototype.
   html: htmlOutput
 }) }}
 
-## Version 4 {.govuk-heading-m}
+## November 2022 {.govuk-heading-m}
 
 {% set htmlOutput %}
   <ul class="govuk-list govuk-list--bullet">
@@ -52,7 +52,7 @@ This is the current version of the prototype.
   html: htmlOutput
 }) }}
 
-## Version 3 {.govuk-heading-m}
+## September 2022 {.govuk-heading-m}
 
 {% set htmlOutput %}
   <ul class="govuk-list govuk-list--bullet">
@@ -76,5 +76,6 @@ This is the current version of the prototype.
   html: htmlOutput
 }) }}
 
-## [Version 2](https://dmdsm.herokuapp.com/dsm-home) {.govuk-heading-m}
+
+
 
