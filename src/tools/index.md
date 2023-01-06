@@ -6,6 +6,9 @@ datePublished: 2022-11-07
 dateUpdated: 2023-01-05
 ---
 
+All tools and software that you use in Defence must be secure and meet data protection regulations. 
+
+
 {{ modukcomponent('do-dont-list', {
   'title': 'Do',
   'type': 'tick',
@@ -28,14 +31,12 @@ dateUpdated: 2023-01-05
 
 ## What you can use
 
-All tools and software that you use in Defence must be secure and meet data protection regulations. 
-
-For example, you can use MOD accounts for:
+You should use tools that have an MOD licence, for example:
 
 - JIRA
 - Trello
 - Conceptboard
-- Git
+- Github
 
 {{ component('inset-text', {
   text: 'Do not use personal accounts of any software for work in Defence. There may be risks to your security and we cannot access work if you leave.'
@@ -43,7 +44,7 @@ For example, you can use MOD accounts for:
 
 ### Ask for access 
 
-To get access to MOD accounts, ask in the [support channel on Defence Digital Slack](https://defencedigital.slack.com/archives/C02GUNVHBBL). 
+To get an account under an MOD licence, [use the request form on Defence Digital Slack](https://defencedigital.slack.com/archives/C02GUNVHBBL). 
 
 On a MODNET device, you can use Slack in your web browser.
 
@@ -71,3 +72,5 @@ You can:
 Some tools have been assessed and are not suitable for use in Defence. For example, you must not use MIRO.
 
 If you are recruiting participants for user research, you must not use social media platforms like Twitter, Instagram, LinkedIn and TikTok.
+
+If you are unsure, [ask on Defence Digital Slack](https://defencedigital.slack.com/archives/C02GUNVHBBL).
