@@ -1,0 +1,84 @@
+{% extends "layouts/base.njk" %}
+
+{% block body %}
+
+<div class="govuk-width-container">
+
+  <div class="govuk-breadcrumbs">
+
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a></li>
+      <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="{{ '/design/' | url }}">Design</a></li>
+    </ol>
+  
+  </div>
+
+</div>
+
+<div class="govuk-width-container">
+
+  <div class="govuk-main-wrapper">
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-two-thirds">
+
+        <h2 class="govuk-heading-l">Before you meet with users</h2>
+
+        <p class="govuk-body">Lead in line...</p>
+
+        {{ component('accordion', {
+          id: 'accordion-default',
+          items: [
+            {
+              heading: {
+                text: 'Check if your questions have already been answered'
+              },
+              content: {
+                html: '<p class="govuk-body">Ask the user-centred design (UCD) community if there is existing knowledge or user research you can use. If you have a user research plan, ask if it needs to be reviewed before you start.</p>'
+              }
+            },
+            {
+              heading: {
+                text: 'Ask someone in the military to help you'
+              },
+              content: {
+                html: '<p class="govuk-body">When inviting military personnel to meet with you, you need to follow a chain of command. A military sponsor can help you follow the chain of command, understand context and arrange visits to MOD sites.</p><p class="govuk-body">Ask your stakeholders to introduce you to the right military sponsor.</p>'
+              }
+            },
+            {
+              heading: {
+                text: 'Give users choice and tell them what to expect'
+              },
+              content: {
+                html: '<p class="govuk-body">Make it clear that participation is voluntary and that they can stop taking part at any time. Share details about your service, your team and why you would like to meet.</p><p class="govuk-body">For user research sessions, you must give participants the MOD consent form and the Understanding your participation sheet.</p>'
+              }
+            },
+            {
+              heading: {
+                text: 'Make the most of your time with users'
+              },
+              content: {
+                html: '<p class="govuk-body">Plan what you will cover with users. Create things like meeting agendas, presentations or user research discussion guides. Write these in plain English so that all users can understand them.</p><p class="govuk-body">Ask someone to take notes so that you can focus on running the session. This is crucial in Defence settings where there is no wifi or you are not allowed to record conversations.</p>'
+              }
+            },
+            {
+              heading: {
+                text: 'Consider physical and emotional needs'
+              },
+              content: {
+                html: '<p class="govuk-body">Review what you plan to cover in sessions and assess any risks to triggering past trauma.</p><p class="govuk-body">For in-person sessions away from a user’s day-to-day environment, choose a venue that is quiet and easy to access. If sensitive topics are likely to come up, you will need a private area.</p>'
+              }
+            }
+          ]
+        }) }}
+        
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock %}
