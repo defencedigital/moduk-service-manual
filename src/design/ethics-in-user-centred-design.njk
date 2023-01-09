@@ -2,37 +2,59 @@
 
 {% block body %}
 
-<div class="govuk-width-container">
+  <div class="govuk-width-container">
 
-  <div class="govuk-breadcrumbs">
+    <div class="govuk-breadcrumbs">
 
-    <ol class="govuk-breadcrumbs__list">
-      <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a></li>
-      <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="{{ '/design/' | url }}">Design</a></li>
-    </ol>
-  
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
+        </li>
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/design/' | url }}">Design</a>
+        </li>
+      </ol>
+
+    </div>
+
   </div>
 
-</div>
+  <div class="govuk-width-container">
 
-<div class="govuk-width-container">
+    <div class="govuk-main-wrapper">
 
-  <div class="govuk-main-wrapper">
+      <div class="govuk-grid-row">
 
-    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
 
-      <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">Ethics in user-centred design</h1>
 
-        <h2 class="govuk-heading-l">Before you meet with users</h2>
+          <p class="govuk-body">To create user-centred services, you need to work closely with users and other stakeholders. You need to do this in an open, fair and safe way.</p>
 
-        <p class="govuk-body">Lead in line...</p>
+          <h2 class="govuk-heading-l">Do the right thing</h2>
 
-        {{ component('accordion', {
+          <p class="govuk-body">If you work with existing or potential users of a Defence service, you are expected to do so ethically.</p>
+          
+          <p class="govuk-body">This includes things like:</p>
+
+          <ul class="govuk-body">
+            <li>approaching users in the right way</li>
+            <li>representing user views correctly</li>
+            <li>making users and your team feel safe</li>
+          </ul>
+
+          <p class="govuk-body">For example, you need to know what to do if a user shares information that poses a risk to them, yourself or others.</p>
+
+          <h2 class="govuk-heading-l">Before you meet with users</h2>
+
+          <p class="govuk-body">Prepare to make the most of your time with users.</p>
+
+          {{ component('accordion', {
           id: 'accordion-default',
           items: [
             {
               heading: {
-                text: 'Check if your questions have already been answered'
+                text: 'Check if your questions have been answered'
               },
               content: {
                 html: '<p class="govuk-body">Ask the user-centred design (UCD) community if there is existing knowledge or user research you can use. If you have a user research plan, ask if it needs to be reviewed before you start.</p>'
@@ -51,15 +73,72 @@
                 text: 'Give users choice and tell them what to expect'
               },
               content: {
-                html: '<p class="govuk-body">Make it clear that participation is voluntary and that they can stop taking part at any time. Share details about your service, your team and why you would like to meet.</p><p class="govuk-body">For user research sessions, you must give participants the MOD consent form and the Understanding your participation sheet.</p>'
+                html: '<p class="govuk-body">Make it clear that participation is voluntary and that they can stop taking part at any time. Share details about your service, your team and why you would like to meet.</p>
+                      <p class="govuk-body">For user research sessions, you must give participants the MOD consent form and the Understanding your participation sheet.</p>'
               }
             },
             {
               heading: {
-                text: 'Make the most of your time with users'
+                text: 'Plan what you will cover'
               },
               content: {
-                html: '<p class="govuk-body">Plan what you will cover with users. Create things like meeting agendas, presentations or user research discussion guides. Write these in plain English so that all users can understand them.</p><p class="govuk-body">Ask someone to take notes so that you can focus on running the session. This is crucial in Defence settings where there is no wifi or you are not allowed to record conversations.</p>'
+                html: '<p class="govuk-body">Create things like meeting agendas, presentations or user research discussion guides. Write these in plain English so that all users can understand them.</p><p class="govuk-body">Ask someone to take notes so that you can focus on running the session. This is crucial in Defence settings where there is no wifi or you are not allowed to record conversations.</p>'
+              }
+            },
+            {
+              heading: {
+                text: 'Consider physical and emotional needs'
+              },
+              content: {
+                html: '<p class="govuk-body">Review what you plan to cover in sessions and assess any risks to triggering past trauma.</p><p class="govuk-body">For in-person sessions away from a user&#039;s day-to-day environment, choose a venue that is quiet and easy to access. If sensitive topics are likely to come up, you will need a private area.</p>'
+              }
+            }
+          ]
+        }) }}
+
+          <h2 class="govuk-heading-l">When you meet with users</h2>
+
+          <p class="govuk-body">You should behave ethically in all meetings in Defence.</p>
+
+          {{ component('accordion', {
+          id: 'accordion-default',
+          items: [
+            {
+              heading: {
+                text: 'Encourage people to speak freely'
+              },
+              content: {
+                html: '<p class="govuk-body">Give users respect and autonomy. If you can, arrange to meet with users without the people they report to being present. Give people time to think and to respond - do not hurry or correct them.</p>
+                      <p class="govuk-body">When testing your service, remind users that you are not testing them and that there are no wrong responses.</p>'
+
+              }
+            },
+            {
+              heading: {
+                text: 'Take steps to reduce bias'
+              },
+              content: {
+                html: '<p class="govuk-body">Do not let your own experiences and opinions affect conversations with users. Use inclusive language and mirror how someone describes their experiences.</p>
+                      <p class="govuk-body">You should also try to minimise your physical and verbal reactions to comments. For example, nodding, frowning or saying if you agree or disagree.</p>
+                      <p class="govuk-body">If you are discussing something that you have strong opinions on, consider sending someone else. </p>'
+              }
+            },
+            {
+              heading: {
+                text: 'Avoid triggering trauma'
+              },
+              content: {
+                html: '<p class="govuk-body">In Defence, you are likely to meet with some people who have experience trauma or are suffering from Post Traumatic Stress Disorder (PTSD). </p>
+                      <p class="govuk-body">If a user starts describing past trauma that is not related to your research, politely interrupt and acknowledge what they have said. Ask if they would like to take a break or stop the interview. You can also ask if they would like links to any support available.</p>'
+              }
+            },
+            {
+              heading: {
+                text: 'Manage remote sessions well'
+              },
+              content: {
+                html: '<p class="govuk-body">Do not use personal devices or accounts to run remote sessions. If you are contacting users by phone, withhold your number and let users know that this will happen.</p>
+                      <p class="govuk-body">Users have the right to drop off a remote session at any time. If a user leaves while you are discussing something sensitive or upsetting, contact them straight away to check if they need any support. </p>'
               }
             },
             {
@@ -72,13 +151,58 @@
             }
           ]
         }) }}
-        
+
+          <h2 class="govuk-heading-l">Keep your team safe and well</h2>
+
+          <p class="govuk-body">Everyone needs to think about how to keep themselves and colleagues safe.</p>
+
+          {{ component('accordion', {
+          id: 'accordion-default',
+          items: [
+            {
+              heading: {
+                text: 'Get the right people to meet with users'
+              },
+              content: {
+                html: '<p class="govuk-body">If you can, get an experienced user researcher to lead on this work. They can support team members with less experience.</p>
+                      <p class="govuk-body">If a team member&#039;s personal beliefs conflict with what you&#039;re discussing, send someone else or take steps to reduce bias.</p>
+                      <p class="govuk-body">Make sure everyone has the right level of security clearance and understands how we manage information in Defence. <a=href"https://servicemanual.digital.mod.uk/security/">Find out more about security classifications</a>.</p>'
+
+              }
+            },
+            {
+              heading: {
+                text: 'Safety on site'
+              },
+              content: {
+                html: '<p class="govuk-body">Defence sites can be dangerous for people who are not familiar with them. Never visit a Defence site on your own, go with at least 1 other person from your team. You will also need a military sponsor to help with your visit.</p>
+                      <p class="govuk-body">If you plan to observe military hardware in use, be aware of all the protocols and wear protective gear if necessary.</p>'
+              }
+            },
+            {
+              heading: {
+                text: 'Be prepared to deal with sensitive issues'
+              },
+              content: {
+                html: '<p class="govuk-body">When talking to users in Defence, you might hear things of a sensitive nature. This can be something related to an individual or to general security.</p>
+                      <p class="govuk-body">If you uncover information which poses a risk to an individual or group of people, get advice from your head of profession. Keep the details confidential and on a need to know basis.</p>
+                      <p class="govuk-body">When you know you will be discussing sensitive issues, find out if there are relevant support groups or resources that you can share with users.</p>'
+                }
+            }
+          ]
+        }) }}
+
+            <h2 class="govuk-heading-l">Help with ethical issues</h2>
+
+          <p class="govuk-body">If you have an ethical concern related to someone in the military, do not raise it directly with their superior.</p>
+          <p class="govuk-body">Discuss your concerns confidentially with your Delivery Lead or Product Owner. If they are unsure, raise it confidentially with your head of profession. </p>
+
+        </div>
+
       </div>
 
     </div>
 
   </div>
-
-</div>
 
 {% endblock %}
