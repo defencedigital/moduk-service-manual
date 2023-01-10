@@ -197,6 +197,9 @@
 
       if (errorFields != '') {
         event.preventDefault(); // Prevent default action on submit
+
+        window.scrollTo({ top: 0, behavior: 'smooth' }); // Send user to top of the page
+
         Util.addClass(radioGroup, 'govuk-form-group--error') // Add error class to radio group
         Util.removeClass(errorSummary, 'is-hidden'); // Show error summary
         Util.removeClass(errorMessage, 'is-hidden'); // Show error message
