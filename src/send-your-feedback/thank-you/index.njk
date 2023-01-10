@@ -1,0 +1,44 @@
+
+{% extends "layouts/base.njk" %}
+
+{% set feedbackForm = 'false' %}
+
+{% block body %}
+
+<div class="govuk-width-container">
+
+  <div class="govuk-breadcrumbs">
+
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a></li>
+    </ol>
+  
+  </div>
+
+</div>
+
+<div class="govuk-width-container">
+
+  <div class="govuk-main-wrapper">
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-two-thirds">
+
+        <div class="moduk-prose">
+
+          <h1>Thank you for your feedback</h1>
+
+          <p class="govuk-body-l">You are helping us improve the Defence Service Manual.</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock %}

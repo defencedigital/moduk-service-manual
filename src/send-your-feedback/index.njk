@@ -24,79 +24,148 @@
 
       <div class="govuk-grid-column-two-thirds">
 
-        <div class="moduk-prose">
+        <form class="form-validate js-form-validate" id="send-your-feedback" method="POST" autocomplete="off" action="/" novalidate>
 
-          <h1>Send your feedback</h1>
-
-          <p class="govuk-body-l">Your feedback helps us improve the Defence Service Manual.</p>
-
-          {{ component('radios', {
-            name: 'how-do-you-feel-about-the-defence-service-manual',
-            fieldset: {
-              legend: {
-                text: 'Overall, how do you feel about the Defence Service Manual?',
-                isPageHeading: false,
-                classes: 'govuk-fieldset__legend--m'
-              }
-            },
-            items: [
+          {{ component('error-summary', {
+            classes: 'is-hidden',
+            titleText: 'There is a problem',
+            errorList: [
               {
-                value: 'very-satisfied',
-                text: 'Very satisfied'
-              },
-              {
-                value: 'satisfied',
-                text: 'Satisfied'
-              },
-              {
-                value: 'neither-satisfied-nor-dissatisfied',
-                text: 'Neither satisfied nor dissatisfied'
-              },
-              {
-                value: 'dissatisfied',
-                text: 'Dissatisfied'
-              },
-              {
-                value: 'very-dissatisfied',
-                text: 'Very dissatisfied'
+                text: 'Select how you feel about the Defence Service Manual',
+                href: '#how-do-you-feel-about-the-defence-service-manual'
               }
             ]
           }) }}
 
-          {{ component('character-count', {
-            name: 'how-could-we-improve-the-defence-service-manual',
-            id: 'with-hint',
-            maxlength: 1200,
-            label: {
-              text: 'How could we improve the Defence Service Manual?',
-              classes: 'govuk-label--m',
-              isPageHeading: false
-            },
-            hint: {
-              text: 'Include as much detail as you can, including any links. Do not include any personal details.'
-            }
-          }) }}
+          <div class="moduk-prose">
 
-          {{ component('input', {
-            label: {
-              text: 'Your email address (optional)',
-              classes: 'govuk-label--m'
-            },
-            hint: {
-              text: 'We will only contact you to discuss your feedback.'
-            },
-            id: 'email',
-            name: 'email',
-            type: 'email',
-            autocomplete: 'email',
-            spellcheck: false
-          }) }}
+            <h1>Send your feedback</h1>
 
-          {{ component('button', {
-            text: 'Send message'
-          }) }}
+            <p class="govuk-body-l">Your feedback helps us improve the Defence Service Manual.</p>
 
-        </div>
+            {# {{ component('radios', {
+              formGroup: {
+                classes: 'form-validate__input-wrapper js-form-validate__input-wrapper'
+              },
+              name: 'how-do-you-feel-about-the-defence-service-manual',
+              fieldset: {
+                legend: {
+                  text: 'Overall, how do you feel about the Defence Service Manual?',
+                  isPageHeading: false,
+                  classes: 'govuk-fieldset__legend--m'
+                }
+              },
+              items: [
+                {
+                  value: 'very-satisfied',
+                  text: 'Very satisfied',
+                  attributes: {
+                    required: 'required'
+                  }
+                },
+                {
+                  value: 'satisfied',
+                  text: 'Satisfied'
+                },
+                {
+                  value: 'neither-satisfied-nor-dissatisfied',
+                  text: 'Neither satisfied nor dissatisfied'
+                },
+                {
+                  value: 'dissatisfied',
+                  text: 'Dissatisfied'
+                },
+                {
+                  value: 'very-dissatisfied',
+                  text: 'Very dissatisfied'
+                }
+              ],
+              errorMessage: {
+                classes: 'is-hidden',
+                text: 'Select how you feel about the Defence Service Manual'
+              }
+            }) }} #}
+
+            <div class="govuk-form-group form-validate__input-wrapper js-form-validate__input-wrapper" id="how-do-you-feel">
+
+              <fieldset class="govuk-fieldset" aria-describedby="how-do-you-feel-about-the-defence-service-manual-error">
+              
+                <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">Overall, how do you feel about the Defence Service Manual?</legend>
+                
+                <p class="govuk-error-message is-hidden" id="how-do-you-feel-about-the-defence-service-manual-error">
+                  <span class="govuk-visually-hidden">Error:</span> Select how you feel about the Defence Service Manual
+                </p>
+
+                <div class="govuk-radios" data-module="govuk-radios">
+                  
+                  <div class="govuk-radios__item">
+                    <input class="govuk-radios__input" id="how-do-you-feel-about-the-defence-service-manual" name="how-do-you-feel-about-the-defence-service-manual" type="radio" value="very-satisfied" required="required">
+                    <label class="govuk-label govuk-radios__label" for="how-do-you-feel-about-the-defence-service-manual">Very satisfied</label>
+                  </div>
+
+                  <div class="govuk-radios__item">
+                    <input class="govuk-radios__input" id="how-do-you-feel-about-the-defence-service-manual-2" name="how-do-you-feel-about-the-defence-service-manual" type="radio" value="satisfied">
+                    <label class="govuk-label govuk-radios__label" for="how-do-you-feel-about-the-defence-service-manual-2">Satisfied</label>
+                  </div>
+
+                  <div class="govuk-radios__item">
+                    <input class="govuk-radios__input" id="how-do-you-feel-about-the-defence-service-manual-3" name="how-do-you-feel-about-the-defence-service-manual" type="radio" value="neither-satisfied-nor-dissatisfied">
+                    <label class="govuk-label govuk-radios__label" for="how-do-you-feel-about-the-defence-service-manual-3">Neither satisfied nor dissatisfied</label>
+                  </div>
+
+                  <div class="govuk-radios__item">
+                    <input class="govuk-radios__input" id="how-do-you-feel-about-the-defence-service-manual-4" name="how-do-you-feel-about-the-defence-service-manual" type="radio" value="dissatisfied">
+                    <label class="govuk-label govuk-radios__label" for="how-do-you-feel-about-the-defence-service-manual-4">Dissatisfied</label>
+                  </div>
+                  
+                  <div class="govuk-radios__item">
+                    <input class="govuk-radios__input" id="how-do-you-feel-about-the-defence-service-manual-5" name="how-do-you-feel-about-the-defence-service-manual" type="radio" value="very-dissatisfied">
+                    <label class="govuk-label govuk-radios__label" for="how-do-you-feel-about-the-defence-service-manual-5">Very dissatisfied</label>
+                  </div>
+                      
+                </div>
+                
+              </fieldset>
+
+            </div>
+
+            {{ component('character-count', {
+              name: 'how-could-we-improve-the-defence-service-manual',
+              id: 'with-hint',
+              maxlength: 1200,
+              label: {
+                text: 'How could we improve the Defence Service Manual?',
+                classes: 'govuk-label--m',
+                isPageHeading: false
+              },
+              hint: {
+                text: 'Include as much detail as you can, including any links. Do not include any personal details.'
+              }
+            }) }}
+
+            {{ component('input', {
+              label: {
+                text: 'Your email address (optional)',
+                classes: 'govuk-label--m'
+              },
+              hint: {
+                text: 'We will only contact you to discuss your feedback.'
+              },
+              id: 'email',
+              name: 'email',
+              type: 'email',
+              autocomplete: 'email',
+              spellcheck: false
+            }) }}
+
+            {{ component('button', {
+              type: 'submit',
+              text: 'Send message'
+            }) }}
+
+          </div>
+
+        </form>
 
       </div>
 
@@ -106,4 +175,36 @@
 
 </div>
 
+{% endblock %}
+
+
+{% block pageScripts %}
+<script>
+
+  var form = document.getElementById('send-your-feedback');
+
+  var formValidate = new FormValidator({
+    element: form
+  });
+
+  form.addEventListener('submit', function(event) {
+
+    formValidate.validate(function(errorFields) {
+
+      var radioGroup   = document.getElementById('how-do-you-feel');
+      var errorMessage = document.getElementsByClassName('govuk-error-message')[0];
+      var errorSummary = document.getElementsByClassName('govuk-error-summary')[0];
+
+      if (errorFields != '') {
+        event.preventDefault(); // Prevent default action on submit
+        Util.addClass(radioGroup, 'govuk-form-group--error') // Add error class to radio group
+        Util.removeClass(errorSummary, 'is-hidden'); // Show error summary
+        Util.removeClass(errorMessage, 'is-hidden'); // Show error message
+      }
+
+    });
+
+  });
+
+</script>
 {% endblock %}
