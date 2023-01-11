@@ -196,13 +196,21 @@
       var errorSummary = document.getElementsByClassName('govuk-error-summary')[0];
 
       if (errorFields != '') {
+
         event.preventDefault(); // Prevent default action on submit
 
-        window.scrollTo({ top: 0, behavior: 'smooth' }); // Send user to top of the page
+        // Send user to top of the page
+        window.scrollTo({ 
+          top: 0, 
+          behavior: 'smooth' 
+        });
 
         Util.addClass(radioGroup, 'govuk-form-group--error') // Add error class to radio group
         Util.removeClass(errorSummary, 'is-hidden'); // Show error summary
         Util.removeClass(errorMessage, 'is-hidden'); // Show error message
+        
+        Util.moveFocus(errorSummary); // Focus
+
       }
 
     });
