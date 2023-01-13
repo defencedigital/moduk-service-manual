@@ -24,7 +24,7 @@
 
       <div class="govuk-grid-column-two-thirds">
 
-        <form class="form-validate js-form-validate" id="send-your-feedback" name="Send your feedback" action="/send-your-feedback/thank-you" method="POST" autocomplete="off" novalidate data-netlify="true" netlify-honeypot="giraffe">
+        <form class="form-validate js-form-validate" id="send-your-feedback" name="Send your feedback" action="/send-your-feedback/thank-you" method="POST" autocomplete="off" novalidate data-netlify="true" data-netlify-honeypot="giraffe">
 
           {{ component('error-summary', {
             classes: 'is-hidden',
@@ -45,7 +45,7 @@
 
             <div class="govuk-form-group form-validate__input-wrapper js-form-validate__input-wrapper" id="how-do-you-feel">
 
-              <fieldset class="govuk-fieldset" name="Overall, how do you feel about the Defence Service Manual?" aria-describedby="overall-how-do-you-feel-about-the-defence-service-manual-error">
+              <fieldset class="govuk-fieldset" aria-describedby="overall-how-do-you-feel-about-the-defence-service-manual-error">
               
                 <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">Overall, how do you feel about the Defence Service Manual?</legend>
                 
@@ -56,8 +56,8 @@
                 <div class="govuk-radios" data-module="govuk-radios">
                   
                   <div class="govuk-radios__item">
-                    <input class="govuk-radios__input" id="how-do-you-feel-about-the-defence-service-manual" name="Overall, how do you feel about the Defence Service Manual?" type="radio" value="Very satisfied" required="required">
-                    <label class="govuk-label govuk-radios__label" for="how-do-you-feel-about-the-defence-service-manual">Very satisfied</label>
+                    <input class="govuk-radios__input" id="how-do-you-feel-about-the-defence-service-manual-1" name="Overall, how do you feel about the Defence Service Manual?" type="radio" required value="Very satisfied">
+                    <label class="govuk-label govuk-radios__label" for="how-do-you-feel-about-the-defence-service-manual-1">Very satisfied</label>
                   </div>
 
                   <div class="govuk-radios__item">
