@@ -31,40 +31,6 @@
 
       <div class="govuk-grid-row">
 
-        <div class="govuk-grid-column-one-third position-sticky">
-
-          <nav class="moduk-contents-list" role="navigation" aria-labelledby="moduk-contents-list">
-
-            <h2 class="moduk-contents-list__title" id="moduk-contents-list">Contents</h2>
-           
-            <ol class="moduk-contents-list__list">
-              
-              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
-                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#do-the-right-thing">Do the right thing</a>
-              </li>
-
-              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
-                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#before-you-meet-with-users">Before you meet with users</a>
-              </li>
-
-              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
-                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#when-you-meet-with-users">When you meet with users</a>
-              </li>
-             
-              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
-                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#keep-your-team-safe-and-well">Keep your team safe and well</a>
-              </li>
-
-              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
-                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#help-with-ethical-issues">Help with ethical issues</a>
-              </li>
-
-            </ol>
-
-          </nav>
-
-        </div>
-
         <div class="govuk-grid-column-two-thirds">
 
           <p class="govuk-body">All teams creating digital services for Defence should meet GOV.UK service standards. This applies to internal services as well as services for citizens.</p>
@@ -77,6 +43,83 @@
             <li>make the best recruitment and technology choices</li>
           </ul>
 
+          {% set htmlAccordion1 %}
+            <p class="govuk-body">You should test your service with real users in the place that they use it. In Defence, this is not always possible. Consider testing in a simulated environment or bringing a representative user into your design team.</p>
+            <p class="govuk-body">Be aware that your users might not be contactable for long periods while they are on deployment.</p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://servicemanual.digital.mod.uk/user-research/">Doing user research in Defence</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-1-understand-user-needs">More on this standard in Defence</a></li>
+            </ul>
+          {% endset %}
+
+          {% set htmlAccordion2 %}
+            <p class="govuk-body">When inviting military personnel to meet with you, you need to follow a chain of command. A military sponsor can help you follow the chain of command, understand context and arrange visits to MOD sites.</p>
+            <p class="govuk-body">Ask your stakeholders to introduce you to the right military sponsor.</p>
+          {% endset %}
+
+          {% set htmlAccordion3 %}
+            <p class="govuk-body">Make it clear that participation is voluntary and that they can stop taking part at any time. Share details about your service, your team and why you would like to meet.</p>
+            <p class="govuk-body">For user research sessions, you must give participants the MOD consent form and the Understanding your participation sheet.</p>
+          {% endset %}
+
+          {% set htmlAccordion4 %}
+            <p class="govuk-body">Create things like meeting agendas, presentations or user research discussion guides. Write these in plain English so that all users can understand them.</p>
+            <p class="govuk-body">Ask someone to take notes so that you can focus on running the session. This is crucial in Defence settings where there is no wifi or you are not allowed to record conversations.</p>
+          {% endset %}
+
+          {% set htmlAccordion5 %}
+            <p class="govuk-body">Review what you plan to cover in sessions and assess any risks to triggering past trauma.</p>
+            <p class="govuk-body">For in-person sessions away from a user’s day-to-day environment, choose a venue that is quiet and easy to access. If sensitive topics are likely to come up, you will need a private area.</p>
+          {% endset %}
+
+          {% set htmlAccordion6 %}
+            <p class="govuk-body">Give users respect and autonomy. If you can, arrange to meet with users without the people they report to being present. Give people time to think and to respond - do not hurry or correct them.</p>
+            <p class="govuk-body">When testing your service, remind users that you are not testing them and that there are no wrong responses.</p>
+          {% endset %}
+        
+          {% set htmlAccordion7 %}
+            <p class="govuk-body">Do not let your own experiences and opinions affect conversations with users. Use inclusive language and mirror how someone describes their experiences.</p>
+            <p class="govuk-body">You should also try to minimise your physical and verbal reactions to comments. For example, nodding, frowning or saying if you agree or disagree.</p>
+            <p class="govuk-body">If you are discussing something that you have strong opinions on, consider sending someone else.</p>
+          {% endset %}
+
+          {% set htmlAccordion8 %}
+            <p class="govuk-body">In Defence, you are likely to meet with some people who have experience trauma or are suffering from Post Traumatic Stress Disorder (PTSD). </p>
+            <p class="govuk-body">If a user starts describing past trauma that is not related to your research, politely interrupt and acknowledge what they have said. Ask if they would like to take a break or stop the interview. You can also ask if they would like links to any support available.</p>
+          {% endset %}
+
+          {% set htmlAccordion9 %}
+            <p class="govuk-body">Do not use personal devices or accounts to run remote sessions. If you are contacting users by phone, withhold your number and let users know that this will happen.</p>
+            <p class="govuk-body">Users have the right to drop off a remote session at any time. If a user leaves while you are discussing something sensitive or upsetting, contact them straight away to check if they need any support.</p>
+          {% endset %}
+
+          {% set htmlAccordion10 %}
+            <p class="govuk-body">Review what you plan to cover in sessions and assess any risks to triggering past trauma.</p>
+            <p class="govuk-body">For in-person sessions away from a user’s day-to-day environment, choose a venue that is quiet and easy to access. If sensitive topics are likely to come up, you will need a private area.</p>
+          {% endset %}
+
+          {% set htmlAccordion11 %}
+            <p class="govuk-body">If you can, get an experienced user researcher to lead on this work. They can support team members with less experience.</p>
+            <p class="govuk-body">If a team member’s personal beliefs conflict with what you’re discussing, send someone else or take steps to reduce bias.</p>
+            <p class="govuk-body">Make sure everyone has the right level of security clearance and understands how we manage information in Defence. <a class="govuk-link govuk-link--no-visited-state" href="https://servicemanual.digital.mod.uk/security/">Find out more about security classifications</a>.</p>
+          {% endset %}
+
+          {% set htmlAccordion12 %}
+            <p class="govuk-body">Defence sites can be dangerous for people who are not familiar with them. Never visit a Defence site on your own, go with at least 1 other person from your team. You will also need a military sponsor to help with your visit.</p>
+            <p class="govuk-body">If you plan to observe military hardware in use, be aware of all the protocols and wear protective gear if necessary.</p>
+          {% endset %}
+
+          {% set htmlAccordion13 %}
+            <p class="govuk-body">When talking to users in Defence, you might hear things of a sensitive nature. This can be something related to an individual or to general security.</p>
+            <p class="govuk-body">If you uncover information which poses a risk to an individual or group of people, get advice from your head of profession. Keep the details confidential and on a need to know basis.</p>
+            <p class="govuk-body">When you know you will be discussing sensitive issues, find out if there are relevant support groups or resources that you can share with users.</p>
+          {% endset %}
+
+          {% set htmlAccordion14 %}
+            <p class="govuk-body">Across Defence, all users should have digital services that are reliable. In some circumstances, a service not being available when it is needed can put lives at risk.</p>
+            <p class="govuk-body">Identify potential risks and security threats to the reliability of your service. Create clear instructions on how to respond and share them with the team.</p>
+          {% endset %}
+
           {{ component('accordion', {
             id: 'accordion-standards',
             items: [
@@ -85,13 +128,7 @@
                   text: '1. Understand users and their needs'
                 },
                 content: {
-                  html: '<p class="govuk-body">You should test your service with real users in the place that they use it. In Defence, this is not always possible. Consider testing in a simulated environment or bringing a representative user into your design team.</p>
-                        <p class="govuk-body">Be aware that your users might not be contactable for long periods while they are on deployment.</p>
-
-                        <ul>
-                        <li class="govuk-body"><a href="https://servicemanual.digital.mod.uk/user-research/">Doing user research in Defence</a></li>
-                        <li class="govuk-body"><a href="https://www.gov.uk/service-manual/service-standard/point-1-understand-user-needs">More on this standard in Defence</a></li>
-                        </ul>'
+                  html: htmlAccordion1 
                 }
               },
               {
@@ -99,7 +136,7 @@
                   text: '2.Solve a whole problem for users'
                 },
                 content: {
-                  html: '<p class="govuk-body">When inviting military personnel to meet with you, you need to follow a chain of command. A military sponsor can help you follow the chain of command, understand context and arrange visits to MOD sites.</p><p class="govuk-body">Ask your stakeholders to introduce you to the right military sponsor.</p>'
+                  html: htmlAccordion2
                 }
               },
               {
@@ -107,7 +144,7 @@
                   text: '3.Provide a joined up experience across all channels'
                 },
                 content: {
-                  html: '<p class="govuk-body">Make it clear that participation is voluntary and that they can stop taking part at any time. Share details about your service, your team and why you would like to meet.</p><p class="govuk-body">For user research sessions, you must give participants the MOD consent form and the Understanding your participation sheet.</p>'
+                  html: htmlAccordion3
                 }
               },
               {
@@ -115,7 +152,7 @@
                   text: '4. Make the service simple to use'
                 },
                 content: {
-                  html: '<p class="govuk-body">Create things like meeting agendas, presentations or user research discussion guides. Write these in plain English so that all users can understand them.</p><p class="govuk-body">Ask someone to take notes so that you can focus on running the session. This is crucial in Defence settings where there is no wifi or you are not allowed to record conversations.</p>'
+                  html: htmlAccordion4
                 }
               },
               {
@@ -123,7 +160,7 @@
                   text: '5. Make sure everyone can use the service'
                 },
                 content: {
-                  html: '<p class="govuk-body">Review what you plan to cover in sessions and assess any risks to triggering past trauma.</p><p class="govuk-body">For in-person sessions away from a user’s day-to-day environment, choose a venue that is quiet and easy to access. If sensitive topics are likely to come up, you will need a private area.</p>'
+                  html: htmlAccordion5
                 }
               },
               {
@@ -131,8 +168,7 @@
                   text: '6. Have a multidisciplinary team'
                 },
                 content: {
-                  html: '<p class="govuk-body">Give users respect and autonomy. If you can, arrange to meet with users without the people they report to being present. Give people time to think and to respond - do not hurry or correct them.</p><p class="govuk-body">When testing your service, remind users that you are not testing them and that there are no wrong responses.</p>'
-
+                  html: htmlAccordion6
                 }
               },
               {
@@ -140,7 +176,7 @@
                   text: '7. Use agile ways of working'
                 },
                 content: {
-                  html: '<p class="govuk-body">Do not let your own experiences and opinions affect conversations with users. Use inclusive language and mirror how someone describes their experiences.</p><p class="govuk-body">You should also try to minimise your physical and verbal reactions to comments. For example, nodding, frowning or saying if you agree or disagree.</p><p class="govuk-body">If you are discussing something that you have strong opinions on, consider sending someone else. </p>'
+                  html: htmlAccordion7
                 }
               },
               {
@@ -148,7 +184,7 @@
                   text: '8. Iterate and improve frequently'
                 },
                 content: {
-                  html: '<p class="govuk-body">In Defence, you are likely to meet with some people who have experience trauma or are suffering from Post Traumatic Stress Disorder (PTSD). </p><p class="govuk-body">If a user starts describing past trauma that is not related to your research, politely interrupt and acknowledge what they have said. Ask if they would like to take a break or stop the interview. You can also ask if they would like links to any support available.</p>'
+                  html: htmlAccordion8
                 }
               },
               {
@@ -156,7 +192,7 @@
                   text: '9. Create a secure service which protects users’ privacy'
                 },
                 content: {
-                  html: '<p class="govuk-body">Do not use personal devices or accounts to run remote sessions. If you are contacting users by phone, withhold your number and let users know that this will happen.</p><p class="govuk-body">Users have the right to drop off a remote session at any time. If a user leaves while you are discussing something sensitive or upsetting, contact them straight away to check if they need any support.</p>'
+                  html: htmlAccordion9
                 }
               },
               {
@@ -164,7 +200,7 @@
                   text: '10. Define what success looks like and publish performance data'
                 },
                 content: {
-                  html: '<p class="govuk-body">Review what you plan to cover in sessions and assess any risks to triggering past trauma.</p><p class="govuk-body">For in-person sessions away from a user’s day-to-day environment, choose a venue that is quiet and easy to access. If sensitive topics are likely to come up, you will need a private area.</p>'
+                  html: htmlAccordion10
                 }
               },
               {
@@ -172,8 +208,7 @@
                   text: '11. Choose the right tools and technology'
                 },
                 content: {
-                  html: '<p class="govuk-body">If you can, get an experienced user researcher to lead on this work. They can support team members with less experience.</p><p class="govuk-body">If a team member’s personal beliefs conflict with what you’re discussing, send someone else or take steps to reduce bias.</p><p class="govuk-body">Make sure everyone has the right level of security clearance and understands how we manage information in Defence. <a class="govuk-link govuk-link--no-visited-state" href="https://servicemanual.digital.mod.uk/security/">Find out more about security classifications</a>.</p>'
-
+                  html: htmlAccordion11
                 }
               },
               {
@@ -181,7 +216,7 @@
                   text: '12. Make new source code open'
                 },
                 content: {
-                  html: '<p class="govuk-body">Defence sites can be dangerous for people who are not familiar with them. Never visit a Defence site on your own, go with at least 1 other person from your team. You will also need a military sponsor to help with your visit.</p><p class="govuk-body">If you plan to observe military hardware in use, be aware of all the protocols and wear protective gear if necessary.</p>'
+                  html: htmlAccordion12
                 }
               },
               {
@@ -189,16 +224,16 @@
                   text: '13. Use and contribute to open standards, common components and patterns'
                 },
                 content: {
-                  html: '<p class="govuk-body">When talking to users in Defence, you might hear things of a sensitive nature. This can be something related to an individual or to general security.</p><p class="govuk-body">If you uncover information which poses a risk to an individual or group of people, get advice from your head of profession. Keep the details confidential and on a need to know basis.</p><p class="govuk-body">When you know you will be discussing sensitive issues, find out if there are relevant support groups or resources that you can share with users.</p>'
-                  }
+                  html: htmlAccordion13
+                }
               },
               {
                 heading: {
                   text: '14. Operate a reliable service'
                 },
                 content: {
-                  html: '<p class="govuk-body">When talking to users in Defence, you might hear things of a sensitive nature. This can be something related to an individual or to general security.</p><p class="govuk-body">If you uncover information which poses a risk to an individual or group of people, get advice from your head of profession. Keep the details confidential and on a need to know basis.</p><p class="govuk-body">When you know you will be discussing sensitive issues, find out if there are relevant support groups or resources that you can share with users.</p>'
-                  }
+                  html: htmlAccordion14
+                }
               }
             ]
           }) }}
