@@ -1,4 +1,4 @@
-[![Build and Deploy](https://github.com/defencedigital/moduk-service-manual/actions/workflows/build-and-deploy.yml/badge.svg?branch=main)](https://github.com/defencedigital/moduk-service-manual/actions/workflows/build-and-deploy.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b2aeb629-8c30-45b1-b51a-a8fc82bf4c22/deploy-status)](https://app.netlify.com/sites/defence-service-manual/deploys)
 
 # Defence Service Manual
 
