@@ -19,8 +19,9 @@ You should test your service with real users in the place that they use it. In D
 
 Be aware that your users might not be contactable for long periods while they are on deployment.
 
-[Doing user research in Defence](https://servicemanual.digital.mod.uk/user-research/)
-[More on this standard on GOV.UK](https://www.gov.uk/service-manual/service-standard/point-1-understand-user-needs)
+- [Doing user research in Defence](https://servicemanual.digital.mod.uk/user-research/)
+- [More on this standard on GOV.UK](https://www.gov.uk/service-manual/service-standard/point-1-understand-user-needs)
+{.govuk-list}
 
 
 ## 2. Solve a whole problem for users
@@ -29,8 +30,9 @@ Before you design a new service, check existing capabilities in Defence that can
 
 Consider environmental and physical constraints that exist across Defence. For example, some military personnel have periods with little or no wifi.
 
-[How to design services in Defence](https://servicemanual.digital.mod.uk/design/)
-[More about this standard on GOV.UK](https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem)
+- [How to design services in Defence](https://servicemanual.digital.mod.uk/design/)
+- [More about this standard on GOV.UK](https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem)
+{.govuk-list}
 
 
 ## 3. Provide a joined up experience across all channels
@@ -39,8 +41,9 @@ Identify all of the platforms and places where your service will be used. It cou
 
 Check how to classify information and manage it securely across all channels. 
 
-[Understand security classifications](https://servicemanual.digital.mod.uk/security/)
-[More about this standard on GOV.UK](https://www.gov.uk/service-manual/service-standard/point-3-join-up-across-channels)
+- [Understand security classifications](https://servicemanual.digital.mod.uk/security/)
+- [More about this standard on GOV.UK](https://www.gov.uk/service-manual/service-standard/point-3-join-up-across-channels)
+{.govuk-list}
 
 
 ## 4. Make the service simple to use
@@ -49,17 +52,19 @@ Defence environments can be complex but users need services that are quick, simp
 
 In the UK, every government digital service for citizens or internal users must be accessible. Consider Defence accessibility needs that are permanent, temporary or situational. 
 	
-[Start with simple designs](https://servicemanual.digital.mod.uk/design/start-with-simple-designs/)
-[How to meet accessibility regulations](https://servicemanual.digital.mod.uk/accessibility/meet-accessibility-regulations/)
-[More on this standard on GOV.UK](https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use)
+- [Start with simple designs](https://servicemanual.digital.mod.uk/design/start-with-simple-designs/)
+- [How to meet accessibility regulations](https://servicemanual.digital.mod.uk/accessibility/meet-accessibility-regulations/)
+- [More on this standard on GOV.UK](https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use)
+{.govuk-list}
 
 
 ## 5. Make sure everyone can use the service
 
 People in Defence can face physical barriers to using digital services. For example: they might have no wifi, low lighting or need to wear thick gloves. They can also find themselves dealing with extreme weather, stressful situations and fatigue. 
 
-[Understand Defence environments](https://servicemanual.digital.mod.uk/accessibility/meet-accessibility-regulations/)
-[More on this standard on GOV.UK](https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use)
+- [Understand Defence environments](https://servicemanual.digital.mod.uk/accessibility/meet-accessibility-regulations/)
+- [More on this standard on GOV.UK](https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use)
+{.govuk-list}
 
 
 ## 6. Have a multidisciplinary team
@@ -94,8 +99,9 @@ Evaluate and classify all information your service collects, stores and provides
 
 Identify and address security threats, privacy issues and risks associated with your service. Ask for advice from others in Defence.
 
-[Understand security classifications](https://servicemanual.digital.mod.uk/security/)
-[More about this standard on GOV.UK](https://www.gov.uk/service-manual/service-standard/point-9-create-a-secure-service)
+- [Understand security classifications](https://servicemanual.digital.mod.uk/security/)
+- [More about this standard on GOV.UK](https://www.gov.uk/service-manual/service-standard/point-9-create-a-secure-service)
+{.govuk-list}
 
 
 ## 10. Define what success looks like and publish performance data
@@ -140,19 +146,3 @@ Across Defence, all users should have digital services that are reliable. In som
 Identify potential risks and security threats to the reliability of your service. Create clear instructions on how to respond and share them with the team. 	
 
 [More on this standard on GOV.UK](https://www.gov.uk/service-manual/service-standard/point-14-operate-a-reliable-service)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
