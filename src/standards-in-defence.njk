@@ -1,0 +1,291 @@
+{% extends "layouts/base.njk" %}
+
+{% block body %}
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-breadcrumbs">
+
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
+        </li>
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/design/' | url }}">Standards in Defence</a>
+        </li>
+      </ol>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-main-wrapper">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">Standards in Defence</h1>
+        </div>
+      </div>
+
+      <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-two-thirds">
+
+          <p class="govuk-body">All teams creating digital services for Defence should meet GOV.UK service standards. This applies to internal services as well as services for citizens.</p>
+          
+          <p class="govuk-body">Meeting the GOV.UK service standards helps you:</p>
+
+          <ul class="govuk-body">
+            <li>design the right thing for your users</li>
+            <li>reuse existing patterns and capabilities</li>
+            <li>make the best recruitment and technology choices</li>
+          </ul>
+
+          {% set htmlAccordion1 %}
+            <p class="govuk-body">You should test your service with real users in the place that they use it. In Defence, this is not always possible. Consider testing in a simulated environment or bringing a representative user into your design team.</p>
+            <p class="govuk-body">Be aware that your users might not be contactable for long periods while they are on deployment.</p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="/user-research/">Doing user research in Defence</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-1-understand-user-needs" rel="external nofollow">More on this standard on GOV.UK</a></li>
+            </ul>
+          {% endset %}
+
+          {% set htmlAccordion2 %}
+            <p class="govuk-body">Before you design a new service, check existing capabilities in Defence that can be reused for part or all of your user’s journey.</p>
+            <p class="govuk-body">Consider environmental and physical constraints that exist across Defence. For example, some military personnel have periods with little or no wifi.</p>
+          <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="/design/">How to design services in Defence</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem" rel="external nofollow">More on this standard on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion3 %}
+            <p class="govuk-body">Identify all of the platforms and places where your service will be used. It could be across land, sea and air, on military bases or in the battlespace. You might also need to integrate with systems used by our allies. </p>
+            <p class="govuk-body">Check how to classify information and manage it securely across all channels. </p>
+          <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="/security/">Understand security classifications</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-3-join-up-across-channels" rel="external nofollow">More on this standard on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion4 %}
+            <p class="govuk-body">Defence environments can be complex but users need services that are quick, simple and easy to use.  </p>
+            <p class="govuk-body">In the UK, every government digital service for citizens or internal users must be accessible. Consider Defence accessibility needs that are permanent, temporary or situational. </p>
+          <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="/design/start-with-simple-designs/">Start with simple designs</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="/accessibility/meet-accessibility-regulations/">How to meet accessibiity regulations</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use" rel="external nofollow">More on this standard on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion5 %}
+            <p class="govuk-body">People in Defence can face physical barriers to using digital services. For example they might have no wifi, low lighting or need to wear thick gloves. They can also find themselves dealing with extreme weather, stressful situations and fatigue.</p>
+          <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="/accessibility/understand-defence-environments/">Understand Defence environments</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-5-make-sure-everyone-can-use-the-servic " rel="external nofollow">More on this standard on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion6 %}
+            <p class="govuk-body">When designing services for military personnel, make sure some of the people on your team have military or Defence experience. If this is not possible, work closely with military users and stakeholders. </p>
+            <p class="govuk-body">Consider the level of security clearance each person on your team needs. Plan ahead -  it can take longer than usual for new people to join.</p>
+           <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-6-have-a-multidisciplinary-team" rel="external nofollow">More on this standard on GOV.UK</a></li>
+            </ul>
+          {% endset %}
+        
+          {% set htmlAccordion7 %}
+            <p class="govuk-body">In Defence, the use of new technology is an opportunity and a threat. Digital teams need to move quickly.</p>
+            <p class="govuk-body">Use agile ways of working to turn ideas and the latest technology into great services for Defence. </p>
+          <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-7-use-agile-ways-of-working" rel="external nofollow">More on this standard on GOV.UK</a></li>
+            </ul>
+          {% endset %}
+
+          {% set htmlAccordion8 %}
+            <p class="govuk-body">Some digital services in Defence are dependant on legacy systems that do not use agile delivery methods. If this is the case, iterate and improve what you can within the scope of your service.</p>
+            <p class="govuk-body">You might need to plan the release of improvements around maintenance schedules or when military personnel are deployed. </p>
+          <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-8-iterate-and-improve-frequently" rel="external nofollow">More on this standard on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion9 %}
+            <p class="govuk-body">Evaluate and classify all information your service collects, stores and provides. Do not classify information higher than it needs to be.</p>
+            <p class="govuk-body">Identify and address security threats, privacy issues and risks associated with your service. Ask for advice from others in Defence.</p>
+          <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="/security/">Understand security classifications</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-9-create-a-secure-service" rel="external nofollow">More on this standard on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion10 %}
+            <p class="govuk-body">As well as measuring how your service is used, you might need to measure operational effectiveness. This can include readiness to deploy a battalion or time saved to do a task.</p>
+            <p class="govuk-body">For some services in Defence, it might not be appropriate to share performance data publicly. </p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-10-define-success-publish-performance-data" rel="external nofollow">More on this standard on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion11 %}
+            <p class="govuk-body">To deploy your service successfully, you might need to integrate with legacy platforms across Defence. They could be on land, on the sea, under the water or in the air. Understand any technical and physical constraints before you start. </p>
+            <p class="govuk-body">Consider reusing technology already available in Defence. You also need to check which tools are suitable for use in Defence.</p>
+          <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-11-choose-the-right-tools-and-technology" rel="external nofollow">More on this standard on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion12 %}
+            <p class="govuk-body">Before you use open source code, check that it is appropriate for use in Defence. You can ask other teams and in your community of practice.</p>
+            <p class="govuk-body">If you use open source code and would like to contribute to it, you must not share any sensitive, SECRET or TOP SECRET information.</p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open" rel="external nofollow">More on this standard on GOV.UK</a></li>
+            </ul>
+          {% endset %}
+
+          {% set htmlAccordion13 %}
+            <p class="govuk-body">It is important to share the good things you are doing with other Government Departments in the UK and our allies internationally. You must not openly share any sensitive, SECRET or TOP SECRET information. </p>
+            <p class="govuk-body">In Defence, use show and tells and community meet-ups to share what you are doing with other teams.</p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-13-use-common-standards-components-patterns" rel="external nofollow">More on this standard on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion14 %}
+            <p class="govuk-body">Across Defence, all users should have digital services that are reliable. In some circumstances, a service not being available when it is needed can put lives at risk. </p>
+            <p class="govuk-body">Identify potential risks and security threats to the reliability of your service. Create clear instructions on how to respond and share them with the team. </p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-14-operate-a-reliable-service" rel="external nofollow">More on this standard on GOV.UK</a></li>
+            </ul>
+          {% endset %}
+
+          {{ component('accordion', {
+            classes: 'govuk-!-margin-bottom-0',
+            id: 'accordion-standards',
+            items: [
+              {
+                heading: {
+                  text: '1. Understand users and their needs'
+                },
+                content: {
+                  html: htmlAccordion1 
+                }
+              },
+              {
+                heading: {
+                  text: '2.Solve a whole problem for users'
+                },
+                content: {
+                  html: htmlAccordion2
+                }
+              },
+              {
+                heading: {
+                  text: '3.Provide a joined up experience across all channels'
+                },
+                content: {
+                  html: htmlAccordion3
+                }
+              },
+              {
+                heading: {
+                  text: '4. Make the service simple to use'
+                },
+                content: {
+                  html: htmlAccordion4
+                }
+              },
+              {
+                heading: {
+                  text: '5. Make sure everyone can use the service'
+                },
+                content: {
+                  html: htmlAccordion5
+                }
+              },
+              {
+                heading: {
+                  text: '6. Have a multidisciplinary team'
+                },
+                content: {
+                  html: htmlAccordion6
+                }
+              },
+              {
+                heading: {
+                  text: '7. Use agile ways of working'
+                },
+                content: {
+                  html: htmlAccordion7
+                }
+              },
+              {
+                heading: {
+                  text: '8. Iterate and improve frequently'
+                },
+                content: {
+                  html: htmlAccordion8
+                }
+              },
+              {
+                heading: {
+                  text: '9. Create a secure service which protects users’ privacy'
+                },
+                content: {
+                  html: htmlAccordion9
+                }
+              },
+              {
+                heading: {
+                  text: '10. Define what success looks like and publish performance data'
+                },
+                content: {
+                  html: htmlAccordion10
+                }
+              },
+              {
+                heading: {
+                  text: '11. Choose the right tools and technology'
+                },
+                content: {
+                  html: htmlAccordion11
+                }
+              },
+              {
+                heading: {
+                  text: '12. Make new source code open'
+                },
+                content: {
+                  html: htmlAccordion12
+                }
+              },
+              {
+                heading: {
+                  text: '13. Use and contribute to open standards, common components and patterns'
+                },
+                content: {
+                  html: htmlAccordion13
+                }
+              },
+              {
+                heading: {
+                  text: '14. Operate a reliable service'
+                },
+                content: {
+                  html: htmlAccordion14
+                }
+              }
+            ]
+          }) }}
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}
