@@ -11,6 +11,7 @@ Check how the Defence Service Manual has changed. This includes new content and 
 
 {% set htmlOutput %}
   <ul class="govuk-list govuk-list--bullet">
+    <li>added feedback form to link in banner</li>
     <li>added how to delete user research data</li>
     <li>improved how to share user research findings</li>
     <li>created a template and link to the MOD consent form</li>
