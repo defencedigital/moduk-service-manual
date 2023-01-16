@@ -2,28 +2,22 @@ if (process.env.ELEVENTY_ENV !== 'production') {
   require('dotenv').config();
 }
 
-
 // Flags whether we compress the output etc
 const isProduction = process.env.ELEVENTY_ENV === 'production';
-
 
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItReplaceLink = require('markdown-it-replace-link');
 
-
 // Breadcrumb trail
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
-
 
 // Table of contents
 const eleventyPluginTOC = require('@thedigitalman/eleventy-plugin-toc-a11y');
 
-
 // Dates
 const { DateTime } = require('luxon');
-
 
 const markdownItOptions = {
   html: true,
@@ -31,59 +25,40 @@ const markdownItOptions = {
   linkify: false
 };
 
-
 const markdownItAnchorOptions = {
   level: 2,
   tabIndex: false
 };
 
-
-// Replace all markdown links with github pages URL path
-// const markdownItReplaceLinkOptions = {
-//   html: true,
-//   replaceLink: link => link.replace(/^\/.*$/, '/moduk-service-manual' + link)
-// }
-
-
 module.exports = function (eleventyConfig) {
-
 
   // Watch for changes
   eleventyConfig.addWatchTarget('./src/assets');
-
 
   // Date published and updated formatting
   eleventyConfig.addFilter('publishedDate', dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('LLLL yyyy');
   });
 
-
   eleventyConfig.setUseGitIgnore(false);
-
 
   // Copy GOV.UK fonts
   eleventyConfig.addPassthroughCopy({'node_modules/govuk-frontend/govuk/assets/fonts': 'assets/fonts'});
 
-
   // Copy GOV.UK javascript
   eleventyConfig.addPassthroughCopy({'node_modules/govuk-frontend/govuk/all.js': 'assets/scripts/govuk.js'});
-
 
   // Copy HMCTS Cookies javascript
   eleventyConfig.addPassthroughCopy({'./src/assets/scripts/cookie-manager-1.0.0.min.js': 'assets/scripts/cookie-manager-1.0.0.min.js'});
 
-
   // Copy cookies javascript
   eleventyConfig.addPassthroughCopy({'./components/cookies/cookies.js': 'assets/scripts/cookies.js'});
-
 
   // Copy MOD.UK assets
   eleventyConfig.addPassthroughCopy({'./src/assets/images': 'assets/images'});
 
-
   // Copy downloads folder
   eleventyConfig.addPassthroughCopy({'./src/downloads': 'downloads'});
-
 
   // Table of contents
   eleventyConfig.addPlugin(eleventyPluginTOC, {
@@ -100,7 +75,6 @@ module.exports = function (eleventyConfig) {
     listItemAnchorClass: 'moduk-contents-list__link govuk-link govuk-link--no-visited-state',
   });
 
-
   // Macros used in markdown files
   eleventyConfig.addCollection('everything', (collectionApi) => {
     const macroImport = `{%- from 'system/component.njk' import component -%}{%- from 'system/modukcomponent.njk' import modukcomponent -%}`
@@ -111,24 +85,14 @@ module.exports = function (eleventyConfig) {
     return collMacros
   });
 
-
   // Markdown configurations
   eleventyConfig.setLibrary('md', markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions).use(markdownItAttrs));
-
-  // if (isProduction) {
-  //   eleventyConfig.setLibrary('md', markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions).use(markdownItReplaceLink, markdownItReplaceLinkOptions).use(markdownItAttrs));
-  // } else {
-  //   eleventyConfig.setLibrary('md', markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions).use(markdownItAttrs));
-  // }
-
 
   // Navigation
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-
   // Suppresses output of the paths of all generated files
   eleventyConfig.setQuietMode(false);
-
 
   // Configurations
   return {
@@ -143,6 +107,5 @@ module.exports = function (eleventyConfig) {
     htmlTemplateEngine: 'njk',
     dataTemplateEngine: 'njk'
   };
-
 
 };
