@@ -55,6 +55,11 @@
 
                 <div class="govuk-radios" data-module="govuk-radios">
 
+                  {# 
+                    This approach was taken because Netlify does not play nicely with the standard GOV.UK approach 
+                    to formatting radio buttons - https://stevepolito.design/blog/working-with-radio-buttons-in-netlify-and-gatsby 
+                  #}
+
                   <label class="govuk-radios__item">
                     <input class="govuk-radios__input" id="very-satisfied" name="Overall, how do you feel about the Defence Service Manual?" type="radio" value="Very satisfied" required>
                     <span class="govuk-label govuk-radios__label" for="very-satisfied">Very satisfied</span>
@@ -79,31 +84,6 @@
                     <input class="govuk-radios__input" id="very-dissatisfied" name="Overall, how do you feel about the Defence Service Manual?" type="radio" value="Very dissatisfied">
                     <span class="govuk-label govuk-radios__label" for="very-dissatisfied">Very dissatisfied</span>
                   </label>
-                  
-                  <!--div class="govuk-radios__item">
-                    <input class="govuk-radios__input" id="very-satisfied" name="how-do-you-feel" type="radio" required value="Very satisfied">
-                    <label class="govuk-label govuk-radios__label" for="very-satisfied">Very satisfied</label>
-                  </div-->
-
-                  <!--div class="govuk-radios__item">
-                    <input class="govuk-radios__input" id="satisifed" name="how-do-you-feel" type="radio" value="Satisfied">
-                    <label class="govuk-label govuk-radios__label" for="satisfied">Satisfied</label>
-                  </div-->
-
-                  <!--div class="govuk-radios__item">
-                    <input class="govuk-radios__input" id="neither-satisfied-no-dissatisfied" name="how-do-you-feel" type="radio" value="Neither satisfied nor dissatisfied">
-                    <label class="govuk-label govuk-radios__label" for="neither-satisfied-no-dissatisfied">Neither satisfied nor dissatisfied</label>
-                  </div-->
-
-                  <!--div class="govuk-radios__item">
-                    <input class="govuk-radios__input" id="dissatisfied" name="how-do-you-feel" type="radio" value="Dissatisfied">
-                    <label class="govuk-label govuk-radios__label" for="dissatisfied">Dissatisfied</label>
-                  </div-->
-                  
-                  <!--div class="govuk-radios__item">
-                    <input class="govuk-radios__input" id="very-dissatisfied" name="how-do-you-feel" type="radio" value="Very dissatisfied">
-                    <label class="govuk-label govuk-radios__label" for="very-dissatisfied">Very dissatisfied</label>
-                  </div-->
                       
                 </div>
                 
