@@ -8,10 +8,8 @@ const gulpif = require('gulp-if');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 
-
 // Flags whether we compress the output etc
 const isProduction = process.env.ELEVENTY_ENV !== 'development';
-
 
 // Source script files
 const sourceFiles = [
@@ -19,7 +17,6 @@ const sourceFiles = [
   './components/feedback/feedback.js',
   './components/send-your-feedback/send-your-feedback.js'
 ];
-
 
 // Combine all script files, process them and output into a single script file
 const scripts = (cb) => {
@@ -37,6 +34,5 @@ const scripts = (cb) => {
   .on('done', cb);
 
 };
-
 
 module.exports = scripts;
