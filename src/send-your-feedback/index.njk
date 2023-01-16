@@ -43,7 +43,7 @@
 
             <p class="govuk-body-l">Your feedback helps us improve the Defence Service Manual.</p>
 
-            <div class="govuk-form-group form-validate__input-wrapper js-form-validate__input-wrapper" id="how-do-you-feel-about-the-defence-service-manual">
+            <div class="govuk-form-group form-validate__input-wrapper js-form-validate__input-wrapper" id="how-do-you-feel">
 
               <fieldset class="govuk-fieldset" aria-describedby="overall-how-do-you-feel-about-the-defence-service-manual-error">
               
@@ -54,31 +54,36 @@
                 </p>
 
                 <div class="govuk-radios" data-module="govuk-radios">
-                  
-                  <div class="govuk-radios__item">
-                    <input class="govuk-radios__input" id="very-satisfied" name="Overall, how do you feel about the Defence Service Manual?" type="radio" required value="Very satisfied">
-                    <label class="govuk-label govuk-radios__label" for="very-satisfied">Very satisfied</label>
-                  </div>
 
-                  <div class="govuk-radios__item">
+                  {# 
+                    This approach was taken because Netlify does not play nicely with the standard GOV.UK approach 
+                    to formatting radio buttons - https://stevepolito.design/blog/working-with-radio-buttons-in-netlify-and-gatsby 
+                  #}
+
+                  <label class="govuk-radios__item">
+                    <input class="govuk-radios__input" id="very-satisfied" name="Overall, how do you feel about the Defence Service Manual?" type="radio" value="Very satisfied" required>
+                    <span class="govuk-label govuk-radios__label">Very satisfied</span>
+                  </label>
+
+                  <label class="govuk-radios__item">
                     <input class="govuk-radios__input" id="satisfied" name="Overall, how do you feel about the Defence Service Manual?" type="radio" value="Satisfied">
-                    <label class="govuk-label govuk-radios__label" for="satisfied">Satisfied</label>
-                  </div>
+                    <span class="govuk-label govuk-radios__label">Satisfied</span>
+                  </label>
 
-                  <div class="govuk-radios__item">
-                    <input class="govuk-radios__input" id="neither-satisfied-nor-dissatisfied" name="Overall, how do you feel about the Defence Service Manual?" type="radio" value="Neither satisfied nor dissatisfied">
-                    <label class="govuk-label govuk-radios__label" for="neither-satisfied-nor-dissatisfied">Neither satisfied nor dissatisfied</label>
-                  </div>
+                  <label class="govuk-radios__item">
+                    <input class="govuk-radios__input" id="neither-satisfied-no-dissatisfied" name="Overall, how do you feel about the Defence Service Manual?" type="radio" value="Neither satisfied nor dissatisfied">
+                    <span class="govuk-label govuk-radios__label">Neither satisfied nor dissatisfied</span>
+                  </label>
 
-                  <div class="govuk-radios__item">
+                  <label class="govuk-radios__item">
                     <input class="govuk-radios__input" id="dissatisfied" name="Overall, how do you feel about the Defence Service Manual?" type="radio" value="Dissatisfied">
-                    <label class="govuk-label govuk-radios__label" for="dissatisfied">Dissatisfied</label>
-                  </div>
-                  
-                  <div class="govuk-radios__item">
+                    <span class="govuk-label govuk-radios__label">Dissatisfied</span>
+                  </label>
+
+                  <label class="govuk-radios__item">
                     <input class="govuk-radios__input" id="very-dissatisfied" name="Overall, how do you feel about the Defence Service Manual?" type="radio" value="Very dissatisfied">
-                    <label class="govuk-label govuk-radios__label" for="very-dissatisfied">Very dissatisfied</label>
-                  </div>
+                    <span class="govuk-label govuk-radios__label">Very dissatisfied</span>
+                  </label>
                       
                 </div>
                 
@@ -153,7 +158,7 @@
 
     formValidate.validate(function(errorFields) {
 
-      var radioGroup   = document.getElementById('how-do-you-feel-about-the-defence-service-manual');
+      var radioGroup   = document.getElementById('how-do-you-feel');
       var errorMessage = document.getElementsByClassName('govuk-error-message')[0];
       var errorSummary = document.getElementsByClassName('govuk-error-summary')[0];
 
