@@ -3,10 +3,10 @@ layout: "layouts/guidance.njk"
 section: "Ethics"
 title: "Before you meet with people"
 description: "Do the right thing when you meet users and stakeholders across Defence, and keep your team safe."
-datePublished: 2022-11-07
+datePublished: 2023-01-17
 eleventyNavigation:
-  key: "Security"
-  url: "/security/"
+  key: "Ethics"
+  url: "/ethics/"
 ---
 
 There are a few things you should do to make the most of your time with users and stakeholders.
