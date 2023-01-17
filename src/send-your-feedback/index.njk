@@ -43,7 +43,7 @@
 
             <p class="govuk-body-l">Your feedback helps us improve the Defence Service Manual.</p>
 
-            <div class="govuk-form-group form-validate__input-wrapper js-form-validate__input-wrapper" id="how-do-you-feel">
+            <div class="govuk-form-group form-validate__input-wrapper js-form-validate__input-wrapper" id="overall-how-do-you-feel-about-the-defence-service-manual">
 
               <fieldset class="govuk-fieldset" aria-describedby="overall-how-do-you-feel-about-the-defence-service-manual-error">
               
@@ -91,10 +91,9 @@
 
             </div>
 
-            {{ component('character-count', {
+            {{ component('textarea', {
               name: 'how-could-we-improve-the-defence-service-manual',
-              id: 'with-hint',
-              maxlength: 1200,
+              id: 'how-could-we-improve-the-defence-service-manual',
               label: {
                 text: 'How could we improve the Defence Service Manual?',
                 classes: 'govuk-label--m',
@@ -158,7 +157,7 @@
 
     formValidate.validate(function(errorFields) {
 
-      var radioGroup   = document.getElementById('how-do-you-feel');
+      var radioGroup   = document.getElementById('overall-how-do-you-feel-about-the-defence-service-manual');
       var errorMessage = document.getElementsByClassName('govuk-error-message')[0];
       var errorSummary = document.getElementsByClassName('govuk-error-summary')[0];
 
