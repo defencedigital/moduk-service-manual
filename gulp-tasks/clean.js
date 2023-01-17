@@ -1,7 +1,6 @@
 const { src }     = require('gulp');
 const cleanPublic = require('gulp-clean');
 
-
 // Cleans the public folder
 const clean = (cb) => {
 
@@ -15,6 +14,5 @@ const clean = (cb) => {
   .on('done', cb);
 
 };
-
 
 module.exports = clean;

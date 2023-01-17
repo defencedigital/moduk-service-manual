@@ -1,11 +1,9 @@
 const { dest, src } = require('gulp');
 
-
 // Source script files
 const sourceFiles = [
   'app/assets/**/*.*'
 ];
-
 
 // Move all images into the output folder
 const images = (cb) => {
@@ -19,6 +17,5 @@ const images = (cb) => {
   .on('done', cb);
 
 };
-
 
 module.exports = images;
