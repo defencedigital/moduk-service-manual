@@ -1,0 +1,187 @@
+{% extends "layouts/base.njk" %}
+
+{% set feedbackForm = 'false' %}
+
+{% block body %}
+
+<div class="govuk-width-container">
+
+  <div class="govuk-breadcrumbs">
+
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a></li>
+    </ol>
+  
+  </div>
+
+</div>
+
+<div class="govuk-width-container">
+
+  <div class="govuk-main-wrapper">
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-two-thirds">
+
+        <form class="form-validate js-form-validate" id="send-your-feedback" name="Send your feedback" action="/send-your-feedback/thank-you" method="POST" autocomplete="off" novalidate data-netlify="true" data-netlify-honeypot="giraffe">
+
+          {{ component('error-summary', {
+            classes: 'is-hidden',
+            titleText: 'There is a problem',
+            errorList: [
+              {
+                text: 'Select how you feel about the Defence Service Manual',
+                href: '#very-satisfied'
+              }
+            ]
+          }) }}
+
+          <div class="moduk-prose">
+
+            <h1>Send your feedback</h1>
+
+            <p class="govuk-body-l">Your feedback helps us improve the Defence Service Manual.</p>
+
+            <div class="govuk-form-group form-validate__input-wrapper js-form-validate__input-wrapper" id="overall-how-do-you-feel-about-the-defence-service-manual">
+
+              <fieldset class="govuk-fieldset" aria-describedby="overall-how-do-you-feel-about-the-defence-service-manual-error">
+              
+                <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">Overall, how do you feel about the Defence Service Manual?</legend>
+                
+                <p class="govuk-error-message is-hidden" id="overall-how-do-you-feel-about-the-defence-service-manual-error">
+                  <span class="govuk-visually-hidden">Error:</span> Select how you feel about the Defence Service Manual
+                </p>
+
+                <div class="govuk-radios" data-module="govuk-radios">
+
+                  {# 
+                    This approach was taken because Netlify does not play nicely with the standard GOV.UK approach 
+                    to formatting radio buttons - https://stevepolito.design/blog/working-with-radio-buttons-in-netlify-and-gatsby 
+                  #}
+
+                  <label class="govuk-radios__item">
+                    <input class="govuk-radios__input" id="very-satisfied" name="Overall, how do you feel about the Defence Service Manual?" type="radio" value="Very satisfied" required>
+                    <span class="govuk-label govuk-radios__label">Very satisfied</span>
+                  </label>
+
+                  <label class="govuk-radios__item">
+                    <input class="govuk-radios__input" id="satisfied" name="Overall, how do you feel about the Defence Service Manual?" type="radio" value="Satisfied">
+                    <span class="govuk-label govuk-radios__label">Satisfied</span>
+                  </label>
+
+                  <label class="govuk-radios__item">
+                    <input class="govuk-radios__input" id="neither-satisfied-no-dissatisfied" name="Overall, how do you feel about the Defence Service Manual?" type="radio" value="Neither satisfied nor dissatisfied">
+                    <span class="govuk-label govuk-radios__label">Neither satisfied nor dissatisfied</span>
+                  </label>
+
+                  <label class="govuk-radios__item">
+                    <input class="govuk-radios__input" id="dissatisfied" name="Overall, how do you feel about the Defence Service Manual?" type="radio" value="Dissatisfied">
+                    <span class="govuk-label govuk-radios__label">Dissatisfied</span>
+                  </label>
+
+                  <label class="govuk-radios__item">
+                    <input class="govuk-radios__input" id="very-dissatisfied" name="Overall, how do you feel about the Defence Service Manual?" type="radio" value="Very dissatisfied">
+                    <span class="govuk-label govuk-radios__label">Very dissatisfied</span>
+                  </label>
+                      
+                </div>
+                
+              </fieldset>
+
+            </div>
+
+            {{ component('textarea', {
+              name: 'how-could-we-improve-the-defence-service-manual',
+              id: 'how-could-we-improve-the-defence-service-manual',
+              label: {
+                text: 'How could we improve the Defence Service Manual?',
+                classes: 'govuk-label--m',
+                isPageHeading: false
+              },
+              hint: {
+                text: 'Include as much detail as you can, including any links. Do not include any personal details.'
+              }
+            }) }}
+
+            {{ component('input', {
+              label: {
+                text: 'Your email address (optional)',
+                classes: 'govuk-label--m'
+              },
+              hint: {
+                text: 'We will only contact you to discuss your feedback.'
+              },
+              id: 'email',
+              name: 'email',
+              type: 'email',
+              autocomplete: 'email',
+              spellcheck: false
+            }) }}
+
+            <div class="govuk-form-group govuk-visually-hidden" aria-hidden="true">
+              <label class="govuk-label govuk-label--m" for="giraffe">Don’t fill this out if you’re human</label>
+              <input class="govuk-input" id="giraffe" name="giraffe" type="text" autocomplete="off" tabindex="-1">
+            </div>
+
+            {{ component('button', {
+              type: 'submit',
+              text: 'Send message'
+            }) }}
+
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock %}
+
+
+{% block pageScripts %}
+<script>
+
+  var form = document.getElementById('send-your-feedback');
+
+  var formValidate = new FormValidator({
+    element: form
+  });
+
+  form.addEventListener('submit', function(event) {
+
+    formValidate.validate(function(errorFields) {
+
+      var radioGroup   = document.getElementById('overall-how-do-you-feel-about-the-defence-service-manual');
+      var errorMessage = document.getElementsByClassName('govuk-error-message')[0];
+      var errorSummary = document.getElementsByClassName('govuk-error-summary')[0];
+
+      if (errorFields != '') {
+
+        event.preventDefault(); // Prevent default action on submit
+
+        // Send user to top of the page
+        window.scrollTo({ 
+          top: 0, 
+          behavior: 'smooth' 
+        });
+
+        Util.addClass(radioGroup, 'govuk-form-group--error') // Add error class to radio group
+        Util.removeClass(errorSummary, 'is-hidden'); // Show error summary
+        Util.removeClass(errorMessage, 'is-hidden'); // Show error message
+        
+        Util.moveFocus(errorSummary); // Focus
+
+      }
+
+    });
+
+  });
+
+</script>
+{% endblock %}
