@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Ethics"
 title: "When you meet with people"
 description: "Do the right thing when you meet users and stakeholders across Defence, and keep your team safe."
-datePublished: 2022-11-07
+datePublished: 2023-01-17
 eleventyNavigation:
   key: "Ethics"
   url: "/ethics/"
