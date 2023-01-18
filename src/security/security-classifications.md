@@ -1,7 +1,7 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Security"
-title: "Security classifications"
+title: "How to classify information"
 description: "Understand OFFICIAL, SECRET and TOP SECRET classifications and how to classify large amounts of data in Defence."
 datePublished: 2022-11-07
 eleventyNavigation:
@@ -11,7 +11,7 @@ eleventyNavigation:
 
 In the UK and internationally, security classifications are used to protect different kinds of information.
 
-## Classifications used in Defence
+## What we use in Defence
 
 In Defence, like all other UK Government departments, we use 3 levels of security classification:
 
