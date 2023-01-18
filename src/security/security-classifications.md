@@ -11,7 +11,7 @@ eleventyNavigation:
 
 In the UK and internationally, security classifications are used to protect different kinds of information.
 
-## Classifications used in Defence
+## What we use in Defence
 
 In Defence, like all other UK Government departments, we use 3 levels of security classification:
 
