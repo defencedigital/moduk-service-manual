@@ -1,7 +1,7 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Security"
-title: "Security classifications"
+title: "How to classify information"
 description: "Understand OFFICIAL, SECRET and TOP SECRET classifications and how to classify large amounts of data in Defence."
 datePublished: 2022-11-07
 eleventyNavigation:
