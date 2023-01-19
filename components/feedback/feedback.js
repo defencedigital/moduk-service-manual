@@ -6,11 +6,9 @@
 
     var yesButton      = feedback[0].getElementsByClassName('js-feedback-yes')[0];
     var yesButtonClose = feedback[0].getElementsByClassName('js-feedback-yes-close')[0];
-    var yesForm        = feedback[0].getElementsByClassName('js-feedback-form-yes')[0];
 
     var noButton      = feedback[0].getElementsByClassName('js-feedback-no')[0];
     var noButtonClose = feedback[0].getElementsByClassName('js-feedback-no-close')[0];
-    var noForm        = feedback[0].getElementsByClassName('js-feedback-form-no')[0];
 
     var prompt      = feedback[0].getElementsByClassName('js-feedback-prompt')[0];
     var success     = feedback[0].getElementsByClassName('js-feedback-success')[0];
