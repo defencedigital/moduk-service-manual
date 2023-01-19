@@ -44,28 +44,24 @@ You should use tools that have an MOD licence, for example:
 
 ### Ask for access 
 
-To get an account under an MOD licence, [use the request form on Defence Digital Slack](https://defencedigital.slack.com/archives/C02GUNVHBBL). 
+If you are part of the Digital Foundry, you can ask for access to MOD tools using [this request form](https://defencedigital.atlassian.net/servicedesk/customer/portal/6).
 
-On a MODNET device, you can use Slack in your web browser.
+Existing Digital Foundry users can use the same form to ask for tools to be configured to their needs.
 
-When you ask for access, include:
-
-- your full name 
-- the project or service you’re working on
-- the tool you need access to
-- your email address
 
 ## Check what others are using
 
-You should check what tools others are using in Defence. For example, the:
+If the tool you would like to use isn’t listed, check if other teams in Defence are already using it or something similar.  For example, the:
 
 - user research community has some approved tools for remote research
-- design community uses a shared Figma account
+- design community uses a shared MOD Figma account
 
 You can: 
 
 - check with [your community](/your-community/)
 - ask in the [support channel on Defence Digital Slack](https://defencedigital.slack.com/archives/C02GUNVHBBL)
+
+On a MODNET device, you can use Slack in your web browser.
 
 ## What you must not use
 
@@ -74,3 +70,4 @@ Some tools have been assessed and are not suitable for use in Defence. For examp
 If you are recruiting participants for user research, you must not use social media platforms like Twitter, Instagram, LinkedIn and TikTok.
 
 If you are unsure, [ask on Defence Digital Slack](https://defencedigital.slack.com/archives/C02GUNVHBBL).
+
