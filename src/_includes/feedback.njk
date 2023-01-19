@@ -13,8 +13,15 @@
             <h2 class="moduk-feedback__prompt-question">Did you find what you were looking for?</h2>
 
             <ul class="moduk-feedback__option-list">
-              <li class="moduk-feedback__option-list-item"><button class="govuk-button moduk-feedback__prompt-link js-feedback-yes">Yes <span class="govuk-visually-hidden">this page is useful</span></button></li>
-              <li class="moduk-feedback__option-list-item"><button class="govuk-button moduk-feedback__prompt-link js-feedback-no" aria-controls="moduk-feedback__no" aria-expanded="false">No <span class="govuk-visually-hidden">this page is not useful</span></button></li>
+              
+              <li class="moduk-feedback__option-list-item">
+                <button class="govuk-button moduk-feedback__prompt-link js-feedback-button js-feedback-yes" aria-controls="moduk-feedback__yes">Yes <span class="govuk-visually-hidden">this page is useful</span></button>
+              </li>
+
+              <li class="moduk-feedback__option-list-item">
+                <button class="govuk-button moduk-feedback__prompt-link js-feedback-button js-feedback-no" aria-controls="moduk-feedback__no">No <span class="govuk-visually-hidden">this page is not useful</span></button>
+              </li>
+
             </ul>
 
           </div>
@@ -27,7 +34,7 @@
 
     </div>
 
-    <form class="moduk-feedback__form js-feedback-form js:is-hidden" id="moduk-feedback__no" method="POST" action="https://formspree.io/f/meqdpdjn">
+    <form class="moduk-feedback__form js-feedback-form js-feedback-form-yes js:is-hidden" id="moduk-feedback__yes" method="POST" autocomplete="off" novalidate data-netlify="true" data-netlify-honeypot="giraffe">
 
       <div class="govuk-width-container">
 
@@ -37,9 +44,79 @@
 
             <h2 class="govuk-heading-m">Help improve the Defence Service Manual</h2>
 
+            <input type="hidden" name="Did you find what you were looking for?" value="Yes" tabindex="-1" aria-hidden="true">
+            <input type="hidden" name="Url" value="https://defence-service-manual.netlify.app{{ page.url }}" tabindex="-1" aria-hidden="true">
+
             {{ component('textarea', {
-              id: 'guidance',
-              name: 'Guidance',
+              id: 'tell-us-more',
+              name: 'Tell us more (optional)',
+              rows: 3,
+              label: {
+                text: 'Tell us more (optional)'
+              },
+              hint: {
+                text: 'Include feedback, questions and suggestions.'
+              },
+              spellcheck: true
+            }) }}
+
+            {{ component('input', {
+              id: 'email-yes',
+              name: 'Email',
+              label: {
+                text: 'Email address (optional)'
+              },
+              type: 'email',
+              hint: {
+                text: 'We will only contact you to discuss your feedback.'
+              }
+            }) }}
+
+            <div class="govuk-form-group govuk-visually-hidden" aria-hidden="true">
+              <label class="govuk-label govuk-label--m" for="giraffe">Don’t fill this out if you’re human</label>
+              <input class="govuk-input" id="giraffe" name="giraffe" type="text" autocomplete="off" tabindex="-1">
+            </div>
+
+            <div class="govuk-button-group">
+
+              {{ component('button', {
+                classes: 'govuk-!-margin-bottom-0',
+                text: 'Send feedback',
+                type: 'submit'
+              }) }}
+
+              {{ component('button', {
+                classes: 'govuk-button--secondary govuk-!-margin-bottom-0 moduk-feedback__close js-feedback-yes-close no-js:is-hidden',
+                text: 'Cancel',
+                type: 'button'
+              }) }}
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </form>
+
+    <form class="moduk-feedback__form js-feedback-form js-feedback-form-no js:is-hidden" id="moduk-feedback__no" method="POST" autocomplete="off" novalidate data-netlify="true" data-netlify-honeypot="giraffe">
+
+      <div class="govuk-width-container">
+
+        <div class="govuk-grid-row">
+
+          <div class="govuk-grid-column-two-thirds">
+
+            <h2 class="govuk-heading-m">Help improve the Defence Service Manual</h2>
+
+            <input type="hidden" name="Did you find what you were looking for?" value="No" tabindex="-1" aria-hidden="true">
+            <input type="hidden" name="Url" value="https://defence-service-manual.netlify.app{{ page.url }}" tabindex="-1" aria-hidden="true">
+
+            {{ component('textarea', {
+              id: 'what-guidance-were-you-looking-for',
+              name: 'What guidance were you looking for?',
               rows: 3,
               label: {
                 text: 'What guidance were you looking for?'
@@ -51,18 +128,21 @@
             }) }}
 
             {{ component('input', {
+              id: 'email-no',
+              name: 'Email',
               label: {
                 text: 'Email address (optional)'
               },
               type: 'email',
               hint: {
                 text: 'We will only contact you to discuss your feedback.'
-              },
-              id: 'email',
-              name: 'Email'
+              }
             }) }}
 
-            <input type="hidden" id="url" name="Url" value="https://servicemanual.digital.mod.uk{{ page.url }}">
+            <div class="govuk-form-group govuk-visually-hidden" aria-hidden="true">
+              <label class="govuk-label govuk-label--m" for="giraffe">Don’t fill this out if you’re human</label>
+              <input class="govuk-input" id="giraffe" name="giraffe" type="text" autocomplete="off" tabindex="-1">
+            </div>
 
             <div class="govuk-button-group">
 
@@ -73,7 +153,7 @@
               }) }}
 
               {{ component('button', {
-                classes: 'govuk-button--secondary govuk-!-margin-bottom-0 moduk-feedback__close js-feedback-close no-js:is-hidden',
+                classes: 'govuk-button--secondary govuk-!-margin-bottom-0 moduk-feedback__close js-feedback-no-close no-js:is-hidden',
                 text: 'Cancel',
                 type: 'button'
               }) }}
