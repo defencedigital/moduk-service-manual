@@ -14,8 +14,8 @@ const isProduction = process.env.ELEVENTY_ENV !== 'development';
 // Source script files
 const sourceFiles = [
   './src/assets/scripts/util.js',
-  './components/feedback/feedback.js',
-  './components/send-your-feedback/send-your-feedback.js'
+  './components/form-validator/form-validator.js',
+  './components/feedback/feedback.js'
 ];
 
 // Combine all script files, process them and output into a single script file

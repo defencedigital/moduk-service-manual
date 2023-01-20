@@ -4,96 +4,117 @@
 
   if (feedback.length > 0) {
 
-    var yes       = feedback[0].getElementsByClassName('js-feedback-yes')[0],
-        no        = feedback[0].getElementsByClassName('js-feedback-no')[0],
-        form      = feedback[0].getElementsByClassName('js-feedback-form')[0],
-        close     = feedback[0].getElementsByClassName('js-feedback-close')[0],
-        prompt    = feedback[0].getElementsByClassName('js-feedback-prompt')[0],
-        questions = feedback[0].getElementsByClassName('js-feedback-question')[0],
-        success   = feedback[0].getElementsByClassName('js-feedback-success')[0],
-        guidance  = document.getElementById('guidance');
+    var yesButton      = feedback[0].getElementsByClassName('js-feedback-yes')[0];
+    var yesButtonClose = feedback[0].getElementsByClassName('js-feedback-yes-close')[0];
 
+    var noButton      = feedback[0].getElementsByClassName('js-feedback-no')[0];
+    var noButtonClose = feedback[0].getElementsByClassName('js-feedback-no-close')[0];
 
-    // Detect click on yes trigger
-    yes.addEventListener('click', function (event) {
-      
+    var prompt      = feedback[0].getElementsByClassName('js-feedback-prompt')[0];
+    var success     = feedback[0].getElementsByClassName('js-feedback-success')[0];
+    var questions   = feedback[0].getElementsByClassName('js-feedback-question')[0];
+
+    var focusableElements = 'input:not([tabindex="-1"]), textarea:not([tabindex="-1"]), .govuk-error-summary';
+
+    // Detect click on 'yes' button
+    yesButton.addEventListener('click', function (event) {
+
       event.preventDefault();
 
-      Util.addClass(questions, 'js:is-hidden'); // Hide the question
-      Util.removeClass(success, 'js:is-hidden'); // Show the success
+      var form = document.getElementById(this.getAttribute('aria-controls')); // Get form by ID
+
+      Util.addClass(prompt, 'js:is-hidden'); // Hide prompt and show form
+      Util.removeClass(form, 'js:is-hidden'); // Show form
+
+      var firstItem = form.querySelectorAll(focusableElements);
+
+      firstItem[0].focus();
+
+    });
+
+    // Detect click on 'no' button
+    noButton.addEventListener('click', function (event) {
+
+      event.preventDefault();
+
+      var form = document.getElementById(this.getAttribute('aria-controls')); // Get form by ID
+
+      Util.addClass(prompt, 'js:is-hidden'); // Hide prompt and show form
+      Util.removeClass(form, 'js:is-hidden'); // Show form
+
+      var firstItem = form.querySelectorAll(focusableElements);
+
+      firstItem[0].focus();
 
     });
 
 
-    // Detect click on no trigger
-    no.addEventListener('click', function (event) {
-      
+    // Detect click on 'yes' cancel button
+    yesButtonClose.addEventListener('click', function (event) {
+
       event.preventDefault();
 
-      Util.removeClass(form, 'js:is-hidden'); // Show the feedback form
-      Util.addClass(prompt, 'js:is-hidden'); // Hide the feedback prompt
+      document.querySelectorAll('.js-feedback-form').forEach(item => {
+        Util.addClass(item, 'js:is-hidden'); // Hide all forms
+      });
 
-      guidance.focus(); // Focus
-
-    });
-
-
-    // Detect click on close
-    close.addEventListener('click', function (event) {
-      
-      // Prevent form from submitting to the server
-      event.preventDefault();
-
-      Util.addClass(form, 'js:is-hidden'); // Hide the feedback form
       Util.removeClass(prompt, 'js:is-hidden'); // Show the feedback prompt
       Util.removeClass(questions, 'js:is-hidden'); // Show the question
 
-      no.focus(); // Focus
+      yesButton.focus();
+
+    });
+
+
+    // Detect click on 'no' cancel button
+    noButtonClose.addEventListener('click', function (event) {
+
+      event.preventDefault();
+
+      document.querySelectorAll('.js-feedback-form').forEach(item => {
+        Util.addClass(item, 'js:is-hidden'); // Hide all forms
+      });
+
+      Util.removeClass(prompt, 'js:is-hidden'); // Show the feedback prompt
+      Util.removeClass(questions, 'js:is-hidden'); // Show the question
+
+      noButton.focus();
 
     });
 
 
     // Check if an element is empty
     const isEmpty = str => !str.trim().length;
-
+    
 
     // Detect form submit
-    form.addEventListener('submit', function (event) {
+    document.querySelectorAll('.js-feedback-form').forEach(item => {
+      
+      item.addEventListener('submit', event => {
 
-      event.preventDefault();
+        Util.addClass(item, 'js:is-hidden');       // Hide the feedback form
+        Util.removeClass(prompt, 'js:is-hidden');  // Show the feedback prompt
+        Util.addClass(questions, 'js:is-hidden');  // Hide the question
+        Util.removeClass(success, 'js:is-hidden'); // Show the success
 
-      Util.addClass(form, 'js:is-hidden');       // Hide the feedback form
-      Util.removeClass(prompt, 'js:is-hidden');  // Show the feedback prompt
-      Util.addClass(questions, 'js:is-hidden');  // Hide the question
-      Util.removeClass(success, 'js:is-hidden'); // Show the success
-
-      if ( isEmpty( guidance.value ) ) {
-
-        // Do nothing
-
-      } else {
+        event.preventDefault();
 
         var data = new FormData(event.target);
 
         fetch(event.target.action, {
-          method: form.method,
+          method: item.method,
           body: data,
           headers: {
             'Accept': 'application/json'
           }
         }).then(response => {
-
-          if (response.ok) {
-            success.innerHTML = 'Thank you for your feedback';
-            form.reset();
-          };
-
+          item.reset(); // Reset form
         });
 
-      }
+      });
 
     });
 
-  };
+  }
 
 }());
