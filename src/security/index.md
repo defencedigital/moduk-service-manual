@@ -4,11 +4,11 @@ title: "Security"
 description: "Keep and share information securely in Defence, check how to use security classifications and label information."
 ---
 
-# Security
+# Security classifications
 
-## [Security classifications](/security/security-classifications/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [How to classify information](/security/security-classifications/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- Classifications used in Defence
+- What we use in Defence
 - Understand OFFICIAL, SECRET and TOP SECRET
 - Classifying large amounts of data
 
