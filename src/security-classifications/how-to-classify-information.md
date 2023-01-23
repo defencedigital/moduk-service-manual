@@ -1,12 +1,12 @@
 ---
 layout: "layouts/guidance.njk"
-section: "Security"
+section: "Security classifications"
 title: "How to classify information"
 description: "Understand OFFICIAL, SECRET and TOP SECRET classifications and how to classify large amounts of data in Defence."
 datePublished: 2022-11-07
 eleventyNavigation:
-  key: "Security"
-  url: "/security/"
+  key: "Security classifications"
+  url: "/security-classifications/"
 ---
 
 In the UK and internationally, security classifications are used to protect different kinds of information.
@@ -29,7 +29,7 @@ You need to be aware of the security classification of all information you deal 
 
 When you send emails on a MODNET device, you will be asked to select the security classification.
 
-If you create new information or capture new data, [check how to label it](/security/how-to-label-information/).
+If you create new information or capture new data, [check how to label it](/security-classifications/how-to-label-information/).
 
 ### OFFICIAL
 
