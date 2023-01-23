@@ -19,7 +19,7 @@ When testing your service, ask an experienced user researcher to lead on this wo
 
 Make sure everyone has the right level of security clearance and understands how we manage information in Defence. 
 
-Find out [more about security classifications](https://servicemanual.digital.mod.uk/security/). 
+Find out [more about security classifications](/security-classifications/). 
 
 
 ## Stay safe on site

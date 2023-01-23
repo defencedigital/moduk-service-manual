@@ -36,7 +36,7 @@ You need to include:
 - what tasks they are trying to complete
 - the security classification
 
-Currently, we only publish OFFICIAL information. Check <a href="../security/security-classifications/">how to classify information</a>.
+Currently, we only publish OFFICIAL information. Check <a href="../security-classifications/how-to-classify-information/">how to classify information</a>.
 
 ### What happens next
 
