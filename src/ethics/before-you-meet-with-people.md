@@ -27,7 +27,9 @@ Ask your stakeholders to introduce you to the right military sponsor.
 
 Make it clear that participation is voluntary and that they can stop taking part at any time. Share details about your service, your team and why you would like to meet. 
 
-For user research sessions, you must give participants the [MOD consent form](https://servicemanual.digital.mod.uk/user-research/collecting-data-from-participants/#:~:text=about%20the%20session-,Get,-participants%20to%20complete) and the [Understanding your participation sheet](https://servicemanual.digital.mod.uk/user-research/collecting-data-from-participants/#:~:text=or%20future%20research-,You,-can%20use%20this). 
+For user research sessions, you must give participants the MOD consent form and the MOD understanding your participation sheet. 
+
+ [Find out more and use the MOD templates](/user-research/collecting-data-from-participants/).
 
 ## Take care offering incentives
 
@@ -49,7 +51,7 @@ Ask someone to take notes so that you can focus on running the session. This is 
 
 Review what you plan to cover in sessions and assess any risks to triggering past trauma.
 
-For in-person sessions away from a user's day-to-day environment, choose a venue that is quiet and easy to access. If sensitive topics are likely to come up, you will need a private area. 
+For in-person sessions away from a user's day to day environment, choose a venue that is quiet and easy to access. If sensitive topics are likely to come up, you will need a private area. 
 
 Keep sessions short. If you need a longer session, plan for comfort breaks.
 

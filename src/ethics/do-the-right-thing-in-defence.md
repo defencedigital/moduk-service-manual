@@ -19,7 +19,7 @@ Ethics includes things like:
 - representing peoples’ views correctly
 - dealing with sensitive issues 
 
-You need to be ethical when you do user research with citizens or people in Defence. 
+You need to be ethical when you do user research with members of the public or people in Defence. 
 
 You should also consider ethics when meeting with stakeholders, presenting your service and running workshops.
 
