@@ -24,42 +24,43 @@ All tools and software that you use in Defence must be secure and meet data prot
   'type': 'cross',
   'items': [
     {
-      'item': 'use personal accounts of any software for work in Defence.'
+      'item': 'set up personal software accounts for work in Defence.'
     }
   ]
 }) }}
 
 ## What you can use
 
-You should use tools that have an MOD licence, for example:
+You should use tools that have a Ministry of Defence (MOD) licence, for example:
 
-- JIRA
-- Trello
 - Conceptboard
-- Github
+- GitHub
+- Google Workspace
+- JIRA
+- Slack
+- Trello 
+
 
 {{ component('inset-text', {
-  text: 'Do not use personal accounts of any software for work in Defence. There may be risks to your security and we cannot access work if you leave.'
+  text: 'Do not set up personal software accounts for work in Defence. There may be risks to your security and we cannot access work if you leave.'
 }) }}
 
 ### Ask for access 
 
-If you are part of the Digital Foundry, you can ask for access to MOD tools using [this request form](https://defencedigital.atlassian.net/servicedesk/customer/portal/6).
-
-Existing Digital Foundry users can use the same form to ask for tools to be configured to their needs.
+If you are part of Digital Foundry and need access to MOD tools, [use the service request form](https://defencedigital.atlassian.net/servicedesk/customer/portal/6).
 
 
 ## Check what others are using
 
-If the tool you would like to use isn’t listed, check if other teams in Defence are already using it or something similar.  For example, the:
+If the tool you would like to use is not listed, check if other teams in Defence are already using it or something similar.  For example, the:
 
 - user research community has some approved tools for remote research
 - design community uses a shared MOD Figma account
 
 You can: 
 
-- check with [your community](/your-community/)
-- ask in the [support channel on Defence Digital Slack](https://defencedigital.slack.com/archives/C02GUNVHBBL)
+- [check with your community](/your-community/)
+- [ask on Defence Digital Slack](https://defencedigital.slack.com/archives/C02GUNVHBBL)
 
 On a MODNET device, you can use Slack in your web browser.
 
@@ -70,4 +71,6 @@ Some tools have been assessed and are not suitable for use in Defence. For examp
 If you are recruiting participants for user research, you must not use social media platforms like Twitter, Instagram, LinkedIn and TikTok.
 
 If you are unsure, [ask on Defence Digital Slack](https://defencedigital.slack.com/archives/C02GUNVHBBL).
+
+On a MODNET device, you can use Slack in your web browser.
 
