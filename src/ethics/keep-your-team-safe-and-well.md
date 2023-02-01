@@ -26,7 +26,7 @@ Find out [more about security classifications](/security-classifications/).
 
 Some Ministry of Defence sites can be dangerous for people who are not familiar with them. 
 
-You should not visit barracks, ships or field sites on your own, go with at least 1 other person from your team. You will also need a military sponsor to help with your visit. 
+You should not visit barracks, ships or field sites on your own. Go with at least one other person from your team. You will also need a military sponsor to help with your visit. 
 
 If you plan to observe military hardware in use, be aware of all safety protocols and wear protective clothing if necessary. Remember not to take photos without permission. 
 
