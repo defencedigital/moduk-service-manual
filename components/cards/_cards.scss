@@ -17,7 +17,16 @@ Title: Cards
 
 
 .moduk-cards__heading {
-  margin: 0 0 govuk-spacing(6) 0;
+
+  @include govuk-media-query($from: "desktop") {
+    margin: 0 0 govuk-spacing(3) 0;
+  }
+
+}
+
+
+.moduk-cards__content {
+  margin-bottom: -30px;
 }
 
 
