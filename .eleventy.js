@@ -33,7 +33,9 @@ const markdownItAnchorOptions = {
 module.exports = function (eleventyConfig) {
 
   // Watch for changes
-  eleventyConfig.addWatchTarget('./src/assets');
+  eleventyConfig.addWatchTarget('./src/assets/styles/');
+  eleventyConfig.addWatchTarget('./src/assets/scripts/');
+  eleventyConfig.addWatchTarget('./components/');
 
   // Date published and updated formatting
   eleventyConfig.addFilter('publishedDate', dateObj => {
