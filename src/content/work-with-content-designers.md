@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Content"
 title: "Work with content designers"
 decsription: ""
-datePublished: 2022-11-07
+datePublished: 2023-02-01
 eleventyNavigation:
   key: "Content"
   url: "/content/"
@@ -24,7 +24,9 @@ If your team does not have a content designer, ask the UCD community for advice.
 
 ## Plan to pair write 
 
-Content often needs input from experts, for example in policy or security. Many content designers set up sessions to create content with experts. This is known as pair writing.
+Content often needs input from experts, for example in policy or security. 
+
+Many content designers set up sessions to create content with experts. This is known as pair writing.
 
 Tips for pair writing include:
 
@@ -37,7 +39,7 @@ Pair writing helps experts understand content design and is faster than tracking
 
 ## Use the content design community 
 
-If you need to create content but your team does not yet have a Content Designer, ask for advice on the MOD content community Slack channel. 
+If you need to create content but your team does not yet have a content designer, ask for advice on the MOD content community Slack channel. 
 
 On a MODNET device, you can use Slack in your web browser.
 
