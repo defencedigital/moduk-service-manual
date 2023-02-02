@@ -1,25 +1,28 @@
 ---
 layout: "layouts/landing.njk"
 title: "Content"
-description: "How to start with simple designs, use existing GOV.UK and Defence styles and design for safety."
+description: Create clear content for Defence services, check the styles you need to use and how to work with content designers."
 ---
 
-# Design
+# Content
 
-## [Start with simple designs](/design/start-with-simple-designs/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Start with your users](/content/start-with-your-users/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- Check existing patterns
-- Use the correct styles
-- Use official images and videos
+- Get to know your users
+- Only tell users what they need to know
+- Work with a user researcher
 
-## [Design for safety](/design/design-for-safety/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- Consider safety from the start
-- Test in real or simulated environments
-- Make it easy to report issues
+## [Writing for services in Defence](/content/writing-for-services-in-Defence/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-## [Naming services in Defence](/design/naming-services-in-defence/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+- Follow GOV.UK style
+- Use simple language
+- Take care with military terms
 
-- Start with the GOV.UK approach
-- Acronyms in service names
-- Example service names
+
+## [Work with content designers](/content/work-with-content-designers) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
+- When to get a content designer
+- Plan to pair write
+- Use the content design community
+
