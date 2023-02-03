@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/content/"
 ---
 
-It is only possible to write clear, useful content if you understand your users and what they need to do.
+You can only create useful content if you understand your users and what they need to do.
 
 ## Get to know your users
 
