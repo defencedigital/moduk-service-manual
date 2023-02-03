@@ -7,10 +7,29 @@ title:  "Iterations"
 
 Check how the Defence Service Manual has changed. This includes new content and improvements in response to user research and feedback.
 
+## February 2023 {.govuk-heading-m}
+
+{% set htmlOutput %}
+  <ul class="govuk-list govuk-list--bullet">
+    <li>simplified instructions for suggesting content</li>
+    <li>improved the label for Add or update content </li>
+    <li>added guidance for content designers</li>
+    <li>added guidance on tools</li>
+    <li>redesign of the homepage</li>
+    <li>added validation messages to forms</li>
+  </ul>
+{% endset %}
+
+{{ component('details', {
+  summaryText: 'What changed',
+  html: htmlOutput
+}) }}
+
 ## January 2023 {.govuk-heading-m}
 
 {% set htmlOutput %}
   <ul class="govuk-list govuk-list--bullet">
+    <li>added a section on ethics</li>
     <li>improved security title and labels</li>
     <li>added feedback form to link in banner</li>
     <li>added how to delete user research data</li>
@@ -28,7 +47,7 @@ Check how the Defence Service Manual has changed. This includes new content and 
   html: htmlOutput
 }) }}
 
-## November 2022 {.govuk-heading-m}
+## December 2022 {.govuk-heading-m}
 
 {% set htmlOutput %}
   <ul class="govuk-list govuk-list--bullet">
@@ -38,6 +57,18 @@ Check how the Defence Service Manual has changed. This includes new content and 
     <li>Made call out pattern maroon</li>
     <li>Updated descriptions on homepage</li>
     <li>Iterated the design section</li>
+  </ul>
+{% endset %}
+
+{{ component('details', {
+  summaryText: 'What changed',
+  html: htmlOutput
+}) }}
+
+## November 2022 {.govuk-heading-m}
+
+{% set htmlOutput %}
+  <ul class="govuk-list govuk-list--bullet">
     <li>Iterated how to share user research findings</li>
     <li>Added section on checking what research has been done</li>
     <li>Created a dedicated page to sign up for user research</li>

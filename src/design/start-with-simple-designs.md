@@ -9,43 +9,34 @@ eleventyNavigation:
   url: "/design/"
 ---
 
-Starting with simple designs and iterating based on user research will keep your service or product as simple as possible.
+Make sure your service is easy to use by starting simply and using existing patterns.
 
-## Check existing patterns
 
-Existing patterns and components have usually been tested with users. They are likely to be responsive and meet accessibility regulations.
+## Services for users in Defence
 
-Start by checking the GOV.UK:
+You need to reuse patterns and components already used in Defence. 
 
-- [Design System](https://design-system.service.gov.uk/)
-- [Upcoming components and patterns](https://design-system.service.gov.uk/community/upcoming-components-patterns/)
+Before you start, [check MOD.UK Frontend]().
 
-You can adapt an existing pattern or component. Make sure you:
+It helps you build services that are:
 
-- follow the [GOV.UK design principles](https://www.gov.uk/guidance/government-design-principles/)
-- share what you are doing with the [MOD user-centred design community](/your-community/user-centred-design/)
-- work with a User Researcher to test the designs
+- consistent with other Defence services
+- accessible
+- easy to maintain
 
-## Use correct styles
+## Services for citizens
 
-### Defence Digital styles
+If your service is for members of the public or hosted on GOV.UK, [use the GOV.UK Design System](https://design-system.service.gov.uk/).
 
-Use these for services or products hosted:
+It helps you build services that:
 
-- in Defence, for example an internal service or intranet
-- publicly on foundry.digital.mod.uk
+- are familiar to citizens 
+- consistent with other GOV.UK services
 
-To get Defence Digital styles, [contact the MOD design system team](mailto:andrew.graham2@digital.mod.uk?Subject=Defence%20Digital%20styles).
-
-### GOV.UK styles
-
-Use these for services or products hosted publicly on GOV.UK.
-
-[Get GOV.UK styles](https://design-system.service.gov.uk/styles)
 
 ## Official images and videos
 
-If your users need images or videos to help them understand something, [select official MOD images or videos](https://www.defenceimagery.mod.uk/). 
+If your users need images or videos to help them complete a task, [select official MOD images or videos](https://www.defenceimagery.mod.uk/). 
 
 The images and videos are owned by MOD. You can use them for anything related to MOD without worrying about licences or copyright. 
 
