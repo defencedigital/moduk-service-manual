@@ -96,10 +96,10 @@
 
         document.querySelectorAll('.js-feedback-form').forEach(item => {
 
-          Util.addClass(item, 'js:is-hidden')        // Hide feedback form
-          Util.removeClass(prompt, 'js:is-hidden');  // Show the feedback prompt
-          Util.addClass(questions, 'js:is-hidden');  // Hide the question
-          Util.removeClass(success, 'js:is-hidden'); // Show the success
+          Util.addClass(item, 'is-hidden')        // Hide feedback form
+          Util.removeClass(prompt, 'is-hidden');  // Show the feedback prompt
+          Util.addClass(questions, 'is-hidden');  // Hide the question
+          Util.removeClass(success, 'is-hidden'); // Show the success
 
         });
 
@@ -110,7 +110,7 @@
 
     } else {
 
-      Util.removeClass(this.errorSummary, 'js:is-hidden');
+      Util.removeClass(this.errorSummary, 'is-hidden');
       Util.setAttributes(this.errorSummary, {'tabindex': '0'});
 
       this.errorSummary.scrollIntoView({

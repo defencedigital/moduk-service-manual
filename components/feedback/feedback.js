@@ -34,17 +34,17 @@
         var form      = document.getElementById(this.getAttribute('aria-controls'));
         var firstItem = form.querySelectorAll(self.focusableElements)[0];
 
-        if (Util.hasClass(form, 'js:is-hidden')) {
+        if (Util.hasClass(form, 'is-hidden')) {
 
-          Util.removeClass(form, 'js:is-hidden');
-          Util.addClass(self.prompt, 'js:is-hidden');
+          Util.removeClass(form, 'is-hidden');
+          Util.addClass(self.prompt, 'is-hidden');
 
           firstItem.focus();
 
         } else {
 
-          Util.addClass(form, 'js:is-hidden');
-          Util.removeClass(self.prompt, 'js:is-hidden');
+          Util.addClass(form, 'is-hidden');
+          Util.removeClass(self.prompt, 'is-hidden');
 
         }
 
@@ -63,7 +63,7 @@
     });    
 
     this.errorSummary.forEach((element) => {
-      Util.addClass(element, 'js:is-hidden');
+      Util.addClass(element, 'is-hidden');
     });
 
     this.errorGroup.forEach((element) => {
