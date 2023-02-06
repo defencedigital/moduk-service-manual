@@ -9,26 +9,22 @@ eleventyNavigation:
   url: "/your-community/"
 ---
 
-Anyone working on digital products or services in Defence is welcome to join the product and delivery community. It is useful for:
+Anyone working on digital products or services in Defence is welcome to join the product and delivery community. 
+
+## Who you will meet
+
+In this community, you will meet:
 
 - product owners and managers
 - delivery managers
 - service owners
 - business analysts
 
-## Get involved
+## Slack channels
 
-There are a few easy ways to be part of the product and delivery community.
+Slack is a messaging service used by the Defence community. On a MODNET device, you can use Slack in your web browser.
 
-### Slack channels
-
-Slack is a messaging service used by the Defence community. It can be downloaded as an app or used in your web browser.
-
-{{ component('inset-text', {
-  html: 'On a MODNET device, you can use Slack in your web browser.'
-}) }}
-
-#### Defence Digital Service Slack
+### Defence Digital Service Slack
 
 This is the place to ask quick questions about product management and delivery in Defence.
 
@@ -40,7 +36,7 @@ If you have a digital.mod.uk email address you can:
 
 If you have an mod.gov.uk or external email address, ask your delivery or team lead to invite you.
 
-#### UK Government Digital Slack
+### UK Government Digital Slack
 
 Get involved with conversations across government. 
 

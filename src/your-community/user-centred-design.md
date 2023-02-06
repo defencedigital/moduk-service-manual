@@ -3,13 +3,17 @@ layout: "layouts/guidance.njk"
 section: "Community"
 title: "User-centred design"
 description: "Anyone in a user-centred design role in Defence can join the community. Find out how to get involved."
-datePublished: 2022-11-07
+datePublished: 2023-02-06
 eleventyNavigation:
   key: "Your community"
   url: "/your-community/"
 ---
 
-Anyone working on digital products or services in Defence is welcome to join the user-centred design (UCD) community. It is useful for:
+Anyone working on digital services in Defence is welcome to join the user-centred design (UCD) community. 
+
+## Who you will meet
+
+In this community, you will meet:
 
 - user researchers and data analysts
 - service designers and product designers
@@ -17,35 +21,25 @@ Anyone working on digital products or services in Defence is welcome to join the
 - content designers, managers and strategists
 - product managers and business analysts working with users
 
-## Get involved
-
-There are a few easy ways to be part of the UCD community.
-
-### Community calls
+## Community calls
 
 Join the UCD community calls held every 2 weeks on alternate Tuesdays and Thursdays.
 
 Calls are 45 minutes. We discuss things like accessibility, tools available in Defence and cross-government collaboration.
 
+To join, send an email to: [ucd@digital.mod.uk](mailto:ucd@digital.mod.uk).
+
 {{ component('inset-text', {
   html: 'You must only share and discuss OFFICIAL data. <a href="/security-classifications/">Find out about security classifications</a>.'
 }) }}
 
-We work under [the Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule?gclid=CjwKCAjwkYGVBhArEiwA4sZLuK5u_XCJRH7ClZyiXlhtQLMleAKX6CZ3Ka8cuQ1hr70AfK95tVehOhoCP5wQAvD_BwE), creating a safe space for you to share your work and any challenges.
+## Slack channels
 
-To join, send an email to: [ucd@digital.mod.uk](mailto:ucd@digital.mod.uk).
+Slack is a messaging service used by the Defence community. On a MODNET device, you can use Slack in your web browser.
 
-### Slack channels
+### Defence Digital Service Slack
 
-Slack is a messaging service used by the Defence community. It can be downloaded as an app or used in your web browser.
-
-{{ component('inset-text', {
-  html: 'On a MODNET device, you can use Slack in your web browser.'
-}) }}
-
-#### Defence Digital Service Slack
-
-This is the place to ask quick questions about designing or writing for people in Defence.
+This is the place to ask quick questions about user-centred design in Defence.
 
 If you have a digital.mod.uk email address you can:
 
@@ -55,7 +49,7 @@ If you have a digital.mod.uk email address you can:
 
 If you have an mod.gov.uk or external email address, ask your delivery or team lead to invite you.
 
-#### UK Government Digital Slack
+### UK Government Digital Slack
 
 Get involved with conversations across government. 
 
