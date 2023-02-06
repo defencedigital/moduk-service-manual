@@ -106,7 +106,17 @@
       }
 
       // Send form data
-      // this.element.submit();
+      var formData = new FormData(form);
+
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(formData).toString(),
+      })
+        .then(function() {
+          success.innerHTML = 'Thank you for your feedback'
+        })
+        .catch((error) => alert(error));
 
     } else {
 
