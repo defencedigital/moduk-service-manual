@@ -75,11 +75,18 @@
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams(formData).toString(),
       })
-        .then(function() {
-          // success.innerHTML = 'Thank you for your feedback'
-          // Success
-        })
-        .catch((error) => alert(error));
+
+      .then(function() {
+
+        if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
+          console.log('Form successfully sent');    
+        } else {    
+          navigate('/send-your-feedback/thank-you');    
+        }
+
+      })
+
+      .catch((error) => alert(error));     
 
     } else {
 
