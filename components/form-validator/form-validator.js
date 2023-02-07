@@ -31,54 +31,16 @@
         self.validateFields(input);
       }
 
+      self.submit();
+
     });
 
   };
 
 
-  Form.prototype.validateFields = function(input) {
-
+  Form.prototype.submit = function() { 
 
     var errors = this.element.getElementsByClassName('govuk-input--error');
-
-
-    // Check for required fields have a value
-    if (input.value.trim() === '') {
-      this.setStatus(input, 'error');
-    } else {
-      this.setStatus(input, 'success');
-    }
-
-
-    // Check that radios have a value
-    if (input.type === 'radio') {
-
-      var radioGroup = this.element.querySelectorAll('input[name]:checked').length;
-
-      var hasCheckedItem = (!!parseInt(radioGroup) ? true : false) 
-
-      if (hasCheckedItem === false) {
-        this.setStatus(input, 'error');
-      } else {
-        this.setStatus(input, 'success');
-      }
-      
-    }
-
-
-    // Check for a valid email address, if an email address has a value 
-    if (input.type === 'email') {
-
-      var regEx = /\S+@\S+\.\S+/
-
-      if (input.value.trim() !== '' && !regEx.test(input.value)) {
-        this.setStatus(input, 'error');
-      } else {
-        this.setStatus(input, 'success');
-      }
-
-    }
-
 
     // If no errors exist, submit form
     if( errors.length === 0 ) {
@@ -130,6 +92,50 @@
       Util.moveFocus(this.errorSummary); // Focus
 
     }
+
+  };
+
+
+  Form.prototype.validateFields = function(input) {
+
+
+    // Check for required fields have a value
+    if (input.value.trim() === '') {
+      this.setStatus(input, 'error');
+    } else {
+      this.setStatus(input, 'success');
+    }
+
+
+    // Check that radios have a value
+    if (input.type === 'radio') {
+
+      var radioGroup = this.element.querySelectorAll('input[name]:checked').length;
+
+      var hasCheckedItem = (!!parseInt(radioGroup) ? true : false) 
+
+      if (hasCheckedItem === false) {
+        this.setStatus(input, 'error');
+      } else {
+        this.setStatus(input, 'success');
+      }
+      
+    }
+
+
+    // Check for a valid email address, if an email address has a value 
+    if (input.type === 'email') {
+
+      var regEx = /\S+@\S+\.\S+/
+
+      if (input.value.trim() !== '' && !regEx.test(input.value)) {
+        this.setStatus(input, 'error');
+      } else {
+        this.setStatus(input, 'success');
+      }
+
+    }
+  
 
   };
 
