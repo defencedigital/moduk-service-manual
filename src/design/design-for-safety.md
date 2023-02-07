@@ -45,7 +45,7 @@ For example: a soldier needs to use your service in an area with low lighting. I
 
 ### Check your feedback processes
 
-Check what restrictions users might have to reporting concerns and design for their circumstances. 
+Check what restrictions users might have to reporting concerns. You need to design for their circumstances. 
 
 For example Defence users might need:
 
