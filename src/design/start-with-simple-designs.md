@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Design"
 title: "Start with simple designs"
 decsription: "Follow good design principles, check existing GOV.UK and Ministry of Defence patterns and use the correct styles for Defence."
-datePublished: 2022-11-07
+dateUpdated: 2023-02-07
 eleventyNavigation:
   key: "Design"
   url: "/design/"
@@ -34,17 +34,23 @@ It helps you build services that:
 - consistent with other GOV.UK services
 
 
-## Official images and videos
+## Using images and videos
 
-If your users need images or videos to help them complete a task, [select official MOD images or videos](https://www.defenceimagery.mod.uk/). 
+Before adding images and videos to your service, get evidence that your users need them to complete a task. 
 
-The images and videos are owned by MOD. You can use them for anything related to MOD without worrying about licences or copyright. 
+If your users do not understand written content, try to improve it before creating a video. Videos are expensive to make and difficult to change.
 
 {{ component('inset-text', {
-  text: 'Avoid adding images or videos if your users do not need them. When you add images or videos, make sure they are accessible.'
+  text: 'All images and videos in your service must be accessible.'
 }) }}
 
-Find out [more about accessibility in Defence](/accessibility/).
+Find out [more about designing for accessibility](/accessibility/meet-accessibility-regulations/interaction-designers/).
+
+### Official images and videos
+
+If your users need images or videos, [check the MOD library](https://www.defenceimagery.mod.uk/). 
+
+You can use images and videos from the library for anything related to Defence without worrying about licences or copyright. 
 
 ## Related content
 
