@@ -82,7 +82,8 @@
 
       } else {
 
-        // Do something
+        // Submit the form
+        form.submit();
 
       }
 
