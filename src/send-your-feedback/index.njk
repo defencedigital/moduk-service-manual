@@ -24,18 +24,19 @@
 
       <div class="govuk-grid-column-two-thirds">
 
-        <form class="form-validate js-form-validate" id="send-your-feedback" name="Send your feedback" action="/send-your-feedback/thank-you" method="POST" autocomplete="off" novalidate data-netlify="true" data-netlify-honeypot="giraffe">
+        <form class="js-form" id="send-your-feedback" name="Send your feedback" action="/send-your-feedback/thank-you" method="POST" autocomplete="off" novalidate data-netlify="true" data-netlify-honeypot="giraffe">
 
-          {{ component('error-summary', {
-            classes: 'is-hidden',
-            titleText: 'There is a problem',
-            errorList: [
-              {
-                text: 'Select how you feel about the Defence Service Manual',
-                href: '#very-satisfied'
-              }
-            ]
-          }) }}
+          <div class="govuk-error-summary is-hidden">
+            <div role="alert">
+              <h1 class="govuk-error-summary__title">There is a problem</h1>
+              <div class="govuk-error-summary__body">
+                <ul class="govuk-list govuk-error-summary__list">
+                  <li class="is-hidden" id="very-satisfied-summary-error"><a href="#very-satisfied">Select how you feel about the Defence Service Manual</a></li>
+                  <li class="is-hidden" id="email-summary-error"><a href="#email">Enter a valid email address</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
           <div class="moduk-prose">
 
@@ -43,7 +44,7 @@
 
             <p class="govuk-body-l">Your feedback helps us improve the Defence Service Manual.</p>
 
-            <div class="govuk-form-group form-validate__input-wrapper js-form-validate__input-wrapper" id="overall-how-do-you-feel-about-the-defence-service-manual">
+            <div class="govuk-form-group" id="overall-how-do-you-feel-about-the-defence-service-manual">
 
               <fieldset class="govuk-fieldset" aria-describedby="overall-how-do-you-feel-about-the-defence-service-manual-error">
               
@@ -54,11 +55,6 @@
                 </p>
 
                 <div class="govuk-radios" data-module="govuk-radios">
-
-                  {# 
-                    This approach was taken because Netlify does not play nicely with the standard GOV.UK approach 
-                    to formatting radio buttons - https://stevepolito.design/blog/working-with-radio-buttons-in-netlify-and-gatsby 
-                  #}
 
                   <label class="govuk-radios__item">
                     <input class="govuk-radios__input" id="very-satisfied" name="Overall, how do you feel about the Defence Service Manual?" type="radio" value="Very satisfied" required>
@@ -104,20 +100,12 @@
               }
             }) }}
 
-            {{ component('input', {
-              label: {
-                text: 'Your email address (optional)',
-                classes: 'govuk-label--m'
-              },
-              hint: {
-                text: 'We will only contact you to discuss your feedback.'
-              },
-              id: 'email',
-              name: 'email',
-              type: 'email',
-              autocomplete: 'email',
-              spellcheck: false
-            }) }}
+           <div class="govuk-form-group">
+              <label class="govuk-label govuk-label--m" for="email">Your email address (optional)</label>
+              <div class="govuk-hint" id="email-hint">We will only contact you to discuss your feedback.</div>
+              <p class="govuk-error-message is-hidden" id="email-error"><span class="govuk-visually-hidden">Error:</span> Enter a valid email address</p>
+              <input class="govuk-input" id="email" name="Email address (optional)" type="email" spellcheck="false" aria-describedby="email-hint email-error" autocomplete="email" data-validate="true">
+            </div>
 
             <div class="govuk-form-group govuk-visually-hidden" aria-hidden="true">
               <label class="govuk-label govuk-label--m" for="giraffe">Don’t fill this out if you’re human</label>
@@ -126,7 +114,7 @@
 
             {{ component('button', {
               type: 'submit',
-              text: 'Send message'
+              text: 'Send feedback'
             }) }}
 
           </div>
@@ -141,47 +129,4 @@
 
 </div>
 
-{% endblock %}
-
-
-{% block pageScripts %}
-<script>
-
-  var form = document.getElementById('send-your-feedback');
-
-  var formValidate = new FormValidator({
-    element: form
-  });
-
-  form.addEventListener('submit', function(event) {
-
-    formValidate.validate(function(errorFields) {
-
-      var radioGroup   = document.getElementById('overall-how-do-you-feel-about-the-defence-service-manual');
-      var errorMessage = document.getElementsByClassName('govuk-error-message')[0];
-      var errorSummary = document.getElementsByClassName('govuk-error-summary')[0];
-
-      if (errorFields != '') {
-
-        event.preventDefault(); // Prevent default action on submit
-
-        // Send user to top of the page
-        window.scrollTo({ 
-          top: 0, 
-          behavior: 'smooth' 
-        });
-
-        Util.addClass(radioGroup, 'govuk-form-group--error') // Add error class to radio group
-        Util.removeClass(errorSummary, 'is-hidden'); // Show error summary
-        Util.removeClass(errorMessage, 'is-hidden'); // Show error message
-        
-        Util.moveFocus(errorSummary); // Focus
-
-      }
-
-    });
-
-  });
-
-</script>
 {% endblock %}

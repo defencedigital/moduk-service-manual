@@ -1,120 +1,94 @@
 (function() {
+
+
+  var Feedback = function(element) {
+    this.element       = element;
+    this.prompt        = this.element.querySelector('.js-feedback-prompt');
+    this.success       = this.element.querySelector('.js-feedback-success');
+    this.triggers      = this.element.querySelectorAll('button:not([type=submit])');
+    this.form          = this.element.querySelectorAll('.js-feedback-form');
+
+    this.errorSummary  = this.element.querySelectorAll('.js-error-summary');
+    this.errorMessage  = this.element.querySelectorAll('.govuk-error-message');
+    this.errorGroup    = this.element.querySelectorAll('.govuk-form-group');
+    this.errorInput    = this.element.querySelectorAll('.govuk-input, .govuk-textarea');
+
+    this.focusableElements = 'input:not([tabindex="-1"]), textarea:not([tabindex="-1"]), .govuk-error-summary:not([tabindex="-1"]';
+
+    this.initFeedbackEvents();
+  };
+
   
-  var feedback = document.getElementsByClassName('js-feedback'); 
+  Feedback.prototype.initFeedbackEvents = function () {
 
-  if (feedback.length > 0) {
+    var self = this;
 
-    var yesButton      = feedback[0].getElementsByClassName('js-feedback-yes')[0];
-    var yesButtonClose = feedback[0].getElementsByClassName('js-feedback-yes-close')[0];
+    for( var i = 0; i < this.triggers.length; i++) {
 
-    var noButton      = feedback[0].getElementsByClassName('js-feedback-no')[0];
-    var noButtonClose = feedback[0].getElementsByClassName('js-feedback-no-close')[0];
-
-    var prompt      = feedback[0].getElementsByClassName('js-feedback-prompt')[0];
-    var success     = feedback[0].getElementsByClassName('js-feedback-success')[0];
-    var questions   = feedback[0].getElementsByClassName('js-feedback-question')[0];
-
-    var focusableElements = 'input:not([tabindex="-1"]), textarea:not([tabindex="-1"]), .govuk-error-summary';
-
-    // Detect click on 'yes' button
-    yesButton.addEventListener('click', function (event) {
-
-      event.preventDefault();
-
-      var form = document.getElementById(this.getAttribute('aria-controls')); // Get form by ID
-
-      Util.addClass(prompt, 'js:is-hidden'); // Hide prompt and show form
-      Util.removeClass(form, 'js:is-hidden'); // Show form
-
-      var firstItem = form.querySelectorAll(focusableElements);
-
-      firstItem[0].focus();
-
-    });
-
-    // Detect click on 'no' button
-    noButton.addEventListener('click', function (event) {
-
-      event.preventDefault();
-
-      var form = document.getElementById(this.getAttribute('aria-controls')); // Get form by ID
-
-      Util.addClass(prompt, 'js:is-hidden'); // Hide prompt and show form
-      Util.removeClass(form, 'js:is-hidden'); // Show form
-
-      var firstItem = form.querySelectorAll(focusableElements);
-
-      firstItem[0].focus();
-
-    });
-
-
-    // Detect click on 'yes' cancel button
-    yesButtonClose.addEventListener('click', function (event) {
-
-      event.preventDefault();
-
-      document.querySelectorAll('.js-feedback-form').forEach(item => {
-        Util.addClass(item, 'js:is-hidden'); // Hide all forms
-      });
-
-      Util.removeClass(prompt, 'js:is-hidden'); // Show the feedback prompt
-      Util.removeClass(questions, 'js:is-hidden'); // Show the question
-
-      yesButton.focus();
-
-    });
-
-
-    // Detect click on 'no' cancel button
-    noButtonClose.addEventListener('click', function (event) {
-
-      event.preventDefault();
-
-      document.querySelectorAll('.js-feedback-form').forEach(item => {
-        Util.addClass(item, 'js:is-hidden'); // Hide all forms
-      });
-
-      Util.removeClass(prompt, 'js:is-hidden'); // Show the feedback prompt
-      Util.removeClass(questions, 'js:is-hidden'); // Show the question
-
-      noButton.focus();
-
-    });
-
-
-    // Check if an element is empty
-    const isEmpty = str => !str.trim().length;
-    
-
-    // Detect form submit
-    document.querySelectorAll('.js-feedback-form').forEach(item => {
-      
-      item.addEventListener('submit', event => {
-
-        Util.addClass(item, 'js:is-hidden');       // Hide the feedback form
-        Util.removeClass(prompt, 'js:is-hidden');  // Show the feedback prompt
-        Util.addClass(questions, 'js:is-hidden');  // Hide the question
-        Util.removeClass(success, 'js:is-hidden'); // Show the success
-
+      this.triggers[i].addEventListener('click', function(event) {
+        
         event.preventDefault();
 
-        var data = new FormData(event.target);
+        self.resetFeedback(); // Reset form initially
 
-        fetch(event.target.action, {
-          method: item.method,
-          body: data,
-          headers: {
-            'Accept': 'application/json'
-          }
-        }).then(response => {
-          item.reset(); // Reset form
-        });
+        var form      = document.getElementById(this.getAttribute('aria-controls'));
+        var firstItem = form.querySelectorAll(self.focusableElements)[0];
+
+        if (Util.hasClass(form, 'is-hidden')) {
+
+          Util.removeClass(form, 'is-hidden');
+          Util.addClass(self.prompt, 'is-hidden');
+
+          firstItem.focus();
+
+        } else {
+
+          Util.addClass(form, 'is-hidden');
+          Util.removeClass(self.prompt, 'is-hidden');
+
+        }
 
       });
 
+    }
+
+
+  };
+
+
+  Feedback.prototype.resetFeedback = function () {
+
+    this.form.forEach((element) => {
+      element.reset(); // Reset all forms
+    });    
+
+    this.errorSummary.forEach((element) => {
+      Util.addClass(element, 'is-hidden');
+    });
+
+    this.errorGroup.forEach((element) => {
+      Util.removeClass(element, 'govuk-form-group--error');
+    });
+
+    this.errorInput.forEach((element) => {
+      Util.removeClass(element, 'govuk-input--error');
+    });
+
+    this.errorMessage.forEach((element) => {
+      Util.addClass(element, 'is-hidden');
     });
 
   }
 
-}());
+
+  // Initialize the Feedback objects
+  var feedback = document.getElementsByClassName('js-feedback');
+
+  if( feedback.length > 0 ) {
+    for( var i = 0; i < feedback.length; i++) {
+      (function(i){new Feedback(feedback[i]);})(i);
+    }
+  };
+
+
+})();
