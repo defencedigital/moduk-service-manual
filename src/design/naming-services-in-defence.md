@@ -29,6 +29,14 @@ According to GOV.UK, good service or product names:
 
 Check the [GOV.UK guidance on naming your service](https://www.gov.uk/service-manual/design/naming-your-service/).
 
+### When to take a different approach
+
+In Defence, sometimes it is not appropriate to be open about what a service does. It might be necessary to use a code name. 
+
+For example: Project MORPHEUS. 
+
+In all other cases, follow the GOV.UK approach. 
+
 ## Acronyms in service names
 
 It is always best to avoid acronyms in service names. This can sometimes be difficult in Defence. 

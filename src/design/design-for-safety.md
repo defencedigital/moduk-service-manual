@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/design/"
 ---
 
-Good design keeps people safe. Make sure your service or product is reliable and easy to understand in stressful situations.
+Good design keeps people safe. Make sure your service or product is reliable and easy to understand in stressful or demanding situations.
 
 ## Consider safety from the start
 
@@ -41,13 +41,13 @@ Working with people who have experience in similar environments can help. They c
 
 Defence users need to report safety issues as soon as possible. Acting on feedback quickly keeps people safe.
 
-For example: if your service will be used in combat zones at night, but does not work in low light, it will put users in danger.
+For example: a soldier needs to use your service in an area with low lighting. It is difficult to read. This poses a risk to their safety.
 
 ### Check your feedback processes
 
-As part of your existing feedback processes, make sure users can report any concerns about the safety of your product or service.
+You need to check what restrictions users might have to reportimg concerns and design for their circumstances. 
 
-To send feedback, Defence users might need:
+For example Defence users might need:
 
 - permission from their commanding officer
 - a process that works in their environment
