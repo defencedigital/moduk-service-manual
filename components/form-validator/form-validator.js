@@ -70,23 +70,28 @@
       // Send form data
       var formData = new FormData(form);
 
-      fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(formData).toString(),
-      })
+      if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
 
-      .then(function() {
+        fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(formData).toString(),
+        })
+          .then(() => console.log('Feedback form sent successfully'))
+          .catch((error) => alert(error));
 
-        if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
-          console.log('Form successfully sent');    
-        } else {    
-          navigate('/send-your-feedback/thank-you');    
-        }
+      } else {
 
-      })
+        fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(formData).toString(),
+        })
+  
+        .then(() => navigate('/send-your-feedback/thank-you/'))
+        .catch((error) => alert(error));
 
-      .catch((error) => alert(error));     
+      }
 
     } else {
 
