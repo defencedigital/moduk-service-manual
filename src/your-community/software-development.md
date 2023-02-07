@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Community"
 title: "Software development"
 description: "Anyone in a software development in Defence can join the community. Find out how to get involved."
-datePublished: 2022-11-07
+dateUpdated: 2023-02-06
 eleventyNavigation:
   key: "Your community"
   url: "/your-community/"
@@ -30,7 +30,7 @@ We discuss things like software development tools available in Defence, building
 To join, send an email to: [UKStratComDD-Foundry-DSO-Engage@mod.gov.uk](mailto:UKStratComDD-Foundry-DSO-Engage@mod.gov.uk).
 
 {{ component('inset-text', {
-  html: 'You must only share and discuss OFFICIAL data. <a href="/security-classifications/">Find out about security classifications</a>.'
+  html: 'In community calls, only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'
 }) }}
 
 ## Slack channels
@@ -41,11 +41,11 @@ Slack is a messaging service used by the Defence community. On a MODNET device, 
 
 This is the place to ask quick questions about software development in Defence.
 
-If you have a digital.mod.uk email address you can:
+If you have a digital.mod.uk email address:
 
-- sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com/)
-- in your Slack profile, add a photo, your job title and project
-- join the <code>#defence-software-development-community</code> channel
+1. Sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com/)
+2. In your Slack profile, add a photo, your job title and project
+3. Join the <code>#defence-software-development-community</code> channel
 
 If you have an mod.gov.uk or external email address, ask your delivery or team lead to invite you.
 
@@ -53,9 +53,9 @@ If you have an mod.gov.uk or external email address, ask your delivery or team l
 
 Get involved with conversations across government. 
 
-You can join with a digital.mod.uk or mod.gov.uk email address.
+If you have a digital.mod.uk or mod.gov.uk email address:
 
-- sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com/)
-- in your Slack profile, add MOD after your name
-- browse and join channels for software development
+1. Sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com/)
+2. In your Slack profile, add MOD after your name
+3. Browse and join channels for software development
 
