@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Design"
 title: "Design for safety"
 description: "Consider the safety of people in Defence from the start, test in real or simulated environments and make it easy to report issues."
-datePublished: 2022-11-07
+dateUpdated: 2023-02-07
 eleventyNavigation:
   key: "Design"
   url: "/design/"
