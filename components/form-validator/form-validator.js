@@ -82,14 +82,7 @@
 
       } else {
 
-        fetch('/', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-          body: new URLSearchParams(formData).toString(),
-        })
-  
-        .then(() => navigate('/send-your-feedback/thank-you/'))
-        .catch((error) => alert(error));
+        // Do something
 
       }
 
