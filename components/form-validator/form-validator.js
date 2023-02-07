@@ -76,7 +76,8 @@
         body: new URLSearchParams(formData).toString(),
       })
         .then(function() {
-          success.innerHTML = 'Thank you for your feedback'
+          // success.innerHTML = 'Thank you for your feedback'
+          // Success
         })
         .catch((error) => alert(error));
 
