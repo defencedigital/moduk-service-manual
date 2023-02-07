@@ -43,7 +43,7 @@ Defence users need to report safety issues as soon as possible. Acting on feedba
 
 For example: a soldier needs to use your service in an area with low lighting. It is difficult to read. This poses a risk to their safety.
 
-### Check your feedback processes
+### Check your feedback process
 
 Check what restrictions users might have to reporting concerns. You need to design for their circumstances. 
 
