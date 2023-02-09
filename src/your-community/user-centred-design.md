@@ -53,3 +53,15 @@ If you have an mod.gov.uk or external email address, ask your delivery or team l
 
 Get involved with conversations across government. 
 
+If you have a digital.mod.uk or mod.gov.uk email address:
+
+1. Sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com/)
+2. In your Slack profile, add MOD after your name
+3. Browse and join channels for content, design and user research
+
+## Related content
+
+- [User research in the Defence Service Manual](/user-research/)
+- [User research in Defence blog](https://defencedigital.blog.gov.uk/2021/02/22/user-research-in-defence/)
+- [The application of user research in Defence blog](https://defencedigital.blog.gov.uk/2021/03/12/the-application-of-user-research-in-defence/)
+- [Design in the GOV.UK Service Manual](https://www.gov.uk/service-manual/design/)
