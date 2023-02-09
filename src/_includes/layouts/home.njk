@@ -2,6 +2,7 @@
 
 {% block body %}
 
+
 <div class="moduk-hero">
 
   <div class="govuk-width-container">
@@ -9,8 +10,7 @@
     <div class="govuk-grid-row govuk-!-padding-top-8 govuk-!-padding-bottom-8">
      
       <div class="govuk-grid-column-two-thirds">
-        <h1 class="govuk-heading-xl govuk-!-margin-bottom-4">Design and deliver great digital services in Defence</h1>
-        <p class="govuk-body-l govuk-!-margin-bottom-0">Helping you meet service standards and do your role in Defence</p>
+        <h1 class="govuk-heading-xl govuk-!-margin-bottom-0" id="design-and-deliver-great-digital-services-in-defence">Design and deliver great digital services in Defence</h1>
       </div>
 
     </div>
@@ -19,81 +19,121 @@
 
 </div>
 
-<div class="govuk-width-container">
-
-  <div class="moduk-cards moduk-cards--no-top-border govuk-!-margin-top-7 govuk-!-margin-bottom-0">
-      
-    <h2 class="moduk-cards__heading govuk-heading-m govuk-visually-hidden">Topics</h2>    
-      
-    <ul class="moduk-cards__list">
-      
-      <li class="moduk-cards__list-item">
-        <div class="moduk-cards__list-item-wrapper">
-          <h3 class="moduk-cards__sub-heading govuk-heading-s"><a class="govuk-link govuk-link--no-visited-state govuk-link moduk-cards__link" href="{{ '/standards-in-defence/' | url }}">Standards in Defence</a></h3> 
-          <p class="govuk-body-s moduk-cards__description">Check the standards you should follow and why they are important for all digital services and products.</p>
-        </div>
-      </li>
-
-      <li class="moduk-cards__list-item">
-        <div class="moduk-cards__list-item-wrapper">
-          <h3 class="moduk-cards__sub-heading govuk-heading-s"><a class="govuk-link govuk-link--no-visited-state moduk-cards__link" href="{{ '/user-research/' | url }}">User research</a></h3> 
-          <p class="govuk-body-s moduk-cards__description">How to do user research with military personnel, find participants across Defence and manage data correctly.</p>
-        </div>
-      </li>
-
-      <li class="moduk-cards__list-item">
-        <div class="moduk-cards__list-item-wrapper">
-          <h3 class="moduk-cards__sub-heading govuk-heading-s"><a class="govuk-link govuk-link--no-visited-state moduk-cards__link" href="{{ '/design/' | url }}">Design</a></h3> 
-          <p class="govuk-body-s moduk-cards__description">Start with simple designs, name services well, use the right styles and design for safety.</p>
-        </div>
-      </li>
-
-      <li class="moduk-cards__list-item">
-        <div class="moduk-cards__list-item-wrapper">
-          <h3 class="moduk-cards__sub-heading govuk-heading-s"><a class="govuk-link govuk-link--no-visited-state moduk-cards__link" href="{{ '/security-classifications/' | url }}">Security classifications</a></h3> 
-          <p class="govuk-body-s moduk-cards__description">Keep and share information securely, check how to use security classifications and label information.</p>
-        </div>
-      </li>
-
-      <li class="moduk-cards__list-item">
-        <div class="moduk-cards__list-item-wrapper">
-          <h3 class="moduk-cards__sub-heading govuk-heading-s"><a class="govuk-link govuk-link--no-visited-state moduk-cards__link" href="{{ '/accessibility/' | url }}">Accessibility</a></h3> 
-          <p class="govuk-body-s moduk-cards__description">Follow best practice, meet the regulations and deliver services that can be used by anyone in Defence.</p>
-        </div>
-      </li>
-
-      <li class="moduk-cards__list-item">
-        <div class="moduk-cards__list-item-wrapper">
-          <h3 class="moduk-cards__sub-heading govuk-heading-s"><a class="govuk-link govuk-link--no-visited-state moduk-cards__link" href="{{ '/your-community/' | url }}">Your community</a></h3> 
-          <p class="govuk-body-s moduk-cards__description">Meet others doing your role, use shared tools and learn from projects across Defence.</p>
-        </div>
-      </li>
-
-    </ul>  
-      
-  </div>
-
-</div>
 
 <div class="govuk-width-container">
 
-  <div class="govuk-grid-row">
 
-    <div class="govuk-grid-column-one-half">
-      <div class="moduk-card">
-        <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Take part in user research</h2>
-        <p class="govuk-body-s">We do user research to check this service works for you. Find out <a class="govuk-link govuk-link--no-visited-state" href="{{ '/take-part-in-user-research/' | url }}">how to take part</a>.</p>
+  {# How to do things in Defence #}
+  <div class="govuk-!-padding-top-8 govuk-!-padding-bottom-6">
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+        <h2 class="govuk-heading-l govuk-!-margin-bottom-1" id="how-to-do-things-in-defence">How to do things</h2>
+        <p class="govuk-body govuk-body--secondary">Use common approaches and tools.</p>
       </div>
     </div>
 
-    <div class="govuk-grid-column-one-half">
-      <div class="moduk-card">
-        <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Add or update content</h2>
-        <p class="govuk-body-s">Anyone can suggest content for the Defence Service Manual. Find out <a class="govuk-link govuk-link--no-visited-state" href="{{ '/add-or-update-content/' | url }}">how to add or update content</a>.</p>
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-one-third">
+        <h3 class="govuk-heading-m govuk-!-margin-bottom-2"><a class="govuk-link govuk-link--no-visited-state" href="{{ '/standards-in-defence/' | url }}">Standards in Defence</a></h3>
+        <p class="govuk-body-s">Check the standards you should follow and why they are important for all digital services.</p>
       </div>
+
+      <div class="govuk-grid-column-one-third">
+        <h3 class="govuk-heading-m govuk-!-margin-bottom-2"><a class="govuk-link govuk-link--no-visited-state" href="{{ '/accessibility/' | url }}">Accessibility</a></h3>
+        <p class="govuk-body-s">Follow best practice, meet the regulations and deliver services that can be used by anyone in Defence.</p>
+      </div>
+
+      <!--div class="govuk-grid-column-one-third">
+        <h3 class="govuk-heading-m govuk-!-margin-bottom-2"><a class="govuk-link govuk-link--no-visited-state" href="{{ '/ethics/' | url }}">Ethics</a></h3>
+        <p class="govuk-body-s">Do the right thing when you meet with people across Defence and keep your team safe.</p>
+      </div-->
+
+      <div class="govuk-grid-column-one-third">
+        <h3 class="govuk-heading-m govuk-!-margin-bottom-2"><a class="govuk-link govuk-link--no-visited-state" href="{{ '/tools/' | url }}">Tools</a></h3>
+        <p class="govuk-body-s">Check which tools you can use in Defence, what others are using and how to ask for access.</p>
+      </div>
+
+      <div class="govuk-grid-column-one-third">
+        <h3 class="govuk-heading-m govuk-!-margin-bottom-2"><a class="govuk-link govuk-link--no-visited-state" href="{{ '/security-classifications/' | url }}">Security classifications</a></h3>
+        <p class="govuk-body-s">Keep and share information securely, check how to use security classifications and label information.</p>
+      </div>
+
     </div>
 
   </div>
+
+
+  <hr class="govuk-section-break govuk-section-break--visible">
+
+
+  {# Your role in Defence #}
+  <div class="govuk-!-padding-top-8 govuk-!-padding-bottom-6">
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+        <h2 class="govuk-heading-l govuk-!-margin-bottom-1" id="your-role-in-defence">Your role in Defence</h2>
+        <p class="govuk-body govuk-body--secondary">We are working on guidance for all roles in digital teams.</p>
+      </div>
+    </div>
+
+    <div class="govuk-grid-row">
+
+      <!--div class="govuk-grid-column-one-third">
+        <h3 class="govuk-heading-m govuk-!-margin-bottom-2"><a class="govuk-link govuk-link--no-visited-state" href="{{ '/content/' | url }}">Content</a></h3>
+        <p class="govuk-body-s">Create clear content, check the styles you need to use and how to work with content designers.</p>
+      </div-->
+
+      <div class="govuk-grid-column-one-third">
+        <h3 class="govuk-heading-m govuk-!-margin-bottom-2"><a class="govuk-link govuk-link--no-visited-state" href="{{ '/design/' | url }}">Design</a></h3>
+        <p class="govuk-body-s">Start with simple designs, name services well, use the right styles and design for safety.</p>
+      </div>
+
+      <div class="govuk-grid-column-one-third">
+        <h3 class="govuk-heading-m govuk-!-margin-bottom-2"><a class="govuk-link govuk-link--no-visited-state" href="{{ '/user-research/' | url }}">User research</a></h3>
+        <p class="govuk-body-s">How to do user research with military personnel, find participants and manage user research data.</p>
+      </div>
+
+      <div class="govuk-grid-column-one-third">
+        <h3 class="govuk-heading-m govuk-!-margin-bottom-2"><a class="govuk-link govuk-link--no-visited-state" href="{{ '/your-community/' | url }}">Your community</a></h3>
+        <p class="govuk-body-s">Meet others doing your role, use shared tools and learn from projects across Defence.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <hr class="govuk-section-break govuk-section-break--visible">
+
+
+  {# Get involved #}
+  <div class="govuk-!-padding-top-8">
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+        <h2 class="govuk-heading-l govuk-!-margin-bottom-1" id="get-involved">Get involved</h2>
+        <p class="govuk-body govuk-body--secondary">Help improve the Defence Service Manual.</p>
+      </div>
+    </div>
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-one-third">
+        <h3 class="govuk-heading-m govuk-!-margin-bottom-2"><a class="govuk-link govuk-link--no-visited-state" href="{{ '/suggest-content/' | url }}">Suggest content</a></h3>
+        <p class="govuk-body-s">Share guidance, tools and ways of working that could be used across Defence.</p>
+      </div>
+
+      <div class="govuk-grid-column-one-third">
+        <h3 class="govuk-heading-m govuk-!-margin-bottom-2"><a class="govuk-link govuk-link--no-visited-state" href="{{ '/take-part-in-user-research/' | url }}">Take part in user research</a></h3>
+        <p class="govuk-body-s">Get involved with user research sessions, anyone in Defence can take part.</p>
+      </div>
+
+    </div>
+
+  </div>
+
 
 </div>
 
