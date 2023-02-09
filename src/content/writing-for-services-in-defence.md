@@ -46,7 +46,7 @@ Find out how content designers help with accessibility.
 
 ## Avoid acronyms 
 
-This can be difficult as there are over 24,000 acronyms and terms in Defence. 
+This can be difficult as there are over 24,000 acronyms and abbreviations in Defence. 
 
 Only include acronyms that most people are familiar with, for example VAT and NATO.
 
@@ -68,7 +68,7 @@ To check military terms, contact the Development, Concepts and Doctrine Centre.
 In Defence, you need to use capital letters for: 
 
 - operation names, for example Operation YELLOWHAMMER
-- ships in the Royal Navy , for example HMS WILDFIRE
+- ships in the Royal Navy, for example HMS WILDFIRE
 - military exercises, for example Exercise COBRA WARRIOR
 - security classifications, for example OFFICIAL and SECRET
 
