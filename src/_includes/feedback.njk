@@ -28,13 +28,13 @@
 
         </div>
 
-        <div class="moduk-feedback__prompt-success js-feedback-success js:is-hidden" id="moduk-feedback__status" role="alert">Thank you for your feedback</div>
+        <div class="moduk-feedback__prompt-success js-feedback-success is-hidden" id="moduk-feedback__status" role="alert">Thank you for your feedback</div>
 
       </div>
 
     </div>
 
-    <form class="moduk-feedback__form js-feedback-form js:is-hidden" id="moduk-feedback__yes" name="Yes, I found what I was looking for" method="POST" autocomplete="off" novalidate data-netlify="true" data-netlify-honeypot="giraffe">
+    <form class="moduk-feedback__form js-feedback-form js-form is-hidden" id="moduk-feedback__yes" name="Yes, I found what I was looking for" method="POST" autocomplete="off" data-netlify="true" data-netlify-honeypot="giraffe-yes">
 
       <div class="govuk-width-container">
 
@@ -42,10 +42,21 @@
 
           <div class="govuk-grid-column-two-thirds">
 
+            <div class="govuk-error-summary js-error-summary is-hidden" tabindex="-1">
+              <div role="alert">
+                <h1 class="govuk-error-summary__title">There is a problem</h1>
+                <div class="govuk-error-summary__body">
+                  <ul class="govuk-list govuk-error-summary__list">
+                    <li class="is-hidden" id="email-yes-summary-error"><a href="#email-yes">Enter a valid email address</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
             <h2 class="govuk-heading-m">Help improve the Defence Service Manual</h2>
 
-            <input type="hidden" name="Did you find what you were looking for?" value="Yes" tabindex="-1" aria-hidden="true">
-            <input type="hidden" name="Url" value="https://defence-service-manual.netlify.app{{ page.url }}" tabindex="-1" aria-hidden="true">
+            <input type="hidden" name="Did you find what you were looking for?" value="Yes" tabindex="-1">
+            <input type="hidden" name="Url" value="https://defence-service-manual.netlify.app{{ page.url }}" tabindex="-1">
 
             {{ component('textarea', {
               id: 'tell-us-more',
@@ -60,21 +71,16 @@
               spellcheck: true
             }) }}
 
-            {{ component('input', {
-              id: 'email-yes',
-              name: 'Email',
-              label: {
-                text: 'Email address (optional)'
-              },
-              type: 'email',
-              hint: {
-                text: 'We will only contact you to discuss your feedback.'
-              }
-            }) }}
+            <div class="govuk-form-group">
+              <label class="govuk-label" for="email-yes">Email address (optional)</label>
+              <div class="govuk-hint" id="email-yes-hint">We will only contact you to discuss your feedback.</div>
+              <p class="govuk-error-message is-hidden" id="email-yes-error"><span class="govuk-visually-hidden">Error:</span> Enter a valid email address</p>
+              <input class="govuk-input" id="email-yes" name="Email address (optional)" type="email" aria-describedby="email-yes-hint email-yes-error" data-validate="true">
+            </div>
 
             <div class="govuk-form-group govuk-visually-hidden" aria-hidden="true">
-              <label class="govuk-label govuk-label--m" for="giraffe">Don’t fill this out if you’re human</label>
-              <input class="govuk-input" id="giraffe" name="giraffe" type="text" autocomplete="off" tabindex="-1">
+              <label class="govuk-label govuk-label--m" for="giraffe-yes">Don’t fill this out if you’re human</label>
+              <input class="govuk-input" id="giraffe-yes" name="giraffe-yes" type="text" autocomplete="off" tabindex="-1">
             </div>
 
             <div class="govuk-button-group">
@@ -88,7 +94,10 @@
               {{ component('button', {
                 classes: 'govuk-button--secondary govuk-!-margin-bottom-0 moduk-feedback__close js-feedback-yes-close no-js:is-hidden',
                 text: 'Cancel',
-                type: 'button'
+                type: 'button',
+                attributes: {
+                  'aria-controls': 'moduk-feedback__yes'
+                }
               }) }}
 
             </div>
@@ -101,7 +110,7 @@
 
     </form>
 
-    <form class="moduk-feedback__form js-feedback-form js:is-hidden" id="moduk-feedback__no" name="No, I didn’t find what I was looking for" method="POST" autocomplete="off" novalidate data-netlify="true" data-netlify-honeypot="giraffe">
+    <form class="moduk-feedback__form js-feedback-form js-form is-hidden" id="moduk-feedback__no" name="No, I didn’t find what I was looking for" method="POST" autocomplete="off" data-netlify="true" data-netlify-honeypot="giraffe-no">
 
       <div class="govuk-width-container">
 
@@ -109,39 +118,40 @@
 
           <div class="govuk-grid-column-two-thirds">
 
+            <div class="govuk-error-summary js-error-summary is-hidden" tabindex="-1">
+              <div role="alert">
+                <h1 class="govuk-error-summary__title">There is a problem</h1>
+                <div class="govuk-error-summary__body">
+                  <ul class="govuk-list govuk-error-summary__list">
+                    <li class="is-hidden" id="what-guidance-were-you-looking-for-summary-error"><a href="#what-guidance-were-you-looking-for">Tell us what guidance you were looking for</a></li>
+                    <li class="is-hidden" id="email-no-summary-error"><a href="#email-no">Enter a valid email address</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
             <h2 class="govuk-heading-m">Help improve the Defence Service Manual</h2>
 
-            <input type="hidden" name="Did you find what you were looking for?" value="No" tabindex="-1" aria-hidden="true">
-            <input type="hidden" name="Url" value="https://defence-service-manual.netlify.app{{ page.url }}" tabindex="-1" aria-hidden="true">
+            <input type="hidden" name="Did you find what you were looking for?" value="No" tabindex="-1">
+            <input type="hidden" name="Url" value="https://defence-service-manual.netlify.app{{ page.url }}" tabindex="-1">
 
-            {{ component('textarea', {
-              id: 'what-guidance-were-you-looking-for',
-              name: 'What guidance were you looking for?',
-              rows: 3,
-              label: {
-                text: 'What guidance were you looking for?'
-              },
-              hint: {
-                text: 'Include details, questions and suggestions.'
-              },
-              spellcheck: true
-            }) }}
+            <div class="govuk-form-group">
+              <label class="govuk-label" for="what-guidance-were-you-looking-for">What guidance were you looking for?</label>
+              <div class="govuk-hint" id="what-guidance-were-you-looking-for-hint">Include details, questions and suggestions.</div>
+              <p class="govuk-error-message is-hidden" id="what-guidance-were-you-looking-for-error"><span class="govuk-visually-hidden">Error:</span> Tell us what guidance you were looking for</p>
+              <textarea class="govuk-textarea" id="what-guidance-were-you-looking-for" name="What guidance were you looking for?" rows="3" spellcheck="true" aria-describedby="what-guidance-were-you-looking-for-hint" required></textarea>
+            </div>
 
-            {{ component('input', {
-              id: 'email-no',
-              name: 'Email',
-              label: {
-                text: 'Email address (optional)'
-              },
-              type: 'email',
-              hint: {
-                text: 'We will only contact you to discuss your feedback.'
-              }
-            }) }}
+            <div class="govuk-form-group">
+              <label class="govuk-label" for="email-no">Email address (optional)</label>
+              <div class="govuk-hint" id="email-no-hint">We will only contact you to discuss your feedback.</div>
+              <p class="govuk-error-message is-hidden" id="email-no-error"><span class="govuk-visually-hidden">Error:</span> Enter a valid email address</p>
+              <input class="govuk-input" id="email-no" name="Email address (optional)" type="email" aria-describedby="email-no-hint email-yes-error" data-validate="true">
+            </div>
 
             <div class="govuk-form-group govuk-visually-hidden" aria-hidden="true">
-              <label class="govuk-label govuk-label--m" for="giraffe">Don’t fill this out if you’re human</label>
-              <input class="govuk-input" id="giraffe" name="giraffe" type="text" autocomplete="off" tabindex="-1">
+              <label class="govuk-label govuk-label--m" for="giraffe-no">Don’t fill this out if you’re human</label>
+              <input class="govuk-input" id="giraffe-no" name="giraffe-no" type="text" autocomplete="off" tabindex="-1">
             </div>
 
             <div class="govuk-button-group">
@@ -155,7 +165,10 @@
               {{ component('button', {
                 classes: 'govuk-button--secondary govuk-!-margin-bottom-0 moduk-feedback__close js-feedback-no-close no-js:is-hidden',
                 text: 'Cancel',
-                type: 'button'
+                type: 'button',
+                attributes: {
+                  'aria-controls': 'moduk-feedback__no'
+                }
               }) }}
 
             </div>

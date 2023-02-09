@@ -1,127 +1,183 @@
-(function() {
+(function () {
 
-  var FormValidator = function(opts) {
-    this.options = Util.extend(FormValidator.defaults , opts);
-    this.element = this.options.element;
-    this.input = [];
-    this.textarea = [];
-    this.select = [];
-    this.errorFields = [];
-    this.errorFieldListeners = [];
-    initFormValidator(this);
+
+  var Form = function (element) {
+    this.element = element;
+    this.errorSummary = this.element.getElementsByClassName('govuk-error-summary')[0];
+    this.formGroup = this.element.getElementsByClassName('govuk-form-group');
+    this.formField = this.element.querySelectorAll('.govuk-input, .govuk-textarea, .govuk-radios__input');
+    this.requiredFields = this.element.querySelectorAll('[required], [data-validate]');
+    this.formError = this.element.getElementsByClassName('govuk-error-message');
+    this.initForm(this);
   };
 
-  //public functions
-  FormValidator.prototype.validate = function(cb) {
-    validateForm(this);
-    if(cb) cb(this.errorFields);
-  };
 
-  // private methods
-  function initFormValidator(formValidator) {
-    formValidator.input = formValidator.element.querySelectorAll('input');
-    formValidator.textarea = formValidator.element.querySelectorAll('textarea');
-    formValidator.select = formValidator.element.querySelectorAll('select');
-  };
+  Form.prototype.initForm = function () {
+    this.element.setAttribute('novalidate', true); // Stop HTML5 validation, in favour of our own
+    this.validateForm();
+  }
 
-  function validateForm(formValidator) {
 
-    // reset input with errors
-    formValidator.errorFields = []; 
+  Form.prototype.validateForm = function () {
 
-    // remove change/input events from fields with error
-    resetEventListeners(formValidator);
-    
-    // loop through fields and push to errorFields if there are errors
-    for(var i = 0; i < formValidator.input.length; i++) {
-      validateField(formValidator, formValidator.input[i]);
-    }
+    var self = this;
 
-    for(var i = 0; i < formValidator.textarea.length; i++) {
-      validateField(formValidator, formValidator.textarea[i]);
-    }
+    this.element.addEventListener('submit', function (event) {
 
-    for(var i = 0; i < formValidator.select.length; i++) {
-      validateField(formValidator, formValidator.select[i]);
-    }
+      event.preventDefault();
 
-    // show errors if any was found
-    for(var i = 0; i < formValidator.errorFields.length; i++) {
-      showError(formValidator, formValidator.errorFields[i]);
-    }
-
-    // move focus to first field with error
-    if(formValidator.errorFields.length > 0) formValidator.errorFields[0].focus();
-
-  };
-
-  function validateField(formValidator, field) {
-    
-    if(!field.checkValidity()) {
-      formValidator.errorFields.push(field);
-      return;
-    }
-
-    // check for custom functions
-    var customValidate = field.getAttribute('data-validate');
-
-    if(customValidate && formValidator.options.customValidate[customValidate]) {
-      formValidator.options.customValidate[customValidate](field, function(result) {
-        if(!result) formValidator.errorFields.push(field);
-      });
-    }
-
-  };
-
-  function showError(formValidator, field) {
-    
-    // add error classes
-    toggleErrorClasses(formValidator, field, true);
-
-    // add event listener
-    var index = formValidator.errorFieldListeners.length;
-
-    formValidator.errorFieldListeners[index] = function() {
-      toggleErrorClasses(formValidator, field, false);
-      field.removeEventListener('change', formValidator.errorFieldListeners[index]);
-      field.removeEventListener('input', formValidator.errorFieldListeners[index]);
-    };
-
-    field.addEventListener('change', formValidator.errorFieldListeners[index]);
-    field.addEventListener('input', formValidator.errorFieldListeners[index]);
-
-  };
-
-  function toggleErrorClasses(formValidator, field, bool) {
-    bool ? Util.addClass(field, formValidator.options.inputErrorClass) : Util.removeClass(field, formValidator.options.inputErrorClass);
-    if(formValidator.options.inputWrapperErrorClass) {
-      var wrapper = field.closest('.js-form-validate__input-wrapper');
-      if(wrapper) {
-        bool ? Util.addClass(wrapper, formValidator.options.inputWrapperErrorClass) : Util.removeClass(wrapper, formValidator.options.inputWrapperErrorClass);
+      for (var i = 0; i < self.requiredFields.length; i++) {
+        var input = self.requiredFields[i];
+        self.validateFields(input);
       }
+
+      self.submit();
+
+    });
+
+  };
+
+
+  Form.prototype.submit = function () {
+
+    var errors = this.element.getElementsByClassName('govuk-input--error');
+
+    // If no errors exist, submit form
+    if (errors.length === 0) {
+
+      Util.addClass(this.errorSummary, 'js:is-hidden');
+
+      // If yes or no feedback form
+      var form = this.element;
+
+      var prompt = document.getElementsByClassName('js-feedback-prompt')[0];
+      var questions = document.getElementsByClassName('js-feedback-question')[0];
+      var success = document.getElementsByClassName('js-feedback-success')[0];
+
+      if (form.classList.contains('js-feedback-form')) {
+
+        document.querySelectorAll('.js-feedback-form').forEach(item => {
+
+          Util.addClass(item, 'is-hidden')        // Hide feedback form
+          Util.removeClass(prompt, 'is-hidden');  // Show the feedback prompt
+          Util.addClass(questions, 'is-hidden');  // Hide the question
+          Util.removeClass(success, 'is-hidden'); // Show the success
+
+        });
+
+      }
+
+      // Send form data
+      var formData = new FormData(form);
+
+      if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
+
+        fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(formData).toString(),
+        })
+          .then(() => console.log('Feedback form sent successfully'))
+          .catch((error) => alert(error));
+
+      } else {
+
+        // Submit the form
+        form.submit();
+
+      }
+
+    } else {
+
+      Util.removeClass(this.errorSummary, 'is-hidden');
+      Util.setAttributes(this.errorSummary, { 'tabindex': '0' });
+
+      this.errorSummary.scrollIntoView({
+        behavior: 'smooth'
+      }, true);
+
+      Util.moveFocus(this.errorSummary); // Focus
+
     }
+
   };
 
-  function resetEventListeners(formValidator) {
-    
-    for(var i = 0; i < formValidator.errorFields.length; i++) {
-      toggleErrorClasses(formValidator, formValidator.errorFields[i], false);
-      formValidator.errorFields[i].removeEventListener('change', formValidator.errorFieldListeners[i]);
-      formValidator.errorFields[i].removeEventListener('input', formValidator.errorFieldListeners[i]);
+
+  Form.prototype.validateFields = function (input) {
+
+
+    // Check for required fields have a value
+    if (input.value.trim() === '') {
+      this.setStatus(input, 'error');
+    } else {
+      this.setStatus(input, 'success');
     }
 
-    formValidator.errorFields = [];
-    formValidator.errorFieldListeners = [];
-    
-  };
-  
-  FormValidator.defaults = {
-    element : '',
-    inputErrorClass : 'form-control--error',
-    inputWrapperErrorClass: 'form-validate__input-wrapper--error',
-    customValidate: {}
+
+    // Check that radios have a value
+    if (input.type === 'radio') {
+
+      var radioGroup = this.element.querySelectorAll('input[name]:checked').length;
+
+      var hasCheckedItem = (!!parseInt(radioGroup) ? true : false)
+
+      if (hasCheckedItem === false) {
+        this.setStatus(input, 'error');
+      } else {
+        this.setStatus(input, 'success');
+      }
+
+    }
+
+
+    // Check for a valid email address, if an email address has a value 
+    if (input.type === 'email') {
+
+      var regEx = /\S+@\S+\.\S+/
+
+      if (input.value.trim() !== '' && !regEx.test(input.value)) {
+        this.setStatus(input, 'error');
+      } else {
+        this.setStatus(input, 'success');
+      }
+
+    }
+
+
   };
 
-  window.FormValidator = FormValidator;
 
-}());
+  Form.prototype.setStatus = function (input, status) {
+
+    var formGroup = input.closest('.govuk-form-group'); // Parent container
+    var errorMessage = formGroup.querySelector('.govuk-error-message'); // Error message
+    var summaryError = document.getElementById(input.id + '-summary-error');
+
+    if (status === 'error') {
+      Util.addClass(formGroup, 'govuk-form-group--error');
+      Util.addClass(input, 'govuk-input--error');
+      Util.removeClass(summaryError, 'is-hidden');
+      Util.removeClass(errorMessage, 'is-hidden');
+    }
+
+    if (status === 'success') {
+      Util.removeClass(formGroup, 'govuk-form-group--error');
+      Util.removeClass(input, 'govuk-input--error');
+      Util.addClass(summaryError, 'is-hidden');
+      Util.addClass(errorMessage, 'is-hidden');
+    }
+
+  };
+
+
+  // Initialize the Form objects
+  var form = document.getElementsByClassName('js-form');
+
+  if (form.length > 0) {
+    for (var i = 0; i < form.length; i++) {
+      (function (i) { new Form(form[i]); })(i);
+    }
+  }
+
+
+})();
