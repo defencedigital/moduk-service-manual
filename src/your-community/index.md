@@ -19,6 +19,7 @@ Joining a community helps you:
 You can join more than one community.
 
 - [Product and delivery](/your-community/product-and-delivery/)
+- [Software development](/your-community/software-development/)
 - [User-centred design](/your-community/user-centred-design/)
 
 The user-centred design community includes content designers, interaction designers, service designers and user researchers.
