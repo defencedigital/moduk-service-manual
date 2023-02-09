@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Community"
 title: "Product and delivery"
 description: "Anyone in delivery or product management roles in Defence can join the community. Find out how to get involved."
-dateUpdated: 2023-02-06
+dateUpdated: 2023-02-09
 eleventyNavigation:
   key: "Your community"
   url: "/your-community/"
