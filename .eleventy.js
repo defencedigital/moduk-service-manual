@@ -37,28 +37,28 @@ module.exports = function (eleventyConfig) {
 
   // Date published and updated formatting
   eleventyConfig.addFilter('publishedDate', dateObj => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('LLLL yyyy');
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('LLLL yyyy');
   });
 
   eleventyConfig.setUseGitIgnore(false);
 
   // Copy GOV.UK fonts
-  eleventyConfig.addPassthroughCopy({'node_modules/govuk-frontend/govuk/assets/fonts': 'assets/fonts'});
+  // eleventyConfig.addPassthroughCopy({'node_modules/govuk-frontend/govuk/assets/fonts': 'assets/fonts'});
 
   // Copy GOV.UK javascript
-  eleventyConfig.addPassthroughCopy({'node_modules/govuk-frontend/govuk/all.js': 'assets/scripts/govuk.js'});
+  eleventyConfig.addPassthroughCopy({ 'node_modules/govuk-frontend/govuk/all.js': 'assets/scripts/govuk.js' });
 
   // Copy HMCTS Cookies javascript
-  eleventyConfig.addPassthroughCopy({'./src/assets/scripts/cookie-manager-1.0.0.min.js': 'assets/scripts/cookie-manager-1.0.0.min.js'});
+  eleventyConfig.addPassthroughCopy({ './src/assets/scripts/cookie-manager-1.0.0.min.js': 'assets/scripts/cookie-manager-1.0.0.min.js' });
 
   // Copy cookies javascript
-  eleventyConfig.addPassthroughCopy({'./components/cookies/cookies.js': 'assets/scripts/cookies.js'});
+  eleventyConfig.addPassthroughCopy({ './components/cookies/cookies.js': 'assets/scripts/cookies.js' });
 
   // Copy MOD.UK assets
-  eleventyConfig.addPassthroughCopy({'./src/assets/images': 'assets/images'});
+  eleventyConfig.addPassthroughCopy({ './src/assets/images': 'assets/images' });
 
   // Copy downloads folder
-  eleventyConfig.addPassthroughCopy({'./src/downloads': 'downloads'});
+  eleventyConfig.addPassthroughCopy({ './src/downloads': 'downloads' });
 
   // Table of contents
   eleventyConfig.addPlugin(eleventyPluginTOC, {
@@ -102,7 +102,7 @@ module.exports = function (eleventyConfig) {
       output: 'public',
       includes: '_includes'
     },
-    templateFormats: [ 'md', 'njk', 'html'],
+    templateFormats: ['md', 'njk', 'html'],
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     dataTemplateEngine: 'njk'
