@@ -9,21 +9,18 @@ Check how the Defence Service Manual has changed. This includes new content and 
 
 ## February 2023 {.govuk-heading-m}
 
-{% set htmlOutput %}
   <ul class="govuk-list govuk-list--bullet">
-    <li>simplified instructions for suggesting content</li>
-    <li>improved the label for Add or update content </li>
+    <li>redesigned the homepage with 3 clear sections</li>
     <li>added guidance for content designers</li>
     <li>added guidance on tools</li>
-    <li>redesign of the homepage</li>
+    <li>improved the template and navigation of community pages
+    <li>added a community page for software developers</li>
+    <li>added key messages to the service standards page</li>
+    <li>improved the standards tile header and description</li>
+    <li>simplified instructions for suggesting content</li>
+    <li>improved the label for add or update content </li>
     <li>added validation messages to forms</li>
   </ul>
-{% endset %}
-
-{{ component('details', {
-  summaryText: 'What changed',
-  html: htmlOutput
-}) }}
 
 ## January 2023 {.govuk-heading-m}
 
