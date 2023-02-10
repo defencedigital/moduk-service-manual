@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Ethics"
 title: "Do the right thing in Defence"
 description: "Do the right thing when you meet users and stakeholders across Defence, and keep your team safe."
-datePublished: 2023-01-17
+datePublished: 2023-02-13
 eleventyNavigation:
   key: "Ethics"
   url: "/ethics/"
