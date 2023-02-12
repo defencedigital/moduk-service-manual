@@ -13,7 +13,7 @@ There are a few things you should do when you meet with users and stakeholders i
 
 ## Encourage people to speak freely 
 
-Give participants respect and autonomy. Give people time to think and respond, do not hurry or correct them.
+Give participants respect and autonomy. Give people time to think and to respond - do not hurry or correct them.
 
 When testing your service, remind users that you are not testing them and that there are no wrong responses. If you can, arrange to meet with users without the people they report to being present. 
 
