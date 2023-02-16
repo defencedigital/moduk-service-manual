@@ -4,22 +4,8 @@ Title: Overrides
 
 -------------------------------- */
 
-// Hide crest in copyright
-.govuk-footer__copyright-logo {
-  background: none;
-  min-width: auto;
-  padding-top: 0;
-  text-align: right;
-}
-
-
 .govuk-footer--has-feedback {
   border-top: 10px solid $govuk-brand-colour;
-}
-
-
-.govuk-footer__meta {
-  justify-content: flex-start;
 }
 
 
