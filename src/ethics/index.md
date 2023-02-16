@@ -8,7 +8,7 @@ description: "Do the right thing when you meet users and stakeholders across Def
 
 To create user-centred services, you need to work closely with users and other stakeholders. Check you are doing this in an open, fair and safe way. 
 
-## [Do the right thing in Defence](/ethics/do-the-right-thing-in-Defence/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Do the right thing in Defence](/ethics/do-the-right-thing-in-defence/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - Why ethics are important
 - Help with ethical issues
