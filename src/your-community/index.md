@@ -17,7 +17,7 @@ Joining a community helps you:
 
 ## Join communities in Defence
 
-Anyone working in Defence can join a community of practice. 
+Anyone working in Defence can join a community. 
 
 You can join more than one community.
 
