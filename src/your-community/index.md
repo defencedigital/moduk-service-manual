@@ -17,6 +17,8 @@ Joining a community helps you:
 
 ## Join communities in Defence
 
+Anyone working in Defence can join a community of practice. 
+
 You can join more than one community.
 
 - [Product and delivery](/your-community/product-and-delivery/)
@@ -41,7 +43,7 @@ You’ll also join the assessor community across government.
 
 To get assessor training, you need to be a crown servant who has been in a specialised digital role for at least 6 months. 
 
-If you meet these criteria, send your details to [email@email.co.uk](). 
+If you meet these criteria, send your details to [assessments@digital.mod.uk](mailto:assessments@digital.mod.uk?subject=Service%20assessor%20training). 
 
 We would also like to hear from all trained assessors across Defence. 
 
