@@ -14,7 +14,7 @@ Make sure your service is easy to use by starting simply and using existing patt
 
 ## Services for users in Defence
 
-You need to reuse components and patterns already used in Defence. 
+You need to reuse components already used in Defence. 
 
 Before you start, [check the MOD.UK Design System](https://design-system.service.mod.gov.uk/).
 
