@@ -6,6 +6,8 @@ description: "How to start with simple designs, use existing GOV.UK and Defence 
 
 # Design
 
+Use this guidance to design great services in Defence. You can find general guidance on GOV.UK.
+
 ## [Start with simple designs](/design/start-with-simple-designs/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - Check existing patterns
@@ -23,3 +25,4 @@ description: "How to start with simple designs, use existing GOV.UK and Defence 
 - Start with the GOV.UK approach
 - Acronyms in service names
 - Example service names
+
