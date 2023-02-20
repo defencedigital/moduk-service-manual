@@ -9,7 +9,7 @@ description: "Use the site map as an alternative way to find what you need in th
 Find your way around this website.
 
 - [Home](/)
-- [Standards in Defence](/standards-in-defence/)
+- [Meet the standard](/meet-the-standard/)
 - [Accessibility](/accessibility/)
   - [Understand Defence environments](/accessibility/understand-defence-environments/)
   - [Meet accessibility regulations](/accessibility/meet-accessibility-regulations/)
@@ -28,6 +28,10 @@ Find your way around this website.
 - [Security classifications](/security-classifications/)
   - [How to classify information](/security-classifications/how-to-classify-information/)
   - [How to label information](/security-classifications/how-to-classify-information/)
+- [Content](/content/)
+  - [Start with your users](/content/start-with-your-users/)
+  - [Writing for services in Defence](/content/writing-for-services-in-defence/)
+  - [Work with content designers](/content/work-with-content-designers/)
 - [Design](/design/)
   - [Start with simple designs](/design/start-with-simple-designs/)
   - [Design for safety](/design/design-for-safety/)
