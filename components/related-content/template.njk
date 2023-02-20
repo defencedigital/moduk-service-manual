@@ -1,0 +1,17 @@
+{% set headingLevel = params.headingLevel if params.headingLevel else 3 %}
+
+<aside class="moduk-related-content" aria-label="{{ params.ariaLabel }}">
+
+  <h{{ headingLevel }} class="moduk-related-content__title" id="{{ params.id }}">{{ params.title }}</h{{ headingLevel }}>
+
+  {% if params.description %}<p class="moduk-related-content__description">{{ params.description }}</p>{% endif %}
+
+  <nav class="moduk-related-content__navigation" aria-labelledby="{{ params.id }}">
+    <ul class="moduk-related-content__list">
+      {%- for item in params.items %}
+      <li class="moduk-related-content__list-item"><a class="moduk-related-content__list-link" href="{{ item.url }}">{{ item.text }}</a></li>
+      {%- endfor %}
+    </ul>
+  </nav>
+
+</aside>
