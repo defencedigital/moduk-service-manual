@@ -3,13 +3,13 @@ layout: "layouts/guidance.njk"
 section: "Design"
 title: "Design for safety"
 description: "Consider the safety of people in Defence from the start, test in real or simulated environments and make it easy to report issues."
-datePublished: 2022-11-07
+dateUpdated: 2023-02-21
 eleventyNavigation:
   key: "Design"
   url: "/design/"
 ---
 
-Good design keeps people safe. Make sure your service or product is reliable and easy to understand in stressful situations.
+Good design keeps people safe. Make sure your service or product is reliable and easy to understand in stressful or demanding situations.
 
 ## Consider safety from the start
 
@@ -41,13 +41,13 @@ Working with people who have experience in similar environments can help. They c
 
 Defence users need to report safety issues as soon as possible. Acting on feedback quickly keeps people safe.
 
-For example: if your service will be used in combat zones at night, but does not work in low light, it will put users in danger.
+For example: a soldier needs to use your service in an area with low lighting. It is difficult to read. This poses a risk to their safety.
 
-### Check your feedback processes
+### Check your feedback process
 
-As part of your existing feedback processes, make sure users can report any concerns about the safety of your product or service.
+Check what restrictions users have to reporting safety concerns. You need to design for their circumstances. 
 
-To send feedback, Defence users might need:
+For example Defence users might need:
 
 - permission from their commanding officer
 - a process that works in their environment
@@ -56,4 +56,10 @@ To send feedback, Defence users might need:
 
 When you get feedback, make sure high risk problems and safety issues are easy to identify. This will help you respond to them quickly.
 
-For example: if you collect feedback using an online form, let users select the level of risk associated with the problem.
+### Report security issues in Defence services
+
+If you notice a security vulnerability on any Ministry of Defence service or system, you need to report it.
+
+<a href="https://www.gov.uk/guidance/report-a-vulnerability-on-an-mod-system" target="_blank">Check how to report a security vulnerability</a>.
+
+

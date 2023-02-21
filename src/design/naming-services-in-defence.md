@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Design"
 title: "Naming services in Defence"
 description: "Start with the GOV.UK approach, how to deal with acronyms in Defence and find examples of good service names."
-datePublished: 2022-11-07
+dateUpdated: 2023-02-21
 eleventyNavigation:
   key: "Design"
   url: "/design/"
@@ -28,6 +28,14 @@ According to GOV.UK, good service or product names:
 - are verbs, not nouns
 
 Check the [GOV.UK guidance on naming your service](https://www.gov.uk/service-manual/design/naming-your-service/).
+
+### When to take a different approach
+
+In Defence, sometimes it is not appropriate to be open about what a service does. It might be necessary to use a code name. 
+
+For example: Project MORPHEUS. 
+
+In all other cases, follow the GOV.UK approach. 
 
 ## Acronyms in service names
 
@@ -58,3 +66,4 @@ Good examples of service names in Defence include:
 - Estimate your armed forces pension
 - Get a copy of military service records
 - Apply for a medal or veterans badge
+
