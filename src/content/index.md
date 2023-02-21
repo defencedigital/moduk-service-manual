@@ -6,6 +6,8 @@ description: Create clear content for Defence services, check the styles you nee
 
 # Content
 
+Use this guidance to create user-centred content in Defence. You can find general guidance on GOV.UK.
+
 ## [Start with your users](/content/start-with-your-users/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - Get to know your users

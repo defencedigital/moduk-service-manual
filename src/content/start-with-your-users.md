@@ -38,15 +38,15 @@ This helps you:
 
 ## Work with a user researcher
 
-Ask a user researcher to test your content with users and invite you to the sessions. 
+When you have written content, it can be hard to present it without bias.
 
-When you have written content, it can be hard to present it without bias. In addition, user researchers are familiar with research processes and ethics in Defence.
+Ask a user researcher to test your content with users. They are familiar with research processes and ethics in Defence. Make sure you observe the research sessions.
 
-If your team does not have a user researcher, ask the UCD community for advice. 
+If your team does not have a user researcher, [ask the UCD community for advice](https://servicemanual.digital.mod.uk/your-community/user-centred-design/). 
 
 ## Related guidance
-Content design: planning, writing and managing content
-Writing user stories
+[Content design: planning, writing and managing content](https://www.gov.uk/guidance/content-design)
+[Writing user stories](https://www.gov.uk/service-manual/agile-delivery/writing-user-stories)
 
 
 
