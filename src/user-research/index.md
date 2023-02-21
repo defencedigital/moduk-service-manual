@@ -6,6 +6,9 @@ description: "How to do user research with military personnel, find participants
 
 # User research
 
+Use this guidance to do user research in Defence. You can find general guidance on GOV.UK.
+
+
 ## [Understanding military personnel](/user-research/understanding-military-personnel/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - Defence users are diverse

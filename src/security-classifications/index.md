@@ -6,6 +6,8 @@ description: "Keep and share information securely in Defence, check how to use s
 
 # Security classifications
 
+Everyone working in Defence needs to know how to classify and label information. Check that you are doing it correctly.
+
 ## [How to classify information](/security-classifications/how-to-classify-information/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - What we use in Defence
