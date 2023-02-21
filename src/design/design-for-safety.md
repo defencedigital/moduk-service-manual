@@ -57,3 +57,10 @@ For example Defence users might need:
 When you get feedback, make sure high risk problems and safety issues are easy to identify. This will help you respond to them quickly.
 
 For example: if you collect feedback using an online form, let users select the level of risk associated with the problem.
+
+### Report security issues in Defence services
+
+If you notice a security vulnerability on any Ministry of Defence service or system, you need to report it.
+
+<a href="https://www.gov.uk/guidance/report-a-vulnerability-on-an-mod-system" target="_blank">Check how to report a security vulnerability</a>.
+
