@@ -20,4 +20,4 @@ You can email the team at [service-manual@digital.mod.uk](mailto:service-manual@
 
 ## Suggest content
 
-If you have content that could go in the manual or updates to existing content, check [how to add or update content](/add-or-update-content/).
+If you have content that could go in the manual or updates to existing content, check [suggest content](/suggest-content/).
