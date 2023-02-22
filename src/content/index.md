@@ -1,5 +1,5 @@
 ---
-layout: "layouts/landing.njk"
+layout: "layouts/two-column.njk"
 title: "Content"
 description: Create clear content for Defence services, check the styles you need to use and how to work with content designers."
 lead: "Use this guidance to create user-centred content in Defence. You can find general guidance on GOV.UK."

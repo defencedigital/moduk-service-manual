@@ -1,5 +1,5 @@
 ---
-layout: "layouts/landing.njk"
+layout: "layouts/two-column.njk"
 title: "Security classifications"
 description: "Keep and share information securely in Defence, check how to use security classifications and label information."
 lead: "Everyone working in Defence needs to know how to classify and label information. Check that you are doing it correctly."

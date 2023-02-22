@@ -1,0 +1,50 @@
+{% extends "layouts/base.njk" %}
+
+{% block body %}
+
+<div class="govuk-width-container">
+
+  <div class="govuk-breadcrumbs">
+
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a></li>
+    </ol>
+  
+  </div>
+
+</div>
+
+<div class="govuk-width-container">
+
+  <div class="govuk-main-wrapper">
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-two-thirds">
+        <h1 class="govuk-heading-xl">{{ title }}</h1>
+        <p class="govuk-body-l">{{ lead }}</p>
+      </div>
+
+    </div>
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-two-thirds">
+        
+        <div class="moduk-prose">
+          {{ content | safe }}
+        </div>
+
+        {% include "published-date.njk" ignore missing %}
+
+      </div>
+
+      {% include "related-content.njk" ignore missing %}
+
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock %}

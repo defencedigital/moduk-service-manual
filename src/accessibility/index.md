@@ -1,5 +1,5 @@
 ---
-layout: "layouts/landing.njk"
+layout: "layouts/two-column.njk"
 title:  "Accessibility"
 description: "Follow best practice, meet the regulations and deliver services that can be used by anyone in Defence."
 lead: "All services in Defence need to be easy to use and meet accessibility regulations. This includes internal services."
