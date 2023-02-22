@@ -21,7 +21,7 @@ In alpha, beta and live, a content designer creates content that:
 - is simple and easy to understand 
 - follows GOV.UK style
 
-If your team does not have a content designer, [ask the content community for advice](). 
+If your team does not have a content designer, [ask the content community for advice](/your-community/content/). 
 
 ## Pair write with experts
 
@@ -40,7 +40,7 @@ Pair writing is faster than tracking changes by email and makes version control 
 
 ## Use the content community 
 
-If you need to create content but your team does not yet have a content designer, [ask the content community for advice](). 
+If you need to create content but your team does not yet have a content designer, [ask the content community for advice](/your-community/content/). 
 
 You can also share content that you are working on with the content community.
 
