@@ -45,5 +45,3 @@ To get assessor training, you need to be a crown servant who has been in a speci
 If you meet these criteria, send your details to [assessments@digital.mod.uk](mailto:assessments@digital.mod.uk?subject=Service%20assessor%20training). 
 
 We would also like to hear from all trained assessors across Defence. 
-
-

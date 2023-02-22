@@ -21,7 +21,6 @@ We will let you know if the content fits in the Defence Service Manual or sugges
 
 If your content fits in the Defence Service Manual, we will review it and share our edits with you.
 
-
 ## Get content updated
 
 If you spot content that needs updating or removing, send the details to [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk).
@@ -30,7 +29,6 @@ You need to include:
 
 - a link to the relevant pages
 - details of the change
-
 
 ## What we publish
 
@@ -43,7 +41,7 @@ In the manual, we include things like:
 
 Currently, we only publish OFFICIAL information. 
 
-Check <a href="../security-classifications/how-to-classify-information/">how to classify information</a>.
+Check <a href="/security-classifications/how-to-classify-information/">how to classify information</a>.
 
 ### What we do not publish
 

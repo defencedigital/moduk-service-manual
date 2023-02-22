@@ -8,7 +8,6 @@ dateUpdated: 2023-01-05
 
 All tools and software that you use in Defence must be secure and meet data protection regulations. 
 
-
 {{ modukcomponent('do-dont-list', {
   'title': 'Do',
   'type': 'tick',
@@ -39,7 +38,6 @@ You should use tools that have a Ministry of Defence (MOD) licence, for example:
 - JIRA
 - Slack
 - Trello 
-
 
 {{ component('inset-text', {
   text: 'Do not set up personal software accounts for work in Defence. There may be risks to your security and we cannot access work if you leave.'
@@ -73,4 +71,3 @@ If you are recruiting participants for user research, you must not use social me
 If you are unsure, [ask on Defence Digital Slack](https://defencedigital.slack.com/archives/C02GUNVHBBL).
 
 On a MODNET device, you can use Slack in your web browser.
-

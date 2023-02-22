@@ -105,7 +105,3 @@ Check how the Defence Service Manual has changed. This includes new content and 
   summaryText: 'What changed',
   html: htmlOutput
 }) }}
-
-
-
-

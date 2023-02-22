@@ -22,4 +22,3 @@ lead: "Use this guidance to design great services in Defence. You can find gener
 - Start with the GOV.UK approach
 - Acronyms in service names
 - Example service names
-

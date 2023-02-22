@@ -9,7 +9,6 @@ eleventyNavigation:
   url: "/content/"
 ---
 
-
 If your service has words, images or videos, you should have a content designer on your team. 
 
 ## When to get a content designer
@@ -39,7 +38,6 @@ Tips for pair writing include:
 
 Pair writing is faster than tracking changes by email and makes version control easier. It also helps experts understand the importance of user-centred content.
 
-
 ## Use the content community 
 
 If you need to create content but your team does not yet have a content designer, [ask the content community for advice](). 
@@ -48,6 +46,7 @@ You can also share content that you are working on with the content community.
 
 ## Related guidance
 
-[Content designers and accessibility](https://servicemanual.digital.mod.uk/accessibility/meet-accessibility-regulations/content-designers/)
-[It takes 2: how we use pair writing](https://gds.blog.gov.uk/2016/09/21/it-takes-2-how-we-use-pair-writing/)
-[Phases of an agile project](https://www.gov.uk/service-manual/agile-delivery)
+- [Content designers and accessibility](https://servicemanual.digital.mod.uk/accessibility/meet-accessibility-regulations/content-designers/)
+- [It takes 2: how we use pair writing](https://gds.blog.gov.uk/2016/09/21/it-takes-2-how-we-use-pair-writing/)
+- [Phases of an agile project](https://www.gov.uk/service-manual/agile-delivery)
+{.govuk-list}

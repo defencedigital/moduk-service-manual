@@ -42,7 +42,6 @@ Before starting user research, ask the user-centred design (UCD) community if th
 
 Check [how to contact the UCD community](/your-community/user-centred-design/).
 
-
 ## Start with stakeholders and subject matter experts
 
 Your stakeholders will understand how Defence works. Working with them to find participants can be more efficient than trying to find them yourself.

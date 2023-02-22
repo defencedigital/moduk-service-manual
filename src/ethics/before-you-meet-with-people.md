@@ -54,4 +54,3 @@ Review what you plan to cover in sessions and assess any risks to triggering pas
 For in-person sessions away from a user's day to day environment, choose a venue that is quiet and easy to access. If sensitive topics are likely to come up, you will need a private area. 
 
 Keep sessions short. If you need a longer session, plan for comfort breaks.
-

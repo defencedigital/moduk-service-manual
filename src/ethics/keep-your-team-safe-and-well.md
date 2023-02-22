@@ -21,7 +21,6 @@ Make sure everyone has the right level of security clearance and understands how
 
 Find out [more about security classifications](/security-classifications/). 
 
-
 ## Stay safe on site
 
 Some Ministry of Defence sites can be dangerous for people who are not familiar with them. 
@@ -29,7 +28,6 @@ Some Ministry of Defence sites can be dangerous for people who are not familiar 
 You should not visit barracks, ships or field sites on your own. Go with at least one other person from your team. You will also need a military sponsor to help with your visit. 
 
 If you plan to observe military hardware in use, be aware of all safety protocols and wear protective clothing if necessary. Remember not to take photos without permission. 
-
 
 ## Deal with sensitive issues 
 

@@ -45,8 +45,7 @@ Ask a user researcher to test your content with users. User researchers are fami
 If your team does not have a user researcher, [ask the UCD community for advice](https://servicemanual.digital.mod.uk/your-community/user-centred-design/). 
 
 ## Related guidance
-[Content design: planning, writing and managing content](https://www.gov.uk/guidance/content-design)
-[Writing user stories](https://www.gov.uk/service-manual/agile-delivery/writing-user-stories)
 
-
-
+- [Content design: planning, writing and managing content](https://www.gov.uk/guidance/content-design)
+- [Writing user stories](https://www.gov.uk/service-manual/agile-delivery/writing-user-stories)
+{.govuk-list}

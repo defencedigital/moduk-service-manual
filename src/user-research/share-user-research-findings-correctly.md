@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/user-research/"
 ---
 
- We need to avoid doing similar research with the same participants and help projects reuse existing research. 
+We need to avoid doing similar research with the same participants and help projects reuse existing research. 
 
 {{ modukcomponent('do-dont-list', {
   'title': 'Do',

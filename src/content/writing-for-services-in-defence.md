@@ -9,7 +9,6 @@ eleventyNavigation:
   url: "/content/"
 ---
 
-
 Everyone using digital services needs content they can understand quickly and easily.
 
 ## Follow GOV.UK style
@@ -54,7 +53,6 @@ If you need to include an unfamiliar acronym, test it with your users. Remember 
 
 You can [look up a MOD acronym or abbreviation](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/227048/acronyms_and_abbreviations_dec08.pdf). 
 
-
 ## Take care with military terms
 
 Many military terms are agreed by NATO and used internationally. 
@@ -79,9 +77,10 @@ Sometimes, you need to use capital letters for:
 
 Words written in all capitals can be hard to read. If you are unsure about the need for all capitals, check with a stakeholder.
 
-
 ## Related guidance
-[Writing for user interfaces](https://www.gov.uk/service-manual/design/writing-for-user-interfaces)
-[GOV.UK words to avoid](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style#words-to-avoid)
-[Development, Concepts and Doctrine Centre Writer’s Handbook](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1105691/20220913-DCDC_Writers_Handbook_Sept_2022_web.pdf)
-[Security classifications](https://servicemanual.digital.mod.uk/security-classifications/)
+
+- [Writing for user interfaces](https://www.gov.uk/service-manual/design/writing-for-user-interfaces)
+- [GOV.UK words to avoid](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style#words-to-avoid)
+- [Development, Concepts and Doctrine Centre Writer’s Handbook](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1105691/20220913-DCDC_Writers_Handbook_Sept_2022_web.pdf)
+- [Security classifications](https://servicemanual.digital.mod.uk/security-classifications/)
+{.govuk-list}

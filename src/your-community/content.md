@@ -21,7 +21,6 @@ In this community, you will meet:
 - graphic designers
 - other people creating content across Defence
 
-
 ## Community calls
 
 Join the UCD community calls held every second Wednesday at 11am.
@@ -59,5 +58,3 @@ If you have a digital.mod.uk or mod.gov.uk email address:
 1. Sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com/).
 2. In your Slack profile, add MOD after your name.
 3. Join the <code>#content</code> and <code>#technical-writing</code> channels.
-
-

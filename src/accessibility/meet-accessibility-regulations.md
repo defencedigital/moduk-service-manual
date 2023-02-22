@@ -17,7 +17,6 @@ Anyone using your service can find themselves dealing with a stressful situation
 
 When you start designing a digital service or product, you need to plan for accessibility. 
 
-
 ## Check the regulations
 
 In the UK, every government digital service for citizens or internal users must:

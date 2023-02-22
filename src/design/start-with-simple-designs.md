@@ -11,7 +11,6 @@ eleventyNavigation:
 
 Make sure your service is easy to use by starting simply and using existing patterns.
 
-
 ## Services for users in Defence
 
 You need to reuse components already used in Defence. 
@@ -32,7 +31,6 @@ It helps you build services that:
 
 - are familiar to citizens 
 - consistent with other GOV.UK services
-
 
 ## Using images and videos
 
