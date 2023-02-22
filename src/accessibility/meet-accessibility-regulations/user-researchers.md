@@ -27,7 +27,8 @@ If you can, the best way of testing this is to observe people using assistive te
 
 Ask your Delivery Lead to make time for colleagues to help with usability testing.
 
-## Related content
+## Related guidance
 
 - [Why testing with real users is important](https://accessibility.blog.gov.uk/2018/03/20/why-accessibility-testing-with-real-users-is-so-important/)
 - [Testing with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies/)
+{.govuk-list}

@@ -46,8 +46,9 @@ If you have a digital.mod.uk or mod.gov.uk email address:
 2. In your Slack profile, add MOD after your name
 3. Browse and join channels for product and delivery
 
-## Related content
+## Related guidance
 
 - [Guidance on agile delivery](https://www.gov.uk/service-manual/agile-delivery/)
 - [GOV.UK agile delivery community](https://www.gov.uk/service-manual/communities/agile-delivery-community/)
 - [GOV.UK product and service community](https://www.gov.uk/service-manual/communities/product-and-service-community/)
+{.govuk-list}

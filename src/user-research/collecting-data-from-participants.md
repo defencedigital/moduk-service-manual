@@ -130,6 +130,7 @@ Special category data and protected characteristics are similar, but regulated d
 
 Unless it is essential to your research, avoid collecting information on [protected characteristics](https://www.gov.uk/discrimination-your-rights)
 
-## Related content
+## Related guidance
 
 - [Special Category Data at the Information Commissioner’s Office](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/special-category-data)
+{.govuk-list}

@@ -81,7 +81,8 @@ Before using columns, consider the impact on accessibility.
 
 If users need a sidebar, check how it works for people who are blind or use a screen magnifier. You also need to check how a sidebar appears on mobile devices.
 
-## Related content
+## Related guidance
 
 - [Design for different browsers and devices](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices/)
 - [Blogs about accessibility and design](https://www.craigabbott.co.uk/blog/)
+{.govuk-list}
