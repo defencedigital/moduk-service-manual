@@ -4,8 +4,6 @@ title: "Take part in user research"
 description: "We do user research to check the Defence Service Manual works for everyone in Defence. If you work in Defence, find out how to take part."
 ---
 
-# Take part in user research
-
 When you sign up to be part of user research, we might ask you to:
 
 - join a short call to share your thoughts on new guidance

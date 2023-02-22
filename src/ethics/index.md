@@ -2,11 +2,8 @@
 layout: "layouts/landing.njk"
 title: "Ethics"
 description: "Do the right thing when you meet users and stakeholders across Defence, and keep your team safe."
+lead: "To create user-centred services, you need to work closely with users and other stakeholders. Check you are doing this in an open, fair and safe way."
 ---
-
-# Ethics
-
-To create user-centred services, you need to work closely with users and other stakeholders. Check you are doing this in an open, fair and safe way. 
 
 ## [Do the right thing in Defence](/ethics/do-the-right-thing-in-Defence/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 

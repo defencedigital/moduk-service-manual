@@ -2,12 +2,8 @@
 layout: "layouts/landing.njk"
 title: "User research"
 description: "How to do user research with military personnel, find participants across Defence and manage data correctly."
+lead: "Use this guidance to do user research in Defence. You can find general guidance on GOV.UK."
 ---
-
-# User research
-
-Use this guidance to do user research in Defence. You can find general guidance on GOV.UK.
-
 
 ## [Understanding military personnel](/user-research/understanding-military-personnel/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 

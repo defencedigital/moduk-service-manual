@@ -2,11 +2,8 @@
 layout: "layouts/landing.njk"
 title:  "Accessibility"
 description: "Follow best practice, meet the regulations and deliver services that can be used by anyone in Defence."
+lead: "All services in Defence need to be easy to use and meet accessibility regulations. This includes internal services."
 ---
-
-# Accessibility
-
-All services in Defence need to be easy to use and meet accessibility regulations. This includes internal services.
 
 ## [Understand Defence environments](/accessibility/understand-defence-environments/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
