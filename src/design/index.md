@@ -3,6 +3,7 @@ layout: "layouts/two-column.njk"
 title: "Design"
 description: "How to start with simple designs, use existing GOV.UK and Defence styles and design for safety."
 lead: "Use this guidance to design great services in Defence. You can find general guidance on GOV.UK."
+related: "design"
 ---
 
 ## [Start with simple designs](/design/start-with-simple-designs/) {.govuk-heading-m .govuk-!-margin-bottom-1}
