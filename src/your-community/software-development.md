@@ -45,9 +45,9 @@ This is the place to ask quick questions about software development in Defence.
 
 If you have a digital.mod.uk email address:
 
-1. Sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com/)
-2. In your Slack profile, add a photo, your job title and project
-3. Join the <code>#defence-software-development-community</code> channel
+1. Sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com/).
+2. In your Slack profile, add a photo, your job title and project.
+3. Join the <code>#defence-software-development-community</code> channel.
 
 If you have an mod.gov.uk or external email address, ask your delivery or team lead to invite you.
 
@@ -57,7 +57,7 @@ Get involved with conversations across government.
 
 If you have a digital.mod.uk or mod.gov.uk email address:
 
-1. Sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com/)
-2. In your Slack profile, add MOD after your name
-3. Browse and join channels for software development
+1. Sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com/).
+2. In your Slack profile, add MOD after your name.
+3. Browse and join channels for software development.
 
