@@ -5,8 +5,8 @@ title: "Content"
 description: "Anyone creating content for digital services in Defence can join the content community. Find out how to get involved."
 datePublished: 2023-02-22
 eleventyNavigation:
-  key: "Your community"
-  url: "/your-community/"
+  key: "Content"
+  url: "/content/"
 ---
 
 Anyone creating content for digital services in Defence can join the content community. 
