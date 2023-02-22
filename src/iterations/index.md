@@ -12,8 +12,11 @@ Check how the Defence Service Manual has changed. This includes new content and 
   <ul class="govuk-list govuk-list--bullet">
     <li>redesigned the homepage with 3 clear sections</li>
     <li>added guidance for content designers</li>
-    <li>added guidance on tools</li>
+    <li>added a community page for content</li>
     <li>improved the template and navigation of community pages
+    <li>designed related information panel on landing pages</li>
+    <li>added guidance on tools</li>
+    <li>added information on becoming a service assessor</li>
     <li>added a community page for software developers</li>
     <li>added key messages to the service standards page</li>
     <li>improved the standards tile header and description</li>
