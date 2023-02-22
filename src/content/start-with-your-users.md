@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Content"
 title: "Start with your users"
-description: ""
+description: "You can only create useful content if you understand your users and what they need to do. Find out more."
 datePublished: 2023-02-01
 eleventyNavigation:
   key: "Content"
