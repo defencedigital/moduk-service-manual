@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/your-community/"
 ---
 
-Anyone working on digital services in Defence is welcome to join the software development community. 
+Anyone working on digital services in Defence can join the software development community. 
 
 ## Who you will meet
 
@@ -27,7 +27,9 @@ Join the software development community calls held every second Thursday from 11
 
 We discuss things like software development tools available in Defence, building secure software and best practices.
 
-To join, send an email to: [UKStratComDD-Foundry-DSO-Engage@mod.gov.uk](mailto:UKStratComDD-Foundry-DSO-Engage@mod.gov.uk).
+To join, send an email to: [UKStratComDD-Foundry-DSO-Engage@mod.gov.uk](mailto:UKStratComDD-Foundry-DSO-Engage@mod.gov.uk?subject=Join%20software%20development%20community%20calls). 
+
+Include your full name, your role and the project you’re working on.
 
 {{ component('inset-text', {
   html: 'In community calls, only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'

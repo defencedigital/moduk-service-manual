@@ -1,33 +1,34 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Community"
-title: "User-centred design"
-description: "Anyone in a user-centred design role in Defence can join the community. Find out how to get involved."
-datePublished: 2023-02-06
+title: "Content"
+description: "Anyone creating content for digital services in Defence can join the content community. Find out how to get involved."
+datePublished: 2023-02-22
 eleventyNavigation:
   key: "Your community"
   url: "/your-community/"
 ---
 
-Anyone working on digital services in Defence can join the user-centred design (UCD) community. 
+Anyone creating content for digital services in Defence can join the content community. 
 
 ## Who you will meet
 
 In this community, you will meet:
 
-- user researchers and data analysts
-- service designers and product designers
-- interaction and graphic designers
-- content designers, managers and strategists
-- product managers and business analysts working with users
+- content designers
+- content strategists 
+- technical writers 
+- graphic designers
+- other people creating content across Defence
+
 
 ## Community calls
 
-Join the UCD community calls held every 2 weeks on alternate Tuesdays and Thursdays.
+Join the UCD community calls held every second Wednesday at 11am.
 
-Calls are 45 minutes. We discuss things like accessibility, tools available in Defence and cross-government collaboration.
+We discuss the latest content news and updates. We share insights, issues and what we’re working on. 
 
-To join, send an email to: [ucd@digital.mod.uk](mailto:ucd@digital.mod.uk). Include your full name, your role and the project you’re working on.
+To join, send an email to: [john.szymanski@digital.mod.uk](mailto:john.szymanski@digital.mod.uk?subject=Join%20content%20community%20calls). Include your full name, your role and the project you’re working on.
 
 {{ component('inset-text', {
   html: 'In community calls, only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'
@@ -39,13 +40,13 @@ Slack is a messaging service used by the Defence community. On a MODNET device, 
 
 ### Defence Digital Service Slack
 
-This is the place to ask quick questions about user-centred design in Defence.
+This is the place to ask quick questions about content for digital services in Defence.
 
 If you have a digital.mod.uk email address:
 
 1. Sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com/).
 2. In your Slack profile, add a photo, your job title and project.
-3. Join the <code>#ucd</code> channel.
+3. Join the <code>#content</code> channel.
 
 If you have an mod.gov.uk or external email address, ask your delivery or team lead to invite you.
 
@@ -57,6 +58,6 @@ If you have a digital.mod.uk or mod.gov.uk email address:
 
 1. Sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com/).
 2. In your Slack profile, add MOD after your name.
-3. Browse and join channels for content, design and user research.
+3. Join the <code>#content</code> and <code>#technical-writing</code> channels.
 
 

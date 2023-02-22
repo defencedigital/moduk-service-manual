@@ -21,11 +21,10 @@ Anyone working in Defence can join a community.
 
 You can join more than one community.
 
+- [Content](/your-community/content/)
 - [Product and delivery](/your-community/product-and-delivery/)
 - [Software development](/your-community/software-development/)
 - [User-centred design](/your-community/user-centred-design/)
-
-The user-centred design community includes content designers, interaction designers, service designers and user researchers.
 
 ## Become a service assessor
 
