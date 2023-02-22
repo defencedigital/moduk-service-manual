@@ -2,11 +2,8 @@
 layout: "layouts/landing.njk"
 title: "Site map"
 description: "Use the site map as an alternative way to find what you need in the Defence Service Manual."
+lead: "Find your way around this website."
 ---
-
-# Site map
-
-Find your way around this website.
 
 - [Home](/)
 - [Meet the standard](/meet-the-standard/)
