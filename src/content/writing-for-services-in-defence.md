@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Content"
 title: "Writing for services in Defence"
-description: ""
+description: "Everyone using digital services needs content they can understand quickly and easily. Find out more."
 datePublished: 2023-02-01
 eleventyNavigation:
   key: "Content"

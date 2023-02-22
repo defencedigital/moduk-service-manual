@@ -2,14 +2,14 @@
 layout: "layouts/guidance.njk"
 section: "Content"
 title: "Work with content designers"
-decsription: ""
+decsription: "If your service has words, images or videos, you should have a content designer on your team. Find out more."
 datePublished: 2023-02-01
 eleventyNavigation:
   key: "Content"
   url: "/content/"
 ---
 
-If your service has words, images or videos, you should have a content designer on your team. 
+If your service has words, images or videos, you should have a content designer on your team. Find out more.
 
 ## When to get a content designer
 
