@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/your-community/"
 ---
 
-Anyone working on digital products or services in Defence is welcome to join the product and delivery community. 
+Anyone working on digital products or services in Defence can join the product and delivery community. 
 
 ## Who you will meet
 
@@ -30,9 +30,9 @@ This is the place to ask quick questions about product management and delivery i
 
 If you have a digital.mod.uk email address:
 
-1. Sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com/)
-2. In your Slack profile, add a photo, your job title and project
-3. Join the <code>#product-delivery</code> channel
+1. Sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com/).
+2. In your Slack profile, add a photo, your job title and project.
+3. Join the <code>#product-delivery</code> channel.
 
 If you have an mod.gov.uk or external email address, ask your delivery or team lead to invite you.
 
@@ -42,9 +42,9 @@ Get involved with conversations across government.
 
 If you have a digital.mod.uk or mod.gov.uk email address:
 
-1. Sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com/)
-2. In your Slack profile, add MOD after your name
-3. Browse and join channels for product and delivery
+1. Sign up at [https://ukgovernmentdigital.slack.com](https://ukgovernmentdigital.slack.com/).
+2. In your Slack profile, add MOD after your name.
+3. Browse and join channels for product and delivery.
 
 ## Related guidance
 
