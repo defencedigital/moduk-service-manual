@@ -7,11 +7,15 @@
   {% if params.description %}<p class="moduk-related-content__description">{{ params.description }}</p>{% endif %}
 
   <nav class="moduk-related-content__navigation" aria-labelledby="{{ params.id }}">
+    
     <ul class="moduk-related-content__list">
+      
       {%- for item in params.items %}
       <li class="moduk-related-content__list-item"><a class="moduk-related-content__list-link" href="{{ item.url }}">{{ item.text }}</a></li>
       {%- endfor %}
+
     </ul>
+
   </nav>
 
 </aside>
