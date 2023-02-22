@@ -1,6 +1,6 @@
 <div class="govuk-grid-column-one-third">
 
-  {% if related === 'design' %}
+  {% if (related === 'design') or (related === 'user-research') %}
 
     {{ modukcomponent('related-content', {
       "ariaLabel": 'Related content',
