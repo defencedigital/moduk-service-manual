@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Content"
 title: "Start with your users"
-description: ""
+description: "You can only create useful content if you understand your users and what they need to do. Find out more."
 datePublished: 2023-02-01
 eleventyNavigation:
   key: "Content"
@@ -27,8 +27,8 @@ If you write content that is not needed, you make it harder for users to do a ta
 
 You need to:
 
-1. Write the minimum amount of content users need to do the task
-2. Test the content with actual or potential users
+1. Write the minimum amount of content users need to do the task.
+2. Test the content with actual or potential users.
 
 This helps you:
 
@@ -38,13 +38,14 @@ This helps you:
 
 ## Work with a user researcher
 
-Ask a user researcher to test your content with users. When you have written content, it can be hard to present it without bias.
+When you have written content, it can be hard to present it without bias.
 
-In addition, user researchers are familiar with research processes and ethics in Defence.
+Ask a user researcher to test your content with users. User researchers are familiar with research processes and ethics in Defence. Make sure you observe the research sessions.
 
-If your team does not have a user researcher, ask the UCD community for advice. 
+If your team does not have a user researcher, [ask the UCD community for advice](/your-community/user-centred-design/). 
 
 ## Related guidance
 
-Content design: planning, writing and managing content
-Writing user stories
+- [Content design: planning, writing and managing content](https://www.gov.uk/guidance/content-design)
+- [Writing user stories](https://www.gov.uk/service-manual/agile-delivery/writing-user-stories)
+{.govuk-list}
