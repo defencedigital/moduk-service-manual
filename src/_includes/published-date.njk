@@ -1,5 +1,5 @@
 {%- if dateUpdated %}
-  <p class="govuk-body govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Updated {{ dateUpdated | publishedDate }}</p>
+  <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Updated {{ dateUpdated | publishedDate }}</p>
 {% elseif datePublished %}
-  <p class="govuk-body govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Published {{ datePublished | publishedDate }}</p>
+  <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Published {{ datePublished | publishedDate }}</p>
 {% endif -%}

@@ -1,0 +1,63 @@
+/* -------------------------------- 
+
+Title: Callout
+Description: TBC
+
+-------------------------------- */
+
+
+.moduk-callout {
+  @include govuk-font(19);
+  background-color: govuk-colour("white");
+  border: 1px solid govuk-colour("mid-grey");
+  margin-bottom: govuk-spacing(7);
+  margin-top: govuk-spacing(8) + govuk-spacing(1); // Accounts for the label
+  padding: govuk-spacing(5);
+  padding-top: 0;
+  position: relative;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+}
+
+
+.moduk-callout__label {
+  @include govuk-font(24, $weight: bold);
+  background-color: $govuk-brand-colour;
+  color: govuk-colour("white");
+  display: inline-block;
+  margin: 0 0 govuk-spacing(2) -26px; // Extra 1px accounts for the border
+  padding: govuk-spacing(2) govuk-spacing(5);
+  position: relative;
+  top: - govuk-spacing(3);
+}
+
+
+.moduk-callout__content {
+  max-width: 630px; // Keep text contained
+
+  p {
+    @include govuk-font(19);
+    margin: 0 0 govuk-spacing(3);
+  }
+
+}
+
+
+.moduk-callout__list {
+  list-style: none;
+  margin-top: 0;
+  padding-left: 0;
+  position: relative;
+
+  li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  li:last-child {
+    margin: 0;
+  }
+
+}
