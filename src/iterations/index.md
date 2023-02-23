@@ -1,14 +1,12 @@
 ---
 layout: "layouts/landing.njk"
 title:  "Iterations"
+lead: Check how the Defence Service Manual has changed. This includes new content and improvements in response to user research and feedback.
 ---
-
-# Iterations
-
-Check how the Defence Service Manual has changed. This includes new content and improvements in response to user research and feedback.
 
 ## February 2023 {.govuk-heading-m}
 
+{% set htmlOutput %}
   <ul class="govuk-list govuk-list--bullet">
     <li>redesigned the homepage with 3 clear sections</li>
     <li>added guidance for content designers</li>
@@ -21,9 +19,15 @@ Check how the Defence Service Manual has changed. This includes new content and 
     <li>added key messages to the service standards page</li>
     <li>improved the standards tile header and description</li>
     <li>simplified instructions for suggesting content</li>
-    <li>improved the label for add or update content </li>
+    <li>improved the label for add or update content</li>
     <li>added validation messages to forms</li>
   </ul>
+{% endset %}
+
+{{ component('details', {
+  summaryText: 'What changed',
+  html: htmlOutput
+}) }}
 
 ## January 2023 {.govuk-heading-m}
 
