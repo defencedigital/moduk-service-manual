@@ -2,7 +2,7 @@ module.exports = {
 
   // Environment
   env: process.env.ELEVENTY_ENV || 'development',
-  
+
   // Service name
   serviceName: 'Defence Service Manual',
 
