@@ -7,21 +7,20 @@ lead: Check how the Defence Service Manual has changed. This includes new conten
 ## February 2023 {.govuk-heading-m}
 
 {% set htmlOutput %}
-  <ul class="govuk-list govuk-list--bullet">
-    <li>redesigned the homepage with 3 clear sections</li>
-    <li>added guidance for content designers</li>
-    <li>added a community page for content</li>
-    <li>improved the template and navigation of community pages
-    <li>designed related information panel on landing pages</li>
-    <li>added guidance on tools</li>
-    <li>added information on becoming a service assessor</li>
-    <li>added a community page for software developers</li>
-    <li>added key messages to the service standards page</li>
-    <li>improved the standards tile header and description</li>
-    <li>simplified instructions for suggesting content</li>
-    <li>improved the label for add or update content</li>
-    <li>added validation messages to forms</li>
-  </ul>
+  - redesigned the homepage with 3 clear sections
+  - added guidance for content designers
+  - added a community page for content
+  - improved the template and navigation of community pages
+  - designed related information panel on landing pages
+  - added guidance on tools
+  - added information on becoming a service assessor
+  - added a community page for software developers
+  - added key messages to the service standards page
+  - improved the standards tile header and description
+  - simplified instructions for suggesting content
+  - improved the label for add or update content
+  - added validation messages to forms
+{.govuk-list .govuk-list--bullet}
 {% endset %}
 
 {{ component('details', {
@@ -32,18 +31,17 @@ lead: Check how the Defence Service Manual has changed. This includes new conten
 ## January 2023 {.govuk-heading-m}
 
 {% set htmlOutput %}
-  <ul class="govuk-list govuk-list--bullet">
-    <li>added a section on ethics</li>
-    <li>improved security title and labels</li>
-    <li>added feedback form to link in banner</li>
-    <li>added how to delete user research data</li>
-    <li>improved how to share user research findings</li>
-    <li>created a template and link to the MOD consent form</li>
-    <li>created a template and link to Understanding your participation</li>
-    <li>updated footer in line with GOV.UK</li>
-    <li>corrected links to MOD networks</li>
-    <li>added MS Clarity and updated the cookies page</li>
-  </ul>
+  - added a section on ethics
+  - improved security title and labels
+  - added feedback form to link in banner
+  - added how to delete user research data
+  - improved how to share user research findings
+  - created a template and link to the MOD consent form
+  - created a template and link to Understanding your participation
+  - updated footer in line with GOV.UK
+  - corrected links to MOD networks
+  - added MS Clarity and updated the cookies page
+{.govuk-list .govuk-list--bullet}
 {% endset %}
 
 {{ component('details', {
@@ -54,14 +52,13 @@ lead: Check how the Defence Service Manual has changed. This includes new conten
 ## December 2022 {.govuk-heading-m}
 
 {% set htmlOutput %}
-  <ul class="govuk-list govuk-list--bullet">
-    <li>Added do and don’t list component</li>
-    <li>Simplified feedback form</li>
-    <li>Added steps component</li>
-    <li>Made call out pattern maroon</li>
-    <li>Updated descriptions on homepage</li>
-    <li>Iterated the design section</li>
-  </ul>
+  - Added do and don’t list component
+  - Simplified feedback form
+  - Added steps component
+  - Made call out pattern maroon
+  - Updated descriptions on homepage
+  - Iterated the design section
+{.govuk-list .govuk-list--bullet}
 {% endset %}
 
 {{ component('details', {
@@ -72,16 +69,15 @@ lead: Check how the Defence Service Manual has changed. This includes new conten
 ## November 2022 {.govuk-heading-m}
 
 {% set htmlOutput %}
-  <ul class="govuk-list govuk-list--bullet">
-    <li>Iterated how to share user research findings</li>
-    <li>Added section on checking what research has been done</li>
-    <li>Created a dedicated page to sign up for user research</li>
-    <li>Updated product and delivery community page</li>
-    <li>Added messaging about Slack profiles</li>
-    <li>Improved navigation of accessibility section</li>
-    <li>Improved navigation of security section</li>
-    <li>Updated section on large amounts of data</li>
-  </ul>
+  - Iterated how to share user research findings
+  - Added section on checking what research has been done
+  - Created a dedicated page to sign up for user research
+  - Updated product and delivery community page
+  - Added messaging about Slack profiles
+  - Improved navigation of accessibility section
+  - Improved navigation of security section
+  - Updated section on large amounts of data
+{.govuk-list .govuk-list--bullet}
 {% endset %}
 
 {{ component('details', {
@@ -92,20 +88,19 @@ lead: Check how the Defence Service Manual has changed. This includes new conten
 ## September 2022 {.govuk-heading-m}
 
 {% set htmlOutput %}
-  <ul class="govuk-list govuk-list--bullet">
-    <li>Ministry of Defence logo</li>
-    <li>Layout and visual fixes</li>
-    <li>Phase banner updates</li>
-    <li>Feedback to improve the Defence Service Manual</li>
-    <li>Standards in Defence</li>
-    <li>Get in touch</li>
-    <li>Add or update content</li>
-    <li>Security added</li>
-    <li>Site map added</li>
-    <li>Design, User research, Accessibility content updated</li>
-    <li>Improvements in navigation structure</li>
-    <li>Page contents added (sticky)</li>
-  </ul>
+  - Ministry of Defence logo
+  - Layout and visual fixes
+  - Phase banner updates
+  - Feedback to improve the Defence Service Manual
+  - Standards in Defence
+  - Get in touch
+  - Add or update content
+  - Security added
+  - Site map added
+  - Design, User research, Accessibility content updated
+  - Improvements in navigation structure
+  - Page contents added (sticky)
+{.govuk-list .govuk-list--bullet}
 {% endset %}
 
 {{ component('details', {
