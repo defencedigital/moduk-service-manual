@@ -10,7 +10,8 @@
     "build": "gulp build & npx @11ty/eleventy",
     "dev": "gulp dev & npx @11ty/eleventy --serve",
     "prototype": "gulp clean && cross-env ELEVENTY_ENV=prototype npx eleventy && cross-env ELEVENTY_ENV=prototype gulp prod",
-    "prod": "gulp clean && cross-env ELEVENTY_ENV=production npx eleventy && cross-env ELEVENTY_ENV=production gulp prod"
+    "prod": "gulp clean && cross-env ELEVENTY_ENV=production npx eleventy && cross-env ELEVENTY_ENV=production gulp prod",
+    "test": "npx @11ty/eleventy & gulp validator"
   },
   "author": "Trevor Saint <hello@trevorsaint.uk> (https://trevorsaint.uk)",
   "license": "MIT",
@@ -32,12 +33,13 @@
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
+    "gulp-html": "^5.0.0",
+    "luxon": "^3.0.4",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.5",
     "markdown-it-attrs": "^4.1.4",
     "markdown-it-container": "^3.0.0",
     "node-sass": "^7.0.1",
-    "nunjucks": "^3.2.3",
-    "luxon": "^3.0.4"
+    "nunjucks": "^3.2.3"
   }
 }
