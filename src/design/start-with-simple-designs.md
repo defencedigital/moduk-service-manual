@@ -52,7 +52,7 @@ If your users need images or videos, [check the MOD library](https://www.defence
 
 You can use images and videos from the library for anything related to Defence without worrying about licences or copyright. 
 
-## Related content
+## Related guidance
 
 - [Designing good government services: an introduction](https://www.gov.uk/service-manual/design/introduction-designing-government-services/)
-
+{.govuk-list}

@@ -39,6 +39,7 @@ Aim to prioritise accessibility from the start, so it becomes part of your team 
 
 Check guidance on [prioritising accessibility in each delivery phase](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#what-to-do-about-accessibility-in-discovery/).
 
-## Related content
+## Related guidance
 
 - [Delivery managers](/accessibility/meet-accessibility-regulations/delivery-managers/)
+{.govuk-list}

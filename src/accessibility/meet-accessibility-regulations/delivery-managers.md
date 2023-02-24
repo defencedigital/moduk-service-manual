@@ -51,8 +51,9 @@ Check the [guidance on testing for accessibility](https://www.gov.uk/service-man
 
 You need to correct any issues or explain them in the [accessibility statement](/accessibility/publishing-documents/).
 
-## Related content
+## Related guidance
 
 - [Guidance and tools for digital accessibility](https://www.gov.uk/guidance/guidance-and-tools-for-digital-accessibility#designing-accessible-services)
 - [Testing for accessibility](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility/)
 - [Creating accessible communications](https://gcs.civilservice.gov.uk/guidance/digital-communication/accessible-communications/)
+{.govuk-list}

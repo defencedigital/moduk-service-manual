@@ -27,7 +27,7 @@ The GOV.UK style includes:
 
 When you write content for digital services in Defence, [check the GOV.UK style guide](https://www.gov.uk/guidance/style-guide). 
 
-If you cannot find what you need, [ask for advice on the Defence content Slack channel](https://defencedigital.slack.com/archives/C04BQ6RC2SU). 
+If you cannot find what you need, [ask the content community for advice](/your-community/content/). 
 
 On a MODNET device, you can use Slack in your web browser.
 

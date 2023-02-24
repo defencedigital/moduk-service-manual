@@ -56,7 +56,6 @@ You need to include:
 
 You can make the changes in a Word or Google document or we can write the new content with you.
 
-
 ## Writing for the manual
 
 We can add and update content quicker if it is in the GOV.UK style and MOD tone of voice. 
