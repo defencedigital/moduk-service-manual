@@ -97,7 +97,6 @@ module.exports = function (eleventyConfig) {
 
   // Configurations
   return {
-
     dir: {
       input: 'src',
       output: 'public',

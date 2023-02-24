@@ -2,11 +2,12 @@ const { series, parallel, watch } = require('gulp');
 
 
 // Pull in each task
-const clean   = require('./gulp-tasks/clean.js');
-const styles  = require('./gulp-tasks/styles.js');
+const clean = require('./gulp-tasks/clean.js');
+const styles = require('./gulp-tasks/styles.js');
 const scripts = require('./gulp-tasks/scripts.js');
-const images  = require('./gulp-tasks/images.js');
-const html    = require('./gulp-tasks/html.js');
+const images = require('./gulp-tasks/images.js');
+const html = require('./gulp-tasks/html.js');
+const validator = require('./gulp-tasks/html-validator.js');
 
 
 // Set each directory and contents that we want to watch and assign the relevant task. `ignoreInitial` set to true will prevent the task being run when we run `gulp watch`, but it will run when a file changes
@@ -29,6 +30,10 @@ exports.minify = series(html);
 
 // Clean public folder
 exports.clean = series(clean);
+
+
+// Run validation tests
+exports.validator = series(validator);
 
 
 // Clean public folder then run each task in parallel
