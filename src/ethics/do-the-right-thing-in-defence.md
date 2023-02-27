@@ -27,7 +27,7 @@ You should also consider ethics when meeting with stakeholders, presenting your 
 
 If you have an ethical concern related to someone in the military, do not raise it directly with their superior. 
 
-Discuss your concerns confidentially with your Delivery Lead or Product Owner. If they are unsure, raise it confidentially with your Head of Profession.
+Discuss your concerns confidentially with your delivery lead or product owner. If they are unsure, raise it confidentially with your Head of Profession.
 
 ### Ministry of Defence Research Ethics Committee
 

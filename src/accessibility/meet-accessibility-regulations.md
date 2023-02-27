@@ -37,7 +37,7 @@ Anyone creating digital services or products for Defence, including third-party 
 
 Everyone in a digital design and delivery team plays a part in accessibility.
 
-For Developers to build an accessible service, designs and content need to work with assistive technology. Delivery Managers need to plan time to test with assistive technologies. 
+For developers to build an accessible service, designs and content need to work with assistive technology. Delivery Managers need to plan time to test with assistive technologies. 
 
 Check how you can help with accessibility:
 

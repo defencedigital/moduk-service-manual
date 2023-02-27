@@ -40,7 +40,7 @@ Often, the page URL can be the same as the page title. Clear URLs make content e
 
 ```/user/56256655226/post/817837847.php```
 
-Work with a Frontend Developer to make sure all URLs follow a user-friendly format.
+Work with a frontend developer to make sure all URLs follow a user-friendly format.
 
 ## Use the right headings
 
@@ -86,7 +86,7 @@ When a user enters information incorrectly, it’s best practice to help them wi
 
 If there are security considerations, you still need to provide an error message but it can be vague. When signing in to an account, the error message should be: ‘Enter your email and password correctly.’
 
-Work with a Frontend Developer and a QA Tester to work out what error messages you need to write content for.
+Work with a frontend developer and a QA Tester to work out what error messages you need to write content for.
 
 Before you write a new error message, check the [GOV.UK error message templates](https://design-system.service.gov.uk/components/error-message/#use-error-message-templates).
 
