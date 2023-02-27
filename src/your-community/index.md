@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 title: "Your community"
 description: "Anyone working in Defence can join a community of practice. Meet people doing your role, use shared tools and learn from other projects."
-dateUpdated: 2023-02-21
+dateUpdated: 2023-02-17
 ---
 
 There are communities of practice for people working in similar roles across Defence.
@@ -21,11 +21,10 @@ Anyone working in Defence can join a community.
 
 You can join more than one community.
 
+- [Content](/your-community/content/)
 - [Product and delivery](/your-community/product-and-delivery/)
 - [Software development](/your-community/software-development/)
 - [User-centred design](/your-community/user-centred-design/)
-
-The user-centred design community includes content designers, interaction designers, service designers and user researchers.
 
 ## Become a service assessor
 
@@ -46,7 +45,3 @@ To get assessor training, you need to be a crown servant who has been in a speci
 If you meet these criteria, send your details to [assessments@digital.mod.uk](mailto:assessments@digital.mod.uk?subject=Service%20assessor%20training). 
 
 We would also like to hear from all trained assessors across Defence. 
-
-
-
-

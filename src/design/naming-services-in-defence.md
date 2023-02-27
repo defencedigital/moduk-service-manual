@@ -66,4 +66,3 @@ Good examples of service names in Defence include:
 - Estimate your armed forces pension
 - Get a copy of military service records
 - Apply for a medal or veterans badge
-

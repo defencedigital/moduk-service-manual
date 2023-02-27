@@ -41,7 +41,7 @@ In the manual, we include things like:
 
 Currently, we only publish OFFICIAL information. 
 
-Check <a href="/security-classifications/how-to-classify-information/">how to classify information</a>.
+Check [how to classify information](/security-classifications/how-to-classify-information/).
 
 ### What we do not publish
 

@@ -78,6 +78,7 @@ If you can share your findings outside MOD, consider:
 - posting a link to your report on [UK Government Digital Slack](https://ukgovernmentdigital.slack.com)
 - writing a post for the [Defence Digital blog](https://defencedigital.blog.gov.uk/)
 
-## Related content
+## Related guidance
 
 - [The Data Protection Act](https://www.gov.uk/data-protection)
+{.govuk-list}

@@ -70,7 +70,6 @@ When the Ministry of Defence logo appears on screen, use this alt text:
  
 If you can, work with a Content Designer to create alt text. Find more advice in the [GOV.UK guidance on images](https://design-system.service.gov.uk/styles/images/).
 
-
 ## Only use images that users need
 
 Government digital services need to be simple. Do not add unnecessary images or visual design. Before adding icons and images, work with a User Researcher and a Content Designer to check if users need them.
@@ -81,7 +80,8 @@ Before using columns, consider the impact on accessibility.
 
 If users need a sidebar, check how it works for people who are blind or use a screen magnifier. You also need to check how a sidebar appears on mobile devices.
 
-## Related content
+## Related guidance
 
 - [Design for different browsers and devices](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices/)
 - [Blogs about accessibility and design](https://www.craigabbott.co.uk/blog/)
+{.govuk-list}

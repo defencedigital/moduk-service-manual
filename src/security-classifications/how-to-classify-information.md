@@ -74,7 +74,8 @@ To classify data correctly, the information asset owner needs to fully understan
 
 Collecting large amounts of data does not always mean that you have to classify it higher. 
 
-## Related content
+## Related guidance
 
 - [Government security classifications](https://www.gov.uk/government/publications/government-security-classifications/)
 - [OFFICIAL-SENSITIVE data and IT](https://www.gov.uk/guidance/official-sensitive-data-and-it/)
+{.govuk-list}

@@ -61,5 +61,3 @@ When you get feedback, make sure high risk problems and safety issues are easy t
 If you notice a security vulnerability on any Ministry of Defence service or system, you need to report it.
 
 <a href="https://www.gov.uk/guidance/report-a-vulnerability-on-an-mod-system" target="_blank">Check how to report a security vulnerability</a>.
-
-
