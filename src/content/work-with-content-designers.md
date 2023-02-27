@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/content/"
 ---
 
-If your service has words, images or videos, you should have a content designer on your team. Find out more.
+If your service has words, images or videos, you should have a content designer on your team. 
 
 ## When to get a content designer
 
