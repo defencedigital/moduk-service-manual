@@ -40,7 +40,9 @@ You’ll also join the assessor community across government.
 
 ### Who can get training
 
-To get assessor training, you need to be a crown servant who has been in a specialised digital role for at least 6 months. 
+You need to be a crown servant in Defence who has been in a digital role for at least 6 months. 
+
+This includes anyone who has just joined Defence but has experience in a digital role in another government department. 
 
 If you meet these criteria, send your details to [assessments@digital.mod.uk](mailto:assessments@digital.mod.uk?subject=Service%20assessor%20training). 
 
