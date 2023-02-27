@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/user-research/"
 ---
 
-Participants are the people who take part in user research. They should be people who are using or will use your service or product.
+Participants are the people who take part in user research. They should be people who are using or will use your service.
 
 {{ modukcomponent('do-dont-list', {
   'title': 'Do',

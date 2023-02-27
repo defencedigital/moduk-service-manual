@@ -9,17 +9,17 @@ eleventyNavigation:
   url: "/design/"
 ---
 
-Get the user-centred design specialists on your team involved in naming your service or product. 
+Get the user-centred design specialists on your team involved in naming your service. 
 
 When you have a name that works best for users, it should be approved by your service or product owner.
 
 ## Start with the GOV.UK approach
 
-If your service or product is hosted on GOV.UK, you need to meet their naming standards. 
+If your service is hosted on GOV.UK, you need to meet their naming standards. 
 
 For services hosted internally or elsewhere, the GOV.UK approach is still recommended.
 
-According to GOV.UK, good service or product names:
+According to GOV.UK, good service names:
 
 - use the words users use
 - are based on analytics and user research
@@ -44,7 +44,7 @@ It is always best to avoid acronyms in service names. This can sometimes be diff
 The GOV.UK approach recommends using the words your users use. Your users might use familiar or internationally recognised acronyms, for example MOD and NATO. 
 
 {{ component('inset-text', {
-  text: 'Do not include unfamiliar acronyms or code names in your service or product name.'
+  text: 'Do not include unfamiliar acronyms or code names in your service name.'
 }) }}
 
 ### Test without acronyms

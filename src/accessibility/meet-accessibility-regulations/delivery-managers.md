@@ -11,7 +11,7 @@ eleventyNavigation:
   url: "/accessibility/meet-accessibility-regulations/"
 ---
 
-To create digital products or services that anyone in Defence can use, you need to make accessibility part of delivery. For example, discussing potential accessibility issues as features are designed.
+To create digital services that anyone in Defence can use, you need to make accessibility part of delivery. For example, discussing potential accessibility issues as features are designed.
 
 ## Plan work on accessibility
 
@@ -19,7 +19,7 @@ When your team plans and estimates work, allow time to make designs accessible a
 
 Testing for accessibility should include:
 
-- how your product or service works with assistive technologies
+- how your service works with assistive technologies
 - checking against the [Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21/)
 
 If your service needs an [accessibility statement](/accessibility/publishing-documents#accessibility-statements), you will need time to create or update it. 

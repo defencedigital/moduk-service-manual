@@ -20,21 +20,21 @@ If you need help to make documents accessible, use a MODNET device to contact th
 An accessibility statement tells people who use a service how accessible it is and how to get help with accessibility issues. 
 
 {{ component('warning-text', {
-  text: "Legally, all digital services and products used by the public must have an accessibility statement.",
+  text: "Legally, all digital services used by the public must have an accessibility statement.",
   iconFallbackText: "Warning"
 }) }}
 
-### Internal services and products
+### Internal services
 
-If your digital service or product is only used by people in Defence, check if they need an accessibility statement. 
+If your digital service is only used by people in Defence, check if they need an accessibility statement. 
 
-Reasons to publish an accessibility statement on an internal service or product include: 
+Reasons to publish an accessibility statement on an internal service include: 
 
 - users are able to request content in different formats
 - you are still working on making areas of your service accessible 
 
 {{ component('inset-text', {
-  text: 'Your digital service or product must meet accessibility regulations even if you do not publish an accessibility statement.'
+  text: 'Your digital service must meet accessibility regulations even if you do not publish an accessibility statement.'
 }) }}
 
 Check [how to meet accessibility regulations](/accessibility/meet-accessibility-regulations/).

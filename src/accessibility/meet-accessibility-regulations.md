@@ -15,7 +15,7 @@ Creating accessible digital services is important for all users, not just people
 
 Anyone using your service can find themselves dealing with a stressful situation, tiredness or illness.
 
-When you start designing a digital service or product, you need to plan for accessibility. 
+When you start designing a digital service, you need to plan for accessibility. 
 
 ## Check the regulations
 
@@ -31,7 +31,7 @@ Check the guidance on [accessibility for public sector bodies](https://www.gov.u
 
 ### This applies to everyone
 
-Anyone creating digital services or products for Defence, including third-party suppliers, must make sure they meet UK accessibility regulations. 
+Anyone creating digital services for Defence, including third-party suppliers, must make sure they meet UK accessibility regulations. 
 
 ## Your role in accessibility
 

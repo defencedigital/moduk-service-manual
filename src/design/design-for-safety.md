@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/design/"
 ---
 
-Good design keeps people safe. Make sure your service or product is reliable and easy to understand in stressful or demanding situations.
+Good design keeps people safe. Make sure your service is reliable and easy to understand in stressful or demanding situations.
 
 ## Consider safety from the start
 
@@ -23,7 +23,7 @@ To create safe services, you need to:
 
 ## Test in real or simulated environments
 
-You should test your service or product with real users in the place that they use it. In Defence, this is not always possible.
+You should test your service with real users in the place that they use it. In Defence, this is not always possible.
 
 You can also test in:
 
