@@ -1,8 +1,8 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Accessibility"
-title: "Content Designers"
-description: "How Content Designers help create accessible services in Defence. Making content easy to understand makes it better for everyone."
+title: "Content designers"
+description: "How content designers help create accessible services in Defence. Making content easy to understand makes it better for everyone."
 datePublished: 2022-11-07
 eleventyNavigation:
   parent: "Accessibility"
@@ -26,7 +26,7 @@ You need to follow the [GOV.UK guidance on writing content](https://www.gov.uk/g
 
 ## Use clear and unique page titles
 
-Page titles should clearly describe the purpose and content of the page. Work with a User Researcher to check users understand page titles.
+Page titles should clearly describe the purpose and content of the page. Work with a user researcher to check users understand page titles.
 
 Every page should have a unique title. This makes it easier to find the content you are looking for. If pages have the same or similar headings, it’s hard for assistive technologies to tell you which page you are on.
 

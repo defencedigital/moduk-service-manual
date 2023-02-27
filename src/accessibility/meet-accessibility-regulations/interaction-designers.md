@@ -1,8 +1,8 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Accessibility"
-title: "Interaction Designers"
-description: "How Interaction Designers help create accessible services in Defence. Use existing patterns, things to add and things to avoid."
+title: "Interaction designers"
+description: "How interaction designers help create accessible services in Defence. Use existing patterns, things to add and things to avoid."
 datePublished: 2022-11-07
 eleventyNavigation:
   parent: "Accessibility"
@@ -39,7 +39,7 @@ For anything that needs user input, you must add a label. Every label should des
 
 Keep labels simple at first and only include hint text or additional instructions if your user research shows there is a need for it.
 
-Work with a Content Designer to create labels and any hint text needed. You can also [check the GOV.UK pattern for text inputs](https://design-system.service.gov.uk/components/text-input/).
+Work with a content designer to create labels and any hint text needed. You can also [check the GOV.UK pattern for text inputs](https://design-system.service.gov.uk/components/text-input/).
 
 ## Add visually hidden text
 
@@ -54,11 +54,11 @@ The GOV.UK pattern for summary lists includes descriptions for what users are ch
       Change<span class="govuk-visually-hidden"> name</span>
     </a>
  
-If you can, work with a Content Designer to create visually hidden text. Find more advice in [Content Designers and accessibility](/accessibility/meet-accessibility-regulations/content-designers/). 
+If you can, work with a content designer to create visually hidden text. Find more advice in [Content designers and accessibility](/accessibility/meet-accessibility-regulations/content-designers/). 
 
 ## Images and icons 
 
-Do not add unnecessary images or visual design. Before adding any images, work with a User Researcher and a Content Designer to check if users need them.
+Do not add unnecessary images or visual design. Before adding any images, work with a user researcher and a content designer to check if users need them.
 
 If your users need an image or an icon to help them understand something, add a description for screen readers. This is known as 'alternative text' or 'alt text'. 
 
@@ -68,12 +68,12 @@ When the Ministry of Defence logo appears on screen, use this alt text:
  
     <img src="ministry-of-defence.svg" alt="Ministry of Defence logo">
  
-If you can, work with a Content Designer to create alt text. Find more advice in the [GOV.UK guidance on images](https://design-system.service.gov.uk/styles/images/).
+If you can, work with a content designer to create alt text. Find more advice in the [GOV.UK guidance on images](https://design-system.service.gov.uk/styles/images/).
 
 
 ## Only use images that users need
 
-Government digital services need to be simple. Do not add unnecessary images or visual design. Before adding icons and images, work with a User Researcher and a Content Designer to check if users need them.
+Government digital services need to be simple. Do not add unnecessary images or visual design. Before adding icons and images, work with a User Researcher and a content designer to check if users need them.
 
 ## Be careful with columns
 

@@ -1,8 +1,8 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Accessibility"
-title: "Product Managers"
-description: "How Product Managers help create accessible services in Defence. Help your team understand accessibility and get stakeholders on board."
+title: "Product managers"
+description: "How product managers help create accessible services in Defence. Help your team understand accessibility and get stakeholders on board."
 datePublished: 2022-11-07
 eleventyNavigation:
   parent: "Accessibility"
@@ -17,7 +17,7 @@ Everyone in your team has a part to play in delivering accessible products and s
 
 Your digital product or service must be easy to use for everyone. Your team may be breaking the law if they do not make it accessible.
 
-Making a service accessible is not a last-minute task for Frontend Developers and QA Testers. User Researchers need to include users of assistive technology in their research. Interaction Designers and Content Designers need to create accessible designs and content.
+Making a service accessible is not a last-minute task for frontend developers and testers. User researchers need to include users of assistive technology in their research. Interaction designers and content designers need to create accessible designs and content.
 
 Ask your team to consider the needs of all users and to [check how their role can help accessibility](/accessibility/meet-accessibility-regulations#your-role-in-accessibility/).
 

@@ -1,8 +1,8 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Accessibility"
-title: "Delivery Managers"
-description: "How Delivery Managers help create accessible services in Defence. Plan for accessibility from the start and keep a service accessible."
+title: "Delivery managers"
+description: "How delivery managers help create accessible services in Defence. Plan for accessibility from the start and keep a service accessible."
 datePublished: 2022-11-07
 eleventyNavigation:
   parent: "Accessibility"
@@ -30,12 +30,12 @@ The definition of ready is a list of things that are needed before something can
 
 In your team’s definition of ready, include things like:
 
-- error messages, page titles and URLs agreed with a Content Designer
-- additional descriptions or ‘alt tags’ agreed with a Content Designer
+- error messages, page titles and URLs agreed with a content designer
+- additional descriptions or ‘alt tags’ agreed with a content designer
 - design reviewed by the team and accessibility issues discussed
 - updates to the accessibility statement
 
-Before work starts on a story or ticket, ask an Interaction Designer and a Content Designer what is needed to make designs accessible.
+Before work starts on a story or ticket, ask an interaction designer and a content designer what is needed to make designs accessible.
 
 ## Definition of done
 

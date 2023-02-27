@@ -1,8 +1,8 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Accessibility"
-title: "User Researchers"
-description: "How User Researchers help create accessible services in Defence, like including people who use assistive technology in usability testing."
+title: "User researchers"
+description: "How user researchers help create accessible services in Defence, like including people who use assistive technology in usability testing."
 datePublished: 2022-11-07
 eleventyNavigation:
   parent: "Accessibility"
@@ -25,7 +25,7 @@ Your product or service needs to work with devices such as screen readers, scree
 
 If you can, the best way of testing this is to observe people using assistive technology to use your product or service. If this isn’t possible, you can try to use your product or service with some of the assistive technologies easily available. For example, most laptops have built-in screen readers.
 
-Ask your Delivery Lead to make time for colleagues to help with usability testing.
+Ask your delivery lead to make time for colleagues to help with usability testing.
 
 ## Related guidance
 

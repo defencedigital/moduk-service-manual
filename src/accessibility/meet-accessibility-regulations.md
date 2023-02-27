@@ -41,11 +41,11 @@ For Developers to build an accessible service, designs and content need to work 
 
 Check how you can help with accessibility:
 
-- [Content Designers](/accessibility/meet-accessibility-regulations/content-designers/)
-- [Delivery Managers](/accessibility/meet-accessibility-regulations/delivery-managers/)
-- [Interaction Designers](/accessibility/meet-accessibility-regulations/interaction-designers/)
-- [Product Managers](/accessibility/meet-accessibility-regulations/product-managers/)
-- [User Researchers](/accessibility/meet-accessibility-regulations/user-researchers/)
+- [Content designers](/accessibility/meet-accessibility-regulations/content-designers/)
+- [Delivery managers](/accessibility/meet-accessibility-regulations/delivery-managers/)
+- [Interaction designers](/accessibility/meet-accessibility-regulations/interaction-designers/)
+- [Product managers](/accessibility/meet-accessibility-regulations/product-managers/)
+- [User researchers](/accessibility/meet-accessibility-regulations/user-researchers/)
 
 ## Related guidance
 
