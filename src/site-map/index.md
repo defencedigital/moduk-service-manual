@@ -32,7 +32,7 @@ lead: "Find your way around this website."
 - [Design](/design/)
   - [Start with simple designs](/design/start-with-simple-designs/)
   - [Design for safety](/design/design-for-safety/)
-  - [Naming things in Defence](/design/naming-things-in-defence/)
+  - [Naming services in Defence](/design/naming-services-in-defence/)
 - [User research](/user-research/)
   - [Understanding military personnel](/user-research/understanding-military-personnel/)
   - [Find user research participants across Defence](/user-research/find-user-research-participants-across-defence/)
