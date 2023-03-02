@@ -47,9 +47,10 @@ Check how you can help with accessibility:
 - [Product Managers](/accessibility/meet-accessibility-regulations/product-managers/)
 - [User Researchers](/accessibility/meet-accessibility-regulations/user-researchers/)
 
-## Related content
+## Related guidance
 
 - [Making things accessible and inclusive](https://www.gov.uk/guidance/make-things-accessible/)
 - [Doing the hard work to make accessibility simple](https://gds.blog.gov.uk/2016/05/19/doing-the-hard-work-to-make-accessibility-simple/)
 - [Common assistive technologies](https://www.gov.uk/government/publications/assistive-technology-definition-and-safe-use/assistive-technology-definition-and-safe-use/)
 - [GOV.UK blogs on accessibility](https://accessibility.blog.gov.uk/)
+{.govuk-list}
