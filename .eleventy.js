@@ -8,7 +8,6 @@ const isProduction = process.env.ELEVENTY_ENV === 'production';
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
-const markdownItReplaceLink = require('markdown-it-replace-link');
 
 // Breadcrumb trail
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
