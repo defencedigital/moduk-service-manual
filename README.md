@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3da15bac-f5c3-4c1d-ae5c-abe6bc542014/deploy-status)](https://app.netlify.com/sites/servicemanual/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b2aeb629-8c30-45b1-b51a-a8fc82bf4c22/deploy-status)](https://app.netlify.com/sites/defence-service-manual/deploys)
 
 # Defence Service Manual
 
@@ -26,7 +26,7 @@ cd moduk-service-manual
 npm install
 ```
 
-### 4. Run app
+### 5. Run app
 Watch for changes to `CSS`, `JS`, `Images`, `Nunjucks` or `Markdown`. Automatically update the browser, without the need for a manual refresh.
 
 ```
@@ -35,9 +35,17 @@ npm run dev
 
 Visit: <a href="http://localhost:8080">http://localhost:8080</a>
 
+
+## Test app for HTML errors
+Performs a [W3C validation](https://validator.w3.org) on `HTML`, to ensure everything is valid.
+
+```
+npm run test
+```
+
 ## Build app for production
 
-Render `CSS`, `JS`, `Images`, `Nunjucks`. Compress files and generates `HTML` pages, ready for production. It also performs a [W3C validation](https://validator.w3.org) on `HTML`, to ensure everything is valid.
+Render `CSS`, `JS`, `Images`, `Nunjucks`. Compress files and generates `HTML` pages, ready for production. 
 
 ```
 npm run prod
