@@ -8,8 +8,8 @@ Description: TBC
 
 .moduk-callout {
   @include govuk-font(19);
-  background-color: govuk-colour("white");
-  border: 1px solid govuk-colour("mid-grey");
+  background-color: govuk-colour("light-grey");
+  border: 1px solid govuk-colour("light-grey");
   margin-bottom: govuk-spacing(7);
   margin-top: govuk-spacing(8) + govuk-spacing(1); // Accounts for the label
   padding: govuk-spacing(5);
