@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b2aeb629-8c30-45b1-b51a-a8fc82bf4c22/deploy-status)](https://app.netlify.com/sites/defence-service-manual/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3da15bac-f5c3-4c1d-ae5c-abe6bc542014/deploy-status)](https://app.netlify.com/sites/servicemanual/deploys)
 
 # Defence Service Manual
 
