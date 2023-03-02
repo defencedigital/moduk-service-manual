@@ -23,8 +23,6 @@
 ## Nunjucks macro
 
 ```
-{% from 'components/callout/macro.njk' import callout %}
-
 {{ modukcomponent('callout', {
   title: 'Title',
   content: '<p>Content goes here...</p>',

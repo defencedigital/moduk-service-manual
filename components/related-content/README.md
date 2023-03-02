@@ -3,8 +3,6 @@
 ## Nunjucks macro
 
 ```
-{% from 'components/related-content/macro.njk' import related-content %}
-
 {{ modukcomponent('related-content', {
   "ariaLabel": 'Related content',
   "id": 'related-join-the-community',
