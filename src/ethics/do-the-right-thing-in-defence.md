@@ -23,9 +23,6 @@ You need to be ethical when you do user research with members of the public or p
 
 You should also consider ethics when meeting with stakeholders, presenting your service and running workshops.
 
-
-{% from 'components/callout/macro.njk' import list %}
-
 {{ modukcomponent('callout', {
   title: 'Case study',
   content: '<p>During discovery, the Army’s Land Deployed Applications team dealt with a range of ethical issues. They had to manage conflicts of interest, respect the chain of command and handle sensitive issues.</p>',
@@ -36,7 +33,6 @@ You should also consider ethics when meeting with stakeholders, presenting your 
     }
   ]
 }) }}
-
 
 ## Help with ethical issues 
 
