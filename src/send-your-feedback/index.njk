@@ -24,7 +24,7 @@
 
       <div class="govuk-grid-column-two-thirds">
 
-        <form class="js-form" id="send-your-feedback" name="Send your feedback" action="/send-your-feedback/thank-you" method="POST" autocomplete="off" novalidate data-netlify="true" data-netlify-honeypot="giraffe">
+        <form class="js-form" id="send-your-feedback" name="Send your feedback" action="/send-your-feedback/thank-you" method="POST" autocomplete="off" novalidate data-netlify="true" data-netlify-honeypot="giraffe" data-netlify-recaptcha="true">
 
           <div class="govuk-error-summary is-hidden">
             <div role="alert">
@@ -112,15 +112,11 @@
               <input class="govuk-input" id="giraffe" name="giraffe" type="text" autocomplete="off" tabindex="-1">
             </div>
 
+            <div data-netlify-recaptcha="true"></div>
+
             {{ component('button', {
-              classes: 'g-recaptcha',
               type: 'submit',
-              text: 'Send feedback',
-              attributes: {
-                "data-sitekey": '6Lf667okAAAAAIxxy2IfHg91MAZ4rYUCF0JVGpFp',
-                "data-callback": 'onSubmit',
-                "data-action": 'submit'
-              }
+              text: 'Send feedback'
             }) }}
 
           </div>

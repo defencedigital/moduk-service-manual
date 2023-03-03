@@ -1,58 +1,60 @@
-(function() {
+(function () {
 
 
-  var Form = function(element) {
+  var Form = function (element) {
     this.element = element;
-    this.errorSummary   = this.element.getElementsByClassName('govuk-error-summary')[0];
-    this.formGroup      = this.element.getElementsByClassName('govuk-form-group');
-    this.formField      = this.element.querySelectorAll('.govuk-input, .govuk-textarea, .govuk-radios__input');
+    this.errorSummary = this.element.getElementsByClassName('govuk-error-summary')[0];
+    this.formGroup = this.element.getElementsByClassName('govuk-form-group');
+    this.formField = this.element.querySelectorAll('.govuk-input, .govuk-textarea, .govuk-radios__input');
     this.requiredFields = this.element.querySelectorAll('[required], [data-validate]');
-    this.formError      = this.element.getElementsByClassName('govuk-error-message');
+    this.formError = this.element.getElementsByClassName('govuk-error-message');
     this.initForm(this);
   };
 
 
-  Form.prototype.initForm = function() {
+  Form.prototype.initForm = function () {
     this.element.setAttribute('novalidate', true); // Stop HTML5 validation, in favour of our own
     this.validateForm();
   }
 
 
-  Form.prototype.validateForm = function() {
-   
+  Form.prototype.validateForm = function () {
+
     var self = this;
 
-    this.element.addEventListener('submit', function(event) {
+    this.element.addEventListener('submit', function (event) {
 
       event.preventDefault();
 
-      for( var i = 0; i < self.requiredFields.length; i++) {
+      for (var i = 0; i < self.requiredFields.length; i++) {
         var input = self.requiredFields[i];
         self.validateFields(input);
       }
 
       self.submit();
 
+      console.log(token)
+
     });
 
   };
 
 
-  Form.prototype.submit = function() { 
+  Form.prototype.submit = function () {
 
     var errors = this.element.getElementsByClassName('govuk-input--error');
 
     // If no errors exist, submit form
-    if( errors.length === 0 ) {
+    if (errors.length === 0) {
 
       Util.addClass(this.errorSummary, 'js:is-hidden');
 
       // If yes or no feedback form
       var form = this.element;
 
-      var prompt    = document.getElementsByClassName('js-feedback-prompt')[0];
+      var prompt = document.getElementsByClassName('js-feedback-prompt')[0];
       var questions = document.getElementsByClassName('js-feedback-question')[0];
-      var success   = document.getElementsByClassName('js-feedback-success')[0];
+      var success = document.getElementsByClassName('js-feedback-success')[0];
 
       if (form.classList.contains('js-feedback-form')) {
 
@@ -90,7 +92,7 @@
     } else {
 
       Util.removeClass(this.errorSummary, 'is-hidden');
-      Util.setAttributes(this.errorSummary, {'tabindex': '0'});
+      Util.setAttributes(this.errorSummary, { 'tabindex': '0' });
 
       this.errorSummary.scrollIntoView({
         behavior: 'smooth'
@@ -103,7 +105,7 @@
   };
 
 
-  Form.prototype.validateFields = function(input) {
+  Form.prototype.validateFields = function (input) {
 
 
     // Check for required fields have a value
@@ -119,14 +121,14 @@
 
       var radioGroup = this.element.querySelectorAll('input[name]:checked').length;
 
-      var hasCheckedItem = (!!parseInt(radioGroup) ? true : false) 
+      var hasCheckedItem = (!!parseInt(radioGroup) ? true : false)
 
       if (hasCheckedItem === false) {
         this.setStatus(input, 'error');
       } else {
         this.setStatus(input, 'success');
       }
-      
+
     }
 
 
@@ -142,12 +144,12 @@
       }
 
     }
-  
+
 
   };
 
 
-  Form.prototype.setStatus = function(input, status) {
+  Form.prototype.setStatus = function (input, status) {
 
     var formGroup = input.closest('.govuk-form-group'); // Parent container
     var errorMessage = formGroup.querySelector('.govuk-error-message'); // Error message
@@ -173,9 +175,9 @@
   // Initialize the Form objects
   var form = document.getElementsByClassName('js-form');
 
-  if( form.length > 0 ) {
-    for( var i = 0; i < form.length; i++) {
-      (function(i){new Form(form[i]);})(i);
+  if (form.length > 0) {
+    for (var i = 0; i < form.length; i++) {
+      (function (i) { new Form(form[i]); })(i);
     }
   }
 
