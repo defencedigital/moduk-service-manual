@@ -25,7 +25,7 @@ If your team does not have a content designer, [ask the content community for ad
 
 {{ modukcomponent('callout', {
   title: 'Case study',
-  content: '<p>The NHS had to name a new service that focused on interoperability. By working with content designers and reframing how they thought about the service, they agreed a new user-friendly name.</p>',
+  content: '<p>The NHS had to name a new service that focused on interoperability. Working with content designers, they changed how they thought about the service and agreed a new user-friendly name.</p>',
   link: {
     text: 'Find out more',
     hiddenText: 'about how the nhs named a new service',
