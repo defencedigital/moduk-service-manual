@@ -9,7 +9,6 @@ Check how the Defence Service Manual has changed. This includes new content and 
 - improved how we explain criteria for assessor training 
 - made guidance on hidden and alt text consistent
 
-
 ## February 2023
 
 - redesigned the homepage with 3 clear sections
