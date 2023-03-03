@@ -1,7 +1,7 @@
 ---
 layout: "layouts/landing.njk"
 title:  "Iterations"
-lead: Check how the Defence Service Manual has changed. This includes new content and improvements in response to user research and feedback.
+lead: "Check how the Defence Service Manual has changed. This includes new content and improvements in response to user research and feedback."
 ---
 
 ## March 2023 {.govuk-heading-m}
