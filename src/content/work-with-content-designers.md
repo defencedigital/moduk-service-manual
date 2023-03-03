@@ -23,6 +23,17 @@ In alpha, beta and live, a content designer creates content that:
 
 If your team does not have a content designer, [ask the content community for advice](/your-community/content/). 
 
+{{ modukcomponent('callout', {
+  title: 'Case study',
+  content: '<p>The NHS had to name a new service that focused on interoperability. By working with content designers and reframing how they thought about the service, they agreed a new user-friendly name.</p>',
+  link: {
+    text: 'Find out more',
+    hiddenText: 'about-how-the-nhs-named-a-new-service',
+    url: 'https://services.blog.gov.uk/2022/12/14/how-content-design-helped-to-frame-a-new-service-around-nhs-data-standards/',
+    external: true
+  }
+}) }}
+
 ## Pair write with experts
 
 Content often needs input from experts, for example in policy or security. 

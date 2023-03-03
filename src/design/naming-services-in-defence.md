@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Design"
 title: "Naming services in Defence"
 description: "Start with the GOV.UK approach, how to deal with acronyms in Defence and find examples of good service names."
-dateUpdated: 2023-02-07
+dateUpdated: 2023-03-03
 eleventyNavigation:
   key: "Design"
   url: "/design/"
@@ -28,6 +28,17 @@ According to GOV.UK, good service names:
 - are verbs, not nouns
 
 Check the [GOV.UK guidance on naming your service](https://www.gov.uk/service-manual/design/naming-your-service/).
+
+{{ modukcomponent('callout', {
+  title: 'Case study',
+  content: '<p>As an internal service at the Department of Education went into beta, it was still named after the team delivering it. Through user research, name storming and feedback, they found a new service name.</p>',
+  link: {
+    text: 'Find out more',
+    hiddenText: 'about-how-the-department-for-education-named-an-internal-service',
+    url: 'https://dfedigital.blog.gov.uk/2022/03/11/how-to-name-a-service/',
+    external: true
+  }
+}) }}
 
 ### When to take a different approach
 
