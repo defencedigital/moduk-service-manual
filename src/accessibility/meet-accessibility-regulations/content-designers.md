@@ -49,14 +49,34 @@ Avoid using bold text instead of a heading style. Assistive technology does not 
 A heading style can be any level from H1 to H6. Make sure you use the correct level of headings. Start with H1 as the page title. Do not skip levels, for example following a H2 with a H4.
 
 Follow the [GOV.UK guidance on heading levels](https://www.gov.uk/guidance/content-design/writing-for-gov-uk#headings).
-
 ## Add visually hidden text
 
-People who use assistive technologies may need more content to describe something on screen, for example a photo or a graph. This additional description is known as “alternative text” or “alt text”. It does not appear on the screen for all users.
+People who use assistive technologies sometimes need additional text to complete a task. The text does not appear on the screen for everyone as it is visually hidden.
 
-You only need to add alt text to images that provide useful context, for example where to sign your passport. If an image is purely decorative, you do not need to add alt text. Consider if users need a decorative image at all.
+For example, when checking your details there can be several ‘Change’ links. Screen readers need to tell assisted digital users what they are changing. 
 
-Find tips on writing alt text in the [GOV.UK Design System’s guidance on images](https://design-system.service.gov.uk/styles/images/).
+### Example visually hidden text 
+The GOV.UK pattern for summary lists includes descriptions for what users are changing.
+
+    <a class="govuk-link" href="#">
+      Change<span class="govuk-visually-hidden"> name</span>
+    </a>
+ 
+If you can, work with a Content Designer to create visually hidden text. Find more advice in [Content Designers and accessibility](/accessibility/meet-accessibility-regulations/content-designers/). 
+
+## Images and icons 
+
+Do not add unnecessary images or visual design. Before adding any images, work with a User Researcher and a Content Designer to check if users need them.
+
+If your users need an image or an icon to help them understand something, add a description for screen readers. This is known as 'alternative text' or 'alt text'. 
+
+### Example alt text 
+
+When the Ministry of Defence logo appears on screen, use this alt text:
+ 
+    <img src="ministry-of-defence.svg" alt="Ministry of Defence logo">
+ 
+If you can, work with a Content Designer to create alt text. Find more advice in the [GOV.UK guidance on images](https://design-system.service.gov.uk/styles/images/).
 
 ## Captions and transcripts
 
