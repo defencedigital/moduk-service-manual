@@ -4,6 +4,21 @@ title:  "Iterations"
 lead: Check how the Defence Service Manual has changed. This includes new content and improvements in response to user research and feedback.
 ---
 
+## March 2023 {.govuk-heading-m}
+
+{% set htmlOutput %}
+  - launched a new pattern for case studies
+  - added case studies to ethics, design and content
+  - improved how we explain criteria for assessor training 
+  - made guidance on hidden and alt text consistent
+{.govuk-list .govuk-list--bullet}
+{% endset %}
+
+{{ component('details', {
+  summaryText: 'What changed',
+  html: htmlOutput
+}) }}
+
 ## February 2023 {.govuk-heading-m}
 
 {% set htmlOutput %}
