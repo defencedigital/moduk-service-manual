@@ -41,23 +41,11 @@ Description: TBC
   p {
     @include govuk-font(19);
     margin: 0 0 govuk-spacing(3);
-  }
 
-}
+    &:last-child {
+      margin-bottom: 0;
+    }
 
-
-.moduk-callout__list {
-  list-style: none;
-  margin-top: 0;
-  padding-left: 0;
-  position: relative;
-
-  li:not(:last-child) {
-    margin-bottom: 10px;
-  }
-
-  li:last-child {
-    margin: 0;
   }
 
 }

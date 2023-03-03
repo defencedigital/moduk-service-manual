@@ -26,12 +26,12 @@ You should also consider ethics when meeting with stakeholders, presenting your 
 {{ modukcomponent('callout', {
   title: 'Case study',
   content: '<p>During discovery, the Army’s Land Deployed Applications team dealt with a range of ethical issues. They had to manage conflicts of interest, respect the chain of command and handle sensitive issues.</p>',
-  items: [
-    {
-      text: 'Find out what they did',
-      href: 'https://defencedigital.blog.gov.uk/2022/04/04/land-deployed-applications-a-strategic-discovery/'
-    }
-  ]
+  link: {
+    text: 'Find out more',
+    hiddenText: 'about what the Army’s Land Deployed Applications team did',
+    url: 'https://defencedigital.blog.gov.uk/2022/04/04/land-deployed-applications-a-strategic-discovery/',
+    external: true
+  }
 }) }}
 
 ## Help with ethical issues 
