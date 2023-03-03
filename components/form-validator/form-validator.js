@@ -33,8 +33,6 @@
 
       self.submit();
 
-      console.log(token)
-
     });
 
   };
@@ -83,6 +81,9 @@
           .catch((error) => alert(error));
 
       } else {
+
+        // Google reCaptcha
+        grecaptcha.execute();
 
         // Submit the form
         form.submit();
