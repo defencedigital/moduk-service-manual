@@ -113,15 +113,15 @@
             </div>
 
             {{ component('button', {
+              classes: 'g-recaptcha',
               type: 'submit',
-              text: 'Send feedback'
+              text: 'Send feedback',
+              attributes: {
+                "data-sitekey": '6Lf667okAAAAAIxxy2IfHg91MAZ4rYUCF0JVGpFp',
+                "data-callback": 'onSubmit',
+                "data-action": 'submit'
+              }
             }) }}
-
-            <button class="g-recaptcha" 
-              data-sitekey="6Lf667okAAAAAIxxy2IfHg91MAZ4rYUCF0JVGpFp" 
-              data-callback='onSubmit' 
-              data-action='submit'>Send feedback
-            </button>
 
           </div>
 
