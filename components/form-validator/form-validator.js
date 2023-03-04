@@ -93,6 +93,8 @@
                 // Add token to reCaptcha field
                 recaptcha.value = token;
 
+                console.log(recaptcha);
+
                 // Submit form
                 tokenCreated = true;
 
@@ -131,6 +133,8 @@
 
                 // Add token to reCaptcha field
                 recaptcha.value = token;
+
+                console.log(recaptcha);
 
                 // Submit form
                 tokenCreated = true;
