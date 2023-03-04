@@ -136,7 +136,10 @@
 
                 // Submit form
                 tokenCreated = true;
-                form.submit();
+
+                console.log(recaptcha, token);
+
+                // form.submit();
 
               });
 
