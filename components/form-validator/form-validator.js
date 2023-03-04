@@ -71,7 +71,7 @@
       var formData = new FormData(form);
       var tokenCreated = false;
       var submitted = false;
-      var recaptcha = form.getElementsByClassName('recaptcha');
+      var recaptcha = form.querySelector('.recaptcha');
 
       if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
 
