@@ -92,7 +92,7 @@
               recaptcha.value = token;
 
               // Append reCaptcha token onto formData
-              // formData.append('Captcha token', token);
+              formData.append('recaptcha', token);
 
               // Submit form
               tokenCreated = true;
