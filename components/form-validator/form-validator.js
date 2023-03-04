@@ -73,36 +73,31 @@
       var tokenCreated = false;
       var submitted = false;
 
-      if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
+      // Check if the reCaptcha exists
+      if (!tokenCreated) {
 
-        // Check if the reCaptcha exists
-        if (!tokenCreated) {
+        // Prevent more than one submission
+        if (!submitted) {
 
-          // Prevent more than one submission
-          if (!submitted) {
+          submitted = true;
 
-            submitted = true;
+          // Needed for reCaptcha ready
+          grecaptcha.ready(function () {
 
-            // Needed for reCaptcha ready
-            grecaptcha.ready(function () {
+            // Do request for reCaptcha token
+            // Response is promise with passed token
+            grecaptcha.execute('6LeF8dAkAAAAAD5d1m3w6H4y11KNmiQruHeE65ZZ', { action: 'submit' }).then(function (token) {
 
-              // Do request for reCaptcha token
-              // Response is promise with passed token
-              grecaptcha.execute('6LeF8dAkAAAAAD5d1m3w6H4y11KNmiQruHeE65ZZ', { action: 'submit' }).then(function (token) {
+              // Add token to reCaptcha field
+              recaptcha.value = token;
 
-                // Add token to reCaptcha field
-                recaptcha.value = token;
+              // Append reCaptcha token onto formData
+              formData.append('Captcha token', token);
 
-                // Append reCaptcha token onto formData
-                formData.append('Captcha token', token);
+              // Submit form
+              tokenCreated = true;
 
-                // Submit form
-                tokenCreated = true;
-
-                // Display the values
-                // for (const value of formData.values()) {
-                //   console.log(value);
-                // }
+              if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
 
                 // Send form using AJAX
                 fetch('/', {
@@ -110,55 +105,17 @@
                   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                   body: new URLSearchParams(formData).toString(),
                 })
-                  // .then(() => console.log('Feedback form sent successfully'))
                   .catch((error) => alert(error));
 
-              });
-
-            });
-
-          }
-
-        }
-
-      } else {
-
-        // Check if the reCaptcha exists
-        if (!tokenCreated) {
-
-          // Prevent more than one submission
-          if (!submitted) {
-
-            submitted = true;
-
-            // Needed for reCaptcha ready
-            grecaptcha.ready(function () {
-
-              // Do request for reCaptcha token
-              // Response is promise with passed token
-              grecaptcha.execute('6LeF8dAkAAAAAD5d1m3w6H4y11KNmiQruHeE65ZZ', { action: 'submit' }).then(function (token) {
-
-                // Add token to reCaptcha field
-                recaptcha.value = token;
-
-                // Append reCaptcha token onto formData
-                formData.append('Captcha token', token);
-
-                // Submit form
-                tokenCreated = true;
-
-                // Display the values
-                // for (const value of formData.values()) {
-                //   console.log(value);
-                // }
+              } else {
 
                 form.submit();
 
-              });
+              }
 
             });
 
-          }
+          });
 
         }
 
