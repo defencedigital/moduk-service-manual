@@ -108,7 +108,10 @@
                 //   .then(() => console.log('Feedback form sent successfully'))
                 //   .catch((error) => alert(error));
 
-                console.log(formData.values());
+                // Display the values
+                for (const value of formData.values()) {
+                  console.log(value);
+                }
 
               });
 
