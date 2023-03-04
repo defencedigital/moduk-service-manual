@@ -103,7 +103,7 @@
                 // Add token to reCaptcha field
                 recaptcha.value = token;
 
-                console.loig('Submit form data!');
+                console.log('Submit form data!');
 
                 // Submit form
                 tokenCreated = true;
