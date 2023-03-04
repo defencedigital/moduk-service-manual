@@ -95,6 +95,8 @@
 
                 console.log(recaptcha);
 
+                console.log(formData);
+
                 // Submit form
                 tokenCreated = true;
 
