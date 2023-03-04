@@ -141,6 +141,9 @@
                 // Add token to reCaptcha field
                 recaptcha.value = token;
 
+                // Append reCaptcha token onto formData
+                formData.append('recaptcha', token);
+
                 // Submit form
                 tokenCreated = true;
 
