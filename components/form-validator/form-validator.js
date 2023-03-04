@@ -96,7 +96,7 @@
                 // Submit form
                 tokenCreated = true;
 
-                form.submit();
+                // form.submit();
 
                 console.log('Form sent successfully!');
 
