@@ -41,6 +41,7 @@
   Form.prototype.submit = function () {
 
     var errors = this.element.getElementsByClassName('govuk-input--error');
+    var recaptcha = this.element.getElementsByClassName('recaptcha')[0];
 
     // If no errors exist, submit form
     if (errors.length === 0) {
@@ -71,7 +72,6 @@
       var formData = new FormData(form);
       var tokenCreated = false;
       var submitted = false;
-      var recaptcha = form.getElementsByClassName('recaptcha')[0];
 
       if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
 
@@ -95,8 +95,6 @@
 
                 // Submit form
                 tokenCreated = true;
-
-                console.log(recaptcha, token);
 
                 // fetch('/', {
                 //   method: 'POST',
@@ -137,9 +135,7 @@
                 // Submit form
                 tokenCreated = true;
 
-                console.log(recaptcha, token);
-
-                form.submit();
+                // form.submit();
 
               });
 
