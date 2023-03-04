@@ -49,7 +49,6 @@
 
       // If yes or no feedback form
       var form = this.element;
-      var recaptcha = form.getElementsByClassName('recaptcha')
 
       var prompt = document.getElementsByClassName('js-feedback-prompt')[0];
       var questions = document.getElementsByClassName('js-feedback-question')[0];
@@ -72,6 +71,7 @@
       var formData = new FormData(form);
       var tokenCreated = false;
       var submitted = false;
+      var recaptcha = form.getElementsByClassName('recaptcha');
 
       if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
 
@@ -103,7 +103,7 @@
                 // Add token to reCaptcha field
                 recaptcha.value = token;
 
-                console.log('Submit form data!');
+                console.log('Submit form data!', token);
 
                 // Submit form
                 tokenCreated = true;
