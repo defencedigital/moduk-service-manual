@@ -93,20 +93,22 @@
                 // Add token to reCaptcha field
                 recaptcha.value = token;
 
-                // Append recaptcha token onto formData
+                // Append reCaptcha token onto formData
                 formData.append('recaptcha', token);
 
                 // Submit form
                 tokenCreated = true;
 
                 // Send form using AJAX
-                fetch('/', {
-                  method: 'POST',
-                  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                  body: new URLSearchParams(formData).toString(),
-                })
-                  .then(() => console.log('Feedback form sent successfully'))
-                  .catch((error) => alert(error));
+                // fetch('/', {
+                //   method: 'POST',
+                //   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                //   body: new URLSearchParams(formData).toString(),
+                // })
+                //   .then(() => console.log('Feedback form sent successfully'))
+                //   .catch((error) => alert(error));
+
+                console.log(formData.values());
 
               });
 
@@ -139,7 +141,9 @@
                 // Submit form
                 tokenCreated = true;
 
-                form.submit();
+                console.log(formData.values());
+
+                // form.submit();
 
               });
 
