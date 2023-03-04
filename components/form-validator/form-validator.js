@@ -93,12 +93,10 @@
                 // Add token to reCaptcha field
                 recaptcha.value = token;
 
-                console.log(recaptcha);
-
-                console.log(formData);
-
                 // Submit form
                 tokenCreated = true;
+
+                form.submit();
 
                 // fetch('/', {
                 //   method: 'POST',
@@ -136,12 +134,10 @@
                 // Add token to reCaptcha field
                 recaptcha.value = token;
 
-                console.log(recaptcha);
-
                 // Submit form
                 tokenCreated = true;
 
-                // form.submit();
+                form.submit();
 
               });
 
