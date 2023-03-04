@@ -49,6 +49,7 @@
 
       // If yes or no feedback form
       var form = this.element;
+      var recaptcha = form.getElementsByClassName('recaptcha')
 
       var prompt = document.getElementsByClassName('js-feedback-prompt')[0];
       var questions = document.getElementsByClassName('js-feedback-question')[0];
@@ -101,6 +102,8 @@
 
                 // Add token to reCaptcha field
                 recaptcha.value = token;
+
+                console.loig('Submit form data!');
 
                 // Submit form
                 tokenCreated = true;
