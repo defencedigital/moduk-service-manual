@@ -98,6 +98,10 @@
 
                 form.submit();
 
+                console.log('Form sent successfully!');
+
+                return false;
+
                 // fetch('/', {
                 //   method: 'POST',
                 //   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
