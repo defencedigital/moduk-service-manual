@@ -68,10 +68,10 @@
       }
 
       // Send form data
+      var formData = new FormData(form);
       var tokenCreated = false;
       var submitted = false;
-      var recaptcha = form.querySelector('.recaptcha');
-      var formData = new FormData(form);
+      var recaptcha = form.getElementsByClassName('recaptcha');
 
       if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
 
@@ -95,7 +95,8 @@
 
                 // Submit form
                 tokenCreated = true;
-                form.submit();
+
+                console.log(recaptcha, token);
 
                 // fetch('/', {
                 //   method: 'POST',
