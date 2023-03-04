@@ -94,24 +94,24 @@
                 recaptcha.value = token;
 
                 // Append reCaptcha token onto formData
-                formData.append('recaptcha', token);
+                formData.append('Captcha token', token);
 
                 // Submit form
                 tokenCreated = true;
 
-                // Send form using AJAX
-                // fetch('/', {
-                //   method: 'POST',
-                //   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                //   body: new URLSearchParams(formData).toString(),
-                // })
-                //   .then(() => console.log('Feedback form sent successfully'))
-                //   .catch((error) => alert(error));
-
                 // Display the values
-                for (const value of formData.values()) {
-                  console.log(value);
-                }
+                // for (const value of formData.values()) {
+                //   console.log(value);
+                // }
+
+                // Send form using AJAX
+                fetch('/', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                  body: new URLSearchParams(formData).toString(),
+                })
+                  // .then(() => console.log('Feedback form sent successfully'))
+                  .catch((error) => alert(error));
 
               });
 
@@ -142,17 +142,17 @@
                 recaptcha.value = token;
 
                 // Append reCaptcha token onto formData
-                formData.append('recaptcha', token);
+                formData.append('Captcha token', token);
 
                 // Submit form
                 tokenCreated = true;
 
                 // Display the values
-                for (const value of formData.values()) {
-                  console.log(value);
-                }
+                // for (const value of formData.values()) {
+                //   console.log(value);
+                // }
 
-                // form.submit();
+                form.submit();
 
               });
 
