@@ -75,13 +75,43 @@
 
       if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
 
-        fetch('/', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-          body: new URLSearchParams(formData).toString(),
-        })
-          .then(() => console.log('Feedback form sent successfully'))
-          .catch((error) => alert(error));
+        // Check if the reCaptcha exists
+        if (!tokenCreated) {
+
+          // Prevent more than one submission
+          if (!submitted) {
+
+            submitted = true;
+
+            // Needed for reCaptcha ready
+            grecaptcha.ready(function () {
+
+              // Do request for reCaptcha token
+              // Response is promise with passed token
+              grecaptcha.execute('6LeF8dAkAAAAAD5d1m3w6H4y11KNmiQruHeE65ZZ', { action: 'submit' }).then(function (token) {
+
+                // Add token to reCaptcha field
+                recaptcha.value = token;
+
+                // Submit form
+                tokenCreated = true;
+
+                console.log('Submit form!', token);
+                // fetch('/', {
+                //   method: 'POST',
+                //   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                //   body: new URLSearchParams(formData).toString(),
+                // })
+                //   .then(() => console.log('Feedback form sent successfully'))
+                //   .catch((error) => alert(error));
+
+              });
+
+            });
+
+          }
+
+        }
 
       } else {
 
