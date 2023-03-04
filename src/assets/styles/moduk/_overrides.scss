@@ -24,3 +24,9 @@ Title: Overrides
 .govuk-inset-text {
   border-color: $govuk-brand-colour;
 }
+
+
+// Hide reCaptcha badge
+.grecaptcha-badge {
+  visibility: hidden;
+}
