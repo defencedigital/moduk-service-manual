@@ -89,7 +89,7 @@
             grecaptcha.execute('6LeF8dAkAAAAAD5d1m3w6H4y11KNmiQruHeE65ZZ', { action: 'submit' }).then(function (token) {
 
               // Add token to reCaptcha field
-              // recaptcha.value = token;
+              recaptcha.value = token;
 
               // Append reCaptcha token onto formData
               formData.append('Captcha token', token);
