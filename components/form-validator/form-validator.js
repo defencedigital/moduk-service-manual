@@ -144,7 +144,10 @@
                 // Submit form
                 tokenCreated = true;
 
-                console.log(formData.values());
+                // Display the values
+                for (const value of formData.values()) {
+                  console.log(value);
+                }
 
                 // form.submit();
 
