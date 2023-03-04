@@ -100,7 +100,10 @@
 
                 console.log('Form sent successfully!');
 
-                console.log(formData);
+                // Display the values
+                for (const value of formData.values()) {
+                  console.log(value);
+                }
 
                 // fetch('/', {
                 //   method: 'POST',
