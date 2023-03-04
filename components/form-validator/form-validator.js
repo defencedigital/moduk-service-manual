@@ -104,8 +104,7 @@
 
                 // Submit form
                 tokenCreated = true;
-                // form.submit();
-                console.log(token);
+                form.submit();
 
               });
 
