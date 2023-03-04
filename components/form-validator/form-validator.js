@@ -96,14 +96,13 @@
                 // Submit form
                 tokenCreated = true;
 
-                console.log('Submit form!', token);
-                // fetch('/', {
-                //   method: 'POST',
-                //   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                //   body: new URLSearchParams(formData).toString(),
-                // })
-                //   .then(() => console.log('Feedback form sent successfully'))
-                //   .catch((error) => alert(error));
+                fetch('/', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                  body: new URLSearchParams(formData).toString(),
+                })
+                  .then(() => console.log('Feedback form sent successfully'))
+                  .catch((error) => alert(error));
 
               });
 
