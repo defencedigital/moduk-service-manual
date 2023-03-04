@@ -93,12 +93,12 @@
                 // Add token to reCaptcha field
                 recaptcha.value = token;
 
+                formData.append('recaptcha', token);
+
                 // Submit form
                 tokenCreated = true;
 
                 // form.submit();
-
-                console.log('Form sent successfully!');
 
                 // Display the values
                 for (const value of formData.values()) {
