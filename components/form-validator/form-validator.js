@@ -71,7 +71,7 @@
       var formData = new FormData(form);
       var tokenCreated = false;
       var submitted = false;
-      var recaptcha = form.getElementsByClassName('recaptcha')[0];
+      var recaptcha = form.getElementsByClassName('recaptcha');
 
       if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
 
@@ -96,13 +96,15 @@
                 // Submit form
                 tokenCreated = true;
 
-                fetch('/', {
-                  method: 'POST',
-                  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                  body: new URLSearchParams(formData).toString(),
-                })
-                  .then(() => console.log('Feedback form sent successfully'))
-                  .catch((error) => alert(error));
+                console.log(recaptcha);
+
+                // fetch('/', {
+                //   method: 'POST',
+                //   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                //   body: new URLSearchParams(formData).toString(),
+                // })
+                //   .then(() => console.log('Feedback form sent successfully'))
+                //   .catch((error) => alert(error));
 
               });
 
