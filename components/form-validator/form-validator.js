@@ -139,7 +139,7 @@
 
                 console.log(recaptcha, token);
 
-                form.submit();
+                // form.submit();
 
               });
 
