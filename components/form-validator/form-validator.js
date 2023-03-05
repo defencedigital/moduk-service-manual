@@ -91,13 +91,17 @@
               // Add token to reCaptcha field
               recaptcha.value = token;
 
-              // Append reCaptcha token onto formData
-              formData.append('Captcha token', token);
+              // Set reCaptcha token onto formData
+              formData.set('Captcha token', token);
 
               // Submit form
               tokenCreated = true;
 
               if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
+
+                // for (const [key, value] of formData) {
+                //   console.log(`${key}: ${value}\n`)
+                // }
 
                 // Send form using AJAX
                 fetch('/', {
