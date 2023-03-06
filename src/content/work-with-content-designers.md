@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Content"
 title: "Work with content designers"
 decsription: "If your service has words, images or videos, you should have a content designer on your team. Find out more."
-datePublished: 2023-02-01
+datePublished: 2023-03-03
 eleventyNavigation:
   key: "Content"
   url: "/content/"
@@ -22,6 +22,17 @@ In alpha, beta and live, a content designer creates content that:
 - follows GOV.UK style
 
 If your team does not have a content designer, [ask the content community for advice](/your-community/content/). 
+
+{{ modukcomponent('callout', {
+  title: 'Case study',
+  content: '<p>The NHS had to name a new service that focused on interoperability. Working with content designers, they changed how they thought about the service and agreed a new user-friendly name.</p>',
+  link: {
+    text: 'Find out more',
+    hiddenText: 'about how the nhs named a new service',
+    url: 'https://services.blog.gov.uk/2022/12/14/how-content-design-helped-to-frame-a-new-service-around-nhs-data-standards/',
+    external: true
+  }
+}) }}
 
 ## Pair write with experts
 

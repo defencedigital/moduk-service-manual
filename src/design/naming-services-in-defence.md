@@ -3,23 +3,23 @@ layout: "layouts/guidance.njk"
 section: "Design"
 title: "Naming services in Defence"
 description: "Start with the GOV.UK approach, how to deal with acronyms in Defence and find examples of good service names."
-dateUpdated: 2023-02-21
+dateUpdated: 2023-03-03
 eleventyNavigation:
   key: "Design"
   url: "/design/"
 ---
 
-Get the user-centred design specialists on your team involved in naming your service or product. 
+Get the user-centred design specialists on your team involved in naming your service. 
 
 When you have a name that works best for users, it should be approved by your service or product owner.
 
 ## Start with the GOV.UK approach
 
-If your service or product is hosted on GOV.UK, you need to meet their naming standards. 
+If your service is hosted on GOV.UK, you need to meet their naming standards. 
 
 For services hosted internally or elsewhere, the GOV.UK approach is still recommended.
 
-According to GOV.UK, good service or product names:
+According to GOV.UK, good service names:
 
 - use the words users use
 - are based on analytics and user research
@@ -28,6 +28,17 @@ According to GOV.UK, good service or product names:
 - are verbs, not nouns
 
 Check the [GOV.UK guidance on naming your service](https://www.gov.uk/service-manual/design/naming-your-service/).
+
+{{ modukcomponent('callout', {
+  title: 'Case study',
+  content: '<p>As an internal service at the Department of Education went into beta, it was still named after the team delivering it. Through user research, name storming and feedback, they found a new service name.</p>',
+  link: {
+    text: 'Find out more',
+    hiddenText: 'about how the department for education named an internal service',
+    url: 'https://dfedigital.blog.gov.uk/2022/03/11/how-to-name-a-service/',
+    external: true
+  }
+}) }}
 
 ### When to take a different approach
 
@@ -44,7 +55,7 @@ It is always best to avoid acronyms in service names. This can sometimes be diff
 The GOV.UK approach recommends using the words your users use. Your users might use familiar or internationally recognised acronyms, for example MOD and NATO. 
 
 {{ component('inset-text', {
-  text: 'Do not include unfamiliar acronyms or code names in your service or product name.'
+  text: 'Do not include unfamiliar acronyms or code names in your service name.'
 }) }}
 
 ### Test without acronyms
