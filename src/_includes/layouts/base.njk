@@ -48,9 +48,9 @@
     {# Stylesheet #}
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
 
-    {# Google analytics and MS Clarity #}
+    {# Google Analytics and MS Clarity #}
     {% if (meta.env == 'production') or (meta.env == 'prototype') %}
-
+    
       {% set googleID = ('G-JL5D2EMYS9' if meta.env === 'production' else 'G-YKV7VC7VZN') %}
       {% set clarityID = ('ez5qkzup8j' if meta.env === 'production' else 'ejv7sdqsc4') %}
 
@@ -67,6 +67,8 @@
       <script src="{{ '/assets/scripts/cookies.js' | url }}"></script>
 
     {% endif %}
+
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeF8dAkAAAAAD5d1m3w6H4y11KNmiQruHeE65ZZ"></script>
 
   </head>
 
@@ -168,7 +170,7 @@
     {% if feedbackForm != 'false' %}
       {% include "feedback.njk" ignore missing %}
     {% endif %}
-    
+
     {% include "footer.njk" ignore missing %}
 
     <script src="{{ '/assets/scripts/govuk.js' | url }}"></script>
