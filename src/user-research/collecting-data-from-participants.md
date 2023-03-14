@@ -4,7 +4,7 @@ section: "User research"
 title: "Collecting data from participants"
 description: "Check you are meeting the General Data Protection Regulation (GDPR). Get informed consent and protect participants’ sensitive data."
 datePublished: 2022-11-07
-dateUpdated: 2022-12-08
+dateUpdated: 2023-03-14
 eleventyNavigation:
   key: "User research"
   url: "/user-research/"
@@ -14,15 +14,17 @@ We must collect data in a legal and transparent way. Clearly explain to particip
 
 ## Meet the regulations
 
-The General Data Protection Regulation (GDPR) came into effect in May 2018. When doing user research at MOD, the important things to note are:
+The General Data Protection Regulation (GDPR) came into effect in May 2018. 
 
-- it defines personal data broadly, so that it can include data like online identification markers and location data
-- rules around evidence of informed consent and withdrawal of consent are strict
-- it sets out stronger requirements for documenting and auditing your practices
+When doing user research at the Ministry of Defence (MOD), remember that the regulations:
 
-The [Ministry of Defence Privacy Notice](https://www.gov.uk/government/publications/ministry-of-defence-privacy-notice/mod-privacy-notice) explains the sort of information you can collect from users and why.
+- include strict rules around evidence of informed consent and withdrawal of consent
+- define personal data broadly, including online identification markers and location data
+- set out stronger requirements for documenting and auditing processes
 
-To make sure your data management and privacy practices meet the regulations, get them reviewed by a data protection adviser. The Ministry of Defence (MOD) has a network of advisers.
+The [MOD Privacy Notice](https://www.gov.uk/government/publications/ministry-of-defence-privacy-notice/mod-privacy-notice) explains the sort of information you can collect from users and why.
+
+To make sure your data management and privacy practices meet the regulations, get them reviewed by a data protection adviser. Ask your service owner to put you in touch with MOD's network of data protection advisers.
 
 ## Get informed consent
 
@@ -56,7 +58,7 @@ You must then ask the participant if they:
 
 #### Get participants to complete a consent form
 
-Before you start, you must get participants to sign an [MOD consent form](/downloads/MOD-consent-form-for-OFFICIAL-user-research-template.docx). You need to add details about your research.
+Before you start, you must get participants to sign the [MOD consent form](/downloads/MOD-consent-form-for-OFFICIAL-user-research-template.docx). You need to add details about your research.
 
 #### Share an understanding your participation sheet
 
