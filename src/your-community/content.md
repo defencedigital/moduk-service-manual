@@ -23,21 +23,27 @@ In this community, you will meet:
 
 ## Community calls
 
-Join the UCD community calls held every second Wednesday at 11am.
+Join the content community calls held every second Wednesday at 11am.
 
 We discuss the latest content news and updates. We share insights, issues and what we’re working on. 
 
-To join, send an email to: [john.szymanski@digital.mod.uk](mailto:john.szymanski@digital.mod.uk?subject=Join%20content%20community%20calls), Head of Content Design, Defence Digital Foundry. 
+{{ component('inset-text', {
+  html: 'You must only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'
+}) }}
+
+### Ask for an invitation
+
+Using your Ministry of Defence email, send a message to: [john.szymanski@digital.mod.uk](mailto:john.szymanski@digital.mod.uk?subject=Join%20content%20community%20calls), Head of Content Design, Defence Digital Foundry. 
 
 Include your full name, your role and the project you’re working on.
-
-{{ component('inset-text', {
-  html: 'In community calls, only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'
-}) }}
 
 ## Slack channels
 
 Slack is a messaging service used by the Defence community. On a MODNET device, you can use Slack in your web browser.
+
+{{ component('inset-text', {
+  html: 'Everything you write on Slack can be included in a Freedom of Information request.'
+}) }}
 
 ### Defence Digital Service Slack
 

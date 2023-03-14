@@ -24,6 +24,10 @@ In this community, you will meet:
 
 Slack is a messaging service used by the Defence community. On a MODNET device, you can use Slack in your web browser.
 
+{{ component('inset-text', {
+  html: 'Everything you write on Slack can be included in a Freedom of Information request.'
+}) }}
+
 ### Defence Digital Service Slack
 
 This is the place to ask quick questions about product management and delivery in Defence.

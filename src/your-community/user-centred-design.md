@@ -27,15 +27,21 @@ Join the UCD community calls held every 2 weeks on alternate Tuesdays and Thursd
 
 Calls are 45 minutes. We discuss things like accessibility, tools available in Defence and cross-government collaboration.
 
-To join, send an email to: [ucd@digital.mod.uk](mailto:ucd@digital.mod.uk). Include your full name, your role and the project you’re working on.
-
 {{ component('inset-text', {
-  html: 'In community calls, only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'
+  html: 'You must only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'
 }) }}
+
+### Ask for an invitation
+
+Using your Ministry of Defence email, send a message to: [ucd@digital.mod.uk](mailto:ucd@digital.mod.uk). Include your full name, your role and the project you’re working on.
 
 ## Slack channels
 
 Slack is a messaging service used by the Defence community. On a MODNET device, you can use Slack in your web browser.
+
+{{ component('inset-text', {
+  html: 'Everything you write on Slack can be included in a Freedom of Information request.'
+}) }}
 
 ### Defence Digital Service Slack
 
