@@ -9,7 +9,8 @@ eleventyNavigation:
   url: "/service-assessments/"
 ---
 
-In a service assessment, your digital service is reviewed by a panel of trained assessors. It is an approach used across government.
+For openness and to help other services, internal assessment reports are published here. 
 
-## Deliver the right thing for users 
+You can [find external assessment reports published on GOV.UK](https://www.gov.uk/service-standard-reports).
+
 

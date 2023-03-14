@@ -23,13 +23,13 @@ lead: "Check how service assessments work in Defence, if need one and what to ex
 - who needs to attend an assessment
 - what you’ll be asked at each phase
 
-## [Tell the story of your service](/service-assessments/what-to-expect) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Tell the story of your service](/service-assessments/tell-the-story-of-your-service) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - why this is important 
 - tips for presenting your service and users
 - collect things to show as they happen
 
-## [Service assessment reports](/service-assessments/what-to-expect) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Service assessment reports](/service-assessments/service-assessment-reports) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - a list of published reports
 - check examples from other services
