@@ -9,7 +9,9 @@ eleventyNavigation:
   url: "/service-assessments/"
 ---
 
-Find out what kind of service assessment you need and when they happen. You can also check how close you are to meeting the GOV.UK Service Standard.
+Find out what kind of service assessment you need and when they happen. 
+
+You can also check how close you are to meeting the GOV.UK Service Standard.
 
 ## Check if you need an assessment
 
