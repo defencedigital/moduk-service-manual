@@ -1,7 +1,7 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Service assessments"
-title: "Questions in an beta assessment"
+title: "Questions in a beta assessment"
 description: ""
 datePublished: 2023-03-14
 eleventyNavigation:
@@ -11,7 +11,7 @@ eleventyNavigation:
 
 Run through these example questions with your team. 
 
-Try to answer many of these questions as you [tell the story of your service](/service-assessments/tell-the-story-of-your-service). 
+Try to answer some of these questions as you [tell the story of your service](/service-assessments/tell-the-story-of-your-service). 
 
 ## Designer and content designer
 

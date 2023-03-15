@@ -26,16 +26,11 @@ If you are not sure how close you are to meeting the GOV.UK Service Standard, yo
 
 All digital services in the Defence Digital Foundry must have internal assessments. This applies to internal services as well as services for citizens.
 
-Any digital service in Defence can ask for an informal workshop to check how close you are to meeting the GOV.UK Service Standard.
+### Get an internal assessment
 
-Find out [more about informal workshops](). 
+These are the things you need to do and what you can expect from the assessments panel. 
 
-### Book an internal assessment
-
-To book an internal service assessment, you need to [complete the service briefing form]() and send it to [assessments@digital.mod.uk]. 
-
-The internal assessment will take place around [X] weeks after you’ve submitted the form. 
-
+[Add step by step process here]
 
 ## External assessments 
 
@@ -50,7 +45,7 @@ These rules apply even if your service is internal and will only be used by crow
 
 Find out [more about external service assessments]().
 
-### Book an external assessment
+### Get an external assessment
 
 External service assessments are organised by the Central Digital and Data Office (CDDO). Check [how to book an external service assessment]().
 
@@ -76,11 +71,7 @@ Check GOV.UK guidance on:
 - [beta](https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works) 
 - [live](https://www.gov.uk/service-manual/agile-delivery/how-the-live-phase-works)
 
-## What happens when
 
-These are the things you need to do and what you can expect from the assessments panel.
-
-[look at timeline pattern here]
 
 
 
