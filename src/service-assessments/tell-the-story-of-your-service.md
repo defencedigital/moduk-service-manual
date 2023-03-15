@@ -44,7 +44,7 @@ Consider letting a few of your team tell the story of your service. The panel wi
 
 Find more [tips on telling an engaging story on GOV.UK](https://services.blog.gov.uk/2020/10/12/service-demos-how-to-tell-the-story-of-your-service/). 
 
-## Collect things to show as they happen
+## Collect things as they happen
 
 You should not need to spend a long time preparing for your internal assessment. 
 

@@ -13,7 +13,9 @@ Find out what happens at an internal service assessment, including the kind of q
 
 ## During an assessment 
 
-Internal assessments are run by a panel of experienced specialists from the Defence digital community. The panel are not there to catch you out. They will do a peer review of the work you’ve done and help you understand anything you need to change or improve.
+Internal assessments are run by a panel of experienced specialists from the Defence digital community. 
+
+The panel are not there to catch you out. They will do a peer review of the work you’ve done and help you understand anything you need to change or improve.
 
 Panels are normally made up of 4 or 5 assessors, including a:
 
@@ -24,9 +26,9 @@ Panels are normally made up of 4 or 5 assessors, including a:
 
 There might also be one or 2 observers, but they will not ask questions.
 
-Internal assessments take place remotely on a video call. The call usually runs from 10am to 12 noon then 1pm to 3pm with regular breaks. You will get the agenda [X] weeks before your assessment. 
+Internal assessments take place remotely on a video call. 
 
-GOV.UK has guidance on what happens at external assessments. It is useful for internal assessments. [Find more guidance on GOV.UK](https://www.gov.uk/service-manual/service-assessments/how-service-assessments-work). 
+You will get the agenda [X] weeks before your assessment. The call usually runs from 10am to 12 noon then 1pm to 3pm with regular breaks.  
 
 
 ## After an assessment 
@@ -67,6 +69,14 @@ Your team will be asked different questions depending on the phase you are in.
 
 In an alpha assessment, your service designer might be asked how you know you’ve got the scope of the service right. In a live assessment, your performance analyst might be asked how you’re using data to improve your service?
 
-[Add accordion here]
+You can check example questions for:
+
+- [an alpha assessment](/service-assessments/what-to-expect/questions-in-an-alpha-assessment)
+- [a beta assessment](/service-assessments/what-to-expect/questions-in-a-beta-assessment)
+- [a live assessment](/service-assessments/what-to-expect/questions-in-a-live-assessment)
+
+## Related guidance
+
+GOV.UK has guidance on what happens at external assessments. It is useful for internal assessments. [Find more guidance on GOV.UK](https://www.gov.uk/service-manual/service-assessments/how-service-assessments-work).
 
 
