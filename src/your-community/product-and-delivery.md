@@ -28,13 +28,13 @@ Slack is a messaging service used by the Defence community. On a MODNET device, 
 
 This is the place to ask quick questions about product management and delivery in Defence.
 
-If you have a digital.mod.uk email address you can:
+If you have a digital.mod.uk or mod.gov.uk email address:
 
 - sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com/)
 - in your Slack profile, add a photo, your job title and project
 - join the `#product-delivery` channel
 
-If you have an mod.gov.uk or external email address, ask your delivery or team lead to invite you.
+If you have an external email address, ask your delivery or team lead to invite you.
 
 ### UK Government Digital Slack
 
