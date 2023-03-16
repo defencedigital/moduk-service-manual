@@ -49,7 +49,7 @@ Slack is a messaging service used by the Defence community. On a MODNET device, 
 
 This is the place to ask quick questions about software development in Defence.
 
-If you have a digital.mod.uk email address:
+If you have a digital.mod.uk or mod.gov.uk email address:
 
 1. Sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com/).
 2. In your Slack profile, add a photo, your job title and project.
