@@ -25,19 +25,18 @@ lead: "Check how service assessments work in Defence, if you need one and what t
 - what you’ll be asked at each phase
 
 
-## [Get feedback on your service](/service-assessments/get-feedback-on-your-service) {.govuk-heading-m .govuk-!-margin-bottom-1}
-
-- how informal feedback helps your team 
-- ask for an informal review of your service
-
-
 ## [Tell the story of your service](/service-assessments/tell-the-story-of-your-service) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - why this is important 
 - tips for presenting your service and users
 - collect things to show as they happen
 
-## [Service assessment reports](/service-assessments/service-assessment-reports) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Get feedback on your service](/service-assessments/get-feedback-on-your-service) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
+- ask for an informal feedback
+- learn from others across Defence
+
+<!-- ## [Service assessment reports](/service-assessments/service-assessment-reports) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - a list of published reports
-- check examples from other services
+- check examples from other services -->

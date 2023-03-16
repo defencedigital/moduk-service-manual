@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/service-assessments/"
 ---
 
-Find out what happens at an internal service assessment, including the kind of questions you’ll be asked. You can also check what happens after your assessment.
+Find out what happens at an internal service assessment, including the kind of questions your team will be asked. 
 
 ## During an assessment 
 
@@ -39,9 +39,12 @@ A met means that the service can continue to the next phase of development. A no
 
 You’ll get a report with your result and any recommendations within 5 working days of an internal assessment. 
 
-For openness and to help other services, internal assessment reports are published in the reports section of this manual. You’ll have the chance to fact check it before it’s published.
+### Assessment reports
 
-You can [find external assessment reports published on GOV.UK]().
+You might find it useful to look at reports from previous assessments. You can check:
+
+- [internal assessment reports](/service-assessments/service-assessment-reports)
+- [external assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports)
 
 
 ## Who needs to be at the assessment
@@ -67,8 +70,6 @@ In beta and live assessments you’ll need a performance analyst or someone who 
 
 Your team will be asked different questions depending on the phase you are in. 
 
-In an alpha assessment, your service designer might be asked how you know you’ve got the scope of the service right. In a live assessment, your performance analyst might be asked how you’re using data to improve your service?
-
 You can check example questions for:
 
 - [an alpha assessment](/service-assessments/what-to-expect/questions-in-an-alpha-assessment)
@@ -77,6 +78,7 @@ You can check example questions for:
 
 ## Related guidance
 
-GOV.UK has guidance on what happens at external assessments. It is useful for internal assessments. [Find more guidance on GOV.UK](https://www.gov.uk/service-manual/service-assessments/how-service-assessments-work).
+[How external service assessment work](https://www.gov.uk/service-manual/service-assessments/how-service-assessments-work)
+[Applying the GOV.UK Service Standard in Defence](https://servicemanual.digital.mod.uk/meet-the-standard/)
 
 

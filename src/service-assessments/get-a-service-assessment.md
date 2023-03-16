@@ -9,9 +9,8 @@ eleventyNavigation:
   url: "/service-assessments/"
 ---
 
-Find out what kind of service assessment you need and when they happen. 
 
-You can also check how close you are to meeting the GOV.UK Service Standard.
+Find out if you need a service assessment, what kind you need and when they happen.
 
 ## Check if you need an assessment
 
@@ -20,7 +19,7 @@ There are 2 kinds of service assessments:
 1. Internal assessments with a panel from across Defence.
 2. External assessments with a panel from across government.
 
-If you are not sure how close you are to meeting the GOV.UK Service Standard, you can [get informal feedback on your service]().
+You can also check how close you are to meeting the GOV.UK Service Standard. [Get informal feedback on your service](/service-assessments/get-feedback-on-your-service).
 
 ## Internal assessments
 

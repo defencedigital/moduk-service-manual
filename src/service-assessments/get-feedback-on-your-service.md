@@ -9,21 +9,42 @@ eleventyNavigation:
   url: "/service-assessments/"
 ---
 
-If you are not sure how close you are to meeting the GOV.UK Service Standard, you can get informal feedback on your service. 
+Any digital service in Defence can ask for a feedback session with peers and experts. 
 
-## How feedback helps
+Feedback sessions are informal, they are not part of a service assessment. 
 
-Informal feedback sessions help your team: 
+## How feedback helps 
 
-- check you’re working in the right way in Defence
-- understand how close you are to meeting the GOV.UK Service Standard
-- prioritise roles and activities to help you meet the standard
+Getting informal feedback from others helps your team: 
 
-You’ll get support and suggestions from experts in Defence in areas like user research, accessibility, design and technology. 
+- design and deliver great digital services
+- learn from others in user-centred design roles across Defence
+- work towards meeting the GOV.UK Service Standard
 
-## Book a feedback session
+You do not need to prepare anything for an informal feedback session. You just need to chat through your service and any user research findings. 
 
-Sessions last around 2 hours. We’ll let you know which team members need to attend. 
+## What you can ask for 
 
-To book a feedback session, [complete the service briefing form]() and send it to [assessments@digital.mod.uk](). 
+All sessions are run remotely over video calls. Sessions last for 90 minutes. 
+
+If you’d like to discuss how close you are to meeting the GOV.UK Service Standard, you can ask for a 2 hour session. 
+
+You can decide what you’d like help with, including areas like: 
+
+- Service design
+- Interaction design
+- Graphic design
+- Content design
+- Accessibility
+- Technology
+
+Feedback sessions do not replace the need for your team to include people from across the design disciplines.
+
+## Ask for a feedback session 
+
+To book a feedback session, [complete the service briefing form]().
+
+If you have any questions or suggestions, email [assessments@digital.mod.uk]().
+
+
     
