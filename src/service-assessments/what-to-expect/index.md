@@ -35,7 +35,9 @@ You will get the agenda [X] weeks before your assessment. The call usually runs 
 
 Your service will be assessed as met or not met.
 
-A met means that the service can continue to the next phase of development. A not met means the service needs to be reassessed against the points the service did not meet.
+A met means that the service can continue to the next phase of development. 
+
+A not met means the service needs to be reassessed against the points the service did not meet.
 
 You’ll get a report with your result and any recommendations within 5 working days of an internal assessment. 
 
@@ -78,7 +80,8 @@ You can check example questions for:
 
 ## Related guidance
 
-[How external service assessment work](https://www.gov.uk/service-manual/service-assessments/how-service-assessments-work)
 [Applying the GOV.UK Service Standard in Defence](https://servicemanual.digital.mod.uk/meet-the-standard/)
+[How external service assessment work](https://www.gov.uk/service-manual/service-assessments/how-service-assessments-work)
+
 
 
