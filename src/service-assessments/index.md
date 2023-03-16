@@ -33,7 +33,7 @@ lead: "Check how service assessments work in Defence, if you need one and what t
 
 ## [Get feedback on your service](/service-assessments/get-feedback-on-your-service) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- ask for an informal feedback
+- ask for an informal feedback session
 - learn from others across Defence
 
 <!-- ## [Service assessment reports](/service-assessments/service-assessment-reports) {.govuk-heading-m .govuk-!-margin-bottom-1}

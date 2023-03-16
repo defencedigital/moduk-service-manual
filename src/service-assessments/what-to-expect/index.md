@@ -28,7 +28,7 @@ There might also be one or 2 observers, but they will not ask questions.
 
 Internal assessments take place remotely on a video call. 
 
-You will get the agenda [X] weeks before your assessment. The call usually runs from 10am to 12 noon then 1pm to 3pm with regular breaks.  
+You will get the agenda [X] weeks before your assessment. The video call usually runs from 10am to 12 noon then 1pm to 3pm with regular breaks.  
 
 
 ## After an assessment 

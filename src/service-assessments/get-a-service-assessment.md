@@ -9,21 +9,14 @@ eleventyNavigation:
   url: "/service-assessments/"
 ---
 
-
-Find out if you need a service assessment, what kind you need and when they happen.
-
-## Check if you need an assessment
-
 There are 2 kinds of service assessments: 
 
 1. Internal assessments with a panel from across Defence.
 2. External assessments with a panel from across government.
 
-You can also check how close you are to meeting the GOV.UK Service Standard. [Get informal feedback on your service](/service-assessments/get-feedback-on-your-service).
-
 ## Internal assessments
 
-All digital services in the Defence Digital Foundry must have internal assessments. This applies to internal services as well as services for citizens.
+All digital services in Defence Digital Foundry must have internal assessments. This applies to internal services as well as services for citizens.
 
 ### Get an internal assessment
 
@@ -79,7 +72,7 @@ Your service will need:
 - a beta assessment before going into public beta
 - a live assessment to move out of public beta and into live
 
-### What you need to do in each phase
+## What you need to do in each phase
 
 Remind your team what they should be doing in each phase of delivery to meet the GOV.UK Service Standard. 
 
@@ -89,6 +82,8 @@ Check GOV.UK guidance on:
 - [alpha](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works) 
 - [beta](https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works) 
 - [live](https://www.gov.uk/service-manual/agile-delivery/how-the-live-phase-works)
+
+If you are not sure how close you are to meeting the GOV.UK Service Standard, you can [get feedback on your service](/service-assessments/get-feedback-on-your-service).
 
 
 
