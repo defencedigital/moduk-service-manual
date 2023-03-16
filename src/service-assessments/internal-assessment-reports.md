@@ -1,12 +1,12 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Service assessments"
-title: "Service assessment reports"
+title: "Internal assessment reports"
 description: ""
 datePublished: 2023-03-14
 eleventyNavigation:
   key: "Service assessments"
-  url: "/service-assessments/"
+  url: "/internal-assessment-reports/"
 ---
 
 For openness and to help other services, internal assessment reports are published here. 

@@ -36,7 +36,7 @@ lead: "Check how service assessments work in Defence, if you need one and what t
 - ask for an informal feedback session
 - learn from others across Defence
 
-<!-- ## [Service assessment reports](/service-assessments/service-assessment-reports) {.govuk-heading-m .govuk-!-margin-bottom-1}
+<!-- ## [Service assessment reports](/service-assessments/internal-assessment-reports) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - a list of published reports
 - check examples from other services -->
