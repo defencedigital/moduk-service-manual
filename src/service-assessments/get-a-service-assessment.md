@@ -29,7 +29,28 @@ All digital services in the Defence Digital Foundry must have internal assessmen
 
 These are the things you need to do and what you can expect from the assessments panel. 
 
-[Add step by step process here]
+{{ modukcomponent('steps', {
+  'items': [
+    {
+      'item': 'Request an internal service assessment by completing the <a href="">service briefing form</a>.' 
+    },
+    {
+      'item': 'Agree a date for the assessment. This is usually 4 to 6 weeks after you send the form.'
+    },
+    {
+      'item': 'A couple of weeks before the assessment, the panel shares recommendations for things like content and accessibility.'
+    },
+    {
+      'item': 'Your team attends the assessment over a video call.'
+    },
+    {
+      'item': 'Within 5 working days of your assessment, you’ll get a report with met or not met.'
+    }
+  ]
+}) }}
+
+You can check [what happens during and after an assessment](/service-assessments/what-to-expect). 
+
 
 ## External assessments 
 
@@ -38,7 +59,6 @@ Your service needs an external assessment if any of these statements apply:
 - assessments are a condition of your Cabinet Office spend approval
 - your service is transactional and is new or being rebuilt 
 - it’s a Defence service that will be used by another government department
-
 
 These rules apply even if your service is internal and will only be used by crown servants.
 
