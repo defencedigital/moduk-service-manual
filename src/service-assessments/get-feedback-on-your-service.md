@@ -18,7 +18,7 @@ Feedback sessions are informal, they are not part of a service assessment.
 Getting informal feedback from others helps your team: 
 
 - design and deliver great digital services
-- learn from others in user-centred design roles across Defence
+- learn from people in user-centred design roles across Defence
 - work towards meeting the GOV.UK Service Standard
 
 You do not need to prepare anything for an informal feedback session. You just need to chat through your service and any user research findings. 
