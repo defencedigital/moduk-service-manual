@@ -59,7 +59,9 @@ Many military terms are agreed by NATO and used internationally.
 
 If your service uses military terms, you must not change how military terms are written or described. In certain circumstances, changing a military term can be dangerous.
 
-To check military terms, [contact the Development, Concepts and Doctrine Centre](https://www.gov.uk/government/groups/development-concepts-and-doctrine-centre).
+On a MODNET device, you can [check Defence terminology](https://modgovuk.sharepoint.com/sites/IntranetHeadOffice/SitePages/Defence-Terminology.aspx). 
+
+You can also [contact the Development, Concepts and Doctrine Centre](https://www.gov.uk/government/groups/development-concepts-and-doctrine-centre).
 
 ### When to write in capitals
 
