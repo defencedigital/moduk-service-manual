@@ -44,7 +44,6 @@ Feedback sessions do not replace the need for your team to include people from a
 
 To book a feedback session, [complete the service briefing form]().
 
-If you have any questions or suggestions, email [assessments@digital.mod.uk]().
 
 
-    
+

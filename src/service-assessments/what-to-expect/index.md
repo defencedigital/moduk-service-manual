@@ -9,11 +9,11 @@ eleventyNavigation:
   url: "/service-assessments/"
 ---
 
-Find out what happens at an internal service assessment, including the kind of questions your team will be asked. 
+Find out what happens at a service assessment, including the kind of questions your team will be asked. 
 
 ## During an assessment 
 
-Internal assessments are run by a panel of experienced specialists from the Defence digital community. 
+Assessments are run by a panel of experienced specialists from the Defence digital community. 
 
 The panel are not there to catch you out. They will do a peer review of the work you’ve done and help you understand anything you need to change or improve.
 
@@ -26,7 +26,7 @@ Panels are normally made up of 4 or 5 assessors, including a:
 
 There might also be one or 2 observers, but they will not ask questions.
 
-Internal assessments take place remotely on a video call. 
+Assessments take place in person or remotely on a video call. 
 
 You will get the agenda [X] weeks before your assessment. The video call usually runs from 10am to 12 noon then 1pm to 3pm with regular breaks.  
 
@@ -39,14 +39,14 @@ A met means that the service can continue to the next phase of development.
 
 A not met means the service needs to be reassessed against the points the service did not meet.
 
-You’ll get a report with your result and any recommendations within 5 working days of an internal assessment. 
+You’ll get a report with your result and any recommendations within 5 working days of your assessment. 
 
 ### Assessment reports
 
-You might find it useful to look at reports from previous assessments. You can check:
+You can check reports from previous assessments: 
 
-- [internal assessment reports](/service-assessments/service-assessment-reports)
-- [external assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports)
+- [assessment reports on GOV.UK](/service-assessments/service-assessment-reports)
+- [assessment reports in Defence](https://www.gov.uk/service-standard-reports)
 
 
 ## Who needs to be at the assessment
@@ -81,7 +81,7 @@ You can check example questions for:
 ## Related guidance
 
 [Applying the GOV.UK Service Standard in Defence](https://servicemanual.digital.mod.uk/meet-the-standard/)
-[How external service assessment work](https://www.gov.uk/service-manual/service-assessments/how-service-assessments-work)
+[More guidance on assessments on GOV.UK](https://www.gov.uk/service-manual/service-assessments/how-service-assessments-work)
 
 
 

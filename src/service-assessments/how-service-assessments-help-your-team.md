@@ -17,14 +17,24 @@ All teams creating digital services for Defence should meet the [GOV.UK Service 
 
 Service assessments help you: 
 
-- validate the problem your service aims to solve
+- check you are solving the right problem 
 - apply the GOV.UK Service Standard in Defence
 - work in the right way for users from the start
 - consider the end-to-end journey across Defence
 
-For example, in an alpha assessment you’ll share how you validated user needs to focus on the right problem.
-
 Find out more about [applying the GOV.UK Service Standard in Defence](https://servicemanual.digital.mod.uk/meet-the-standard/).
+
+## Share experiences across Defence
+
+In an assessment, your team gets to showcase the great work you’re doing on your service. This helps shape better ways of working across Defence.
+
+People on the assessment panel have worked on digital services in Defence and  government departments. They will offer different perspectives and suggest things that have worked elsewhere.
+
+You can check reports from previous assessments: 
+
+- [assessment reports on GOV.UK](/service-assessments/service-assessment-reports)
+- [assessment reports in Defence](https://www.gov.uk/service-standard-reports)
+
 
 ## Follow established ways of working 
 
@@ -34,16 +44,6 @@ Service assessments help you check you are:
 
 - following best practices used in Defence and across government  
 - making the most of existing components and patterns
-
-For example, in a beta assessment the panel might suggest you contact a team that has  solved a similar problem. 
- 
-## Share experiences across Defence
-
-In an assessment, your team gets to showcase the great work you’re doing on your service. This helps shape better ways of working across Defence.
-
-People on the assessment panel have worked on digital services in Defence and  government departments. They will offer different perspectives and suggest things that have worked elsewhere.
-
-For example, in a live assessment the panel might suggest ways to increase adoption or support assisted digital users. 
 
 ## Become a service assessor
 
@@ -63,5 +63,5 @@ This includes anyone who has just joined Defence but has digital experience in a
 
 If you meet these criteria, send your details to [assessments@digital.mod.uk](mailto:assessments@digital.mod.uk?subject=Service%20assessor%20training). 
 
-We would like to hear from trained assessors across Defence. You can join the panel for internal service assessments.
+We would like to hear from trained assessors across Defence. You can join the panel for service assessments.
 
