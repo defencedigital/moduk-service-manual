@@ -17,7 +17,7 @@ related: "content"
 - intro bullet
 - intro bullet
 
-## [Follow principles for tooling](/technology/tooling-principles/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Follow principles for enterprise tooling](/technology/enterprise-tooling-principles/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - intro bullet
 - intro bullet 
