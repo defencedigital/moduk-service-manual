@@ -7,6 +7,12 @@ lead: "Find your way around this website."
 
 - [Home](/)
 - [Meet the standard](/meet-the-standard/)
+- [Service assessments](/service-assessments/)
+  - [How service assessments help your team](/service-assessments/how-service-assessments-help-your-team/)
+  - [Get a service assessment](/service-assessments/get-a-service-assessment/)
+  - [What to expect](/service-assessments/what-to-expect/)
+  - [Tell the story of your service](/service-assessments/tell-the-story-of-your-service/)
+  - [Get feedback on your service](/service-assessments/get-feedback-on-your-service/)
 - [Accessibility](/accessibility/)
   - [Understand Defence environments](/accessibility/understand-defence-environments/)
   - [Meet accessibility regulations](/accessibility/meet-accessibility-regulations/)
@@ -48,3 +54,4 @@ lead: "Find your way around this website."
 - [Take part in user research](/take-part-in-user-research/)
 - [Send your feedback](/send-your-feedback/)
 - [Get in touch](/get-in-touch/)
+- [Accessibility statement](/accessibility-statement/)
