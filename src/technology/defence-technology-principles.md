@@ -1,11 +1,10 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Technology"
-title: "Artificial Intelligence (AI) principles"
-description: ""
-datePublished: 2023-02-01
+title: "Defence technology principles"
+decsription: ""
+datePublished: 2023-03-03
 eleventyNavigation:
   key: "Technology"
   url: "/technology/"
 ---
-
