@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Technology"
 title: "Enterprise tooling principles"
-decsription: ""
+description: ""
 datePublished: 2023-03-03
 eleventyNavigation:
   key: "Technology"
