@@ -45,8 +45,8 @@ You’ll get a report with your result and any recommendations within 5 working 
 
 You can check reports from previous assessments: 
 
-- [assessment reports on GOV.UK](/service-assessments/service-assessment-reports)
-- [assessment reports in Defence](https://www.gov.uk/service-standard-reports)
+- [assessment reports in Defence](/service-assessments/internal-assessment-reports)
+- [assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports)
 
 
 ## Who needs to be at the assessment

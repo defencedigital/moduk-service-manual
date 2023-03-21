@@ -24,6 +24,19 @@ Service assessments help you:
 
 Find out more about [applying the GOV.UK Service Standard in Defence](https://servicemanual.digital.mod.uk/meet-the-standard/).
 
+## Deliver great services for Defence
+
+User-centred digital services can deliver faster, better decisions and improved Defence outcomes. 
+
+Service assessments help you show your service:
+
+- is secure 
+- can be integrated across Defence 
+- will be delivered at scale and pace to all in Defence
+
+All digital teams in Defence are expected to help deliver [the Digital Strategy for Defence](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/990114/20210421_-_MOD_Digital_Strategy_-_Update_-_Final.pdf). 
+
+
 ## Share experiences across Defence
 
 In an assessment, your team gets to showcase the great work you’re doing on your service. This helps shape better ways of working across Defence.
