@@ -23,11 +23,13 @@ In this community, you will meet:
 
 ## Community calls
 
-Join the UCD community calls held every second Wednesday at 11am.
+Join the content community calls held every second Wednesday at 11am.
 
 We discuss the latest content news and updates. We share insights, issues and what we’re working on. 
 
-To join, send an email to: [john.szymanski@digital.mod.uk](mailto:john.szymanski@digital.mod.uk?subject=Join%20content%20community%20calls). Include your full name, your role and the project you’re working on.
+To join, send an email to: [john.szymanski@digital.mod.uk](mailto:john.szymanski@digital.mod.uk?subject=Join%20content%20community%20calls), Head of Content Design, Defence Digital Foundry. 
+
+Include your full name, your role and the project you’re working on.
 
 {{ component('inset-text', {
   html: 'In community calls, only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'
