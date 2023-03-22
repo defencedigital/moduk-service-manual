@@ -62,7 +62,7 @@ Find out [more about external service assessments]().
 External service assessments are organised by the Central Digital and Data Office (CDDO). Check [how to book an external service assessment]().
 
 
-## When assessments happen 
+## When you need an assessment
 
 Service assessments happen towards the end of each phase of delivery, excluding discovery. For example, your service will need an assessment to move from alpha into private beta.
 
