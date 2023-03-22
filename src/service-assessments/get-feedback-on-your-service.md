@@ -43,7 +43,3 @@ Feedback sessions do not replace the need for your team to include people from a
 ## Ask for a feedback session 
 
 To book a feedback session, [complete the service briefing form]().
-
-
-
-

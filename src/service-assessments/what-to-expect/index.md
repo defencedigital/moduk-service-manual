@@ -30,7 +30,6 @@ Assessments take place in person or remotely on a video call.
 
 You will get the agenda [X] weeks before your assessment. The video call usually runs from 10am to 12 noon then 1pm to 3pm with regular breaks.  
 
-
 ## After an assessment 
 
 Your service will be assessed as met or not met.
@@ -47,7 +46,6 @@ You can check reports from previous assessments:
 
 - [assessment reports in Defence](/service-assessments/internal-assessment-reports)
 - [assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports)
-
 
 ## Who needs to be at the assessment
 
@@ -82,6 +80,3 @@ You can check example questions for:
 
 [Applying the GOV.UK Service Standard in Defence](https://servicemanual.digital.mod.uk/meet-the-standard/)
 [More guidance on assessments on GOV.UK](https://www.gov.uk/service-manual/service-assessments/how-service-assessments-work)
-
-
-

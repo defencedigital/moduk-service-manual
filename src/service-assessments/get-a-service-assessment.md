@@ -44,7 +44,6 @@ These are the things you need to do and what you can expect from the assessments
 
 You can check [what happens during and after an assessment](/service-assessments/what-to-expect). 
 
-
 ## External assessments 
 
 Your service needs an external assessment if any of these statements apply:  
@@ -61,18 +60,25 @@ Find out [more about external service assessments]().
 
 External service assessments are organised by the Central Digital and Data Office (CDDO). Check [how to book an external service assessment]().
 
-
 ## When you need an assessment
 
 Service assessments happen towards the end of each phase of delivery, excluding discovery. For example, your service will need an assessment to move from alpha into private beta.
 
-<!-- Your service will need:
+<!-- 
+
+Your service will need:
 
 - an alpha assessment before going into private beta
 - a beta assessment before going into public beta
-- a live assessment to move out of public beta and into live -->
+- a live assessment to move out of public beta and into live 
 
-ADD IMAGE HERE
+-->
+
+<picture class="moduk-image govuk-!-margin-bottom-7">
+  <source type="image/webp" srcset="{{ '/assets/images/uploads/service-assessments-630x355.webp' | url }}, {{ '/assets/images/uploads/service-assessments-1260x709.webp' | url }} 2x, {{ '/assets/images/uploads/service-assessments-2520x1418.webp' | url }} 3x">
+  <source type="image/png" srcset="{{ '/assets/images/uploads/service-assessments-630x355.png' | url }}, {{ '/assets/images/uploads/service-assessments-1260x709.png' | url }} 2x, {{ '/assets/images/uploads/service-assessments-2520x1418.png' | url }} 3x">
+  <img height="355" width="630" src="" alt="Service assessment project lifecycle showing discovery at the start, folled by alpha, beta and live" loading="lazy">
+</picture>
 
 ## What you need to do in each phase
 
@@ -86,9 +92,3 @@ Check GOV.UK guidance on:
 - [live](https://www.gov.uk/service-manual/agile-delivery/how-the-live-phase-works)
 
 If you are not sure how close you are to meeting the GOV.UK Service Standard, you can [get feedback on your service](/service-assessments/get-feedback-on-your-service).
-
-
-
-
-
-

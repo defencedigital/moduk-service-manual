@@ -81,4 +81,3 @@ Your service owner or performance analysts will be asked questions like:
 - What data are you collecting and how are you using it to improve your service?
 - What management and governance do you have? For example SIRO approval, not collecting personal data or retaining a raw backup data view.
 - Have you spoken to data.gov.uk and agreed the KPIs to publish on launch?
-

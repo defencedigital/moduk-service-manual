@@ -17,13 +17,11 @@ lead: "Check how service assessments work in Defence, if you need one and what t
 - ask for an assessment and check what happens next
 - what you need to do in each phase
 
-
 ## [What to expect](/service-assessments/what-to-expect) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - what happens during and after an assessment 
 - who needs to attend an assessment
 - what you’ll be asked at each phase
-
 
 ## [Tell the story of your service](/service-assessments/tell-the-story-of-your-service) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
@@ -36,7 +34,11 @@ lead: "Check how service assessments work in Defence, if you need one and what t
 - ask for an informal feedback session
 - learn from others across Defence
 
-<!-- ## [Service assessment reports](/service-assessments/internal-assessment-reports) {.govuk-heading-m .govuk-!-margin-bottom-1}
+<!-- 
+
+## [Service assessment reports](/service-assessments/internal-assessment-reports) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - a list of published reports
-- check examples from other services -->
+- check examples from other services 
+
+-->

@@ -55,4 +55,3 @@ You can reuse things from your show and tells. It also helps to record things yo
 - take before and after screenshots when you improve something
 
 Make sure you have consent from anyone featured in a photo or video. 
-

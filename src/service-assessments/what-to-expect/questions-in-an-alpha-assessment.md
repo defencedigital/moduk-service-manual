@@ -22,11 +22,9 @@ Your designer and content designer be asked questions like:
 - What are you doing to make sure users don’t have to provide the same information multiple times? 
 - How do you make sure that the service doesn't exclude any existing or potential users of your service?
 
-
 ## Lead developer 
 
 Your lead developer will be asked questions like:
-
 
 - What technical choices have you made and why? Including language, framework, deployment, integration and 3rd parties.
 - What other distinct options have you tried or tested?
@@ -38,7 +36,6 @@ Your lead developer will be asked questions like:
 - Have you spoken to your department’s data protection officer about the decisions you’ve made?
 - Have your technology plans changed?
 - Is there significant activity planned for modifying or upgrading the technology used?
-
 
 ## User researcher 
 
@@ -63,7 +60,6 @@ Your service owner and delivery lead will be asked questions like:
 - How are you using agile methods and how will you continue after launch?
 - How does governance work? Are there any issues you’ve had to escalate?
 - What are you doing to make sure other teams know what you’re working on?
-
 
 ## Service owner or performance analyst
 

@@ -36,7 +36,6 @@ Service assessments help you show your service:
 
 All digital teams in Defence are expected to help deliver [the Digital Strategy for Defence](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/990114/20210421_-_MOD_Digital_Strategy_-_Update_-_Final.pdf). 
 
-
 ## Share experiences across Defence
 
 In an assessment, your team gets to showcase the great work you’re doing on your service. This helps shape better ways of working across Defence.
@@ -47,7 +46,6 @@ You can check reports from previous assessments:
 
 - [assessment reports on GOV.UK](/service-assessments/service-assessment-reports)
 - [assessment reports in Defence](https://www.gov.uk/service-standard-reports)
-
 
 ## Follow established ways of working 
 
@@ -77,4 +75,3 @@ This includes anyone who has just joined Defence but has digital experience in a
 If you meet these criteria, send your details to [assessments@digital.mod.uk](mailto:assessments@digital.mod.uk?subject=Service%20assessor%20training). 
 
 We would like to hear from trained assessors across Defence. You can join the panel for service assessments.
-

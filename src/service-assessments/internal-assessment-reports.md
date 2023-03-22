@@ -12,5 +12,3 @@ eleventyNavigation:
 For openness and to help other services, internal assessment reports are published here. 
 
 You can [find external assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports).
-
-
