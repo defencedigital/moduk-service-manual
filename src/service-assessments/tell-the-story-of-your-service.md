@@ -2,14 +2,12 @@
 layout: "layouts/guidance.njk"
 section: "Service assessments"
 title: "Tell the story of your service"
-description: ""
+description: "During service assessments, you need to tell an engaging story of your service. Get some tips."
 datePublished: 2023-03-14
 eleventyNavigation:
   key: "Service assessments"
   url: "/service-assessments/"
 ---
-
-
 
 The people on the assessment panel do not know your service like you do. In an assessment, you’ll only have around 40 minutes to describe:
 

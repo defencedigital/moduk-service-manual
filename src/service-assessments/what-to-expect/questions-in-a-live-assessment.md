@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Service assessments"
 title: "Questions in a live assessment"
-description: ""
+description: "Check what questions your team might be asked in a live service assessment."
 datePublished: 2023-03-14
 eleventyNavigation:
   key: "Service assessments"

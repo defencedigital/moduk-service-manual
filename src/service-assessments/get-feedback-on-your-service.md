@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Service assessments"
 title: "Get feedback on your service"
-description: ""
+description: "Find out how your digital service in Defence can get informal feedback from peers and experts. This is different to service assessments."
 datePublished: 2023-03-14
 eleventyNavigation:
   key: "Service assessments"

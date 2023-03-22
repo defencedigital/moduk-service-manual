@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Service assessments"
 title: "Internal assessment reports"
-description: ""
+description: "Check service assessment reports for Defence services that have already been assessed."
 datePublished: 2023-03-14
 eleventyNavigation:
   key: "Service assessments"

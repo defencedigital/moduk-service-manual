@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Service assessments"
 title: "Questions in an alpha assessment"
-description: ""
+description: "Check what questions your team might be asked in an alpha service assessment."
 datePublished: 2023-03-14
 eleventyNavigation:
   key: "Service assessments"
