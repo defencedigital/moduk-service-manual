@@ -66,11 +66,13 @@ External service assessments are organised by the Central Digital and Data Offic
 
 Service assessments happen towards the end of each phase of delivery, excluding discovery. For example, your service will need an assessment to move from alpha into private beta.
 
-Your service will need:
+<!-- Your service will need:
 
 - an alpha assessment before going into private beta
 - a beta assessment before going into public beta
-- a live assessment to move out of public beta and into live
+- a live assessment to move out of public beta and into live -->
+
+ADD IMAGE HERE
 
 ## What you need to do in each phase
 
