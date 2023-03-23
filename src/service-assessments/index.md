@@ -7,7 +7,7 @@ lead: "Check how service assessments work in Defence, if you need one and what t
 
 ## [How service assessments help your team](/service-assessments/how-service-assessments-help-your-team) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- deliver the right thing for users
+- deliver the right thing for users and Defence
 - follow established ways of working 
 - share experiences across Defence
 
