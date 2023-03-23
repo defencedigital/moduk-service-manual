@@ -97,7 +97,7 @@ Your service will need:
   <img height="355" width="630" src="" alt="Service assessment project lifecycle showing discovery at the start, folled by alpha, beta and live" loading="lazy">
 </picture>
 
-## What you need to do in each phase
+### What you need to do in each phase
 
 Remind your team what they should be doing in each phase of delivery to meet the GOV.UK Service Standard. 
 
