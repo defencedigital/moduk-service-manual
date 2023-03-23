@@ -13,4 +13,4 @@ For openness and to help other services, assessment reports are published here o
 
 [add component with report]
 
-You can [find external assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports).
+You can also [find assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports).
