@@ -79,7 +79,7 @@ You’ll get a report with your result and any recommendations within 5 working 
 
 You can check reports from previous assessments: 
 
-- [assessment reports in Defence](/service-assessments/internal-assessment-reports)
+- [assessment reports in Defence](/service-assessments/assessment-reports)
 - [assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports)
 
 ## Related guidance

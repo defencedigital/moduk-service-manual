@@ -6,9 +6,11 @@ description: "Check service assessment reports for Defence services that have al
 datePublished: 2023-03-14
 eleventyNavigation:
   key: "Service assessments"
-  url: "/internal-assessment-reports/"
+  url: "/assessment-reports/"
 ---
 
-For openness and to help other services, internal assessment reports are published here. 
+For openness and to help other services, assessment reports are published here or on GOV.UK
+
+[add component with report]
 
 You can [find external assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports).
