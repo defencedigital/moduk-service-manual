@@ -19,14 +19,16 @@ In Defence, you must get your service assessed if either of these statements app
 - getting assessed is a condition of your Cabinet Office spend approval
 - it’s a transactional service that’s new or being rebuilt 
 
+Other kinds of governance, like Secure by Design and Joint Service Publications (JSPs), might still apply to your service. 
+
+If you are unsure, check with your service owner.
+
+### Transactional services 
+
 Your service is transactional if it allows users to either:
 
 - exchange information, money, permission, goods or services
 - submit personal information that results in a change to a government record
-
-Other kinds of governance, like Secure by Design and Joint Service Publications (JSPs), might still apply to your service. 
-
-If you are unsure, check with your service owner.
 
 ## When you need an assessment
 
@@ -56,3 +58,8 @@ Check [how to book an assessment with CDDO](https://www.gov.uk/service-manual/se
 If your service is likely to have fewer than 100,000 transactions a year, your assessments are organised by the Ministry of Defence. 
 
 To book an assessment, [complete the service briefing form]().
+
+## Related guidance
+
+[Applying the GOV.UK Service Standard in Defence](https://servicemanual.digital.mod.uk/meet-the-standard/)
+[More guidance on assessments on GOV.UK](https://www.gov.uk/service-manual/service-assessments)
