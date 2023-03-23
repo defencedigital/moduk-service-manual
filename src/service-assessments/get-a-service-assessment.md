@@ -61,5 +61,5 @@ To book an assessment, [complete the service briefing form]().
 
 ## Related guidance
 
-[Applying the GOV.UK Service Standard in Defence](https://servicemanual.digital.mod.uk/meet-the-standard/)
 [More guidance on assessments on GOV.UK](https://www.gov.uk/service-manual/service-assessments)
+[Applying the GOV.UK Service Standard in Defence](https://servicemanual.digital.mod.uk/meet-the-standard/)
