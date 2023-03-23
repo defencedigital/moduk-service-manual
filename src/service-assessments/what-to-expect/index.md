@@ -9,7 +9,43 @@ eleventyNavigation:
   url: "/service-assessments/"
 ---
 
-Find out what happens at a service assessment, including the kind of questions your team will be asked. 
+Find out what happens before, during and after a service assessment, including the kind of questions your team will be asked. 
+
+## Before an assessment
+
+If your assessment is organised by the Ministry of Defence, a couple of weeks before the assessment you will be invited to meet the assessment panel. 
+
+The panel might also share some recommendations with you in areas like technology, content and accessibility. 
+
+### What you should be doing at each phase
+
+Remind your team what they should be doing in your phase of delivery to meet the GOV.UK Service Standard. 
+
+Check GOV.UK guidance on:
+
+- [discovery](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works)
+- [alpha](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works) 
+- [beta](https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works) 
+- [live](https://www.gov.uk/service-manual/agile-delivery/how-the-live-phase-works)
+
+### Who needs to be at the assessment
+
+Make sure the right people from your team are available for the assessment. 
+
+Who needs to be there depends on your service and the phase you are in. You’ll get advice when you book your assessment. 
+
+Find out [more about who should attend on GOV.UK](https://www.gov.uk/service-manual/service-assessments/book-a-service-assessment#who-should-attend-the-assessment).
+
+### Questions your team will be asked 
+
+Your team will be asked different questions depending on the phase you are in.  
+
+As a team, run through example questions for:
+
+- [an alpha assessment](/service-assessments/what-to-expect/questions-in-an-alpha-assessment)
+- [a beta assessment](/service-assessments/what-to-expect/questions-in-a-beta-assessment)
+- [a live assessment](/service-assessments/what-to-expect/questions-in-a-live-assessment)
+
 
 ## During an assessment 
 
@@ -26,9 +62,8 @@ Panels are normally made up of 4 or 5 assessors, including a:
 
 There might also be one or 2 observers, but they will not ask questions.
 
-Assessments take place in person or remotely on a video call. 
+Assessments take place in person or remotely on a video call.  
 
-You will get the agenda [X] weeks before your assessment. The video call usually runs from 10am to 12 noon then 1pm to 3pm with regular breaks.  
 
 ## After an assessment 
 
@@ -46,35 +81,6 @@ You can check reports from previous assessments:
 
 - [assessment reports in Defence](/service-assessments/internal-assessment-reports)
 - [assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports)
-
-## Who needs to be at the assessment
-
-Make sure the right people from your team are available for the assessment. Who needs to be there depends on your service and the phase you are in. You’ll get advice when you book your assessment. 
-
-People who need to be at assessments include your:
-
-- service owner
-- delivery manager
-- user researcher 
-- lead developer 
-
-In alpha and beta assessments, you might also need your:
-
-- service designer 
-- interaction designer 
-- content designer
-
-In beta and live assessments you’ll need a performance analyst or someone who can present the number and type of users. 
-
-## What you’ll be asked at each phase
-
-Your team will be asked different questions depending on the phase you are in. 
-
-You can check example questions for:
-
-- [an alpha assessment](/service-assessments/what-to-expect/questions-in-an-alpha-assessment)
-- [a beta assessment](/service-assessments/what-to-expect/questions-in-a-beta-assessment)
-- [a live assessment](/service-assessments/what-to-expect/questions-in-a-live-assessment)
 
 ## Related guidance
 

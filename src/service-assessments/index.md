@@ -14,12 +14,13 @@ lead: "Check how service assessments work in Defence, if you need one and what t
 ## [Get a service assessment](/service-assessments/get-a-service-assessment) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - check if you need an assessment
-- ask for an assessment and check what happens next
-- what you need to do in each phase
+- when assessments happen
+- book an assessment 
+
 
 ## [What to expect](/service-assessments/what-to-expect) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- what happens during and after an assessment 
+- what happens before, during and after an assessment 
 - who needs to attend an assessment
 - what you’ll be asked at each phase
 

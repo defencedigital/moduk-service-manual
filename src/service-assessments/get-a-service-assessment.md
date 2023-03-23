@@ -9,103 +9,50 @@ eleventyNavigation:
   url: "/service-assessments/"
 ---
 
-[Wait for answers from CDDO]
+Some digital services in Defence are assessed against the GOV.UK Service Standard. This includes internal services as well as services for citizens.
+
 
 ## Check if you need an assessment
 
-[Add guidance here, including a generic message about other governance, JSPs and Secure by Design.]
+In Defence, you must get your service assessed if either of these statements apply:
 
-[Link to the blog to check if you need one] 
+- getting assessed is a condition of your Cabinet Office spend approval
+- it’s a transactional service that’s new or being rebuilt 
 
-## Book an assessment
+Your service is transactional if it allows users to either:
 
-[Add guidance here]
+- exchange information, money, permission, goods or services
+- submit personal information that results in a change to a government record
 
-[Link to GOV.UK guidance]
+Other kinds of governance, like Secure by Design and Joint Service Publications (JSPs), might still apply to your service. 
 
-
-<!-- There are 2 kinds of service assessments: 
-
-1. Internal assessments with a panel from across Defence.
-2. External assessments with a panel from across government.
-
-## Internal assessments
-
-All digital services in Defence Digital Foundry must have internal assessments. This applies to internal services as well as services for citizens.
-
-### Get an internal assessment
-
-These are the things you need to do and what you can expect from the assessments panel. 
-
-{{ modukcomponent('steps', {
-  'items': [
-    {
-      'item': 'Request an internal service assessment by completing the <a href="">service briefing form</a>.' 
-    },
-    {
-      'item': 'Agree a date for the assessment. This is usually 4 to 6 weeks after you send the form.'
-    },
-    {
-      'item': 'A couple of weeks before the assessment, the panel shares recommendations for things like content and accessibility.'
-    },
-    {
-      'item': 'Your team attends the assessment over a video call.'
-    },
-    {
-      'item': 'Within 5 working days of your assessment, you’ll get a report with met or not met.'
-    }
-  ]
-}) }}
-
-You can check [what happens during and after an assessment](/service-assessments/what-to-expect). 
-
-## External assessments 
-
-Your service needs an external assessment if any of these statements apply:  
-
-- assessments are a condition of your Cabinet Office spend approval
-- your service is transactional and is new or being rebuilt 
-- it’s a Defence service that will be used by another government department
-
-These rules apply even if your service is internal and will only be used by crown servants.
-
-Find out [more about external service assessments]().
-
-### Get an external assessment
-
-External service assessments are organised by the Central Digital and Data Office (CDDO). Check [how to book an external service assessment](). -->
+If you are unsure, check with your service owner.
 
 ## When you need an assessment
 
 Service assessments happen towards the end of each phase of delivery, excluding discovery. 
 
-For example, your service will need an assessment to move from alpha into private beta.
+For example, your service will need an assessment to move from alpha into beta and from beta into public beta or live. 
 
-<!-- 
 
-Your service will need:
-
-- an alpha assessment before going into private beta
-- a beta assessment before going into public beta
-- a live assessment to move out of public beta and into live 
-
--->
-
-<picture class="moduk-image govuk-!-margin-bottom-7">
+<!-- <picture class="moduk-image govuk-!-margin-bottom-7">
   <source type="image/webp" srcset="{{ '/assets/images/uploads/service-assessments-630x355.webp' | url }}, {{ '/assets/images/uploads/service-assessments-1260x709.webp' | url }} 2x, {{ '/assets/images/uploads/service-assessments-2520x1418.webp' | url }} 3x">
   <source type="image/png" srcset="{{ '/assets/images/uploads/service-assessments-630x355.png' | url }}, {{ '/assets/images/uploads/service-assessments-1260x709.png' | url }} 2x, {{ '/assets/images/uploads/service-assessments-2520x1418.png' | url }} 3x">
   <img height="355" width="630" src="" alt="Service assessment project lifecycle showing discovery at the start, folled by alpha, beta and live" loading="lazy">
-</picture>
+</picture> -->
 
-### What you need to do in each phase
+## Book an assessment
 
-Remind your team what they should be doing in each phase of delivery to meet the GOV.UK Service Standard. 
+Assessments are organised by the Central Digital and Data Office (CDDO) or the Ministry of Defence. 
 
-Check GOV.UK guidance on:
+### More than 100,000 transactions
 
-- [discovery](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works)
-- [alpha](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works) 
-- [beta](https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works) 
-- [live](https://www.gov.uk/service-manual/agile-delivery/how-the-live-phase-works)
+If your service is likely to have more than 100,000 transactions a year, your assessments are organised by the Central Digital and Data Office (CDDO). 
 
-If you are not sure how close you are to meeting the GOV.UK Service Standard, you can [get feedback on your service](/service-assessments/get-feedback-on-your-service).
+Check [how to book an assessment with CDDO](https://www.gov.uk/service-manual/service-assessments/book-a-service-assessment). 
+
+### Fewer than 100,000 transactions
+
+If your service is likely to have fewer than 100,000 transactions a year, your assessments are organised by the Ministry of Defence. 
+
+To book an assessment, [complete the service briefing form]().
