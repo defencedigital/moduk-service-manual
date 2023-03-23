@@ -9,7 +9,22 @@ eleventyNavigation:
   url: "/service-assessments/"
 ---
 
-There are 2 kinds of service assessments: 
+[Wait for answers from CDDO]
+
+## Check if you need an assessment
+
+[Add guidance here, including a generic message about other governance, JSPs and Secure by Design.]
+
+[Link to the blog to check if you need one] 
+
+## Book an assessment
+
+[Add guidance here]
+
+[Link to GOV.UK guidance]
+
+
+<!-- There are 2 kinds of service assessments: 
 
 1. Internal assessments with a panel from across Defence.
 2. External assessments with a panel from across government.
@@ -58,11 +73,13 @@ Find out [more about external service assessments]().
 
 ### Get an external assessment
 
-External service assessments are organised by the Central Digital and Data Office (CDDO). Check [how to book an external service assessment]().
+External service assessments are organised by the Central Digital and Data Office (CDDO). Check [how to book an external service assessment](). -->
 
 ## When you need an assessment
 
-Service assessments happen towards the end of each phase of delivery, excluding discovery. For example, your service will need an assessment to move from alpha into private beta.
+Service assessments happen towards the end of each phase of delivery, excluding discovery. 
+
+For example, your service will need an assessment to move from alpha into private beta.
 
 <!-- 
 
