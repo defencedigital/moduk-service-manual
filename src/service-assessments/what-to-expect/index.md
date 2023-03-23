@@ -13,7 +13,7 @@ Find out what happens before, during and after a service assessment, including t
 
 ## Before an assessment
 
-If your assessment is organised by the Ministry of Defence, a couple of weeks before the assessment you will be invited to meet the assessment panel. 
+If your assessment is organised by the Ministry of Defence, you’ll be invited to meet the assessment panel before your assessment.  
 
 The panel might also share some recommendations with you in areas like technology, content and accessibility. 
 

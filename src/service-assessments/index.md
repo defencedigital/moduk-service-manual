@@ -20,9 +20,9 @@ lead: "Check how service assessments work in Defence, if you need one and what t
 
 ## [What to expect](/service-assessments/what-to-expect) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- what happens before, during and after an assessment 
-- who needs to attend an assessment
-- what you’ll be asked at each phase
+- what happens before and during an assessment 
+- questions your team will be asked 
+- what happens after an assessment
 
 ## [Tell the story of your service](/service-assessments/tell-the-story-of-your-service) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
