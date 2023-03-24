@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Community"
 title: "User-centred design"
 description: "Anyone in a user-centred design role in Defence can join the community. Find out how to get involved."
-datePublished: 2023-02-07
+dateUpdated: 2023-03-24
 eleventyNavigation:
   key: "Your community"
   url: "/your-community/"
@@ -27,7 +27,7 @@ Join the UCD community calls held every 2 weeks on alternate Tuesdays and Thursd
 
 Calls are 45 minutes. We discuss things like accessibility, tools available in Defence and cross-government collaboration.
 
-To join, send an email to: [ucd@digital.mod.uk](mailto:ucd@digital.mod.uk).
+Using your Ministry of Defence email, send a message to: [ucd@digital.mod.uk](mailto:ucd@digital.mod.uk).
 
 {{ component('inset-text', {
   html: 'In community calls, only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'

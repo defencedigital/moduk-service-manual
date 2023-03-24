@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Community"
 title: "Software development"
 description: "Anyone in a software development role in Defence can join the community. Find out how to get involved."
-dateUpdated: 2023-02-07
+dateUpdated: 2023-03-24
 eleventyNavigation:
   key: "Your community"
   url: "/your-community/"
@@ -27,7 +27,7 @@ Join the software development community calls held every second Thursday from 11
 
 We discuss things like software development tools available in Defence, building secure software and best practices.
 
-To join, send an email to: [UKStratComDD-Foundry-DSO-Engage@mod.gov.uk](mailto:UKStratComDD-Foundry-DSO-Engage@mod.gov.uk).
+Using your Ministry of Defence email, send a message to: [UKStratComDD-Foundry-DSO-Engage@mod.gov.uk](mailto:UKStratComDD-Foundry-DSO-Engage@mod.gov.uk).
 
 {{ component('inset-text', {
   html: 'In community calls, only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'
