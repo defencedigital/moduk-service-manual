@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Community"
 title: "User-centred design"
 description: "Anyone in a user-centred design role in Defence can join the community. Find out how to get involved."
-datePublished: 2023-02-07
+dateUpdated: 2023-03-24
 eleventyNavigation:
   key: "Your community"
   url: "/your-community/"
@@ -27,7 +27,7 @@ Join the UCD community calls held every 2 weeks on alternate Tuesdays and Thursd
 
 Calls are 45 minutes. We discuss things like accessibility, tools available in Defence and cross-government collaboration.
 
-To join, send an email to: [ucd@digital.mod.uk](mailto:ucd@digital.mod.uk).
+Using your Ministry of Defence email, send a message to: [ucd@digital.mod.uk](mailto:ucd@digital.mod.uk).
 
 {{ component('inset-text', {
   html: 'In community calls, only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'
@@ -41,13 +41,13 @@ Slack is a messaging service used by the Defence community. On a MODNET device, 
 
 This is the place to ask quick questions about user-centred design in Defence.
 
-If you have a digital.mod.uk or mod.gov.uk email address:
+If you have a digital.mod.uk email address:
 
 1. Sign up at [https://defencedigital.slack.com](https://defencedigital.slack.com/)
 2. In your Slack profile, add a photo, your job title and project
 3. Join the `#ucd` channel
 
-If you have an external email address, ask your delivery or team lead to invite you.
+If you have an mod.gov.uk or external email address, ask your delivery or team lead to invite you.
 
 ### UK Government Digital Slack
 
