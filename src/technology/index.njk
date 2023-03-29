@@ -1,0 +1,288 @@
+{% extends "layouts/base.njk" %}
+
+{% block body %}
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-breadcrumbs">
+
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
+        </li>
+      </ol>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-main-wrapper">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">Technology</h1>
+        </div>
+      </div>
+
+      <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-two-thirds">
+
+          <p class="govuk-body">All teams designing, building and buying digital services for Defence should meet the GOV.UK Technology Code of Practice (TCoP).</p>
+          
+          <p class="govuk-body">This applies to internal services as well as services for citizens.</p>
+          
+          <p class="govuk-body">Following shared principles helps your team:</p>
+
+          <ul class="govuk-body">
+            <li>benefit here</li>
+            <li>benefit here</li>
+            <li>benefit here</li>
+          </ul>
+
+          <h2 class="govuk-heading-l">Apply the GOV.UK Technology Code of Practice</h2>
+
+          <p class="govuk-body">Check what makes Defence different from other government departments. You'll also find links to Defence technology principles that you need to follow.</p> 
+
+          {% set htmlAccordion1 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Link to more Defence guidance here</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/service-manual/service-standard/point-1-understand-user-needs" rel="external nofollow">More on this point on GOV.UK</a></li>
+            </ul>
+          {% endset %}
+
+          {% set htmlAccordion2 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Link to more Defence guidance here</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/guidance/make-things-accessible" rel="external nofollow">More on this point on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion3 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Link to more Defence guidance here</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/guidance/be-open-and-use-open-source" rel="external nofollow">More on this point on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion4 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Link to more Defence guidance here</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/guidance/make-use-of-open-standards" rel="external nofollow">More on this point on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion5 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Link to more Defence guidance here</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/guidance/use-cloud-first" rel="external nofollow">More on this point on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion6 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Link to more Defence guidance here</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/guidance/make-things-secure" rel="external nofollow">More on this point on GOV.UK</a></li>
+            </ul>
+          {% endset %}
+        
+          {% set htmlAccordion7 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Link to more Defence guidance here</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/guidance/make-privacy-integral" rel="external nofollow">More on this point on GOV.UK</a></li>
+            </ul>
+          {% endset %}
+
+          {% set htmlAccordion8 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Link to more Defence guidance here</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/guidance/share-and-reuse-technology" rel="external nofollow">More on this point on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion9 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Link to more Defence guidance here</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/guidance/integrate-and-adapt-technology" rel="external nofollow">More on this point on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion10 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Link to more Defence guidance here</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/guidance/make-better-use-of-data" rel="external nofollow">More on this point on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion11 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Link to more Defence guidance here</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/guidance/define-your-purchasing-strategy" rel="external nofollow">More on this point on GOV.UK</a></li>
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion12 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Link to more Defence guidance here</a></li>
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/guidance/make-your-technology-sustainable" rel="external nofollow">More on this point on GOV.UK</a></li>
+            </ul>
+          {% endset %}
+
+          {% set htmlAccordion13 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="https://servicemanual.digital.mod.uk/meet-the-standard/">Apply the GOV.UK Service Standard in Defence</a></li>
+            </ul>
+            {% endset %}
+
+
+          {{ component('accordion', {
+            classes: 'govuk-!-margin-bottom-0',
+            id: 'accordion-standards',
+            items: [
+              {
+                heading: {
+                  text: '1. Define user needs'
+                },
+                content: {
+                  html: htmlAccordion1 
+                }
+              },
+              {
+                heading: {
+                  text: '2. Make things accessible and inclusive'
+                },
+                content: {
+                  html: htmlAccordion2
+                }
+              },
+              {
+                heading: {
+                  text: '3. Be open and use open source'
+                },
+                content: {
+                  html: htmlAccordion3
+                }
+              },
+              {
+                heading: {
+                  text: '4. Make use of open standards'
+                },
+                content: {
+                  html: htmlAccordion4
+                }
+              },
+              {
+                heading: {
+                  text: '5. Use cloud first'
+                },
+                content: {
+                  html: htmlAccordion5
+                }
+              },
+              {
+                heading: {
+                  text: '6. Make things secure'
+                },
+                content: {
+                  html: htmlAccordion6
+                }
+              },
+              {
+                heading: {
+                  text: '7. Make privacy integral'
+                },
+                content: {
+                  html: htmlAccordion7
+                }
+              },
+              {
+                heading: {
+                  text: '8. Share, reuse and collaborate'
+                },
+                content: {
+                  html: htmlAccordion8
+                }
+              },
+              {
+                heading: {
+                  text: '9. Integrate and adapt technology'
+                },
+                content: {
+                  html: htmlAccordion9
+                }
+              },
+              {
+                heading: {
+                  text: '10. Make better use of data'
+                },
+                content: {
+                  html: htmlAccordion10
+                }
+              },
+              {
+                heading: {
+                  text: '11. Define your purchasing strategy'
+                },
+                content: {
+                  html: htmlAccordion11
+                }
+              },
+              {
+                heading: {
+                  text: '12. Make your technology sustainable'
+                },
+                content: {
+                  html: htmlAccordion12
+                }
+              },
+              {
+                heading: {
+                  text: '13. Meet the Service Standard'
+                },
+                content: {
+                  html: htmlAccordion13
+                }
+              }
+            ]
+          }) }}
+
+          <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Published April 2023</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}
