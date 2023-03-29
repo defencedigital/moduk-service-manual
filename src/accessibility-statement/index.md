@@ -20,10 +20,10 @@ We’ve also made the website text as simple as possible to understand.
 
 ## How accessible this website is
 
-We know some parts of this website are not fully accessible:
+Some parts of this website are not fully accessible. 
 
-- older PDF documents are not fully accessible to screen reader software
-- [add anything else from the audit]
+We link to older PDF documents that are not fully accessible to screen reader software.
+
 
 ## Reporting accessibility problems with this website
 
@@ -46,9 +46,7 @@ This website is fully compliant with the [Web Content Accessibility Guidelines v
 
 ## Preparation of this accessibility statement
 
-This statement was prepared on [date when it was first published]. It was last reviewed on [date when it was last reviewed].
-
-This website was last tested on [date]. The test was carried out by the Defence Service Manual team.
+This statement was prepared on 29 March 2023. 
 
 
 
