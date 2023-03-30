@@ -11,7 +11,7 @@ eleventyNavigation:
 
 Any digital service in Defence can ask for a feedback session with peers and experts. 
 
-Feedback sessions are informal. They are not part of a service assessment and do not guarantee that you will meet the GOV.UK Service Standard. 
+Feedback sessions are informal. You can ask for a feedback session at any time, even if your service is not being assessed. 
 
 ## How feedback helps 
 
