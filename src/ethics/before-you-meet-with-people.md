@@ -51,6 +51,6 @@ Ask someone to take notes so that you can focus on running the session. This is 
 
 Review what you plan to cover in sessions and assess any risks to triggering past trauma.
 
-For in-person sessions away from a user's day to day environment, choose a venue that is quiet and easy to access. If sensitive topics are likely to come up, you will need a private area. 
+For in-person sessions away from a user’s day to day environment, choose a venue that is quiet and easy to access. If sensitive topics are likely to come up, you will need a private area. 
 
 Keep sessions short. If you need a longer session, plan for comfort breaks.
