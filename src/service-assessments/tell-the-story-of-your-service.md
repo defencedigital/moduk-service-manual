@@ -46,7 +46,7 @@ Find more [tips on telling an engaging story on GOV.UK](https://services.blog.go
 
 You should not need to spend a long time preparing for your internal assessment. 
 
-Do just enough to make sure you can give an open and honest account of the work you’ve done and what you’ve built.
+Do enough to make sure you can tell an open and honest story of the work you’ve done and what you’ve built.
 
 You can reuse things from your show and tells. It also helps to record things you are doing as they happen, for example:
 

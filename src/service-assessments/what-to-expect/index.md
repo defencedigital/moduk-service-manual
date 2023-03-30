@@ -17,6 +17,15 @@ If your assessment is organised by the Ministry of Defence, you’ll be invited 
 
 The panel might also share some recommendations with you in areas like technology, content and accessibility. 
 
+### Ask for specific feedback
+
+The panel is there to help your team in all areas of research, design and delivery. 
+
+Identify the things you need the most help with and tell the organiser or panel members before your assessment. 
+
+For example, you might want to know if there are existing patterns you can reuse or how other services manage SECRET information.
+
+
 ### What you should be doing at each phase
 
 Remind your team what they should be doing in your phase of delivery to meet the GOV.UK Service Standard. 
@@ -77,10 +86,8 @@ You’ll get a report with your result and any recommendations within 5 working 
 
 ### Assessment reports
 
-You can check reports from previous assessments: 
+You might find it useful to see what is covered in published assessment reports. You can [check assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports).
 
-- [assessment reports in Defence](/service-assessments/assessment-reports)
-- [assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports)
 
 ## Related guidance
 

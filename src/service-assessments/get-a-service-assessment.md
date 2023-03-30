@@ -32,9 +32,7 @@ Your service is transactional if it allows users to either:
 
 ## When you need an assessment
 
-Service assessments happen towards the end of each phase of delivery, excluding discovery. 
-
-For example, your service will need an assessment to move from alpha into beta and from beta into public beta or live. 
+Service assessments happen towards the end of each phase of delivery. For example, your service will need an assessment to move from alpha into beta and from beta into public beta or live. 
 
 
 <!-- <picture class="moduk-image govuk-!-margin-bottom-7">
@@ -57,7 +55,11 @@ Check [how to book an assessment with CDDO](https://www.gov.uk/service-manual/se
 
 If your service is likely to have fewer than 100,000 transactions a year, your assessments are organised by the Ministry of Defence. 
 
-To book an assessment, [complete the service briefing form]().
+To book an assessment, email [assessments@digital.mod.uk](mailto:assessments@digital.mod.uk?subject=Book%20a%20service%20assessment). 
+
+You can also ask for an informal review of your service. Getting advice from peers can help you identify areas of risk early and prepare for an assessment. 
+
+Find out [how to get feedback on your service](/service-assessments/get-feedback-on-your-service).
 
 ## Related guidance
 

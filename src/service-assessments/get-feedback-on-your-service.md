@@ -23,13 +23,13 @@ Getting informal feedback from others helps your team:
 
 You do not need to prepare anything for an informal feedback session. You just need to chat through your service and any user research findings. 
 
-## What you can ask for 
+## Ask for specific feedback
 
-All sessions are run remotely over video calls. Sessions last for 90 minutes. 
+When you book a feedback session, be clear about what you would like help with. 
 
-If you’d like to discuss how close you are to meeting the GOV.UK Service Standard, you can ask for a 2 hour session. 
+For example, you might want to know if there are existing patterns you can reuse or how other services manage SECRET information.
 
-You can decide what you’d like help with, including areas like: 
+Consider what you’d like to know in areas like:  
 
 - Service design
 - Interaction design
@@ -38,8 +38,10 @@ You can decide what you’d like help with, including areas like:
 - Accessibility
 - Technology
 
-Feedback sessions do not replace the need for your team to include people from across the design disciplines.
+Feedback sessions do not replace the need for a multidisciplinary team. You can [find out more about multidisciplinary teams](https://www.gov.uk/service-manual/service-standard/point-6-have-a-multidisciplinary-team).
 
-## Ask for a feedback session 
+## Book a feedback session 
 
-To book a feedback session, [complete the service briefing form]().
+All sessions are run remotely over video calls. Sessions last for 90 minutes. 
+
+To book a feedback session, email [assessments@digital.mod.uk](mailto:assessments@digital.mod.uk?subject=Book%20a%20feedback%20session)
