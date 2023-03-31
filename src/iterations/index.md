@@ -7,6 +7,7 @@ lead: "Check how the Defence Service Manual has changed. This includes new conte
 ## March 2023 {.govuk-heading-m}
 
 {% set htmlOutput %}
+  - added attachment component
   - added service assessments content
   - added accessibility statement
   - launched a new pattern for case studies

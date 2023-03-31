@@ -4,6 +4,7 @@ Check how the Defence Service Manual has changed. This includes new content and 
 
 ## March 2023
 
+- added attachment component
 - added service assessments content
 - added accessibility statement
 - launched a new pattern for case studies
