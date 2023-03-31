@@ -11,8 +11,7 @@ $thumbnail-height: 140px;
 $thumbnail-border-width: 5px;
 $thumbnail-background: govuk-colour("white");
 $thumbnail-border-colour: rgba(11, 12, 12, .1);
-$thumbnail-shadow-colour: rgba(11, 12, 12, .4);
-$thumbnail-shadow-width: 0 2px 2px;
+$thumbnail-shadow: 0px 3.5px 6px rgba(0, 0, 0, 0.1), 0px 0.9px 1.5px rgba(0, 0, 0, 0.05), 0px 0.3px 0.4px rgba(0, 0, 0, 0.024);
 $thumbnail-icon-border-colour: govuk-colour("mid-grey", $legacy: "grey-3");
 
 
@@ -27,7 +26,7 @@ $thumbnail-icon-border-colour: govuk-colour("mid-grey", $legacy: "grey-3");
   position: relative;
   width: auto;
   margin-right: govuk-spacing(5);
-  margin-bottom: govuk-spacing(3);
+  // margin-bottom: govuk-spacing(3);
   padding: $thumbnail-border-width;
   float: left;
 }
@@ -41,7 +40,7 @@ $thumbnail-icon-border-colour: govuk-colour("mid-grey", $legacy: "grey-3");
   border: $thumbnail-border-colour; // for IE9 & IE10
   outline: $thumbnail-border-width solid $thumbnail-border-colour;
   background: $thumbnail-background;
-  box-shadow: $thumbnail-shadow-width $thumbnail-shadow-colour;
+  box-shadow: $thumbnail-shadow;
   fill: $thumbnail-icon-border-colour;
   stroke: $thumbnail-icon-border-colour;
 }
@@ -59,7 +58,7 @@ $thumbnail-icon-border-colour: govuk-colour("mid-grey", $legacy: "grey-3");
 
 
 .moduk-attachment__title {
-  @include govuk-font($size: 27);
+  @include govuk-font($size: 27, $weight: bold);
   margin: 0 0 govuk-spacing(3);
 }
 

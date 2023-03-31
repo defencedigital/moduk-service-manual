@@ -11,7 +11,6 @@ eleventyNavigation:
 
 Some digital services in Defence are assessed against the GOV.UK Service Standard. This includes internal services as well as services for citizens.
 
-
 ## Check if you need an assessment
 
 In Defence, you must get your service assessed if either of these statements apply:
@@ -33,7 +32,6 @@ Your service is transactional if it allows users to either:
 ## When you need an assessment
 
 Service assessments happen towards the end of each phase of delivery. For example, your service will need an assessment to move from alpha into beta and from beta into public beta or live. 
-
 
 <!-- <picture class="moduk-image govuk-!-margin-bottom-7">
   <source type="image/webp" srcset="{{ '/assets/images/uploads/service-assessments-630x355.webp' | url }}, {{ '/assets/images/uploads/service-assessments-1260x709.webp' | url }} 2x, {{ '/assets/images/uploads/service-assessments-2520x1418.webp' | url }} 3x">

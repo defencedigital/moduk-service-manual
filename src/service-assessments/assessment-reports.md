@@ -6,11 +6,21 @@ description: "Check service assessment reports for Defence services that have al
 datePublished: 2023-03-14
 eleventyNavigation:
   key: "Service assessments"
-  url: "/assessment-reports/"
+  url: "/service-assessments/"
 ---
 
 For openness and to help other services, assessment reports are published here or on GOV.UK
 
-[add component with report]
+{{ modukcomponent('attachment', {
+  classes: 'govuk-!-padding-top-2 govuk-!-padding-bottom-6',
+  title: 'Apply for a medal alpha report',
+  file: {
+    type: 'pdf',
+    size: '19.5 KB',
+    pages: '7 pages'
+  },
+  result: 'met',
+  assistive: true
+}) }}
 
 You can also [find assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports).
