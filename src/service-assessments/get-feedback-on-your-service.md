@@ -1,36 +1,47 @@
 ---
 layout: "layouts/guidance.njk"
-section: "Accessibility"
-title: "Understand Defence environments"
-description: "Consider the permanent, temporary and situational accessibility needs across Defence, including in the battlespace."
-datePublished: 2022-11-07
+section: "Service assessments"
+title: "Get feedback on your service"
+description: "Find out how your digital service in Defence can get informal feedback from peers and experts. This is different to service assessments."
+datePublished: 2023-03-14
 eleventyNavigation:
-  key: "Accessibility"
-  url: "/accessibility/"
+  key: "Service assessments"
+  url: "/service-assessments/"
 ---
 
-## Accessibility across Defence
+Any digital service in Defence can ask for a feedback session with peers and experts. 
 
-In Defence environments, accessibility needs can be permanent, temporary or situational. 
+Feedback sessions are informal. You can ask for a feedback session at any time, even if your service is not being assessed. 
 
-Consider people working in the deployed space, for example military units working away from their permanent base. 
+## How feedback helps 
 
-There are also many people in the operational space, supporting military operations and exercises.
+Getting informal feedback from others helps your team: 
 
-People working in Defence can have issues including:
+- design and deliver great digital services
+- learn from people in user-centred design roles across Defence
+- work towards meeting the GOV.UK Service Standard
 
-- devices with limited battery power
-- low to no 3G and 4G, for example on ships
-- not being able to use 2-factor authentication
-- wearing restrictive kit, such as thick gloves
+You do not need to prepare anything for an informal feedback session. You just need to chat through your service and any user research findings. 
 
-## Consider the battlespace
+## Ask for specific feedback
 
-You might need to consider accessibility issues in battle environments, including:
+When you book a feedback session, be clear about what you would like help with. 
 
-- low light, red light or no light
-- very noisy environments or the need for silence
-- difficult outdoor conditions, such as wet screens
-- high-stress and high-risk scenarios
-- temperatures below freezing or extreme heat and sunlight
-- extreme fatigue
+For example, you might want to know if there are existing patterns you can reuse or how other services manage SECRET information.
+
+Consider what you’d like to know in areas like:  
+
+- Service design
+- Interaction design
+- Graphic design
+- Content design
+- Accessibility
+- Technology
+
+Feedback sessions do not replace the need for a multidisciplinary team. You can [find out more about multidisciplinary teams](https://www.gov.uk/service-manual/service-standard/point-6-have-a-multidisciplinary-team).
+
+## Book a feedback session 
+
+All sessions are run remotely over video calls. Sessions last no longer than 2 hours.
+
+To book a feedback session, email [assessments@digital.mod.uk](mailto:assessments@digital.mod.uk?subject=Book%20a%20feedback%20session)
