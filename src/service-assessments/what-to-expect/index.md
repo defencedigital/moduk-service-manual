@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Service assessments"
 title: "What to expect"
-description: "Check how service assessments work in Defence, if your digital service in Defence needs an assessment and what to expect."
+description: "Check what happens before, during and after a service assessment. Remind your team of what they need to do and questions they might be asked."
 datePublished: 2023-03-14
 eleventyNavigation:
   key: "Service assessments"

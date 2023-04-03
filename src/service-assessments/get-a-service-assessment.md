@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Service assessments"
 title: "Get a service assessment"
-description: "Check how service assessments work in Defence, if your digital service in Defence needs an assessment and what to expect."
+description: "Check if your digital service in Defence needs a service assessment and how to book one."
 datePublished: 2023-03-14
 eleventyNavigation:
   key: "Service assessments"
