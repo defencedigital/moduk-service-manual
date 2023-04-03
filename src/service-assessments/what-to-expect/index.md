@@ -73,7 +73,7 @@ Panels are normally made up of 4 or 5 assessors, including a:
 
 Assessments take place in person or remotely on a video call.  
 
-### Observers at assessments
+### Who can observe an assessment 
 
 Any team members who are not presenting to the panel, should join your assessment as observers. People training to be service assessors might also observe your assessment.
 
