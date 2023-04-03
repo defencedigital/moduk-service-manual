@@ -92,7 +92,7 @@ You’ll get a report with your result and any recommendations within 5 working 
 
 ### Assessment reports
 
-You might find it useful to see what is covered in published assessment reports. You can [check assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports).
+It is useful to see what is covered in published assessment reports. You can [check assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports).
 
 
 ## Related guidance
