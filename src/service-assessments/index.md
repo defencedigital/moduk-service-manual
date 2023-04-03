@@ -1,7 +1,7 @@
 ---
 layout: "layouts/two-column.njk"
 title: "Service assessments"
-description: "Find out how assessments and reviews help your service, how to book one in Defence and what to expect."
+description: "Find out how assessments and feedback sessions help your service, how to book one and what to expect."
 lead: "Check how service assessments work in Defence, if you need one and what to expect."
 ---
 
