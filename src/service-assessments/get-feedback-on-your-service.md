@@ -42,6 +42,6 @@ Feedback sessions do not replace the need for a multidisciplinary team. You can 
 
 ## Book a feedback session 
 
-All sessions are run remotely over video calls. Sessions last for 90 minutes. 
+All sessions are run remotely over video calls. Sessions last no longer than 2 hours.
 
 To book a feedback session, email [assessments@digital.mod.uk](mailto:assessments@digital.mod.uk?subject=Book%20a%20feedback%20session)

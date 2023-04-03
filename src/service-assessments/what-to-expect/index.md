@@ -30,7 +30,9 @@ For example, you might want to know if there are existing patterns you can reuse
 
 Remind your team what they should be doing in your phase of delivery to meet the GOV.UK Service Standard. 
 
-Check GOV.UK guidance on:
+Check how to [apply the GOV.UK Service Standard in Defence](/meet-the-standard/). 
+
+You can also check GOV.UK guidance on what to do during:
 
 - [discovery](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works)
 - [alpha](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works) 
@@ -69,9 +71,13 @@ Panels are normally made up of 4 or 5 assessors, including a:
 - designer
 - technical lead
 
-There might also be one or 2 observers, but they will not ask questions.
-
 Assessments take place in person or remotely on a video call.  
+
+### Observers at assessments
+
+Any team members who are not presenting to the panel, should join your assessment as observers. People training to be service assessors might also observe your assessment.
+
+During an assessment, observers do not ask questions or give feedback.
 
 
 ## After an assessment 

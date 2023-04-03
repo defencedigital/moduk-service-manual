@@ -44,7 +44,7 @@ Find more [tips on telling an engaging story on GOV.UK](https://services.blog.go
 
 ## Collect things as they happen
 
-You should not need to spend a long time preparing for your internal assessment. 
+You should not need to spend a long time preparing for your assessment. 
 
 Do enough to make sure you can tell an open and honest story of the work you’ve done and what you’ve built.
 
