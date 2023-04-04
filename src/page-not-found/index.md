@@ -1,5 +1,5 @@
 ---
-layout: "layouts/landing.njk"
+layout: "layouts/base.njk"
 title: "Page not found"
 ---
 

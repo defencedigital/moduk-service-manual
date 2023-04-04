@@ -7,8 +7,8 @@
     "npm": "~8.15.0"
   },
   "scripts": {
-    "build": "gulp build & npx eleventy",
-    "dev": "gulp build & npx eleventy --serve",
+    "build": "gulp build && npx eleventy",
+    "dev": "gulp build && npx eleventy --serve",
     "prototype": "gulp clean && cross-env ELEVENTY_ENV=prototype npx eleventy && cross-env ELEVENTY_ENV=prototype gulp prod",
     "prod": "gulp clean && cross-env ELEVENTY_ENV=production npx eleventy && cross-env ELEVENTY_ENV=production gulp prod",
     "test": "npx @11ty/eleventy & gulp validator"
@@ -17,9 +17,6 @@
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^1.0.2",
-    "@11ty/eleventy-navigation": "^0.3.5",
-    "@hmcts/cookie-manager": "^1.0.0",
-    "@thedigitalman/eleventy-plugin-toc-a11y": "^2.1.0",
     "autoprefixer": "^10.4.8",
     "cross-env": "^7.0.3",
     "dotenv": "^16.0.1",

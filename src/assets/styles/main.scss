@@ -9,13 +9,3 @@ $govuk-fonts-path: "../fonts/";
 
 // MOD Styles and extension overrides
 @import "moduk/all";
-
-
-// MOD Components
-@import "components/do-dont-list/do-dont-list";
-@import "components/steps/steps";
-@import "components/contents-list/contents-list";
-@import "components/cards/cards";
-@import "components/feedback/feedback";
-@import "components/related-content/related-content";
-@import "components/callout/callout";
