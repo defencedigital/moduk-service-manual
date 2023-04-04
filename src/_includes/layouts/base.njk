@@ -49,22 +49,26 @@
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
 
     {# Google Analytics and MS Clarity #}
-    {% if (meta.env == 'production') or (meta.env == 'prototype') and (cookiesBanner !== 'false') %}
-    
-      {% set googleID = ('G-JL5D2EMYS9' if meta.env === 'production' else 'G-YKV7VC7VZN') %}
-      {% set clarityID = ('ez5qkzup8j' if meta.env === 'production' else 'ejv7sdqsc4') %}
+    {% if cookiesBanner !== 'false' %}
 
-      <script>
-        sessionStorage.setItem('clarityID','{{ clarityID }}');
-        sessionStorage.setItem('googleID','{{ googleID }}');
-        const cID=sessionStorage.getItem('clarityID');
-        const gID=sessionStorage.getItem('googleID');
-      </script>
+      {% if (meta.env == 'production') or (meta.env == 'prototype') %}
+      
+        {% set googleID = ('G-JL5D2EMYS9' if meta.env === 'production' else 'G-YKV7VC7VZN') %}
+        {% set clarityID = ('ez5qkzup8j' if meta.env === 'production' else 'ejv7sdqsc4') %}
 
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ googleID }}"></script>
+        <script>
+          sessionStorage.setItem('clarityID','{{ clarityID }}');
+          sessionStorage.setItem('googleID','{{ googleID }}');
+          const cID=sessionStorage.getItem('clarityID');
+          const gID=sessionStorage.getItem('googleID');
+        </script>
 
-      <script src="{{ '/assets/scripts/cookie-manager-1.0.0.min.js' | url }}"></script>
-      <script src="{{ '/assets/scripts/cookies.js' | url }}"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ googleID }}"></script>
+
+        <script src="{{ '/assets/scripts/cookie-manager-1.0.0.min.js' | url }}"></script>
+        <script src="{{ '/assets/scripts/cookies.js' | url }}"></script>
+
+      {% endif %}
 
     {% endif %}
 
@@ -76,96 +80,98 @@
 
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
-  
+    {% if cookiesBanner !== 'false' %}
 
-    {% if (meta.env == 'production') or (meta.env == 'prototype') and (cookiesBanner !== 'false') %}
-    <form method="POST">
+      {% if (meta.env == 'production') or (meta.env == 'prototype') %}
+      <form method="POST">
 
-      {% set html %}
-        <p class="govuk-body">We’d like to use analytics cookies so we can understand how you use the service and make improvements.</p>
-      {% endset %}
-    
-      {% set acceptHtml %}
-        <p class="govuk-body">You’ve accepted analytics cookies. You can <a class="govuk-link govuk-link--no-visited-state" href="{{ '/cookies/' | url }}">change your cookie settings</a> at any time.</p>
-      {% endset %}
+        {% set html %}
+          <p class="govuk-body">We’d like to use analytics cookies so we can understand how you use the service and make improvements.</p>
+        {% endset %}
+      
+        {% set acceptHtml %}
+          <p class="govuk-body">You’ve accepted analytics cookies. You can <a class="govuk-link govuk-link--no-visited-state" href="{{ '/cookies/' | url }}">change your cookie settings</a> at any time.</p>
+        {% endset %}
 
-      {% set rejectedHtml %}
-        <p class="govuk-body">You’ve rejected analytics cookies. You can <a class="govuk-link govuk-link--no-visited-state" href="{{ '/cookies/' | url }}">change your cookie settings</a> at any time.</p>
-      {% endset %}
+        {% set rejectedHtml %}
+          <p class="govuk-body">You’ve rejected analytics cookies. You can <a class="govuk-link govuk-link--no-visited-state" href="{{ '/cookies/' | url }}">change your cookie settings</a> at any time.</p>
+        {% endset %}
 
-      {{ component('cookie-banner', {
-        hidden: true,
-        classes: 'js-cookie-banner',
-        ariaLabel: 'Cookies on the Defence Service Manual',
-        messages: [
-          {
-            classes: 'js-cookie-banner-messsage',
-            headingText: 'Cookies on the Defence Service Manual',
-            html: html,
-            actions: [
-              {
-                classes: 'js-cookie-banner-accept',
-                text: 'Accept analytics cookies',
-                type: 'submit',
-                name: 'cookies',
-                value: 'accept'
-              },
-              {
-                classes: 'js-cookie-banner-reject',
-                text: 'Reject analytics cookies',
-                type: 'submit',
-                name: 'cookies',
-                value: 'reject'
-              },
-              {
-                classes: 'govuk-link--no-visited-state',
-                text: 'View cookies',
-                href: '/cookies/' | url
+        {{ component('cookie-banner', {
+          hidden: true,
+          classes: 'js-cookie-banner',
+          ariaLabel: 'Cookies on the Defence Service Manual',
+          messages: [
+            {
+              classes: 'js-cookie-banner-messsage',
+              headingText: 'Cookies on the Defence Service Manual',
+              html: html,
+              actions: [
+                {
+                  classes: 'js-cookie-banner-accept',
+                  text: 'Accept analytics cookies',
+                  type: 'submit',
+                  name: 'cookies',
+                  value: 'accept'
+                },
+                {
+                  classes: 'js-cookie-banner-reject',
+                  text: 'Reject analytics cookies',
+                  type: 'submit',
+                  name: 'cookies',
+                  value: 'reject'
+                },
+                {
+                  classes: 'govuk-link--no-visited-state',
+                  text: 'View cookies',
+                  href: '/cookies/' | url
+                }
+              ]
+            },
+            {
+              classes: 'js-cookie-banner-confirmation-accept',
+              html: acceptHtml,
+              actions: [
+                {
+                  classes: 'js-cookie-banner-hide',
+                  text: 'Hide cookie message',
+                  href: '#0',
+                  type: 'button'
+                }
+              ],
+              hidden: true,
+              attributes: {
+                role: 'alert'
               }
-            ]
-          },
-          {
-            classes: 'js-cookie-banner-confirmation-accept',
-            html: acceptHtml,
-            actions: [
-              {
-                classes: 'js-cookie-banner-hide',
-                text: 'Hide cookie message',
-                href: '#0',
-                type: 'button'
+            },
+            {
+              classes: 'js-cookie-banner-confirmation-reject',
+              html: rejectedHtml,
+              actions: [
+                {
+                  classes: 'js-cookie-banner-hide',
+                  text: 'Hide cookie message',
+                  href: '#0',
+                  type: 'button'
+                }
+              ],
+              hidden: true,
+              attributes: {
+                role: 'alert'
               }
-            ],
-            hidden: true,
-            attributes: {
-              role: 'alert'
             }
-          },
-          {
-            classes: 'js-cookie-banner-confirmation-reject',
-            html: rejectedHtml,
-            actions: [
-              {
-                classes: 'js-cookie-banner-hide',
-                text: 'Hide cookie message',
-                href: '#0',
-                type: 'button'
-              }
-            ],
-            hidden: true,
-            attributes: {
-              role: 'alert'
-            }
-          }
-        ]
-      }) }}
+          ]
+        }) }}
 
-    </form>
+      </form>
+      {% endif %}
+
     {% endif %}
 
     {% include "header.njk" ignore missing %}
 
     {% if phaseBanner !== 'false' %}
-    {% include "phase-banner.njk" ignore missing %}
+      {% include "phase-banner.njk" ignore missing %}
     {% endif %}
 
     <main class="content" id="content">
