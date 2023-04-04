@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/*"
   to = "/service-unavailable/"
-  status = 503
+  status = 302
   force = true
