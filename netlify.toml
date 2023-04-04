@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/*"
-  to = "/service-unavailable/"
-  status = "301"
+  to = "/page-not-found/"
+  status = 404
