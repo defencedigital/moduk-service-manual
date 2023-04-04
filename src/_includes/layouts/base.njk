@@ -161,7 +161,10 @@
     {% endif %}
 
     {% include "header.njk" ignore missing %}
+
+    {% if phaseBanner !== 'false' %}
     {% include "phase-banner.njk" ignore missing %}
+    {% endif %}
 
     <main class="content" id="content">
       {% block body %}{% endblock %}

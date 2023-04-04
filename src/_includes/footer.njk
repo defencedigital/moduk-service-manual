@@ -1,4 +1,5 @@
-{% if (meta.env == 'production') or (meta.env == 'prototype') %}
+{% if (footerLinks != 'false') %}
+
 {{ component('footer', {
   classes: 'govuk-footer--has-feedback',
   meta: {
@@ -22,20 +23,9 @@
     ]
   }
 }) }}
+
 {% else %}
-{{ component('footer', {
-  classes: 'govuk-footer--has-feedback',
-  meta: {
-    items: [
-      {
-        href: '/get-in-touch/' | url,
-        text: 'Get in touch'
-      },
-      {
-        href: '/site-map/' | url,
-        text: 'Site map'
-      }
-    ]
-  }
-}) }}
+
+{{ component('footer') }}
+
 {% endif %}

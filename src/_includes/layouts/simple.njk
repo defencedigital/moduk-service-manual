@@ -1,0 +1,29 @@
+{% extends "layouts/base.njk" %}
+
+{% set feedbackForm = 'false' %}
+{% set footerLinks  = 'false' %}
+{% set phaseBanner  = 'false' %}
+
+{% block body %}
+
+<div class="govuk-width-container">
+
+  <div class="govuk-main-wrapper">
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-two-thirds">
+        
+        <div class="moduk-prose">
+          {{ content | safe }}
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock %}
