@@ -1,5 +1,3 @@
-{% if (footerLinks != 'false') %}
-
 {{ component('footer', {
   classes: 'govuk-footer--has-feedback',
   meta: {
@@ -23,9 +21,3 @@
     ]
   }
 }) }}
-
-{% else %}
-
-{{ component('footer') }}
-
-{% endif %}
