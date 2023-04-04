@@ -76,7 +76,7 @@
 
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
-    {% if (meta.env == 'production') or (meta.env == 'prototype') %}
+    {% if (meta.env == 'production') or (meta.env == 'prototype') or (cookiesBanner !== 'false') %}
     <form method="POST">
 
       {% set html %}
