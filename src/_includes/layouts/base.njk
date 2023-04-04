@@ -186,10 +186,11 @@
 
     {% include "footer.njk" ignore missing %}
 
+    {% if scripts != 'false' %}
     <script src="{{ '/assets/scripts/govuk.js' | url }}"></script>
     <script>window.GOVUKFrontend.initAll()</script>
-
     <script src="{{ '/assets/scripts/scripts.js' | url }}"></script>
+    {% endif %}
 
     {% block pageScripts %}{% endblock %}
 
