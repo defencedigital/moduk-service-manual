@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Content"
 title: "Work with content designers"
 decsription: "If your service has words, images or videos, you should have a content designer on your team. Find out more."
-datePublished: 2023-03-03
+dateUpdated: 2023-04-11
 eleventyNavigation:
   key: "Content"
   url: "/content/"

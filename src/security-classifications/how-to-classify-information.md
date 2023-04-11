@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Security classifications"
 title: "How to classify information"
 description: "Understand OFFICIAL, SECRET and TOP SECRET classifications and how to classify large amounts of data in Defence."
-datePublished: 2022-11-07
+dateUpdated: 2023-04-11
 eleventyNavigation:
   key: "Security classifications"
   url: "/security-classifications/"
@@ -24,7 +24,7 @@ In Defence, like all other UK Government departments, we use 3 levels of securit
 You need to be aware of the security classification of all information you deal with. This includes when you:
 
 - speak in meetings
-- add comments to online tools, like Conceptboard
+- add comments to online tools
 - write and share messages 
 
 When you send emails on a MOD device, you will be asked to select the security classification.

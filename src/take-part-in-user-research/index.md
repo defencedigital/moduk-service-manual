@@ -16,17 +16,12 @@ We anonymise all feedback. You can stop taking part at any time.
 
 ## Send us your details
 
-To sign up to user research, send us your:
+To sign up to user research, email [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk?subject=Sign%20up%20to%20user%20research).
+
+You need to include your:
 
 - full name, including rank if relevant
 - job title and organisation
 
 You can include a short description of what you are working on.
 
-### Email
-
-Send your details to [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk?subject=Sign%20up%20to%20user%20research).
-
-### Slack
-
-If you are on MODNET or have a digital MOD email address, you can [share your details on Defence Digital Slack](https://defencedigital.slack.com/archives/C03L6486PBN/).
