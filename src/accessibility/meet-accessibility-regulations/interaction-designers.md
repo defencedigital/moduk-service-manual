@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Interaction designers"
 description: "How interaction designers help create accessible services in Defence. Use existing patterns, things to add and things to avoid."
-datePublished: 2022-11-07
+dateUpdated: 2023-04-11
 eleventyNavigation:
   parent: "Accessibility"
   parent.url: "/accessibility/"
@@ -25,7 +25,7 @@ If you need to adapt an existing pattern, make sure you:
 
 - have evidence to show why it is needed, for example research findings
 - do accessibility testing before you release it
-- share it with the MOD design library team
+- share it with [the MOD.UK Design System](https://design-system.service.mod.gov.uk/)
 
 ## Avoid dynamic content
 

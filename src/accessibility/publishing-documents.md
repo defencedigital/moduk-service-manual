@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Accessibility"
 title: "Publishing documents"
 description: "Check if your Ministry of Defence service needs an accessibility statement, how to create one and make all documents accessible."
-datePublished: 2022-11-07
+dateUpdated: 2023-04-11
 eleventyNavigation:
   key: "Accessibility"
   url: "/accessibility/"
@@ -13,7 +13,7 @@ eleventyNavigation:
 
 Any documents you include in your service, such as PDFs, must be accessible. Check the guidance on [publishing accessible documents](https://www.gov.uk/guidance/publishing-accessible-documents/).
 
-If you need help to make documents accessible, use a MODNET device to contact the [Directorate of Defence Communications](https://modgovuk.sharepoint.com/sites/IntranetHeadOffice/SitePages/Defence-Communications.aspx).
+If you need help to make documents accessible, on a MOD device contact the [Directorate of Defence Communications](https://modgovuk.sharepoint.com/sites/IntranetHeadOffice/SitePages/Defence-Communications.aspx).
 
 ## Accessibility statements
 

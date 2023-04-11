@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Content"
 title: "Writing for services in Defence"
 description: "Everyone using digital services needs content they can understand quickly and easily. Find out more."
-datePublished: 2023-02-01
+dateUpdated: 2023-04-11
 eleventyNavigation:
   key: "Content"
   url: "/content/"
@@ -27,9 +27,7 @@ The GOV.UK style includes:
 
 When you write content for digital services in Defence, [check the GOV.UK style guide](https://www.gov.uk/guidance/style-guide). 
 
-If you cannot find what you need, [ask for advice on the Defence content Slack channel](https://defencedigital.slack.com/archives/C04BQ6RC2SU). 
-
-On a MODNET device, you can use Slack in your web browser.
+If you cannot find what you need, [ask the content community for advice](/your-community/content/). 
 
 ## Use simple language
 
@@ -59,7 +57,7 @@ Many military terms are agreed by NATO and used internationally.
 
 If your service uses military terms, you must not change how military terms are written or described. In certain circumstances, changing a military term can be dangerous.
 
-On a MODNET device, you can [check Defence terminology](https://modgovuk.sharepoint.com/sites/IntranetHeadOffice/SitePages/Defence-Terminology.aspx). 
+On a MOD device, you can [check Defence terminology](https://modgovuk.sharepoint.com/sites/IntranetHeadOffice/SitePages/Defence-Terminology.aspx). 
 
 You can also [contact the Development, Concepts and Doctrine Centre](https://www.gov.uk/government/groups/development-concepts-and-doctrine-centre).
 

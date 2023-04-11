@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "User research"
 title: "Find user research participants across Defence"
 description: "Start with stakeholders and subject matter experts, follow chains of command and make the most of Ministry of Defence networks."
-datePublished: 2022-11-07
+dateUpdated: 2023-04-11
 eleventyNavigation:
   key: "User research"
   url: "/user-research/"
@@ -58,16 +58,6 @@ Some people need approval from their commanding officer to take part in research
 
 Your stakeholders can help you follow the chain of command and avoid problems.
 
-### Tools that can help
-
-#### MODNET
-
-If you have access to MODNET, you can often find staff names and details on your Command Sharepoint. If you do not have access to this or other platforms, ask a permanent staff member to help you.
-
-#### Staff directories
-
-Use staff directories to find colleagues in the Ministry of Defence (MOD).
-
 ## Use MOD networks
 
 You can contact networks directly. You do not need stakeholder involvement or to follow a chain of command.
@@ -90,7 +80,7 @@ On a MODNET device, [go to the Defence Disability Network](https://modgovuk.shar
 Defence Connect is a secure network for “disconnected users”, including:
 
 - reservists
-- soldiers and officers without MODNET access
+- soldiers and officers without access to a MOD device
 - people working off base
 
 You can use Defence Connect to:

@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Content"
 title: "Work with content designers"
 decsription: "If your service has words, images or videos, you should have a content designer on your team. Find out more."
-datePublished: 2023-03-03
+dateUpdated: 2023-04-11
 eleventyNavigation:
   key: "Content"
   url: "/content/"
@@ -43,7 +43,7 @@ Many content designers work with experts to write content. They share a document
 Tips for pair writing include:
 
 - work with no more than 2 experts
-- use a tool like Google Docs
+- use software that allows you to write and edit together
 - put the user needs at the top of the document
 - only write what users need to know
 
