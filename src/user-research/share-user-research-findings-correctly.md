@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "User research"
 title: "Share user research findings correctly"
 description: "Check how you must protect participants’ data and identities, online and in meetings like show and tells."
-datePublished: 2022-11-07
+dateUpdated: 2023-04-11
 eleventyNavigation:
   key: "User research"
   url: "/user-research/"
@@ -69,14 +69,10 @@ You can do things like:
 - chat through your findings on community calls
 - send your report to relevant MOD networks
 - ask to present at Defence events
-- post a link to your report on [Defence Digital Service Slack](https://defencedigital.slack.com)
 
 ### Sharing across Government
 
-If you can share your findings outside MOD, consider:
-
-- posting a link to your report on [UK Government Digital Slack](https://ukgovernmentdigital.slack.com)
-- writing a post for the [Defence Digital blog](https://defencedigital.blog.gov.uk/)
+If you can share your findings outside MOD, consider writing a post for the [Defence Digital blog](https://defencedigital.blog.gov.uk/).
 
 ## Related guidance
 
