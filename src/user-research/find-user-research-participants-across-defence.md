@@ -73,7 +73,7 @@ You need to include participants who:
 
 The Defence Disability Network (DDN) can help you recruit participants with condition-specific disabilities.
 
-On a MODNET device, [go to the Defence Disability Network](https://modgovuk.sharepoint.com/sites/DisabilityNetwork)
+On a MOD device, [go to the Defence Disability Network](https://modgovuk.sharepoint.com/sites/DisabilityNetwork)
 
 ### Defence Connect
 

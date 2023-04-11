@@ -60,7 +60,7 @@ You can:
 - [check with your community](/your-community/)
 - [ask on Defence Digital Slack](https://defencedigital.slack.com/archives/C02GUNVHBBL)
 
-On a MODNET device, you can use Slack in your web browser.
+On a MOD device, you can use Slack in your web browser.
 
 ## What you must not use
 
