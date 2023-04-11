@@ -33,12 +33,6 @@ Your service is transactional if it allows users to either:
 
 Service assessments happen towards the end of each phase of delivery. For example, your service will need an assessment to move from alpha into beta and from beta into public beta or live. 
 
-<!-- <picture class="moduk-image govuk-!-margin-bottom-7">
-  <source type="image/webp" srcset="{{ '/assets/images/uploads/service-assessments-630x355.webp' | url }}, {{ '/assets/images/uploads/service-assessments-1260x709.webp' | url }} 2x, {{ '/assets/images/uploads/service-assessments-2520x1418.webp' | url }} 3x">
-  <source type="image/png" srcset="{{ '/assets/images/uploads/service-assessments-630x355.png' | url }}, {{ '/assets/images/uploads/service-assessments-1260x709.png' | url }} 2x, {{ '/assets/images/uploads/service-assessments-2520x1418.png' | url }} 3x">
-  <img height="355" width="630" src="" alt="Service assessment project lifecycle showing discovery at the start, folled by alpha, beta and live" loading="lazy">
-</picture> -->
-
 ## Book an assessment
 
 Assessments are organised by the Central Digital and Data Office (CDDO) or the Ministry of Defence. 
@@ -61,5 +55,11 @@ Find out [how to get feedback on your service](/service-assessments/get-feedback
 
 ## Related guidance
 
-[More guidance on assessments on GOV.UK](https://www.gov.uk/service-manual/service-assessments)
 [Applying the GOV.UK Service Standard in Defence](https://servicemanual.digital.mod.uk/meet-the-standard/)
+[More guidance on assessments on GOV.UK](https://www.gov.uk/service-manual/service-assessments)
+
+
+hiddenText: 'about what the Army’s Land Deployed Applications team did',
+    url: 'https://defencedigital.blog.gov.uk/2022/04/04/land-deployed-applications-a-strategic-discovery/',
+    external: true
+

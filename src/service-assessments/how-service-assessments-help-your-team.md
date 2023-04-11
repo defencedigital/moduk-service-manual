@@ -42,10 +42,9 @@ In an assessment, your team gets to showcase the great work you’re doing on yo
 
 People on the assessment panel have worked on digital services in Defence and  government departments. They will offer different perspectives and suggest things that have worked elsewhere.
 
-You can check reports from previous assessments: 
+You can <a href="https://www.gov.uk/service-standard-reports" target="_blank">check assessment reports on GOV.UK <span class="govuk-visually-hidden">opens in a new tab</span></a>
 
-- [assessment reports on GOV.UK](/service-assessments/service-assessment-reports)
-- [assessment reports in Defence](https://www.gov.uk/service-standard-reports)
+
 
 ## Follow established ways of working 
 
