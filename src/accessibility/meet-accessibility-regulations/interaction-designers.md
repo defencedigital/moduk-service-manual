@@ -25,7 +25,7 @@ If you need to adapt an existing pattern, make sure you:
 
 - have evidence to show why it is needed, for example research findings
 - do accessibility testing before you release it
-- share it with the MOD design library team
+- share it with [the MOD.UK Design System](https://design-system.service.mod.gov.uk/)
 
 ## Avoid dynamic content
 
