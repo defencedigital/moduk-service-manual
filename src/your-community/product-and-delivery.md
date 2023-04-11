@@ -22,7 +22,7 @@ In this community, you will meet:
 
 ## Slack channels
 
-Slack is a messaging service used by the Defence community. On a MODNET device, you can use Slack in your web browser.
+Slack is a messaging service used by the Defence community. On a MOD device, you can use Slack in your web browser.
 
 {{ component('inset-text', {
   html: 'Everything you write on Slack can be included in a Freedom of Information request.'
