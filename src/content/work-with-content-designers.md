@@ -43,7 +43,7 @@ Many content designers work with experts to write content. They share a document
 Tips for pair writing include:
 
 - work with no more than 2 experts
-- use a tool like Google Docs
+- use software that allows you to write and edit together
 - put the user needs at the top of the document
 - only write what users need to know
 

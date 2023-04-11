@@ -25,9 +25,9 @@ You need to be aware of the security classification of all information you deal 
 
 - speak in meetings
 - add comments to online tools, like Conceptboard
-- write and share messages in MS Teams and Slack
+- write and share messages 
 
-When you send emails on a MODNET device, you will be asked to select the security classification.
+When you send emails on a MOD device, you will be asked to select the security classification.
 
 If you create new information or capture new data, [check how to label it](/security-classifications/how-to-label-information/).
 

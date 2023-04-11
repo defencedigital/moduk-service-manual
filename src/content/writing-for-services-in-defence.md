@@ -29,7 +29,7 @@ When you write content for digital services in Defence, [check the GOV.UK style 
 
 If you cannot find what you need, [ask the content community for advice](/your-community/content/). 
 
-On a MODNET device, you can use Slack in your web browser.
+
 
 ## Use simple language
 
