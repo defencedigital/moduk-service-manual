@@ -27,7 +27,15 @@ Join the UCD community calls held every 2 weeks on alternate Tuesdays and Thursd
 
 Calls are 45 minutes. We discuss things like accessibility, tools available in Defence and cross-government collaboration.
 
-Using your Ministry of Defence email, send a message to: [ucd@digital.mod.uk](mailto:ucd@digital.mod.uk).
+{{ component('inset-text', {
+  html: 'You must only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'
+}) }}
 
-In community calls, you must only share OFFICIAL information. [Find out about security classifications](/security-classifications/).
+### Ask for an invitation
+
+You need to work in Defence to join the community calls.
+
+Using your Ministry of Defence email, send a message to: [ucd@digital.mod.uk](mailto:ucd@digital.mod.uk). 
+
+Include your full name, your role and the project you’re working on.
 

@@ -27,7 +27,14 @@ Join the software development community calls held every second Thursday from 11
 
 We discuss things like software development tools available in Defence, building secure software and best practices.
 
-Using your Ministry of Defence email, send a message to: [UKStratComDD-Foundry-DSO-Engage@mod.gov.uk](mailto:UKStratComDD-Foundry-DSO-Engage@mod.gov.uk).
+{{ component('inset-text', {
+  html: 'You must only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'
+}) }}
 
-In community calls, you must only share OFFICIAL information. [Find out about security classifications](/security-classifications/).
+### Ask for an invitation
 
+You need to work in Defence to join the community calls.
+
+Using your Ministry of Defence email, send a message to:[UKStratComDD-Foundry-DSO-Engage@mod.gov.uk](mailto:UKStratComDD-Foundry-DSO-Engage@mod.gov.uk?subject=Join%20software%20development%20community%20calls). 
+
+Include your full name, your role and the project you’re working on.
