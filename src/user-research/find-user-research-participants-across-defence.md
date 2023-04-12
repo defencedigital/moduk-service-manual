@@ -98,7 +98,7 @@ You can use it to recruit research participants from the British Army.
 
 [Go to the Army Knowledge Exchange](https://www.army.mod.uk/deployments/army-knowledge-exchange)
 
-### Trusted Voices
+<!-- ### Trusted Voices
 
 MOD staff use aliases on Trusted Voices to discuss sensitive topics like pay, mental health and bullying.
 
@@ -109,4 +109,4 @@ You can use Trusted Voices to:
 
 You will need to sign in or create an account. 
 
-[Go to Trusted Voices](https://trustedvoices.explainonline.co.uk/login/). 
+[Go to Trusted Voices](https://trustedvoices.explainonline.co.uk/login/).  -->
