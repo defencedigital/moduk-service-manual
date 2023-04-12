@@ -27,10 +27,14 @@ Join the content community calls held every second Wednesday at 11am.
 
 We discuss the latest content news and updates. We share insights, issues and what we’re working on. 
 
-Using your Ministry of Defence email, send a message to: [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk?subject=Join%20content%20community%20calls).
+{{ component('inset-text', {
+  html: 'You must only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'
+}) }}
+
+### Ask for an invitation
+
+You need to work in Defence to join the community calls.
+
+Using your Ministry of Defence email, send a message to: [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk?subject=Join%20content%20community%20calls). 
 
 Include your full name, your role and the project you’re working on.
-
-In community calls, you must only share OFFICIAL information. [Find out about security classifications](/security-classifications/).
-
-
