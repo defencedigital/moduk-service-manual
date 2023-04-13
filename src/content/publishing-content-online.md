@@ -11,7 +11,6 @@ eleventyNavigation:
 
 It is important to work in the open when possible. Check what this means in Defence, including what you can and cannot publish online. 
 
-
 {{ modukcomponent('do-dont-list', {
   'title': 'Do',
   'type': 'tick',
@@ -31,20 +30,19 @@ It is important to work in the open when possible. Check what this means in Defe
 {{ modukcomponent('do-dont-list', {
   'title': 'Don’t',
   'type': 'cross',
-  "hidePrefix": true,
+  'hidePrefix': true,
   'items': [
     {
       'item': 'Never publish sensitive, SECRET or TOP SECRET information online'
     },
     {
-      'item': 'Do not publish any personal details, including named email addresses'
+      'item': 'Never publish any personal details, including named email addresses'
     },
     {
-      'item': 'Do not publish specific details of software or tools used in Defence, for example account names or links'
-    },
+      'item': 'Never publish specific details of software or tools used in Defence, for example account names or links'
+    }
   ]
 }) }}
-
 
 ## Working in the open in Defence
 
@@ -56,8 +54,7 @@ Anyone can find useful OFFICIAL [information about Defence on GOV.UK](https://ww
 
 You should never find information about Defence online that puts people, plans or projects at risk. 
 
- 
-## Keep information secure and people safe 
+ ## Keep information secure and people safe 
 
 There are individuals and groups around the world looking to find and exploit information about Defence. If you publish the smallest piece of sensitive information online, you could put military personnel and citizens at risk.
 
@@ -84,6 +81,3 @@ Anything you publish online, must not include:
 If you need to publish an email address for users to contact you, create a general email address like contact@ or support@. 
 
 Sometimes, you need to tell users to use tools like GitHub or AWS. Do not publish specific details online, like account names or links to Defence accounts.
-
-
-
