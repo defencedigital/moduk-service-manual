@@ -18,6 +18,12 @@ related: "content"
 - Use simple language
 - Take care with military terms
 
+## [Publishing content online](/content/publishing-content-online/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
+- Working in the open in Defence
+- Keep information secure and people safe
+- What you must not publish online
+
 ## [Work with content designers](/content/work-with-content-designers) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - When to get a content designer
