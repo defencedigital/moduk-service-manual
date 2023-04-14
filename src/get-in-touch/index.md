@@ -5,8 +5,6 @@ description: "Anyone working in Defence can suggest content for the Defence Serv
 lead: "If you have a question or suggestion, contact the Defence Service Manual team."
 ---
 
-# Get in touch
-
 If you have a question or suggestion, send an email to the Defence Service Manual team: [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk).
 
 ## Suggest content
