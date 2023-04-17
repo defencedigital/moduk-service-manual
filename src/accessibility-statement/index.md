@@ -26,7 +26,6 @@ Some parts of this website are not fully accessible.
 
 We link to older PDF documents that are not fully accessible to screen reader software.
 
-
 ## Reporting accessibility problems with this website
 
 We’re always looking to improve the accessibility of this website. If you find any problems not listed on this page or think we’re not meeting accessibility requirements, email [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk?subject=Accessibility%20feedback).
@@ -36,7 +35,6 @@ We’re always looking to improve the accessibility of this website. If you find
 The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the ‘accessibility regulations’). 
 
 If you’re not happy with how we respond to your complaint, [contact the Equality Advisory and Support Service (EASS)](https://www.gov.uk/government/publications/sample-accessibility-statement/sample-accessibility-statement-for-a-fictional-public-sector-website#:~:text=Enforcement%20procedure,Service%20(EASS).).
-
 
 ## Technical information about this website’s accessibility
 
