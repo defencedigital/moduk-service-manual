@@ -44,7 +44,7 @@ The Foundry is committed to making its website accessible, in accordance with th
 
 ## Compliance status
 
-This website is fully compliant with the [Web Content Accessibility Guidelines version 2.1 AA standard](https://www.gov.uk/government/publications/sample-accessibility-statement/sample-accessibility-statement-for-a-fictional-public-sector-website#:~:text=This%20website%20is%20fully%20compliant%20with%20the%20Web%20Content%20Accessibility%20Guidelines%20version%202.1%20AA%20standard.).
+This website is fully compliant with the [Web Content Accessibility Guidelines version 2.1 AA standard](https://www.w3.org/TR/WCAG21).
 
 ## Preparation of this accessibility statement
 
