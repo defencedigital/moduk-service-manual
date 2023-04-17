@@ -38,7 +38,7 @@ Consider what you’d like to know in areas like:
 - Accessibility
 - Technology
 
-Feedback sessions do not replace the need for a multidisciplinary team. You can [find out more about multidisciplinary teams](https://www.gov.uk/service-manual/service-standard/point-6-have-a-multidisciplinary-team).
+Feedback sessions do not replace the need for a multidisciplinary team. You can [find out more about multidisciplinary teams](https://www.gov.uk/service-manual/service-standard/point-6-have-a-multidisciplinary-team){target="_blank"}.
 
 ## Book a feedback session 
 

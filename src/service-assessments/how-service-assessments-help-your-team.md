@@ -13,7 +13,7 @@ In a service assessment, your digital service is reviewed by a panel of trained 
 
 ## Deliver the right thing for users 
 
-All teams creating digital services for Defence should meet the [GOV.UK Service Standard](https://www.gov.uk/service-manual/service-standard). This applies to internal services as well as services for citizens. 
+All teams creating digital services for Defence should meet the [GOV.UK Service Standard](https://www.gov.uk/service-manual/service-standard){target="_blank"}. This applies to internal services as well as services for citizens. 
 
 Service assessments help you: 
 
@@ -34,7 +34,7 @@ Service assessments help you show your service:
 - can be integrated across Defence 
 - will be delivered at scale and pace to all in Defence
 
-All digital teams in Defence are expected to help deliver [the Digital Strategy for Defence](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/990114/20210421_-_MOD_Digital_Strategy_-_Update_-_Final.pdf). 
+All digital teams in Defence are expected to help deliver [the Digital Strategy for Defence](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/990114/20210421_-_MOD_Digital_Strategy_-_Update_-_Final.pdf){target="_blank"}. 
 
 ## Share experiences across Defence
 
@@ -42,7 +42,7 @@ In an assessment, your team gets to showcase the great work you’re doing on yo
 
 People on the assessment panel have worked on digital services in Defence and  government departments. They will offer different perspectives and suggest things that have worked elsewhere.
 
-You can [check assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports).
+You can [check assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports){target="_blank"}.
 
 ## Follow established ways of working 
 
