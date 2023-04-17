@@ -4,6 +4,8 @@ title: "Accessibility statement"
 description: "Check how accessible the Defence Service Manual is and how to give feedback if you cannot use it."
 ---
 
+# Accessibility statement
+
 This accessibility statement applies to the Defence Service Manual.
 
 This website is run by Defence Digital Foundry. We want as many people as possible to be able to use this website. For example, that means you should be able to:
