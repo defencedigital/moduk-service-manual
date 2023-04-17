@@ -34,7 +34,7 @@ Service assessments help you show your service:
 - can be integrated across Defence 
 - will be delivered at scale and pace to all in Defence
 
-All digital teams in Defence are expected to help deliver [the Digital Strategy for Defence](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/990114/20210421_-_MOD_Digital_Strategy_-_Update_-_Final.pdf). 
+All digital teams in Defence are expected to help deliver [the Digital Strategy for Defence](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/990114/20210421_-_MOD_Digital_Strategy_-_Update_-_Final.pdf){target="_blank"}. 
 
 ## Share experiences across Defence
 

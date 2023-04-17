@@ -41,7 +41,7 @@ Assessments are organised by the Central Digital and Data Office (CDDO) or the M
 
 If your service is likely to have more than 100,000 transactions a year, your assessments are organised by the Central Digital and Data Office (CDDO). 
 
-Check [how to book an assessment with CDDO](https://www.gov.uk/service-manual/service-assessments/book-a-service-assessment). 
+Check [how to book an assessment with CDDO](https://www.gov.uk/service-manual/service-assessments/book-a-service-assessment){target="_blank"}. 
 
 ### Fewer than 100,000 transactions
 
@@ -55,11 +55,6 @@ Find out [how to get feedback on your service](/service-assessments/get-feedback
 
 ## Related guidance
 
-[Applying the GOV.UK Service Standard in Defence](https://servicemanual.digital.mod.uk/meet-the-standard/)
-[More guidance on assessments on GOV.UK](https://www.gov.uk/service-manual/service-assessments)
-
-
-hiddenText: 'about what the Army’s Land Deployed Applications team did',
-    url: 'https://defencedigital.blog.gov.uk/2022/04/04/land-deployed-applications-a-strategic-discovery/',
-    external: true
+[Applying the GOV.UK Service Standard in Defence](https://servicemanual.digital.mod.uk/meet-the-standard/){target="_blank"}
+[More guidance on assessments on GOV.UK](https://www.gov.uk/service-manual/service-assessments){target="_blank"}
 
