@@ -24,6 +24,12 @@ related: "content"
 - Keep information secure and people safe
 - What you must not publish online
 
+## [Write a blog post for Defence Digital](/content/write-a-blog-post-for-Defence-Digital/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
+- When to publish a blog post
+- How to write your blog post
+- Submit your blog post
+
 ## [Work with content designers](/content/work-with-content-designers) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - When to get a content designer
