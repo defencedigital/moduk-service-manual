@@ -75,4 +75,3 @@ Your service owner or performance analyst will be asked questions like:
 - Once live, how will you measure change over time?
 - How do you know you’ve got appropriate metrics in place to measure the success of the service, based on what you’ve learned during public beta?
 - How will you continue to use data to improve your service after launch?
-

@@ -25,7 +25,6 @@ Identify the things you need the most help with and tell the organiser or panel 
 
 For example, you might want to know if there are existing patterns you can reuse or how other services manage SECRET information.
 
-
 ### What you should be doing at each phase
 
 Remind your team what they should be doing in your phase of delivery to meet the GOV.UK Service Standard. 
@@ -57,7 +56,6 @@ As a team, run through example questions for:
 - [a beta assessment](/service-assessments/what-to-expect/questions-in-a-beta-assessment)
 - [a live assessment](/service-assessments/what-to-expect/questions-in-a-live-assessment)
 
-
 ## During an assessment 
 
 Assessments are run by a panel of experienced specialists from the Defence digital community. 
@@ -79,7 +77,6 @@ Any team members who are not presenting to the panel, should join your assessmen
 
 During an assessment, observers do not ask questions or give feedback.
 
-
 ## After an assessment 
 
 Your service will be assessed as met or not met.
@@ -94,9 +91,7 @@ You’ll get a report with your result and any recommendations within 5 working 
 
 It is useful to see what is covered in published assessment reports. You can [check assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports){target="_blank"}.
 
-
 ## Related guidance
 
-[Applying the GOV.UK Service Standard in Defence](https://servicemanual.digital.mod.uk/meet-the-standard/)
+[Applying the GOV.UK Service Standard in Defence](/meet-the-standard/)
 [More guidance on assessments on GOV.UK](https://www.gov.uk/service-manual/service-assessments/how-service-assessments-work){target="_blank"}
-

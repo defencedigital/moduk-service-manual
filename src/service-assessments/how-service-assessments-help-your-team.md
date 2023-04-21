@@ -72,4 +72,3 @@ This includes anyone who has just joined Defence but has digital experience in a
 If you meet these criteria, send your details to [assessments@digital.mod.uk](mailto:assessments@digital.mod.uk?subject=Service%20assessor%20training). 
 
 We would like to hear from trained assessors across Defence. You can join the panel for service assessments.
-

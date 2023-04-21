@@ -55,6 +55,5 @@ Find out [how to get feedback on your service](/service-assessments/get-feedback
 
 ## Related guidance
 
-[Applying the GOV.UK Service Standard in Defence](https://servicemanual.digital.mod.uk/meet-the-standard/)
+[Applying the GOV.UK Service Standard in Defence](/meet-the-standard/)
 [More guidance on assessments on GOV.UK](https://www.gov.uk/service-manual/service-assessments){target="_blank"}
-

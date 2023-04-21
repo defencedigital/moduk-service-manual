@@ -1,8 +1,8 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Service assessments"
-title: "Questions in a beta assessment"
-description: "Check what questions your team might be asked in a beta service assessment."
+title: "Questions in a live assessment"
+description: "Check what questions your team might be asked in a live service assessment."
 datePublished: 2023-03-14
 eleventyNavigation:
   key: "Service assessments"
@@ -81,5 +81,3 @@ Your service owner or performance analysts will be asked questions like:
 - What data are you collecting and how are you using it to improve your service?
 - What management and governance do you have? For example SIRO approval, not collecting personal data or retaining a raw backup data view.
 - Have you spoken to data.gov.uk and agreed the KPIs to publish on launch?
-
-
