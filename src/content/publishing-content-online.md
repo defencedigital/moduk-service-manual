@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Content"
 title: "Publishing content online"
-description: "Check what Defence content you can and cannot publish online and why it matters."
+description: "Check what content you can and cannot publish online and why it matters."
 datePublished: 2023-05-06
 eleventyNavigation:
   key: "Content"
