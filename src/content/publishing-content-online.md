@@ -36,7 +36,7 @@ It is important to work in the open when possible. Check what this means in Defe
       'item': 'Never publish sensitive, SECRET or TOP SECRET information online'
     },
     {
-      'item': 'Do not publish anyone's personal details, including named email addresses'
+      'item': "Do not publish anyone's personal details, including named email addresses"
     },
     {
       'item': 'Do not publish any details of software or tools that can help unauthorised users get access'
