@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Content"
 title: "Publishing content online"
 description: "Check what Defence content you can and cannot publish online and why it matters."
-datePublished: 2023-04-13
+datePublished: 2023-05-06
 eleventyNavigation:
   key: "Content"
   url: "/content/"
@@ -46,38 +46,31 @@ It is important to work in the open when possible. Check what this means in Defe
 
 ## Working in the open in Defence
 
-To meet the GOV.UK Service Standard, work in the open when you can and when there is a need. In Defence, you must always consider what is safe to share openly. 
+To help deliver good digital services quickly, we need to share things that can be reused. This relies on you working in the open when there is a need or when you can. 
 
-For example, we only include OFFICIAL information in this manual. It is published online so that everyone across Defence and other government departments can use it. 
+Before publishing anything online, you must consider what is safe to share openly.
 
-Anyone can find useful OFFICIAL [information about Defence on GOV.UK](https://www.gov.uk/government/organisations/ministry-of-defence).
-
-You should never find information about Defence online that puts people, plans or projects at risk. 
+For example, we only include OFFICIAL information in this manual. It is published online so that everyone can use it, including Defence partners and other government departments.
 
  ## Keep information secure and people safe 
 
 There are individuals and groups around the world looking to find and exploit information about Defence. If you publish the smallest piece of sensitive information online, you could put military personnel and citizens at risk.
 
-Sometimes OFFICIAL information includes details that are too sensitive to publish. 
+Sometimes OFFICIAL information includes details that are too sensitive to publish. This kind of information is usually, but not always, labelled as OFFICIAL-SENSITIVE.
 
-For example, OFFICIAL information can include personal details that could identify military personnel and their families. 
-
-OFFICIAL information can also include commercially sensitive details like price negotiations and system vulnerabilities. 
-
-This kind of information is usually, but not always, labelled as OFFICIAL-SENSITIVE.
+{{ component('inset-text', {
+  text: 'Before publishing an OFFICIAL document online, you need to check the contents. Do not rely on the label.'
+}) }} 
 
 Find out [more about labelling information](/security-classifications/how-to-label-information/).
 
-## What you must not publish online
+### Use a general email address
 
-Do not publish sensitive, SECRET or TOP-SECRET information online. 
+Do not publish anyone’s personal data, including their Defence or personal email addresses.
 
-Anything you publish online, must not include: 
+If you need to publish an email address for users to contact you, create a general email address like service-manual@digital.mod.uk. 
 
-- any personal details, including named email addresses 
-- specific details of software or tools used in Defence
-- details of Defence Slack workspaces and channels 
+You can [check what personal data includes](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/){target="_blank"}.
 
-If you need to publish an email address for users to contact you, create a general email address like contact@ or support@. 
 
-Sometimes, you need to tell users to use tools like GitHub or AWS. Do not publish specific details online, like account names or links to Defence accounts.
+
