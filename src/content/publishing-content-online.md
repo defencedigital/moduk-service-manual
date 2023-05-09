@@ -16,13 +16,13 @@ It is important to work in the open when possible. Check what this means in Defe
   'type': 'tick',
   'items': [
     {
-      'item': 'Only publish OFFICIAL information online'
+      'item': 'Publish only OFFICIAL information online'
     },
     {
       'item': 'Check there are no sensitive details, even in OFFICIAL information'
     },
     {
-      'item': 'If you are unsure, ask someone in security or a senior stakeholder'
+      'item': 'Ask someone in security or a senior stakeholder, if you are unsure'
     }
   ]
 }) }}
@@ -33,7 +33,7 @@ It is important to work in the open when possible. Check what this means in Defe
   'hidePrefix': true,
   'items': [
     {
-      'item': 'Never publish sensitive, SECRET or TOP SECRET information online'
+      'item': 'Do not publish sensitive, SECRET or TOP SECRET information online'
     },
     {
       'item': "Do not publish anyone's personal details, including named email addresses"
