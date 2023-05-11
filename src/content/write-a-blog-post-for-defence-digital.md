@@ -82,6 +82,15 @@ It includes things like:
 - evaluating your blog post’s performance
 
 
+### Be careful what you write
+
+
+Anyone can read your blog post online. Make sure it does not include anything that could risk the safety or reputation of anyone in Defence.
+
+
+It helps to read your draft as if you are someone outside Defence.
+
+
 ### Tell your story well
 
 
@@ -104,19 +113,6 @@ For the Defence Digital blog, your posts need to be a maximum of 9,000 words. Yo
 
 
 If you have a lot to share, consider a series of blog posts. Instead of telling people what your team is doing next, publish a short blog post when you’ve done it.
-
-
-### Be careful what you write
-
-
-Anyone can read your blog post online. Make sure it does not include anything that could risk the safety or reputation of anyone in Defence.
-
-
-It helps to read your draft as if you are someone outside Defence.
-
-
-Check Defence guidance on [publishing content online](/content/publishing-content-online/).
-
 
 
 ### Break up text with headers
