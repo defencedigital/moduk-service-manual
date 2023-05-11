@@ -69,6 +69,14 @@ It includes things like:
 - creating and editing blog posts
 - evaluating your blog post’s performance
 
+
+### Be careful what you write
+
+Anyone can read your blog post online. Make sure it does not include anything that could risk the safety or reputation of anyone in Defence.
+
+
+It helps to read your draft as if you are someone outside Defence.
+
 ### Tell your story well
 
 Think about the story you want to tell. Which points are the most interesting for your readers? For example, instead of describing how you organised a workshop describe what you discovered.
@@ -99,14 +107,6 @@ Use headers to help tell your story, for example:
 To help you tell an engaging story, GOV.UK guidance recommends adding images.
 
 In Defence Digital blog posts, you can use images from the [Defence image library](https://www.defenceimagery.mod.uk/){target="_blank"} without worrying about licences or copyright.
-
-### Be careful what you write
-
-Anyone can read your blog post online. Make sure it does not include anything that could risk the safety or reputation of anyone in Defence. 
-
-It helps to read your draft as if you are someone outside Defence. 
-
-Check Defence guidance on [publishing content online](/content/publishing-content-online/).
 
 ## Submit a blog post 
 

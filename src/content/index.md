@@ -18,6 +18,12 @@ related: "content"
 - Use simple language
 - Take care with military terms
 
+## [Work with content designers](/content/work-with-content-designers) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
+- When to get a content designer
+- Plan to pair write
+- Use the content design community
+
 ## [Publishing content online](/content/publishing-content-online/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - Working in the open in Defence
@@ -29,9 +35,3 @@ related: "content"
 - When to publish a blog post
 - How to write your blog post
 - Submit your blog post
-
-## [Work with content designers](/content/work-with-content-designers) {.govuk-heading-m .govuk-!-margin-bottom-1}
-
-- When to get a content designer
-- Plan to pair write
-- Use the content design community
