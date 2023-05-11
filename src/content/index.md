@@ -23,3 +23,9 @@ related: "content"
 - When to get a content designer
 - Plan to pair write
 - Use the content design community
+
+## [Write a blog post for Defence Digital](/content/write-a-blog-post-for-defence-digital) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
+- When to publish a blog post
+- How to write your blog post
+- Submit your blog post
