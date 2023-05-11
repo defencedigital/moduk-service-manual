@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Content"
 title: "Write a blog post for Defence Digital"
-description: "Teams working on digital services in Defence, can submit a blog post. Check how to write and submit your blog post."
+description: "Teams working on digital services in Defence, can submit a post to the Defence Digital blog. Check how to write and submit your blog post."
 datePublished: 2023-04-18
 eleventyNavigation:
   key: "Content"
@@ -33,7 +33,7 @@ Any digital team working in Defence can submit a blog post to the [Defence Digit
   'hidePrefix': true,
   'items': [
     {
-      'item': 'Never publish sensitive, SECRET or TOP-SECRET information in a blog post'
+      'item': 'Do not publish sensitive, SECRET or TOP-SECRET information in a blog post'
     },
     {
       'item': 'Do not publish specific details of software or tools used in Defence, for example account names or links'
@@ -110,14 +110,8 @@ Check Defence guidance on [publishing content online](/content/publishing-conten
 
 ## Submit a blog post 
 
-You need to submit your blog post for review. Send it to [general email address](). 
+You need to submit your blog post for review. 
 
-Make sure you include:
-
-- .....
-- .....
-- .....
-
-If your service is part of Defence Digital Foundry, you also need to send a copy to [general email address]().
+Send your blog post to: [content@digital.mod.uk](mailto:content@digital.mod.uk?subject=Submit%20a%20blog%20post). 
 
 
