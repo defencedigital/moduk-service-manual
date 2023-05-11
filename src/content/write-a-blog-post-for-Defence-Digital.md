@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Content"
 title: "Write a blog post for Defence Digital"
 description: "Teams working on digital services in Defence, can submit a post to the Defence Digital blog. Check how to write and submit your blog post."
-datePublished: 2023-04-18
+datePublished: 2023-05-11
 eleventyNavigation:
   key: "Content"
   url: "/content/"
