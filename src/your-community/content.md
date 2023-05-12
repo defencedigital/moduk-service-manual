@@ -35,6 +35,6 @@ We discuss the latest content news and updates. We share insights, issues and wh
 
 You need to work in Defence to join the community calls.
 
-Using your Ministry of Defence email, send a message to: [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk?subject=Join%20content%20community%20calls). 
+Using your Ministry of Defence email, send a message to: [content@digital.mod.uk](mailto:content@digital.mod.uk?subject=Join%20content%20community%20calls). 
 
 Include your full name, your role and the project you’re working on.
