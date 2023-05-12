@@ -2,7 +2,7 @@
 layout: "layouts/two-column.njk"
 title:  "Technology"
 description: ""
-lead: "Use this guidance to deliver great technology for Defence. You can find general guidance on GOV.UK."
+lead: "Use this guidance to deliver great technology in Defence. You can find general guidance on GOV.UK."
 ---
 
 ## [Defence Technology Principles](/technology/defence-technology-principles/) {.govuk-heading-m .govuk-!-margin-bottom-1}
