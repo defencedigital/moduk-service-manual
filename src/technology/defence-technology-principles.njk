@@ -1,0 +1,199 @@
+{% extends "layouts/base.njk" %}
+
+{% block body %}
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-breadcrumbs">
+
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
+        </li>
+      </ol>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-main-wrapper">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">Defence Technology Principles</h1>
+        </div>
+      </div>
+
+      <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-two-thirds">
+
+          <p class="govuk-body">When you design, build or buy technology for Defence, you need to do it the right way.</p>
+          <p class="govuk-body">You should also follow the <a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/guidance/the-technology-code-of-practice" rel="external nofollow">GOV.UK Technology Code of Practice</a></li>.</p>
+
+          <h2 class="govuk-heading-l">What you need to do</h2>
+
+          {% set htmlAccordion1 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
+            </ul>
+          {% endset %}
+
+          {% set htmlAccordion2 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion3 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion4 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion5 %}
+           <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion6 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
+            </ul>
+          {% endset %}
+        
+          {% set htmlAccordion7 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
+            </ul>
+          {% endset %}
+
+          {% set htmlAccordion8 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
+            </ul>
+            {% endset %}
+
+          {% set htmlAccordion9 %}
+            <p class="govuk-body">Defence specific guidance here.</p>
+            <p class="govuk-body"></p>
+            <ul class="govuk-list">
+              <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
+            </ul>
+            {% endset %}
+
+          {{ component('accordion', {
+            classes: 'govuk-!-margin-bottom-0',
+            id: 'accordion-standards',
+            items: [
+              {
+                heading: {
+                  text: '1. Use common standards and patterns'
+                },
+                content: {
+                  html: htmlAccordion1 
+                }
+              },
+              {
+                heading: {
+                  text: '2. Integrate and adapt'
+                },
+                content: {
+                  html: htmlAccordion2
+                }
+              },
+              {
+                heading: {
+                  text: '3. Make data easy to access'
+                },
+                content: {
+                  html: htmlAccordion3
+                }
+              },
+              {
+                heading: {
+                  text: '4. Make your technical solution secure'
+                },
+                content: {
+                  html: htmlAccordion4
+                }
+              },
+              {
+                heading: {
+                  text: '5. Future proof from the start'
+                },
+                content: {
+                  html: htmlAccordion5
+                }
+              },
+              {
+                heading: {
+                  text: '6. Use cloud first'
+                },
+                content: {
+                  html: htmlAccordion6
+                }
+              },
+              {
+                heading: {
+                  text: '7. Automate and innvate where you can'
+                },
+                content: {
+                  html: htmlAccordion7
+                }
+              },
+              {
+                heading: {
+                  text: '8. Reuse when you can'
+                },
+                content: {
+                  html: htmlAccordion8
+                }
+              },
+              {
+                heading: {
+                  text: '9. Continually improve'
+                },
+                content: {
+                  html: htmlAccordion9
+                }
+              }
+            ]
+          }) }}
+
+          <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Published April 2023</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}
