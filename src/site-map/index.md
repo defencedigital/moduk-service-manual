@@ -37,6 +37,7 @@ Find your way around this website.
   - [Start with your users](/content/start-with-your-users/)
   - [Writing for services in Defence](/content/writing-for-services-in-Defence/)
   - [Work with content designers](/content/work-with-content-designers/)
+  - [Write a blog post for Defence Digital](/content/write-a-blog-post-for-defence-digital/)
 - [Design](/design/)
   - [Start with simple designs](/design/start-with-simple-designs/)
   - [Design for safety](/design/design-for-safety/)
