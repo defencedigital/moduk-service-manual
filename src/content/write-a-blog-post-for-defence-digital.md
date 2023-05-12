@@ -79,7 +79,7 @@ It includes things like:
 - why blog
 - style and tone of voice
 - creating and editing blog posts
-- evaluating your blog post’s performance
+- evaluating your blog post's performance
 
 
 ### Be careful what you write
