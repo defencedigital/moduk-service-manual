@@ -5,18 +5,21 @@ description: ""
 lead: "Use this guidance to deliver great technology in Defence. You can find general guidance on GOV.UK."
 ---
 
-## [Defence Technology Principles](/technology/defence-technology-principles/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Design and build new technology](/technology/defence-technology-principles/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- buying, building and designing technology in Defence
-- check what principles you need to follow
+- reuse common approaches and patterns
+- find common approaches you should use
+- check the principles you need to follow
 
-## [Enterprise Tooling Principles](/technology/enterprise-tooling-principles) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Choosing tools for Defence](/technology/enterprise-tooling-principles) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- selecting tools for use in Defence
-- check what principles you need to follow
+- consider existing tools 
+- make decisions based on user needs
+- check the principles you need to follow
 
-## [Artificial Intelligence Principles](/technology/enterprise-tooling-principles) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Using Artificial Intelligence in Defence](/technology/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
+- decide when to use it and when not to
 - share what you are doing
 - check the principles you need to follow
 
