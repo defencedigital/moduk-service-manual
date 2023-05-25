@@ -18,14 +18,14 @@ Designing simple screens and interactions makes things easier for everybody. To 
 Before designing a new product, service or feature, check what patterns are already available. Existing patterns and components are more likely to be accessible.
 
 {{ component('inset-text', {
-  html: 'You need to check the <a href="https://design-system.service.gov.uk/" rel="external nofollow">GOV.UK Design System</a>.'
+  html: 'You need to check the <a href="https://design-system.service.gov.uk/" target="_blank">GOV.UK Design System<span class="govuk-visually-hidden">opens in a new tab</span></a>.'
 }) }}
 
 If you need to adapt an existing pattern, make sure you:
 
 - have evidence to show why it is needed, for example research findings
 - do accessibility testing before you release it
-- share it with [the MOD.UK Design System](https://design-system.service.mod.gov.uk/)
+- share it with <a href="https://design-system.service.mod.gov.uk/" target="_blank">the MOD.UK Design System<span class="govuk-visually-hidden">opens in a new tab</span></a>
 
 ## Avoid dynamic content
 
@@ -39,7 +39,7 @@ For anything that needs user input, you must add a label. Every label should des
 
 Keep labels simple at first and only include hint text or additional instructions if your user research shows there is a need for it.
 
-Work with a Content Designer to create labels and any hint text needed. You can also [check the GOV.UK pattern for text inputs](https://design-system.service.gov.uk/components/text-input/).
+Work with a Content Designer to create labels and any hint text needed. You can also <a href="https://design-system.service.gov.uk/components/text-input/" target="_blank">check the GOV.UK pattern for text inputs<span class="govuk-visually-hidden">opens in a new tab</span></a>.
 
 ## Add visually hidden text
 
@@ -68,7 +68,8 @@ When the Ministry of Defence logo appears on screen, use this alt text:
  
     <img src="ministry-of-defence.svg" alt="Ministry of Defence logo">
  
-If you can, work with a Content Designer to create alt text. Find more advice in the [GOV.UK guidance on images](https://design-system.service.gov.uk/styles/images/).
+If you can, work with a Content Designer to create alt text. Find more advice in the <a href="https://design-system.service.gov.uk/styles/images/" target="_blank">GOV.UK guidance on images<span class="govuk-visually-hidden">opens in a new tab</span></a>.
+
 
 ## Only use images that users need
 
@@ -82,6 +83,6 @@ If users need a sidebar, check how it works for people who are blind or use a sc
 
 ## Related guidance
 
-- [Design for different browsers and devices](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices/)
-- [Blogs about accessibility and design](https://www.craigabbott.co.uk/blog/)
+- <a href="https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices/" target="_blank">Design for different browsers and devices<span class="govuk-visually-hidden">opens in a new tab</span></a>
+
 {.govuk-list}

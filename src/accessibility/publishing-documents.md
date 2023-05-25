@@ -13,7 +13,9 @@ eleventyNavigation:
 
 Any documents you include in your service, such as PDFs, must be accessible. Check the guidance on [publishing accessible documents](https://www.gov.uk/guidance/publishing-accessible-documents/).
 
-If you need help to make documents accessible, on a MOD device contact the [Directorate of Defence Communications](https://modgovuk.sharepoint.com/sites/IntranetHeadOffice/SitePages/Defence-Communications.aspx).
+<a href="" target="_blank">   <span class="govuk-visually-hidden">opens in a new tab</span></a>
+
+If you need help to make documents accessible, on a MOD device contact the <a href="https://modgovuk.sharepoint.com/sites/IntranetHeadOffice/SitePages/Defence-Communications.aspx" target="_blank">Directorate of Defence Communications<span class="govuk-visually-hidden">opens in a new tab</span></a>.
 
 ## Accessibility statements
 
@@ -56,10 +58,10 @@ You need to explain that things that are not accessible because they are exempt.
 - third party content under someone else’s control
 - maps but essential information, like addresses, must be accessible
 
-Check the guidance on [publishing an accessibility statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement/).
+Check guidance on <a href="https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement/" target="_blank">publishing an accessibility statement<span class="govuk-visually-hidden">opens in a new tab</span></a>.
 
 ### Create an accessibility statement
 
-Use this [model accessibility statement](https://www.gov.uk/guidance/model-accessibility-statement/).
+Use this <a href="https://www.gov.uk/guidance/model-accessibility-statement/" target="_blank">model accessibility statement<span class="govuk-visually-hidden">opens in a new tab</span></a>.
 
 If you can, work with a content designer to make sure the content you add is written in plain English.

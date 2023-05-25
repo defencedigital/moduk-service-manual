@@ -21,13 +21,13 @@ When you start designing a digital service or product, you need to plan for acce
 
 In the UK, every government digital service for citizens or internal users must:
 
-- meet level AA of the [Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21/) as a minimum
+- meet level AA of the <a href="https://www.w3.org/TR/WCAG21/" target="_blank">Web Content Accessibility Guidelines (WCAG 2.1)<span class="govuk-visually-hidden">opens in a new tab</span></a> as a minimum
 - work on the most commonly used assistive technologies, including screen magnifiers, screen readers and speech recognition tools
 - include people with disabilities in user research
 
 Some services also need an [accessibility statement](/accessibility/publishing-documents#accessibility-statements/).
 
-Check the guidance on [accessibility for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps/).
+Check the guidance on <a href="https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps/" target="_blank">accessibility for public sector bodies<span class="govuk-visually-hidden">opens in a new tab</span></a>.
 
 ### This applies to everyone
 
@@ -49,8 +49,9 @@ Check how you can help with accessibility:
 
 ## Related guidance
 
-- [Making things accessible and inclusive](https://www.gov.uk/guidance/make-things-accessible/)
-- [Doing the hard work to make accessibility simple](https://gds.blog.gov.uk/2016/05/19/doing-the-hard-work-to-make-accessibility-simple/)
-- [Common assistive technologies](https://www.gov.uk/government/publications/assistive-technology-definition-and-safe-use/assistive-technology-definition-and-safe-use/)
-- [GOV.UK blogs on accessibility](https://accessibility.blog.gov.uk/)
+- <a href="https://www.gov.uk/guidance/make-things-accessible/" target="_blank">Making things accessible and inclusive<span class="govuk-visually-hidden">opens in a new tab</span></a>
+- <a href="https://gds.blog.gov.uk/2016/05/19/doing-the-hard-work-to-make-accessibility-simple/" target="_blank">Doing the hard work to make accessibility simple<span class="govuk-visually-hidden">opens in a new tab</span></a>
+- <a href="https://www.gov.uk/government/publications/assistive-technology-definition-and-safe-use/assistive-technology-definition-and-safe-use/" target="_blank">Common assistive technologies<span class="govuk-visually-hidden">opens in a new tab</span></a>
+- <a href="https://accessibility.blog.gov.uk/" target="_blank">GOV.UK blogs on accessibility<span class="govuk-visually-hidden">opens in a new tab</span></a>
+
 {.govuk-list}
