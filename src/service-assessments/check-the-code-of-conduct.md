@@ -31,7 +31,7 @@ Feedback is about your service, not you. Avoid deflecting questions, it’s okay
 
 ## Giving feedback 
 
-As an assessment panel member, you need to give feedback that is honest and actionable — in a kind and respectful way.  
+As a panel member, you need to give feedback that is honest and actionable — in a kind and respectful way.  
 
 As an observer do not give any feedback, keep your camera off and stay on mute.  
 
