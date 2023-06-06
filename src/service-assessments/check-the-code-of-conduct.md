@@ -15,6 +15,8 @@ If you do not follow this code of conduct, you might be asked to leave a session
 
 ## Asking for feedback 
 
+Everyone on the panel is there to help but they do not know your service as well as you do. 
+
 ### Set the context 
 
 Without taking too long, tell the story of your service. Start with what your service does, who your users are and what they are trying to do. 
@@ -29,7 +31,9 @@ Feedback is about your service, not you. Avoid deflecting questions, it’s okay
 
 ## Giving feedback 
 
-If you are an observer do not give any feedback, keep your camera off and stay on mute. 
+As an assessment panel member, you need to give feedback that is honest and actionable — in a kind and respectful way.  
+
+As an observer do not give any feedback, keep your camera off and stay on mute.  
 
 ### Give specific and actionable feedback
 
