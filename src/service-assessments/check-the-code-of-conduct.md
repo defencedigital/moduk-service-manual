@@ -19,7 +19,7 @@ Everyone on the panel is there to help but they do not know your service as well
 
 ### Set the context 
 
-Without taking too long, tell the story of your service. Start with what your service does, who your users are and what they are trying to do. 
+Tell the story of your service. Start with what your service does, who your users are and what they are trying to do. Remember to stick to the time you have been given.
 
 ### Say what kind of feedback you want
 
