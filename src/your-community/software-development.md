@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Community"
 title: "Software development"
 description: "Anyone in a software development role in Defence can join the community. Find out how to get involved."
-dateUpdated: 2023-12-06
+dateUpdated: 2023-06-12
 eleventyNavigation:
   key: "Your community"
   url: "/your-community/"
