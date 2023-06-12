@@ -34,3 +34,8 @@ lead: "Check how service assessments work in Defence, if you need one and what t
 
 - ask for an informal feedback session
 - learn from others across Defence
+
+## [Check the code of conduct](/service-assessments/check-the-code-of-conduct) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
+- how to ask for feedback
+- things to remember when giving feedback
