@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/service-assessments/"
 ---
 
-In the Ministry of Defence, you are expected to give feedback in a kind and respectful way. 
+You are expected to give feedback in a kind and respectful way. 
 
 If you do not follow this code of conduct, you might be asked to leave a session. 
 
@@ -27,7 +27,7 @@ Tell people what you want to find out. For example, if there are existing patter
 
 ### Do not be defensive 
 
-Feedback is about your service, not you. Avoid deflecting questions, it’s okay to say that you’re not sure. Take notes so that you don’t need to respond to every point.
+Feedback is about your service, not you. Avoid deflecting questions, it is okay to say that you are not sure. Take notes so that you do not need to respond to every point.
 
 ## Giving feedback 
 
@@ -37,7 +37,7 @@ As an observer do not give any feedback, keep your camera off and stay on mute.
 
 ### Give specific and actionable feedback
 
-All feedback should be constructive. Include details of what you’re thinking, what you would change and why. Avoid phrases like "I don't like it" or "That never works".
+All feedback should be constructive. Include details of what you are thinking, what you would change and why. Avoid phrases like "I don't like it" or "That never works".
 
 ### Be kind and respectful
 
