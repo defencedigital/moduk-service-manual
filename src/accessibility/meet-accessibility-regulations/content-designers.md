@@ -22,7 +22,7 @@ To create accessible content, it’s important to:
 - keep sentences short
 - avoid long paragraphs
 
-You need to follow the [GOV.UK guidance on writing content](https://www.gov.uk/guidance/content-design/writing-for-gov-uk/).
+You need to follow the <a href="//www.gov.uk/guidance/content-design/writing-for-gov-uk/" target="_blank">GOV.UK guidance on writing content<span class="govuk-visually-hidden">opens in a new tab</span></a>.
 
 ## Use clear and unique page titles
 
@@ -48,7 +48,8 @@ Avoid using bold text instead of a heading style. Assistive technology does not 
 
 A heading style can be any level from H1 to H6. Make sure you use the correct level of headings. Start with H1 as the page title. Do not skip levels, for example following a H2 with a H4.
 
-Follow the [GOV.UK guidance on heading levels](https://www.gov.uk/guidance/content-design/writing-for-gov-uk#headings).
+<a href="https://www.gov.uk/guidance/content-design/writing-for-gov-uk#headings" target="_blank">GOV.UK guidance on heading levels<span class="govuk-visually-hidden">opens in a new tab</span></a>.
+
 ## Add visually hidden text
 
 People who use assistive technologies sometimes need additional text to complete a task. The text does not appear on the screen for everyone as it is visually hidden.
@@ -76,13 +77,14 @@ When the Ministry of Defence logo appears on screen, use this alt text:
  
     <img src="ministry-of-defence.svg" alt="Ministry of Defence logo">
  
-If you can, work with a Content Designer to create alt text. Find more advice in the [GOV.UK guidance on images](https://design-system.service.gov.uk/styles/images/).
+If you can, work with a Content Designer to create alt text. Find more advice in the <a href="https://design-system.service.gov.uk/styles/images/" target="_blank">GOV.UK guidance on images<span class="govuk-visually-hidden">opens in a new tab</span></a>.
 
 ## Captions and transcripts
 
 If you have audio or video content, make sure it is accessible to everyone including people with sight and hearing impairments. You might need captions on the screen or a description of the content in a written transcript.
 
-Check the [GOV.UK guidance on captions and transcripts](https://www.gov.uk/guidance/how-to-publish-on-gov-uk/images-and-videos/).
+Check the <a href="https://www.gov.uk/guidance/how-to-publish-on-gov-uk/images-and-videos/" target="_blank">GOV.UK guidance on captions and transcripts<span class="govuk-visually-hidden">opens in a new tab</span></a>.
+
 
 ## Make links work out of context
 
@@ -92,7 +94,7 @@ Try removing everything else on the page to make sure links make sense out of co
 
 Do not use ‘Click here’ or ‘More’. Out of context these words do not make sense, and ‘click’ assumes a mouse is being used.
 
-Follow the [GOV.UK guidance on writing link text](https://www.gov.uk/guidance/content-design/links/).
+Follow the <a href="https://www.gov.uk/guidance/content-design/links/" target="_blank">GOV.UK guidance on writing link text<span class="govuk-visually-hidden">opens in a new tab</span></a>. 
 
 ## Be consistent
 
@@ -108,11 +110,13 @@ If there are security considerations, you still need to provide an error message
 
 Work with a Frontend Developer and a QA Tester to work out what error messages you need to write content for.
 
-Before you write a new error message, check the [GOV.UK error message templates](https://design-system.service.gov.uk/components/error-message/#use-error-message-templates).
+Before you write a new error message, check the <a href="https://design-system.service.gov.uk/components/error-message/#use-error-message-templates" target="_blank">GOV.UK error message templates<span class="govuk-visually-hidden">opens in a new tab</span></a>.
+
 
 ## Related guidance
 
-- [Designing accessible content](https://www.gov.uk/guidance/guidance-and-tools-for-digital-accessibility#designing-accessible-content)
-- [Writing content for everyone in your audience](https://gds.blog.gov.uk/2016/02/23/writing-content-for-everyone/)
-- [Creating accessible communications](https://gcs.civilservice.gov.uk/guidance/digital-communication/accessible-communications/)
+- <a href="https://www.gov.uk/guidance/guidance-and-tools-for-digital-accessibility#designing-accessible-content" target="_blank">Designing accessible content<span class="govuk-visually-hidden">opens in a new tab</span></a>
+- <a href="https://gds.blog.gov.uk/2016/02/23/writing-content-for-everyone/" target="_blank">Writing content for everyone in your audience<span class="govuk-visually-hidden">opens in a new tab</span></a>
+- <a href="https://gcs.civilservice.gov.uk/guidance/digital-communication/accessible-communications/" target="_blank">Creating accessible communications<span class="govuk-visually-hidden">opens in a new tab</span></a>
+
 {.govuk-list}
