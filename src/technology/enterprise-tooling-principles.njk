@@ -34,8 +34,8 @@
 
           <ul class="govuk-list govuk-list--bullet">
             <li>what tasks people are trying to do</li>
-            <li>how easy is it to configure</li>
-            <li>how sustainable the new tool is</li>
+            <li>if you can use an existing tool</li>
+            <li>how sustainable a new tool is</li>
           </ul>
 
           <h2 class="govuk-heading-l">Enterprise Tooling Principles</h2>
@@ -43,27 +43,50 @@
           <p class="govuk-body">Use these principles to help you choose the right tools for Defence.</p>
 
           {% set htmlAccordion1 %}
-            <p class="govuk-body">Defence specific guidance here.</p>
-            <p class="govuk-body"></p>
-            <ul class="govuk-list">
-              <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
-            </ul>
+            <p class="govuk-body">You need to reuse existing tools when you can. This helps you:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+
+            <li>reduce energy costs</li>
+            <li>reduce the number of tools across Defence</li>
+            <li>avoid paying for new licences</li>
+          </ul>
+<p class="govuk-body">Instead of replacing a tool, check if you can configure or upgrade the existing one.</p>
+
+<p class="govuk-body">If you buy a tool that is similar to an existing one, it is harder for Defence to meet sustainability targets.</p>
+
+<p class="govuk-body">Check the <a class="govuk-link govuk-link--no-visited-state" href="https://www.gov.uk/government/publications/greening-government-ict-and-digital-services-strategy-2020-2025/greening-government-ict-and-digital-services-strategy-2020-2025">GOV.UK ICT greening strategy</a></p>
           {% endset %}
 
           {% set htmlAccordion2 %}
-            <p class="govuk-body">Defence specific guidance here.</p>
-            <p class="govuk-body"></p>
-            <ul class="govuk-list">
-              <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
-            </ul>
+          <p class="govuk-body">Before you buy or build a new tool for Defence, you need to:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+
+            <li>understand your requirements</li>
+            <li>check what tools exists that can meet your requirements</li>
+            <li>reuse existing tools when can</li>
+          </ul>
+
+          <p class="govuk-body">If you buy or build similar tools without checking what exists, it can increase: </p>
+            <ul class="govuk-list govuk-list--bullet">
+            <li>cost</li>
+            <li>complexity</li>
+            <li>resources needed</li>
+          </ul>
             {% endset %}
 
           {% set htmlAccordion3 %}
-            <p class="govuk-body">Defence specific guidance here.</p>
-            <p class="govuk-body"></p>
-            <ul class="govuk-list">
-              <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
-            </ul>
+            <p class="govuk-body">Consider what your users will use a tool for. Ask potential future users about the tasks they need to do and the problems they are having.</p>
+<p class="govuk-body">Understanding your users helps you:</p>
+            <ul class="govuk-list govuk-list--bullet">
+            <li>define the requirements for a tool</li>
+            <li>check your business case</li>
+            <li>make the best decision for Defence</li>
+          </ul>
+
+<p class="govuk-body">If you can, work with a user researcher. You can also <a class="govuk-link govuk-link--no-visited-state" href="/your-community/user-centred-design/">ask the user centred design community</a>.
+
             {% endset %}
 
           {% set htmlAccordion4 %}
@@ -153,7 +176,7 @@
             items: [
               {
                 heading: {
-                  text: '1. Use tools that are sustainable'
+                  text: '1. Be sustainable'
                 },
                 content: {
                   html: htmlAccordion1 
@@ -161,7 +184,7 @@
               },
               {
                 heading: {
-                  text: '2. Check existing tools first'
+                  text: '2. Check existing tools'
                 },
                 content: {
                   html: htmlAccordion2
