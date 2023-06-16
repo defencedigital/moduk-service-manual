@@ -5,11 +5,11 @@ description: ""
 lead: "Use this guidance to deliver great technology in Defence. You can find general guidance on GOV.UK."
 ---
 
-## [Design and build new technology](/technology/defence-technology-principles/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Design and build new technology](/technology/design-and-build-new-technology/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- reuse common approaches and patterns
-- find common approaches you should use
-- check the principles you need to follow
+- how to avoid duplication and unnecessary costs
+- common approaches you should use
+- future proofing technology in Defence
 
 ## [Choosing tools for Defence](/technology/enterprise-tooling-principles) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
