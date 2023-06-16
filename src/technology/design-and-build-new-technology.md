@@ -13,31 +13,31 @@ When you design and build new technology for Defence, you need to do it the righ
 
 ## Defence Technology Principles
 
-### Use common standards and patterns
+### 1. Use common standards and patterns
 To avoid duplication and unnecessary costs, build your solution using approved technology, data and services.
 
-### Integrate and adapt
+### 2. Integrate and adapt
 When designing a solution, you need to plan integrations with current and future Defence data and systems.
 
-### Make data easy to access
+### 3. Make data easy to access
 Data should be available to users and systems when and where they need it, on appropriate devices and infrastructure.
 
-### Make your technical solution secure
+### 4. Make your technical solution secure
 Follow Secure by Design and other approaches to keep technology secure throughout its lifetime.
 
-### Future proof from the start
+### 5. Future proof from the start
 You need to make sure Defence technology remains current, supported, secure and reliable.
 
-### Use the cloud first
+### 6. Use the cloud first
 Host services in the cloud - it is the preferred approach across government. 
 
-### Automate and innovate where you can
+### 7. Automate and innovate where you can
 When appropriate, use modern technologies like Artificial Intelligence (AI) and Robotic Process Automation (RPA).
 
-### Reuse when you can
+### 8. Reuse when you can
 Across Defence, you need to share and reuse existing solutions to save time and money.
 
-### Continually improve
+### 9. Continually improve
 The best way to build good, user-centred products is to start small and iterate often.
 
 ## Apply the principles in Defence
