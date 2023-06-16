@@ -7,9 +7,9 @@ lead: "Use this guidance to deliver great technology in Defence. You can find ge
 
 ## [Design and build new technology](/technology/design-and-build-new-technology/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- how to avoid duplication and unnecessary costs
-- common approaches you should use
-- future proofing technology in Defence
+- avoid duplication and unnecessary costs
+- use common approaches 
+- future proof technology in Defence
 
 ## [Choosing tools for Defence](/technology/enterprise-tooling-principles) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
