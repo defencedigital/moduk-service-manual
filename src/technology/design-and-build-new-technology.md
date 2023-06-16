@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/technology/"
 ---
 
-When you design and build new technology for Defence, you need to do it the right way. 
+When you design and build new technology for Defence, you need to do it the right way. Check the principles you need to follow.
 
 ## Defence Technology Principles
 
