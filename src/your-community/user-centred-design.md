@@ -23,9 +23,9 @@ In this community, you will meet:
 
 ## Community calls
 
-Join the UCD community calls held every 2 weeks on alternate Tuesdays and Thursdays.
+Join the UCD community calls held every 2 weeks on alternate Wednesdays and Thursdays.
 
-Calls are 45 minutes. We discuss things like accessibility, tools available in Defence and cross-government collaboration.
+Calls are 55 minutes. We discuss things like accessibility, tools available in Defence and cross-government collaboration.
 
 {{ component('inset-text', {
   html: 'You must only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'
@@ -35,7 +35,7 @@ Calls are 45 minutes. We discuss things like accessibility, tools available in D
 
 You need to work in Defence to join the community calls.
 
-Using your Ministry of Defence email, send a message to: [ucd@digital.mod.uk](mailto:ucd@digital.mod.uk). 
+Using your Ministry of Defence email, send a message to: [ucd+subscribe@digital.mod.uk](mailto:ucd+subscribe@digital.mod.uk?subject=Join%20ucd%20community%20calls). 
 
 Include your full name, your role and the project you’re working on.
 
