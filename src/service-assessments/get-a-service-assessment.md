@@ -41,7 +41,7 @@ Assessments are organised by the Central Digital and Data Office (CDDO) or the M
 
 If your service is likely to have more than 100,000 transactions a year, your assessments are organised by the Central Digital and Data Office (CDDO). 
 
-Check [how to book an assessment with CDDO](https://www.gov.uk/service-manual/service-assessments/book-a-service-assessment){target="_blank"}. 
+Check <a href="https://www.gov.uk/service-manual/service-assessments/book-a-service-assessment" target="_blank">how to book an assessment with CDDO<span class="govuk-visually-hidden">opens in a new tab</span></a>.
 
 ### Fewer than 100,000 transactions
 
@@ -56,4 +56,4 @@ Find out [how to get feedback on your service](/service-assessments/get-feedback
 ## Related guidance
 
 [Applying the GOV.UK Service Standard in Defence](/meet-the-standard/)
-[More guidance on assessments on GOV.UK](https://www.gov.uk/service-manual/service-assessments){target="_blank"}
+<a href="https://www.gov.uk/service-manual/service-assessments" target="_blank">More guidance on assessments on GOV.UK<span class="govuk-visually-hidden">opens in a new tab</span></a>

@@ -40,7 +40,7 @@ If you have analytics, include some of the numbers in your story. For example, b
 
 Consider letting a few of your team tell the story of your service. The panel will appreciate hearing from the different experts on your team.
 
-Find more [tips on telling an engaging story on GOV.UK](https://services.blog.gov.uk/2020/10/12/service-demos-how-to-tell-the-story-of-your-service/){target="_blank"}. 
+Find more <a href="https://services.blog.gov.uk/2020/10/12/service-demos-how-to-tell-the-story-of-your-service/" target="_blank">tips on telling an engaging story on GOV.UK<span class="govuk-visually-hidden">opens in a new tab</span></a>.
 
 ## Collect things as they happen
 
