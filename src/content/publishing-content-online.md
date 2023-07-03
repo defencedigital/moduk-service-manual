@@ -25,7 +25,7 @@ It is important to work in the open when possible. Check what this means in Defe
       'item': 'Ask someone in security or a senior stakeholder, if you are unsure'
     }
   ]
-}) }}
+} }}
 
 {{ modukcomponent('do-dont-list', {
   'title': 'Don’t',
@@ -42,7 +42,7 @@ It is important to work in the open when possible. Check what this means in Defe
       'item': 'Do not publish any details of software or tools that can help unauthorised users get access'
     }
   ]
-}) }}
+} }}
 
 ## Working in the open in Defence
 
