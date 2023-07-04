@@ -3,24 +3,23 @@
 ## HTML markup
 
 ```html
-<div class="moduk-attachment">
-
-
-</div>
+<div class="moduk-attachment"></div>
 ```
 
 ## Nunjucks macro
 
 ```
 {{ modukcomponent('attachment', {
-  title: 'Department for Transport information asset register',
+  classes: 'govuk-!-padding-top-2 govuk-!-padding-bottom-6',
+  title: 'Apply for a medal alpha report',
+  url: '#0',
   file: {
     type: 'pdf',
     size: '19.5 KB',
     pages: '7 pages'
   },
-  url: '#0',
-  desription: 'This file may not be suitable for users of assistive technology.'
+  result: 'met',
+  assistive: true
 }) }}
 ```
 

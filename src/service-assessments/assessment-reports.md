@@ -14,6 +14,7 @@ For openness and to help other services, assessment reports are published here o
 {{ modukcomponent('attachment', {
   classes: 'govuk-!-padding-top-2 govuk-!-padding-bottom-6',
   title: 'Apply for a medal alpha report',
+  url: '#0',
   file: {
     type: 'pdf',
     size: '19.5 KB',
