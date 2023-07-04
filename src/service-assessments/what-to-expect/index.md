@@ -33,10 +33,10 @@ Check how to [apply the GOV.UK Service Standard in Defence](/meet-the-standard/)
 
 You can also check GOV.UK guidance on what to do during:
 
-- [discovery](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works){target="_blank"}
-- [alpha](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works){target="_blank"} 
-- [beta](https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works){target="_blank"} 
-- [live](https://www.gov.uk/service-manual/agile-delivery/how-the-live-phase-works){target="_blank"}
+- <a href="https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works" target="_blank">discovery<span class="govuk-visually-hidden">opens in a new tab</span></a>
+- <a href="https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works" target="_blank">alpha<span class="govuk-visually-hidden">opens in a new tab</span></a>
+- <a href="https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works" target="_blank">beta<span class="govuk-visually-hidden">opens in a new tab</span></a>
+- <a href="https://www.gov.uk/service-manual/agile-delivery/how-the-live-phase-works" target="_blank">live<span class="govuk-visually-hidden">opens in a new tab</span></a>
 
 ### Who needs to be at the assessment
 
@@ -44,7 +44,7 @@ Make sure the right people from your team are available for the assessment.
 
 Who needs to be there depends on your service and the phase you are in. You’ll get advice when you book your assessment. 
 
-Find out [more about who should attend on GOV.UK](https://www.gov.uk/service-manual/service-assessments/book-a-service-assessment#who-should-attend-the-assessment){target="_blank"}.
+Find out <a href="https://www.gov.uk/service-manual/service-assessments/book-a-service-assessment#who-should-attend-the-assessment" target="_blank">more about who should attend on GOV.UK<span class="govuk-visually-hidden">opens in a new tab</span></a>.
 
 ### Questions your team will be asked 
 
@@ -89,9 +89,9 @@ You’ll get a report with your result and any recommendations within 5 working 
 
 ### Assessment reports
 
-It is useful to see what is covered in published assessment reports. You can [check assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports){target="_blank"}.
+It is useful to see what is covered in published assessment reports. You can <a href="https://www.gov.uk/service-standard-reports" target="_blank">check assessment reports on GOV.UK<span class="govuk-visually-hidden">opens in a new tab</span></a>.
 
 ## Related guidance
 
 [Applying the GOV.UK Service Standard in Defence](/meet-the-standard/)
-[More guidance on assessments on GOV.UK](https://www.gov.uk/service-manual/service-assessments/how-service-assessments-work){target="_blank"}
+<a href="https://www.gov.uk/service-manual/service-assessments" target="_blank">More guidance on assessments on GOV.UK<span class="govuk-visually-hidden">opens in a new tab</span></a>
