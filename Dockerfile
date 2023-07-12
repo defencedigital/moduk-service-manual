@@ -18,6 +18,5 @@ COPY --from=builder /app-build/public "${HOME}"
 
 COPY nginx/startup.sh /opt/app-root/startup.sh
 COPY nginx/logging.conf "${NGINX_CONFIGURATION_PATH}"
-COPY nginx/basic_auth.conf "${NGINX_DEFAULT_CONF_PATH}"
 
 CMD /opt/app-root/startup.sh
