@@ -1,0 +1,19 @@
+name: Pre-merge check
+
+on: 
+  pull_request:
+    branches:
+      - main
+    types: [opened, reopened, synchronize, labeled]
+
+jobs:
+  check_pull_request_label:
+    name: Check pull request label
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check for the PR label
+        id: label
+        uses: zwaldowski/match-label-action@v4
+        with:
+          allowed: major,minor,patch

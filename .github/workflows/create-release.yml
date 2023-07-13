@@ -1,0 +1,32 @@
+name: Create release
+
+on: 
+  pull_request:
+    branches:
+      - main
+    types: [closed]
+
+jobs:
+  create_release:
+    name: Create release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check for the PR label
+        id: label
+        uses: zwaldowski/match-label-action@v4
+        with:
+          allowed: major,minor,patch
+      - name: Bump the version tag
+        id: next_version
+        uses: zwaldowski/semver-release-action@v3
+        with:
+          bump: ${{ steps.label.outputs.match }}
+          prefix: v
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create release
+        id: create-release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: v${{ steps.next_version.outputs.version }}
+          token: ${{ secrets.GITHUB_TOKEN }}

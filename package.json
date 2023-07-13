@@ -7,8 +7,8 @@
     "npm": "~8.15.0"
   },
   "scripts": {
-    "build": "gulp build & npx eleventy",
-    "dev": "gulp build & npx eleventy --serve",
+    "build": "gulp build && npx eleventy",
+    "dev": "gulp build && npx eleventy --serve",
     "prototype": "gulp clean && cross-env ELEVENTY_ENV=prototype npx eleventy && cross-env ELEVENTY_ENV=prototype gulp prod",
     "prod": "gulp clean && cross-env ELEVENTY_ENV=production npx eleventy && cross-env ELEVENTY_ENV=production gulp prod",
     "test": "npx @11ty/eleventy & gulp validator"
