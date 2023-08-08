@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/service-assessments/"
 ---
 
-For openness and to help other services, assessment reports are published here or on GOV.UK
+To help other services prepare for assessments, reports are published here or on GOV.UK.
 
 {{ modukcomponent('attachment', {
   classes: 'govuk-!-padding-top-2 govuk-!-padding-bottom-6',
@@ -24,4 +24,4 @@ For openness and to help other services, assessment reports are published here o
   assistive: true
 }) }}
 
-You can also [find assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports).
+You can [find more assessment reports on GOV.UK](https://www.gov.uk/service-standard-reports).
