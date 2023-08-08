@@ -67,7 +67,7 @@ If the information can be printed out, add the marking to the header and footer.
 
 In most cases, you need to provide more details on how OFFICIAL-SENSITIVE, SECRET and TOP-SECRET information should be handled. 
 
-This is added to the classification marking like this:
+Add the details to the classification marking like this:
 
 CLASSIFICATION - HANDLING INSTRUCTION 
 
