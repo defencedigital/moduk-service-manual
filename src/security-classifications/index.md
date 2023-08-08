@@ -15,7 +15,7 @@ lead: "Everyone working in Defence needs to know how to classify and mark inform
 
 - How to mark OFFICIAL information
 - Use OFFICIAL-SENSITIVE correctly
-- How to markSECRET and TOP SECRET information
+- How to mark SECRET and TOP SECRET information
 
 ## [Publishing content online](/content/publishing-content-online/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
