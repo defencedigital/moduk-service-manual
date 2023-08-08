@@ -29,7 +29,7 @@ You need to be aware of the security classification of all information you deal 
 
 When you send emails on a MOD device, you will be asked to select the security classification.
 
-If you create new information or capture new data, [check how to label it](/security-classifications/how-to-label-information/).
+If you create new information or capture new data, [check how to mark it](/security-classifications/how-to-label-information/).
 
 ### OFFICIAL
 

@@ -1,8 +1,8 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Security classifications"
-title: "How to label information"
-description: "Check how to label OFFICIAL, SECRET and TOP-SECRET information and how to use OFFICIAL-SENSITIVE correctly in Defence."
+title: "How to mark information"
+description: "Check how to mark OFFICIAL, SECRET and TOP-SECRET information and how to use OFFICIAL-SENSITIVE correctly in Defence."
 dateUpdated: 2023-08-08
 eleventyNavigation:
   key: "Security classifications"
