@@ -23,7 +23,8 @@ lead: "Everyone working in Defence needs to know how to classify and label infor
 - Keep information secure and people safe
 - What you must not publish online
 
+<!-- 
 ### Publishing information online
 
-If your service needs to share OFFICIAL information online, [check what you can and cannot publish](/content/publishing-content-online/).
+If your service needs to share OFFICIAL information online, [check what you can and cannot publish](/content/publishing-content-online/). -->
 
