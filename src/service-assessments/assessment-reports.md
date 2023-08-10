@@ -14,7 +14,7 @@ To help services prepare for assessments, reports are published here or on GOV.U
 {{ modukcomponent('attachment', {
   classes: 'govuk-!-padding-top-2 govuk-!-padding-bottom-6',
   title: 'Apply for a medal alpha report',
-  url: '#0',
+  url: '/downloads/Apply%20for%20a%20Medal%20Alpha%20Reassessment%20Report.pdf',
   file: {
     type: 'pdf',
     size: '19.5 KB',
