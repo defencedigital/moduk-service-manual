@@ -39,39 +39,35 @@ You need to mark information correctly so that people understand how to protect 
 
 ## OFFICIAL information
 
-Where possible, you need to mark information as OFFICIAL. If the information can be printed out, add the marking to the header and footer. 
-  
-### Do not over classify OFFICIAL information
+Where possible, you need to mark information as OFFICIAL. 
 
-If you classify information higher than it needs, people may struggle to access it. For example, services classified as SECRET do not let users access the internet.
-
-Managing SECRET information is at least 10 times more expensive than OFFICIAL information.
+If the information can be printed out, add the marking to the header and footer. You should also add the marking in the subject line of emails.
 
 ### Use OFFICIAL-SENSITIVE correctly
 
-OFFICIAL-SENSITIVE is not a security classification. It is an additional marking used to identify sensitive information stored on OFFICIAL systems.
+OFFICIAL-SENSITIVE is not a security classification. It is an additional marking. 
 
-Using OFFICIAL-SENSITIVE as a security classification can lead to dangerous practices including:
-
-- all data being treated as equally sensitive
-- designing systems to protect all types of sensitive data when they only handle some sensitive data or none at all
+Only use OFFICIAL-SENSITIVE if there are sensitive details in OFFICIAL information.
 
 
-## OFFICIAL-SENSITIVE, SECRET and TOP SECRET information
+## SECRET and TOP SECRET information
 
-You must clearly mark OFFICIAL-SENSITIVE, SECRET and TOP SECRET information.
+You must clearly mark SECRET and TOP SECRET information.
 
-If the information can be printed out, add the marking to the header and footer. You also need to add the marking in the subject line of emails.
+If the information can be printed out, add the marking to the header and footer. You must also add the marking in the subject line of emails.
 
-### Add more details about the information
 
-In most cases, you need to provide more details on how OFFICIAL-SENSITIVE, SECRET and TOP-SECRET information should be handled. 
+### Add more details 
 
-Add the details to the classification marking like this:
+If you mark information as OFFICIAL-SENSITIVE, SECRET or TOP-SECRET, you need to add more details. 
+
+Always add details like this:
 
 CLASSIFICATION - HANDLING INSTRUCTION 
 
-### Check the official list
+### Check and use the official list
+
+The UK Government and MOD use a set of standard markings to tell people how to handle and protect information.
 
 There are many official handling instructions and descriptors. 
 
@@ -80,7 +76,5 @@ Examples include:
 - RECIPIENTS ONLY for information that must be handled by named individuals on a strict need-to-know basis
 - LOCSEN for information that staff engaged overseas cannot access
 - PERSONAL for sensitive information that can be linked to an individual
-
-There are also codewords, prefixes and national caveats. 
 
 You can [check the full list on GOV.UK](https://www.gov.uk/government/publications/government-security-classifications/government-security-classifications-policy-html#additional-markings).
