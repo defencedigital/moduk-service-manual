@@ -57,7 +57,9 @@ Check <a href="https://www.gov.uk/government/publications/government-security-cl
 
 ## SECRET and TOP SECRET information
 
-You must clearly mark SECRET and TOP SECRET information. If the information can be printed out, add the marking to the header and footer. 
+You must clearly mark SECRET and TOP SECRET information. 
+
+If the information can be printed out, add the marking to the header and footer. 
 
 You must mark information in emails. On Defence devices, you are usually prompted to select a marking. 
 
