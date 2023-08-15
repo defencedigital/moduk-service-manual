@@ -39,7 +39,7 @@ You need to mark information correctly so that people understand how to protect 
 
 ## OFFICIAL information
 
-Where possible, you need to mark information as OFFICIAL. 
+You need to mark information as OFFICIAL when it is practical to do so.
 
 If the information can be printed out, add the marking to the header and footer. 
 
