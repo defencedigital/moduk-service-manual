@@ -41,7 +41,10 @@ You need to mark information correctly so that people understand how to protect 
 
 Where possible, you need to mark information as OFFICIAL. 
 
-If the information can be printed out, add the marking to the header and footer. You should also add the marking in the subject line of emails.
+If the information can be printed out, add the marking to the header and footer. 
+
+You should also mark information in emails. On Defence devices, you are usually prompted to select a marking. 
+
 
 ### Use OFFICIAL-SENSITIVE correctly
 
@@ -49,32 +52,35 @@ OFFICIAL-SENSITIVE is not a security classification. It is an additional marking
 
 Only use OFFICIAL-SENSITIVE if there are sensitive details in OFFICIAL information.
 
+Check <a href="https://www.gov.uk/government/publications/government-security-classifications/government-security-classifications-policy-html#additional-markings:~:text=Applying%20the%20%2DSENSITIVE%20marking" target="_blank">how to apply OFFICIAL-SENSITIVE<span class="govuk-visually-hidden">opens in a new tab</span></a>.
+
 
 ## SECRET and TOP SECRET information
 
-You must clearly mark SECRET and TOP SECRET information.
+You must clearly mark SECRET and TOP SECRET information. If the information can be printed out, add the marking to the header and footer. 
 
-If the information can be printed out, add the marking to the header and footer. You must also add the marking in the subject line of emails.
+You must mark information in emails. On Defence devices, you are usually prompted to select a marking. 
 
+## Add more details
 
-### Add more details 
+Often, you can add more details to tell people how to handle and protect information.
 
-If you mark information as OFFICIAL-SENSITIVE, SECRET or TOP-SECRET, you need to add more details. 
+Add details after the classification marking, like this:
 
-Always add details like this:
+CLASSIFICATION - HANDLING INSTRUCTION - DESCRIPTOR
 
-CLASSIFICATION - HANDLING INSTRUCTION 
+This includes the additional marking of OFFICIAL-SENSITIVE. 
 
-### Check and use the official list
+For example: OFFICIAL-SENSITIVE RECIPIENTS ONLY.
 
-The UK Government and MOD use a set of standard markings to tell people how to handle and protect information.
+### Use the official list
 
-There are many official handling instructions and descriptors. 
+The UK Government and MOD use a set of standard markings.
 
 Examples include:
 
 - RECIPIENTS ONLY for information that must be handled by named individuals on a strict need-to-know basis
-- LOCSEN for information that staff engaged overseas cannot access
-- PERSONAL for sensitive information that can be linked to an individual
+- LOCSEN for information that staff overseas cannot access
+- PERSONAL DATA for information that can identify a living person
 
-You can [check the full list on GOV.UK](https://www.gov.uk/government/publications/government-security-classifications/government-security-classifications-policy-html#additional-markings).
+You need to <a href="https://www.gov.uk/government/publications/government-security-classifications/government-security-classifications-policy-html#additional-markings" target="_blank">check the full list on GOV.UK<span class="govuk-visually-hidden">opens in a new tab</span></a>.
