@@ -73,7 +73,7 @@ CLASSIFICATION - HANDLING INSTRUCTION - DESCRIPTOR
 
 This includes the additional marking of OFFICIAL-SENSITIVE. 
 
-For example: OFFICIAL-SENSITIVE RECIPIENTS ONLY.
+For example: OFFICIAL-SENSITIVE - RECIPIENTS ONLY.
 
 ### Use the official list
 
@@ -83,6 +83,6 @@ Examples include:
 
 - RECIPIENTS ONLY for information that must be handled by named individuals on a strict need-to-know basis
 - LOCSEN for information that staff overseas cannot access
-- PERSONAL DATA for information that can identify a living person
+- COMMERCIAL for information that may be commercially damaging or is subject to commercial confidentiality
 
 You need to <a href="https://www.gov.uk/government/publications/government-security-classifications/government-security-classifications-policy-html#additional-markings" target="_blank">check the full list on GOV.UK<span class="govuk-visually-hidden">opens in a new tab</span></a>.
