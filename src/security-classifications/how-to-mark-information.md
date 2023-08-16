@@ -77,7 +77,7 @@ For example: OFFICIAL-SENSITIVE - RECIPIENTS ONLY.
 
 ### Use the official list
 
-The UK Government and MOD use a set of standard markings.
+The UK Government and the Ministry of Defence use a set of standard markings.
 
 Examples include:
 
