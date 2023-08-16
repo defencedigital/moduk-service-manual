@@ -71,9 +71,13 @@ Add details after the classification marking, like this:
 
 CLASSIFICATION - HANDLING INSTRUCTION - DESCRIPTOR
 
-This includes the additional marking of OFFICIAL-SENSITIVE. 
+This includes the additional marking of OFFICIAL-SENSITIVE. For example: 
 
+<<<<<<< Updated upstream:src/security-classifications/how-to-label-information.md
 For example: OFFICIAL-SENSITIVE RECIPIENTS ONLY.
+=======
+OFFICIAL-SENSITIVE - RECIPIENTS ONLY - COMMERCIAL
+>>>>>>> Stashed changes:src/security-classifications/how-to-mark-information.md
 
 ### Use the official list
 
