@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Service assessments"
 title: "Service assessment reports"
-description: "Check service assessment reports for Defence services that have already been assessed."
+description: " You can check service assessment reports for digital services in Defence."
 datePublished: 2023-08-08
 eleventyNavigation:
   key: "Service assessments"
