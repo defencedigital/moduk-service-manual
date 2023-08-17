@@ -29,9 +29,15 @@ You need to be aware of the security classification of all information you deal 
 
 When you send emails on a MOD device, you will be asked to select the security classification.
 
-If you create new information or capture new data, [check how to label it](/security-classifications/how-to-label-information/).
+If you create new information or capture new data, [check how to mark it](/security-classifications/how-to-mark-information/).
 
-### OFFICIAL
+### Do not over classify information
+
+If you classify information higher than it needs, people may struggle to access it. For example, services classified as SECRET do not let users access the internet.
+
+Managing SECRET information is at least 10 times more expensive than OFFICIAL information.
+
+## OFFICIAL information
 
 The majority of information created or used in Defence is at OFFICIAL level. The consequences of this information being shared are similar to those faced by a large private company with valuable information.
 
@@ -42,7 +48,11 @@ OFFICIAL information includes:
 - routine international relations and diplomatic activities
 - public safety, criminal justice and enforcement activities
 
-### SECRET
+{{ component('inset-text', {
+  text: 'OFFICIAL-SENSITIVE is not a security classification. It is an additional marking for sensitive details in OFFICIAL information.'
+}) }}
+
+## SECRET information
 
 Some information in Defence is considered very sensitive and must be protected from any highly capable people or organisations that are determined to cause harm.
 
@@ -54,7 +64,7 @@ This includes information where tampering, loss or access by unauthorised people
 
 You will usually know that you are working on information or systems classified as SECRET.
 
-### TOP SECRET
+## TOP SECRET information
 
 A small amount of information in Defence must be protected from the most serious threats.
 
@@ -79,3 +89,4 @@ Collecting large amounts of data does not always mean that you have to classify 
 - [Government security classifications](https://www.gov.uk/government/publications/government-security-classifications/)
 - [OFFICIAL-SENSITIVE data and IT](https://www.gov.uk/guidance/official-sensitive-data-and-it/)
 {.govuk-list}
+
