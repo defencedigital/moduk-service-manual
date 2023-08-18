@@ -1,7 +1,7 @@
 ---
 layout: "layouts/two-column.njk"
 title: "Security classifications"
-description: "Keep and share information securely in Defence, check how to use security classifications and mark information."
+description: "Keep and share information securely in Defence. Check how to use security classifications and mark information."
 lead: "Everyone working in Defence needs to know how to classify and mark information correctly."
 ---
 
