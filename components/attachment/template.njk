@@ -1,0 +1,45 @@
+{% set headingLevel = params.headingLevel if params.headingLevel else 3 %}
+
+{% set fileType = params.file.type if params.file.type else 'other' %}
+
+<div class="moduk-attachment govuk-!-display-none-print{%- if params.classes %} {{ params.classes }}{% endif %}"{%- for attribute, value in params.attributes %} {{attribute}}="{{value}}"{% endfor %}>
+
+<div class="moduk-attachment__thumbnail">
+
+<a class="govuk-link" target="_self" tabindex="-1" aria-hidden="true" href="{{ params.url }}">
+  <img class="moduk-attachment__thumbnail-image" src="/assets/images/attachment/document-{{ fileType }}.svg" aria-hidden="true">
+</a>
+
+</div>
+
+<div class="moduk-attachment__details">
+
+  <h{{ headingLevel }} class="moduk-attachment__title">
+    <a class="govuk-link govuk-link--no-visited-state moduk-attachment__link" target="_self" href="{{ params.url }}">{{ params.title }}</a>
+  </h{{ headingLevel }}>
+
+  {% if params.result %}
+  <p class="moduk-attachment__metadata moduk-attachment__metadata--compact">
+    <span class="moduk-attachment__attribute">Result: <span class="govuk-!-font-weight-bold">{{ params.result | lower }}</span></span>
+  </p>
+  {% endif %}
+
+{% if params.file %}
+  {% set fileMetadataItems = [] %}
+  {% if params.file.type %}{% set fileMetadataItems = (fileMetadataItems.push(params.file.type | upper), fileMetadataItems) %}{% endif %}
+  {% if params.file.size %}{% set fileMetadataItems = (fileMetadataItems.push(params.file.size | upper), fileMetadataItems) %}{% endif %}
+  {% if params.file.pages %}{% set fileMetadataItems = (fileMetadataItems.push(params.file.pages | lower), fileMetadataItems) %}{% endif %}
+  <p class="moduk-attachment__metadata">
+    <span class="moduk-attachment__attribute">{{ fileMetadataItems | join(', ') }}</span>
+  </p>
+{% endif %}
+
+  {% if (params.file.type == 'pdf') and (params.assistive) %}
+  <p class="moduk-attachment__metadata">
+    <span class="moduk-attachment__attribute govuk-!-font-size-16">This file may not be suitable for users of assistive technology.</span>
+  </p>
+  {% endif %}
+
+</div>
+
+</div>
