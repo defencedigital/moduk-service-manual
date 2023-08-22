@@ -89,7 +89,15 @@ You’ll get a report with your result and any recommendations within 5 working 
 
 ### Assessment reports
 
-It is useful to see what is covered in published assessment reports. You can <a href="https://www.gov.uk/service-standard-reports" target="_blank">check assessment reports on GOV.UK<span class="govuk-visually-hidden">opens in a new tab</span></a>.
+For openness, all assessment reports are published online. 
+
+You might find it useful to see what is covered in previous assessment reports. 
+
+You can check: 
+
+- [reports published by MOD](/service-assessments/assessment-reports/)
+- <a href="https://www.gov.uk/service-standard-reports" target="_blank">reports on GOV.UK<span class="govuk-visually-hidden">opens in a new tab</span></a>
+
 
 ## Related guidance
 
