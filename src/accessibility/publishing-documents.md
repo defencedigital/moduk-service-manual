@@ -13,7 +13,7 @@ eleventyNavigation:
 
 Any documents you include in your service, such as PDFs, must be accessible. Check the guidance on [publishing accessible documents](https://www.gov.uk/guidance/publishing-accessible-documents/).
 
-If you need help to make documents accessible, on a MOD device contact the [Directorate of Defence Communications](https://modgovuk.sharepoint.com/sites/IntranetHeadOffice/SitePages/Defence-Communications.aspx).
+If you need help to make documents accessible, on a MOD device contact the Directorate of Defence Communications.
 
 ## Accessibility statements
 

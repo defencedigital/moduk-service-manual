@@ -44,6 +44,6 @@ The best way to build good, user-centred products is to start small and iterate 
 
 For guidance on how to apply these principles in Defence, you need access to a MOD device.
 
-On a MOD device, you can [find out more about the Defence Technology Principles](https://defence-technology-principles.digital.mod.uk/).
+On a MOD device, search for Defence Technology Principles.
 
 You should also check you are following the [GOV.UK Technology Code of Practice](https://www.gov.uk/guidance/the-technology-code-of-practice). It is an agreed standard used across UK Government.
