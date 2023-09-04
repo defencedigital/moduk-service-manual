@@ -57,7 +57,7 @@ Many military terms are agreed by NATO and used internationally.
 
 If your service uses military terms, you must not change how military terms are written or described. In certain circumstances, changing a military term can be dangerous.
 
-On a MOD device, you can [check Defence terminology](https://modgovuk.sharepoint.com/sites/IntranetHeadOffice/SitePages/Defence-Terminology.aspx). 
+On a MOD device, search for Defence terminology. 
 
 You can also [contact the Development, Concepts and Doctrine Centre](https://www.gov.uk/government/groups/development-concepts-and-doctrine-centre).
 
