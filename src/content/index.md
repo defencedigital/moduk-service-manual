@@ -18,7 +18,8 @@ related: "content"
 - Use simple language
 - Take care with military terms
 
-## How to audit content
+## [How to audit content](/content/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
 - Why you must audit content in Defence
 - Where to start and how to plan an audit
 - Use common templates and checklists
