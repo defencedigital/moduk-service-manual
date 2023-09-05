@@ -27,7 +27,7 @@ You need to be aware of the security classification of all information you deal 
 - add comments to online tools
 - write and share messages 
 
-When you send emails on a MOD device, you will be asked to select the security classification.
+When you send emails on MODNET, you will be asked to select the security classification.
 
 If you create new information or capture new data, [check how to mark it](/security-classifications/how-to-mark-information/).
 

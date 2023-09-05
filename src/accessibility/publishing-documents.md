@@ -15,7 +15,7 @@ Any documents you include in your service, such as PDFs, must be accessible. Che
 
 <a href="" target="_blank">   <span class="govuk-visually-hidden">opens in a new tab</span></a>
 
-If you need help to make documents accessible, on a MOD device contact the Directorate of Defence Communications.
+If you need help to make documents accessible, on MODNET contact the Directorate of Defence Communications.
 
 ## Accessibility statements
 
