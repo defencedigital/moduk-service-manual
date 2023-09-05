@@ -1,7 +1,7 @@
 ---
 layout: "layouts/two-column.njk"
 title:  "Technology"
-description: ""
+description: "Anyone working on technology in Defence can check the principles they need to follow."
 lead: "Use this guidance to deliver great technology in Defence. You can find general guidance on GOV.UK."
 ---
 
@@ -14,10 +14,10 @@ lead: "Use this guidance to deliver great technology in Defence. You can find ge
 ## [Choosing technology tools for Defence](/technology/enterprise-tooling-principles) {.govuk-heading-m .govuk-!-margin-bottom-1}
  
 - avoid duplication and unnecessary costs
-- future proof technology in Defence
+- future prooSf technology in Defence
 - be sustainable
 
-
+S
 ## [Using Artificial Intelligence in Defence](/technology/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - decide when to use AI and when not to
