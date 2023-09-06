@@ -11,7 +11,7 @@ lead: "Use this guidance to deliver great technology in Defence. You can find ge
 - make the best use of data
 - be secure 
 
-## [Choosing technology tools for Defence](/technology/enterprise-tooling-principles) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Choosing tools for Defence](/technology/enterprise-tooling-principles) {.govuk-heading-m .govuk-!-margin-bottom-1}
  
 - avoid duplication and unnecessary costs
 - future proof technology in Defence
