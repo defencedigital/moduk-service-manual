@@ -17,7 +17,6 @@ lead: "Use this guidance to deliver great technology in Defence. You can find ge
 - future prooSf technology in Defence
 - be sustainable
 
-S
 ## [Using Artificial Intelligence in Defence](/technology/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - decide when to use AI and when not to
