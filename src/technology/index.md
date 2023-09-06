@@ -14,7 +14,7 @@ lead: "Use this guidance to deliver great technology in Defence. You can find ge
 ## [Choosing technology tools for Defence](/technology/enterprise-tooling-principles) {.govuk-heading-m .govuk-!-margin-bottom-1}
  
 - avoid duplication and unnecessary costs
-- future prooSf technology in Defence
+- future proof technology in Defence
 - be sustainable
 
 ## [Using Artificial Intelligence in Defence](/technology/) {.govuk-heading-m .govuk-!-margin-bottom-1}
