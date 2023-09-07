@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Design"
 title: "Make decisions based on evidence"
-description: "To design great services for Defence, you need reliable data and to make decisions based on it. Find out more."
+description: "To design great services for Defence, you need reliable data and make decisions based on it. Find out more."
 datePublished: 2023-09-07
 eleventyNavigation:
   key: "Design"
@@ -35,7 +35,9 @@ After you have designed your service, maybe data shows that not all users have a
 
 In discovery, sometimes data shows that a new digital service is not needed. Making an evidence-based decision not to continue helps Defence spend taxpayers’ money wisely. 
 
-In alpha and beta, data is essential to designing services that users can and will use. When your service is live, data helps you track success and improve things for users.
+In alpha and beta, data is essential to designing services that users can and will use. 
+
+When your service is live, data helps you track success and improve things for users.
 
 {{ modukcomponent('callout', {
   title: 'Case study',
