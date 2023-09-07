@@ -59,9 +59,7 @@ Before starting a discovery or making a research plan, you need to check if the 
 For now, you can: 
 
 - search MODNET for similar projects 
-- share what you’re doing with the user-centred design (UCD) community
-
-You can [join the UCD community](/your-community/user-centred-design/).
+- share what you’re doing with the [user-centred design (UCD) community](/your-community/user-centred-design/)
 
 Any team in Defence can use the Defence Data Analytics Platform (DDAP) to make the most of data. <a href="https://data-ai.service.mod.gov.uk/" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>Find out more</a>.
 
