@@ -16,7 +16,7 @@ To design great services for Defence, you need reliable data and to make decisio
 
 In Defence, teams designing digital services are expected to know their users. This helps you understand how your service is or will be used.
 
-Getting and interpreting data helps you: 
+Getting and understanding data helps you: 
 
 - avoid assumptions and bias
 - make objective design decisions
