@@ -12,6 +12,13 @@ related: "design"
 - Use the correct styles
 - Use official images and videos
 
+## [Make decisions based on evidence](/design/make-decisions-based-on-evidence/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
+- Design with data in Defence
+- Reuse and share data
+- Get the right people on your team
+
+
 ## [Design for safety](/design/design-for-safety/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - Consider safety from the start
