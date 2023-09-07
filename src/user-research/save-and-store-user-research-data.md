@@ -11,7 +11,7 @@ eleventyNavigation:
 
 ## Keep your promises to participants
 
-On consent forms used in Defence, we promise user research participants that we will:
+On  forms used in Defence, we promise user research participants that we will:
 
 - store any notes, transcripts and videos securely
 - only share quotes and video clips with their consent
