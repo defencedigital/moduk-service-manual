@@ -2,14 +2,14 @@
 layout: "layouts/guidance.njk"
 section: "Design"
 title: "Make decisions based on evidence"
-description: "To design great services for Defence, you need reliable data and make decisions based on it. Find out more."
+description: "To design great services for Defence, you need reliable data and to make decisions based on it. Find out more."
 datePublished: 2023-09-07
 eleventyNavigation:
   key: "Design"
   url: "/design/"
 ---
 
-To design great services for Defence, you need reliable data and make decisions based on it. 
+To design great services for Defence, you need reliable data and to make decisions based on it. 
 
 
 ## Design with data in Defence
