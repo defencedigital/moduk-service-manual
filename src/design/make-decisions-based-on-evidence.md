@@ -23,7 +23,7 @@ Getting and interpreting data helps you:
 - create designs based on what your users need
 - show why decisions have been made
 
-## Check your assumptions
+### Check your assumptions
 
 Before designing a service, you need to check your assumptions. 
 
@@ -31,7 +31,7 @@ For example, a common assumption in Defence is that all users have access to MOD
 
 After you have designed your service, maybe data shows that not all users have access to MODNET. You have to spend more time and money redesigning your service.
 
-## Data in different phases 
+### Data in different phases 
 
 In discovery, sometimes data shows that a new digital service is not needed. Making an evidence-based decision not to continue helps Defence spend taxpayers’ money wisely. 
 
@@ -59,9 +59,7 @@ For now, you can:
 - search MODNET for similar projects 
 - share what you’re doing with the user-centred design (UCD) community
 
-
 You can [join the UCD community](/your-community/user-centred-design/).
-
 
 Any team in Defence can use the Defence Data Analytics Platform (DDAP) to make the most of data. <a href="https://data-ai.service.mod.gov.uk/" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>Find out more</a>.
 
