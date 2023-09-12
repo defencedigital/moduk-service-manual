@@ -9,14 +9,14 @@ eleventyNavigation:
   url: "/design/"
 ---
 
-To design great services for Defence, you need reliable data and to make decisions based on it. 
+To design great services, you need to collect reliable data and make decisions based on what you find. 
 
 
-## Design with data in Defence
+## Design with data 
 
-In Defence, teams designing digital services are expected to know their users. This helps you understand how your service is or will be used.
+Teams designing digital services for Defence are expected to know about their users. 
 
-Getting and understanding data helps you: 
+Collecting and understanding user data helps you: 
 
 - avoid assumptions and bias
 - make objective design decisions
@@ -25,7 +25,7 @@ Getting and understanding data helps you:
 
 ### Check your assumptions
 
-Before designing a service, you need to check your assumptions. 
+Before designing a service, you need to review and challenge your assumptions. 
 
 For example, a common assumption in Defence is that all users have access to MODNET. 
 
