@@ -61,7 +61,18 @@ For now, you can:
 - search MODNET for similar projects 
 - share what you’re doing with the [user-centred design (UCD) community](/your-community/user-centred-design/)
 
-Any team in Defence can use the Defence Data Analytics Platform (DDAP) to make the most of data. <a href="https://data-ai.service.mod.gov.uk/" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>Find out more</a>.
+
+### Use existing services and tools
+
+Any team in Defence can use the Data Analytics Service (DAS). The service offers tools that are approved and ready to use. 
+
+DAS tools help you:
+
+- analyse your data faster 
+- store your data securely 
+- make the most of data from across Defence
+
+Find out <a href="https://data-ai.service.mod.gov.uk/" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>more about the Data Analytics Service (DAS)</a>.
 
 ## Get the right people on your team
 
