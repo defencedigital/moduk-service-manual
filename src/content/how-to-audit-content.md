@@ -30,7 +30,7 @@ If your team has never done a content audit, run a workshop to share how we do i
 - create the content
 - own the content
 - manage the service or platform
-- are subject matter experts
+- are experts in the areas your content covers
 
 You can [use the content audit slides]() created by Content and Transaction Services (CTS), [part of Defence Digital Foundry].  
 
