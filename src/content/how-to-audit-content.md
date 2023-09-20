@@ -9,11 +9,13 @@ eleventyNavigation:
   url: "/content/"
 ---
 
-Teams publishing content in Defence are expected to check that content is still correct and needed. The best way to check is by doing regular content audits.
+Teams publishing content in Defence are expected to check that content is still correct and needed. The best way to check is doing regular content audits.
 
 ## Why you need to audit content
 
-Defence publishes a lot of content in many different places. Too much content makes it harder for people to find the information they need. Content that is no longer correct is confusing and can be dangerous.
+Defence publishes a lot of content in many different places. 
+
+Too much content makes it harder for people to find the information they need. Content that is no longer correct is confusing and can be dangerous.
 
 By doing regular audits, you:
 
