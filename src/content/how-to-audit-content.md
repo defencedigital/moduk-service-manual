@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/content/"
 ---
 
-Teams publishing content in Defence are expected to check that content is still correct and needed. The best way to check is doing regular content audits.
+Teams publishing content in Defence are expected to check that content is still correct and needed. The best way to check is by doing regular content audits.
 
 ## Why you need to audit content
 
