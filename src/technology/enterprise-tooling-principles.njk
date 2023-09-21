@@ -42,25 +42,26 @@
 
           <p class="govuk-body">Use these principles to help you choose the right tools for Defence. If you supply tools to Defence, check what we look for.</p>
 
-          <p class="govuk-body">For more details, you can <a href="/downloads/20220303-tooling-strategy-principles.docx" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>download the Enterprise Tooling Principles</a>.</p>
+          {# <p class="govuk-body">For more guidance, you can <a href="/downloads/20220303-tooling-strategy-principles.docx" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>download the Enterprise Tooling Principles</a>.</p>
+           <p class="govuk-body"> If you are registered, you can also <a href="https://www.gov.uk/guidance/knowledge-in-defence-kid" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>check Knowledge in Defence</a>.</p> #}
 
 
           <p class="govuk-body"></p>
 
-
-
           {% set htmlAccordion1 %}
-            <p class="govuk-body">You need to reuse existing tools when you can. This helps you:</p>
+            <p class="govuk-body">All UK Government departments need to reduce the energy they use and the waste they create.</p> 
+            
+            <p class="govuk-body">By reusing existing tools, you help Defence to:</p>
 
             <ul class="govuk-list govuk-list--bullet">
 
-            <li>reduce energy costs</li>
-            <li>reduce the number of tools across Defence</li>
-            <li>avoid paying for new licences</li>
+            <li>have fewer tools that do the same thing</li>
+            <li>reduce energy consumption and costs</li>
+            <li>make the most of existing licences</li>
           </ul>
-          <p class="govuk-body">Instead of replacing a tool, check if you can configure or upgrade the existing one.</p>
 
           <p class="govuk-body">If you buy a tool that is similar to an existing one, it is harder for Defence to meet our sustainability targets.</p>
+         <p class="govuk-body">Instead of replacing a tool, check if you can configure or upgrade the existing one.</p>
 
           <p class="govuk-body">Check the <a href="https://www.gov.uk/government/publications/greening-government-ict-and-digital-services-strategy-2020-2025/greening-government-ict-and-digital-services-strategy-2020-2025" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>GOV.UK ICT greening strategy</a>.</p>
 
@@ -98,13 +99,16 @@
             {% endset %}
 
           {% set htmlAccordion4 %}
-            <p class="govuk-body">Defence has enterprise agreements with many suppliers. Before buying a tool, you must check existing agreements and licences.</p>
+            <p class="govuk-body">Defence has enterprise agreements with many suppliers.</p>
+            <p class="govuk-body">Before buying a tool, ask your commercial team for details of agreements and licences already in place.</p>
             <p class="govuk-body">By buying tools under existing agreements, you:</p>
             <ul class="govuk-list govuk-list--bullet">
             <li>avoid unnecessary costs for Defence</li>
             <li>reduce the risk of failure</li>
-            <li>are more confident that a tool is supported</li>
+            <li>can be more confident that a tool is supported</li>
           </ul>
+          <p class="govuk-body">If you are registered, you can <a href="https://contracts.mod.uk/web/login.html" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>check the Defence Sourcing Portal</a>.</p>
+
             {# <ul class="govuk-list">
               <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
             </ul> #}
@@ -140,13 +144,12 @@
           {% set htmlAccordion7 %}
             <p class="govuk-body">Before creating a new API, check if you can use an existing one. You can consider internal private APIs or external public ones.</p>
             <p class="govuk-body">By using existing APIs, you reduce costs and effort. You also shorten the time it takes to deliver new tools to users.</p>
-            <p class="govuk-body">For more information, search for 'API strategy' on MODNET.</p>
-            <p class="govuk-body">You can also <a href="https://www.gov.uk/guidance/gds-api-technical-and-data-standards" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>check the GOV.UK API standards</a>.</p>
-
-            {# <ul class="govuk-list">
-              <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
-            </ul> #}
-
+            <p class="govuk-body">To check existing APIs, you can:</p>
+            <ul class="govuk-list govuk-list--bullet">
+            <li>go to the <a href="https://www.api.gov.uk/#uk-public-sector-apis" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>GOV.UK API Catalogue</a></li>
+            <li>check the <a href="https://www.gov.uk/guidance/gds-api-technical-and-data-standards" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>GOV.UK API standards</a></li>
+            <li>search for 'API strategy' on MODNET</li>
+          </ul>
 
           {% endset %}
 
@@ -154,9 +157,8 @@
             <p class="govuk-body">Always consider commercial off-the-shelf tools before buying or building something bespoke. You help reduce costs and the time it takes to make new tools available.</p>
             <p class="govuk-body">Commercial products can provide a good level of development and support. They are usually proven, reliable and supported.</p>
             <p class="govuk-body">Whenever possible, buy commercial tools using existing agreements and licences. As a customer, Defence can ask suppliers to put our requirements on their roadmap and backlogs.</p>
-            {# <ul class="govuk-list">
-              <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
-            </ul> #}
+            
+            <p class="govuk-body">For more guidance, you can <a href="https://www.gov.uk/guidance/the-ministry-of-defence-procurement-process" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>check the Ministry of Defence procurement process</a>.</p> 
 
 
             {% endset %}
@@ -179,13 +181,15 @@
             {% endset %}
 
           {% set htmlAccordion10 %}
-            <p class="govuk-body">When you buy or build a tool, think about it as a service rather than an application. For example [add an example here].</p>
-            <p class="govuk-body">Thinking of applications as services, you:</p>
+            <p class="govuk-body">When you buy or build a tool, think about it as a service rather than an application.</p>
+            <p class="govuk-body">Thinking of applications as services, helps you:</p>
           <ul class="govuk-list govuk-list--bullet">
             <li>design tools that meet the needs of users</li>
             <li>find more users who can use the tool</li>
             <li>reduce the number of tools that do the same thing</li>
           </ul>
+
+          <p class="govuk-body">For example, the award-winning MyNavy service is a collection of tools for people working in the Royal Navy. They continue to discover more ways that users want to use the service.<p>
             {# <ul class="govuk-list">
               <li><a class="govuk-link govuk-link--no-visited-state" href="">Useful link</a></li>            
             </ul> #}
@@ -301,6 +305,10 @@
               }
             ]
           }) }}
+          <br><br>
+          <h3 class="govuk-heading-m">More guidance</h3>
+          <p class="govuk-body">You can <a href="/downloads/20220303-tooling-strategy-principles.docx" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>download the Enterprise Tooling Principles</a>.</p>
+           <p class="govuk-body"> If you are registered, you can also <a href="https://www.gov.uk/guidance/knowledge-in-defence-kid" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>check Knowledge in Defence</a>.</p>
 
           <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Published November 2023</p>
 
