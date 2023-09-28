@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 section: "Service assessments"
 title: "How service assessments help your team"
-description: "Check how service assessments in Defence help digital teams and users."
+description: "Check how service assessments help digital teams and users in Defence."
 dateUpdated: 2023-09-28
 eleventyNavigation:
   key: "Service assessments"
