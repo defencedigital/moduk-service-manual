@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Service assessments"
 title: "Get a service assessment"
 description: "Check if your digital service in Defence needs a service assessment and how to book one."
-datePublished: 2023-03-14
+dateUpdated: 2023-09-28
 eleventyNavigation:
   key: "Service assessments"
   url: "/service-assessments/"
@@ -35,15 +35,11 @@ Service assessments happen towards the end of each phase of delivery. For exampl
 
 ## Book an assessment
 
-Assessments are organised by the Central Digital and Data Office (CDDO) or the Ministry of Defence. 
-
-### More than 100,000 transactions
-
 If your service is likely to have more than 100,000 transactions a year, your assessments are organised by the Central Digital and Data Office (CDDO). 
 
 Check [how to book an assessment with CDDO](https://www.gov.uk/service-manual/service-assessments/book-a-service-assessment){target="_blank"}. 
 
-### Fewer than 100,000 transactions
+<!-- ### Fewer than 100,000 transactions
 
 If your service is likely to have fewer than 100,000 transactions a year, your assessments are organised by the Ministry of Defence. 
 
@@ -51,7 +47,7 @@ To book an assessment, email [assessments@digital.mod.uk](mailto:assessments@dig
 
 You can also ask for an informal review of your service. Getting advice from peers can help you identify areas of risk early and prepare for an assessment. 
 
-Find out [how to get feedback on your service](/service-assessments/get-feedback-on-your-service).
+Find out [how to get feedback on your service](/service-assessments/get-feedback-on-your-service). -->
 
 ## Related guidance
 
