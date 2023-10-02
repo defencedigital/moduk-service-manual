@@ -9,15 +9,11 @@ eleventyNavigation:
   url: "/content/"
 ---
 
-Introductory text here.
+Intro text here.
 
 ## Sub-title 
 
-Content. Maybe an image, may be an accordion with the 7 steps?
-
-## Sub-title 1
-
-Content
+Content. Maybe an image, maybe an accordion with the 7 steps?
 
 ## Related guidance
 
