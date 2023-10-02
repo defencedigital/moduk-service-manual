@@ -6,7 +6,7 @@ lead: "Use common approaches to publish and manage great [digital] content acros
 related: "content"
 ---
 
-## [How to audit content](/content-toolkit/how-to-audit-content) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Audit your content](/content-toolkit/how-to-audit-content) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - why you need to audit content in Defence
 - how to plan an audit
