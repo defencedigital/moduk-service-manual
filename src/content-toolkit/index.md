@@ -9,7 +9,7 @@ related: "content"
 ## [How to audit content](/content-toolkit/how-to-audit-content) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - why you must audit content in Defence
-- where to start and how to plan an audit
+- how to plan an audit
 - use common templates and checklists
 
 ## [Defence publishing process](/content-toolkit/defence-publishing-process) {.govuk-heading-m .govuk-!-margin-bottom-1}
