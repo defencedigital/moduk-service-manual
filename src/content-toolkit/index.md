@@ -8,7 +8,7 @@ related: "content"
 
 ## [How to audit content](/content-toolkit/how-to-audit-content) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- why you must audit content in Defence
+- why we audit content in Defence
 - how to plan an audit
 - use common templates and checklists
 
