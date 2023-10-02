@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 title: "Your community"
 description: "Anyone working in Defence can join a community of practice. Meet people doing your role, use shared tools and learn from other projects."
-dateUpdated: 2023-04-11
+dateUpdated: 2023-10-02
 ---
 
 There are communities of practice for people working in similar roles across Defence.
@@ -25,24 +25,4 @@ You can join more than one community.
 - [Software development](/your-community/software-development/)
 - [User-centred design](/your-community/user-centred-design/)
 
-## Become a service assessor
-
-Some services have assessments to help them meet the GOV.UK Service Standard. Service assessors are from communities across Defence.
-
-Training to be a service assessor will help you: 
-
-- understand the service standards
-- learn from what other services are doing
-- create great digital services
-
-You’ll also join the assessor community across government. 
-
-### Who can get training
-
-You need to be a crown servant in Defence who has worked on a digital service for at least 6 months. 
-
-This includes anyone who has just joined Defence but has digital experience in another government department.   
-
-If you meet these criteria, send your details to [assessments@digital.mod.uk](mailto:assessments@digital.mod.uk?subject=Service%20assessor%20training). 
-
-We would like to hear from trained assessors across Defence. You can join the panel for internal service assessments.
+If you have a community in Defence that meets regularly, we can share the details here. Find out how to [get in touch](/get-in-touch/).
