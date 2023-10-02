@@ -1,6 +1,6 @@
 ---
 layout: "layouts/two-column.njk"
-title: "Defence content toolkit"
+title: "Content toolkit"
 description: Create clear content for Defence services, check the styles you need to use and how to work with content designers."
 lead: "Use common approaches to publish and manage great [digital] content across Defence."
 related: "content"
