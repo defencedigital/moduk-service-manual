@@ -12,7 +12,7 @@ related: "content"
 - how to plan an audit
 - use common templates and checklists
 
-## [Defence publishing process](/content-toolkit/defence-publishing-process) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Follow a publishing process](/content-toolkit/defence-publishing-process) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - intro  bullet 
 - intro bullet 
