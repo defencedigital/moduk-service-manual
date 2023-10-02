@@ -47,3 +47,5 @@ If you meet these criteria, send your details to [assessments@digital.mod.uk](ma
 
 We would like to hear from trained assessors across Defence. You can join the panel for internal service assessments.
  -->
+
+If you have a community in Defence that meets regularly, we can share the details here. Find out how to [get in touch](/get-in-touch/).

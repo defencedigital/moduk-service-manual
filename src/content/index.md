@@ -18,18 +18,6 @@ related: "content"
 - Use simple language
 - Take care with military terms
 
-## [How to audit content](/content/how-to-audit-content) {.govuk-heading-m .govuk-!-margin-bottom-1}
-
-- Why you must audit content in Defence
-- Where to start and how to plan an audit
-- Use common templates and checklists
-
-## [Work with content designers](/content/work-with-content-designers) {.govuk-heading-m .govuk-!-margin-bottom-1}
-
-- When to get a content designer
-- Plan to pair write
-- Use the content design community
-
 ## [Publishing content online](/content/publishing-content-online/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - Working in the open in Defence
