@@ -1,8 +1,8 @@
 ---
 layout: "layouts/two-column.njk"
 title: "Service assessments"
-description: "Find out how assessments and feedback sessions help your service, how to book one and what to expect."
-lead: "Check how service assessments work in Defence, if you need one and what to expect."
+description: "Find out how service assessments help your service, how to book one and what to expect."
+lead: "Check how service assessments work, if you need one and what to expect."
 ---
 
 ## [How service assessments help your team](/service-assessments/how-service-assessments-help-your-team) {.govuk-heading-m .govuk-!-margin-bottom-1}
@@ -29,11 +29,6 @@ lead: "Check how service assessments work in Defence, if you need one and what t
 - why this is important 
 - tips for presenting your service and users
 - collect things to show as they happen
-
-## [Get feedback on your service](/service-assessments/get-feedback-on-your-service) {.govuk-heading-m .govuk-!-margin-bottom-1}
-
-- ask for an informal feedback session
-- learn from others across Defence
 
 ## [Check the code of conduct](/service-assessments/check-the-code-of-conduct) {.govuk-heading-m .govuk-!-margin-bottom-1}
 

@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Service assessments"
 title: "How service assessments help your team"
 description: "Check how service assessments in Defence help digital teams and users."
-datePublished: 2023-03-14
+dateUpdated: 2023-10-02
 eleventyNavigation:
   key: "Service assessments"
   url: "/service-assessments/"
@@ -54,22 +54,3 @@ Service assessments help you check you are:
 - following best practices used in Defence and across government  
 - making the most of existing components and patterns
 
-## Become a service assessor
-
-Training to be a service assessor will help you: 
-
-- understand the service standards
-- learn from what other services are doing
-- create great digital services
-
-You’ll also join the assessor community across government. 
-
-### Who can get training
-
-You need to be a crown servant in Defence who has worked on a digital service for at least 6 months. 
-
-This includes anyone who has just joined Defence but has digital experience in another government department. 
-
-If you meet these criteria, send your details to [assessments@digital.mod.uk](mailto:assessments@digital.mod.uk?subject=Service%20assessor%20training). 
-
-We would like to hear from trained assessors across Defence. You can join the panel for service assessments.
