@@ -18,7 +18,7 @@ related: "content"
 - only tell users what they need to know
 - work with a user researcher
 
-## [How to write for digital services](/content/how-to-write-for-digital-services/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Write for digital services](/content/write-for-digital-services/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - follow GOV.UK style
 - use simple language

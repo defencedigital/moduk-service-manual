@@ -1,7 +1,7 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Content"
-title: "How to write for digital services"
+title: "Write for digital services"
 description: "Everyone using digital services needs content they can understand quickly and easily. Find out more."
 dateUpdated: 2023-04-11
 eleventyNavigation:
