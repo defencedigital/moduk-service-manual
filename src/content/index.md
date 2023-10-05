@@ -6,26 +6,44 @@ lead: "Use this guidance to create user-centred content in Defence. You can find
 related: "content"
 ---
 
-## [Start with your users](/content/start-with-your-users/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Follow the publishing process](/content/follow-the-publishing-process/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- Get to know your users
-- Only tell users what they need to know
-- Work with a user researcher
+- why follow a publishing process
+- steps to publishing good content
+- get help reviewing your content
 
-## [Writing for services in Defence](/content/writing-for-services-in-Defence/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Write less content](/content/write-less-content/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- Follow GOV.UK style
-- Use simple language
-- Take care with military terms
+- get to know your users
+- only tell users what they need to know
+- work with a user researcher
+
+## [How to write for digital services](/content/how-to-write-for-digital-services/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
+- follow GOV.UK style
+- use simple language
+- take care with military terms
 
 ## [Publishing content online](/content/publishing-content-online/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- Working in the open in Defence
-- Keep information secure and people safe
-- What you must not publish online
+- working in the open in Defence
+- keep information secure and people safe
+- what you must not publish online
+
+## [Audit your content](/content/how-to-audit-content) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
+- why you need to audit content in Defence
+- how to plan an audit
+- use common templates and checklists
+
+## [Work with content designers](/content/work-with-content-designers) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
+- when to get a content designer
+- plan to pair write
+- use the content design community
 
 ## [Write a blog post for Defence Digital](/content/write-a-blog-post-for-Defence-Digital/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- When to publish a blog post
-- How to write your blog post
-- Submit your blog post
+- when to publish a blog post
+- how to write your blog post
+- submit your blog post

@@ -1,44 +1,33 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Content"
-title: "Start with your users"
-description: "You can only create useful content if you understand your users and what they need to do. Find out more."
+title: "Write less content"
+description: "Find out why it is important to only publish content that is needed and how to do it."
 datePublished: 2023-02-01
 eleventyNavigation:
   key: "Content"
   url: "/content/"
 ---
 
-You can only create useful content if you understand your users and what they need to do.
+If you write content that is not needed, you make it harder for people to do a task. It also costs time and money. 
 
-## Get to know your users
-
-Before writing content for services in Defence, you need to understand: 
-
-- who your users are
-- what tasks they are trying to do
-- how they will use your content 
-
-For example, medical personnel use an app on different devices to track casualties across a battlefield. The content must be correct and easy to understand in a highly stressful environment.
- 
 ## Only tell users what they need to know
 
-If you write content that is not needed, you make it harder for users to do a task. It also costs time and money. 
+To create content that is useful and easy to understand, you need to: 
 
-You need to:
-
-1. Write the minimum amount of content users need to do the task.
+1. Write the minimum amount of content users need to do a task.
 2. Test the content with actual or potential users.
+3. Make improvements based on user feedback.
 
 This helps you:
 
 - keep content specific to the task
-- check if users understand content
+- check if users understand your content
 - get evidence of what content is missing
 
 ## Work with a user researcher
 
-When you have written content, it can be hard to present it without bias.
+When you have written some content, it can be hard to show it to users without adding your own opinions.
 
 Ask a user researcher to test your content with users. User researchers are familiar with research processes and ethics in Defence. Make sure you observe the research sessions.
 

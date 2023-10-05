@@ -1,0 +1,190 @@
+{% extends "layouts/base.njk" %}
+
+{% block body %}
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-breadcrumbs">
+
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
+        </li>
+      </ol>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-main-wrapper">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">Follow the publishing process</h1>
+        </div>
+      </div>
+
+      <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-two-thirds">
+          
+          <p class="govuk-body">Use this publishing processes to create and manage content that is:</p>
+          
+          <ul class="govuk-list govuk-list--bullet">
+            <li>correct and up to date</li>
+            <li>clear and easy for people to understand</li>
+            <li>....</li>
+          </ul>
+
+          <p class="govuk-body"></p>
+
+          {% set htmlAccordion1 %}
+          <p class="govuk-body">You can only create useful content if you understand your users and what they need to do.</p> 
+
+          <p class="govuk-body">You need to find out:</p>
+
+          <ul class="govuk-list govuk-list--bullet">
+            <li>who your users are</li>
+            <li>what tasks they are trying to do</li>
+            <li>how they will use your content </li>
+          </ul>
+
+          <p class="govuk-body">For example, medical personnel use an app on different devices to track casualties across a battlefield. The content must be correct and easy to understand in a highly stressful environment.</p>
+
+          <p class="govuk-body">Find out <a href="/content/write-less-content"> how to write less content</a>.</p>
+
+          
+          {% endset %}
+
+          {% set htmlAccordion2 %}
+            <p class="govuk-body">Content here</p> 
+
+          {% endset %}
+
+          {% set htmlAccordion3 %}
+            <p class="govuk-body">Content here</p> 
+
+          {% endset %}
+
+          {% set htmlAccordion4 %}
+            <p class="govuk-body">Content here</p> 
+
+          {% endset %}
+
+          {% set htmlAccordion5 %}
+            <p class="govuk-body">Content here</p> 
+
+          {% endset %}
+
+          {% set htmlAccordion6 %}
+          <p class="govuk-body">Content here</p> 
+
+          {% endset %}
+        
+          {% set htmlAccordion7 %}
+          <p class="govuk-body">Content here</p> 
+
+          {% endset %}
+
+          {% set htmlAccordion8 %}
+          <p class="govuk-body">Content here</p> 
+
+            {% endset %}
+
+          {% set htmlAccordion9 %}
+          <p class="govuk-body">Content here</p> 
+
+          {% endset %}
+
+          {{ component('accordion', {
+            classes: 'govuk-!-margin-bottom-0',
+            id: 'accordion-standards',
+            items: [
+              {
+                heading: {
+                  text: '1. Start with user needs'
+                },
+                content: {
+                  html: htmlAccordion1 
+                }
+              },
+              {
+                heading: {
+                  text: '2. Review any existing content'
+                },
+                content: {
+                  html: htmlAccordion2
+                }
+              },
+              {
+                heading: {
+                  text: '3. Draft content with the experts'
+                },
+                content: {
+                  html: htmlAccordion3
+                }
+              },
+              {
+                heading: {
+                  text: '4. Ask others to look at the content'
+                },
+                content: {
+                  html: htmlAccordion4
+                }
+              },
+              {
+                heading: {
+                  text: '5. Test with users and make changes'
+                },
+                content: {
+                  html: htmlAccordion5
+                }
+              },
+              {
+                heading: {
+                  text: '6. Check facts and get final approval'
+                },
+                content: {
+                  html: htmlAccordion6
+                }
+              },
+              {
+                heading: {
+                  text: '7. Check GOV.UK standards'
+                },
+                content: {
+                  html: htmlAccordion7
+                }
+              },
+              {
+                heading: {
+                  text: '8. Publish your content'
+                },
+                content: {
+                  html: htmlAccordion8
+                }
+              },
+              {
+                heading: {
+                  text: '9. Keep reviewing your content'
+                },
+                content: {
+                  html: htmlAccordion9
+                }
+              }
+            ]
+          }) }}
+
+          <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Published November 2023</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}
