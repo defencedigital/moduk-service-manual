@@ -8,7 +8,7 @@ related: "content"
 
 ## [Follow the publishing process](/content/follow-the-publishing-process/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- why follow a publishing process
+- why follow the publishing process
 - steps to publishing good content
 - get help reviewing your content
 
