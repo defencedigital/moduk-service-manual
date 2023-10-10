@@ -12,13 +12,14 @@ related: "content"
 - steps to publishing good content
 - get help reviewing your content
 
+
 ## [Write less content](/content/write-less-content/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - get to know your users
 - only tell users what they need to know
 - work with a user researcher
 
-## [Write for digital services](/content/write-for-digital-services/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [How to write for digital services](/content/write-for-digital-services/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - follow GOV.UK style
 - use simple language
@@ -30,7 +31,7 @@ related: "content"
 - keep information secure and people safe
 - what you must not publish online
 
-## [Audit your content](/content/how-to-audit-content) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [How to audit content](/content/how-to-audit-content) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - why you need to audit content in Defence
 - how to plan an audit
