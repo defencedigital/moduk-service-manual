@@ -3,7 +3,7 @@ layout: "layouts/two-column.njk"
 title: "Content toolkit"
 description: Create clear content for Defence services, check the styles you need to use and how to work with content designers."
 lead: "Use common approaches to publish and manage great [digital] content across Defence."
-related: "content"
+related: "content-toolkit"
 ---
 
 ## [Audit your content](/content-toolkit/how-to-audit-content) {.govuk-heading-m .govuk-!-margin-bottom-1}
