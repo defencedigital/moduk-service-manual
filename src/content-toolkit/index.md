@@ -2,21 +2,21 @@
 layout: "layouts/two-column.njk"
 title: "Content toolkit"
 description: Create clear content for Defence services, check the styles you need to use and how to work with content designers."
-lead: "Use common approaches to publish and manage great [digital] content across Defence."
+lead: "Use existing tools and templates to publish and manage content across Defence."
 related: "content-toolkit"
 ---
+
+## [Follow the publishing process](/content-toolkit/follow-the-publishing-process) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
+- why follow the publishing process
+- steps to publishing good content
+- get help reviewing your content
 
 ## [Audit your content](/content-toolkit/how-to-audit-content) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - why you need to audit content in Defence
 - how to plan an audit
 - use common templates and checklists
-
-## [Follow a publishing process](/content-toolkit/defence-publishing-process) {.govuk-heading-m .govuk-!-margin-bottom-1}
-
-- intro  bullet 
-- intro bullet 
-- intro bullet
 
 ## [Work with content designers](/content-toolkit/work-with-content-designers) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
