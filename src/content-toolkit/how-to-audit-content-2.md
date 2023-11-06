@@ -107,12 +107,12 @@ Based on the data you have collected, you can recommend what happens to differen
 
 In Defence, the options are usually: 
 
-1. Keep content as it is
-2. Keep it but make changes
-3. Merge it with other content
-4. Keep it but move it elsewhere
-5. Archive it
-6. Delete it
+1. Keep content as it is.
+2. Keep it but make changes.
+3. Merge it with other content.
+4. Keep it but move it elsewhere.
+5. Archive it.
+6. Delete it.
 
 You need to work closely with content owners. Remember to share the audit data with them, it shows that your recommendations are based on evidence.
 
