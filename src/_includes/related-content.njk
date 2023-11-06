@@ -17,8 +17,9 @@
 
   {% elif related === 'content' %}
     {{ modukcomponent('callout', {
+      classes: 'moduk-callout--v2',
       title: 'Content toolkit',
-      content: '<p>Reuse processes and templates for publishing content, including audits. </p>',
+      content: '<p>Reuse processes and templates for publishing content, including audits.</p>',
       link: {
         text: 'Use the toolkit',
         hiddenText: 'about how the Home Office uses data to design services',
@@ -41,7 +42,7 @@
     }) }}
 
   {% elif related === 'content-toolkit' %}
-
+    
     {{ modukcomponent('related-content', {
       "ariaLabel": 'Related content',
       "id": 'related-join-the-community',

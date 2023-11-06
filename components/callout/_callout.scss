@@ -9,7 +9,7 @@ Description: A callout to differentiate a block of text from the content that su
 .moduk-callout {
   @include govuk-font(19);
   background-color: govuk-colour("light-grey");
-  border: 1px solid govuk-colour("light-grey");
+  border: 1px solid govuk-colour("light-grey"); // Accessibility high-contrast feature
   margin-bottom: govuk-spacing(7);
   margin-top: govuk-spacing(8) + govuk-spacing(1); // Accounts for the label
   padding: govuk-spacing(5);
@@ -48,4 +48,22 @@ Description: A callout to differentiate a block of text from the content that su
 
   }
 
+}
+
+
+// Alternative version of our callout component (reset some styles)
+.moduk-callout--v2 {
+  margin-top: 0;
+  padding: 0;
+  position: static;
+}
+
+.moduk-callout--v2 .moduk-callout__label {
+  display: block;
+  margin: 0;
+  top: 0;
+}
+
+.moduk-callout--v2 .moduk-callout__content {
+  padding: govuk-spacing(5);
 }
