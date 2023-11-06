@@ -1,1 +1,282 @@
+{% extends "layouts/base.njk" %}
+
+{% block body %}
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-breadcrumbs">
+
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
+        </li>
+      </ol>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-main-wrapper">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">Follow the publishing process</h1>
+        </div>
+      </div>
+
+      <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-two-thirds">
+          
+          <p class="govuk-body">Use this publishing processes to create and manage content that is:</p>
+          
+          <ul class="govuk-list govuk-list--bullet">
+          
+            <li>based on the needs of your users</li>
+            <li>clear and easy for people to understand</li>
+            <li>correct and up to date</li>
+            <li>accessible</li>
+          </ul>
+
+          <p class="govuk-body"></p>
+
+          {% set htmlAccordion1 %}
+          <p class="govuk-body">You can only create useful content if you understand your users and what they need to do.  You need to find out:</p>
+
+          <ul class="govuk-list govuk-list--bullet">
+            <li>who your users are</li>
+            <li>what tasks they are trying to do</li>
+            <li>how they will use your content</li>
+            <li>where your content needs to be published</li>
+          </ul>
+
+          <p class="govuk-body">For example, medical personnel use an app on different devices to track casualties across a battlefield. The content must be correct and easy to understand in a highly stressful environment.</p>
+
+          <p class="govuk-body">Find out <a href="/content/write-less-content"> how to write less content</a>.</p>
+
+          
+          {% endset %}
+
+          {% set htmlAccordion2 %}
+
+            <p class="govuk-body">Before writing new content on a subject, check what is already published across Defence, for example on GOV.UK and MODNET.</p> 
+
+            <p class="govuk-body">Creating duplicate content can:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+            <li>produce poor search results</li>
+            <li>confuse the user</li>
+            <li>make it difficult to review and update</li>
+
+            <p class="govuk-body">By updating existing content, you make it:</p>
+
+          <ul class="govuk-list govuk-list--bullet">
+            <li>easier for users to find the information</li>
+            <li>less likely that users will be confused by duplicate content</li>
+            <li>cheaper and easier to update content in the future</li>
+          </ul> 
+
+          {% endset %}
+
+          {% set htmlAccordion3 %}
+            <p class="govuk-body">People across Defence need content that they can trust. </p> 
+
+            <p class="govuk-body">Content needs to be created with help from experts. For example, you cannot make changes to policy content without working with the relevant subject matter experts.</p> 
+
+            <p class="govuk-body">Across government, content is usually created by content designers working with experts. They use an approach called pair-writing. </p> 
+
+          <p class="govuk-body">Find out about <a href="https://servicemanual.digital.mod.uk/content/work-with-content-designers/">working with content designers and pair writing</a>.</p>
+
+          <p class="govuk-body">Check <a href="https://servicemanual.digital.mod.uk/accessibility/meet-accessibility-regulations/content-designers/">how to write accessible content</a>.</p>
+
+
+          {% endset %}
+
+          {% set htmlAccordion4 %}
+            <p class="govuk-body">When you write content, it is difficult to know where it might be confusing to others. You need to ask people who are not as close to the content to take a look at it. </p>
+
+            <p class="govuk-body">When possible in Defence, you are expected to:</p> 
+
+          <ul class="govuk-list govuk-list--bullet">
+            <li>ask another content designer to take a look</li>
+            <li>share your content in community channels and meet-ups </li>
+          </ul> 
+
+            <p class="govuk-body">You can <a href="https://servicemanual.digital.mod.uk/your-community/content/">ask the content community for advice</a>.</p>
+
+          {% endset %}
+
+          {% set htmlAccordion5 %}
+            <p class="govuk-body">Before publishing content, you need to check if it is:</p> 
+
+          <ul class="govuk-list govuk-list--bullet">
+            <li>what users are expecting</li>
+            <li>easy to read and understand</li>
+            <li>missing any important information</li>
+          </ul> 
+
+          <p class="govuk-body">If you can, ask a user researcher to test your content with users. User researchers are familiar with research processes and ethics in Defence. </p>
+
+          <p class="govuk-body">Make sure you observe the research sessions to fully understand what your users think and say. You will probably need to make a few changes to the content, based on what you learn.</p>
+
+          <p class="govuk-body">Find out about <a href="https://servicemanual.digital.mod.uk/user-research/">doing research in Defence</a>.</p>
+
+          {% endset %}
+
+          {% set htmlAccordion6 %}
+          <p class="govuk-body">After making changes based on user feedback, you need to do a final check that your content is correct. </p> 
+
+          <p class="govuk-body">Ask the owner of the content or the subject matter expert to: </p> 
+
+          <ul class="govuk-list govuk-list--number">
+            <li>Read the content one last time before it is published</li>
+            <li>Highlight anything that is not correct, without changing the content</li>
+            <li>Give you written approval that it can be published</li>
+          </ul> 
+
+          <p class="govuk-body">Find out <a href="https://www.gov.uk/government/publications/how-content-requests-from-government-get-published/fact-checking-content-on-govuk">how GOV.UK content is fact checked</a>.</p>
+
+
+          {% endset %}
+
+          {% set htmlAccordion7 %}
+          <p class="govuk-body">All content published for Defence should <a ref="https://www.gov.uk/guidance/content-design/writing-for-gov-uk">meet GOV.UK standards</a>. This includes content on internal services.</p> 
+
+          <p class="govuk-body">When you publish content in Defence or on any government platform, it needs to be:</p> 
+
+          <ul class="govuk-list govuk-list--bullet">
+            <li>clear to the user</li>
+            <li>accurate and up to date</li>
+            <li>accessible and inclusive</li>
+          </ul> 
+
+          <p class="govuk-body">Check <a href="https://www.gov.uk/guidance/content-design/writing-for-gov-uk#:~:text=Writing%20to-,GOV,-.UK%20style">how to write in GOV.UK style</a>.</p>
+
+          {% endset %}
+
+          {% set htmlAccordion8 %}
+          <p class="govuk-body">Following this process, your content is more likely to be published on the right platform and in the right format for users.</p> 
+
+          <p class="govuk-body">If people need to know about the new content, decide on how you are going to tell them. For example:</p> 
+          
+          <ul class="govuk-list govuk-list--bullet">
+            <li>a banner on a page</li>
+            <li>a message and link in a newsletter</li>
+            <li>an email to the people who need to know</li>
+          </ul>
+
+          <p class="govuk-body">Remember to tell your stakeholders, experts and anyone else who has been involved.</p> 
+
+          {% endset %}
+
+          {% set htmlAccordion9 %}
+          <p class="govuk-body">After you publish content, you need to make sure it is:</p>
+
+          <ul class="govuk-list govuk-list--bullet">
+            <li>working well for users</li>
+            <li>kept up to date</li>
+            <li>removed when it is no longer needed</li>
+          </ul> 
+
+          <p class="govuk-body">Find out how you can get hold of user feedback on your content. Many digital services have a way for users to give feedback.</p> 
+
+          <p class="govuk-body">If you can, use analytics to check if users are finding your content and how long they spend on it. </p> 
+
+          <p class="govuk-body">Do regular reviews of your content. Find out <a href="https://defence-service-manual.netlify.app/content/how-to-audit-content/">how to audit your content</a>.</p>
+
+          {% endset %}
+        
+
+          {{ component('accordion', {
+            classes: 'govuk-!-margin-bottom-0',
+            id: 'accordion-standards',
+            items: [
+              {
+                heading: {
+                  text: '1. Start with user needs'
+                },
+                content: {
+                  html: htmlAccordion1 
+                }
+              },
+              {
+                heading: {
+                  text: '2. Review existing content'
+                },
+                content: {
+                  html: htmlAccordion2
+                }
+              },
+              {
+                heading: {
+                  text: '3. Draft content with experts'
+                },
+                content: {
+                  html: htmlAccordion3
+                }
+              },
+              {
+                heading: {
+                  text: '4. Ask others to look at your content'
+                },
+                content: {
+                  html: htmlAccordion4
+                }
+              },
+              {
+                heading: {
+                  text: '5. Test with users and make changes'
+                },
+                content: {
+                  html: htmlAccordion5
+                }
+              },
+              {
+                heading: {
+                  text: '6. Check facts and get final approval'
+                },
+                content: {
+                  html: htmlAccordion6
+                }
+              },
+              {
+                heading: {
+                  text: '7. Check GOV.UK standards'
+                },
+                content: {
+                  html: htmlAccordion7
+                }
+              },
+              {
+                heading: {
+                  text: '8. Publish your content'
+                },
+                content: {
+                  html: htmlAccordion8
+                }
+              },
+              {
+                heading: {
+                  text: '9. Keep reviewing your content'
+                },
+                content: {
+                  html: htmlAccordion9
+                }
+              }
+            ]
+          }) }}
+
+          <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Published November 2023</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}
 
