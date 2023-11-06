@@ -1,4 +1,7 @@
-{% extends "layouts/base.njk" %}
+{% extends "layouts/guidance.njk" %}
+
+{% set title = "Audit your content" %}
+{# {% set description = "" %} - Mia you need to add a page description, otherwise it will be blank for SEO #}
 
 {% block body %}
 
@@ -28,173 +31,182 @@
 
       <div class="govuk-grid-row">
 
+        <div class="govuk-grid-column-one-third position-sticky">
+
+          {# Contents side navigation #}
+          <nav class="moduk-contents-list" role="navigation" aria-labelledby="moduk-contents-list">
+            
+            <h2 class="moduk-contents-list__title" id="moduk-contents-list">Contents</h2>
+            
+            <ol class="moduk-contents-list__list">
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#why-you-need-to-audit-content">Why you need to audit content</a>
+              </li>
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#tell-yout-team">Tell your team</a>
+              </li>
+
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#how-to-audit-your-content">How to audit your content</a>
+              </li>
+              
+            </ol>
+            
+          </nav>
+
+        </div>
+
         <div class="govuk-grid-column-two-thirds">
+
+          {# Main content #}
+          <div class="moduk-prose">
           
-          <p class="govuk-body">If you publish content in Defence, you must check that it is still correct and needed. You can do this by running regular content audits.</p>
-          
-          <h2 class="govuk-heading-l">Why you need to audit content</h2>
-
-          <p class="govuk-body">Defence publishes a lot of content in many different places.</p>
-
-          <p class="govuk-body">Too much content makes it harder for people to find the information they need.  Old or incorrect content is confusing and can be dangerous.</p>
-
-          <p class="govuk-body">Content audits help you to:</p>
-
-          <ul class="govuk-list govuk-list--bullet">
-          
-            <li>improve the quality of your content</li>
-            <li>deliver better search results</li>
-            <li>manage your content more efficiently</li>
-          </ul>
-
-        <h2 class="govuk-heading-l">Tell your team</h2>
-
-          <p class="govuk-body">If your team has never done a content audit, run a workshop to introduce how we do them in Defence.</p>
-
-          <p class="govuk-body">Make sure you include people who:</p>
-
-          <ul class="govuk-list govuk-list--bullet">
-          
-            <li>create the content</li>
-            <li>own the content</li>
-            <li>manage the service or platform</li>
-            <li>are experts in the areas your content covers</li>
-          </ul>
-
-          <p class="govuk-body">In your workshop, you can <a href="">use the content audit slides</a>.</p>
-
-          <h2 class="govuk-heading-l">How to audit your content</h2>
-
-          <p class="govuk-body">You can follow the 5 steps to auditing content.</p>
-
-          {% set htmlAccordion1 %}
-          <p class="govuk-body">Your goals might be different each time you do a content audit. Maybe users have told you that they need:</p>
-
-          <ul class="govuk-list govuk-list--bullet">
-            <li>less content</li>
-            <li>updated content</li>
-            <li>content that is easier to read</li>
-          </ul>
-          
-          <p class="govuk-body">You might have new requirements, like:</p>
-
-          <ul class="govuk-list govuk-list--bullet">
-            <li>checking content covers changes to policy</li>
-            <li>getting evidence of what content is used </li>
-            <li>improving how accessible your content is</li>
-          </ul>
-        
-          <p class="govuk-body">Find out <a href="https://servicemanual.digital.mod.uk/accessibility/meet-accessibility-regulations/content-designers/">more about accessible content</a>.</p>
-          
-          {% endset %}
-
-          {% set htmlAccordion2 %}
-            <p class="govuk-body">If you have a lot of content, your goals help you decide which content to start with.</p> 
-
-            <p class="govuk-body">You can with a specific section or all of the content related to one topic.</p> 
-
-           <p class="govuk-body">For transactional services, like Apply for a medal, it can be difficult to select one area. It is best to audit all of the content in a user journey.</p>
-
-            <p class="govuk-body">Some content can be archived without being audited, for example old news articles. If you archive content instead of deleting it, people should still be able to find it. </p>
-
-          {% endset %}
-
-          {% set htmlAccordion3 %}
-            <p class="govuk-body">For each piece of content, you need to check things like: </p> 
-
-          <ul class="govuk-list govuk-list--bullet">
-            <li>when it was last updated</li>
-            <li>who owns it</li>
-            <li>how it is tagged for search</li>
-          </ul>
-          
-            <p class="govuk-body">Most services have a way of checking how often a piece of content is used. Analytics help give you evidence and confidence to delete content.</p> 
+            <p>If you publish content in Defence, you must check that it is still correct and needed. You can do this by running regular content audits.</p>
             
-            <p class="govuk-body">To help you collect data, <a href=""> download the content audit template</a>.</p> 
+            <h2 id="why-you-need-to-audit-content">Why you need to audit content</h2>
 
+            <p>Defence publishes a lot of content in many different places.</p>
 
-          {% endset %}
+            <p>Too much content makes it harder for people to find the information they need.  Old or incorrect content is confusing and can be dangerous.</p>
 
-          {% set htmlAccordion4 %}
-            <p class="govuk-body">With the data, you can decide if your content is still useful. For example, out of date or duplicate content adds little value and can sometimes confuse people.</p> 
+            <p>Content audits help you to:</p>
 
-            <p class="govuk-body">You can assess how well your content is written. For example, is it in GOV.UK style and plain language?</p> 
+            <ul>          
+              <li>improve the quality of your content</li>
+              <li>deliver better search results</li>
+              <li>manage your content more efficiently</li>
+            </ul>
 
-            <p class="govuk-body">Content designers are familiar with GOV.UK and Defence writing styles. They can check how easy the content is to read.</p> 
+            <h2 id="tell-your-team">Tell your team</h2>
 
-            <p class="govuk-body">If you do not have a content designer in your team, <a href="https://servicemanual.digital.mod.uk/your-community/content/">ask the content community for advice</a>.</p>
+            <p>If your team has never done a content audit, run a workshop to introduce how we do them in Defence.</p>
 
-          {% endset %}
+            <p>Make sure you include people who:</p>
 
-          {% set htmlAccordion5 %}
-            <p class="govuk-body">Based on the data and your assessment, you can recommend what happens to pieces of content. </p> 
-            
-            <p class="govuk-body">In Defence, the options are usually:</p>
+            <ul>          
+              <li>create the content</li>
+              <li>own the content</li>
+              <li>manage the service or platform</li>
+              <li>are experts in the areas your content covers</li>
+            </ul>
 
-          <ol class="govuk-list govuk-list--number">
-            <li>keep content as it is</li>
-            <li>keep it but make changes</li>
-            <li>merge it with other content</li>
-            <li>keep it but move it elsewhere</li>
-            <li>archive it</li>
-            <li>delete it</li>
-          </ol> 
+            <p>In your workshop, you can <a href="#0">use the content audit slides</a>.</p>
 
-            <p class="govuk-body">You need to work closely with content owners. Remember to share the audit data with them.</p>
+            <h2 id="how-to-audit-your-content">How to audit your content</h2>
 
-          {% endset %}
+            <p >You can follow the 5 steps to auditing content.</p>
 
-          {{ component('accordion', {
-            classes: 'govuk-!-margin-bottom-0',
-            id: 'accordion-standards',
-            items: [
-              {
-                heading: {
-                  text: '1. Agree your goals'
+            {% set htmlAccordion1 %}
+              <p>Your goals might be different each time you do a content audit. Maybe users have told you that they need:</p>
+              <ul>
+                <li>less content</li>
+                <li>updated content</li>
+                <li>content that is easier to read</li>
+              </ul>              
+              <p>You might have new requirements, like:</p>
+              <ul>
+                <li>checking content covers changes to policy</li>
+                <li>getting evidence of what content is used </li>
+                <li>improving how accessible your content is</li>
+              </ul>            
+              <p>Find out <a href="/accessibility/meet-accessibility-regulations/content-designers/">more about accessible content</a>.</p>          
+            {% endset %}
+
+            {% set htmlAccordion2 %}
+              <p>If you have a lot of content, your goals help you decide which content to start with.</p>
+              <p>You can with a specific section or all of the content related to one topic.</p>
+              <p>For transactional services, like Apply for a medal, it can be difficult to select one area. It is best to audit all of the content in a user journey.</p>
+              <p>Some content can be archived without being audited, for example old news articles. If you archive content instead of deleting it, people should still be able to find it.</p>
+            {% endset %}
+
+            {% set htmlAccordion3 %}
+              <p>For each piece of content, you need to check things like: </p>
+              <ul>
+                <li>when it was last updated</li>
+                <li>who owns it</li>
+                <li>how it is tagged for search</li>
+              </ul>
+              <p>Most services have a way of checking how often a piece of content is used. Analytics help give you evidence and confidence to delete content.</p>
+              <p>To help you collect data, <a href="#0"> download the content audit template</a>.</p>
+            {% endset %}
+
+            {% set htmlAccordion4 %}
+              <p>With the data, you can decide if your content is still useful. For example, out of date or duplicate content adds little value and can sometimes confuse people.</p> 
+              <p>You can assess how well your content is written. For example, is it in GOV.UK style and plain language?</p>
+              <p>Content designers are familiar with GOV.UK and Defence writing styles. They can check how easy the content is to read.</p>
+              <p>If you do not have a content designer in your team, <a href="/your-community/content/">ask the content community for advice</a>.</p>
+            {% endset %}
+
+            {% set htmlAccordion5 %}
+              <p>Based on the data and your assessment, you can recommend what happens to pieces of content.</p>              
+              <p>In Defence, the options are usually:</p>
+              <ol>
+                <li>keep content as it is</li>
+                <li>keep it but make changes</li>
+                <li>merge it with other content</li>
+                <li>keep it but move it elsewhere</li>
+                <li>archive it</li>
+                <li>delete it</li>
+              </ol>
+              <p>You need to work closely with content owners. Remember to share the audit data with them.</p>
+            {% endset %}
+
+            {{ component('accordion', {
+              classes: 'govuk-!-margin-bottom-6',
+              id: 'accordion-standards',
+              items: [
+                {
+                  heading: {
+                    text: '1. Agree your goals'
+                  },
+                  content: {
+                    html: htmlAccordion1 
+                  }
                 },
-                content: {
-                  html: htmlAccordion1 
-                }
-              },
-              {
-                heading: {
-                  text: '2. Select the content'
+                {
+                  heading: {
+                    text: '2. Select the content'
+                  },
+                  content: {
+                    html: htmlAccordion2
+                  }
                 },
-                content: {
-                  html: htmlAccordion2
-                }
-              },
-              {
-                heading: {
-                  text: '3. Collect data'
+                {
+                  heading: {
+                    text: '3. Collect data'
+                  },
+                  content: {
+                    html: htmlAccordion3
+                  }
                 },
-                content: {
-                  html: htmlAccordion3
-                }
-              },
-              {
-                heading: {
-                  text: '4. Assess quality and value '
+                {
+                  heading: {
+                    text: '4. Assess quality and value '
+                  },
+                  content: {
+                    html: htmlAccordion4
+                  }
                 },
-                content: {
-                  html: htmlAccordion4
+                {
+                  heading: {
+                    text: '5. Make your recommendations'
+                  },
+                  content: {
+                    html: htmlAccordion5
+                  }
                 }
-              },
-              {
-                heading: {
-                  text: '5. Make your recommendations'
-                },
-                content: {
-                  html: htmlAccordion5
-                }
-              }
-            ]
-          }) }}<br><br>
-          <h3 class="govuk-heading-m">Ask a question</h3>
+              ]
+            }) }}
 
-          <p class="govuk-body">If you have questions or suggestions, email <a href="">Content and Transaction Services</a>.</p>
+            <h3>Ask a question</h3>
 
-          <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Published November 2023</p>
+            <p>If you have questions or suggestions, email <a href="#0">Content and Transaction Services</a>.</p>
+
+            <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Published November 2023</p>
+
+          </div>
 
         </div>
 
