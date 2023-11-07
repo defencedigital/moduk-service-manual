@@ -35,7 +35,10 @@ Make sure you include people who:
 - manage the service or platform
 - are experts in the areas your content covers
 
-In your workshop, you can [use the content audit slides]().  
+{{ component('inset-text', {
+  html: 'In the workshop with your team, you can <a href="">use the content audit slides</a>.'
+}) }}
+ 
 
 ## How to do a content audit
 
