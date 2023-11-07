@@ -83,6 +83,10 @@
 
             <p>If your team has never done a content audit, run a workshop to introduce how we do them in Defence.</p>
 
+            {{ component('inset-text', {
+              html: 'In your workshop, you can <a href="#0">use the content audit slides</a>'
+            }) }}
+
             <p>Make sure you include people who:</p>
 
             <ul>          
@@ -92,10 +96,6 @@
               <li>are experts in the areas your content covers</li>
             </ul>
 
-            {{ component('inset-text', {
-              html: 'In your workshop, you can <a href="#0">use the content audit slides</a>'
-            }) }}
-            
             <h2 id="how-to-audit-your-content">How to audit your content</h2>
 
             <p >You can follow the 5 steps to auditing content.</p>
@@ -130,8 +130,13 @@
                 <li>who owns it</li>
                 <li>how it is tagged for search</li>
               </ul>
-              <p>Most services have a way of checking how often a piece of content is used. Analytics help give you evidence and confidence to delete content.</p>
-              <p>To help you collect data, <a href="#0"> download the content audit template</a>.</p>
+
+            {{ component('inset-text', {
+              html: 'To help you collect data, <a href="#0"> use the content audit template</a>.'
+            }) }}
+
+            <p>Most services have a way of checking how often a piece of content is used. Analytics help give you evidence and confidence to delete content.</p>
+
             {% endset %}
 
             {% set htmlAccordion4 %}
