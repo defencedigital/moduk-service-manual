@@ -6,32 +6,27 @@ lead: "Use this guidance to create user-centred content in Defence. You can find
 related: "content"
 ---
 
-## [Start with your users](/content/start-with-your-users/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Write less content](/content/write-less-content/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- Get to know your users
-- Only tell users what they need to know
-- Work with a user researcher
+- get to know your users
+- only tell users what they need to know
+- work with a user researcher
 
-## [Writing for services in Defence](/content/writing-for-services-in-Defence/) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [How to write for digital services](/content/write-for-digital-services/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- Follow GOV.UK style
-- Use simple language
-- Take care with military terms
+- follow GOV.UK style
+- use simple language
+- take care with military terms
 
 ## [Publishing content online](/content/publishing-content-online/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- Working in the open in Defence
-- Keep information secure and people safe
-- What you must not publish online
+- working in the open in Defence
+- keep information secure and people safe
+- what you must not publish online
 
-## [Work with content designers](/content/work-with-content-designers) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Write a blog post for Defence Digital](/content/write-a-blog-post-for-Defence-Digital/) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- When to get a content designer
-- Plan to pair write
-- Use the content design community
+- when to publish a blog post
+- how to write your blog post
+- submit your blog post
 
-## [Write a blog post for Defence Digital](/content/write-a-blog-post-for-defence-digital) {.govuk-heading-m .govuk-!-margin-bottom-1}
-
-- When to publish a blog post
-- How to write your blog post
-- Submit your blog post
