@@ -1,12 +1,12 @@
 ---
 layout: "layouts/guidance.njk"
-section: "Content"
+section: "Content toolkit"
 title: "Work with content designers"
 decsription: "If your service has words, images or videos, you should have a content designer on your team. Find out more."
 dateUpdated: 2023-04-11
 eleventyNavigation:
-  key: "Content"
-  url: "/content/"
+  key: "Content toolkit"
+  url: "/content-toolkit/"
 ---
 
 If your service has words, images or videos, you should have a content designer on your team. 

@@ -16,7 +16,7 @@
     }) }}
 
   {% elif related === 'content' %}
-     {{ modukcomponent('callout', {
+    {{ modukcomponent('callout', {
       classes: 'moduk-callout--v2',
       title: 'Content toolkit',
       content: '<p>Reuse processes and templates for publishing content, including audits.</p>',
@@ -28,6 +28,21 @@
       }
     }) }}
 
+    {{ modukcomponent('related-content', {
+      "ariaLabel": 'Related content',
+      "id": 'related-join-the-community',
+      "title": 'Join the community',
+      "description": 'Share what you are doing and learn from projects across Defence.',
+      "items": [
+        {
+          "text": 'Content community',
+          "url": '/your-community/content/'
+        }
+      ]
+    }) }}
+
+  {% elif related === 'content-toolkit' %}
+    
     {{ modukcomponent('related-content', {
       "ariaLabel": 'Related content',
       "id": 'related-join-the-community',

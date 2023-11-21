@@ -23,4 +23,3 @@ related: "content-toolkit"
 - when to get a content designer
 - plan to pair write
 - use the content design community
-
