@@ -1,7 +1,7 @@
 {% extends "layouts/guidance.njk" %}
 
 {% set title = "Audit your content" %}
-{# {% set description = "" %} - Mia you need to add a page description, otherwise it will be blank for SEO #}
+{# {% set description = "" %} Mia add your page description for SEO purposes here #}
 
 {% block body %}
 
@@ -12,6 +12,9 @@
       <ol class="govuk-breadcrumbs__list">
         <li class="govuk-breadcrumbs__list-item">
           <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
+        </li>
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}content-toolkit/">Content toolkit</a>
         </li>
       </ol>
 
@@ -25,6 +28,7 @@
 
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-two-thirds">
+          <span class="govuk-caption-xl">Content toolkit</span>
           <h1 class="govuk-heading-xl">Audit your content</h1>
         </div>
       </div>
@@ -45,7 +49,7 @@
               </li>
               
               <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
-                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#tell-yout-team">Tell your team</a>
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#tell-your-team">Tell your team</a>
               </li>
 
               <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
@@ -210,7 +214,7 @@
 
             <h3>Ask a question</h3>
 
-          <p class="govuk-body">If you have questions or suggestions, <a href="mailto:service-manual@digital.mod.uk?subject=About content audits">email the Defence Service Manual team</a>.</p>
+            <p>If you have questions or suggestions, <a href="mailto:service-manual@digital.mod.uk?subject=About content audits">email the Defence Service Manual team</a>.</p>
 
             <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Published November 2023</p>
 
