@@ -42,5 +42,8 @@
     "markdown-it-replace-link": "^1.1.0",
     "node-sass": "^7.0.1",
     "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.31"
   }
 }
