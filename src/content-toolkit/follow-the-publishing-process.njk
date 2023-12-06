@@ -1,4 +1,4 @@
-{% extends "layouts/base.njk" %}
+{% extends "layouts/guidance.njk" %}
 
 {% block body %}
 
@@ -39,9 +39,17 @@
             <li>correct and up to date</li>
           </ul>
 
-          <p class="govuk-body">You need to include the right people at the right time. You can <a href="/downloads/">download a template to add names to</a>. Remember to share this with everyone involved.</p>
+          <h2 class="govuk-heading-l">Include the right people</h2>
 
+          <p class="govuk-body">The publishing process involves different people at each stage. For example, you will work with experts to draft the content. You also need to know who has the authority to sign the content off.
 
+          {{ component('inset-text', {
+          text: 'You must agree who will approve your content. This can only be one person.'
+          }) }}
+          
+          <p class="govuk-body">To help you agree who will do what, you can <a href="/downloads/">download a template to add names to</a>.</p>
+
+          <h2 class="govuk-heading-l">The publishing process</h2>
           <p class="govuk-body"></p>
 
           {% set htmlAccordion1 %}
