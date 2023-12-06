@@ -28,6 +28,33 @@
 
       <div class="govuk-grid-row">
 
+        <div class="govuk-grid-column-one-third position-sticky">
+
+          {# Contents side navigation #}
+          <nav class="moduk-contents-list" role="navigation" aria-labelledby="moduk-contents-list">
+            
+            <h2 class="moduk-contents-list__title" id="moduk-contents-list">Contents</h2>
+            
+            <ol class="moduk-contents-list__list">
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#why-you-need-to-audit-content">Why you need to audit content</a>
+              </li>
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#tell-yout-team">Tell your team</a>
+              </li>
+
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#how-to-audit-your-content">How to audit your content</a>
+              </li>
+              
+            </ol>
+            
+          </nav>
+
+        </div>
+
         <div class="govuk-grid-column-two-thirds">
           
           <p class="govuk-body">Use this publishing processes to create and manage content that is:</p>
@@ -41,7 +68,7 @@
 
           <h2 class="govuk-heading-l">Include the right people</h2>
 
-          <p class="govuk-body">The publishing process involves different people at each stage. For example, you will work with experts to draft the content. You also need to know who has the authority to sign the content off.
+          <p class="govuk-body">You need different people at each stage. For example, you will work with experts to draft the content. You also need to know who has the authority to sign the content off.
 
           {{ component('inset-text', {
           text: 'You must agree who will approve your content. This can only be one person.'
