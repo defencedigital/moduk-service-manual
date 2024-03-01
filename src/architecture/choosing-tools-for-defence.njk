@@ -1,0 +1,280 @@
+{% extends "layouts/base.njk" %}
+
+{% block body %}
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-breadcrumbs">
+
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
+        </li>
+      </ol>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-main-wrapper">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">Choosing tools for Defence</h1>
+        </div>
+      </div>
+
+      <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-two-thirds">
+          
+          <p class="govuk-body">Before buying or building a new tool, you need to check things like:</p>
+
+          <ul class="govuk-list govuk-list--bullet">
+            <li>what tasks people are trying to do</li>
+            <li>if they can use an existing tool</li>
+            <li>how sustainable a new tool is</li>
+          </ul>
+
+          <h2 class="govuk-heading-l">Follow the Enterprise Tooling Principles</h2>
+
+          <p class="govuk-body">Use these high-level principles to help you choose the right tools for Defence. If you supply tools to Defence, check what we look for.</p>
+
+          <p class="govuk-body"></p>
+
+          {% set htmlAccordion1 %}
+            <p class="govuk-body">When you buy or build a tool, think about it as a service rather than an application.</p>
+            <p class="govuk-body">Thinking of applications as services, helps you:</p>
+          <ul class="govuk-list govuk-list--bullet">
+            <li>define what people need to do</li>
+            <li>find more users who can use the tool</li>
+            <li>reduce the number of tools that do the same thing</li>
+          </ul>
+
+          <p class="govuk-body">For example, the MyHR service is a collection of tools for people working in the Ministry of Defence. MyHR can be used by other organisations.<p>
+          
+          {% endset %}
+
+          {% set htmlAccordion2 %}
+            <p class="govuk-body">Consider what people will use a tool for. Ask potential users about the tasks they need to do and the problems they are having.</p>
+            <p class="govuk-body">Understanding your user’s needs helps you define the requirements for a tool. You will also make better decisions for Defence.</p>
+            <p class="govuk-body">If you can, work with a user researcher.</p>
+          
+          <p class="govuk-body">You can also <a class="govuk-link govuk-link--no-visited-state" href="/your-community/user-centred-design/">join the user centred design community</a>.
+
+
+            {% endset %}
+
+          {% set htmlAccordion3 %}
+          <p class="govuk-body">Before you buy or build a new tool for Defence, you need to:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+
+            <li>understand all of the requirements</li>
+            <li>check what tools exist that can meet your requirements</li>
+            <li>reuse existing tools when you can</li>
+            <li>consider how it will be supported</li>
+          </ul>
+
+          <p class="govuk-body">By considering existing tools, you can reduce:</p>
+            <ul class="govuk-list govuk-list--bullet">
+            <li>cost</li>
+            <li>complexity</li>
+            <li>resources needed</li>
+          </ul>
+
+          <p class="govuk-body">On MODNET, search for and check the Defence Application Register.</p>
+
+            {% endset %}
+
+          {% set htmlAccordion4 %}
+            <p class="govuk-body">All UK Government departments need to reduce the energy they use and the waste they create.</p> 
+            
+            <p class="govuk-body">By reusing existing tools, you help Defence to:</p>
+
+            <ul class="govuk-list govuk-list--bullet">
+
+            <li>have fewer tools that do the same thing</li>
+            <li>reduce energy consumption and costs</li>
+            <li>make the most of existing licences</li>
+          </ul>
+
+          <p class="govuk-body">If you buy a tool that is similar to an existing one, it is harder for Defence to meet our sustainability targets.</p>
+         <p class="govuk-body">Instead of replacing a tool, check if you can configure or upgrade the existing one.</p>
+
+          <p class="govuk-body">Check the <a href="https://www.gov.uk/government/publications/greening-government-ict-and-digital-services-strategy-2020-2025/greening-government-ict-and-digital-services-strategy-2020-2025" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>GOV.UK ICT greening strategy</a>.</p>
+
+            {% endset %}
+
+          {% set htmlAccordion5 %}
+            <p class="govuk-body">Defence has enterprise agreements with many suppliers. Before buying a tool, you must ask the Defence Digital licencing team which agreements and licences are already in place.</p>
+</p>
+            <p class="govuk-body">By buying tools under existing agreements, you can:</p>
+            <ul class="govuk-list govuk-list--bullet">
+            <li>avoid unnecessary costs for Defence</li>
+            <li>reduce the risk of failure</li>
+            <li>be more confident that a tool is supported through-life </li>
+          </ul>
+          <p class="govuk-body">If you work in the Ministry of Defence, you can <a href=mailto:UKStratComDD-OPS-OSM-SACM-SAM@mod.gov.uk target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>contact the Defence Digital licencing team</a>.</p>
+
+            {% endset %}
+
+          {% set htmlAccordion6 %}
+            <p class="govuk-body">Always consider commercial off-the-shelf tools before buying or building something bespoke. This can reduce costs and time taken to build new tools.</p>
+            <p class="govuk-body">Commercial products can provide a good level of development and support. They are usually proven, reliable and supported.</p>
+            <p class="govuk-body">As a customer, Defence can ask suppliers to put our requirements on their roadmap and backlogs.</p>
+            
+            <p class="govuk-body">You can <a href="https://www.gov.uk/guidance/the-ministry-of-defence-procurement-process" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>check the Ministry of Defence procurement process</a>.</p> 
+
+          {% endset %}
+        
+          {% set htmlAccordion7 %}
+            <p class="govuk-body">All teams building or buying tools for Defence are expected to create and maintain documentation.</p>
+            <p class="govuk-body">By providing up-to-date documentation, you make it easier for others to:</p>
+          <ul class="govuk-list govuk-list--bullet">
+            <li>manage, update or retire a tool</li>
+            <li>understand the impact of changes</li>
+            <li>compare tools across Defence </li>
+          </ul>
+          <p class="govuk-body">On MODNET, search for Defence technical documentation guidance.</p>
+
+          <p class="govuk-body">You can <a href="https://www.gov.uk/service-manual/communities/technical-writing-community" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>find more guidance on GOV.UK</a>.</p>
+
+
+          {% endset %}
+
+          {% set htmlAccordion8 %}
+            <p class="govuk-body">Before creating a new API, check if you can use an existing one. You can consider internal private APIs or external public ones.</p>
+            <p class="govuk-body">By using existing APIs, you can reduce costs and effort. You can also shorten the time it takes to deliver new tools to users.</p>
+            <p class="govuk-body">On MODNET, search for and check the API catalogue for Defence</a>.</p>
+          </ul>
+
+            {% endset %}
+
+          {% set htmlAccordion9 %}
+            <p class="govuk-body">Customising a tool usually means changing the code. This is slow and expensive. It also makes it harder to move to a different tool in the future.</p>
+            <p class="govuk-body">Configuring a tool means using existing features to meet the needs of your users. This can help you deliver more quickly and reduce costs.</p>
+            <p class="govuk-body">When you buy or build a tool, you need to:</p>
+            <ul class="govuk-list govuk-list--bullet">
+            <li>make sure it is easy to configure</li>
+            <li>ensure configuration changes are documented</li>
+            <li>consider how the tool works with our data and APIs</li>
+            </ul>
+
+            {% endset %}
+
+          {% set htmlAccordion10 %}
+            <p class="govuk-body">When you buy or build a tool, where possible make sure the user interface is browser based.</p>
+            <p class="govuk-body">By using existing browser interfaces, you can: </p>
+          <ul class="govuk-list govuk-list--bullet">
+            <li>make services that are easy to use</li>
+            <li>more easily meet accessibility regulations </li>
+            <li>reduce the cost of releasing and maintaining software</li>
+            <li>reduce the need for training</li>
+          </ul>
+          <p class="govuk-body">Check how to <a href="https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>design for different browsers and devices</a>.</p>
+
+            {% endset %}
+
+          {{ component('accordion', {
+            classes: 'govuk-!-margin-bottom-0',
+            id: 'accordion-standards',
+            items: [
+              {
+                heading: {
+                  text: '1. Think services not applications'
+                },
+                content: {
+                  html: htmlAccordion1 
+                }
+              },
+              {
+                heading: {
+                  text: '2. Select tools based on user needs'
+                },
+                content: {
+                  html: htmlAccordion2
+                }
+              },
+              {
+                heading: {
+                  text: '3. Check existing tools'
+                },
+                content: {
+                  html: htmlAccordion3
+                }
+              },
+              {
+                heading: {
+                  text: '4. Be sustainable'
+                },
+                content: {
+                  html: htmlAccordion4
+                }
+              },
+              {
+                heading: {
+                  text: '5. Use existing agreements and licences'
+                },
+                content: {
+                  html: htmlAccordion5
+                }
+              },
+              {
+                heading: {
+                  text: '6. Start with commercial off-the-shelf options'
+                },
+                content: {
+                  html: htmlAccordion6
+                }
+              },
+              {
+                heading: {
+                  text: '7. Make sure tools are fully documented'
+                },
+                content: {
+                  html: htmlAccordion7
+                }
+              },
+              {
+                heading: {
+                  text: '8. Use existing APIs'
+                },
+                content: {
+                  html: htmlAccordion8
+                }
+              },
+              {
+                heading: {
+                  text: '9. Configure a tool, don\'t customise it'
+                },
+                content: {
+                  html: htmlAccordion9
+                }
+              },
+              {
+                heading: {
+                  text: '10.  Keep user interfaces browser based'
+                },
+                content: {
+                  html: htmlAccordion10
+                }
+              }
+            ]
+          }) }}
+          <br><br>
+          <p class="govuk-body">To check you are meeting these principles, use the <a href="/downloads/20230616-tooling-strategy-principles.pdf" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>Enterprise Tooling Strategy Principles</a>.</p>
+
+          <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Published January 2024</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}
