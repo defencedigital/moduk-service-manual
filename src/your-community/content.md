@@ -23,7 +23,7 @@ In this community, you will meet:
 
 ## Community calls
 
-Join the content community calls held every second Wednesday at 11am.
+Join the content community call every second Thursday at 2:30pm.
 
 We discuss the latest content news and updates. We share insights, issues and what we’re working on. 
 

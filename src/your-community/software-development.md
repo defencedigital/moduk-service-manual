@@ -23,7 +23,7 @@ In this community, you will meet:
 
 ## Community calls
 
-Join the software development community calls held every second Thursday from 11am to 12pm.
+Join the software development community call held every second Thursday from 11am to 12pm.
 
 We discuss things like software development tools available in Defence, building secure software and best practices.
 
