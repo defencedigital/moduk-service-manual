@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Community"
 title: "User-centred design"
 description: "Anyone in a user-centred design role in Defence can join the community. Find out how to get involved."
-dateUpdated: 2023-06-12
+dateUpdated: 2024-03-05
 eleventyNavigation:
   key: "Your community"
   url: "/your-community/"
@@ -23,7 +23,7 @@ In this community, you will meet:
 
 ## Community calls
 
-Join the UCD community calls held every 2 weeks on alternate Wednesdays and Thursdays.
+Join the UCD community call on the third Thursday of the month at 2pm. 
 
 Calls are 55 minutes. We discuss things like accessibility, tools available in Defence and cross-government collaboration.
 

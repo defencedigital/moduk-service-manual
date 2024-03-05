@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Community"
 title: "Content"
 description: "Anyone creating content for digital services in Defence can join the content community. Find out how to get involved."
-dateUpdated: 2023-06-12
+dateUpdated: 2024-03-05
 eleventyNavigation:
   key: "Content"
   url: "/content/"
@@ -23,7 +23,7 @@ In this community, you will meet:
 
 ## Community calls
 
-Join the content community calls held every second Wednesday at 11am.
+Join the content community call every second Thursday at 2:30pm.
 
 We discuss the latest content news and updates. We share insights, issues and what we’re working on. 
 
