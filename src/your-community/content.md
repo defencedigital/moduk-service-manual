@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Community"
 title: "Content"
 description: "Anyone creating content for digital services in Defence can join the content community. Find out how to get involved."
-dateUpdated: 2023-06-12
+dateUpdated: 2024-03-05
 eleventyNavigation:
   key: "Content"
   url: "/content/"
