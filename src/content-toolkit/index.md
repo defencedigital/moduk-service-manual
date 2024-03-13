@@ -12,6 +12,12 @@ related: "content-toolkit"
 - steps to publishing good content
 - get help reviewing your content
 
+## [Use the content checklist](/content-toolkit/use-the-content-checklist) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
+- how to write less
+- make your content easy to read
+- meet GOV.UK and Defence standards
+
 ## [Audit your content](/content-toolkit/how-to-audit-content) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - why you need to audit content in Defence

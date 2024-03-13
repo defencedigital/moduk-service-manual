@@ -1,0 +1,224 @@
+{% extends "layouts/guidance.njk" %}
+
+{% set title = "Use the content checklist" %}
+{% set description = "When you write content for Defence, use this checklist to help you meet GOV.UK and Defence content standards. " %}
+
+{% block body %}
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-breadcrumbs">
+
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
+        </li>
+      </ol>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-main-wrapper">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">Use the content checklist</h1>
+        </div>
+      </div>
+
+      <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-one-third position-sticky">
+
+          {# Contents side navigation #}
+          {# <nav class="moduk-contents-list" role="navigation" aria-labelledby="moduk-contents-list">
+            
+            <h2 class="moduk-contents-list__title" id="moduk-contents-list">Contents</h2>
+            
+            <ol class="moduk-contents-list__list">
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#include-the-right-people">Include the right people</a>
+              </li>
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#the-publishing-process">Publishing process</a>
+              </li>
+              
+            </ol>
+            
+          </nav> #}
+
+        </div>
+
+        <div class="govuk-grid-column-two-thirds">
+          
+          <p class="govuk-body">Use this checklist to write better content for people across Defence.</p>
+
+          <p class="govuk-body">This checklist supports GOV.UK and Defence content standards.</p>
+
+          {% set htmlAccordion1 %}
+          <p class="govuk-body"></p>
+
+          {% endset %}
+
+          {% set htmlAccordion2 %}
+
+            <p class="govuk-body"></p> 
+
+          {% endset %}
+
+          {% set htmlAccordion3 %}
+            <p class="govuk-body"></p> 
+
+          {% endset %}
+
+          {% set htmlAccordion4 %}
+            <p class="govuk-body"></p>
+
+          {% endset %}
+
+          {% set htmlAccordion5 %}
+            <p class="govuk-body"></p> 
+
+          {% endset %}
+
+          {% set htmlAccordion6 %}
+          <p class="govuk-body"></p> 
+
+          {% endset %}
+
+          {% set htmlAccordion7 %}
+          <p class="govuk-body"></p> 
+
+          {% endset %}
+
+          {% set htmlAccordion8 %}
+          <p class="govuk-body"></p> 
+
+          {% endset %}
+
+          {% set htmlAccordion9 %}
+          <p class="govuk-body"></p>
+
+          {% endset %}
+        
+
+          {{ component('accordion', {
+            classes: 'govuk-!-margin-bottom-0',
+            id: 'accordion-standards',
+            items: [
+              {
+                heading: {
+                  text: '1. Check what is already published'
+                },
+                content: {
+                  html: htmlAccordion1 
+                }
+              },
+              {
+                heading: {
+                  text: '2. Only write what people need'
+                },
+                content: {
+                  html: htmlAccordion2
+                }
+              },
+              {
+                heading: {
+                  text: '3. Use simple and familiar words'
+                },
+                content: {
+                  html: htmlAccordion3
+                }
+              },
+              {
+                heading: {
+                  text: '4. Give your content a strong title'
+                },
+                content: {
+                  html: htmlAccordion4
+                }
+              },
+              {
+                heading: {
+                  text: '5. Tell people what they need to do'
+                },
+                content: {
+                  html: htmlAccordion5
+                }
+              },
+              {
+                heading: {
+                  text: '6. Write out acronyms the first time'
+                },
+                content: {
+                  html: htmlAccordion6
+                }
+              },
+              {
+                heading: {
+                  text: '7. Use active language'
+                },
+                content: {
+                  html: htmlAccordion7
+                }
+              },
+              {
+                heading: {
+                  text: '8. Keep sentences short'
+                },
+                content: {
+                  html: htmlAccordion8
+                }
+              },
+              {
+                heading: {
+                  text: '9. Break up content with headers'
+                },
+                content: {
+                  html: htmlAccordion8
+                }
+              },
+              {
+                heading: {
+                  text: '10. Add bullet points '
+                },
+                content: {
+                  html: htmlAccordion8
+                }
+              },
+              {
+                heading: {
+                  text: '11. Read your content out loud'
+                },
+                content: {
+                  html: htmlAccordion9
+                }
+              }
+            ]
+          }) }}
+
+        <br><br>
+
+        <h3 class="govuk-heading-m">Related guidance</h3>
+
+        <p class="govuk-body"><a href="https://www.gov.uk/guidance/content-design/writing-for-gov-uk">Content design: planning, writing and managing content</a></p> 
+        <p class="govuk-body"><a href="https://www.gov.uk/guidance/style-guide">GOV.UK style guide</a></p> 
+        <p class="govuk-body"><a href="/content-toolkit-follow-the-publishing-process">Follow the publishing process</a></p> 
+
+        <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Updated April 2024</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}
+
