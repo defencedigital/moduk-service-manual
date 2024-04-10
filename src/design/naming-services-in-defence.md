@@ -64,18 +64,6 @@ It is always best to avoid acronyms in service names. This can sometimes be diff
 
 The GOV.UK approach recommends using the words your users use. Your users might use familiar or internationally recognised acronyms, for example MOD and NATO. 
 
-{{ component('inset-text', {
-  text: 'Do not include unfamiliar acronyms or code names in your service name.'
-}) }}
-
-### Test without acronyms
-
-Even in Defence, many service names do not need to include acronyms. Always test service names without acronyms first. 
-
-If you include an acronym in your service name and your service is assessed, you will need evidence to support your decision. 
-
-### Writing acronyms in service names 
-
 If users need a familiar acronym in your service name, do not write it out in full. This creates long service names and can confuse people. 
 
 ## Choose the right URL
