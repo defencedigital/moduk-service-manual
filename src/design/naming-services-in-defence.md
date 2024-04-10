@@ -78,7 +78,7 @@ If you include an acronym in your service name and your service is assessed, you
 
 If users need a familiar acronym in your service name, do not write it out in full. This creates long service names and can confuse people. 
 
-## Think about the URL for the service 
+## Choose the right URL
 
 Guidance here. 
 
