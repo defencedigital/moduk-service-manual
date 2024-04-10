@@ -48,6 +48,16 @@ For example: Project MORPHEUS.
 
 In all other cases, follow the GOV.UK approach. 
 
+## Example service names 
+
+All service names should use a verb to describe the task that users are doing. 
+
+Good examples of service names in Defence include:
+
+- Estimate your armed forces pension
+- Get a copy of military service records
+- Apply for a medal or veterans badge
+
 ## Acronyms in service names
 
 It is always best to avoid acronyms in service names. This can sometimes be difficult in Defence. 
@@ -68,12 +78,11 @@ If you include an acronym in your service name and your service is assessed, you
 
 If users need a familiar acronym in your service name, do not write it out in full. This creates long service names and can confuse people. 
 
-## Example service names 
+## Think about the URL for the service 
 
-All service names should use a verb to describe the task that users are doing. 
+Guidance here. 
 
-Good examples of service names in Defence include:
+Check the [GOV.UK guidance on URLs](https://www.gov.uk/guidance/content-design/url-standards-for-gov-uk).
 
-- Estimate your armed forces pension
-- Get a copy of military service records
-- Apply for a medal or veterans badge
+
+
