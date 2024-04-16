@@ -64,172 +64,60 @@
 
         <div class="govuk-grid-column-two-thirds">
 
-        <p class="govuk-body">All new digital and technology projects that handle Defence data must be Secure by Design. This includes projects delivered by suppliers.</p>
-
+        <p class="govuk-body">All technology and services that handle Defence data must be Secure by Design. This includes projects delivered by suppliers.</p>
+        <p class="govuk-body">Designing security into projects from the start helps Defence stay ahead of adversaries and maintain national security.</p>
 
         <h2 class="govuk-heading-l">What has changed</h2>
 
-        <p class="govuk-body">The Central Digital and Data Office (CDDO) has mandated all government departments and arms-length bodies follow a Secure by Design approach.</p>
-        <p class="govuk-body">Instead of asking security experts to check if your project is secure, your team needs to design ways to continuously check security risks and mitigate them. </p>
-        <p class="govuk-body">If your project has security accreditation, you need to move to Secure by Design when it expires.</p>
-        <p class="govuk-body"><a href=""></a></p>      
+        <p class="govuk-body">The Central Digital and Data Office (CDDO) expects all government departments and arms-length bodies to follow a Secure by Design approach.</p>
+        <p class="govuk-body">You no longer have to apply for security accreditation that lasts a period of time. To be Secure by Design, you need to show that your team:</p>
+       
+        <ul class="govuk-list govuk-list--bullet">
+            <li>has considered cyber security from the start</li>
+            <li>has chosen appropriate security frameworks and controls</li>
+            <li>is continuously managing risks</li>
+        </ul>
 
-        <h2 class="govuk-heading-l" id="What you need to do">Follow the principles</h2>
+        <p class="govuk-body">If your project has existing security accreditation, you need to move to Secure by Design when it expires. You should start preparing for it now.</p>
 
-        <p class="govuk-body">As a project team in Defence or a supplier organisation, you need to follow the principles of Secure by Design.</p> 
+        <h2 class="govuk-heading-l" id="What you need to do">Your team is responsible for security</h2>
 
-          {% set htmlAccordion1 %}
+        <p class="govuk-body">Secure by Design encourages everyone on a project to identify and manage cyber risk. Make sure that everyone in your team understands:</p> 
 
-          <p class="govuk-body">Short, plain language description.</p>
-          <p class="govuk-body">A Defence example.</p>
-          <p class="govuk-body">Link to <a href="">more guidance in the portal</a></p>
+        <ul class="govuk-list govuk-list--bullet">
+            <li>that the project is responsible for cyber security</li>
+            <li>why designing security in from the start is important</li>
+            <li>their role in keeping MOD data secure</li>
+        </ul>
 
-          {% endset %}
-
-          {% set htmlAccordion2 %}
-
-          <p class="govuk-body">Short, plain language description.</p>
-          <p class="govuk-body">A Defence example.</p>
-          <p class="govuk-body">Link to <a href="">more guidance in the portal</a></p>
-
-          {% endset %}
-
-          {% set htmlAccordion3 %}
-          
-          <p class="govuk-body">Short, plain language description.</p>
-          <p class="govuk-body">A Defence example.</p>
-          <p class="govuk-body">Link to <a href="">more guidance in the portal</a></p>
-
-          {% endset %}
-
-          {% set htmlAccordion4 %}
-
-          <p class="govuk-body">Short, plain language description.</p>
-          <p class="govuk-body">A Defence example.</p>
-          <p class="govuk-body">Link to <a href="">more guidance in the portal</a></p>
-          
-
-          {% endset %}
-
-          {% set htmlAccordion5 %}
-          
-          <p class="govuk-body">Short, plain language description.</p>
-          <p class="govuk-body">A Defence example.</p>
-          <p class="govuk-body">Link to <a href="">more guidance in the portal</a></p>
-
-
-          {% endset %}
-
-          {% set htmlAccordion6 %}
-          
-          <p class="govuk-body">Short, plain language description.</p>
-          <p class="govuk-body">A Defence example.</p>
-          <p class="govuk-body">Link to <a href="">more guidance in the portal</a></p>
-
-          {% endset %}
-
-          {% set htmlAccordion7 %}
-          <p class="govuk-body"></p> 
-
-          {% endset %}
-
-          {% set htmlAccordion8 %}
-          <p class="govuk-body"></p> 
-
-          {% endset %}
-
-          {% set htmlAccordion9 %}
-          <p class="govuk-body"></p>
-
-          {% endset %}
-        
-
-          {{ component('accordion', {
-            classes: 'govuk-!-margin-bottom-0',
-            id: 'accordion-standards',
-            items: [
-              {
-                heading: {
-                  text: '1. Understand and define your context'
-                },
-                content: {
-                  html: htmlAccordion1 
-                }
-              },
-              {
-                heading: {
-                  text: '2. Plan your security activities'
-                },
-                content: {
-                  html: htmlAccordion2
-                }
-              },
-              {
-                heading: {
-                  text: '3. Continuously manage risk'
-                },
-                content: {
-                  html: htmlAccordion3
-                }
-              },
-              {
-                heading: {
-                  text: '4. Define your security controls'
-                },
-                content: {
-                  html: htmlAccordion4
-                }
-              },
-              {
-                heading: {
-                  text: '5. Manage your supply chain'
-                },
-                content: {
-                  html: htmlAccordion5
-                }
-              },
-              {
-                heading: {
-                  text: '6. Assure, verify and test'
-                },
-                content: {
-                  html: htmlAccordion6
-                }
-              },
-              {
-                heading: {
-                  text: '7. [Enable] through life management'
-                },
-                content: {
-                  html: htmlAccordion7
-                }
-              }
-            ]
-          }) }}
-
-        <br><br>
+        <p class="govuk-body">A Senior Responsible Officer (SRO), Service Owner or someone with authority will be held accountable for security. They are usually supported by security and delivery leads.</p>
 
         <h2 class="govuk-heading-l">Check what you need to do</h2>
 
-        <p class="govuk-body">To meet Secure by Design principles, people in your team are responsible for doing certain tasks. For example:</p>
+        <p class="govuk-body">To be Secure by Design, your team needs to show that you are doing certain things. This includes:</p>
 
         <ul class="govuk-list govuk-list--bullet">
-            <li>registering your project</li>
-            <li>running self-assessments</li>
+            <li>agreeing roles and responsibilities</li>
+            <li>defining your risk appetite</li>
             <li>looking at the impact of changes</li>
+            <li>running self-assessments every 3 months</li>
         </ul>
 
         <p class="govuk-body">To check what you need to do, <a href="">sign in to the Secure by Design portal</a>.</p>  
 
-        <p class="govuk-body">If you work in the Ministry of Defence or for one of our suppliers, <a href="">ask for access to the Secure by Design portal</a>.</p>  
+        {{ component('inset-text', {
+        text: 'To access the Secure by Design portal you must work in Defence or for one of our suppliers.'
+        }) }}
+
+        <p class="govuk-body">If you do not have access, ask a senior military or MOD civil servant on your team to arrange it for you.</p>  
 
       <br><br>
 
         <h3 class="govuk-heading-m">Related guidance</h3>
 
         <p class="govuk-body"><a href="https://cddo.blog.gov.uk/2023/12/20/deputy-prime-minister-announces-launch-of-cross-government-secure-by-design-approach/">Launch of cross-government Secure by Design approach</a></p> 
-        <p class="govuk-body"><a href="https://www.security.gov.uk/guidance/secure-by-design/">Secure by Design on GOV.UK</a></p>
-        <p class="govuk-body"><a href="">Links</a></p>  
+        <p class="govuk-body"><a href="https://www.security.gov.uk/guidance/secure-by-design/">GOV.UK Secure by Design guidance</a></p>
+        <p class="govuk-body"><a href="https://www.ncsc.gov.uk/collection/cyber-security-design-principles">National Cyber Security Centre secure design principles</a></p>  
 
         <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Published May 2024</p>
 
