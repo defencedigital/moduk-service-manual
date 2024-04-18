@@ -68,7 +68,7 @@
       }
 
       // Send form data
-      // var formData = new FormData(form);
+      var formData = new FormData(form);
       var submitted = false;
 
       // Prevent more than one submission
@@ -79,7 +79,13 @@
         // Yes or no feedback form
         if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
 
-          form.submit();
+          fetch('/', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+              body: new URLSearchParams(formData).toString(),
+            })
+              .then(() => console.log('Thank you for your feedback'))
+              .catch((error) => alert(error));
 
         // Standard feedback form
         } else {
