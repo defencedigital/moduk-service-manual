@@ -24,7 +24,7 @@
 
       <div class="govuk-grid-column-two-thirds">
 
-        <form class="js-form" id="send-your-feedback" name="Send your feedback" action="/send-your-feedback/thank-you" method="POST" autocomplete="off" novalidate data-netlify="true" data-netlify-honeypot="giraffe">
+        <form class="js-form" id="send-your-feedback" name="Send your feedback" action="/send-your-feedback/thank-you" method="POST" autocomplete="off" data-netlify="true" data-netlify-honeypot="giraffe" novalidate>
 
           <div class="govuk-error-summary is-hidden">
             <div role="alert">
@@ -100,19 +100,16 @@
               }
             }) }}
 
-           <div class="govuk-form-group">
+            <div class="govuk-form-group">
               <label class="govuk-label govuk-label--m" for="email">Your email address (optional)</label>
               <div class="govuk-hint" id="email-hint">We will only contact you to discuss your feedback.</div>
               <p class="govuk-error-message is-hidden" id="email-error"><span class="govuk-visually-hidden">Error:</span> Enter a valid email address</p>
               <input class="govuk-input" id="email" name="Email address (optional)" type="email" spellcheck="false" aria-describedby="email-hint email-error" autocomplete="email" data-validate="true">
             </div>
 
-            <div class="govuk-form-group govuk-visually-hidden" aria-hidden="true">
-              <label class="govuk-label govuk-label--m" for="giraffe">Don’t fill this out if you’re human</label>
-              <input class="govuk-input" id="giraffe" name="giraffe" type="text" autocomplete="off" tabindex="-1">
+            <div class="govuk-form-group is-hidden" aria-hidden="true">              
+              <label>Don’t fill this out if you’re human <input class="govuk-input" name="giraffe" type="text" autocomplete="off" tabindex="-1"></label>
             </div>
-
-            <input class="recaptcha" type="hidden" name="Captcha token" id="recaptcha" tabindex="-1">
 
             {{ component('button', {
               type: 'submit',
