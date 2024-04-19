@@ -34,7 +34,7 @@
 
     </div>
 
-    <form class="moduk-feedback__form js-feedback-form js-form is-hidden" id="moduk-feedback__yes" name="Yes, I found what I was looking for" method="POST" autocomplete="off" data-netlify="true" data-netlify-honeypot="giraffe-yes">
+    <form class="moduk-feedback__form js-feedback-form js-form is-hidden" id="moduk-feedback__yes" name="Yes, I found what I was looking for" method="POST" action="/send-your-feedback/thank-you" autocomplete="off" data-netlify="true" data-netlify-honeypot="giraffe">
 
       <div class="govuk-width-container">
 
@@ -56,7 +56,7 @@
             <h2 class="govuk-heading-m">Help improve the Defence Service Manual</h2>
 
             <input type="hidden" name="Did you find what you were looking for?" value="Yes" tabindex="-1">
-            <input type="hidden" name="Url" value="https://defence-service-manual.netlify.app{{ page.url }}" tabindex="-1">
+            <input type="hidden" name="Url" value="https://servicemanual.digital.mod.uk{{ page.url }}" tabindex="-1">
 
             {{ component('textarea', {
               id: 'tell-us-more',
@@ -78,12 +78,9 @@
               <input class="govuk-input" id="email-yes" name="Email address (optional)" type="email" aria-describedby="email-yes-hint email-yes-error" data-validate="true">
             </div>
 
-            <div class="govuk-form-group govuk-visually-hidden" aria-hidden="true">
-              <label class="govuk-label govuk-label--m" for="giraffe-yes">Don’t fill this out if you’re human</label>
-              <input class="govuk-input" id="giraffe-yes" name="giraffe-yes" type="text" autocomplete="off" tabindex="-1">
+            <div class="govuk-form-group is-hidden" aria-hidden="true">
+              <label>Don’t fill this out if you’re human <input class="govuk-input" name="giraffe" type="text" autocomplete="off" tabindex="-1"></label>
             </div>
-
-            <input type="hidden" class="recaptcha" name="Captcha token" id="recaptcha-yes" tabindex="-1">
 
             <div class="govuk-button-group">
 
@@ -112,8 +109,8 @@
 
     </form>
 
-    <form class="moduk-feedback__form js-feedback-form js-form is-hidden" id="moduk-feedback__no" name="No, I didn’t find what I was looking for" method="POST" autocomplete="off" data-netlify="true" data-netlify-honeypot="giraffe-no">
-
+    <form class="moduk-feedback__form js-feedback-form js-form is-hidden" id="moduk-feedback__no" name="No, I didn’t find what I was looking for" method="POST" action="/send-your-feedback/thank-you" autocomplete="off" data-netlify="true" data-netlify-honeypot="giraffe">
+      
       <div class="govuk-width-container">
 
         <div class="govuk-grid-row">
@@ -135,7 +132,7 @@
             <h2 class="govuk-heading-m">Help improve the Defence Service Manual</h2>
 
             <input type="hidden" name="Did you find what you were looking for?" value="No" tabindex="-1">
-            <input type="hidden" name="Url" value="https://defence-service-manual.netlify.app{{ page.url }}" tabindex="-1">
+            <input type="hidden" name="Url" value="https://servicemanual.digital.mod.uk{{ page.url }}" tabindex="-1">
 
             <div class="govuk-form-group">
               <label class="govuk-label" for="what-guidance-were-you-looking-for">What guidance were you looking for?</label>
@@ -151,12 +148,9 @@
               <input class="govuk-input" id="email-no" name="Email address (optional)" type="email" aria-describedby="email-no-hint email-yes-error" data-validate="true">
             </div>
 
-            <div class="govuk-form-group govuk-visually-hidden" aria-hidden="true">
-              <label class="govuk-label govuk-label--m" for="giraffe-no">Don’t fill this out if you’re human</label>
-              <input class="govuk-input" id="giraffe-no" name="giraffe-no" type="text" autocomplete="off" tabindex="-1">
+            <div class="govuk-form-group is-hidden" aria-hidden="true">
+              <label>Don’t fill this out if you’re human <input class="govuk-input" name="giraffe" type="text" autocomplete="off" tabindex="-1"></label>
             </div>
-
-            <input class="recaptcha" type="hidden" name="Captcha token" id="recaptcha-no" tabindex="-1">
 
             <div class="govuk-button-group">
 

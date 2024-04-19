@@ -41,7 +41,6 @@
   Form.prototype.submit = function () {
 
     var errors = this.element.getElementsByClassName('govuk-input--error');
-    var recaptcha = this.element.getElementsByClassName('recaptcha')[0];
 
     // If no errors exist, submit form
     if (errors.length === 0) {
@@ -70,60 +69,33 @@
 
       // Send form data
       var formData = new FormData(form);
-      var tokenCreated = false;
       var submitted = false;
 
-      // Check if the reCaptcha exists
-      if (!tokenCreated) {
+      // Prevent more than one submission
+      if (!submitted) {
 
-        // Prevent more than one submission
-        if (!submitted) {
+        submitted = true;
 
-          submitted = true;
+        // Yes or no feedback form
+        if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
 
-          // Needed for reCaptcha ready
-          grecaptcha.ready(function () {
+          fetch('/', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+              body: new URLSearchParams(formData).toString(),
+            })
+              .then(() => console.log('Thank you for your feedback'))
+              .catch((error) => alert(error));
 
-            // Do request for reCaptcha token
-            // Response is promise with passed token
-            grecaptcha.execute('6LeF8dAkAAAAAD5d1m3w6H4y11KNmiQruHeE65ZZ', { action: 'submit' }).then(function (token) {
+        // Standard feedback form
+        } else {
 
-              // Add token to reCaptcha field
-              recaptcha.value = token;
-
-              // Set reCaptcha token onto formData
-              formData.set('Captcha token', token);
-
-              // Submit form
-              tokenCreated = true;
-
-              if (form.id === 'moduk-feedback__yes' || form.id === 'moduk-feedback__no') {
-
-                // for (const [key, value] of formData) {
-                //   console.log(`${key}: ${value}\n`)
-                // }
-
-                // Send form using AJAX
-                fetch('/', {
-                  method: 'POST',
-                  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                  body: new URLSearchParams(formData).toString(),
-                })
-                  .catch((error) => alert(error));
-
-              } else {
-
-                form.submit();
-
-              }
-
-            });
-
-          });
+          form.submit();
 
         }
 
       }
+
 
     } else {
 
