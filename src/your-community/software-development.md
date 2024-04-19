@@ -72,5 +72,3 @@ Everyone has different experiences and opinions. Remember that your feedback is 
 
 ### Be present
 The team presenting their service deserves your full attention. Try not to be distracted by other work. In remote sessions, have your camera on and show that you are actively listening.
-
-

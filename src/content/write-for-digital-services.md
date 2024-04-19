@@ -25,7 +25,7 @@ The GOV.UK style includes:
 
 ### Check the GOV.UK style guide
 
-When you write content for digital services in Defence, [check the GOV.UK style guide](https://www.gov.uk/guidance/style-guide). 
+When you write content for digital services in Defence, [check the GOV.UK style guide](https://gov.uk/guidance/style-guide){target="_blank" rel="external"}. 
 
 If you cannot find what you need, [ask the content community for advice](/your-community/content/). 
 
@@ -39,7 +39,7 @@ Simple language helps:
 - people whose first language is not English
 - anyone with cognitive impairments, including dyslexia 
 
-Find out [how content designers help with accessibility](https://defence-service-manual.netlify.app/accessibility/meet-accessibility-regulations/content-designers/). 
+Find out [how content designers help with accessibility](/accessibility/meet-accessibility-regulations/content-designers/). 
 
 ## Avoid acronyms 
 
@@ -49,7 +49,7 @@ Only include acronyms that most people are familiar with, for example VAT and NA
 
 If you need to include an unfamiliar acronym, test it with your users. Remember to write it in full the first time you use it.
 
-You can [look up a MOD acronym or abbreviation](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/227048/acronyms_and_abbreviations_dec08.pdf). 
+You can [look up a MOD acronym or abbreviation](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/227048/acronyms_and_abbreviations_dec08.pdf){target="_blank" rel="external"}. 
 
 ## Take care with military terms
 
@@ -59,7 +59,7 @@ If your service uses military terms, you must not change how military terms are 
 
 On MODNET, search for Defence terminology. 
 
-You can also [contact the Development, Concepts and Doctrine Centre](https://www.gov.uk/government/groups/development-concepts-and-doctrine-centre).
+You can also [contact the Development, Concepts and Doctrine Centre](https://gov.uk/government/groups/development-concepts-and-doctrine-centre){target="_blank" rel="external"}.
 
 ### When to write in capitals
 
@@ -79,8 +79,8 @@ Words written in all capitals can be hard to read. If you are unsure about the n
 
 ## Related guidance
 
-- [Writing for user interfaces](https://www.gov.uk/service-manual/design/writing-for-user-interfaces)
-- [GOV.UK words to avoid](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style#words-to-avoid)
+- [Writing for user interfaces](https://gov.uk/service-manual/design/writing-for-user-interfaces)
+- [GOV.UK words to avoid](https://gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style#words-to-avoid)
 - [Development, Concepts and Doctrine Centre Writer’s Handbook](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1105691/20220913-DCDC_Writers_Handbook_Sept_2022_web.pdf)
-- [Security classifications](https://servicemanual.digital.mod.uk/security-classifications/)
+- [Security classifications](/security-classifications/)
 {.govuk-list}

@@ -27,11 +27,11 @@ According to GOV.UK, good service names:
 - do not need to change when policy or technology changes
 - are verbs, not nouns
 
-Check the [GOV.UK guidance on naming your service](https://www.gov.uk/service-manual/design/naming-your-service/).
+Check the [GOV.UK guidance on naming your service](https://gov.uk/service-manual/design/naming-your-service/).
 
 {{ modukcomponent('callout', {
   title: 'Case study',
-  content: '<p>As an internal service at the Department of Education went into beta, it was still named after the team delivering it. Through user research, name storming and feedback, they found a new service name.</p>',
+  content: 'As an internal service at the Department of Education went into beta, it was still named after the team delivering it. Through user research, name storming and feedback, they found a new service name.',
   link: {
     text: 'Find out more',
     hiddenText: 'about how the department for education named an internal service',

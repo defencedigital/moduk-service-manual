@@ -70,8 +70,4 @@ Do not publish anyone’s personal data, including their Defence or personal ema
 
 If you need to publish an email address for users to contact you, create a general email address like service-manual@digital.mod.uk. 
 
-You can <a href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/" target="_blank">check what personal data includes<span class="govuk-visually-hidden">opens in a new tab</span></a>.
-
-
-
-
+You can <a href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/" target="_blank">check what personal data includes <span class="govuk-visually-hidden">(opens in a new tab)</span></a>.

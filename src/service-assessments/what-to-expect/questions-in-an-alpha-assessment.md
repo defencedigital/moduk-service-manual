@@ -11,7 +11,7 @@ eleventyNavigation:
 
 Run through these example questions with your team. 
 
-Answer some of these questions as you [tell the story of your service](/service-assessments/tell-the-story-of-your-service). 
+Answer some of these questions as you [tell the story of your service](/service-assessments/tell-the-story-of-your-service/). 
 
 ## Designer and content designer 
 

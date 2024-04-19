@@ -37,5 +37,4 @@ To help services prepare for assessments, reports are published here or on GOV.U
   assistive: true
 }) }}
 
-You can <a href="https://www.gov.uk/service-standard-reports" target="_blank">find more reports on GOV.UK<span class="govuk-visually-hidden">opens in a new tab</span></a>.
-
+You can <a href="https://www.gov.uk/service-standard-reports" target="_blank">find more reports on GOV.UK <span class="govuk-visually-hidden">(opens in a new tab)</span></a>.

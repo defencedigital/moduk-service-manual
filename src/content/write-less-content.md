@@ -35,7 +35,7 @@ If your team does not have a user researcher, [ask the UCD community for advice]
 
 ## Related guidance
 
-- [Content design: planning, writing and managing content](https://www.gov.uk/guidance/content-design){target="_blank" rel="external"}
-- [Writing user stories](https://www.gov.uk/service-manual/agile-delivery/writing-user-stories){target="_blank" rel="external"}
+- [Content design: planning, writing and managing content](https://gov.uk/guidance/content-design){target="_blank" rel="external"}
+- [Writing user stories](https://gov.uk/service-manual/agile-delivery/writing-user-stories){target="_blank" rel="external"}
 {.govuk-list}
 

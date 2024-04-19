@@ -29,7 +29,7 @@ Ask your Delivery Lead to make time for colleagues to help with usability testin
 
 ## Related guidance
 
-- <a href="https://accessibility.blog.gov.uk/2018/03/20/why-accessibility-testing-with-real-users-is-so-important/" target="_blank">Why testing with real users is important<span class="govuk-visually-hidden">opens in a new tab</span></a>
-- <a href="https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies/" target="_blank">Testing with assistive technologies<span class="govuk-visually-hidden">opens in a new tab</span></a>
+- <a href="https://accessibility.blog.gov.uk/2018/03/20/why-accessibility-testing-with-real-users-is-so-important/" target="_blank">Why testing with real users is important <span class="govuk-visually-hidden">(opens in a new tab)</span></a>
+- <a href="https://gov.uk/service-manual/technology/testing-with-assistive-technologies/" target="_blank">Testing with assistive technologies <span class="govuk-visually-hidden">(opens in a new tab)</span></a>
 
 {.govuk-list}

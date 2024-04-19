@@ -59,5 +59,5 @@ You can also share content that you are working on with the content community.
 
 - [Content designers and accessibility](https://servicemanual.digital.mod.uk/accessibility/meet-accessibility-regulations/content-designers/)
 - [It takes 2: how we use pair writing](https://gds.blog.gov.uk/2016/09/21/it-takes-2-how-we-use-pair-writing/)
-- [Phases of an agile project](https://www.gov.uk/service-manual/agile-delivery)
+- [Phases of an agile project](https://gov.uk/service-manual/agile-delivery)
 {.govuk-list}

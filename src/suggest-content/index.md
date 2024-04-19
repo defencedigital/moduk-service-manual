@@ -47,7 +47,7 @@ Check [how to classify information](/security-classifications/how-to-classify-in
 
 We do not include large pieces of content published elsewhere, for example:
 
-- existing sections on GOV.UK, including the [GOV.UK service manual](https://www.gov.uk/service-manual)
+- existing sections on GOV.UK, including the [GOV.UK service manual](https://gov.uk/service-manual)
 - Ministry of Defence policy and rules
 
 When it is useful, we link to content published elsewhere.

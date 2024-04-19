@@ -37,7 +37,7 @@ As an observer do not give any feedback, keep your camera off and stay on mute.
 
 ### Give specific and actionable feedback
 
-All feedback should be constructive. Include details of what you are thinking, what you would change and why. Avoid phrases like "I don't like it" or "That never works".
+All feedback should be constructive. Include details of what you are thinking, what you would change and why. Avoid phrases like “I don’t like it” or “That never works”.
 
 ### Be kind and respectful
 

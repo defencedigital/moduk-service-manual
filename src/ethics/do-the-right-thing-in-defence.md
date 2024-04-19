@@ -25,7 +25,7 @@ You should also consider ethics when meeting with stakeholders, presenting your 
 
 {{ modukcomponent('callout', {
   title: 'Case study',
-  content: '<p>During discovery, the Army’s Land Deployed Applications team dealt with a range of ethical issues. They had to manage conflicts of interest, respect the chain of command and handle sensitive issues.</p>',
+  content: 'During discovery, the Army’s Land Deployed Applications team dealt with a range of ethical issues. They had to manage conflicts of interest, respect the chain of command and handle sensitive issues.',
   link: {
     text: 'Find out more',
     hiddenText: 'about what the Army’s Land Deployed Applications team did',
@@ -44,4 +44,4 @@ Discuss your concerns confidentially with your delivery lead or product owner. I
 
 The Ministry of Defence Research Ethics Committee (MODREC) ensures that all research involving human participants in Defence meets nationally and internationally accepted ethical standards. 
 
-Find out [more about MODREC](https://www.gov.uk/government/groups/ministry-of-defence-research-ethics-committees).
+Find out [more about MODREC](https://gov.uk/government/groups/ministry-of-defence-research-ethics-committees).

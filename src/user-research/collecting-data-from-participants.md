@@ -21,7 +21,7 @@ When you do user research at the Ministry of Defence (MOD), remember that the re
 - define personal data broadly, including online identification markers and location data
 - set out stronger requirements for documenting and auditing processes
 
-The [MOD Privacy Notice](https://www.gov.uk/government/publications/ministry-of-defence-privacy-notice/mod-privacy-notice) explains the sort of information you can collect from users and why.
+The [MOD Privacy Notice](https://gov.uk/government/publications/ministry-of-defence-privacy-notice/mod-privacy-notice) explains the sort of information you can collect from users and why.
 
 To make sure your data management and privacy practices meet the regulations, get them reviewed by a data protection adviser. Ask your service owner to put you in touch with MOD's network of data protection advisers.
 
@@ -123,13 +123,13 @@ Some personal data is not considered sensitive when captured on their own. These
 - rank or grade
 - full-time or part-time working status
 
-For more information, [check the MOD disclosure and confidentiality policy](https://www.gov.uk/government/publications/defence-statistics-policies/ministry-of-defence-disclosure-and-confidentiality-policy-identifiable-survey-data).
+For more information, [check the MOD disclosure and confidentiality policy](https://gov.uk/government/publications/defence-statistics-policies/ministry-of-defence-disclosure-and-confidentiality-policy-identifiable-survey-data).
 
 #### Protected characteristics
 
 Special category data and protected characteristics are similar, but regulated differently.
 
-Unless it is essential to your research, avoid collecting information on [protected characteristics](https://www.gov.uk/discrimination-your-rights)
+Unless it is essential to your research, avoid collecting information on [protected characteristics](https://gov.uk/discrimination-your-rights)
 
 ## Related guidance
 

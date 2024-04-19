@@ -42,7 +42,6 @@ Before starting user research, ask the user-centred design (UCD) community if th
 
 Check [how to contact the UCD community](/your-community/user-centred-design/).
 
-
 ## Start with stakeholders and subject matter experts
 
 Your stakeholders will understand how Defence works. Working with them to find participants can be more efficient than trying to find them yourself.
@@ -89,7 +88,7 @@ You can use Defence Connect to:
 - recruit participants for one-to-one research
 - send out randomised surveys and questionnaires
 
-[Go to Defence Connect](https://www.army.mod.uk/digital-communications/defence-connect-guidance)
+[Go to Defence Connect](https://army.mod.uk/digital-communications/defence-connect-guidance)
 
 ### Army Knowledge Exchange
 
@@ -97,5 +96,4 @@ Army Knowledge Exchange (AKX) is an Army resource for sharing knowledge, lessons
 
 You can use it to recruit research participants from the British Army.
 
-[Go to the Army Knowledge Exchange](https://www.army.mod.uk/deployments/army-knowledge-exchange)
-
+[Go to the Army Knowledge Exchange](https://army.mod.uk/deployments/army-knowledge-exchange)
