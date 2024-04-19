@@ -20,10 +20,9 @@ When your team plans and estimates work, allow time to make designs accessible a
 Testing for accessibility should include:
 
 - how your product or service works with assistive technologies
-- checking against the <a href="https://www.w3.org/TR/WCAG21/" target="_blank">Web Content Accessibility Guidelines (WCAG 2.1)<span class="govuk-visually-hidden">opens in a new tab</span></a>
+- checking against the <a href="https://www.w3.org/TR/WCAG21/" target="_blank">Web Content Accessibility Guidelines (WCAG 2.1) <span class="govuk-visually-hidden">(opens in a new tab)</span></a>
 
 If your service needs an [accessibility statement](/accessibility/publishing-documents#accessibility-statements), you will need time to create or update it. 
-
 
 ## Definition of ready
 
@@ -48,12 +47,12 @@ In your team’s definition of done, include things like checked using:
 - a screen magnifier
 - speech recognition
 
-Check the <a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility/" target="_blank">guidance on testing for accessibility<span class="govuk-visually-hidden">opens in a new tab</span></a>.
+Check the <a href="https://gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility/" target="_blank">guidance on testing for accessibility <span class="govuk-visually-hidden">(opens in a new tab)</span></a>.
 
 You need to correct any issues or explain them in the [accessibility statement](/accessibility/publishing-documents#accessibility-statements).
 
 ## Related guidance
 
-- <a href="https://www.gov.uk/guidance/guidance-and-tools-for-digital-accessibility" target="_blank">Guidance and tools for digital accessibility<span class="govuk-visually-hidden">opens in a new tab</span></a>
-- <a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility/" target="_blank">Testing for accessibility<span class="govuk-visually-hidden">opens in a new tab</span></a>
-- <a href="https://gcs.civilservice.gov.uk/guidance/digital-communication/accessible-communications/" target="_blank">Creating accessible communications<span class="govuk-visually-hidden">opens in a new tab</span></a>
+- <a href="https://gov.uk/guidance/guidance-and-tools-for-digital-accessibility" target="_blank">Guidance and tools for digital accessibility <span class="govuk-visually-hidden">(opens in a new tab)</span></a>
+- <a href="https://gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility/" target="_blank">Testing for accessibility <span class="govuk-visually-hidden">(opens in a new tab)</span></a>
+- <a href="https://gcs.civilservice.gov.uk/guidance/digital-communication/accessible-communications/" target="_blank">Creating accessible communications <span class="govuk-visually-hidden">(opens in a new tab)</span></a>

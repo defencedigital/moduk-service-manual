@@ -15,7 +15,7 @@ In Defence environments, accessibility needs can be permanent, temporary or situ
 
 Consider people working in the deployed space, for example military units working away from their permanent base. 
 
-There are also  many people in the operational space, supporting military operations and exercises.
+There are also many people in the operational space, supporting military operations and exercises.
 
 People working in Defence can have issues including:
 

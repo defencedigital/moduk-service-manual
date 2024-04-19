@@ -30,7 +30,7 @@ When conducting user research, you should recruit participants from every organi
 
 ### Digital skills can vary
 
-Military personnel can be positioned widely on the [digital inclusion scale](https://www.gov.uk/government/publications/government-digital-inclusion-strategy/government-digital-inclusion-strategy#annex-2-digital-inclusion-scale-for-individuals), stretching from 4 to 9+. This means that usability and accessibility testing of design solutions is very important.
+Military personnel can be positioned widely on the [digital inclusion scale](https://gov.uk/government/publications/government-digital-inclusion-strategy/government-digital-inclusion-strategy#annex-2-digital-inclusion-scale-for-individuals), stretching from 4 to 9+. This means that usability and accessibility testing of design solutions is very important.
 
 ## User research and military rank
 

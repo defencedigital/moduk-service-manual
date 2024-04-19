@@ -37,9 +37,9 @@ Service assessments happen towards the end of each phase of delivery. For exampl
 
 If your service is likely to have more than 100,000 transactions a year, your assessments are organised by the Central Digital and Data Office (CDDO). 
 
-Check <a href="https://www.gov.uk/service-manual/service-assessments/book-a-service-assessment" target="_blank">how to book an assessment with CDDO<span class="govuk-visually-hidden">opens in a new tab</span></a>.
+Check <a href="https://gov.uk/service-manual/service-assessments/book-a-service-assessment" target="_blank">how to book an assessment with CDDO <span class="govuk-visually-hidden">(opens in a new tab)</span></a>.
 
 ## Related guidance
 
 [Applying the GOV.UK Service Standard in Defence](/meet-the-standard/)
-<a href="https://www.gov.uk/service-manual/service-assessments" target="_blank">More guidance on assessments on GOV.UK<span class="govuk-visually-hidden">opens in a new tab</span></a>
+<a href="https://gov.uk/service-manual/service-assessments" target="_blank">More guidance on assessments on GOV.UK <span class="govuk-visually-hidden">(opens in a new tab)</span></a>

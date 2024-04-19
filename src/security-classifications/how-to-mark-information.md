@@ -45,15 +45,13 @@ If the information can be printed out, add the marking to the header and footer.
 
 You should also mark information in emails. On Defence devices, you are usually prompted to select a marking. 
 
-
 ### Use OFFICIAL-SENSITIVE correctly
 
 OFFICIAL-SENSITIVE is not a security classification. It is an additional marking. 
 
 Only use OFFICIAL-SENSITIVE if there are sensitive details in OFFICIAL information.
 
-Check <a href="https://www.gov.uk/government/publications/government-security-classifications/government-security-classifications-policy-html#additional-markings:~:text=Applying%20the%20%2DSENSITIVE%20marking" target="_blank">how to apply OFFICIAL-SENSITIVE<span class="govuk-visually-hidden">opens in a new tab</span></a>.
-
+Check <a href="https://gov.uk/government/publications/government-security-classifications/government-security-classifications-policy-html#additional-markings:~:text=Applying%20the%20%2DSENSITIVE%20marking" target="_blank">how to apply OFFICIAL-SENSITIVE <span class="govuk-visually-hidden">(opens in a new tab)</span></a>.
 
 ## SECRET and TOP SECRET information
 
@@ -85,5 +83,4 @@ Examples include:
 - LOCSEN for information that staff overseas cannot access
 - PERSONAL DATA for information that can identify a living person
 
-You need to <a href="https://www.gov.uk/government/publications/government-security-classifications/government-security-classifications-policy-html#additional-markings" target="_blank">check the full list on GOV.UK<span class="govuk-visually-hidden">opens in a new tab</span></a>.
-
+You need to <a href="https://gov.uk/government/publications/government-security-classifications/government-security-classifications-policy-html#additional-markings" target="_blank">check the full list on GOV.UK <span class="govuk-visually-hidden">(opens in a new tab)</span></a>.

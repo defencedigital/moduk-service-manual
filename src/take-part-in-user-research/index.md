@@ -24,4 +24,3 @@ You need to include your:
 - job title and organisation
 
 You can include a short description of what you are working on.
-

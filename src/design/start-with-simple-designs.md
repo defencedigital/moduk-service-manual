@@ -11,7 +11,6 @@ eleventyNavigation:
 
 Make sure your service is easy to use by starting simply and using existing patterns.
 
-
 ## Services for users in Defence
 
 You need to reuse components already used in Defence. 
@@ -33,7 +32,6 @@ It helps you build services that:
 - are familiar to citizens 
 - consistent with other GOV.UK services
 
-
 ## Using images and videos
 
 Before adding images and videos to your service, get evidence that your users need them to complete a task. 
@@ -48,11 +46,11 @@ Find out [more about designing for accessibility](/accessibility/meet-accessibil
 
 ### Official images and videos
 
-If your users need images or videos, [check the MOD library](https://www.defenceimagery.mod.uk/). 
+If your users need images or videos, [check the MOD library](https://defenceimagery.mod.uk/). 
 
 You can use images and videos from the library for anything related to Defence without worrying about licences or copyright. 
 
 ## Related guidance
 
-- [Designing good government services: an introduction](https://www.gov.uk/service-manual/design/introduction-designing-government-services/)
+- [Designing good government services: an introduction](https://gov.uk/service-manual/design/introduction-designing-government-services/)
 {.govuk-list}

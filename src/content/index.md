@@ -29,4 +29,3 @@ related: "content"
 - when to publish a blog post
 - how to write your blog post
 - submit your blog post
-

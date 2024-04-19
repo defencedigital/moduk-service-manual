@@ -11,7 +11,6 @@ eleventyNavigation:
 
 To design great services, you need to collect reliable data and make decisions based on what you find. 
 
-
 ## Design with data 
 
 Teams designing digital services for Defence are expected to know about their users. 
@@ -41,7 +40,7 @@ When your service is live, data helps you track success and improve things for u
 
 {{ modukcomponent('callout', {
   title: 'Case study',
-  content: '<p>The Home Office and Border Force relied heavily on data to design a service that helps keep the UK border secure. They continue to use data to improve it. </p>',
+  content: 'The Home Office and Border Force relied heavily on data to design a service that helps keep the UK border secure. They continue to use data to improve it.',
   link: {
     text: 'Find out more',
     hiddenText: 'about how the Home Office uses data to design services',
@@ -61,7 +60,6 @@ For now, you can:
 - search MODNET for similar projects 
 - share what you’re doing with the [user-centred design (UCD) community](/your-community/user-centred-design/)
 
-
 ### Use existing services and tools
 
 Any team in Defence can use the Data Analytics Service (DAS). The service offers tools that are approved and ready to use. 
@@ -72,7 +70,7 @@ DAS tools help you:
 - store your data securely 
 - make the most of data from across Defence
 
-Find out <a href="https://data-ai.service.mod.gov.uk/" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>more about the Data Analytics Service (DAS)</a>.
+Find out <a href="https://data-ai.service.mod.gov.uk/" target="_blank">more about the Data Analytics Service (DAS) <span class="govuk-visually-hidden">(opens in a new tab)</span></a>.
 
 ## Get the right people on your team
 
@@ -82,13 +80,12 @@ In other UK government departments, teams include Digital Data and Technology (D
 
 Roles that help you make decisions based on evidence include:
 
-- <a href="https://www.gov.uk/guidance/user-researcher" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>user researcher</a>
-- specialists in the <a href="https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework#data-job-family" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>GOV.UK data job family</a>
+- <a href="https://gov.uk/guidance/user-researcher" target="_blank">user researcher <span class="govuk-visually-hidden">(opens in a new tab)</span></a>
+- specialists in the <a href="https://gov.uk/government/collections/digital-data-and-technology-profession-capability-framework#data-job-family" target="_blank">GOV.UK data job family <span class="govuk-visually-hidden">(opens in a new tab)</span></a>
 
 If you do not yet have a user researcher, [ask the UCD community for advice](/your-community/user-centred-design/).
 
 ## Related guidance
 
-<a href="https://www.gov.uk/service-manual/design/designing-with-data-an-introduction" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>Designing with data: an introduction</a> 
-<a href="https://www.gov.uk/guidance/government-design-principles#design-with-data" target="_blank"> <span class="govuk-visually-hidden">opens in a new tab</span>Government Design Principles: Design with data</a>
-
+<a href="https://gov.uk/service-manual/design/designing-with-data-an-introduction" target="_blank">Designing with data: an introduction <span class="govuk-visually-hidden">(opens in a new tab)</span></a>
+<a href="https://gov.uk/guidance/government-design-principles#design-with-data" target="_blank">Government Design Principles: Design with data <span class="govuk-visually-hidden">(opens in a new tab)</span></a>

@@ -15,7 +15,7 @@ There are a few things you should do to make the most of your time with users an
 
 Ask the user-centred design (UCD) community if there is existing knowledge or user research you can use. If you have a user research plan, ask if it needs to be reviewed before you start.
 
-Find out [how to join the UCD community](https://servicemanual.digital.mod.uk/your-community/user-centred-design/).
+Find out [how to join the UCD community](/your-community/user-centred-design/).
 
 ## Ask someone in the military to help
 
@@ -39,7 +39,7 @@ It is best to issue vouchers through participant recruitment agencies. The amoun
 
 Give participants their voucher at the start of the session so that they don’t feel they have to stay or only give positive feedback.
 
-Find out [how to join the UCD community](https://servicemanual.digital.mod.uk/your-community/user-centred-design/).
+Find out [how to join the UCD community](/your-community/user-centred-design/).
 
 ## Plan what you will cover
 

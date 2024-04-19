@@ -86,7 +86,7 @@ Collecting large amounts of data does not always mean that you have to classify 
 
 ## Related guidance
 
-- [Government security classifications](https://www.gov.uk/government/publications/government-security-classifications/)
-- [OFFICIAL-SENSITIVE data and IT](https://www.gov.uk/guidance/official-sensitive-data-and-it/)
+- [Government security classifications](https://gov.uk/government/publications/government-security-classifications/)
+- [OFFICIAL-SENSITIVE data and IT](https://gov.uk/guidance/official-sensitive-data-and-it/)
 {.govuk-list}
 
