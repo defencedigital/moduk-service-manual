@@ -14,7 +14,7 @@
           <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
         </li>
         <li class="govuk-breadcrumbs__list-item">
-          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}content-toolkit/">Content toolkit</a>
+          <a class="govuk-breadcrumbs__link" href="{{ '/content-toolkit/' | url }}">Content toolkit</a>
         </li>
       </ol>
 
@@ -114,7 +114,7 @@
               <p>You might have new requirements, like:</p>
               <ul>
                 <li>checking content includes changes to policy</li>
-                <li>getting evidence of what content is used </li>
+                <li>getting evidence of what content is used</li>
                 <li>improving how accessible your content is</li>
               </ul>            
               <p>Find out <a href="/accessibility/meet-accessibility-regulations/content-designers/">more about accessible content</a>.</p>          
@@ -134,13 +134,10 @@
                 <li>who owns it</li>
                 <li>how it is tagged for search</li>
               </ul>
-
-            <p>Most services have a way of checking how often a piece of content is used. Analytics help give you evidence and confidence to delete content.</p>
-
-            {{ component('inset-text', {
-              html: 'To collect data, <a href="/downloads/MOD-content-audit-template-OFFICIAL.xlsx"> download and use the content audit template</a>.'
-            }) }}
-
+              <p>Most services have a way of checking how often a piece of content is used. Analytics help give you evidence and confidence to delete content.</p>
+              {{ component('inset-text', {
+                html: 'To collect data, <a href="/downloads/MOD-content-audit-template-OFFICIAL.xlsx"> download and use the content audit template</a>.'
+              }) }}
             {% endset %}
 
             {% set htmlAccordion4 %}
@@ -165,7 +162,6 @@
             {% endset %}
 
             {{ component('accordion', {
-              classes: 'govuk-!-margin-bottom-6',
               id: 'accordion-standards',
               items: [
                 {
