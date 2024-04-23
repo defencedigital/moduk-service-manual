@@ -9,11 +9,13 @@ eleventyNavigation:
   url: "/secure-by-design/"
 ---
 
-You need to design security into projects from the start. Then, you need to continually assess and manage security risks until your technology or service is retired.  
+You need to design security into projects from the start. 
 
-## An approach used across government
+Then, you need to continually assess and manage security risks until your technology or service is retired.  
 
-When delivering technical infrastructure and digital services, all UK government departments and arms-length bodies are expected to follow a Secure by Design approach. 
+## A government approach
+
+The Cabinet Office expects all UK government departments and arms-length bodies are expected to follow a Secure by Design approach. 
 
 Following a Secure by Design approach, you will: 
 
@@ -26,9 +28,9 @@ Following a Secure by Design approach, you will:
 
 The cyber landscape is constantly evolving. To keep our people and data safe, you need to change the way you identify and manage security risks.
 
-Following a Secure by Design approach helps Defence stay ahead of adversaries and maintain national security.
-
 <div class="govuk-inset-text">If you do not design technology and services with cyber security in mind it can lead to serious consequences, including loss of life.</div>
+
+Following a Secure by Design approach, you help Defence stay ahead of adversaries and maintain national security.
 
 To be Secure by Design, you need to show that your team:
 
