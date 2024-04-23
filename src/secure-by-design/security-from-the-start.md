@@ -19,7 +19,6 @@ The Cabinet Office expects all UK government departments and arms-length bodies 
 
 Following a Secure by Design approach, you will: 
 
-- use effective security practices 
 - help create resilient technology and services
 - make security everyone’s responsibility
 - improve trust and data sharing
