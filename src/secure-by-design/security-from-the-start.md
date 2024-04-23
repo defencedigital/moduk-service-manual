@@ -44,7 +44,7 @@ Following a Secure by Design approach, you help Defence stay ahead of adversarie
 
 ## What you need to do
 
-To be Secure by Design, your team needs to do certain activities. These are grouped into 7 areas: 
+To be Secure by Design, your team needs to do specific things. These are grouped into areas of activity: 
 
 1. Define your context
 <!-- How your technology or service uses Defence data and how much risk it carries. -->
@@ -61,8 +61,10 @@ To be Secure by Design, your team needs to do certain activities. These are grou
 7. Stay secure
 <!-- Keep assessing security risks against functional changes and external threats. -->
 
-For guidance on activities, [check how to be Secure by Design]().
+For more guidance on the activities, [check how to be Secure by Design]().
 
+**Next**
+[Who needs to do this]()
 
 ### Related guidance
 
@@ -72,5 +74,4 @@ For guidance on activities, [check how to be Secure by Design]().
         
 <p class="govuk-body"><a href="https://www.ncsc.gov.uk/collection/cyber-security-design-principles" target="_blank">National Cyber Security Centre secure design principles<span class="govuk-visually-hidden">opens in a new tab</span></a></p>  
 
-Next
-[Who needs to do this]()
+
