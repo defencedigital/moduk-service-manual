@@ -49,7 +49,7 @@ To be Secure by Design, you need to show that your team:
 
 ## What you need to do
 
-Secure by Design activities in Defence are grouped into 7 areas. These are:
+To be Secure by Design, you and your team need to do certain activities. These are grouped into 7 areas: 
 
 1. Set your context
 <!-- Define how your technology or service uses Defence data and how much risk it carries. -->
