@@ -46,8 +46,8 @@ Following a Secure by Design approach, you help Defence stay ahead of adversarie
 
 To be Secure by Design, your team needs to do certain activities. These are grouped into 7 areas: 
 
-1. Set your context
-<!-- Define how your technology or service uses Defence data and how much risk it carries. -->
+1. Define your context
+<!-- How your technology or service uses Defence data and how much risk it carries. -->
 2. Plan security activities
 <!-- Manage stakeholders, agree a suitable way to assess risk and select a control framework. -->
 3. Manage security risks
