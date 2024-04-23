@@ -15,7 +15,7 @@ Then, you need to continually assess and manage security risks until your techno
 
 ## A government approach
 
-The Cabinet Office expects all UK government departments and arms-length bodies are expected to follow a Secure by Design approach. 
+The Cabinet Office expects all UK government departments and arms-length bodies to follow a Secure by Design approach. 
 
 Following a Secure by Design approach, you will: 
 
