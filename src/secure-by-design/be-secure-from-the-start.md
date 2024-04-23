@@ -1,7 +1,7 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Secure by Design"
-title: "Secure from the start"
+title: "Be secure from the start"
 description: "Design technology and services that are safe, secure and resilient to cyber attack."
 dateUpdated: 2024-04-23
 eleventyNavigation:
@@ -28,7 +28,7 @@ Following a Secure by Design approach, you will:
 
 The cyber landscape is constantly evolving. To keep our people and data safe, you need to change the way you identify and manage security risks.
 
-<div class="govuk-inset-text">If you do not design technology and services with cyber security in mind it can lead to serious consequences, including loss of life.</div>
+If you do not design technology and services with cyber security in mind it can lead to serious consequences, including loss of life.
 
 Following a Secure by Design approach, you help Defence stay ahead of adversaries and maintain national security.
 
