@@ -79,7 +79,7 @@ Test that your activities and controls are working and correct any vulnerabiliti
 
 Keep assessing security risks against functional changes and external threats.
 
-For more guidance, [check how to be Secure by Design]().
+For more guidance on activities, [check how to be Secure by Design]().
 
 
 ## Related guidance
