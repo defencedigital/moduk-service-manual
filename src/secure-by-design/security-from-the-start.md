@@ -56,7 +56,7 @@ Manage stakeholders, agree a suitable way to assess risk and select a control fr
 
 **3. Manage security risks**
 
-Continuously manage risk and use existing tools for regular self assessments.
+Continuously manage security risks and use existing tools for regular self assessments.
 
 **4. Set your controls**
 
