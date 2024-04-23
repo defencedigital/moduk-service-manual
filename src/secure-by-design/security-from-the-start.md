@@ -52,25 +52,25 @@ To be Secure by Design, you need to show that your team:
 Secure by Design activities in Defence are grouped into 7 areas. These are:
 
 1. Set your context
-Define how your technology or service uses Defence data and how much risk it carries.
+<!-- Define how your technology or service uses Defence data and how much risk it carries. -->
 
 2. Plan security activities
-Manage stakeholders, agree a suitable way to assess risk and select a control framework.
+<!-- Manage stakeholders, agree a suitable way to assess risk and select a control framework. -->
 
 3. Manage security risks
-Continuously manage risk and use existing tools for regular self assessments.
+<!-- Continuously manage risk and use existing tools for regular self assessments. -->
 
 4. Set your controls
-Use existing tools to design and implement ways to address security risks.
+<!-- Use existing tools to design and implement ways to address security risks. -->
 
 5. Work with suppliers
-Identify security risks when buying products and services and address them in contracts.
+<!-- Identify security risks when buying products and services and address them in contracts. -->
 
 6. Check your approach
-Test that your activities and controls are working and correct any vulnerabilities.
+<!-- Test that your activities and controls are working and correct any vulnerabilities. -->
 
 7. Stay secure
-Keep assessing security risks against functional changes and external threats.
+<!-- Keep assessing security risks against functional changes and external threats. -->
 
 For more guidance on activities, [check how to be Secure by Design]().
 
