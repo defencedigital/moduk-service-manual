@@ -49,7 +49,7 @@ To be Secure by Design, you need to show that your team:
 
 ## What you need to do
 
-To be Secure by Design, you and your team need to do certain activities. These are grouped into 7 areas: 
+To be Secure by Design, your team needs to do certain activities. These are grouped into 7 areas: 
 
 **1. Set your context**
 
