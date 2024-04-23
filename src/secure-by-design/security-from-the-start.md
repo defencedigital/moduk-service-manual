@@ -1,7 +1,7 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Secure by Design"
-title: "Be secure from the start"
+title: "Security from the start"
 description: "Design technology and services that are safe, secure and resilient to cyber attack."
 dateUpdated: 2024-05-23
 eleventyNavigation:
@@ -30,12 +30,6 @@ The cyber landscape is constantly evolving. If you do not design technology and 
 To keep our people and data safe, you need to change the way you identify and manage security risks. 
 
 Following a Secure by Design approach, you help Defence stay ahead of adversaries and maintain national security.
-
-To be Secure by Design, you need to show that your team:
-
-- has considered cyber security from the start
-- uses appropriate security frameworks and controls
-- is continuously managing risks
 
 {{ modukcomponent('callout', {
   title: 'Case study',
