@@ -28,9 +28,9 @@ Examples include:
 }) }}
 
 
-### For the project life cycle
+### Be secure in all phases
 
-To be Secure by Design, you continuously identify and manage security risks. You need to do this in all stages of the project life cycle, including:
+To be Secure by Design, you continuously identify and manage security risks. You need to do this across the full life cycle of your project. This includes: 
 
 - definition
 - acquisition
