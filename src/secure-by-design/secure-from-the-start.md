@@ -53,6 +53,6 @@ To read Defence policy on Secure by Design, search for ‘JSP 440 Leaflet 5C’ 
         
 <p class="govuk-body"><a href="https://www.ncsc.gov.uk/collection/cyber-security-design-principles" target="_blank">National Cyber Security Centre secure design principles<span class="govuk-visually-hidden">(opens in a new tab)</span></a></p>  
 
-<br>
+
 **Next**
 [Who needs to do this]()
