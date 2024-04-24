@@ -25,11 +25,11 @@ Following a Secure by Design approach, you will:
 
 ## In the Ministry of Defence
 
+Every technology and service that handles Defence data needs to be Secure by Design. 
+ 
 The cyber landscape is constantly evolving. If you do not design technology and services with cyber security in mind it can lead to serious consequences, including loss of life. 
 
-To keep our people and data safe, we need to constantly identify and address cyber security risks.
-
-Following a Secure by Design approach, you help Defence stay ahead of adversaries and maintain national security.
+To keep our people and data safe, we need to constantly identify and address cyber security risks. Following a Secure by Design approach, you help Defence stay ahead of adversaries and maintain national security.
 
 
 {{ modukcomponent('callout', {
