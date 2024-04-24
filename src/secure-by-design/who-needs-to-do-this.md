@@ -48,7 +48,7 @@ Your SRO needs to be someone with authority and experience in risk management, f
 SROs are usually supported by security and delivery leads. If you do not have anyone on your team with security experience, you need to fill that role. 
 
 
-### Get your team involved
+## Get your team involved
 
 Secure by Design encourages everyone to identify and manage risk. Make sure your team understands:
 
@@ -56,7 +56,7 @@ Secure by Design encourages everyone to identify and manage risk. Make sure your
 - why designing security in from the start is important
 - their role in keeping MOD data secure
 
-You can [sign up to Secure by Design news and events](). Share this link with team members and ask them to sign up. 
+You can [sign up to Secure by Design news and events](). Share this link with your team and ask them to sign up. 
 
 
 **Next**
