@@ -1,0 +1,67 @@
+---
+layout: "layouts/guidance.njk"
+section: "Secure by Design"
+title: "Who needs to do this"
+description: "Check the kind of projects that need to be Secure by Design and who in your team is responsible."
+dateUpdated: 2024-05-23
+eleventyNavigation:
+  key: "Secure by Design"
+  url: "/secure-by-design/secure-by-design-full/"
+---
+
+All technology and services that handle Defence data need to be Secure by Design. 
+
+## Projects this applies to
+
+Since July 2023, new technology infrastructure and digital services in Defence must be Secure by Design. This includes projects delivered by suppliers.
+
+Examples include: 
+
+- networks
+- applications
+- services
+- platforms
+- weapons systems
+
+If your project has existing security accreditation, you need to move to Secure by Design when it expires. You should start preparing for it now.
+
+You need to design security into projects from the start. 
+
+Then, you need to continually assess and manage security risks until your technology or service is retired.  
+
+
+## For the project lifecycle
+
+To be Secure by Design, you continuously identify and manage security risks. You need to do this in all stages of the project life cycle, including:
+
+- definition
+- acquisition
+- design 
+- development
+- maintenance
+- disposal
+
+
+## Who is responsible
+
+Your team is responsible for implementing and running Secure by Design.
+
+You need to appoint a Senior Responsible Officer (SRO) to be accountable for Secure by Design. This needs to be someone with authority and experience in risk management, for example a product or service owner. 
+
+If you do not have anyone on your team with the right authority and experience, you will need to fill that role. 
+
+SROs are usually supported by security and delivery leads. 
+
+### Get your team involved
+
+Secure by Design encourages everyone to identify and manage risk. Make sure your team understands:
+
+- the project is responsible for cyber security
+- why designing security in from the start is important
+- their role in keeping MOD data secure
+
+You can [sign up to Secure by Design news and events](). Share this link with team members and ask them to sign up. 
+
+
+**Next**
+[How assurance works]()
