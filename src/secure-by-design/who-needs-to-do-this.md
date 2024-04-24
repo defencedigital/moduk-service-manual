@@ -43,7 +43,7 @@ SROs are usually supported by security and delivery leads. If you do not have an
 Secure by Design encourages everyone to identify and manage risk. Make sure your team understands:
 
 - the project is responsible for cyber security
-- why designing security in from the start is important
+- why designing for security from the start is important
 - their role in keeping MOD data secure
 
 You can [sign up to Secure by Design news and events](). 
