@@ -47,12 +47,12 @@ To read Defence policy on Secure by Design, search for ‘JSP 440 Leaflet 5C’ 
 
 ## Related guidance
 
-<p class="govuk-body"><a href="https://cddo.blog.gov.uk/2023/12/20/deputy-prime-minister-announces-launch-of-cross-government-secure-by-design-approach/" target="_blank">Launching the cross-government Secure by Design approach<span class="govuk-visually-hidden">opens in a new tab</span></a></p> 
+<p class="govuk-body"><a href="https://cddo.blog.gov.uk/2023/12/20/deputy-prime-minister-announces-launch-of-cross-government-secure-by-design-approach/" target="_blank">Launching the cross-government Secure by Design approach<span class="govuk-visually-hidden">(opens in a new tab)</span></a></p> 
         
-<p class="govuk-body"><a href="https://www.security.gov.uk/guidance/secure-by-design/" target="_blank">GOV.UK Secure by Design guidance<span class="govuk-visually-hidden">opens in a new tab</span></a></p>
+<p class="govuk-body"><a href="https://www.security.gov.uk/guidance/secure-by-design/" target="_blank">GOV.UK Secure by Design guidance<span class="govuk-visually-hidden">(opens in a new tab)</span></a></p>
         
-<p class="govuk-body"><a href="https://www.ncsc.gov.uk/collection/cyber-security-design-principles" target="_blank">National Cyber Security Centre secure design principles<span class="govuk-visually-hidden">opens in a new tab</span></a></p>  
+<p class="govuk-body"><a href="https://www.ncsc.gov.uk/collection/cyber-security-design-principles" target="_blank">National Cyber Security Centre secure design principles<span class="govuk-visually-hidden">(opens in a new tab)</span></a></p>  
 
-<br><br>
+<br>
 **Next**
 [Who needs to do this]()
