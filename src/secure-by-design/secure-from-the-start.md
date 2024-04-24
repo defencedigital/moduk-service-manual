@@ -13,7 +13,7 @@ You need to design security into projects from the start.
 
 Then, you need to continually assess and manage security risks until your technology or service is retired.  
 
-## A government approach
+## Across government
 
 The Cabinet Office expects all UK government departments and arms-length bodies to follow a Secure by Design approach. 
 
@@ -23,7 +23,7 @@ Following a Secure by Design approach, you will:
 - make security everyone’s responsibility
 - improve trust and data sharing
 
-## Secure by Design in Defence
+## In the Ministry of Defence
 
 The cyber landscape is constantly evolving. If you do not design technology and services with cyber security in mind it can lead to serious consequences, including loss of life. 
 
