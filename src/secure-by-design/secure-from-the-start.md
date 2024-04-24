@@ -31,6 +31,8 @@ To keep our people and data safe, we need to constantly identify and address sec
 
 Following a Secure by Design approach, you help Defence stay ahead of adversaries and maintain national security.
 
+To read Defence policy on Secure by Design, search for ‘JSP 440 Leaflet 5C’ on MODNET. 
+
 
 {{ modukcomponent('callout', {
   title: 'Case study',
@@ -50,8 +52,6 @@ Following a Secure by Design approach, you help Defence stay ahead of adversarie
 <p class="govuk-body"><a href="https://www.security.gov.uk/guidance/secure-by-design/" target="_blank">GOV.UK Secure by Design guidance<span class="govuk-visually-hidden">opens in a new tab</span></a></p>
         
 <p class="govuk-body"><a href="https://www.ncsc.gov.uk/collection/cyber-security-design-principles" target="_blank">National Cyber Security Centre secure design principles<span class="govuk-visually-hidden">opens in a new tab</span></a></p>  
-
-To read Defence policy on Secure by Design, search for ‘JSP 440 Leaflet 5C’ on MODNET. 
 
 **Next**
 [Who needs to do this]()
