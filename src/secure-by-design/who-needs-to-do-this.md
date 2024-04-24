@@ -25,7 +25,7 @@ Examples include:
 
 If your project has existing security accreditation, you need to move to Secure by Design when it expires. You should start preparing for it now.
 
-### For the project lifecycle
+### For the project life cycle
 
 To be Secure by Design, you continuously identify and manage security risks. You need to do this in all stages of the project life cycle, including:
 
