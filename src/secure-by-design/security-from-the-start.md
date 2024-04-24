@@ -25,11 +25,11 @@ Following a Secure by Design approach, you will:
 
 ## Secure by Design in Defence
 
-The cyber landscape is constantly evolving. If you do not design technology and services with cyber security in mind it can lead to serious consequences, including loss of life.
-
-To keep our people and data safe, you need to change the way you identify and manage security risks. 
+The cyber landscape is constantly evolving. To keep our people and data safe, we need to constantly identify and address security risks.
 
 Following a Secure by Design approach, you help Defence stay ahead of adversaries and maintain national security.
+
+If you do not design technology and services with cyber security in mind it can lead to serious consequences, including loss of life. 
 
 {{ modukcomponent('callout', {
   title: 'Case study',
