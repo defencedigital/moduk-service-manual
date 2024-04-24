@@ -43,29 +43,8 @@ Following a Secure by Design approach, you help Defence stay ahead of adversarie
   }
 }) }}
 
-## What you need to do
+To read Defence policy on Secure by Design, search for ‘JSP 440 Leaflet 5C’ on MODNET. 
 
-To be Secure by Design, your team needs to do specific things. These are grouped into areas of activity: 
-
-1. Define your context
-<!-- How your technology or service uses Defence data and how much risk it carries. -->
-2. Plan security activities
-<!-- Manage stakeholders, agree a suitable way to assess risk and select a control framework. -->
-3. Manage security risks
-<!-- Continuously manage security risks and use existing tools for regular self assessments. -->
-4. Set your controls
-<!-- Use existing tools to design and implement ways to address security risks. -->
-5. Work with suppliers
-<!-- Identify security risks when buying products and services and address them in contracts. -->
-6. Check your approach
-<!-- Test that your activities and controls are working and correct any vulnerabilities. -->
-7. Stay secure
-<!-- Keep assessing security risks against functional changes and external threats. -->
-
-For more guidance on the activities, [check how to be Secure by Design]().
-
-**Next**
-[Who needs to do this]()
 
 ### Related guidance
 
@@ -75,4 +54,7 @@ For more guidance on the activities, [check how to be Secure by Design]().
         
 <p class="govuk-body"><a href="https://www.ncsc.gov.uk/collection/cyber-security-design-principles" target="_blank">National Cyber Security Centre secure design principles<span class="govuk-visually-hidden">opens in a new tab</span></a></p>  
 
+
+**Next**
+[Who needs to do this]()
 
