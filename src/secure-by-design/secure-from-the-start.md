@@ -15,7 +15,7 @@ Then, you need to continually assess and manage security risks until your techno
 
 ## Across government
 
-The Cabinet Office expects all UK government departments and arms-length bodies to follow a Secure by Design approach. 
+Cabinet Office policy is that all government departments and arms-length bodies must be Secure by Design. 
 
 Following a Secure by Design approach, you will: 
 
@@ -25,7 +25,7 @@ Following a Secure by Design approach, you will:
 
 ## In the Ministry of Defence
 
-Every technology and service that handles Defence data needs to be Secure by Design. 
+The Ministry of Defence has agreed to implement a Secure by Design approach in all Top-Level Budgets (TLBs) and arms-length bodies.  
  
 The cyber landscape is constantly evolving. If you do not design technology and services with cyber security in mind it can lead to serious consequences, including loss of life. 
 
