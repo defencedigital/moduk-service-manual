@@ -13,7 +13,7 @@ All technology and services that handle Defence data need to be Secure by Design
 
 ## Projects this applies to
 
-Since July 2023, new technology infrastructure and digital services in Defence must be Secure by Design. This includes projects delivered by suppliers.
+Since July 2023, all new technology infrastructure and digital services in Defence need to follow the Secure by Design approach. This includes projects delivered by suppliers.
 
 Examples include: 
 
@@ -24,11 +24,6 @@ Examples include:
 - weapons systems
 
 If your project has existing security accreditation, you need to move to Secure by Design when it expires. You should start preparing for it now.
-
-You need to design security into projects from the start. 
-
-Then, you need to continually assess and manage security risks until your technology or service is retired.  
-
 
 ## For the project lifecycle
 
@@ -46,11 +41,12 @@ To be Secure by Design, you continuously identify and manage security risks. You
 
 Your team is responsible for implementing and running Secure by Design.
 
-You need to appoint a Senior Responsible Officer (SRO) to be accountable for Secure by Design. This needs to be someone with authority and experience in risk management, for example a product or service owner. 
+You need to appoint a Senior Responsible Officer (SRO) to be accountable for Secure by Design. 
 
-If you do not have anyone on your team with the right authority and experience, you will need to fill that role. 
+Your SRO needs to be someone with authority and experience in risk management, for example a product or service owner. If you do not have someone suitable, your project sponsor can be your SRO.
 
-SROs are usually supported by security and delivery leads. 
+SROs are usually supported by security and delivery leads. If you do not have anyone on your team with security experience, you need to fill that role. 
+
 
 ### Get your team involved
 
