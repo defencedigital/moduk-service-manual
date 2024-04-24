@@ -9,11 +9,11 @@ eleventyNavigation:
   url: "/secure-by-design/secure-by-design-full/"
 ---
 
-All technology and services that handle Defence data need to be Secure by Design. 
+Every technology and service that handles Defence data needs to be Secure by Design. 
 
 ## Projects this applies to
 
-Since July 2023, all new technology infrastructure and digital services in Defence need to follow the Secure by Design approach. This includes projects delivered by suppliers.
+Since July 2023, new technology infrastructure and digital services in Defence need to follow the Secure by Design approach. This includes projects delivered by suppliers.
 
 Examples include: 
 
@@ -25,7 +25,7 @@ Examples include:
 
 If your project has existing security accreditation, you need to move to Secure by Design when it expires. You should start preparing for it now.
 
-## For the project lifecycle
+### For the project lifecycle
 
 To be Secure by Design, you continuously identify and manage security risks. You need to do this in all stages of the project life cycle, including:
 
