@@ -6,7 +6,7 @@ description: "Design technology and services that are safe, secure and resilient
 dateUpdated: 2024-05-23
 eleventyNavigation:
   key: "Secure by Design"
-  url: "/secure-by-design/"
+  url: "/secure-by-design/secure-by-design-full/"
 ---
 
 You need to design security into projects from the start. 
