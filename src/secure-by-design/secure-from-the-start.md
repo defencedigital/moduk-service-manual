@@ -17,7 +17,7 @@ Then, you need to continually assess and manage security risks until your techno
 
 Cabinet Office policy is that all government departments and arm's length bodies must be Secure by Design. 
 
-Following a Secure by Design approach, you will: 
+Following a Secure by Design approach, departments will: 
 
 - help create resilient technology and services
 - make security everyone’s responsibility
