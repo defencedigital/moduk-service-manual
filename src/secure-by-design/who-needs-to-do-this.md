@@ -59,7 +59,9 @@ Secure by Design encourages everyone to identify and manage risk. Make sure your
 - why designing security in from the start is important
 - their role in keeping MOD data secure
 
-You can [sign up to Secure by Design news and events](). Share this link with your team and ask them to sign up. 
+You can [sign up to Secure by Design news and events](). 
+
+Share the link with your team and ask them to sign up. 
 
 
 **Next**
