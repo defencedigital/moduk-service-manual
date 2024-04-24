@@ -23,7 +23,10 @@ Examples include:
 - platforms
 - weapons systems
 
-If your project has existing security accreditation, you need to move to Secure by Design when it expires. You should start preparing for it now.
+{{ component('inset-text', {
+  text: 'If your project has existing security accreditation, you need to move to Secure by Design when it expires. Start preparing for it now.'
+}) }}
+
 
 ### For the project life cycle
 

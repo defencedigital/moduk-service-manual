@@ -29,9 +29,7 @@ The Ministry of Defence is implementing Secure by Design in all top level budget
  
 The cyber landscape is constantly evolving. If you do not design technology and services with security in mind it can lead to serious consequences, including loss of life. 
 
-To keep our people and data safe, we need to constantly identify and address cyber security risks. 
-
-Following a Secure by Design approach, you help Defence stay ahead of adversaries and maintain national security.
+By being Secure by Design, you help Defence stay ahead of adversaries and maintain national security.
 
 
 {{ modukcomponent('callout', {
