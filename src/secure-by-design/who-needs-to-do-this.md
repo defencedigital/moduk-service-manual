@@ -27,19 +27,6 @@ Examples include:
   text: 'If your project has existing security accreditation, you need to move to Secure by Design when it expires. Start preparing for it now.'
 }) }}
 
-
-### Be secure in all phases
-
-To be Secure by Design, you continuously identify and manage security risks. You need to do this across the full life cycle of your project. This includes: 
-
-- definition
-- acquisition
-- design 
-- development
-- maintenance
-- disposal
-
-
 ## Who is responsible
 
 Your team is responsible for implementing and running Secure by Design.
