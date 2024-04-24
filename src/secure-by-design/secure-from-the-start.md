@@ -27,9 +27,11 @@ Following a Secure by Design approach, you will:
 
 The Ministry of Defence has agreed to implement a Secure by Design approach in all Top-Level Budgets (TLBs) and arms-length bodies.  
  
-The cyber landscape is constantly evolving. If you do not design technology and services with cyber security in mind it can lead to serious consequences, including loss of life. 
+The cyber landscape is constantly evolving. If you do not design technology and services with security in mind it can lead to serious consequences, including loss of life. 
 
-To keep our people and data safe, we need to constantly identify and address cyber security risks. Following a Secure by Design approach, you help Defence stay ahead of adversaries and maintain national security.
+To keep our people and data safe, we need to constantly identify and address cyber security risks. 
+
+Following a Secure by Design approach, you help Defence stay ahead of adversaries and maintain national security.
 
 
 {{ modukcomponent('callout', {
