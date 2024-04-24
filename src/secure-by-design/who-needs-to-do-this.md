@@ -35,7 +35,7 @@ You need to appoint a Senior Responsible Officer (SRO) to be accountable for Sec
 
 Your SRO needs to be someone with authority and experience in risk management, for example a product or service owner. If you do not have someone suitable, your project sponsor can be your SRO.
 
-SROs are usually supported by security and delivery leads. If you do not have anyone on your team with security experience, you need to fill that role. 
+SROs are usually supported by security and delivery leads. If you do not have anyone on your team with cyber security experience, you need to fill that role. 
 
 
 ## Get your team involved
