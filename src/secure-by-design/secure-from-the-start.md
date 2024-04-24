@@ -1,7 +1,7 @@
 ---
 layout: "layouts/guidance.njk"
 section: "Secure by Design"
-title: "Security from the start"
+title: "Secure from the start"
 description: "Design technology and services that are safe, secure and resilient to cyber attack."
 dateUpdated: 2024-05-23
 eleventyNavigation:
