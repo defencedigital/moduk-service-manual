@@ -45,7 +45,7 @@ To read Defence policy on Secure by Design, search for ‘JSP 440 Leaflet 5C’ 
   }
 }) }}
 
-### Related guidance
+## Related guidance
 
 <p class="govuk-body"><a href="https://cddo.blog.gov.uk/2023/12/20/deputy-prime-minister-announces-launch-of-cross-government-secure-by-design-approach/" target="_blank">Launching the cross-government Secure by Design approach<span class="govuk-visually-hidden">opens in a new tab</span></a></p> 
         
