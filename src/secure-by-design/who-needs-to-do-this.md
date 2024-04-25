@@ -9,9 +9,9 @@ eleventyNavigation:
   url: "/secure-by-design/secure-by-design-full/"
 ---
 
-<span style="color:orange">
+<p class="govuk-body" style="color:orange">
 Work in progress. Do not review this content yet.
-</span> 
+</p> 
 
 Every technology and service that handles Defence data needs to be Secure by Design. 
 
