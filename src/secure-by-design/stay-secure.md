@@ -1,30 +1,17 @@
 ---
 layout: "layouts/two-column.njk"
-title: "Get started"
+title: "Stay secure"
 description: ""
 ---
 
-## [Get your team ready](/service-assessments/how-service-assessments-help-your-team) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Continuously manage risks](/service-assessments/how-service-assessments-help-your-team) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- topic here
-- topic here
-- topic here
-
-## [Check best practices](/service-assessments/get-a-service-assessment) {.govuk-heading-m .govuk-!-margin-bottom-1}
-
-- topic here
+- do regular self-assessments
 - topic here
 - topic here
 
+## [Check your approach](/service-assessments/get-a-service-assessment) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-## [Agree a framework and controls](/service-assessments/what-to-expect) {.govuk-heading-m .govuk-!-margin-bottom-1}
-
-- topic here
-- topic here
-- topic here
-
-## [Get stakeholders on board](/service-assessments/tell-the-story-of-your-service) {.govuk-heading-m .govuk-!-margin-bottom-1}
-
-- topic here
+- adapt to new threats
 - topic here
 - topic here
