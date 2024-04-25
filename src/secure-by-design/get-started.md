@@ -4,6 +4,9 @@ title: "Get started"
 description: ""
 ---
 
+Intro sentence here.
+
+
 ## [Get your team ready](/service-assessments/how-service-assessments-help-your-team) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - explain this is the team's responsibility
