@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/secure-by-design/secure-by-design-full/"
 ---
 
-<p class="govuk-body" style="color:orange">
+<p class="govuk-body" style="color:red">
 Work in progress. Do not review this content yet.
 </p> 
 
