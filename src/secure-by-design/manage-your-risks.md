@@ -17,9 +17,9 @@ description: ""
 - make your findings available
 
 
-## [Show you are managing risks](/service-assessments/what-to-expect) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Show how you are managing risks](/service-assessments/what-to-expect) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - share planned improvements
-- address supply chain risks
+- topic here
 - topic here
 
