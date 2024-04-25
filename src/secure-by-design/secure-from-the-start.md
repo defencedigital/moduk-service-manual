@@ -8,6 +8,9 @@ eleventyNavigation:
   key: "Secure by Design"
   url: "/secure-by-design/secure-by-design-full/"
 ---
+<span style="color:orange">
+Work in progress. Do not review this content yet.
+</span> 
 
 You need to design security into projects from the start. 
 
