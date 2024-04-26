@@ -24,7 +24,7 @@
 
       <div class="govuk-grid-column-two-thirds">
 
-        <form class="js-form" id="send-your-feedback" name="Send your feedback" action="/send-your-feedback/thank-you" method="POST" autocomplete="off" data-netlify="true" data-netlify-honeypot="giraffe" novalidate>
+        <form class="js-form" id="send-your-feedback" name="Send your feedback" action="/send-your-feedback/thank-you" method="POST" autocomplete="off" data-netlify="true" data-netlify-honeypot="bot-field" novalidate>
 
           <div class="govuk-error-summary is-hidden">
             <div role="alert">
@@ -107,8 +107,8 @@
               <input class="govuk-input" id="email" name="Email address (optional)" type="email" spellcheck="false" aria-describedby="email-hint email-error" autocomplete="email" data-validate="true">
             </div>
 
-            <div class="govuk-form-group is-hidden" aria-hidden="true">              
-              <label>Don’t fill this out if you’re human <input class="govuk-input" name="giraffe" type="text" autocomplete="off" tabindex="-1"></label>
+            <div class="govuk-form-group is-hidden">              
+              <label>Don’t fill this out if you’re human <input class="govuk-input" name="bot-field" type="text" autocomplete="off"></label>
             </div>
 
             {{ component('button', {

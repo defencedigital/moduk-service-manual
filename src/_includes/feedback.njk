@@ -34,7 +34,7 @@
 
     </div>
 
-    <form class="moduk-feedback__form js-feedback-form js-form is-hidden" id="moduk-feedback__yes" name="Yes, I found what I was looking for" method="POST" action="/send-your-feedback/thank-you" autocomplete="off" data-netlify="true" data-netlify-honeypot="giraffe">
+    <form class="moduk-feedback__form js-feedback-form js-form is-hidden" id="moduk-feedback__yes" name="Yes, I found what I was looking for" method="POST" action="/send-your-feedback/thank-you" autocomplete="off" data-netlify="true" data-netlify-honeypot="bot-field">
 
       <div class="govuk-width-container">
 
@@ -78,8 +78,8 @@
               <input class="govuk-input" id="email-yes" name="Email address (optional)" type="email" aria-describedby="email-yes-hint email-yes-error" data-validate="true">
             </div>
 
-            <div class="govuk-form-group is-hidden" aria-hidden="true">
-              <label>Don’t fill this out if you’re human <input class="govuk-input" name="giraffe" type="text" autocomplete="off" tabindex="-1"></label>
+            <div class="govuk-form-group is-hidden">
+              <label>Don’t fill this out if you’re human <input class="govuk-input" name="bot-field" type="text" autocomplete="off"></label>
             </div>
 
             <div class="govuk-button-group">
@@ -109,7 +109,7 @@
 
     </form>
 
-    <form class="moduk-feedback__form js-feedback-form js-form is-hidden" id="moduk-feedback__no" name="No, I didn’t find what I was looking for" method="POST" action="/send-your-feedback/thank-you" autocomplete="off" data-netlify="true" data-netlify-honeypot="giraffe">
+    <form class="moduk-feedback__form js-feedback-form js-form is-hidden" id="moduk-feedback__no" name="No, I didn’t find what I was looking for" method="POST" action="/send-your-feedback/thank-you" autocomplete="off" data-netlify="true" data-netlify-honeypot="bot-field">
       
       <div class="govuk-width-container">
 
@@ -148,8 +148,8 @@
               <input class="govuk-input" id="email-no" name="Email address (optional)" type="email" aria-describedby="email-no-hint email-yes-error" data-validate="true">
             </div>
 
-            <div class="govuk-form-group is-hidden" aria-hidden="true">
-              <label>Don’t fill this out if you’re human <input class="govuk-input" name="giraffe" type="text" autocomplete="off" tabindex="-1"></label>
+            <div class="govuk-form-group is-hidden">
+              <label>Don’t fill this out if you’re human <input class="govuk-input" name="bot-field" type="text" autocomplete="off"></label>
             </div>
 
             <div class="govuk-button-group">
