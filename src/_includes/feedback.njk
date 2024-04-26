@@ -47,6 +47,7 @@
                 <h1 class="govuk-error-summary__title">There is a problem</h1>
                 <div class="govuk-error-summary__body">
                   <ul class="govuk-list govuk-error-summary__list">
+                    <li class="is-hidden" id="tell-us-more-summary-error"><a href="#tell-us-more">Tell us more</a></li>
                     <li class="is-hidden" id="email-yes-summary-error"><a href="#email-yes">Enter a valid email address</a></li>
                   </ul>
                 </div>
@@ -58,18 +59,12 @@
             <input type="hidden" name="Did you find what you were looking for?" value="Yes" tabindex="-1">
             <input type="hidden" name="Url" value="https://servicemanual.digital.mod.uk{{ page.url }}" tabindex="-1">
 
-            {{ component('textarea', {
-              id: 'tell-us-more',
-              name: 'Tell us more (optional)',
-              rows: 3,
-              label: {
-                text: 'Tell us more (optional)'
-              },
-              hint: {
-                text: 'Include feedback, questions and suggestions.'
-              },
-              spellcheck: true
-            }) }}
+            <div class="govuk-form-group">
+              <label class="govuk-label" for="tell-us-more">Tell us more</label>
+              <div class="govuk-hint" id="tell-us-more-hint">Include details, questions and suggestions.</div>
+              <p class="govuk-error-message is-hidden" id="tell-us-more-error"><span class="govuk-visually-hidden">Error:</span> Tell us more</p>
+              <textarea class="govuk-textarea" id="tell-us-more" name="Tell us more" rows="3" spellcheck="true" aria-describedby="tell-us-more-hint" required></textarea>
+            </div>
 
             <div class="govuk-form-group">
               <label class="govuk-label" for="email-yes">Email address (optional)</label>
