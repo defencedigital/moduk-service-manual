@@ -32,25 +32,13 @@ Your team needs to show that you are doing Secure by Design activities, includin
 
 ## What you need to do
 
-Check the activities you need to do and the tools you can use. Follow the guidance for phase: 
+Check the activities you need to do and the tools you can use. Follow the guidance in each phase: 
  
-- get started
-- manage your risks
-- stay secure 
+- [get started]()
+- [manage your risks]()
+- [stay secure]() 
 
 When you can, reuse existing frameworks and tools. For example, you need to use the Cyber Activity and Assurance Tracker (CAAT) to submit regular self assessments.
- 
-
-{{ modukcomponent('callout', {
-  title: 'Case study',
-  content: '<p>Check we can use the MODCloud SECRET case study and add a brief intro here</p>',
-  link: {
-    text: 'Find out more',
-    hiddenText: 'about how .....',
-    url: '',
-    external: true
-  }
-}) }}
 
 ##  Ask for an assessment
 
