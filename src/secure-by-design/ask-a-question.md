@@ -10,7 +10,7 @@ eleventyNavigation:
 ---
 
 <p class="govuk-body" style="color:red">
-Work in progress. Do not review this content yet.
+Draft ready for review.
 </p> 
 
 Every technology and digital service is different. If you have project specific questions, you can: 
@@ -22,7 +22,7 @@ Every technology and digital service is different. If you have project specific 
 
 ## Join a Secure by Design event
 
-We run regular events to share updates and answer your questions. You can [check when the next event is]().
+We run regular calls and events to share updates and answer your questions. You can [check when the next event is]().
 
 
 ## Send an email 
