@@ -15,19 +15,21 @@ Draft ready for review.
 
 Every technology and digital service is different. If you have project specific questions, you can: 
 
-- get advice at a Secure by Design event 
+- get advice on a Secure by Design call 
 - ask a question in an email
 - tell us what you need
 
 
 ## Join a Secure by Design event
 
-We run regular calls and events to share updates and answer your questions. You can [check when the next event is]().
+We run regular calls and events to share updates and answer your questions. 
+
+You can [check when the next event is]().
 
 
 ## Send an email 
 
-You can send project specific questions to: uksratcomdd-cydr-sbd-help@mod.gov.uk. 
+You can send project specific questions to: [uksratcomdd-cydr-sbd-help@mod.gov.uk](mailto:uksratcomdd-cydr-sbd-help@mod.gov.uk?subject=Question%20on%20Secure%20by%20Design). 
 
 Make sure you include: 
 
@@ -40,4 +42,6 @@ Make sure you include:
 
 ##  Tell us what you need
 
-If you cannot find guidance on a Secure by Design topic, we can add it. You can [send us your feedback]().
+If you cannot find guidance on a Secure by Design topic, we can add it. 
+
+You can [send us your feedback]().
