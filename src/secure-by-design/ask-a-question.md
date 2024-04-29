@@ -20,11 +20,11 @@ Every technology and digital service is different. If you have project specific 
 - tell us what you need
 
 
-## Join a Secure by Design event
+## Join a Secure by Design call
 
 We run regular calls and events to share updates and answer your questions. 
 
-You can [check when the next event is]().
+You can [sign up to the next call]().
 
 
 ## Send an email 
