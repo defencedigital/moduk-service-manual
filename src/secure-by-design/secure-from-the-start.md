@@ -6,7 +6,7 @@ description: "Design technology and services that are safe, secure and resilient
 dateUpdated: 2024-05-23
 eleventyNavigation:
   key: "Secure by Design"
-  url: "/secure-by-design/secure-by-design-full/"
+  url: "/secure-by-design/secure-by-design-phases/"
 ---
 <p class="govuk-body" style="color:red">
 Work in progress. Do not review this content yet.
