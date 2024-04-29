@@ -6,21 +6,21 @@ description: "Design technology and services that are safe, secure and resilient
 dateUpdated: 2024-05-23
 eleventyNavigation:
   key: "Secure by Design"
-  url: "/secure-by-design/secure-by-design-full/"
+  url: "/secure-by-design/secure-by-design-phases/"
 ---
 <p class="govuk-body" style="color:red">
 Work in progress. Do not review this content yet.
 </p> 
 
-You no longer apply for security accreditation that lasts for a period of time. 
+You no longer apply for security accreditation that lasts for a period of time. You need to show that your project is Secure by Design. 
 
-You need to show that your project is Secure by Design. This includes projects delivered by suppliers.  
+This includes projects delivered by suppliers.  
 
 ## Show your project is secure
 
-You need to design security into projects from the start. Then, you need to continually assess and manage security risks until your technology or service is retired. 
+You need to design security into projects from the start. You need to continually assess and manage security risks until your technology or service is retired. 
 
-Your team needs to show that you are doing Secure by Design activities. This includes:
+Your team needs to show that you are doing Secure by Design activities, including:
 
 - agreeing roles and responsibilities
 - deciding how much risk is acceptable
