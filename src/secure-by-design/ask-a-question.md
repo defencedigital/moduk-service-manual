@@ -44,4 +44,4 @@ Make sure you include:
 
 If you cannot find guidance on a Secure by Design topic, we can add it. 
 
-You can [send us your feedback]().
+[Send us your feedback](mailto:service-manual@digital.mod.uk?subject=Feedback%20on%20Secure%20by%20Design).
