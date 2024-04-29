@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/secure-by-design/secure-by-design-phases/"
 ---
 
-<p class="govuk-body" style="color:red">
+<p class="govuk-body" style="color:green">
 Draft ready for review.
 </p> 
 
