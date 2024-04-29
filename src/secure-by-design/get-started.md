@@ -31,3 +31,6 @@ Intro sentence here.
 - topic here
 - topic here
 - topic here
+
+**Next**
+[Manage your risks](/secure-by-design/who-needs-to-do-this/)
