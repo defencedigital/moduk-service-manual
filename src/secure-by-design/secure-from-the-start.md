@@ -30,20 +30,15 @@ Following a Secure by Design approach, departments will:
 
 The Ministry of Defence is implementing Secure by Design in all top level budgets and arm’s length bodies.
  
-The cyber landscape is constantly evolving. If you do not design technology and services with security in mind it can lead to serious consequences, including loss of life. 
+You no longer have to apply for security accreditation that lasts for a period of time. You must follow a Secure by Design approach.
 
-By being Secure by Design, you help Defence stay ahead of adversaries and maintain national security.
+You need to show that your team:
+- has considered cyber security from the start
+- has chosen appropriate security frameworks and controls
+- is continuously managing risks
 
-
-{{ modukcomponent('callout', {
-  title: 'Case study',
-  content: '<p>Check we can use the MODCloud SECRET case study and add a brief intro here</p>',
-  link: {
-    text: 'Find out more',
-    hiddenText: 'about how .....',
-    url: '',
-    external: true
-  }
+{{ component('inset-text', {
+  text: 'If your project has existing security accreditation, you need to move to Secure by Design when it expires. Start preparing for it now.'
 }) }}
 
 To read Defence policy on Secure by Design, search for ‘JSP 440 Leaflet 5C’ on MODNET. 
