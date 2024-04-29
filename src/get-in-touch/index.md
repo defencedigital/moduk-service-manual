@@ -2,7 +2,7 @@
 layout: "layouts/landing.njk"
 title: "Get in touch"
 description: "Anyone working in Defence can suggest content for the Defence Service Manual. Find out how to add or update content."
-lead: "If you have a question or suggestion, contact the Defence Service Manual team."
+lead: ""
 ---
 
 If you have a question or suggestion, send an email to the Defence Service Manual team: [service-manual@digital.mod.uk](mailto:service-manual@digital.mod.uk).
