@@ -56,7 +56,7 @@ The Cyber Security Assurance and Advisory Service (CySAAS) can check how you are
 
 CySAAS looks at self-assessment reports submitted by projects. If your project is considered high risk, you might be selected for an assessment.  
 
-You can [find out more about CySAAS]().
+Check [how to ask for an assessment]().
 
 
 **Next**
