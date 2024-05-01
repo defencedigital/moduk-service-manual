@@ -3,15 +3,15 @@ layout: "layouts/guidance.njk"
 section: "Community"
 title: "How to ask for and give feedback"
 description: "Get tips on asking for feedback in community sessions and check how Defence expects you to give feedback."
-dateUpdated: 2023-06-06
+dateUpdated: 2024-05-05
 eleventyNavigation:
   key: "Content"
   url: "/content/"
 ---
 
-Community calls are a great place to ask for feedback on your service, a new feature or an issue.
+When you ask for feedback, remember that people might not know anything about your service. When you are giving feedback to someone, remember to be kind and respectful.
 
-## Ask for feedback
+## How to ask for feedback
 
 When you ask the community for feedback, here are a few things you need to do.
 

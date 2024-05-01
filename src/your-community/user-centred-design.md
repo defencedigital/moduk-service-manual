@@ -39,7 +39,7 @@ Include your full name, your role and the project you’re working on.
 
 ### Get feedback
 
-You can join community calls and ask for feedback on your service. 
+Community calls are a great place to ask for feedback on your service, a new feature or an issue. 
 
 For example, you have a new feature and you are not sure which GOV.UK or Defence design patterns you should use. 
 
