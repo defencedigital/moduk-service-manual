@@ -27,7 +27,9 @@ Find out [more about self-assessments and CAAT]().
 
 The Cyber Security Assurance and Advisory Service (CySAAS) looks at self-assessment reports submitted by projects. If your project is considered high risk, you might be selected for an assessment.  
 
-CySAAS can check how you are doing at major milestones, for example before an investment appraisal. Check [how to ask for an assessment]().
+CySAAS can check how you are doing at major milestones, for example before an investment appraisal. 
+
+Find out [more about independent assessments]().
 
 
 ## Give regular updates
