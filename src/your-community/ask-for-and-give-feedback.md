@@ -9,7 +9,7 @@ eleventyNavigation:
   url: "/content/"
 ---
 
-When you ask for feedback, remember that people might not know anything about your service. When you are giving feedback to someone, remember to be kind and respectful.
+As part of the community, you are encouraged to share what you are working on. You can ask to do this on a community call. 
 
 ## How to ask for feedback
 
