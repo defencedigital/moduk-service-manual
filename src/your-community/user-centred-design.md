@@ -33,7 +33,7 @@ Calls are 55 minutes. We discuss things like accessibility, tools available in D
 
 ### Ask for an invitation
 
-You need to work in the Ministry of Defence to join the community calls. 
+You need to work in the Ministry of Defence to join community calls. 
 
 Using your Ministry of Defence email, send a message to: [UKStratCom-DD-Foundry-UCD-UX@mod.gov.uk](mailto:UKStratCom-DD-Foundry-UCD-UX@mod.gov.uk?subject=Join%20UCD%20community%20calls). 
 
