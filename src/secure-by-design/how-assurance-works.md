@@ -36,7 +36,7 @@ You need to give stakeholders confidence that you are keeping your technology or
 
 Make security part of your existing governance and meetings. For example, add a security update to the agenda for your project boards. You will also need to create and maintain a risk register. 
 
-Anyone on your team can report on security but your Senior Responsible Owner (SRO) is accountable. Check [who can be an SRO]().
+Anyone on your team can report on security but your Senior Responsible Owner (SRO) is accountable. Check [who can be an SRO](/secure-by-design-phases/who-needs-to-do-this).
 
 ## Follow the guidance
 
