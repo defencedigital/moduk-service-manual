@@ -27,9 +27,7 @@ Examples include:
 - platforms
 - weapons systems
 
-{{ component('inset-text', {
-  text: 'If your project has existing security accreditation, you need to move to Secure by Design when it expires. Start preparing for it now.'
-}) }}
+If your project has existing security accreditation, you need to move to Secure by Design when it expires. Start preparing for it now.
 
 ## Who is responsible
 

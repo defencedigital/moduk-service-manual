@@ -40,9 +40,17 @@ To be Secure by Design, your team needs to:
 - choose appropriate security frameworks and controls
 - continuously manage risks
 
-{{ component('inset-text', {
-  text: 'If your project has existing security accreditation, you need to move to Secure by Design when it expires. Start preparing for it now.'
-}) }}
+If your project has existing security accreditation, you need to move to Secure by Design when it expires. Start preparing for it now.
+
+### Follow the guidance
+
+Check the activities you need to do and the tools you can use. Follow the Secure by Design guidance in each phase: 
+ 
+- [get started]()
+- [manage your risks]()
+- [stay secure]()
+
+If you cannot find the guidance you need, tell us what is missing. You can [send us your feedback](). 
 
 ## Related guidance
 
