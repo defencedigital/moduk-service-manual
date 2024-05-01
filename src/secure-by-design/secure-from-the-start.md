@@ -12,9 +12,7 @@ eleventyNavigation:
 Work in progress. Do not review this content yet.
 </p> 
 
-You need to design security into projects from the start. 
-
-Then, you need to continually assess and manage security risks until your technology or service is retired.  
+Designing security into projects from the start helps Defence stay ahead of adversaries and maintain national security.  
 
 ## Across government
 
@@ -26,22 +24,28 @@ Following a Secure by Design approach, departments will:
 - make security everyone’s responsibility
 - improve trust and data sharing
 
-## In the Ministry of Defence
+## Secure by Design in Defence
 
 The Ministry of Defence is implementing Secure by Design in all top level budgets and arm’s length bodies.
- 
-You no longer have to apply for security accreditation that lasts for a period of time. You must follow a Secure by Design approach.
 
-You need to show that your team:
-- has considered cyber security from the start
-- has chosen appropriate security frameworks and controls
-- is continuously managing risks
+All technology and services that handle Defence data must be Secure by Design. This includes projects delivered by suppliers.
+ 
+### What you need to do
+
+Your team is responsible for managing cyber security risks and doing self assessments. You do not have to apply for security accreditation that lasts for a period of time.
+
+To be Secure by Design, your team needs to:
+
+- consider cyber security from the start
+- choose appropriate security frameworks and controls
+- continuously manage risks
 
 {{ component('inset-text', {
   text: 'If your project has existing security accreditation, you need to move to Secure by Design when it expires. Start preparing for it now.'
 }) }}
 
-To read Defence policy on Secure by Design, search for ‘JSP 440 Leaflet 5C’ on MODNET. 
+Find out [how assurance works]().
+
 
 ## Related guidance
 
@@ -53,6 +57,7 @@ To read Defence policy on Secure by Design, search for ‘JSP 440 Leaflet 5C’ 
 
 </ul>
 
+To read Defence policy on Secure by Design, search for ‘JSP 440 Leaflet 5C’ on MODNET. 
 
 **Next**
 [Who needs to do this](/secure-by-design/who-needs-to-do-this/)
