@@ -18,7 +18,7 @@ By designing security into projects from the start, you help Defence stay ahead 
 
 The UK Cabinet Office policy is that all government departments and arm's length bodies must be Secure by Design. 
 
-Following a Secure by Design approach, departments will: 
+Following a Secure by Design approach, government departments will: 
 
 - help create resilient technology and services
 - make security everyone’s responsibility
@@ -51,7 +51,7 @@ To be Secure by Design, your team needs to:
   <li><a href="https://defencedigital.blog.gov.uk/2023/05/30/secure-by-design-a-new-way-to-manage-cyber-risk-in-capabilities/" target="_blank">Secure by Design – a new way to manage cyber risk in capabilities<span class="govuk-visually-hidden">(opens in a new tab)</span></a></li> 
   <li><a href="secure-by-design-phases/how-assurance-works/">How assurance works in Defence</li>   
   <li><a href="https://www.security.gov.uk/guidance/secure-by-design/" target="_blank">GOV.UK Secure by Design guidance<span class="govuk-visually-hidden">(opens in a new tab)</span></a></li>
-  <li><a href="https://www.ncsc.gov.uk/collection/cyber-security-design-principles" target="_blank">National Cyber Security Centre secure design principles<span class="govuk-visually-hidden">(opens in a new tab)</span></a></li>  
+  <!-- <li><a href="https://www.ncsc.gov.uk/collection/cyber-security-design-principles" target="_blank">National Cyber Security Centre secure design principles<span class="govuk-visually-hidden">(opens in a new tab)</span></a></li>   -->
 
 </ul>
 
