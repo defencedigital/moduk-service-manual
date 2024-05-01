@@ -12,51 +12,43 @@ eleventyNavigation:
 Work in progress. Do not review this content yet.
 </p> 
 
-You no longer apply for security accreditation that lasts for a period of time. You need to show that your project is Secure by Design. 
+Your team is responsible for managing cyber security risks and doing self assessments. You do not apply for security accreditation that lasts for a period of time. 
 
-This includes projects delivered by suppliers.  
+If your project has existing security accreditation, you need to move to Secure by Design when it expires.  
 
-## Show your project is secure
+## Assess your security
 
-You need to design security into projects from the start. You need to continually assess and manage security risks until your technology or service is retired. 
+To be Secure by Design, you need to keep checking that your technology or service is secure. You need to do regular assessments. Most projects in Defence do a security assessment every 3 months. 
 
-Your team needs to show that you are doing Secure by Design activities, including:
+When you do your assessments, use the Cyber Activity and Assurance Tracker (CAAT). It helps you meet Secure by Design standards in Defence. It also sends a report to the Cyber Security Assurance and Advisory Service (CySAAS).
 
-- agreeing roles and responsibilities
-- deciding how much risk is acceptable
-- continually reviewing your security
+Find out [more about self-assessments and CAAT](). 
 
-{{ component('inset-text', {
-  text: 'If your project has existing security accreditation, you need to move to Secure by Design when it expires. Start preparing for it now.'
-}) }}
 
-## What you need to do
+### Independent assessments
 
-Check the activities you need to do and the tools you can use. Follow the guidance in each phase: 
+The Cyber Security Assurance and Advisory Service (CySAAS) looks at self-assessment reports submitted by projects. If your project is considered high risk, you might be selected for an assessment.  
+
+CySAAS can check how you are doing at major milestones, for example before an investment appraisal. Check [how to ask for an assessment]().
+
+
+## Give regular updates
+
+You need to give stakeholders confidence that you are keeping your technology or service secure. 
+
+Make security part of your existing governance and meetings. For example, add a security update to the agenda for your project boards. You will also need to create and maintain a risk register. 
+
+Anyone on your team can report on security but your Senior Responsible Owner (SRO) is accountable. [Check who can be an SRO]().
+
+## Follow the guidance
+
+Check the activities you need to do and the tools you can use. Follow the Secure by Design guidance in each phase: 
  
 - [get started]()
 - [manage your risks]()
-- [stay secure]() 
+- [stay secure]()
 
-When you can, reuse existing frameworks and tools. For example, you need to use the Cyber Activity and Assurance Tracker (CAAT) to submit regular self assessments.
-
-##  Ask for an assessment
-
-<p class="govuk-body" style="color:red">
-Check with CySAAS that this is factually correct.
-</p> 
-
-You can ask for an independent review of your Secure by Design activities. 
-
-The Cyber Security Assurance and Advisory Service (CySAAS) can check how you are doing at major milestones, for example: 
-
-- before an investment appraisal 
-- after major design changes
-- ...
-
-CySAAS looks at self-assessment reports submitted by projects. If your project is considered high risk, you might be selected for an assessment.  
-
-Check [how to ask for an assessment]().
+If you cannot find the guidance you need, tell us what is missing. You can [send us your feedback](). 
 
 
 **Next**
