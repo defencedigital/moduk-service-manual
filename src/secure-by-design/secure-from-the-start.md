@@ -44,20 +44,17 @@ To be Secure by Design, your team needs to:
   text: 'If your project has existing security accreditation, you need to move to Secure by Design when it expires. Start preparing for it now.'
 }) }}
 
-Find out [how assurance works]().
-
-
 ## Related guidance
 
 <ul class="govuk-list">  
       
-  <li><a href="https://defencedigital.blog.gov.uk/2023/05/30/secure-by-design-a-new-way-to-manage-cyber-risk-in-capabilities/" target="_blank">Secure by Design – a new way to manage cyber risk in capabilities<span class="govuk-visually-hidden">opens in a new tab</span></a></li>  
-  <li><a href="https://www.security.gov.uk/guidance/secure-by-design/" target="_blank">GOV.UK Secure by Design guidance<span class="govuk-visually-hidden">opens in a new tab</span></a></li>
-  <li><a href="https://www.ncsc.gov.uk/collection/cyber-security-design-principles" target="_blank">National Cyber Security Centre secure design principles<span class="govuk-visually-hidden">opens in a new tab</span></a></li>  
+  <li><a href="https://defencedigital.blog.gov.uk/2023/05/30/secure-by-design-a-new-way-to-manage-cyber-risk-in-capabilities/" target="_blank">Secure by Design – a new way to manage cyber risk in capabilities<span class="govuk-visually-hidden">(opens in a new tab)</span></a></li> 
+  <li><a href="secure-by-design-phases/how-assurance-works/">How assurance works in Defence</li>   
+  <li><a href="https://www.security.gov.uk/guidance/secure-by-design/" target="_blank">GOV.UK Secure by Design guidance<span class="govuk-visually-hidden">(opens in a new tab)</span></a></li>
+  <li><a href="https://www.ncsc.gov.uk/collection/cyber-security-design-principles" target="_blank">National Cyber Security Centre secure design principles<span class="govuk-visually-hidden">(opens in a new tab)</span></a></li>  
 
 </ul>
 
-To read Defence policy on Secure by Design, search for ‘JSP 440 Leaflet 5C’ on MODNET. 
 
 **Next**
 [Who needs to do this](/secure-by-design/who-needs-to-do-this/)
