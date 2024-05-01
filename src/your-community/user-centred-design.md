@@ -28,7 +28,7 @@ Join the UCD community calls held every 2 weeks on alternate Wednesdays and Thur
 Calls are 55 minutes. We discuss things like accessibility, tools available in Defence and cross-government collaboration.
 
 {{ component('inset-text', {
-  html: 'You must only share OFFICIAL information on community calls.<br><a href="/security-classifications/">Find out about security classifications</a>.'
+  html: 'You must only share OFFICIAL information on community calls.<br><a href="/security-classifications/">Check how to classify information</a>.'
 }) }}
 
 ### Ask for an invitation
