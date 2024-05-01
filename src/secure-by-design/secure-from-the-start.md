@@ -12,7 +12,7 @@ eleventyNavigation:
 Work in progress. Do not review this content yet.
 </p> 
 
-Designing security into projects from the start helps Defence stay ahead of adversaries and maintain national security.  
+By designing security into projects from the start, you help Defence stay ahead of adversaries and maintain national security.  
 
 ## Across government
 
