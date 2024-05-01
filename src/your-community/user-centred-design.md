@@ -28,14 +28,16 @@ Join the UCD community calls held every 2 weeks on alternate Wednesdays and Thur
 Calls are 55 minutes. We discuss things like accessibility, tools available in Defence and cross-government collaboration.
 
 {{ component('inset-text', {
-  html: 'You must only share OFFICIAL information. <a href="/security-classifications/">Find out about security classifications</a>.'
+  html: 'You must only share OFFICIAL information on community calls. <a href="/security-classifications/">Find out about security classifications</a>.'
 }) }}
 
 ### Ask for an invitation
 
+You need to work in the Ministry of Defence to join the community calls. 
+
 Using your Ministry of Defence email, send a message to: [UKStratCom-DD-Foundry-UCD-UX@mod.gov.uk](mailto:UKStratCom-DD-Foundry-UCD-UX@mod.gov.uk?subject=Join%20UCD%20community%20calls). 
 
-Include your full name, your role and the project you’re working on.
+Include your full name, your role and the project you are working on.
 
 ## Get feedback
 
