@@ -12,9 +12,7 @@ eleventyNavigation:
 Work in progress. Do not review this content yet.
 </p> 
 
-Your team is responsible for managing cyber security risks and doing self assessments. You do not apply for security accreditation that lasts for a period of time. 
-
-If your project has existing security accreditation, you need to move to Secure by Design when it expires.  
+Your team is responsible for managing cyber security risks in your technology or service. You do not apply for security accreditation that lasts for a period of time. 
 
 ## Assess your security
 
