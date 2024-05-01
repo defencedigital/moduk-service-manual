@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Community"
 title: "User-centred design"
 description: "Anyone in a user-centred design role in Defence can join the community. Find out how to get involved."
-dateUpdated: 2023-04-11
+dateUpdated: 2024-05-05
 eleventyNavigation:
   key: "Your community"
   url: "/your-community/"
