@@ -16,7 +16,7 @@ By designing security into projects from the start, you help Defence stay ahead 
 
 ## Across government
 
-Cabinet Office policy is that all government departments and arm's length bodies must be Secure by Design. 
+The UK Cabinet Office policy is that all government departments and arm's length bodies must be Secure by Design. 
 
 Following a Secure by Design approach, departments will: 
 
