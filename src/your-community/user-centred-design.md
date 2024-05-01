@@ -39,7 +39,9 @@ Include your full name, your role and the project you’re working on.
 
 ### Get feedback
 
-You can join community calls and ask for feedback on your service. For example, you have a new feature and you are not sure which GOV.UK or Defence design patterns you should use. 
+You can join community calls and ask for feedback on your service. 
+
+For example, you have a new feature and you are not sure which GOV.UK or Defence design patterns you should use. 
 
 Check [how to ask for and give feedback](/your-community/ask-for-and-give-feedback).
 
