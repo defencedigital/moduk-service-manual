@@ -2,7 +2,7 @@
 layout: "layouts/guidance.njk"
 title: "Your community"
 description: "Anyone working in Defence can join a community of practice. Meet people doing your role, use shared tools and learn from other projects."
-dateUpdated: 2023-09-28
+dateUpdated: 2024-05-05
 ---
 
 There are communities of practice for people working in similar roles across Defence.
