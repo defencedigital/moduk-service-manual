@@ -52,7 +52,7 @@ Check [how to ask for and give feedback](/your-community/ask-for-and-give-feedba
 You can join more than one community. You might find these communities useful: 
 
 - [content](/your-community/content/)
-- [service design] (/your-community/)
+- [service design](/your-community/)
 - [user research](/your-community/)
 
 ## Useful resources
