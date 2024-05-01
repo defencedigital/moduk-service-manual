@@ -13,13 +13,11 @@ eleventyNavigation:
 Work in progress. Do not review this content yet.
 </p> 
 
-Every technology and service that handles Defence data needs to be Secure by Design. 
+Every technology and service that handles Defence data needs to be Secure by Design. This includes projects delivered by suppliers.
 
 ## Projects this applies to
 
-Since July 2023, new technology infrastructure and digital services in Defence need to follow the Secure by Design approach. This includes projects delivered by suppliers.
-
-Examples include: 
+Since July 2023, new technology infrastructure and digital services in Defence need to follow the Secure by Design approach. Examples include: 
 
 - networks
 - applications
