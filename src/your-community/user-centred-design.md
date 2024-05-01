@@ -37,13 +37,13 @@ Using your Ministry of Defence email, send a message to: [UKStratCom-DD-Foundry-
 
 Include your full name, your role and the project you’re working on.
 
-### Get feedback
+## Get feedback
 
-Community calls are a great place to ask for feedback on your service, a new feature or an issue. 
+You can ask the user-centred design community to give you feedback on your service, a new feature or an issue. 
 
 For example, you have a new feature and you are not sure which GOV.UK or Defence design patterns you should use. 
 
-Check [how to ask for and give feedback](/your-community/ask-for-and-give-feedback).
+Check the [tips on asking for and giving feedback](/your-community/ask-for-and-give-feedback).
 
 ## Join other communities 
 
