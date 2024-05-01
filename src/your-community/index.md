@@ -22,6 +22,7 @@ Anyone working in Defence can join a community.
 You can join more than one community.
 
 - [Content](/your-community/content/)
+- [Product](/your-community/)
 - [Software development](/your-community/software-development/)
 - [User-centred design](/your-community/user-centred-design/)
 
