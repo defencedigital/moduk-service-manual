@@ -26,6 +26,7 @@ You can join more than one of these communities:
 - [service design](/your-community/)
 - [software development](/your-community/software-development/)
 - [user-centred design](/your-community/user-centred-design/)
+- [user research](/your-community)
 
 <!-- ## Become a service assessor
 
