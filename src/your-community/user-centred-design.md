@@ -45,7 +45,7 @@ Check [how to ask for and give feedback](/your-community/ask-for-and-give-feedba
 
 ## Join other communities 
 
-You can join more than one community. You might find these communities useful too: 
+You can join more than one community. You might find these communities useful: 
 
 - [content](/your-community/content/)
 - [user research](/your-community/)
