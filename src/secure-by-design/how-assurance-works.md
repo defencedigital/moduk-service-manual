@@ -12,7 +12,7 @@ eleventyNavigation:
 Work in progress. Do not review this content yet.
 </p> 
 
-Your team is responsible for managing cyber security risks in your technology or service. You do not apply for security accreditation that lasts for a period of time. 
+You do not apply for security accreditation that lasts for a period of time. Your team is responsible for managing cyber security risks in your technology or service. 
 
 ## Assess your security
 
@@ -21,7 +21,6 @@ To be Secure by Design, you need to keep checking that your technology or servic
 When you do your assessments, use the Cyber Activity and Assurance Tracker (CAAT). It helps you meet Secure by Design standards in Defence. It also sends a report to the Cyber Security Assurance and Advisory Service (CySAAS).
 
 Find out [more about self-assessments and CAAT](). 
-
 
 ### Independent assessments
 
@@ -38,7 +37,9 @@ You need to give stakeholders confidence that you are keeping your technology or
 
 Make security part of your existing governance and meetings. For example, add a security update to the agenda for your project boards. You will also need to create and maintain a risk register. 
 
-Anyone on your team can report on security but your Senior Responsible Owner (SRO) is accountable. Check [who can be an SRO](/secure-by-design-phases/who-needs-to-do-this).
+Anyone on your team can report on security but your Senior Responsible Owner (SRO) is accountable. 
+
+Check [who can be an SRO](/secure-by-design-phases/who-needs-to-do-this).
 
 ## Follow the guidance
 
