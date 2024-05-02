@@ -1,0 +1,214 @@
+{% extends "layouts/guidance.njk" %}
+
+{% set description = "Use common ways to test your software in Defence and tell us what technical guidance you need." %}
+
+{% block body %}
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-breadcrumbs">
+
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
+        </li>
+      </ol>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-main-wrapper">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">Testing software in Defence</h1>
+        </div>
+      </div>
+
+      <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-one-third position-sticky">
+
+          {# Contents side navigation #}
+          <nav class="moduk-contents-list" role="navigation" aria-labelledby="moduk-contents-list">
+            
+            <h2 class="moduk-contents-list__title" id="moduk-contents-list">Contents</h2>
+            
+            <ol class="moduk-contents-list__list">
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#include-the-right-people">Security testing</a>
+              </li>
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#the-publishing-process">Tell us what guidance you need</a>
+              </li>
+              
+            </ol>
+            
+          </nav>
+
+        </div>
+
+        <div class="govuk-grid-column-two-thirds">
+          
+          <p class="govuk-body">Use this guidance to do security testing in Defence. Tell us what other technical guidance you need.</p>
+          
+          <h2 class="govuk-heading-l" id="include-the-right-people">Security testing</h2>
+
+          <p class="govuk-body">Intro content</p>
+
+          <p class="govuk-body">Intro content</p>
+        
+
+          <h3 class="govuk-heading-m" id="the-publishing-process">Choose what is right for your project</h2>
+
+          <p class="govuk-body">These are common ways we do security testing in Defence. You need to decide on the right mix of activities for your project. [Add messaging about getting fewer bugs.]</p>
+
+          {% set htmlAccordion1 %}
+          <p class="govuk-body">Add a practical description</p>
+
+          <p class="govuk-body">Add <a href="/content/write-less-content"> a link to more information</a>.</p>
+
+          {% endset %}
+
+          {% set htmlAccordion2 %}
+
+          <p class="govuk-body">Add a practical description</p>
+
+          <p class="govuk-body">Add <a href="/content/write-less-content"> a link to more information</a>.</p>
+
+          {% endset %}
+
+          {% set htmlAccordion3 %}
+
+          <p class="govuk-body">Add a practical description</p>
+
+          <p class="govuk-body">Add <a href="/content/write-less-content"> a link to more information</a>.</p>
+
+          {% endset %}
+
+          {% set htmlAccordion4 %}
+
+          <p class="govuk-body">Add a practical description</p>
+
+          <p class="govuk-body">Add <a href="/content/write-less-content"> a link to more information</a>.</p>
+
+          {% endset %}
+
+          {% set htmlAccordion5 %}
+  
+          <p class="govuk-body">Add a practical description</p>
+
+          <p class="govuk-body">Add <a href="/content/write-less-content"> a link to more information</a>.</p>
+          
+          {% endset %}
+
+          {% set htmlAccordion6 %}
+
+          <p class="govuk-body">Add a practical description</p>
+
+          <p class="govuk-body">Add <a href="/content/write-less-content"> a link to more information</a>.</p>
+
+          {% endset %}
+
+          {{ component('accordion', {
+            classes: 'govuk-!-margin-bottom-0',
+            id: 'accordion-standards',
+            items: [
+              {
+                heading: {
+                  text: 'Be Secure by Design'
+                },
+                content: {
+                  html: htmlAccordion1 
+                }
+              },
+              {
+                heading: {
+                  text: 'Create automated tests'
+                },
+                content: {
+                  html: htmlAccordion2
+                }
+              },
+              {
+                heading: {
+                  text: 'Do code reviews'
+                },
+                content: {
+                  html: htmlAccordion3
+                }
+              },
+              {
+                heading: {
+                  text: 'Run health checks'
+                },
+                content: {
+                  html: htmlAccordion4
+                }
+              },
+              {
+                heading: {
+                  text: 'Do penetration testing'
+                },
+                content: {
+                  html: htmlAccordion5
+                }
+              },
+              {
+                heading: {
+                  text: 'Audit your code'
+                },
+                content: {
+                  html: htmlAccordion6
+                }
+              },
+              {
+                heading: {
+                  text: 'Run a bug bounty [teams?]'
+                },
+                content: {
+                  html: htmlAccordion7
+                }
+              },
+              {
+                heading: {
+                  text: ''
+                },
+                content: {
+                  html: htmlAccordion8
+                }
+              },
+              {
+                heading: {
+                  text: ''
+                },
+                content: {
+                  html: htmlAccordion9
+                }
+              }
+            ]
+          }) }}
+
+        <br><br>
+
+        <h3 class="govuk-heading-m" id="the-publishing-process">Tell us what guidance you need</h2>
+
+          <p class="govuk-body">This is the start of our technical guidance for developers in Defence. Tell us what other guidance you need. <a href="">Get in touch</a>.</p>
+
+          <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0">Published June 2024</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}
+
