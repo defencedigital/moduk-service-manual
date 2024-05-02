@@ -10,7 +10,7 @@ eleventyNavigation:
 ---
 
 <p class="govuk-body" style="color:green">
-Draft ready for review.
+Ready for review.
 </p> 
 
 Every technology and digital service is different. If you have project specific questions, you can: 
