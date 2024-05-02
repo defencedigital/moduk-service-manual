@@ -10,7 +10,7 @@ eleventyNavigation:
 ---
 
 <p class="govuk-body" style="color:green">
-Ready for review.
+Ready for review. Fact check what we have and describe what is missing.
 </p> 
 
 Every technology and digital service is different. If you have project specific questions, you can: 
