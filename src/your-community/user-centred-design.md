@@ -23,7 +23,7 @@ In this community, you will meet:
 
 ## Community calls
 
-Join the UCD community calls held every 2 weeks on alternate Wednesdays and Thursdays.
+Join the UCD community call on the third Thursday of the month at 2pm.
 
 Calls are 55 minutes. We discuss things like accessibility, tools available in Defence and cross-government collaboration.
 
