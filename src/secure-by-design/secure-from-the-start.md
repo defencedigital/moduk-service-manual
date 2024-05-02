@@ -8,8 +8,8 @@ eleventyNavigation:
   key: "Secure by Design"
   url: "/secure-by-design/secure-by-design-phases/"
 ---
-<p class="govuk-body" style="color:red">
-Work in progress. Do not review this content yet.
+<p class="govuk-body" style="color:green">
+Ready for review. Please fact check what we have and describe what is missing.
 </p> 
 
 By designing security into projects from the start, you help Defence stay ahead of adversaries and maintain national security.  
@@ -39,8 +39,6 @@ To be Secure by Design, your team needs to:
 - consider cyber security from the start
 - choose appropriate security frameworks and controls
 - continuously manage risks
-
-If your project has existing security accreditation, you need to move to Secure by Design when it expires. Start preparing for it now.
 
 ### Follow the guidance
 
