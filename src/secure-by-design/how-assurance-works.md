@@ -12,7 +12,9 @@ eleventyNavigation:
 Ready for review. Fact check what we have and describe what is missing.
 </p> 
 
-Your team is responsible for managing cyber security risks in your technology or service. You do not apply for security accreditation that lasts for a period of time. 
+Your team is responsible for managing cyber security risks in your technology or service. 
+
+You do not apply for security accreditation that lasts for a period of time. 
 
 ## Assess your security
 
