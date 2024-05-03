@@ -23,7 +23,7 @@ You can join more than one of these communities:
 
 
 <ul>
-  <li><a href="">Product</a></li>
+  <li><a href="">product</a></li>
 
   <li><a href="/your-community/software-development/">software development</a></li>
 
