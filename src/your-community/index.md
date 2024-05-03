@@ -21,12 +21,21 @@ Anyone working in the Ministry of Defence can join a community.
 
 You can join more than one of these communities:
 
-- [content](/your-community/content/)
-- [product](/your-community/)
-- [service design](/your-community/)
-- [software development](/your-community/software-development/)
-- [user-centred design](/your-community/user-centred-design/)
-- [user research](/your-community)
+
+<ul>
+  <li><a href="">Product</a></li>
+
+  <li><a href="/your-community/software-development/">software development</a></li>
+
+  <li><a href="/your-community/user-centred-design/">user-centred design</a></li>
+
+  <ul>
+      <li><a href="/your-community/content/">content</a></li>
+      <li><a href="">interaction design</a></li>
+      <li><a href="">user research</a></li>
+  </ul>
+
+</ul>
 
 <!-- ## Become a service assessor
 
