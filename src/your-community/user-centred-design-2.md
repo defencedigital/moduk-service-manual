@@ -37,7 +37,9 @@ We also run regular calls for content designers, interaction designers and user 
 
 You need to work in the Ministry of Defence to join community calls. 
 
-Using your Ministry of Defence email, ask to [join the UCD community calls]. Include your full name, your role and the project you are working on.
+Using your Ministry of Defence email, [ask to join the community calls](mailto:UKStratCom-DD-Foundry-UCD-UX@mod.gov.uk?subject=Join%20UCD%20community%20calls). 
+
+Include your full name, your role and the project you are working on.
 
 ## Useful resources
 
