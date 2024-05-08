@@ -35,7 +35,7 @@ We run a monthly UCD call. We discuss topics like accessibility, tools available
 
 We also run regular calls for content designers, interaction designers and user researchers. 
 
-You need to work in the Ministry of Defence to join community calls. 
+To join community calls, you must work in the Ministry of Defence or with one of our suppliers. 
 
 Using your Ministry of Defence email, [ask to join the community calls](mailto:UKStratCom-DD-Foundry-UCD-UX@mod.gov.uk?subject=Join%20UCD%20community%20calls). 
 
