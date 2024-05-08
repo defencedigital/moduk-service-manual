@@ -31,7 +31,7 @@ Check [how to ask for and give feedback](/your-community/ask-for-and-give-feedba
 
 ## Join community calls
 
-We run a monthly UCD call. We discuss things like accessibility, tools available in Defence and cross-government collaboration.
+We run a monthly UCD call. We discuss topics like accessibility, tools available in Defence and cross-government collaboration.
 
 We also run regular calls for content designers, interaction designers and user researchers. 
 
