@@ -29,11 +29,11 @@ You can join more than one of these communities:
 
   <li><a href="/your-community/user-centred-design/">user-centred design</a></li>
 
-  <ul>
+  <!-- <ul>
       <li><a href="/your-community/content/">content</a></li>
       <li><a href="">interaction design</a></li>
       <li><a href="">user research</a></li>
-  </ul>
+  </ul> -->
 
 </ul>
 
