@@ -35,9 +35,7 @@ We run a monthly UCD call. We discuss things like accessibility, tools available
 
 We also run regular calls for content designers, interaction designers and user researchers. 
 
-{{ component('inset-text', {
-  html: 'You need to work in the Ministry of Defence to join community calls.'
-}) }}You need to work in the Ministry of Defence to join community calls. 
+You need to work in the Ministry of Defence to join community calls. 
 
 Using your Ministry of Defence email, ask to [join the UCD community calls]. Include your full name, your role and the project you are working on.
 
