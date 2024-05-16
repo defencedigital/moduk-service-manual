@@ -25,9 +25,4 @@ Check that you have the people and processes in place to be Secure by Design.
 - set your risk appetite
 - share your strategy
 
-## [Register your project]() {.govuk-heading-m .govuk-!-margin-bottom-1}
-
-- topic here
-- topic here
-- topic here
 
