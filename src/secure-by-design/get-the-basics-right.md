@@ -11,7 +11,7 @@ Check you have the people and processes in place to be Secure by Design.
 
 - check the security skills in your team
 - appoint an owner
-- agree who does what
+- decide who does what
 
 ## [Agree your approach](/secure-by-design/agree-your-approach) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
