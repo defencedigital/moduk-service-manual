@@ -1,0 +1,104 @@
+{% extends "layouts/guidance.njk" %}
+
+{% set description = "Agree your approach in Defence, identify your cyber security needs and get your team ready." %}
+
+{% block body %}
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-breadcrumbs">
+
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
+        </li>
+      </ol>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-main-wrapper">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">Plan to continually manage risk</h1>
+        </div>
+      </div>
+
+      <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-one-third position-sticky">
+
+          {# Contents side navigation #}
+          <nav class="moduk-contents-list" role="navigation" aria-labelledby="moduk-contents-list">
+            
+            <h2 class="moduk-contents-list__title" id="moduk-contents-list">Contents</h2>
+            
+            <ol class="moduk-contents-list__list">
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#be-secure-in-all-phases">Be secure in all phases</a>
+              </li>
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#make-security-part-of-what-you-do">Make security part of what you do</a>
+              </li>
+              
+            </ol>
+            
+          </nav>
+
+        </div>
+
+        <div class="govuk-grid-column-two-thirds">
+
+          <div class="moduk-prose">
+
+          <p style="color:red">Draft content.</p>
+
+            <p>Think about how you are going to keep your technology or service secure.</p>
+
+            <h2 id="be-secure-in-all phases">Be secure in all phases</h2>
+
+            <p>You need to manage cyber security risk throughout the life of your technology or service. This includes:</p>
+
+            <ul>
+              <li>in design and development</li>
+              <li>when major changes are released</li>
+              <li>retiring components securely</li>
+            </ul>
+
+            <h2 id="make-security-part-of-what-you-do">Make security part of what you do</h2>
+
+            <p>Add cyber security to your existing activities and meetings. For example, you need to:</p>
+
+            <ul>
+              <li>put cyber security on the agenda for all programme board meetings</li>
+              <li>publish your progress towards security milestones</li>
+              <li>share what you are doing in show and tells</li>
+              <li>keep your Senior Responsible Officer (SRO) updated</li>
+            </ul>
+
+          <ul class="govuk-list"> 
+           <li>Check <a href="">how to manage your cyber security risks</a>.</li>
+           <li>Read <a href="https://www.ncsc.gov.uk/blog-post/a-two-part-blog-about-risk-appetites" target="_blank">National Cyber Security Centre's introduction to risk management<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</li>
+          </ul>
+
+          <p>[Add the Next pattern here]</p>
+            
+            <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0"> Published July 2024</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}

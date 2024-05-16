@@ -26,7 +26,7 @@ Check you have the people and processes in place to be Secure by Design.
 - add security to existing meetings
 - share what you are doing
 
-## [Register your project](/secure-by-design/register-your-project) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Register your project]() {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - topic here
 - topic here
