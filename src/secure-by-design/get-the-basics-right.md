@@ -20,7 +20,7 @@ Check you have the people and processes in place to be Secure by Design.
 - share your strategy
 
 
-## [Plan to continually manage risk](/secure-by-design/plan-to-continually-manage-risk) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Continually manage risk](/secure-by-design/continually-manage-risk) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - cover all stages of your project
 - add security to existing meetings
