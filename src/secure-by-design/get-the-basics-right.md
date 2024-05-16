@@ -23,8 +23,8 @@ Check that you have the people and processes in place to be Secure by Design.
 ## [Continually manage risk](/secure-by-design/continually-manage-risk) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - cover all stages of your project
-- add security to existing meetings
-- share what you are doing
+- make security part of what you do
+- add security updates to existing meetings
 
 ## [Register your project]() {.govuk-heading-m .govuk-!-margin-bottom-1}
 
