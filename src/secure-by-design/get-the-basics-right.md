@@ -4,7 +4,7 @@ title: "Get the basics right"
 description: "Agree your approach to cyber security in Defence and get your team ready."
 ---
 
-Check that you have the people and processes in place to be Secure by Design.
+Make sure you have the people and processes in place to be Secure by Design.
 
 
 ## [Involve the right people](/secure-by-design/involve-the-right-people) {.govuk-heading-m .govuk-!-margin-bottom-1}
