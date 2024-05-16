@@ -1,6 +1,6 @@
 ---
 layout: "layouts/two-column.njk"
-title: "Get started"
+title: "Get the basics right"
 description: "Agree your approach to cyber security in Defence and get your team ready."
 ---
 
@@ -9,13 +9,13 @@ Check you have the people and processes in place to be Secure by Design.
 
 ## [Involve the right people](/secure-by-design/involve-the-right-people) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- security skills in your team
-- appoint a Senior Responsible Officer
+- check the security skills in your team
+- appoint an owner
 - agree who does what
 
 ## [Agree your approach](/secure-by-design/agree-your-approach) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- create a cyber risk management strategy
+- create a strategy
 - set your risk appetite
 - share your strategy
 
