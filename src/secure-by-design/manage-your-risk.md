@@ -1,6 +1,6 @@
 ---
 layout: "layouts/two-column.njk"
-title: "Manage your risks"
+title: "Manage your risk"
 description: ""
 ---
 
