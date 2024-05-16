@@ -13,18 +13,17 @@ Check that you have the people and processes in place to be Secure by Design.
 - appoint an owner
 - decide who does what
 
+## [Define your context](/secure-by-design/define-your-context) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
+- topic here
+- topic here
+- topic here
+
 ## [Agree your approach](/secure-by-design/agree-your-approach) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - create a strategy
 - set your risk appetite
 - share your strategy
-
-
-## [Continually manage risk](/secure-by-design/continually-manage-risk) {.govuk-heading-m .govuk-!-margin-bottom-1}
-
-- cover all stages of your project
-- make security part of what you do
-- add security updates to existing meetings
 
 ## [Register your project]() {.govuk-heading-m .govuk-!-margin-bottom-1}
 

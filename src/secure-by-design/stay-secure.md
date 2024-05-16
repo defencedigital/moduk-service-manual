@@ -6,9 +6,9 @@ description: ""
 
 Intro sentence here.
 
-## [Continuously manage risks](/service-assessments/how-service-assessments-help-your-team) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Continuously manage risk](/secure-by-design/continuously-manage-risk ) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- do regular self-assessments
+- topic here
 - topic here
 - topic here
 
