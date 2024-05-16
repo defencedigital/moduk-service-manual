@@ -1,0 +1,158 @@
+{% extends "layouts/guidance.njk" %}
+
+{% set description = "Agree your approach in Defence, identify your cyber security needs and get your team ready." %}
+
+{% block body %}
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-breadcrumbs">
+
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
+        </li>
+      </ol>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-main-wrapper">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">Get the basics right</h1>
+        </div>
+      </div>
+
+      <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-one-third position-sticky">
+
+          {# Contents side navigation #}
+          <nav class="moduk-contents-list" role="navigation" aria-labelledby="moduk-contents-list">
+            
+            <h2 class="moduk-contents-list__title" id="moduk-contents-list">Contents</h2>
+            
+            <ol class="moduk-contents-list__list">
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#involve-the-right-people">Involve the right people</a>
+              </li>
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#agree-your-strategy">Agree your strategy</a>
+              </li>
+
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#plan-to-continually-manage-risk">Plan to continually manage risk</a>
+              </li>
+
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#register-your-project">Register your project</a>
+              </li>
+              
+            </ol>
+            
+          </nav>
+
+        </div>
+
+        <div class="govuk-grid-column-two-thirds">
+
+          <div class="moduk-prose">
+
+          <p style="color:red">Draft content to run through in a call.</p> 
+          
+            <p>Check that you have the people and processes in place to be Secure by Design.</p>
+
+            <h2 id="involve-the-right-people">Involve the right people</h2>
+
+            <p>Your team is responsible for the cyber security of your technology or service.</p>
+
+            <h3>Check your team has the skills</h3>
+
+            <p>You need people with cyber security experience that is appropriate to your project. For example [add an example here].</p>
+
+            <p>You might need to use resources from outside your team. [How do teams go about doing this?].</p>
+         
+            <h3>Agree who does what</h3>
+
+            <p>You need to agree who is responsible and accountable for Secure by Design activities. For example, a developer is responsible for [xxx xx xxx xxx]. Your delivery lead is accountable for making sure it happens. </p>
+
+            <p>Check <a href="https://www.security.gov.uk/guidance/secure-by-design/activities/agreeing-roles-and-responsibilities" target="_blank">GOV.UK guidance on roles and responsibilities<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>. The guidance includes a template you can use.</p>
+
+            <h3>Appoint a Senior Responsible Owner</h3>
+
+            <p>If you do not have a Senior Responsible Officer (SRO), someone in your team needs to take on the role. </p>
+            
+            <p>Your SRO needs to be someone with authority and experience in risk management, for example a product or service owner. If you do not have someone suitable, your project sponsor can be your SRO.</p>
+            <p>SROs are usually supported by security and delivery leads. If you do not have anyone on your team with cyber security experience, you need to fill that role.</p>
+
+            -------------
+
+             <h2 id="agree-your-strategy">Agree your strategy</h2>
+
+
+            <p>Ask your commercial team if you should use security experts in Defence or an external company.</p>
+
+            <p>If you use an external company, they should be a verified supplier. You can <a href="https://docs.google.com/document/d/17UZF5u2Ex6vncc0uQPiB3ATknqK095v8ruith4wIU7g/edit#:~:text=https%3A//www.ncsc.gov.uk/section/products%2Dservices/verify%2Dsuppliers%3Fscheme%3DCHECK%2BPenetration%2BTesting">use the National Cyber Security Centre’s register</a>.</p>
+
+            <p>Check <a href="https://www.gov.uk/service-manual/technology/vulnerability-and-penetration-testing" target="_blank">GOV.UK guidance on penetration testing<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
+            
+            <h2 id="share-what-you-find">Share what you find</h2>
+
+            <p>Whenever you do security testing, you must share what you find with people who need to know.</p>
+
+            <p>Add findings to your project's risk register. Include enough information for the team to decide how to mitigate risks. Make sure you track how vulnerabilities are being managed.</p>
+            
+            <p>If you do not find any vulnerabilities, share this with stakeholders. It gives them confidence that your technology or service is as secure as it can be.</p>
+
+            <h2 id="get-advice">Get support</h2>
+
+            <p>You need to do security testing but there are teams in Defence that can support your approach.</p>
+
+            <h3>Cyber Resilience Programme</h3>
+
+            <p>[Some projects] can get support from the Cyber Resilience Programme (CRP). They use external security experts for activities including:</p>
+
+            <ul>
+              <li>bug bounties with rewards for finding vulnerabilities</li>
+              <li>red team events that simulate a real world attacker</li>
+              <li>[Vulnerability Disclosure Programme (VDP)]</li>
+            </ul>
+
+            <p>On MODNET, search for the 'Cyber Resilience Programme'.</p>
+
+            <h3>Cyber Security Advisory and Assurance Service</h3>
+
+            <p>Any project in Defence can use the Cyber Security Advisory and Assurance Service (CySAAS) consultancy service.  For example, you have done your pen testing but you have questions about the real-world impact of a specific issue.</p>
+          
+            <p>On MODNET, search for 'CySAAS consultancy'.</p>
+
+            <h3>Technical security teams</h3>
+
+            <p>If your project is operational, for example [xxxxxx], you can use a technical security team. The teams include military personnel. They are managed by the Joint Information Assurance Co-ordination Cell (JIACC).</p>
+            
+            <p>On MODNET, search for 'JAICC'.</p>
+
+            {# <h3>Tell us what guidance you need</h3>
+
+            <p>This is the start of technical guidance for developers in Defence. Tell us what other guidance you need, <a href="#0">get in touch</a>.</p> #}
+
+            <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0"> Published June 2024</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}
