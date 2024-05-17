@@ -15,7 +15,7 @@ Make sure you have the people and processes in place to be Secure by Design.
 
 ## [Define your context](/secure-by-design/define-your-context) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- list what you need to protect
+- what you need to protect
 - map how information is used
 - fit into Defence's architecture 
 
