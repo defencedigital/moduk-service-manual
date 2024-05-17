@@ -23,17 +23,11 @@ You can join more than one of these communities:
 
 
 <ul>
-  <li><a href="">product</a></li>
+  <li><a href="/your-community/product/">product</a></li>
 
   <li><a href="/your-community/software-development/">software development</a></li>
 
   <li><a href="/your-community/user-centred-design/">user-centred design</a></li>
-
-  <!-- <ul>
-      <li><a href="/your-community/content/">content</a></li>
-      <li><a href="">interaction design</a></li>
-      <li><a href="">user research</a></li>
-  </ul> -->
 
 </ul>
 
