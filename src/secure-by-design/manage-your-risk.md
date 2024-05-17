@@ -4,9 +4,7 @@ title: "Manage your risk"
 description: ""
 ---
 
-If your technology or service is large and complex, you need to do all of these activities. 
-
-For smaller projects, choose the activities that will help you be Secure by Design.
+Intro content here.
 
 ## [Register your project]() {.govuk-heading-m .govuk-!-margin-bottom-1}
 
