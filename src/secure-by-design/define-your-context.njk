@@ -1,0 +1,189 @@
+{% extends "layouts/guidance.njk" %}
+
+{% set description = "Check that you have the right cyber security experience in your team and agree who will do what." %}
+
+{% block body %}
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-breadcrumbs">
+
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
+        </li>
+      </ol>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-main-wrapper">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">Define your context</h1>
+        </div>
+      </div>
+
+      <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-one-third position-sticky">
+
+          {# Contents side navigation #}
+          <nav class="moduk-contents-list" role="navigation" aria-labelledby="moduk-contents-list">
+            
+            <h2 class="moduk-contents-list__title" id="moduk-contents-list">Contents</h2>
+            
+            <ol class="moduk-contents-list__list">
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#what-you-need-to-protect">What you need to protect</a>
+              </li>
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#map-how-information-is-used">Map how information is used</a>
+              </li>
+
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#agree-your-boundary">Agree your boundary</a>
+              </li>
+              
+            </ol>
+            
+          </nav>
+
+        </div>
+
+        <div class="govuk-grid-column-two-thirds">
+
+          <div class="moduk-prose">
+
+          <p style="color:red">Draft content to run through on a call.</p> 
+
+          <p>Your approach to cyber security depends on what your technology or service does. For example, a service that stores personal information will need to be more secure than [ xxxx xxxxx xxxx].</p>
+
+          <p>Be clear about the reason why your project is happening and what people need to do with your technology or service. If you have them already, look in your business case and vision statements.</p>
+
+          <p>Check <a href="https://www.security.gov.uk/guidance/secure-by-design/activities/understanding-business-objectives-and-user-needs" target="_blank">GOV.UK guidance on business objectives and user needs<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>. The guidance includes a template you can use.</p>
+
+            <h2 id="what-you-need-to-protect">What you need to protect</h2>
+            
+            <p>Create a detailed list of things you need to protect, such as:</p>
+
+            <ul>
+              <li>networks</li>
+              <li>information and data</li>
+              <li>documentation</li>
+              <li>intellectual property</li>
+              <li>reputation</li>
+            </ul>
+            
+            <p>Your technology or service might need to protect assets that are not listed here.</p>
+
+            {{ component('inset-text', {
+            text: 'You must keep your list of assets updated, adding more details as your project matures.'
+            }) }}
+
+            <p>Not all assets need the same level of protection. Work with stakeholders and your security community to agree the importance of each asset.</p>
+
+            <p>You can use the <a href="https://www.security.gov.uk/guidance/secure-by-design/activities/documenting-service-assets" target="_blank">GOV.UK guidance on documenting assets<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>. The guidance includes a template you can use.</p>
+
+            <h3>Check existing lists</h3>
+
+            <p>The Cyber Security Assurance and Advisory Service (CySAAS) keeps lists of some assets that need to be protected.</p>
+            <p>To find out more, <a ref="">contact CySAAS</a>.</p>
+
+            <h3>Consider all types of information</h3>
+
+            <p>Your information is probably held in digital form. It might also be produced on paper or end up in a physical system, such as in a weapon or a radio transmitter.</p>
+            
+            <p>Information in Defence is classified OFFICIAL, SECRET or TOP-SECRET. When you map your information, you also need to consider the:</p>
+
+            <ul>
+              <li>[timeliness or availability]</li>
+              <li>trust you can place in it</li>
+              <li>integrity, for example has it been changed</li>
+            </ul>
+
+            <p>Find out <a href="/security-classifications/">how to classify information</a>.
+
+            <h2 id="map-how-information-is-used">Map how information is used</h2>
+
+            <p>Create a map of how information is used across the life of your technology or service. This helps you:</p>
+
+            <ul>
+              <li>understand what happens to information at different stages</li>
+              <li>focus on information that needs protecting the most</li>
+              <li>choose appropriate security controls</li>
+            </ul>
+
+            <h3>Make it visual</h3>
+
+            <p>Do not create a spreadsheet. You need to show how information flows through your technology or service.</p>
+
+            <p>Choose a tool to help you create a flow diagram, model or schema.</p>
+
+            <p>You need to show which state information is in, such as:</p>
+
+            <ul>
+              <li>at rest, for example in storage</li>
+              <li>in transit, for example in a communications network</li>
+              <li>being processed by a computer or a human</li>
+            </ul>
+
+            <p>Remember to map all of your information from concept and design to retirement. Start with what you know and add details as you go.</p> 
+
+            <h3>Look at the wider picture</h3>
+
+            <p>Your technology or service does not work in isolation. You need to know how it fits in the Ministry of Defence's existing technical architecture. </p>
+
+            <p>On your map, show all connecting systems and organisations. This helps you:</p>
+
+            <ul>
+              <li>identify teams and systems you rely on</li>
+              <li>recover faster from security incidents</li>
+              <li>contribute to keeping Defence secure </li>
+            </ul>
+
+            <h2 id="agree-your-boundary">Agree your boundary</h2>
+
+            <p>You need to [xxxxxxxxxxxxxxxxxxxx]. This is called an authorisation boundary.</p>
+
+            <p>This helps you:</p>
+
+            <ul>
+              <li>define what is in your control</li>
+              <li>check if you need authorisation to do something</li>
+              <li>share information and updates</li>
+            </ul>
+
+            <h3>Work with system stakeholders</h3>
+
+            <p>You cannot set your authorisation boundary on your own. Work with system stakeholders and enterprise architects to agree who owns risk on either side of the boundary.</p>
+
+            {{ component('inset-text', {
+            text: 'If you assume a risk is the responsibility of another team, you create a security vulnerability.'
+            }) }}
+
+            <p>Get written confirmation from everyone involved. Include the names of people who formally accept each risk. Regularly check that names are still correct.</p>
+
+            <br><br>
+
+          <p>[Add the Next pattern here]</p>
+            
+            <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0"> Published July 2024</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}
