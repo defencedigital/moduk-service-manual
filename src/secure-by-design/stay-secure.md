@@ -4,13 +4,13 @@ title: "Stay secure"
 description: ""
 ---
 
-Intro sentence here.
+Your team is responsible for keeping your technology or service secure. 
 
 ## [Continuously manage risk](/secure-by-design/continuously-manage-risk ) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
+- track actions from assessments
 - topic here
-- topic here
-- topic here
+- do security testing
 
 ## [Check your approach](/service-assessments/get-a-service-assessment) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
