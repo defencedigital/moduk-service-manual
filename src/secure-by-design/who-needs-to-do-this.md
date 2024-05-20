@@ -29,13 +29,13 @@ If your project has existing security accreditation, you need to move to Secure 
 
 ## Who is responsible
 
-Your team is responsible for implementing and running Secure by Design.
+Everyone on your team is responsible for keeping your technology or service secure. However, you need to appoint a Senior Responsible Owner (SRO).
 
-You need to appoint a Senior Responsible Officer (SRO) to be accountable for Secure by Design. 
+If you do not have an SRO, someone in your team needs to take on the role. For example, your product or service owner.
 
-Your SRO needs to be someone with authority and experience in risk management, for example a product or service owner. If you do not have someone suitable, your project sponsor can be your SRO.
+Your SRO needs to be someone with experience in risk management. If you do not have someone suitable, your project sponsor can be your SRO.
 
-SROs are usually supported by security and delivery leads. If you do not have anyone on your team with cyber security experience, you need to fill that role. 
+SROs are usually supported by security and delivery leads.  
 
 
 ## Get your team involved
