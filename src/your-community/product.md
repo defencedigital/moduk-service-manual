@@ -16,8 +16,8 @@ Anyone working on digital services in Defence is welcome to join the product com
 In this community, you will meet:
 
 - product managers
-- product owners
-- business analysts
+- service owners
+- agile business analysts
 - people interested in product management
 
 ## Community calls
