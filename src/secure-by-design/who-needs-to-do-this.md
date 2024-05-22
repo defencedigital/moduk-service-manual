@@ -15,7 +15,7 @@ Ready for review. Fact check what we have and describe what is missing.
 
 Every technology and service that handles Defence data needs to be Secure by Design. This includes projects delivered by suppliers.
 
-## Projects this applies to
+## All new technologies and services
 
 Since July 2023, new technology infrastructure and digital services in Defence need to follow the Secure by Design approach. Examples include: 
 
@@ -25,7 +25,11 @@ Since July 2023, new technology infrastructure and digital services in Defence n
 - platforms
 - weapons systems
 
-If your project has existing security accreditation, you need to move to Secure by Design when it expires. Start preparing for it now.
+### If you have security accreditation
+
+Technologies and services with existing security accreditation need to move to Secure by Design when it expires. Start preparing for it now.
+
+If your accreditation ends before 31 July 2024 and you need more time to move to Secure by Design, you can apply for a 12 month extension.
 
 ## Who is responsible
 

@@ -45,12 +45,12 @@ Check [who can be an SRO](/secure-by-design-phases/who-needs-to-do-this).
 
 Check the activities you need to do and the tools you can use. Follow the Secure by Design guidance in each phase: 
  
-- [get started]()
+- [get the basics right]()
+- [assess your risks]()
 - [manage your risks]()
-- [stay secure]()
 
 If you cannot find the guidance you need, tell us what is missing. You can [send us your feedback](). 
 
 
 **Next**
-[Get started](/secure-by-design/get-started/)
+[Get the basics right](/secure-by-design/get-the-basics-right/)
