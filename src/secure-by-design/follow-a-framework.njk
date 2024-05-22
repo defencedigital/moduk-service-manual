@@ -1,0 +1,122 @@
+{% extends "layouts/guidance.njk" %}
+
+{% set description = "" %}
+
+{% block body %}
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-breadcrumbs">
+
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
+        </li>
+      </ol>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-main-wrapper">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">Follow a framework</h1>
+        </div>
+      </div>
+
+      <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-one-third position-sticky">
+
+          {# Contents side navigation #}
+          <nav class="moduk-contents-list" role="navigation" aria-labelledby="moduk-contents-list">
+            
+            <h2 class="moduk-contents-list__title" id="moduk-contents-list">Contents</h2>
+            
+            <ol class="moduk-contents-list__list">
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#choose-a-framework">Choose a framework</a>
+              </li>
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#map-controls-against-risks">Map controls against risks</a>
+              </li>
+
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#put-your-controls-in-place">Put your controls in place</a>
+              </li>                 
+              
+            </ol>
+            
+          </nav>
+
+        </div>
+
+        <div class="govuk-grid-column-two-thirds">
+
+          <div class="moduk-prose">
+
+          <p style="color:orange">Draft not yet ready for formal review.</p> 
+          
+            <p>A security control framework is a collection of techniques and processes to help you manage a range of security risks.</p>
+
+            <h2 id="reflect-your-context-and-risk-appetite">Choose a framework</h2>
+
+            <p>Use a framework that fits your project best. You might need to explain why you have chosen a particular framework.</p>
+
+            <p>The Defence Secure by Design approach is based on the cyber security framework from the National Institute of Standards and Technology (NIST), U.S. Department of Commerce.</p>
+
+            <p>Find out <a href="https://www.nist.gov/cyberframework" target="_blank">more about the NIST framework<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
+
+            <p>You can <a href="https://www.security.gov.uk/guidance/secure-by-design/activities/agreeing-a-security-controls-set-for-your-service" target="_blank">other frameworks listed on GOV.UK<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
+
+
+            <h2 id="map-controls-against-risks">Map controls against risks</h2>
+
+            <p>Whatever framework you follow, run a team workshop to agree the controls you will use.</p>
+
+            <p>You need to:</p>
+
+            <ul>
+              <li>describe why the controls are right for your technology or service</li>
+              <li>firewalls</li>
+              <li>list your controls and the risks they will manage</li>
+              <li>create [high level control documentation] that the team can access and your stakeholders can understand</li>
+            </ul>
+
+            <p>You can <a href="" target="_blank">check what to include in your list of controls<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
+
+            <h2 id="put-your-controls-in-place">Put your controls in place</h2>
+
+            <p>After agreeing your controls, your team is responsible for setting up and monitoring them. Your Senior Responsible Owner (SRO) is accountable for controls being in place and working.</p>
+            
+            {{ component('inset-text', {
+            text: 'You must review your controls when you make major changes or new threats are reported.'
+            }) }}
+            
+            <p>Consider setting up an alert to regularly review your controls.</p>
+           
+            <p>Check <a href="">how to agree your controls</a>.</p>
+
+            <br><br>
+
+            <p>[Add the Next pattern here]</p>
+
+            <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0"> Published July 2024</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}

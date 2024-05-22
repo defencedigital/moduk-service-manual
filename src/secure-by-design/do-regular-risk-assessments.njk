@@ -1,0 +1,137 @@
+{% extends "layouts/guidance.njk" %}
+
+{% set description = "" %}
+
+{% block body %}
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-breadcrumbs">
+
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+          <a class="govuk-breadcrumbs__link" href="{{ '/' | url }}">Home</a>
+        </li>
+      </ol>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-width-container">
+
+    <div class="govuk-main-wrapper">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">Do regular risk assessments</h1>
+        </div>
+      </div>
+
+      <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-one-third position-sticky">
+
+          {# Contents side navigation #}
+          <nav class="moduk-contents-list" role="navigation" aria-labelledby="moduk-contents-list">
+            
+            <h2 class="moduk-contents-list__title" id="moduk-contents-list">Contents</h2>
+            
+            <ol class="moduk-contents-list__list">
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#what-you-need-to-cover">What you need to cover</a>
+              </li>
+              
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#use-the-self-assessment-tool">Use the self assessment tool</a>
+              </li>
+
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#put-your-controls-in-place">Share your assessments</a>
+              </li>                 
+              
+            </ol>
+            
+          </nav>
+
+        </div>
+
+        <div class="govuk-grid-column-two-thirds">
+
+          <div class="moduk-prose">
+
+          <p style="color:orange">Draft not yet ready for formal review.</p> 
+          
+            <p>To stay Secure by Design, you need to do regular security risk assessments. Most services in Defence do risk assessments every 3 months.</p>
+
+            <p>You must do a risk assessment when you make major changes or new threats are reported. </p>
+
+            <h2 id="reflect-your-context-and-risk-appetite">What you need to cover</h2>
+
+            <p>Your assessments need to cover all of the systems and components you use, including external ones.</p>
+
+            <p>Make sure your assessments include:</p>
+
+            <ul>
+              <li>a review of your technology or service against your risk appetite</li>
+              <li>any implications of sharing your technology or service with foreign nations</li>
+              <li>an action plan with named owners and dates for completion or review</li>
+              <li>details of risks that need to be tracked or escalated</li>
+            </ul>
+
+            <p>Use your regular assessments to help you prioritise cyber security activities. </p>
+
+            <p>Check <a href="https://www.security.gov.uk/guidance/secure-by-design/activities/performing-a-security-risk-assessment" target="_blank">GOV.UK guidance on risk assessments.<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
+
+            <h2 id="use-the-self-assessment-tool">Use the self assessment tool</h2>
+
+            <p>Use the Cyber Activity and Assurance Tracker (CAAT) to do your regular risk assessments.</p>
+
+            <p>CAAT helps you meet Secure by Design standards in Defence. [Add details of what you get from the tool].</p>
+
+            <p>You will be asked questions about:</p>
+
+            <ul>
+              <li>....</li>
+              <li>....</li>
+              <li>....</li>
+              <li>....</li>
+            </ul>
+
+            <p>Your assessment is sent to Cyber Security Assurance and Advisory Service (CySAAS). They will only contact you if they consider something is high risk.</p>
+
+            <h3>Register your project</h3>
+
+            <p>Before using CAAT, you need to register your technology or service. </p>
+
+            <p>[Add how to do this]</p>
+            
+            
+            <h2 id="share-your-assessments">Share your assessments</h2>
+
+            <p>Share your assessments with internal and authorised stakeholders, including programme boards and suppliers.</p>
+
+            <p>Classify your assessments correctly, for example [security classification].</p>
+
+            <ul class="govuk-list"> 
+            <li>Find out <a href="https://servicemanual.digital.mod.uk/security-classifications/how-to-classify-information/">how to classify information</a>.</li>
+            </ul>
+
+            <br><br>
+
+            <p>[Add the Next pattern here]</p>
+
+            <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0"> Published July 2024</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}

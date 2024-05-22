@@ -6,19 +6,19 @@ description: ""
 
 Intro content here.
 
-## [Register your project]() {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Agree your security controls](/secure-by-design/agree-your-security-controls) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - topic here
 - topic here
 - topic here
 
-## [Choose a framework](/secure-by-design/choose-a-framework) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Follow a framework](/secure-by-design/follow-a-framework) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - topic here
 - topic here
 - topic here
 
-## [Do regular assessments](/secure-by-design/do-regular-assessments) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Do regular risk assessments](/secure-by-design/do-regular-risk-assessments) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - topic here
 - topic here
