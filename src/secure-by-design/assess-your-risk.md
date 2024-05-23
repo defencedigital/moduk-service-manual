@@ -4,25 +4,25 @@ title: "Assess your risk"
 description: ""
 ---
 
-Intro content here.
+Your team is responsible for continually assessing security risks to your technology or service.
 
 ## [Agree your security controls](/secure-by-design/agree-your-security-controls) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- topic here
-- topic here
-- topic here
+- reflect your context
+- consider all types of controls
+- check your organisation's controls
 
 ## [Follow a framework](/secure-by-design/follow-a-framework) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- topic here
-- topic here
-- topic here
+- choose a framework that fits best
+- map controls against risks
+- put your controls in place
 
 ## [Do regular risk assessments](/secure-by-design/do-regular-risk-assessments) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- topic here
-- topic here
-- topic here
+- what you need to cover
+- use the assurance tracker
+- register your project
 
 
 
