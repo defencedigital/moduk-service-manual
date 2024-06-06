@@ -19,10 +19,14 @@ Joining a community helps you:
 
 Anyone working in Defence can join a community. 
 
-You can join more than one community.
+You can join more than one of these communities:
 
-- [Content](/your-community/content/)
-- [Software development](/your-community/software-development/)
-- [User-centred design](/your-community/user-centred-design/)
+<ul>
+  <li><a href="/your-community/product/">product</a></li>
+
+  <li><a href="/your-community/software-development/">software development</a></li>
+
+  <li><a href="/your-community/user-centred-design/">user-centred design</a></li>
+</ul>
 
 If you have a community in Defence that meets regularly, we can share the details here. Find out how to [get in touch](/get-in-touch/).
