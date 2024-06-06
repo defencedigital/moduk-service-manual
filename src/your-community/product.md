@@ -36,7 +36,7 @@ We share what we’re working on and often have guest speakers.
 
 You need to work in the Ministry of Defence to join community calls. 
 
-Using your Ministry of Defence email, send a message to: [new-group@email.here](mailto:?subject=Join%2productUCD%20community%20calls). 
+Using your Ministry of Defence email, send a message to: [UKStratComDD-Product@mod.gov.uk](mailto:UKStratComDD-Product@mod.gov.uk?subject=Join%2productUCD%20community%20calls). 
 
 Include your full name, your role and the project you are working on.
 
