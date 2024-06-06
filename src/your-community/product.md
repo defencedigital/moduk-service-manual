@@ -7,7 +7,6 @@ datePublished: 2024-06-06
 eleventyNavigation:
   key: "Your community"
   url: "/your-community/"
----
 
 Anyone working on digital services in Defence is welcome to join the product community.
 
@@ -24,9 +23,7 @@ In this community, you will meet:
 
 Join the product community call every second Monday at 2pm.
 
-Calls are no longer than 1 hour. We discuss product management techniques and approaches. 
-
-We share what we’re working on and often have guest speakers.
+Calls are no longer than 1 hour. We discuss product management techniques and approaches. We share what we’re working on and often have guest speakers.
 
 {{ component('inset-text', {
   html: 'You must only share OFFICIAL information on community calls.<br><a href="/security-classifications/">Check how to classify information</a>.'
@@ -47,4 +44,6 @@ On product community calls, you can share your successes, tools and approaches. 
 Anyone in the product community can volunteer to lead a call.    
 
 Check [how to ask for and give feedback](/your-community/ask-for-and-give-feedback).
+
+
 
