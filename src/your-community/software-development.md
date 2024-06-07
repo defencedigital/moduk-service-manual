@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Community"
 title: "Software development"
 description: "Anyone in a software development role in Defence can join the community. Find out how to get involved."
-dateUpdated: 2023-06-12
+dateUpdated: 2024-06-06
 eleventyNavigation:
   key: "Your community"
   url: "/your-community/"
@@ -39,36 +39,18 @@ Using your Ministry of Defence email, send a message to:[UKStratComDD-Foundry-DS
 
 Include your full name, your role and the project you’re working on.
 
-## Ask for feedback
+## Get feedback
 
-Community calls are a great place to ask for feedback on your service, a feature or an issue. Here are a few things to remember.
+You can ask the community to give you feedback on your service, a new feature or an issue. 
 
-### Set the context
+For example, you need support to do penetration (pen) testing.
 
-Without taking too long, tell the story of your service. Start with what your service does, who your users are and what they are trying to do.
+Check [how to ask for and give feedback](/your-community/ask-for-and-give-feedback).
 
-### Say what kind of feedback you want
+## Join other communities 
 
-Tell people what you want to find out. For example, if there are existing patterns you can reuse or how close you are to meeting the GOV.UK Service Standard.
+You can join more than one community. You might find these communities useful: 
 
-### Do not be defensive
-
-Feedback is about your service, not you. Avoid deflecting questions, it is okay to say that you are not sure. Take notes so that you do not need to respond to every point.
-
-## How to give feedback
-
-You are expected to give feedback in a kind and respectful way.
-
-### Give specific and actionable feedback
-
-All feedback should be constructive. Include details of what you are thinking, what you would change and why. Avoid phrases like "I don't like it" or "That never works".
-
-### Be kind and respectful
-
-You can be honest and specific without using hurtful or aggressive language. Start sentences with phrases like “Have you considered”, “You might like to try” or “Think about”.
-
-### Keep an open mind
-Everyone has different experiences and opinions. Remember that your feedback is just one perspective. Be willing to consider feedback that differs from your own.
-
-### Be present
-The team presenting their service deserves your full attention. Try not to be distracted by other work. In remote sessions, have your camera on and show that you are actively listening.
+- [content](/your-community/content/)
+- [product](/your-community/product)
+- [user-centred design](/your-community/user-centred-design)
