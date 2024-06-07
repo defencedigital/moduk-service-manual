@@ -42,7 +42,7 @@ Include your full name, your role and the project you are working on.
 
 ## Get feedback or lead a session
 
-On product community calls, you can share your successes, tools and approaches. You can ask the community for ideas on dealing with product management challenges. 
+On product community calls you can share your successes, tools and approaches. You can ask the community for ideas on dealing with product management challenges. 
 
 Anyone in the product community can volunteer to lead a call.    
 
