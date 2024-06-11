@@ -8,12 +8,12 @@ Your team is responsible for keeping your technology or service secure.
 
 ## [Continuously manage risk](/secure-by-design/continuously-manage-risk ) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- track actions from assessments
-- topic here
+- know what is happening
+- respond to changes
+- do regular assessments
+
+## [Test your technology or service](/service-assessments/get-a-service-assessment) {.govuk-heading-m .govuk-!-margin-bottom-1}
+
+- check your controls are working
 - do security testing
 
-## [Check your approach](/service-assessments/get-a-service-assessment) {.govuk-heading-m .govuk-!-margin-bottom-1}
-
-- adapt to new threats
-- topic here
-- topic here

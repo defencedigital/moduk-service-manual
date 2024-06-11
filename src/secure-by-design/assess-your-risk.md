@@ -4,7 +4,7 @@ title: "Assess your risk"
 description: ""
 ---
 
-Your team is responsible for continually assessing security risks to your technology or service.
+Your team is responsible for assessing security risks to your technology or service.
 
 ## [Agree your security controls](/secure-by-design/agree-your-security-controls) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
