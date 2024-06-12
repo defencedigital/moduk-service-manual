@@ -12,7 +12,7 @@ Your team is responsible for keeping your technology or service secure.
 - respond to changes
 - do regular assessments
 
-## [Test your technology or service](/service-assessments/get-a-service-assessment) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Test your technology or service](/service-assessments/test-your-technology-or-service) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - check controls are working
 - do security testing
