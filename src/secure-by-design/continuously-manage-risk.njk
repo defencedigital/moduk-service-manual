@@ -1,6 +1,6 @@
 {% extends "layouts/guidance.njk" %}
 
-{% set description = "Agree your approach in Defence, identify your cyber security needs and get your team ready." %}
+{% set description = "Check how to keep your technolgy or service secure, including regular assessments and responding to changes." %}
 
 {% block body %}
 
@@ -40,11 +40,19 @@
             <ol class="moduk-contents-list__list">
               
               <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
-                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#be-secure-in-all-phases">Be secure in all phases</a>
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#know-what-is-happening">Know what is happening</a>
               </li>
               
               <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
-                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#make-security-part-of-what-you-do">Make security part of what you do</a>
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#respond-to-changes">Respond to changes</a>
+              </li>
+
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#do-regular-assessments">Do regular assessments</a>
+              </li>
+
+              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#retire-components-securely">Retire components securely</a>
               </li>
               
             </ol>
@@ -57,35 +65,58 @@
 
           <div class="moduk-prose">
 
-          <p style="color:red">Draft content.</p>
+          <p style="color:green">Ready for review. Fact check what we have and describe what is missing.</p> 
 
-            <p>Plan how you are going to keep your technology or service secure.</p>
+            <p>Your team needs to monitor and respond to security risks, from the design of your technology or service to its retirement.</p>
 
-            <h2 id="be-secure-in-all phases">Be secure in all phases</h2>
+            <h2 id="know-what-is-happening">Know what is happening</h2>
 
-            <p>You need to manage cyber security risk throughout the life of your technology or service. This includes:</p>
-
-            <ul>
-              <li>in design and development</li>
-              <li>when major changes are released</li>
-              <li>retiring components securely</li>
-            </ul>
-
-            <h2 id="make-security-part-of-what-you-do">Make security part of what you do</h2>
-
-            <p>Add cyber security to your existing activities and meetings. For example, you need to:</p>
+            <p>You need to be aware of emerging cyber security threats and changes across Defence. You can:</p>
 
             <ul>
-              <li>put cyber security on the agenda for all programme board meetings</li>
-              <li>publish your progress towards security milestones</li>
-              <li>share what you are doing in show and tells</li>
-              <li>keep your Senior Responsible Officer (SRO) updated</li>
+              <li>[add activity]</li>
+              <li>[add activity]</li>
+              <li>[add activity]</li>
             </ul>
+
+            Read <a href="https://www.security.gov.uk/guidance/secure-by-design/activities/managing-observability" target="_blank">GOV.UK guidance on managing observability<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
+
+            <h2 id="respond-to-changes">Respond to changes</h2>
+
+            <p>When you make changes to your technology or service or discover a new threat, you need to:</p>
+
+            <ul>
+              <li>assess the impact</li>
+              <li>check your controls are still appropriate</li>
+              <li>update your risk management strategy</li>
+            </ul>
+
+            <p>The risk management framework you choose will show you how to monitor and respond to changes. For example, the National Institute of Standards and Technology's (NIST) cybersecurity framework includes guidance on incident management, reporting and communication.</p>
 
           <ul class="govuk-list"> 
-           <li>Check <a href="">how to manage your cyber security risks</a>.</li>
-           <li>Read <a href="https://www.ncsc.gov.uk/blog-post/a-two-part-blog-about-risk-appetites" target="_blank">National Cyber Security Centre's introduction to risk management<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</li>
+           <li>Check <a href="/secure-by-design/follow-a-framework">how to choose a risk management framework</a>.</li>
+           <li>Read<a href="https://www.security.gov.uk/guidance/secure-by-design/activities/evaluating-the-security-impact-of-changes" target="_blank">GOV.UK guidance on assessing the impact of changes<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</li>
           </ul>
+
+          <h2 id="do-regular-assessments">Do regular assessments</h2>
+
+          <p>To stay Secure by Design, you need to do regular security risk assessments. Most services in Defence do risk assessments every 3 months.</p>
+
+          <p>Make sure you track and complete all of the actions you identify in assessments.</p>
+
+            {{ component('inset-text', {
+            text: 'You must do a risk assessment when you make changes or discover new threats.'
+            }) }}
+
+          <p>Check <a href="/secure-by-design/do-regular-risk-assessments">how to do risk assessments in Defence</a>.</p>
+
+          <h2 id="retire-components-securely">Retire components securely</h2>
+
+          <p>You should only use systems and components that are necessary for your technology or service.</p>
+
+          <p>When you retire systems or components that are no longer used, you need to do it securely. For example, you might need to delete sensitive data, remove access rights or shut down a domain.</p>
+
+          <p>Read<a href="https://www.security.gov.uk/guidance/secure-by-design/activities/retiring-service-components-securely" target="_blank">GOV.UK guidance on retiring components<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
 
           <p>[Add the Next pattern here]</p>
             

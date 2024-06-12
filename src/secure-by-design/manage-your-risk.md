@@ -14,6 +14,6 @@ Your team is responsible for keeping your technology or service secure.
 
 ## [Test your technology or service](/service-assessments/get-a-service-assessment) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
-- check your controls are working
+- check controls are working
 - do security testing
 
