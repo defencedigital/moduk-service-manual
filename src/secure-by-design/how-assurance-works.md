@@ -12,23 +12,25 @@ eleventyNavigation:
 Ready for review. Fact check what we have and describe what is missing.
 </p> 
 
-Your team is responsible for managing cyber security risks in your technology or service. You do not apply for security accreditation that lasts for a period of time. 
+Your team is responsible for managing cyber security risks in your technology or service. You no longer apply for security accreditation that lasts for a period of time. 
 
 ## Assess your security
 
 To be Secure by Design, you need to keep checking that your technology or service is secure. You need to do regular assessments. Most projects in Defence do a security assessment every 3 months. 
 
-When you do your assessments, use the Cyber Activity and Assurance Tracker (CAAT). It helps you meet Secure by Design standards in Defence. It also sends a report to the Cyber Security Assurance and Advisory Service (CySAAS).
+When you do your assessments, use the Cyber Activity and Assurance Tracker (CAAT). It helps you follow Secure by Design best practice in Defence. You get a report that you can share with your team and stakeholders.
 
 Find out [more about self-assessments and CAAT](). 
 
 ### Independent assessments
 
-The Cyber Security Assurance and Advisory Service (CySAAS) looks at assessment reports submitted by projects. If your project is considered high risk, you might be selected for an assessment.  
+The Cyber Security Assurance and Advisory Service (CySAAS) team looks at random assessment reports submitted by projects. This helps make sure teams are being consistent. 
 
-You can ask CySAAS to check how you are doing at major milestones, for example before an investment appraisal. 
+If your project is a priority and considered high risk, you might be selected for an assessment.  
 
-Find out [more about independent assessments]().
+You can ask CySAAS to check how you are doing at major milestones, for example before an investment appraisal. CySAAS has to deal with priority projects first. 
+
+You can [ask CySAAS if they can help]().
 
 
 ## Give regular updates
