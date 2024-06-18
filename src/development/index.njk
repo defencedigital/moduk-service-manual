@@ -40,15 +40,11 @@
             <ol class="moduk-contents-list__list">
               
               <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
-                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#test-in-design">Test in design</a>
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#start-securely">Start securely</a>
               </li>
               
               <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
-                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#during-development">During development</a>
-              </li>
-
-              <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
-                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#in-production">In production</a>
+                <a class="moduk-contents-list__link govuk-link govuk-link--no-visited-state" href="#security-testing-in-defence">Security testing in Defence</a>
               </li>
 
               <li class="moduk-contents-list__list-item moduk-contents-list__list-item--dashed">
@@ -69,59 +65,77 @@
 
           <div class="moduk-prose">
 
-          <p style="color:red">Draft content to run through in a call.</p> 
+          <p style="color:gree">Content ready for review. Fact check what we have.</p> 
           
-            <p>You need to check your technology or service for security vulnerabilities. This includes [hosted applications].</p>
+            <p>You need to check that your technology or service is secure. Do security testing in all phases of your project and when you discover new threats.</p>
 
-            <p>Do security testing in all phases and when potential threats are identified.</p>
+            <h2 id="start-securely">Start securely</h2>
 
-            <h2 id="test-in-design">Test in design</h2>
-
-            <p>You need to minimise potential vulnerabilities at the design stage.</p>
-
-            <p>[Add how you do this]<p>
-
-            <p>Your findings help the team address any weaknesses in their designs.</p>
-
-            <p>Find out <a href="#0">how to be Secure by Design</a>.</p>
-         
-            <h2 id="during-development">During development</h2>
-
-            <p>If you write or manage custom code, you must check it for security vulnerabilities. This helps you:</p>
+            <p>Design your technology or service so that it is secure. Put best practices in place so that you do not have to fix issues later. Consider things like:</p>
 
             <ul>
-              <li>find and fix vulnerabilities</li>
-              <li>improve the quality of your software</li>
-              <li>meet coding standards</li>
+              <li>your technical architecture</li>
+              <li>using secure code libraries</li>
+              <li>meeting coding standards</li>
             </ul>
-
-            <p>Use automated tools to pick up errors and vulnerable libraries that you have used. Examples of automated tools include Nessus, Rapid7 and Qualys.</p>
-            <p>After you run automated tests, ask a security expert to check for vulnerabilities that are harder to find. If you do not have a security expert on your team, you can <a href="mailto:UKStratComDD-IES-SI-CRP-VR@mod.gov.uk?subject=Help with manual security testing" target="_blank">ask for help with manual testing<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
-
-            <p>Find out <a href="#0" target="_blank">which automated tools are used in Defence<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>  
-            <p>Check <a href="https://gds-way.digital.cabinet-office.gov.uk/manuals/code-review-guidelines.html#content" target="_blank">GOV.UK guidance on code reviews<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
-
-            <h2 id="in-production">In production</h2>
-
-            <p>After significant changes reach production, you need to do penetration testing (pen testing). This is when external security experts try to find and exploit your vulnerabilities.</p>
             
-            <p>Pen testing helps you:</p>
+            <p>Review your designs regularly, especially when you make changes or discover new threats.<p>
 
-            <ul>
-              <li>identify weaknesses attackers could exploit</li>
-              <li>understand and fix complex vulnerabilities</li>
-              <li>assess your [security posture]</li>
-            </ul>
+            <p>Follow <a href="#0">guidance on Secure by Design</a>.</p>
+         
+            <h2 id="security-testing-in-Defence">Security testing in Defence</h2>
 
-            <p>Ask your commercial team if you should use security experts in Defence or an external company.</p>
+            <p>You can do different kinds of security testing. Decide on the mix of approaches that is right for your technology or service.</p>
 
-            <p>If you use an external company, they should be a verified supplier. You can <a href="https://docs.google.com/document/d/17UZF5u2Ex6vncc0uQPiB3ATknqK095v8ruith4wIU7g/edit#:~:text=https%3A//www.ncsc.gov.uk/section/products%2Dservices/verify%2Dsuppliers%3Fscheme%3DCHECK%2BPenetration%2BTesting">use the National Cyber Security Centre’s register</a>.</p>
+            <h3>Code reviews</h3>
 
-            <p>Check <a href="https://www.gov.uk/service-manual/technology/vulnerability-and-penetration-testing" target="_blank">GOV.UK guidance on penetration testing<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
+            <p>You need to do automated and manual testing of your code. Code reviews help you find and fix vulnerabilities. They also help you meet coding standards.</p>
+
+            <p>Do code reviews regularly during development and before committing new code.</p>
+
+            <h3>Vulnerability assessments</h3>
+
+            <p>Assessments help you find and fix vulnerabilities that are easy to find. Use automated tools to pick up any errors and vulnerable libraries that you have used. Examples of automated tools include Nessus, Rapid7 and Qualys.</p>
+
+            <p>After you run automated tests, you can ask a security expert to check for vulnerabilities that are harder to find. If you do not have a security expert on your team, <a href="">ask for help with manual testing</a>.</p>
+
+            <p>Do a vulnerability assessment before you release code, including updates.</p>
+
+            <h3>Penetration testing</h3>
+
+            <p>During a penetration (pen) test, security experts simulate a cyber attack on your technology or service. Using automated and manual techniques, they find vulnerabilities that attackers could exploit.</p>
+
+            <p>Depending on what you find in your vulnerability assessment, you might need to do pen testing. You should also consider doing pen testing after you release significant changes.</p>
+
+            <p>Ask your commercial team if you should use security experts in Defence or an external company. If you use an external company, they should be a verified supplier. You can <a href="https://www.ncsc.gov.uk/section/products-services/verify-suppliers?scheme=CHECK+Penetration+Testing" target="_blank">use the National Cyber Security Centre's register<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
+
+            <p>Check <a href="https://www.gov.uk/service-manual/technology/vulnerability-and-penetration-testing" target="_blank">GOV.UK guidance on vulnerability and penetration testing<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
+
+            <h3>Bug bounties</h3>
+            
+            <p>A bug bounty is a challenge designed for ethical hackers to try and exploit a system over a period of time. The hackers are paid for each valid vulnerability that they find. They often find vulnerabilities that other approaches miss.</p>
+
+            <p>A bug bounty is a challenge designed for ethical hackers to try and exploit a system over a period of time. The hackers are paid for each valid vulnerability that they find. They often find vulnerabilities that other approaches miss.</p>
+
+            <h3>Vulnerability Disclosure Programmes</h3>
+
+            <p>If your technology or service is online, consider running a Vulnerability Disclosure Programme (VDP). VDPs give ethical hackers a way to report vulnerabilities at any time.</p>
+
+            <p>A well run VDP helps you identify vulnerabilities and mitigate them before they can be exploited.</p>
+
+            <p>The Ministry of Defence has a Vulnerability Rewards Programme for selected ethical hackers. To find out more, search for ‘xxxxxxx’ on MODNET.</p>
+            
+            <h3>Red teaming</h3>
+
+            <p>Red teaming involves skilled, ethical hackers breaking into your technology or service however they can. This includes exploiting organisational, physical and human weaknesses, for example phishing.</p>
+
+            <p>Sometimes, read teaming happens without your team knowing. It tests how you respond to real world attacks.</p>
+
+            <p>Only use red teaming now and again, after you have done other kinds of security testing.</p>
             
             <h2 id="share-what-you-find">Share what you find</h2>
 
-            <p>Whenever you do security testing, you must share what you find with people who need to know.</p>
+            <p>Whenever you do security testing, share what you find with people who need to know. For example, what you find helps your design team address weaknesses.</p>
 
             <p>Add findings to your project's risk register. Include enough information for the team to decide how to mitigate risks. Make sure you track how vulnerabilities are being managed.</p>
             
@@ -131,14 +145,22 @@
 
             <p>You need to do security testing but there are teams in Defence that can support your approach.</p>
 
+            <h3>Technical security teams</h3>
+
+            <p>If your project is used in military operations, you can use a technical security team. Team members are often deployed and can test your technology or service in a real world environment.</p>
+            
+            <p>Technical security teams are managed by the Joint Information Assurance Co-ordination Cell (JIACC).</p>
+            
+            <p>On MODNET, search for 'JAICC'.</p>
+
             <h3>Cyber Resilience Programme</h3>
 
-            <p>[Some projects] can get support from the Cyber Resilience Programme (CRP). They use external security experts for activities including:</p>
+            <p>If your project is a priority and considered high risk, you can get support from the Cyber Resilience Programme (CRP). They use external security experts for activities including:</p>
 
             <ul>
               <li>bug bounties with rewards for finding vulnerabilities</li>
               <li>red team events that simulate a real world attacker</li>
-              <li>[Vulnerability Disclosure Programme (VDP)]</li>
+              <li>Vulnerability Disclosure Programmes (VDPs)</li>
             </ul>
 
             <p>On MODNET, search for the 'Cyber Resilience Programme'.</p>
@@ -149,15 +171,9 @@
           
             <p>On MODNET, search for 'CySAAS consultancy'.</p>
 
-            <h3>Technical security teams</h3>
+            <h3>Tell us what guidance you need</h3>
 
-            <p>If your project is operational, for example [xxxxxx], you can use a technical security team. The teams include military personnel. They are managed by the Joint Information Assurance Co-ordination Cell (JIACC).</p>
-            
-            <p>On MODNET, search for 'JAICC'.</p>
-
-            {# <h3>Tell us what guidance you need</h3>
-
-            <p>This is the start of technical guidance for developers in Defence. Tell us what other guidance you need, <a href="#0">get in touch</a>.</p> #}
+            <p>This is the start of technical guidance for developers in Defence. Tell us what other guidance you need, <a href="#0">get in touch</a>.</p>
 
             <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0"> Published June 2024</p>
 
