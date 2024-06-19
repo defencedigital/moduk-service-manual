@@ -16,7 +16,11 @@ Your team is responsible for managing cyber security risks in your technology or
 
 ## Assess your security
 
-To be Secure by Design, you need to keep checking that your technology or service is secure. You need to do regular assessments. Most projects in Defence do a security assessment every 3 months. 
+To be Secure by Design, you need to keep checking that your technology or service is secure. 
+
+How often you do assessments depends on your technology or service, but you need to do one at least every 3 months.
+
+You must also do a risk assessment when you make changes or discover new threats.
 
 When you do your assessments, use the Cyber Activity and Assurance Tracker (CAAT). It helps you follow Secure by Design best practice in Defence. You get a report that you can share with your team and stakeholders.
 

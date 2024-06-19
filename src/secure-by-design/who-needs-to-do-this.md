@@ -13,7 +13,7 @@ eleventyNavigation:
 Ready for review. Fact check what we have and describe what is missing.
 </p> 
 
-Every technology and service that handles Defence data needs to be Secure by Design. This includes projects delivered by suppliers.
+Every technology and service that handles Defence data needs to be secure. This includes projects delivered by suppliers.
 
 ## All new technologies and services
 

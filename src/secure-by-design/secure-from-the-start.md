@@ -16,7 +16,7 @@ By designing security into projects from the start, you help Defence stay ahead 
 
 ## Across government
 
-The UK Cabinet Office policy is that all government departments and arm's length bodies must be Secure by Design. 
+The UK Cabinet Office policy is that all government departments and arm's length bodies must be secure. 
 
 Following a Secure by Design approach, government departments will: 
 
@@ -28,13 +28,13 @@ Following a Secure by Design approach, government departments will:
 
 The Ministry of Defence is implementing Secure by Design in all top level budgets and arm’s length bodies.
 
-All technology and services that handle Defence data must be Secure by Design. This includes projects delivered by suppliers.
+All technology and services that handle Defence data must follow Secure by Design. This includes projects delivered by suppliers.
  
 ### What you need to do
 
 Your team is responsible for managing cyber security risks and doing self assessments. You do not have to apply for security accreditation that lasts for a period of time.
 
-To be Secure by Design, your team needs to:
+For your technology or service to be secure, your team needs to:
 
 - consider cyber security from the start
 - choose appropriate security frameworks and controls
