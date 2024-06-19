@@ -84,6 +84,7 @@
             <p>Review your designs regularly, especially when you make changes or discover new threats.<p>
 
             <p>Follow <a href="#0">guidance on Secure by Design</a>.</p>
+            <p>Check the <a href="https://www.gov.uk/guidance/the-technology-code-of-practice" target="_blank">GOV.UK Technology Code of Practice<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
          
             <h2 id="security-testing-in-Defence">Security testing in Defence</h2>
 
@@ -91,33 +92,33 @@
 
             <h3>Code reviews</h3>
 
-            <p>You need to test your code. Add automated and manual tests to your release process. Do code reviews regularly during development and before committing new code. </p>
+            <p>You need to test your code. Make automated and manual tests part of your release process. Do code reviews during development and before committing new code. </p>
             
             <p>Code reviews help you find and fix vulnerabilities. They also help you meet coding standards.</p>
 
             <h3>Vulnerability assessments</h3>
+            
+            <p>Use automated tools to pick up errors and vulnerable libraries. Examples of automated tools include Nessus, Rapid7 and Qualys.</p>
 
-            <p>Assessments help you find and fix vulnerabilities that are easy to find. Use automated tools to pick up any errors and vulnerable libraries that you have used. Examples of automated tools include Nessus, Rapid7 and Qualys.</p>
-
-            <p>After you run automated tests, you can ask a security expert to check for vulnerabilities that are harder to find. If you do not have a security expert on your team, <a href="">ask for help with manual testing</a>.</p>
+            <p>After you run automated tests, ask a security expert to check for vulnerabilities that are harder to find. If you do not have a security expert on your team, check <a href="">guidance on involvoing the right people</a>.</p>
 
             <p>Do a vulnerability assessment before you release code, including updates.</p>
 
             <h3>Penetration testing</h3>
 
+            <p>Depending on what you find in your vulnerability assessment, you might need to do penetration (pen) testing. You should also consider doing a pen test after you release significant changes.</p>
+
             <p>During a penetration (pen) test, security experts simulate a cyber attack on your technology or service. Using automated and manual techniques, they find vulnerabilities that attackers could exploit.</p>
 
-            <p>Depending on what you find in your vulnerability assessment, you might need to do pen testing. You should also consider doing pen testing after you release significant changes.</p>
-
-            <p>Ask your commercial team if you should use security experts in Defence or an external company. If you use an external company, they should be a verified supplier. You can <a href="https://www.ncsc.gov.uk/section/products-services/verify-suppliers?scheme=CHECK+Penetration+Testing" target="_blank">use the National Cyber Security Centre's register<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
+            <p>Ask your commercial team if you should use security experts in Defence or an external company. If you use an external company, they should be a verified supplier. Check the <a href="https://www.ncsc.gov.uk/section/products-services/verify-suppliers?scheme=CHECK+Penetration+Testing" target="_blank">National Cyber Security Centre's register<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
 
             <p>Check <a href="https://www.gov.uk/service-manual/technology/vulnerability-and-penetration-testing" target="_blank">GOV.UK guidance on vulnerability and penetration testing<span class="govuk-visually-hidden"> (opens in a new tab)</span></a>.</p>
 
             <h3>Bug bounties</h3>
             
-            <p>A bug bounty is a challenge designed for ethical hackers to try and exploit a system over a period of time. The hackers are paid for each valid vulnerability that they find. They often find vulnerabilities that other approaches miss.</p>
+            <p>You can ask ethical hackers to try and exploit your technology or service over a period of time. The hackers are paid for each valid vulnerability that they find. Bug bounties often find vulnerabilities that other approaches miss.</p>
 
-            <p>A bug bounty is a challenge designed for ethical hackers to try and exploit a system over a period of time. The hackers are paid for each valid vulnerability that they find. They often find vulnerabilities that other approaches miss.</p>
+            <p>Only use bug bounties after you have done other kinds of security testing. You can hold a bug bounty remotely or onsite to test systems that do not use the internet.</p>
 
             <h3>Vulnerability Disclosure Programmes</h3>
 
@@ -125,11 +126,11 @@
 
             <p>A well run VDP helps you identify vulnerabilities and mitigate them before they can be exploited.</p>
 
-            <p>The Ministry of Defence has a Vulnerability Rewards Programme for selected ethical hackers. To find out more, search for ‘xxxxxxx’ on MODNET.</p>
+            <p>The Ministry of Defence has a Vulnerability Rewards Programme for selected ethical hackers. To find out more, search for 'xxxxxxx' on MODNET.</p>
             
             <h3>Red teaming</h3>
 
-            <p>Red teaming involves skilled, ethical hackers breaking into your technology or service however they can. This includes exploiting organisational, physical and human weaknesses, for example phishing.</p>
+            <p>Red teaming involves skilled, ethical hackers breaking into your technology or service however they can. This includes exploiting physical and human weaknesses, for example phishing.</p>
 
             <p>Sometimes, read teaming happens without your team knowing. It tests how you respond to real world attacks.</p>
 
@@ -137,9 +138,9 @@
             
             <h2 id="share-what-you-find">Share what you find</h2>
 
-            <p>Whenever you do security testing, share what you find with people who need to know. For example, what you find helps your design team address weaknesses.</p>
+            <p>Whenever you do security testing, share what you find with your team and your stakeholders. Do this even if you find no vulnerabilities. It gives stakeholders confidence that your technology or service is as secure as it can be.</p>
 
-            <p>Add findings to your project's risk register. Include enough information for the team to decide how to mitigate risks. Make sure you track how vulnerabilities are being managed.</p>
+            <p>Add vulnerabilities that you find to your project's risk register. Include enough information for the team to decide how to mitigate risks. Make sure you track how vulnerabilities are being managed.</p>
             
             <p>If you do not find any vulnerabilities, share this with stakeholders. It gives them confidence that your technology or service is as secure as it can be.</p>
 
@@ -157,11 +158,11 @@
 
             <h3>Cyber Resilience Programme</h3>
 
-            <p>If your project is a priority and considered high risk, you can get support from the Cyber Resilience Programme (CRP). They use external security experts for activities including:</p>
+            <p>If your project is a priority and considered high risk, you can ask for support from the Cyber Resilience Programme (CRP). They use external security experts for activities including:</p>
 
             <ul>
-              <li>bug bounties with rewards for finding vulnerabilities</li>
-              <li>red team events that simulate a real world attacker</li>
+              <li>bug bounties</li>
+              <li>red team events</li>
               <li>Vulnerability Disclosure Programmes (VDPs)</li>
             </ul>
 
@@ -169,15 +170,17 @@
 
             <h3>Cyber Security Advisory and Assurance Service</h3>
 
-            <p>Any project in Defence can use the Cyber Security Advisory and Assurance Service (CySAAS) consultancy service.  For example, you have done your pen testing but you have questions about the real-world impact of a specific issue.</p>
+            <p>Any project in Defence can get advice from the Cyber Security Advisory and Assurance Service (CySAAS) consultancy service.</p>
+            
+            <p>For example, you have done your pen testing but you have questions about the real-world impact of a specific issue.</p>
           
             <p>On MODNET, search for 'CySAAS consultancy'.</p>
 
             <h3>Tell us what guidance you need</h3>
 
-            <p>This is the start of technical guidance for developers in Defence. Tell us what other guidance you need, <a href="#0">get in touch</a>.</p>
+            <p>This is the start of technical guidance for developers in Defence. Tell us what other guidance you need, <a href="https://servicemanual.digital.mod.uk/get-in-touch/">get in touch</a>.</p>
 
-            <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0"> Published June 2024</p>
+            <p class="govuk-body govuk-body--secondary govuk-!-font-size-14 govuk-!-margin-top-8 govuk-!-margin-bottom-0"> Published July 2024</p>
 
           </div>
 
