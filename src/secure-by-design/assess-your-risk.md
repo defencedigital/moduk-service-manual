@@ -18,7 +18,7 @@ Your team is responsible for assessing security risks to your technology or serv
 - map controls against risks
 - put your controls in place
 
-## [Do regular risk assessments](/secure-by-design/do-regular-risk-assessments) {.govuk-heading-m .govuk-!-margin-bottom-1}
+## [Do regular assessments](/secure-by-design/do-regular-assessments) {.govuk-heading-m .govuk-!-margin-bottom-1}
 
 - what you need to cover
 - use the assurance tracker
