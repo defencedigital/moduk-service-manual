@@ -8,9 +8,6 @@ eleventyNavigation:
   key: "Secure by Design"
   url: "/secure-by-design/secure-by-design-phases/"
 ---
-<p class="govuk-body" style="color:green">
-Ready for review. Fact check what we have and describe what is missing.
-</p> 
 
 Your team is responsible for managing cyber security risks in your technology or service. You no longer apply for security accreditation that lasts for a period of time. 
 
