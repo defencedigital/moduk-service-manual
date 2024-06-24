@@ -62,7 +62,7 @@ If you cannot find the guidance you need, tell us what is missing. You can [send
 
 </ul>
 
-<br><br>
+<br>
 
 **Next**
 [Who needs to do this](/secure-by-design/who-needs-to-do-this/)
