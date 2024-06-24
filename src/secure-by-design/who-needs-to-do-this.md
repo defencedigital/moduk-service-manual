@@ -13,7 +13,9 @@ Every technology and service that handles Defence data needs to be secure. This 
 
 ## All new technologies and services
 
-Since July 2023, new technology infrastructure and digital services in Defence need to follow the Secure by Design approach. Examples include: 
+Since July 2023, new technology infrastructure and digital services in Defence need to follow the Secure by Design approach. 
+
+Examples include: 
 
 - networks
 - applications

@@ -6,10 +6,12 @@ description: "Design technology and services that are safe, secure and resilient
 datePublished: 2024-07-23
 eleventyNavigation:
   key: "Secure by Design"
-  url: "/secure-by-design/secure-by-design-phases/"
+  url: "/secure-by-design"
 ---
 
-Your team is responsible for managing cyber security risks in your technology or service. You no longer apply for security accreditation that lasts for a period of time. 
+Your team is responsible for managing cyber security risks in your technology or service. 
+
+You no longer apply for security accreditation that lasts for a period of time. 
 
 ## Assess your security
 
@@ -21,7 +23,7 @@ You must also do a risk assessment when you make changes or discover new threats
 
 When you do your assessments, use the Cyber Activity and Assurance Tracker (CAAT). It helps you follow Secure by Design best practice in Defence. You get a report that you can share with your team and stakeholders.
 
-Find out [more about self-assessments and CAAT](). 
+Check [how to do regular assessments](/secure-by-design/do-regular-assessments). 
 
 ### Independent assessments
 
@@ -42,15 +44,13 @@ Make security part of your existing governance and meetings. For example, add a 
 
 Anyone on your team can report on security but your Senior Responsible Owner (SRO) is accountable. 
 
-Check [who can be an SRO](/secure-by-design-phases/who-needs-to-do-this).
-
 ## Follow the guidance
 
 Check the activities you need to do and the tools you can use. Follow the Secure by Design guidance in each phase: 
  
-- [get the basics right]()
-- [assess your risks]()
-- [manage your risks]()
+- [get the basics right](/secure-by-design/get-the-basics-right)
+- [assess your risk](/secure-by-design/assess-your-risk)
+- [manage your risk](/secure-by-design/manage-your-risk)
 
 If you cannot find the guidance you need, tell us what is missing. You can [send us your feedback](). 
 
