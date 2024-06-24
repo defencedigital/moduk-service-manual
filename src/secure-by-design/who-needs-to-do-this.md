@@ -11,7 +11,7 @@ eleventyNavigation:
 
 Every technology and service that handles Defence data needs to be secure. This includes projects delivered by suppliers.
 
-## All new technologies and services
+## All new technology and services
 
 Since July 2023, new technology infrastructure and digital services in Defence need to follow the Secure by Design approach. 
 
@@ -44,9 +44,7 @@ Secure by Design encourages everyone to identify and manage risk. Make sure your
 - why designing for security from the start is important
 - their role in keeping MOD data secure
 
-You can [sign up to Secure by Design news and events](). 
-
-Share the link with your team and ask them to sign up. 
+The Ministry of Defence runs regular sessions on Secure by Design. Find out [how to keep your team updated](/secure-by-design/get-updates). 
 
 <br>
 

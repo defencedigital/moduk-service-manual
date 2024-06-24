@@ -42,9 +42,9 @@ For your technology or service to be secure, your team needs to:
 
 Check the activities you need to do and the tools you can use. Follow the Secure by Design guidance: 
  
-- [get the basics right]()
-- [assess your risks]()
-- [manage your risks]()
+- [get the basics right](/secure-by-design/get-the-basics-right)
+- [assess your risk](/secure-by-design/assess-your-risk)
+- [manage your risk](/secure-by-design/manage-your-risk)
 
 If you cannot find the guidance you need, tell us what is missing. You can [send us your feedback](). 
 
@@ -53,7 +53,7 @@ If you cannot find the guidance you need, tell us what is missing. You can [send
 <ul class="govuk-list">  
       
   <li><a href="https://defencedigital.blog.gov.uk/2023/05/30/secure-by-design-a-new-way-to-manage-cyber-risk-in-capabilities/" target="_blank">Secure by Design – a new way to manage cyber risk in capabilities<span class="govuk-visually-hidden">(opens in a new tab)</span></a></li> 
-  <li><a href="secure-by-design-phases/how-assurance-works/">How assurance works in Defence</li>   
+  <li><a href="secure-by-design/how-assurance-works/">How assurance works in Defence</li>   
   <li><a href="https://www.security.gov.uk/guidance/secure-by-design/" target="_blank">GOV.UK Secure by Design guidance<span class="govuk-visually-hidden">(opens in a new tab)</span></a></li>
   <!-- <li><a href="https://www.ncsc.gov.uk/collection/cyber-security-design-principles" target="_blank">National Cyber Security Centre secure design principles<span class="govuk-visually-hidden">(opens in a new tab)</span></a></li>   -->
 
