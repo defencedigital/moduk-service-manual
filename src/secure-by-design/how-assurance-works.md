@@ -3,7 +3,7 @@ layout: "layouts/guidance.njk"
 section: "Secure by Design"
 title: "How assurance works"
 description: "Design technology and services that are safe, secure and resilient to cyber attack."
-dateUpdated: 2024-05-23
+datePublished: 2024-07-23
 eleventyNavigation:
   key: "Secure by Design"
   url: "/secure-by-design/secure-by-design-phases/"
