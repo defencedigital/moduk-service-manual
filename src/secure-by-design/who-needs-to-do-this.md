@@ -46,6 +46,7 @@ You can [sign up to Secure by Design news and events]().
 
 Share the link with your team and ask them to sign up. 
 
+<br>
 
 **Next**
-[How assurance works]()
+[How assurance works](/secure-by-design/how-assurance-works/)

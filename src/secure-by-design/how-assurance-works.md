@@ -54,6 +54,7 @@ Check the activities you need to do and the tools you can use. Follow the Secure
 
 If you cannot find the guidance you need, tell us what is missing. You can [send us your feedback](). 
 
+<br>
 
 **Next**
 [Get the basics right](/secure-by-design/get-the-basics-right/)
