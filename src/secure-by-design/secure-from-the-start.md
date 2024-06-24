@@ -8,9 +8,6 @@ eleventyNavigation:
   key: "Secure by Design"
   url: "/secure-by-design/secure-by-design-phases/"
 ---
-<p class="govuk-body" style="color:green">
-Ready for review. Fact check what we have and describe what is missing.
-</p> 
 
 By designing security into projects from the start, you help Defence stay ahead of adversaries and maintain national security.  
 
